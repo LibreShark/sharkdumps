@@ -1,17 +1,17 @@
 # SharkDumps
 
+Collection of all known ROM/firmware/software dumps for retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
+
 ![Dump truck](/assets/icons/dump-truck-512.png)
 
-Collection of all known firmware and software dumps from retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
-
-GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings.
-
-"Pristine" dumps are bit-for-bit identical to the OEM factory firmware image, without any user modifications.
-Non-pristine images may contain different cheat lists than the devices originally shipped with.
+"Pristine" dumps are bit-for-bit identical to the OEM factory firmware images, without any user modifications.
+Non-pristine images may contain different cheat lists and preferences than the devices originally shipped with.
 
 ## N64
 
 ![GameShark v2.x front photo](/assets/photos/gs2x-front-512.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-512.png)
+
+GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings.
 
 | Filename                                | Version       | Build timestamp    | Games | Cheats | Pristine? |
 |:--------------------------------------- |:------------- |:------------------ | -----:| ------:|:--------- |
