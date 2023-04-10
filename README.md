@@ -1,6 +1,8 @@
 # SharkDumps
 
-Collection of all known firmware dumps of retro video game enhancers (GameShark, Action Replay, CodeBreaker, etc.).
+![GameShark v2.x front photo](/assets/photos/gs2x-front-512.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-512.png)
+
+Collection of all known firmware and software dumps from retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
 
 _\* "Pristine" indicates that a dump is bit-for-bit identical to the OEM factory firmware image, without any user modifications._
 
