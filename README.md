@@ -1,5 +1,7 @@
 # SharkDumps
 
+![Dump truck](/assets/icons/dump-truck-512.png)
+
 Collection of all known firmware and software dumps from retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
 
 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings.
