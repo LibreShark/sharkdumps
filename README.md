@@ -2,7 +2,7 @@
 
 Collection of all known ROM/firmware/software dumps for retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
 
-![Dump truck](/assets/icons/dump-truck-512.png)
+![Dump truck](/assets/icons/dump-truck-256.png)
 
 "Pristine" dumps are bit-for-bit identical to the OEM factory firmware images, without any user modifications.
 Non-pristine images may contain different cheat lists and preferences than the devices originally shipped with.
