@@ -1,0 +1,164 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-eve2.zip?                                   23th August 2000 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-eve2.txt         Guide to EvekII (This File)                      :
+:       obs-eve2.nfo         Brief Info                                       :
+:       evekII.exe           EvekII - V64jr Save Manager                      :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   EvekII - V64jr Save Manager.                                              :
+:   ----------------------------                                              :
+:                                                                             :
+:   EvekII is the 2nd public release build of Evek, the best V64jr Save       :
+:   Management Tool. Accept no cheap imitation tool, only use the best.       :
+:                                                                             :
+:   EvekII supports every N64 save type to date! 4Kbit EEPROM, 16Kbit         :
+:   EEPROM, 32KBytes SRAM, 32kbytes Controller Pak, and "Emulated" 1Mbit      :
+:   FLASH!                                                                    :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   How do I use EvekII?                                                      :
+:   --------------------                                                      :
+:                                                                             :
+:   If your using Elim with your V64jr at the moment, then you'll have no     :
+:   trouble with EvekII. EvekII is built on the 'Elim engine' by Refried,     :
+:   so it should work with all the same OS types as Elim does. For more       :
+:   information on this, consult the Elim information files in the            :
+:   obs-elim.zip file available from our website. Also note you can now use   :
+:   the "software" EPP 1.9 Emulation mode with EvekII. If you don't use       :
+:   Elim at the moment, I suggest you upgrade to Elim, and use the best       :
+:   V64jr transfer tool ever.                                                 :
+:                                                                             :
+:   EvekII is best controlled from the command line prompt, however you       :
+:   could setup Window's shortcuts to send and receive saves at the double    :
+:   click of your mouse, provided you know how to use Windows, I'm not here   :
+:   to explain how to do that.                                                :
+:                                                                             :
+:   At the prompt type:                                                       :
+:                                                                             :
+:      evekII <filename> [action] [type] [mode]                               :
+:                                                                             :
+:   There are two different actions.                                          :
+:                                                                             :
+:            -s        = this action will receive a save file from the N64    :
+:                        and write it to the PC.                              :
+:            -l        = this action will send the selected save file from    :
+:                        the PC to the N64.                                   :
+:                                                                             :
+:   There are five different save types.                                      :
+:                                                                             :
+:            -e04       = 4Kbit EEPROM                                        :
+:            -e16       = 16Kbit EEPROM                                       :
+:            -s32       = 32KBytes SRAM                                       :
+:            -f01       = 1Mbit FLASH                                         :
+:            -c32       = 32KBytes Controller Pak                             :
+:                                                                             :
+:   Finally there is one user selectable send mode.                           :
+:                                                                             :
+:            --software = Forces EvekII to send using Software emulation      :
+:                         of the EPP handshaking protocol. This is useful     :
+:                         if it is not possible to use an EPP 1.9 lpt port    :
+:                         or you are having trouble sending and receiving     :
+:                         save files.                                         :
+:                                                                             :
+:      If the mode option is left blank, the the port will be assumed to be   :
+:      EPP 1.9 (just like Elim).                                              :
+:                                                                             :
+:   Example Command Lines:                                                    :
+:                                                                             :
+:      evekII game.sav -l -e16                                                :
+:                                                                             :
+:         The above command will load the 16Kbit EEPROM save named game.sav   :
+:         to the console.                                                     :
+:                                                                             :
+:      evekII game.sav -s -f01                                                :
+:                                                                             :
+:         The above command will save the 1Mbit FLASH save named game.sav     :
+:         from the console. The -f01 command can be used to send and          :
+:         receive 128KBytes of data from SRAM also, if a FLASH chip is not    :
+:         found, SRAM will be used instead. This will work with games that    :
+:         usually use FLASH, but have been modified to save to to SRAM        :
+:         instead.                                                            :
+:                                                                             :
+:      evekII game.sav -l -c32                                                :
+:                                                                             :
+:         The above command will load the 32KBytes Controller Pak save        :
+:         named game.sav to the console's Controller Pak in controller One.   :
+:                                                                             :
+:   Everything else is straight forward, just make sure you read the prompts  :
+:   that evekII.exe gives, and read what the display on your tv says also.    :
+:                                                                             :
+:   4Kbit EEPROM from the Z64 are compatible with the V64jr and EvekII,       :
+:   using the -l e04 function. Also 64Kbyte SRAM (even though they are        :
+:   really only 32KBytes) saves from the Z64 are compatible, using -l s32.    :
+:   DexDrive controller pak saves are also compatible with EvekII. To use     :
+:   them just call the -l c32 function.                                       :
+:                                                                             :
+:   Also, you must of course have the actual hardware to store the save.      :
+:                                                                             :
+:   Example bootcarts:                                                        :
+:                                                                             :
+:      For 4Kbit EEPROM use Mario 64, or similar, or a DX256.                 :
+:      For 16Kbit EEPROM use Star Wars: Episode One. Pod Racer, or similar.   :
+:      For 32KBytes SRAM use WCW Revenge, or similar, or a DS1.               :
+:      For 1Mbit FLASH use Command & Conquer or similar.                      :
+:                                                                             :
+:   Once the save has been sent or received, EvekII will wait for a ROM to    :
+:   be sent to the N64. Once the ROM has been sent, EvekII will reset your    :
+:   N64 so you can begin playing. To use EvekII you should have a             :
+:   CIC-NUS-6102 bootcart for NTSC N64's or a CIC-NUS-7101 for PAL N64's.     :
+:   If the ROM sent while EvekII is waiting to restart is CIC-NUS-6102,       :
+:   CIC-NUS-6101, CIC-NUS-6103, CIC-NUS-6106, CIC-NUS-7101, CIC-NUS-7103,     :
+:   or CIC-NUS-7106, EvekII will boot the rom for you! EvekII will also       :
+:   by-passes region protection, so you no longer have to fix roms that have  :
+:   region lockouts, EvekII will take care of it for you. There is no need    :
+:   for additional cracks or boot-emulators with the specifed CIC chips!      :
+:                                                                             :
+:   If someone would like to create a website where backup users could post   :
+:   saves, I think it would be a worthy addition to the scene. I would do it  :
+:   myself, but I dont have the time. This is the second time I've suggested  :
+:   such a site, how about someone actually puts some effort into the scene   :
+:   - help keep the N64 alive! Just because there is a lack of releases,      :
+:   doesn't mean the scene has to die, if people contribute, then the scene   :
+:   will continue!                                                            :
+:                                                                             :
+:   Note: Loading FLASH saves to FLASH carts is currently unsupported. This   :
+:         feature has been removed for reasons of compatibility. It will be   :
+:         delayed until these issues can be addressed. However the -l -f01    :
+:         command will load 1Mbit FLASH the save into SRAM (DS1 Required).    :
+:         This will work with games which have been modified to save to SRAM  :
+:         instead of FLASH. Expect this feature to be fully working in an     :
+:         updated release of EvekII. Saving FLASH saves from the console      :
+:         will still work. Any other suggestions are welcome.                 :
+:                                                                             :
+:   Look out for more Obsidian projects in the future...                      :
+:                                                                             :
+:   All bug reports to wt_riker@startrekmail.com Perhaps this time there      :
+:   might be some feedback?                                                   :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

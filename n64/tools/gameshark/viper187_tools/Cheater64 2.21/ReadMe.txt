@@ -1,0 +1,92 @@
+Cheater64 Readme
+
+WARNING: 
+
+There is a known problem in Windows XP with folder attributes. If 
+you've searched a time or two, you'll notice that Cheater 64 has 
+created a "searches" folder wherever the EXE is. If you experience 
+an "Access Denied" type error when trying to start a new search, 
+this is most likely because M$ sucks!! You'll have to open the 
+command prompt, and issue the following two commands. This should 
+fix it.
+
+attrib +S C:\YourCheater64Folder\searches /S /D
+attrib -R C:\YourCheater64Folder\searches /S /D
+
+
+v2.1 - 3/18/03
+
+*More shit fixed, and probably more shit broken in the process.
+
+*GUI should actually fit on an 800x600 resolution screen now.
+
+*Flag Search - Search for values that are different by a specified 
+number of bits.
+
+*Greater/Less/Different By searches. Started as a little idea and 
+ended up a project in itself, since I thought of 3 ways to do each. 
+Not all of these support 32bit searching.
+
+
+v2.1 - 3/15/03
+
+*Improved the search routine's speed a little more by only grabbing 
+values that need compared instead of all of them. It used to read in 
+the entire RAM dump and do comparisons as needed. Now it checks the 
+results to see if it needs to read each address.
+
+*Added Undo and Load features. You'll be able to undo search if you 
+choose to save an undo buffer. When you start the program, it will 
+also check for old searches and result files. If they exist, you're 
+given the option to load them.
+
+*fixed a couple funny little bugs.
+
+
+v2.0 - 3/14/03
+
+This version is entirely rewritten in order to speed things up. The 
+searches are pretty well tolerable now, as far as speed. As usual, 8bit 
+comparisons will probably be slowest. Big thanx to Para for teaching me 
+all this shit, writing some functions, etc.
+
+New Features:
+
+*Searches can now be done with Decimal, Hex, and Floats! Para wrote this 
+neat DLL to convert to and from FPS. Now everyone go find Pi and mess 
+with it like Phantom did on Goldeneye & PD. :-D
+
+*Ignore Pointers - This option basicly ignores everything that appears to 
+be part of a pointer (value 80000000 - 807FFFFF). Yes, even on 8bit and 
+16bit searches.
+
+*Comparing To - This allows you to compare to old values form the current 
+search. If you choose not to save searches, you have access to the 
+previous value, which can still be helpful.
+
+*Not In Range Searches
+
+*'Greater Or Equal' To and 'Less Than Or Equal To' searches
+
+*Choose the number of results to display - The more you display, the longer 
+it'll take to come up, but I thought I leave some option as to how many are 
+shown.
+
+*When exporting search results in GS code format, 32bit values will be 
+seperated into 2 16bit codes for easy use. :) 
+
+*Probably some new bugs ;-)
+
+
+v1.2 - 8/25/03
+
+Hopefully got the Initial Search unfucked. I also added an option 
+that I think will prove useful. The "On/Off/Have/Don't Have/etc" 
+aka Flip Flop search, is intended for finding those annoying little 
+things that you know are always the same 2 values (like on/off 
+switches). The way it works is you do your typical Initial dump, 
+then Different To. Now you have your 2 values. 1-the initial (off) 
+value, 2-the 2nd (On) value. And you just keep switching on/of and 
+searching, as opposed to using Greater/Less shit and hopefully drop 
+the possibilities quicker. NOTE: Only advanced users should attempt
+mixing this search with other search options.

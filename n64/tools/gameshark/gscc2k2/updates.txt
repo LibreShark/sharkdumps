@@ -1,0 +1,31 @@
+Game Software Code Creator
+written by Code Master of GSCCC - http://www.cmgsccc.com/
+
+Current Build Version:		1.10.101
+Released On: 			October 15, 2001
+
+1.10.101
+ - New icon.
+ - Enter in Hex Calculator is same as '=' button.
+ - N64 BP's 100% functioning again.
+ - Fixed a windows position saving bug when closing GSCC with MDI
+   windows open.
+ - Hex Calculator saves its open state when opening and closing it.
+   So if you open it, and then exit GSCC, and then reopen GSCC, the
+   Hex Calculator will automatically open back up.
+ - Added all hot keys for Hex Calculator buttons.
+ - Added Hex Calculator.
+ - Added new edit box controls for Dump Window + View Possisibilities.
+1.10.011 *BETA*
+ - No more GSCC2000.INI Configuration.
+ - TotalIO Detection added to Config option.
+ - Added Debug, TotalIO, Start/Stop for Manual TotalIO Detection.
+1.10.010 *BETA*
+ - Added Ram Editor button to set N64 Break Points (Read+Write).
+ - Added feature to put Console into PC Control Mode after
+   N64 BP occurs, or auto resume the game like normal.
+ - Added to the Debug menu, PC Control Mode.
+ - Added to the Debug menu, Halt.
+ - Added Shift+F9 to do the same as PC Control Mode.
+ - Dump To File & Upload File To Memory now save the addresses
+   that you specify everytime you use them.

@@ -1,0 +1,173 @@
+
+  >> PALadin V3.1 <<
+
+
+  History
+  ----------------------------------
+
+  V1.0 08.12.1998   First release
+
+  V2.0 10.12.1998   Added country-check-fix [/f]
+
+                    Autodetect rom-type (NTSC or PAL)
+                      (If code is 'P' or 'D' i assume it's PAL
+                       otherwise NTSC - dunno if those two are
+                       all PAL-codes - msg me if you know more)
+
+                    [/r] added: Change videotable to
+                      opposite rom-type
+
+                    No default-action anymore:
+                      If no action then works as checksum-calculator
+
+  V2.1 22.08.1999   Country-code 'X' is now treated as PAL (dunno if right)
+
+                    /f in combination with /p, /f or /m will do to the
+                      corresponding country-check-fix
+                      (/p = force to NTSC = PAL-Fix)
+
+  V2.2 02.09.1999   Better country-check-fixing-routine
+                      "should" now work with every rom :)
+
+  V3.0 09.10.1999   Rewritten most of the code
+                      Backup is written before file-processing occurs
+                      That makes it slower than older versions but also more
+                        safe (fixes bug when using PALadin without any options)
+
+                    Assuming rom is NTSC if country-code is not 'E' or 'J'
+                    
+                    /c trys to crack the 1080-bootcode-protection
+                      pretty useless from now on, because there surely won't
+                        be any further "only-1080-bootcode-protection"-roms
+                      But at last it works with some:
+                          1080 PAL (starts but can't race)
+                          DKR	(sound garbled)
+                          Ken Griffey Jr.'s Slugfest
+                          Pokemon Snap PAL
+                          Pokemon Snap JAP
+                          Pokemon Stadium 2
+                          Smash Brothers JAP
+                      This provides of course no save-fixes and is only
+                        implemented for my work and curiosity!
+                      Don't ask to improve it!!!
+                      I got my infos from Titaniks cracks and ah yeah...
+                        ...BADFACE-Stuff indeed helped a bit :)
+                      Titanik: Still waiting for you're announced docus ;)
+
+                    /iXX
+                      Nice idea from Redbox
+                      If a rom is filled till the end with important data, 
+                        PALadin can't append his fixing-code.
+                      I've build in a simple recognizing for used space and
+                        provide a msg about the problem and you can then
+                        increase the rom-size (XX = # MBits)
+                      Shouldn't be needed very often 
+                        (till now only MO World League Soccer)
+
+                    /a+ and /a-
+                      Another idea from Redbox
+                      Force (no-)anti-alias-modes
+                      But this only changes 2D-stuff - no 3D!
+                      I don't see any differences on my TV but maybe it's me ;)
+
+                    /z 
+                      writes the screen-output (and some debug-info) to a file
+                        named <romname.txt>
+
+                    Checksum-Calculation only occurs with standard-bootcode
+                        
+  V3.1 12.10.1999   /xa
+                      Generate APS-File (romname.aps)
+                      Also deactivates direct patching on rom and
+                       backup-creation
+
+
+  Meanwhile bigger manual
+  ----------------------------------
+
+
+
+  [ What is this ? ]
+
+    This proggy simply converts the videotables (used by
+    most of all yet released roms) between NTSC/PAL/MPAL.
+
+    It also fixes the country-protection some games have.
+     ("This game is not designed for this video-system")
+
+    Additionally it recalculates the rom-checksum and does
+    some other things...
+
+
+
+  [ Usage ]
+
+    Type PALadin without any parameters to get the option-list :)
+
+    Example: "PALadin /r fxzero.usa" will convert fxzero.usa
+             to PAL and saves the original rom in fxzero.bak
+
+    or:      "PALadin /n /b /f fxzero.pal" will convert fxzero.pal
+             to NTSC, doesn't create backup and fixes country-check
+
+    or:      "PALadin /f fxzero.pal" will fix only the country-check
+
+    or:      "PALadin fxzero.pal" will only rebuild the checksum
+
+
+
+  [ What do I need this for ? ]
+
+    This tool changes the DISPLAY from 60Hz ntsc to 50Hz pal
+    and vice versa.
+
+    You won't need to do this if your television is capable of
+    displaying PAL-60Hz-signals.
+
+    If you have a Pal-N64 and can't play a NTSC-rom, the reason could
+    probably be a country-code-protection.
+    PALadin fixes this, too.
+
+    You don't have to convert videotables to fix country-protection;
+    Those are only for display-problems.
+
+
+
+  [ Some technical stuff ]
+
+    Usually the sound of a PAL'ed NTSC-rom is garbled - that's because
+    the soundroutine is optimized for 60Hz and creates soundbuffers
+    which are to small for 50Hz. This produces the anoying "clicks".
+
+    It's not possible to make a generic-fixing-routine for that. :(
+    There are to many different sound-routines on the market.
+    (Of course all know routines could be build in...but that wouldn't
+     be a generic fix! - I also got to many false fixes when I tried it)
+
+    It's also _NOT_ a matter of sound-tables or something like that.
+    Changing the Videotable doesn't change the sound!! The changed
+    video-mode just isn't compatible with the used sound-settings
+    
+    Hope this stops the whining about PALadin being unable to fix sound
+    and the requests for it in future versions :P
+
+    There are Video-Fixes available which handle this problem.
+
+
+
+  [ What do I have to expect next ? ]
+
+    How should _I_ know?
+
+
+
+  [ Contact ]
+    
+    Hotblack@dextrose.com
+
+    The Capital 'H' is important!
+    hotblack@dextrose.com won't work.
+
+
+. . . . .
+  Hotblack

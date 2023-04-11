@@ -1,0 +1,440 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+body
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	font: 10pt normal verdana, geneva, lucida, arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+a:link
+{
+	color: #CC6600;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #CC6600;
+	text-decoration: none;
+}
+a:hover, a:active
+{
+	color: #CC6600;
+	text-decoration: underline;
+}
+table
+{
+	background-color: #000000;
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse;
+	padding: 0px;
+	width: 75%;
+}
+th
+{
+	background: #869BBF url(images/chrome1.gif);
+	color: #000000;
+	font-size: 12pt;
+	border: 1px solid #FFFFFF;
+	padding: 2px;
+	text-align: center;
+}
+td
+{
+	color: #FFFFFF;
+	font: 10pt normal verdana, geneva, lucida, arial, helvetica, sans-serif;
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+	text-align: left;
+}
+table.site_main
+{
+	background-color: #000000;
+	border: none;
+	border-collapse: collapse;
+	padding: 4px;
+	width: 100%;
+}
+div.code
+{
+	font-family: terminal, courier, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	white-space: nowrap;
+}
+td.code
+{
+	font-size: 12pt;
+	font-family: courier, terminal, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	white-space: nowrap;
+}
+
+sup.tm { font-size: 0.5em; }
+-->
+</style>
+<title>RenegadeEx - The Psycho's New Hacking Tool (ReadMe)</title>
+</head>
+<body>
+<table class="site_main"><tr style="border:none"><td align="center" style="border:none; text-align: center">
+<table><tr><th>RenegadeEx - The Psycho's New Hacking Tool</th></tr>
+<tr><td style="text-align: center">
+<a href="#disclaim">Disclaimer</a><br />
+<a href="#history">Version History</a><br />
+<a href="#features">Features</a><br />
+<a href="#mupen">Mupen - RenegadeEx Edition</a><br />
+<a href="#hook">Hooking to an Emulator/PC Game</a><br />
+<a href="#codesearcher">Code Search</a><br />
+<a href="#memedit">Memory Editor</a><br />
+<a href="#emucheat">Cheat/Trainer</a><br />
+<a href="#credits">Credits/Contact</a>
+</td></tr></table>
+<br /><br />
+<table><tr><th id="disclaim">Disclaimer</th></tr>
+<tr><td>The author is NOT responsible for any damage caused to you computer by this program,
+the usage of it, etc. or any damge caused to your brain while trying to understand it. This program in no way encourages piracy and the utilities in the program are
+intended only for those who have themselves legitimately created archival copies of their own games.
+<br /><br />&#60;/Obligatory Legal Bullshit&#62;
+</td></tr>
+</table><br /><br />
+<table><tr><th id="history" colspan="2">Version History</th></tr>
+<tr><th>Version 1.08</th><th>7/26/09</th></tr>
+<tr><td colspan="2">
+Hopefully, fixed the No$GBA hooking in a more accurate way. The previous build was working good an any rom over 10 megs, but broke on small ones.
+</td></tr>
+
+<tr><th>Version 1.07</th><th>7/20/09</th></tr>
+<tr><td colspan="2">
+I fixed an issue with In Range searches and got standard makefiles seemingly working. I haven't bothered to strip the Dev-C++ files yet. This version is an in between step before I start totally fucking with things, if I can be bothered to.
+</td></tr>
+
+<tr><th>Version 1.06</th><th>6/09/09</th></tr>
+<tr><td colspan="2">
+Well, the search issue with No$GBA could potentially be solved here. The method I was using to find the NDS RAM within No$GBA was looking for the header, which also appears at the start of the ROM. It looks like it was finding the ROM for some people instead of the RAM. I *think* I found a way around that.
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>Hopefully fixed No$GBA searching/support.</li>
+</ul>
+</td></tr>
+
+<tr><th>Version 1.05</th><th>4/20/09</th></tr>
+<tr><td colspan="2">
+Still haven't figured out that issue some people are having with the 2nd search yielding 0 results. It's possible there's a memory protection issue. I need to look into the DumpRAM function and try some extra error checks when I have time. I'm also curious if anyone who's had this issue tried finding their own starting point for the particular emulator using tsearch or the like.
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>Fixed some interface issues in the Mupen version. Seems dropping the Hook tab the way I did was causing some problems. It's now disabled without changing tab order.</li>
+ <li>Added the 'I Forgot' search option. I always wondered what that was for in GSCC2k. Thanks LazyBastard.</li>
+</ul>
+</td></tr>
+
+<tr><th>Version 1.04</th><th>3/27/09</th></tr>
+<tr><td colspan="2">
+The search results issue is still there. Only seems to appear with no$gba. I'm at a loss on that one. Current rex.cfg (v1.03) should be ok with this one. The default PCSX2 0.9.6 address was fixed, but it's probably dodgy and likely OS specific (4DB1000, static). I still encourage deleting the CFG every version though. This is why I made code DBs save separately.
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>Fixed a bug with the code handler in the Mupen version. I think I got it right this time.</li>
+ <li>Fixed preset list scrolling (or lack there of).</li>
+ <li>Fixed a minor issue with saving/loading Cheat DBs. I've been wondering why it would ask me to save the DB when I open Renegade sometimes. I found the bitch now.</li>
+</ul>
+</td></tr>
+
+<tr><th>Version 1.03</th><th>3/11/09</th></tr>
+<tr><td colspan="2">
+I think I solved the issue with the code hanlder in the Mupen integrated version. There's still an odd bug with the search results sometimes that I haven't gotten a handle on.
+<br/><br/>
+NOTE: Delete your old rex.cfg before using this version.
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>Fixed a bug with the code handler in the Mupen version.</li>
+ <li>Added PCSX 0.9.6 to the presets. Keep in mind the address may only be good on the specific version of windows I'm running (XP 64-bit SP2). I was unable to find a pointer.</li>
+ <li>Fixed that little issue with the edit box in the memory editor. It was running out of space before all 8 characters could be entered if using caps.</li>
+</ul>
+</td></tr>
+
+<tr><th>Version 1.02</th><th>2/6/09</th></tr>
+<tr><td colspan="2">
+I think the code handler is sort of fucked. I tried about 4 codes with the Mupen integrated version and only saw effect from 1. Feels like it's not writing fast enough, even though it should be.
+<br/><br/>
+NOTE: Delete your old rex.cfg before using this version.
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>Added an option to the search results to make the memory editor jump to each result clicked.</li>
+ <li>Fixed a bug in the memory editor. Goto was getting fucked up when byteswapping was on. I guess it helps to check which column is being edited before swapping bytes.</li>
+ <li>Improved the NDS support a bit. It will now attempt to find the RAM portion of No$GBA if the pointer is no good. This is actually a lot quicker than I expected. The downside is it leaves the potential for offset issues between hardware and emulator addresses. Ever try to hack Mario 64 DS with HasteDS? It's 0x4000 off because HasteDS starts at the game's entrypoint in ram, which isn't always 02000000. The Entry Offset box will subtract an offset from the start address if needed. The easiest way to tell if a game is off is look up an address you already know in the memory editor.</li>
+</ul>
+</td></tr>
+
+<tr><th>Version 1.01</th><th>1/19/09</th></tr>
+<tr><td colspan="2">
+I meant to work on this sooner, but I guess it wouldn't have made much difference. The assholes that work on PCSX2 haven't updated the damn Dev-C++ project file since 2007, so it won't compile that way anymore. So much for adding Renegade to it. :(
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>Fixed that nasty little bug in the search results. If you used Page Down to the end of the list then clicked one, it would crash.</li>
+ <li>Added 16-bit Upper/Lower exclusions to the advanced search options.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.0</th><th>10/25/08</th></tr>
+<tr><td colspan="2">
+Source now included.
+<br/><br/>
+Changes:<br/>
+<ul>
+ <li>First Mupen verson</li>
+ <li>That little issue with the searches folder should be resolved. It will attempt to create its own now.</li>
+</ul>
+</td></tr>
+<tr><th>Version 0.99 Public Beta</th><th>10/23/08</th></tr>
+<tr><td colspan="2">
+This is more of an in-between step. I want it out there for testing while I attempt something else cool. v1.0 will probably be a GPL release with full source.
+<br/><br/>
+Changes:<br/>
+Uh, EVERYTHING!
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="features">Features</th></tr>
+<tr><td>This is a complete rewrite of Renegade all done with C/Win32 API. Most of the important stuff from the old Renegade has made a return. You may notice a few additions/changes, as well as a somewhat better GUI.<br /><br />
+Current Features:
+<ul>
+<li>Code Search</li>
+<li>Emulator Trainer</li>
+<li>Memory Editor</li>
+<li>Probably the only Readme you'll ever see that's valid XHTML 1.1. ;-)</li>
+</ul>
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="mupen">Mupen - RenegadeEx Edition</th></tr>
+<tr><td>
+Same stuff as RenegadeEx, but it's built into the Mupen 0.5 source (Utilities menu). At the very least, this should allow codes that modify the ASM to actually work. Other emulators, whether with Renegade or builtin cheat ability, lack the ability to automatically reset the dynamic recompiler shit that they use. If you're running anything with a pure intepretor core, this shouldn't be an issue anyway. In any case, codes should work better than other emulators in most cases.
+</td></tr>
+</table><br /><br />
+<table><tr><th id="hook">Hooking to an Emulator/PC Game</th></tr>
+<tr><td>
+This new Renegade features a more detailed editor for attaching to processes. It's not meant for total n00bs, but people with a reasonable understanding of hacking and offsets shouldn't be overly confused by it.
+</td></tr>
+ <tr><th>Attaching to a PC Game</th></tr>
+ <tr><td>This isn't complicated at all. Choose the process from the list of the left or launch+hook. Whatever your pleasure. When hooking a game, be sure to tick the box for 'Full Process.'</td></tr>
+ <tr><th>Attaching to an Emulator</th></tr>
+ <tr><td>Now this is where it gets interesting. Most of the options are pretty self-explanatory. The hard part is finding start offsets/pointers. What you need to find out about your emulator before you can hack console codes is where exactly the console RAM is located within the emulator's RAM. Start by loading a game in the emulator that we already have codes for and setting up a plain old PC game hook; you can also use other PC hacking tools if desired. Now hack a code you already know the console address for. I'll use Goldeneye running on PJ64 1.6 as an example. I hacked ammo for my right gun on the Dam level. Came up with 3B1737FC. The console address is D37FC. Can you subtract? Good. The N64 RAM begins at 3B0A0000. Are we done? Well, some emulators always load console RAM to the same place, some don't. Open the emulator again with a different game loaded and do the same thing again. If you come up with the same starting address (3B0A0000 in our case), you're set; that's your "RAM Start." Otherwise, we need to go a step farther and look for a pointer to the start address. This is really simple, believe it or not. Find your start address again. Once again, we'll say we figured it out to be 3B0A0000 for the start of console RAM. Now, do a 32-bit search for that value. Yes, SEARCH FOR '3B0A0000' NOOBS. You'll probably see 20 or so results. A lot of times, the first one is all you need. Record them all to a text file though. First one on my list is 4D6A1C. To check this, load up the emulators again and find a start address AGAIN. If this address is once again found at that location (4D6A1C) then the pointer should be good. Now hack something.</td></tr>
+</table><br /><br />
+
+
+<table><tr><th id="codesearch">Code Searcher Info</th></tr>
+<tr><td>This has most of the same options as the original Renegade. You'll notice options to change the type of input for value searches. You'll also notice a progress bar. You should be aware that hacknig PC games is slowest because there's a lot to dump and compare. After the first search or two, it should speed up though. Searches will also tend to be slightly slower when applying certain extra filtering options from the extended options list. P.S. Before you ask "Where can I set the area? I only want 80100000-80200000" or some shit, check out the extended option "Include only results wthin a specified address range." Can you guess what that's for?
+</td></tr>
+ <tr><th>Results Tab</th></tr>
+ <tr><td>Clicking any result will copy the address and the value from the column you click on to the input boxes for activating. Doubleclicking will add it straight to the active list with that value.</td></tr>
+</table><br /><br />
+
+<table><tr><th id="memedit">Memory Editor Info</th></tr>
+<tr><td>The memory editor bares some resemblance to Nemu's this time around. Doubleclicking will allow you to edit any column but the text. Editing the Address column is equivilent to Go To; it'll jump to the address entered.
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="emucheat" colspan="2">Cheat/Trainer Info</th></tr>
+<tr><td colspan="2">The code handler supports most cheat device code types from various systems, as well as a few extras. and yes, I was lazy about the GBA/NDS code types. I don't like those systems. Bite me.<br /><br />
+Notes:
+<ul>
+ <li>Select the system BEFORE adding codes.</li>
+ <li>The cheat device button is based on windows virtual key values. Default is the + key. Look them up.</li>
+ <li>Doubleclick New Code to set a new name and begin entering codes. Names can be edited again later by doublicking them.</li>
+ <li>DELETE key will remove the selected code.</li>
+</ul>
+</td></tr>
+ <tr><th colspan="2">N64 Code Types</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXX. The 'A0' prefix does the same thing here. '88' for Cheat Device Button.</td></tr>
+ <tr><td class="code">80XXXXXX 00YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXX. The 'A1' prefix does the same thing here. '89' for Cheat Device Button.</td></tr>
+ <tr><td class="code">81XXXXXX YYYY</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXX. '8A' for Cheat Device Button.</td></tr>
+ <tr><td class="code">82XXXXXX YYYYYYYY</td></tr>
+ <tr><td>8-Bit Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is equal to YY. </td></tr>
+ <tr><td class="code">D0XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D1XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Not Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is NOT equal to YY. </td></tr>
+ <tr><td class="code">D2XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D3XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Less Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is less than YY. </td></tr>
+ <tr><td class="code">E0XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">E1XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Greater Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is greater than YY. </td></tr>
+ <tr><td class="code">E2XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">E3XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>Patch/Repeater</td><td rowspan="2">Patch codes, aka Serial Repeaters, are used to make a code string shorter. EG, You have five codes put together to give you "all weapons." Use the patch to shorten it to two codes. XX is the number of addresses to write; YY is the amount (offset) to add to each address; ZZ is the amount to add to each value. '58' for Cheat Device Button (Renegade Only).</td></tr>
+ <tr><td class="code">5000XXYY 00ZZ<br />TTTTTTTT VVVV</td></tr>
+ <tr><td>Copy Bytes</td><td rowspan="2">Copies YYYY bytes from location XXXXXX to location ZZZZZZ. 'C8' for Cheat Device Button.<br /><br />Example use would be:<br />C2040450 0008<br />80040680 0000<br />That would copy 8 bytes from 40450 to 40680</td></tr>
+ <tr><td class="code">C2XXXXXX YYYY<br />80ZZZZZZ 0000 </td></tr>
+ <tr><td>8-Bit Pointer Write</td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXX + offset (YYYY). '78' for Cheat Device Button.</td></tr>
+ <tr><td class="code">70XXXXXX YYYY00ZZ</td></tr>
+ <tr><td>16-Bit Pointer Write</td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXX + offset (YYYY). '79' for Cheat Device Button.</td></tr>
+ <tr><td class="code">71XXXXXX YYYYZZZZ</td></tr>
+ <tr><td>Z-Bit Increment</td><td rowspan="2">Adds YY to the value at adddress XXXXXX. Z = 0-2 for 8, 16, and 32 bit in that order. 'Z8' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z0XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Decrement</td><td rowspan="2">Subtracts YY to the value at adddress XXXXXX. Z = 0-2 for 8, 16, and 32 bit in that order. 'Z9' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z1XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise AND</td><td rowspan="2">Value at adddress XXXXXX is changed to value AND YY. Z = 0-2 for 8, 16, and 32 bit in that order. 'ZA' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z2XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise OR</td><td rowspan="2">Value at adddress XXXXXX is changed to value OR YY. Z = 0-2 for 8, 16, and 32 bit in that order. 'ZB' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z3XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise XOR</td><td rowspan="2">Value at adddress XXXXXX is changed to value XOR YY. Z = 0-2 for 8, 16, and 32 bit in that order. 'ZC' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z4XXXXXX 00YY</td></tr>
+ <tr><td>32-Bit Slide Write</td><td rowspan="2">Writes YY 32-bit values starting at address XXXXXX. '68' for Cheat Device button.<br /><br />Example: <br />
+  <div class="code">6000C0F4 00000002<br />08018090 AFA40000<br />60060240 00000007<br />00047600 3C028008<br />8C429EE0 34013F80<br />A44100DC A44100E0<br />0800303F 00000000</div>
+  <br />This the same as:<br />
+  <div class="code">8100C0F4 0801<br />8100C0F6 8090<br />8100C0F8 AFA4<br />8100C0FA 0000<br />81060240 0004<br />81060242 7600<br />81060244 3C02<br />81060246 8008<br />81060248 8C42<br />8106024A 9EE0<br />8106024C 3401<br />8106024E 3F80<br />81060250 A441<br />81060252 00E0<br />81060254 0800<br />81060256 303F </div>
+ </td></tr>
+ <tr><td class="code">60XXXXXX 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">PSX Code Types</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXX. '38' for Cheat Device Button.</td></tr>
+ <tr><td class="code">30XXXXXX 00YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXX. The 'A1' prefix does the same thing here. '89' for Cheat Device Button.</td></tr>
+ <tr><td class="code">80XXXXXX YYYY</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXX. '8A' for Cheat Device Button.</td></tr>
+ <tr><td class="code">82XXXXXX YYYYYYYY</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is equal to YYYY. </td></tr>
+ <tr><td class="code">D0XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is NOT equal to YYYY.</td></tr>
+ <tr><td class="code">D1XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is less than YYYY.</td></tr>
+ <tr><td class="code">D2XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is greater than YYYY.</td></tr>
+ <tr><td class="code">D3XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is equal to YY. </td></tr>
+ <tr><td class="code">E0XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Not Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is NOT equal to YY. </td></tr>
+ <tr><td class="code">E1XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Less Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is less than YY. </td></tr>
+ <tr><td class="code">E2XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Greater Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is greater than YY. </td></tr>
+ <tr><td class="code">E3XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>Patch/Repeater</td><td rowspan="2">Patch codes, aka Serial Repeaters, are used to make a code string shorter. EG, You have five codes put together to give you "all weapons." Use the patch to shorten it to two codes. XX is the number of addresses to write; YY is the amount (offset) to add to each address; ZZ is the amount to add to each value. '58' for Cheat Device Button (Renegade Only).</td></tr>
+ <tr><td class="code">5000XXYY 00ZZ<br />TTTTTTTT VVVV</td></tr>
+ <tr><td>Copy Bytes</td><td rowspan="2">Copies YYYY bytes from location XXXXXX to location ZZZZZZ. 'C8' for Cheat Device Button.<br /><br />Example use would be:<br />C2040450 0008<br />80040680 0000<br />That would copy 8 bytes from 40450 to 40680</td></tr>
+ <tr><td class="code">C2XXXXXX YYYY<br />80ZZZZZZ 0000 </td></tr>
+ <tr><td>8-Bit Pointer Write</td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXX + offset (YYYY). '78' for Cheat Device Button.</td></tr>
+ <tr><td class="code">70XXXXXX YYYY00ZZ</td></tr>
+ <tr><td>16-Bit Pointer Write</td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXX + offset (YYYY). '79' for Cheat Device Button.</td></tr>
+ <tr><td class="code">71XXXXXX YYYYZZZZ</td></tr>
+ <tr><td>Z-Bit Increment</td><td rowspan="2">Adds YY to the value at adddress XXXXXX. Z = 0-2 for 8, 16, and 32 bit in that order. 'Z8' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z0XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Decrement</td><td rowspan="2">Subtracts YY to the value at adddress XXXXXX. Z = 0-2 for 8, 16, and 32 bit in that order. 'Z9' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z1XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise AND</td><td rowspan="2">Value at adddress XXXXXX is changed to value AND YY. Z = 0-2 for 8, 16, and 32 bit in that order. 'ZA' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z2XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise OR</td><td rowspan="2">Value at adddress XXXXXX is changed to value OR YY. Z = 0-2 for 8, 16, and 32 bit in that order. 'ZB' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z3XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise XOR</td><td rowspan="2">Value at adddress XXXXXX is changed to value XOR YY. Z = 0-2 for 8, 16, and 32 bit in that order. 'ZC' for Cheat Device button.</td></tr>
+ <tr><td class="code">Z4XXXXXX 00YY</td></tr>
+ <tr><td>32-Bit Slide Write</td><td rowspan="2">Writes YY 32-bit values starting at address XXXXXX. '68' for Cheat Device button.<br /><br />Example: <br />
+  <div class="code">6000C0F4 00000002<br />08018090 AFA40000<br />60060240 00000007<br />00047600 3C028008<br />8C429EE0 34013F80<br />A44100DC A44100E0<br />0800303F 00000000</div>
+  <br />This the same as:<br />
+  <div class="code">8100C0F4 0801<br />8100C0F6 8090<br />8100C0F8 AFA4<br />8100C0FA 0000<br />81060240 0004<br />81060242 7600<br />81060244 3C02<br />81060246 8008<br />81060248 8C42<br />8106024A 9EE0<br />8106024C 3401<br />8106024E 3F80<br />81060250 A441<br />81060252 00E0<br />81060254 0800<br />81060256 303F </div>
+ </td></tr>
+ <tr><td class="code">60XXXXXX 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">PS2 &amp; PC Code Types</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXXX. PC Addresses can be 7 or 8 digits. i.e. 0XXXXXXXX 000000YY</td></tr>
+ <tr><td class="code">0XXXXXXX 000000YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">1XXXXXXX 0000YYYY</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">2XXXXXXX YYYYYYYY</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2"></td></tr>
+ <tr><td class="code">DXXXXXXX 0000YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator</td><td rowspan="2"></td></tr>
+ <tr><td class="code">DXXXXXXX 0010YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator</td><td rowspan="2"></td></tr>
+ <tr><td class="code">DXXXXXXX 0020YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator</td><td rowspan="2"></td></tr>
+ <tr><td class="code">DXXXXXXX 0030YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Equal To Activator (Multiple Skip)</td><td rowspan="2">If value at XXXXXXXX equals YYYY, execute the following ZZZ lines.</td></tr>
+ <tr><td class="code">EZZZYYYY XXXXXXX<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator (Multiple Skip)</td><td rowspan="2">If value at XXXXXXXX is NOT equal to YYYY, execute the following ZZZ lines.</td></tr>
+ <tr><td class="code">EZZZYYYY XXXXXXX<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator (Multiple Skip)</td><td rowspan="2">If value at XXXXXXXX is less than YYYY, execute the following ZZZ lines.</td></tr>
+ <tr><td class="code">EZZZYYYY XXXXXXX<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator (Multiple Skip)</td><td rowspan="2">If value at XXXXXXXX is greater than YYYY, execute the following ZZZ lines.</td></tr>
+ <tr><td class="code">EZZZYYYY XXXXXXX<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>Patch/Repeater</td><td rowspan="2">Patch codes, aka Serial Repeaters, are used to make a code string shorter. EG, You have five codes put together to give you "all weapons." Use the patch to shorten it to two codes. XXXXXXX is the address to write; YYYY is the number of addresses to write, ZZZZ is the amount (offset) to add to each address; VVVVVVVV is value; IIIIIIII is the amount to add to each value.</td></tr>
+ <tr><td class="code">4XXXXXXX YYYYZZZZ<br />VVVVVVVV IIIIIIII</td></tr>
+ <tr><td>Copy Bytes</td><td rowspan="2">Copies YYYYYYYY bytes from location XXXXXXXX to location ZZZZZZZZ. <br /><br />Example use would be:<br />50040450 00000008<br />00040680 00000000<br />That would copy 8 bytes from 40450 to 40680</td></tr>
+ <tr><td class="code">5XXXXXXX YYYYYYYY<br />ZZZZZZZZ 00000000</td></tr>
+ <tr><td>8-Bit Pointer Write</td><td rowspan="2">Writes value YY to adddress stored at XXXXXXX + offset (ZZZZZZZZ).</td></tr>
+ <tr><td class="code">6XXXXXXX 000000YY<br />00000000 ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Pointer Write</td><td rowspan="2">Writes value YYYY to adddress stored at XXXXXXX + offset (ZZZZZZZZ).</td></tr>
+ <tr><td class="code">6XXXXXXX 0000YYYY<br />00010000 ZZZZZZZZ</td></tr>
+ <tr><td>32-Bit Pointer Write</td><td rowspan="2">Writes value YYYYYYYY to adddress stored at XXXXXXX + offset (ZZZZZZZZ).</td></tr>
+ <tr><td class="code">6XXXXXXX YYYYYYYY<br />00020000 ZZZZZZZZ</td></tr>
+ <tr><td>8-Bit Increment</td><td rowspan="2">Adds YY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">301000YY XXXXXXXX</td></tr>
+ <tr><td>8-Bit Decrement</td><td rowspan="2">Subtracts YY from the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">302000YY XXXXXXXX</td></tr>
+ <tr><td>16-Bit Increment</td><td rowspan="2">Adds YYYY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">3030YYYY XXXXXXXX</td></tr>
+ <tr><td>16-Bit Decrement</td><td rowspan="2">Subtracts YYYY from the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">3040YYYY XXXXXXXX</td></tr>
+ <tr><td>32-Bit Increment</td><td rowspan="2">Adds YYYYYYYY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">30500000 XXXXXXXX<br />YYYYYYYY 00000000</td></tr>
+ <tr><td>32-Bit Decrement</td><td rowspan="2">Subtracts YYYYYYYY from the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">30600000 XXXXXXXX<br />YYYYYYYY 00000000</td></tr>
+ <tr><td>32-Bit Slide Write</td><td rowspan="2">Writes YY 32-bit values starting at address XXXXXX.<br /><br />Example: <br />
+  <div class="code">7000C0F4 00000002<br />08018090 AFA40000<br />60060240 00000007<br />00047600 3C028008<br />8C429EE0 34013F80<br />A44100DC A44100E0<br />0800303F 00000000</div>
+  <br />This the same as:<br />
+  <div class="code">2000C0F4 08018090<br />2000C0F8 AFA40000<br />20060240 00047600<br />20060244 3C028008<br />20060248 8C429EE0<br />2006024C 34013F80<br />20060250 A44100E0<br />20060254 0800303F</div>
+ </td></tr>
+ <tr><td class="code">6XXXXXXX 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">GBA Code Types</th></tr>
+ <tr><th colspan="2">Note: GBA is divided into 2 systems in the list because of the RAM being stored in 2 differmet chunks. I wasn't going to butcher my code to support 1 odd system. Keep in mind which part of the RAM the codes for a game are accessing and write to only that area.</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">0XXXXXXX 000000YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">1XXXXXXX 0000YYYY</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">2XXXXXXX YYYYYYYY</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2"></td></tr>
+ <tr><td class="code">DXXXXXXX 0000YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Equal To Activator (Multiple Skip)</td><td rowspan="2">If value at XXXXXXXX equals YYYY, execute the following ZZ lines.</td></tr>
+ <tr><td class="code">E0ZZYYYY XXXXXXX<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">NDS Code Types (Codebreaker Style)</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">0XXXXXXX 000000YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">1XXXXXXX 0000YYYY</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">2XXXXXXX YYYYYYYY</td></tr>
+ <tr><td>16-Bit Equal To Activator (Multiple Skip)</td><td rowspan="2">If value at XXXXXXXX &lt;!=&gt; YYYY, execute the following ZZ lines. 'S' is the size of YYYY (0 = 16 bit, 1 - 8 bit). 'T' is 0-3 for the compare type (==,!=,&lt;,&gt;)</td></tr>
+ <tr><td class="code">DXXXXXXX ZZTSYYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>Pointer Write</td><td rowspan="2">Writes value YYYY to adddress stored at XXXXXXX + offset (ZZZZZZZZ). 'N' is 0-2 (8,16,32 bit) for the size of ZZZZZZZZ. 'C' is 0/1 for conditional check on/off. If it's on, the value loaded from XXXXXXXX is compared to VVVV. 'T' is 0-3 for the compare type (==,!=,&lt;,&gt;). 'S' is the size of VVVV (0/1 - 16/8 bit). </td></tr>
+ <tr><td class="code">6XXXXXXX YYYYYYYY<br />ZZZZZZZZ NCTSVVVV</td></tr>
+
+</table><br /><br />
+
+<table>
+<tr><th id="credits">Credits/Contact</th></tr>
+<tr><td>
+Written by <a href="MAILTO:viper@shadowflareindustries.com">Viper187</a> of <a href="http://www.gshi.org/">GSHI</a>, <a href="http://www.kodewerx.net/">Kodewerx</a> and <a href="http://vipersgp.cjb.net">The Snake Pit</a><br /><br />
+
+Special Thanks To:<br />
+</td></tr>
+</table><br /><br />
+
+</td></tr></table>
+</body>
+</html>

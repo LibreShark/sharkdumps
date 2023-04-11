@@ -1,0 +1,894 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+<!--
+body
+{
+	background-color: #000000;
+	color: #FFFFFF;
+	font: 10pt normal verdana, geneva, lucida, arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+a:link
+{
+	color: #CC6600;
+	text-decoration: none;
+}
+a:visited
+{
+	color: #CC6600;
+	text-decoration: none;
+}
+a:hover, a:active
+{
+	color: #CC6600;
+	text-decoration: underline;
+}
+table
+{
+	background-color: #000000;
+	border: 2px solid #FFFFFF;
+	border-collapse: collapse;
+	padding: 0px;
+	width: 75%;
+}
+th
+{
+	background: #869BBF url(images/chrome1.gif);
+	color: #000000;
+	font-size: 12pt;
+	border: 1px solid #FFFFFF;
+	padding: 2px;
+	text-align: center;
+}
+td
+{
+	color: #FFFFFF;
+	font: 10pt normal verdana, geneva, lucida, arial, helvetica, sans-serif;
+	background-color: #000000;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+	text-align: left;
+}
+table.site_main
+{
+	background-color: #000000;
+	border: none;
+	border-collapse: collapse;
+	padding: 4px;
+	width: 100%;
+}
+div.code
+{
+	font-family: terminal, courier, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	white-space: nowrap;
+}
+td.code
+{
+	font-size: 12pt;
+	font-family: courier, terminal, verdana, geneva, lucida, arial, helvetica, sans-serif;
+	white-space: nowrap;
+}
+
+sup.tm { font-size: 0.5em; }
+-->
+</style>
+<title>Renegade64 - The Psycho's N64 Tool (ReadMe)</title>
+</head>
+<body>
+<table class="site_main"><tr style="border:none"><td align="center" style="border:none; text-align: center">
+<table><tr><th>Renegade64 - The Psycho's N64 Tool</th></tr>
+<tr><td style="text-align: center">
+<a href="#disclaim">Disclaimer</a><br />
+<a href="#history">Version History</a><br />
+<a href="#features">Features</a><br />
+<a href="#codesearcher">Code Searcher Info</a><br />
+<a href="#codeport">Code Porter Info</a><br />
+<a href="#disusage">R4300i Disassembler Usage/Syntax Notes</a><br />
+<a href="#emucheat">Trainer/Patcher Info</a><br />
+<a href="#credits">Credits/Contact</a>
+</td></tr></table>
+<br /><br />
+<table><tr><th id="disclaim">Disclaimer</th></tr>
+<tr><td>The author is NOT responsible for any damage caused to you computer by this program,
+the usage of it, etc. or any damge caused to your brain while trying to understand it. This program in no way encourages piracy and the utilities in the program are
+intended only for those who have themselves legitimately created archival copies of their own games.
+<br /><br />&#60;/Obligatory Legal Bullshit&#62;
+</td></tr>
+</table><br /><br />
+<table><tr><th id="history" colspan="2">Version History</th></tr>
+<tr><th>Version 1.7</th><th>2/19/08</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>More minor tweaks and bug fixes</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.69</th><th>11/29/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>PCSX2 has been added to the emulator attachment list. Note that only the TLB version (pcsx2t.exe) is supported. There's an unknown issue with writing the RAM of the other version.</li>
+<li>Support for 0,1,2,D, and E code types for PS2 has been added to the Trainer. The 4 code type (serial repeater) is there, but untested.</li>
+<li>Memory Editor, Search Results, and Code Assembler should be more friendly to higher (PS2) addresses now.</li>
+<li>Search Results window has a "Remove All" button now for active codes.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.68b</th><th>11/6/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Minor fix to Code Assembler. Multi-instruction pseudo ops were throwing off the address.</li>
+<li>Code Disassembler now supports raw PS2 codes.</li>
+<li>Probably another minor fix or two I forgot to mention..</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.68</th><th>5/8/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Added support for NeoPop/Neo Geo Pocket hacking and cheating.</li>
+<li>Minor update to the Code Formatter.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.67</th><th>4/15/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Code Assembler has a new option (Para's suggestion): Write to emulator. It'll only write if there aren't any warnings.</li>
+<li>Endian setting in the Code Search window will now lock while attached to an emulator like before.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.666</th><th>4/12/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Emulators are now supported via emulators.cfg. Theres an example on the first line of the file showing how to add new ones. This change also brings about some minor GUI and logistical changes as well.</li>
+<li>EmuCheat has a PC codes option now (see below for code types). This is because PC games can easily be added to the emulators.cfg.</li>
+<li>Results display form the Code Search now has the ability to test results or view in memory editor while attached to the emulator.</li>
+<li>Code Assembler doesn't go apeshit when tabbed ASM is processed. Comments on .ORG pseudo ops actually work now.</li>
+<li>Fixed crash when clicking Results button with no search active.</li>
+<li>Fixed 16-bit Upper/Lower search size, I think.</li>
+<li>Fixed the problem with code search crashing after 30 searches (hopefully). Limit should now be 75.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.65</th><th>3/26/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>The bug with initial dumps in the code searcher has finally been swatted...with a sledgehammer.</li>
+<li>Fixed a minor bug with code prefixes in the code assembler.</li>
+<li>The opcode display type setting on the Code Disassembler actually works now. There's also an option to output HTML for FAQ writing.</li>
+<li>Slightly revamped the internal disassembly code and added the option to prefix hex values with 0x.</li>
+<li>Added Copy buttons and working CTRL+A keyboard shortcuts ot a few things. It really pisses me off when I hit CTRL+A on something and it doesn't work.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.64</th><th>3/26/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Memory Editor now includes an endian selection box, so we can view it either way. Helps me with ASM hacking on PSX.</li>
+<li>Code Search now includes the option to set the search range.</li>
+<li>Code Assembler/Disassembler now has an option for PSX input/output.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.63</th><th>3/3/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>The cheat patcher now includes bare bones support for No$GBA NDS cheating -- RAM write (0,1,2) and Pointer (B) code types should work.</li>
+<li>Squashed a couple of minor GUI bugs (like Show Results crashing when there's 0), as well as enabled copy/pasting into the memory editor address box with the usual keyboard shortcuts.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.62</th><th>2/26/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>No$GBA DS hacking support added. Both the memory editor and code searcher should work with No$GBA 2.3d.</li>
+<li>Fixed an old bug in the endian handling. I added "Little Endian System" to handle things like PSX and DS, as these are different from simply byteswapping all the words in a PJ64 save state.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.61</th><th>2/22/07</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Renegade can attach to PCSX v1.5 now.</li>
+<li>Added support for PS2 codes in the code assembler and disassembler.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.6</th><th>10/17/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Renegade can attach to Project64 now. Thank SubDrag for the proper start offset.</li>
+<li>Code assembler now supports Thumb. Don't hold your breath where ARM is concerned.</li>
+<li>Fixed a minor annoyance in the Mem Editor. When ReadProcessMemory fails, the auto-refresh timer should now disable itself.</li>
+<li>You'll also notice I added a couple of somewhat useless tools. One of them converts between plain text and C:|| format, and the other one prints activators for all 4 players based on the P1 address.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.59</th><th>10/3/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>The interface of the Disassembler is completely redone. It now allows for inline assembly and hex editing (think Niew), as well as grabbing emulator RAM.</li>
+<li>Disassembly search is removed, and those search options are now part of the main Code Searcher.</li>
+<li>Added "Quick search" keys for the most common search types, for quick comparing.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.58</th><th>9/29/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>The whole GUI has been converted to an MDI interface. You'll notice some minor GUI changes in some tools.</li>
+<li>Changed the patcher to a more useful trainer/patcher combo. See info below for a complete list of supported code types.</li>
+<li>Added search/mem edit support for Mupen 0.5.1, pSX 1.9, SSSPSX, and No$GBA.</li>
+<li>Fixed a quark in the assembler error messages.</li>
+<li>Fixed a value input bug in the code searcher.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.57</th><th>9/19/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Added a memory editor to the code searcher.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.56</th><th>9/16/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Code Porter updated to allow for '0?' in code values. Previously only hex values or ??/XX worked.</li>
+<li>More bugs in the code searcher rectified. Comparing to previous searches actually works now, among other things. I even figured out why it wasn't letting go of files it had accessed.</li>
+<li>Added Undo button to the code searcher.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.55</th><th>9/14/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Fixed the results export. There was a faulty IF statement.</li>
+<li>Fixed comparitive searches with emulator. It wasn't setting up correctly after initial dump.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.54</th><th>9/13/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Reworked the results display to speed it up.</li>
+<li>Fixed a little typo in the DLL that pretty much broke everything but 8-bit searches.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.53</th><th>9/12/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>I think I finally solved that overflow issue with 8 meg files.</li>
+<li>Added the ability to rip the N64 RAM right from the emulator. The bad news: It doesn't work with PJ64 because it handles the memory weird. Good news is it works on 1964 0.9.9, Mupen 0.4, and Nemu 0.8.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.52</th><th>5/23/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>More bug fixes to the search results display. One crash fixed, and the export funtion actually prints all the results to file instead of just the display max.</li>
+<li>Made it so the search results display closes automaticly when the code searcher is closed.</li>
+<li>Added an option to output .ORG instruction format in the code disassembler</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.51</th><th>5/17/06</th></tr>
+<tr><td colspan="2">
+Changes:<br />
+<ul>
+<li>Fixed a bad bug in the new search results display.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.5</th><th>5/16/06</th></tr>
+<tr><td colspan="2">
+Code Search Changes:<br/>
+<ul>
+<li>Search results are now displayed within the program, with the option to export. It shows previous values in the results list now as well.</li>
+<li>Fixed a bug with unaligned searches. They appeared to work, on the surface, but resuming them or printing results crashed the program.</li>
+<li>Fixed the Wilcard Value search type. It actually works now. "?" is wildcard.</li>
+<li>Text searches work better now. "*" is still wildcard, but the size of the text search is actuaully determined by the search size setting, like other searches and the comparison is faster.</li>
+<li>The options dialog now includes a folder select popup for setting the results path.</li>
+</ul>
+Other Changes:<br/>
+<ul>
+<li>Updated a couple pseudo ops, and finally put full list in this readme. Check it out.</li>
+<li>Some fixes and syntax changes for the code assembler. See usage details below.</li>
+<li>Added some new options to both the code assembler and code disassembler.</li>
+<li>Fixed the signing compensation for the 32-bit access search in the ASM searcher.</li>
+<li>Main window now hides itself when you choose a tool.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.41</th><th>5/7/06</th></tr>
+<tr><td colspan="2">
+Changes:<br/>
+<ul>
+<li>Fixed a major bug with the results path on the code search.</li>
+<li>Fixed a bug with the code disassembler crashing do to bad input.</li>
+<li>Fixed the code prefixes in the code assembler for when an '80' address is part of the input.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.4</th><th>5/6/06</th></tr>
+<tr><td colspan="2">
+Disassembler Changes:<br/>
+<ul>
+<li>Added a form to assemble codes.</li>
+<li>Added support for more pseudo ops.</li>
+<li>The ASM Edit dialog has been revamped to allow changing addresses from there and setting data without closing the box. You can press Enter to set the opcode and advance to the next, or Ctrl+Enter to make the change and close the dialog.</li>
+<li>Added an option to save page/changes/etc as codes.</li>
+<li>Added an option to undo all unsaved changes.</li>
+<li>Fixed a few crash bugs due to menu shortcuts being enabled despite the menu items themselves being disabled.</li>
+</ul>
+Other Changes:<br/>
+<ul>
+<li>Added Open/Save to the code porter</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.3</th><th>5/5/06</th></tr>
+<tr><td colspan="2">
+Disassembler Changes:<br/>
+<ul>
+<li>Removed my debug message box that was accidently left enabled in the last build.</li>
+<li>Fixed the bugs in the saving functions. It was really fucked. :(</li>
+<li>Export ROM to Text now grabs the regview setting as it should, plus I added a keyboard shortcut for it (Ctrl+E).</li>
+<li>Added a form to disassemble codes.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.2</th><th>5/2/06</th></tr>
+<tr><td colspan="2">
+Code Search Changes:<br/>
+<ul>
+<li>Added 16-Bit Upper/Lower search sizes. Upper being 0,4,8,C addresses nad lower being 2,6,A,E address.</li>
+<li>Added Known/Not Value List search types. The way they work is you enter a list of calues seperated by commas. It returns all results that are or aren't any of the values.</li>
+<li>Added the option to change what program the search results are opened with (Notepad is the default).</li>
+<li>Value box only gets set to 0 now if the search size is set less than the value in the box. It was starting to annoy me, so I changed it.</li>
+</ul>
+Disassembler Changes:<br/>
+<ul>
+<li>Added an ASM Search option that has various asm-based search options. See below for more info.</li>
+<li>Added an option to change the endian being disassembled. (This doesn't effect the file, just what you see).</li>
+<li>Fixed the bug when opening files in little endian. I'll fix a couple other things that Parasyte mentioned to me in the next version.</li>
+</ul>
+Other Changes: <br/>
+<ul>
+<li>Byteswap Tool has a range option and a PJ64->Bin preset now.</li>
+<li>Added a Clear Input button to the Code Porter.</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.1</th><th>4/29/06</th></tr>
+<tr><td colspan="2">Minor update:<br />
+<ul>
+<li>2 Search types added - Active Bits (Any) and Active Bits (All)</li>
+<li>Fixed branches in disassembler</li>
+<li>Added an Edit ASM item to the edit menu in disassembler. The keyboard shortcut was always there, I just forgot to mention it. ;)</li>
+<li>Fixed alignment issues with the Export ROM to Text option, and added the option to include values which was somehow forgotten before.</li>
+<li>Fixed the crash with the GPR reg view option in disassembler and made it save to the CFG now</li>
+<li>Fixed the file crash after canceling disassembler close</li>
+<li>Fixed the exit item on main window menu</li>
+</ul>
+</td></tr>
+<tr><th>Version 1.0</th><th>4/18/06</th></tr>
+<tr><td colspan="2">Another batch of small fixes.
+</td></tr>
+<tr><th>Version 0.99 BETA 2</th><th>4/16/06</th></tr>
+<tr><td colspan="2">I fixed a few bugs, mostly relating to the code searcher, and widened the Disassembly textboxes by a few pixels because certain ops were being cut off.
+</td></tr>
+<tr><th>Version 0.99 BETA</th><th>4/14/06</th></tr>
+<tr><td colspan="2">Just Getting Started.  This ReadMe probably looks like shit, but at least it's not a goddamn text
+file or one of those fucking built-in compiled help files. Those are bloody annoying. I don't want to
+create a goddamn database for searching, Shove it up your ass!
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="features">Features</th></tr>
+<tr><td>You might note that I released some of these items in somewhat sucky standalone versions a
+while ago. These are entirely redone (with the exception of reusing some functions). In my optinion, they
+beat the piss out of any of my previous sloppy programs. Check them out.<br /><br />
+Current Features:
+<ul>
+<li>Code Searcher</li>
+<li>R4300i Disassembler</li>
+<li>ROM Code Patcher</li>
+<li>Code Porter</li>
+<li>Patch('50') Code Expander</li>
+<li>Goldeneye 007 Target Time Calculator</li>
+<li>Byteswap Tool</li>
+<li>Emulator Trainer</li>
+<li>Memory Editor</li>
+<li>Probably the only Readme you'll ever see that's valid XHTML 1.1. ;-)</li>
+</ul>
+<br />Possible To-Do List:<br />
+<ul>
+<li>Offset presets on the code porter</li>
+<li>IPS/APS/PK Patch support</li>
+<li>Xploder Crypto tool</li>
+<li>Dexdrive save to emulator mempack/EEPROM converter - If anyone knows the format of .N64 dexdrive files, please fill me in/</li>
+<li>Inline Assembler</li>
+</ul>
+<br />Known Issues:<br />
+<ul>
+<li>-possibly resolved- Code Search: Searching 8MB+ files tends to cause a stack overflow on 8-bit (and probably unaligned bits) searches. I'm currently unable to resolve this.</li>
+</ul>
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="codesearch">Code Searcher Info</th></tr>
+<tr><td>If you ever used Cheater64, you'll remember it being somewhat slow, but still pretty powerful. If
+you've used ViFT you'll remember it being sort of a GODDAMN CONSOLE APP! But it was fast and all-powerful.
+Well, This search uses all the same functions as ViFT while keeping most of it's steam via the
+renegade64.dll. So now we have speed and a GUI. Let's just hope the damn thing works. <br /><br />
+<ul>
+<li>Make sure the searches folder exists or set the results path to another existing folder.</li>
+<li>ALL values input are assumed hex, EXCEPT for search options with bits or number of addresses being
+excluded. The GUI tries to filter anyway, so if you can type hex characters, it's hex input.</li>
+<li>Zip files are NOT supported. I know PJ64 does that by default. There's an option to turn it off
+though, and I recommend you do so.</li>
+<li>Some emulators are now supported. If the one you like isn't listed, then I problably couldn't figure out how the process handles its memory (or I didn't get to that platform yet).</li>
+</ul>
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="codeport">Code Porter Info</th></tr>
+<tr><td>If you remember my old one, you'll remember it only supported GSC text format. This reincarnation
+will pretty much port anything you throw at it. Just paste shit into the textbox. Still includes the
+option to skip activator code types. It should work well with all N64 and even PSX code types.
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="disusage">R4300i Disassembler Usage/Syntax Notes</th></tr>
+<tr><th>General Notes</th></tr>
+<tr><td>
+My disassembler is sort of a Win32 style Niew. You'll notice you can edit hex/asm and the opposite changes accordingly. A couple of notes...<br />
+<ul>
+<li>ALL values used in your routines are expected to be Hexadecimal.</li>
+<li>Spacing between registers and such, though frowned upon, is generally supported.</li>
+<li>I noticed that Niew ignores the fact that certain bits are supposed to be empty and shows opcodes from
+values it shouldn't. I tried to make this check for those empty bits for more accurate output (hopefully). :)</li>
+</ul>
+</td></tr>
+
+<tr><th>Immediates/Jump Targets</th></tr>
+<tr><td>
+Jumps and other opcodes where you use a value are fairly forgiving on syntax of the value. <br /><br />
+Some Examples:<br />
+<div class="code">
+JAL 80000060<br />
+J  60<br />
+JAL $60<br />
+J 0x60<br />
+ADDIU $V0,$V0,00FF<br />
+ADDIU $V0,$V0,FF<br />
+ADDIU $V0,$V0,$00FF<br />
+ADDIU $V0,$V0,$FF<br />
+ADDIU $V0,$V0,0x00FF
+</div><br />
+</td></tr>
+
+
+<tr><th>Branches</th></tr>
+<tr><td>
+Branches can be done in 2 ways: by address and by immediate. Anything preceeded by an asterisk (*) is considered an immidiate and will set the lower 16-bits (branch location) to that value.
+<br /><br />
+Examples:<br />
+<div class="code">
+BEQ $V0,$A1,0x80000068<br />
+BNE $V1,$S1,*3<br />
+BNE $V1,$S1,68<br />
+</div><br />
+Branches in the Code Assembler can be done using either of methods above, plus with labels.<br /><br />
+Examples:<br />
+<div class="code">
+BEQ $V0,$A1,80000068
+<br />NOP
+<br />BNE $V1,$S1,68
+<br />ADDIU  $V0,$V0,00FF
+<br />LUI    $K1,3F80
+<br />MTC1   $K1,F2
+<br />BNE $V1,$S1,bah
+<br />ADDIU  $V0,$V0,00FF
+<br />LUI    $K1,3F80
+<br />bah:
+<br />MTC1   $K1,F2
+</div><br />
+</td></tr>
+
+<tr><th>Registers</th></tr>
+<tr><td>
+Registers are another thing I tried to make flexible.<br /><br />
+Some Examples:<br />
+<div class="code">
+ADDIU  $V0,$zero,00FF
+<br />ADDIU  $V0,zero,00FF
+<br />ADDIU  $V0,R00,00FF
+<br />ADDIU  $V0,R0,00FF
+<br />ADDIU  V0,R0,00FF
+<br />ADDIU  R3,R0,00FF
+<br />ADDIU  R03,R0,00FF
+<br />LUI    $K1,3F80
+<br />MTC1   $K1,F2
+<br />MTC1   $K1,F02
+<br />MTC1   $K1,$F2
+<br />MTC1   $K1,FPR2
+</div><br />
+</td></tr>
+
+<tr><th>Code Assembler Specific Notes</th></tr>
+<tr><th>Addressing</th></tr>
+<tr><td>
+The default starting address is 0. This can be changed in two ways
+(both within the ASM textbox). The address MUST be aligned for ASM. This
+means the address needs to end in 0,4,8 or C. And yes, it has to be Hex!<br /><br />
+Method 1: Just use the address on its own line.<br />
+<div class="code">
+80142014
+<br />JAL    80000060
+<br />ADDIU  $V0,$V0,00FF
+<br />60
+<br />LUI    $K1,3F80
+<br />JR     $RA
+<br />MTC1   $K1,F2
+</div><br />
+Method 2: .ORG Address<br />
+<div class="code">
+.ORG 80142014
+<br />JAL    80000060
+<br />ADDIU  $V0,$V0,00FF
+<br />60:
+<br />LUI    $K1,3F80
+<br />JR     $RA
+<br />MTC1   $K1,F2
+</div><br />
+</td></tr>
+<tr><th>Comments</th></tr>
+<tr><td>
+The semi-colon can be used for commenting, either on the end of a line or on a line by itself.<br /><br />
+Examples:<br />
+<div class="code">
+ADDIU  $V0,$zero,00FF ;V0 will now be 00FF
+<br />;Put 3F80 into F2
+<br />LUI    $K1,3F80
+<br />MTC1   $K1,F2
+</div><br />
+</td></tr>
+
+</table><br /><br />
+<table>
+<tr><th colspan="3">Unsupported Opcodes</th></tr>
+<tr><td colspan="3">
+The only OP that's not supported at all is CACHE. I couldn't figure out how the hell it's assembled.
+I was also unsure of some of the Trap OPs. Any of the ones with an Immediate are good, but the ones
+like TEQ will give you a little warning. I'm not sure if those are right or not.
+</td></tr>
+<tr><th colspan="3">Supported Pseudo Opcodes</th></tr>
+<tr><th colspan="3">Explanations</th></tr>
+<tr><td colspan="3">
+rs     = 5-bit source register specifier<br />
+rt     = 5-bit target (source/destination) register or branch condition<br />
+rd     = 5-bit destination register specifier<br />
+fs     = 5-bit floating point source register specifier<br />
+ft     = 5-bit floating point target (source/destination) register or branch condition<br />
+fd     = 5-bit floating point destination register specifier<br />
+float  = Float value (32bit)<br />
+base   = 5-bit value<br />
+imm    = 16 bit immediate value<br />
+offset = 16 bit branch displacement or address displacement<br />
+target = 26 bit jump target address
+[]     = Optional argument.
+</td></tr>
+<tr><th colspan="3">Pseudo OPs List</th></tr>
+<tr><td><b>OPcode</b></td><td><b>Arguments</b></td><td><b>Assembles To</b></td></tr>
+<tr><td>NOP</td><td></td><td>ADDIU R0,R0,0000<br />or<br />SLL    r0, r0, 0<br />(Short/Long)</td></tr>
+<tr><td>MOVE</td><td>rd, rs</td><td>ADD    rd, r0, rs</td></tr>
+<tr><td>NEG</td><td>rd, rt</td><td>SUB    rd, r0, rt</td></tr>
+<tr><td>NEGU</td><td>rd, rs</td><td>SUBU   rd, r0, rs</td></tr>
+<tr><td>BNEZ</td><td>rs, offset</td><td>BNE    rs, r0, offset</td></tr>
+<tr><td>BNEZL</td><td>rs, offset</td><td>BNEL   rs, r0, offset</td></tr>
+<tr><td>BEQZ</td><td>rs, offset</td><td>BEQ    rs, r0, offset</td></tr>
+<tr><td>BEQZL</td><td>rs, offset</td><td>BEQL   rs, r0, offset</td></tr>
+<tr><td>B / BR / BRA</td><td>offset</td><td>BEQ    r0, r0, offset</td></tr>
+<tr><td>BAL / BRL / BRAL</td><td>offset</td><td>BGEZAL r0, offset</td></tr>
+<tr><td>LI</td><td>rt, imm</td><td>ORI    rt, r0, imm (if imm is 16 bit)<br />or<br />LUI    rt, high_16<br />ORI    rt, rt, low_16 (if imm is 32 bit)</td></tr>
+<tr><td>S.S</td><td>ft, offset(base)</td><td>SWC1   ft, offset(base)</td></tr>
+<tr><td>L.S</td><td>ft, offset(base)</td><td>LWC1   ft, offset(base)</td></tr>
+<tr><td>LBI / LBA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LBIU / LBAU</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LDI / LDA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LDLI / LDLA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LDRI / LDRA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LHI / LHA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LHIU / LHAU</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LLI / LLA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LLDI / LLDA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LWI / LWA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LWLI / LWLA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LWRI / LWRA</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>LWIU / LWAU</td><td>rt,offset[(base)]</td><td>Note 1</td></tr>
+<tr><td>DDIVHI</td><td>rd,rs,rt</td><td>DDIV rs,rt<br />MFHI rd</td></tr>
+<tr><td>DDIVLO</td><td>rd,rs,rt</td><td>DDIV rs,rt<br />MFLO rd</td></tr>
+<tr><td>DDIVUHI</td><td>rd,rs,rt</td><td>DDIVU rs,rt<br />MFHI rd</td></tr>
+<tr><td>DDIVULO</td><td>rd,rs,rt</td><td>DDIVU rs,rt<br />MFLO rd</td></tr>
+<tr><td>DMULTHI</td><td>rd,rs,rt</td><td>DMULT rs,rt<br />MFHI rd</td></tr>
+<tr><td>DMULTLO</td><td>rd,rs,rt</td><td>DMULT rs,rt<br />MFLO rd</td></tr>
+<tr><td>DMULTUHI</td><td>rd,rs,rt</td><td>DMULTU rs,rt<br />MFHI rd</td></tr>
+<tr><td>DMULTULO</td><td>rd,rs,rt</td><td>DMULTU rs,rt<br />MFLO rd</td></tr>
+<tr><td>MULTHI</td><td>rd,rs,rt</td><td>MULT rs,rt<br />MFHI rd</td></tr>
+<tr><td>MULTLO</td><td>rd,rs,rt</td><td>MULT rs,rt<br />MFLO rd</td></tr>
+<tr><td>MULTUHI</td><td>rd,rs,rt</td><td>MULTU rs,rt<br />MFHI rd</td></tr>
+<tr><td>MULTULO</td><td>rd,rs,rt</td><td>MULTU rs,rt<br />MFLO rd</td></tr>
+<tr><td>LTC1 / LIC1<br />(See Note 1)</td><td>fd,[rs,],imm<br />If no rs, $K1 is used</td><td>(if imm is 16 bit or lower 16 bits are 0)<br />LUI    rs, imm<br />MTC1   rs,fd<br />(if imm is 32 bit)<br />LUI    rs, high_16<br />ORI    rs, rs, low_16<br />MTC1   rs,fd</td></tr>
+<tr><td>LAC1</td><td>fd,offset[(base)]<br />If no base, $K1 is used</td><td>LUI base, high_16<br />LWC1 fd,low_16(base)</td></tr>
+<tr><td>LFC1 / LFTC1, LFP</td><td>fd,[rs,],float<br />If no rs, $K1 is used.</td><td>Converts the float to hex and assembles the same as LTC1/LIC1.</td></tr>
+<tr><td colspan="3">Note 1</td></tr>
+<tr><td colspan="3">
+<ul>
+<li>If no base is specified, rt is used.</li>
+<li>The Load byte/word/etc Immediate/Address OPs assemble to:</li>
+</ul>
+<div class="code">
+LUI base, high_16
+<br />Lx rt, low_16(base)
+</div><br />
+example:<br />
+<div class="code">
+LBI $V0,80000060($AT)
+</div>
+Assembles as:<br />
+<div class="code">
+LUI $AT,8000<br />
+LB  $V0,0060($AT)
+</div><br />
+<ul>
+<li>The offset need not be the full address. LBI $V0,60($K1) will assemble the same as above. The '8' is implied. LAC1 works this way too.</li>
+<li>The offset is auto-fixed. WTF does that mean? All Load OPs are signed. 80YYxxxx. If xxxx is greater than 7FFF then 1 must be added to
+the upper 16 bits for the load to work.</li>
+</ul>
+<br />
+<div class="code">
+LBI $V0,8014C6D0
+</div>
+Assembles as:<br />
+<div class="code">
+LUI $V0,8015<br />
+LB $V0,C6D0($V0)
+</div>
+</td></tr>
+</table><br /><br />
+
+<table><tr><th id="emucheat" colspan="2">Trainer/Patcher Info</th></tr>
+<tr><td colspan="2">The trainer/patcher reads a text file of codes in PEC style format. An example game entry
+is included in the default codes file (n64.ini). I'll update it with a lot more when I get a
+chance. I also need to add support for more systems. Currently, N64 and PSX are fully supported (with extras). Suggestions are welcome. <br /><br />
+</td></tr>
+ <tr><th colspan="2">N64 Code Types (GS Button == Tilde Key)</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXX. The 'A0' prefix does the same thing here.</td></tr>
+ <tr><td class="code">80XXXXXX 00YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXX. The 'A1' prefix does the same thing here.</td></tr>
+ <tr><td class="code">81XXXXXX YYYY</td></tr>
+ <tr><td>32-Bit Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXX.</td></tr>
+ <tr><td class="code">82XXXXXX YYYYYYYY</td></tr>
+ <tr><td>8-Bit GS Button Write</td><td rowspan="2">Writes value YY to adddress XXXXXX when the GS button is pressed.</td></tr>
+ <tr><td class="code">88XXXXXX 00YY</td></tr>
+ <tr><td>16-Bit GS Button Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXX when the GS button is pressed.</td></tr>
+ <tr><td class="code">89XXXXXX YYYY</td></tr>
+ <tr><td>32-Bit GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXX when the GS button is pressed.</td></tr>
+ <tr><td class="code">8AXXXXXX YYYYYYYY</td></tr>
+ <tr><td>8-Bit Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is equal to YY. </td></tr>
+ <tr><td class="code">D0XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D1XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Not Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is NOT equal to YY. </td></tr>
+ <tr><td class="code">D2XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D3XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Less Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is less than YY. </td></tr>
+ <tr><td class="code">E0XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">E1XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Greater Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is greater than YY. </td></tr>
+ <tr><td class="code">E2XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">E3XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>Patch/Repeater</td><td rowspan="2">Patch codes, aka Serial Repeaters, are used to make a code string shorter. EG, You have five codes put together to give you "all weapons." Use the patch to shorten it to two codes. XX is the number of addresses to write; YY is the amount (offset) to add to each address; ZZ is the amount to add to each value.</td></tr>
+ <tr><td class="code">5000XXYY 00ZZ<br />TTTTTTTT VVVV</td></tr>
+ <tr><td>Copy Bytes <b>(Renegade Only)</b></td><td rowspan="2">Copies YYYY bytes from location XXXXXX to location ZZZZZZ. <br /><br />Example use would be:<br />C2040450 0008<br />80040680 0000<br />That would copy 8 bytes from 40450 to 40680</td></tr>
+ <tr><td class="code">C2XXXXXX YYYY<br />80ZZZZZZ 0000 </td></tr>
+ <tr><td>8-Bit Pointer Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXX + offset (YYYY).</td></tr>
+ <tr><td class="code">70XXXXXX YYYY00ZZ</td></tr>
+ <tr><td>16-Bit Pointer Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXX + offset (YYYY).</td></tr>
+ <tr><td class="code">71XXXXXX YYYYZZZZ</td></tr>
+ <tr><td>8-Bit Pointer GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXX + offset (YYYY) when GS button is pressed.</td></tr>
+ <tr><td class="code">78XXXXXX YYYY00ZZ</td></tr>
+ <tr><td>16-Bit Pointer GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXX + offset (YYYY) when GS button is pressed.</td></tr>
+ <tr><td class="code">79XXXXXX YYYYZZZZ</td></tr>
+ <tr><td>Z-Bit Increment <b>(Renegade Only)</b></td><td rowspan="2">Adds YY to the value at adddress XXXXXX. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z0XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Decrement <b>(Renegade Only)</b></td><td rowspan="2">Subtracts YY to the value at adddress XXXXXX. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z1XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise AND <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value AND YY. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z2XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise OR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value OR YY. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z3XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise XOR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value XOR YY. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z4XXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Increment <b>(Renegade Only)</b></td><td rowspan="2">Adds YY to the value at adddress XXXXXX when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z8XXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Decrement <b>(Renegade Only)</b></td><td rowspan="2">Subtracts YY to the value at adddress XXXXXX when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z9XXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Bitwise AND <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value AND YY when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">ZAXXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Bitwise OR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value OR YY when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">ZBXXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Bitwise XOR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value XOR YY when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">ZCXXXXXX 00YY</td></tr>
+ <tr><td>32-Bit Slide Write <b>(Renegade Only)</b></td><td rowspan="2">Writes YY 32-bit values starting at address XXXXXX.<br /><br />Example: <br />
+  <div class="code">6000C0F4 00000002<br />08018090 AFA40000<br />60060240 00000007<br />00047600 3C028008<br />8C429EE0 34013F80<br />A44100DC A44100E0<br />0800303F 00000000</div>
+  <br />This the same as:<br />
+  <div class="code">8100C0F4 0801<br />8100C0F6 8090<br />8100C0F8 AFA4<br />8100C0FA 0000<br />81060240 0004<br />81060242 7600<br />81060244 3C02<br />81060246 8008<br />81060248 8C42<br />8106024A 9EE0<br />8106024C 3401<br />8106024E 3F80<br />81060250 A441<br />81060252 00E0<br />81060254 0800<br />81060256 303F </div>
+ </td></tr>
+ <tr><td class="code">60XXXXXX 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">PSX Code Types (GS Button == Tilde Key)</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXX. The 'A0' prefix does the same thing here.</td></tr>
+ <tr><td class="code">30XXXXXX 00YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXX. The 'A1' prefix does the same thing here.</td></tr>
+ <tr><td class="code">80XXXXXX YYYY</td></tr>
+ <tr><td>32-Bit Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXX.</td></tr>
+ <tr><td class="code">A0XXXXXX YYYYYYYY</td></tr>
+ <tr><td>8-Bit GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value YY to adddress XXXXXX when the GS button is pressed.</td></tr>
+ <tr><td class="code">38XXXXXX 00YY</td></tr>
+ <tr><td>16-Bit GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value YYYY to adddress XXXXXX when the GS button is pressed.</td></tr>
+ <tr><td class="code">88XXXXXX YYYY</td></tr>
+ <tr><td>32-Bit GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXX when the GS button is pressed.</td></tr>
+ <tr><td class="code">A8XXXXXX YYYYYYYY</td></tr>
+ <tr><td>8-Bit Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is equal to YY. </td></tr>
+ <tr><td class="code">E0XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D0XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Not Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is NOT equal to YY. </td></tr>
+ <tr><td class="code">E1XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D1XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Less Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is less than YY. </td></tr>
+ <tr><td class="code">E2XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D2XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>8-Bit Greater Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZ) ONLY when the value stored in address XXXXXX is greater than YY. </td></tr>
+ <tr><td class="code">E3XXXXXX 00YY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator <b>(Renegade Only)</b></td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">D3XXXXXX YYYY<br />ZZZZZZZZ ZZZZ</td></tr>
+ <tr><td>Patch/Repeater</td><td rowspan="2">Patch codes, aka Serial Repeaters, are used to make a code string shorter. EG, You have five codes put together to give you "all weapons." Use the patch to shorten it to two codes. XX is the number of addresses to write; YY is the amount (offset) to add to each address; ZZ is the amount to add to each value.</td></tr>
+ <tr><td class="code">5000XXYY 00ZZ<br />TTTTTTTT VVVV</td></tr>
+ <tr><td>Copy Bytes <b>(Renegade Only)</b></td><td rowspan="2">Copies YYYY bytes from location XXXXXX to location ZZZZZZ. <br /><br />Example use would be:<br />C2040450 0008<br />80040680 0000<br />That would copy 8 bytes from 40450 to 40680</td></tr>
+ <tr><td class="code">C2XXXXXX YYYY<br />80ZZZZZZ 0000 </td></tr>
+ <tr><td>8-Bit Pointer Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXX + offset (YYYY).</td></tr>
+ <tr><td class="code">70XXXXXX YYYY00ZZ</td></tr>
+ <tr><td>16-Bit Pointer Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXX + offset (YYYY).</td></tr>
+ <tr><td class="code">71XXXXXX YYYYZZZZ</td></tr>
+ <tr><td>8-Bit Pointer GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXX + offset (YYYY) when GS button is pressed.</td></tr>
+ <tr><td class="code">78XXXXXX YYYY00ZZ</td></tr>
+ <tr><td>16-Bit Pointer GS Button Write <b>(Renegade Only)</b></td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXX + offset (YYYY) when GS button is pressed.</td></tr>
+ <tr><td class="code">79XXXXXX YYYYZZZZ</td></tr>
+ <tr><td>Z-Bit Increment <b>(Renegade Only)</b></td><td rowspan="2">Adds YY to the value at adddress XXXXXX. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z0XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Decrement <b>(Renegade Only)</b></td><td rowspan="2">Subtracts YY to the value at adddress XXXXXX. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z1XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise AND <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value AND YY. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z2XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise OR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value OR YY. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z3XXXXXX 00YY</td></tr>
+ <tr><td>Z-Bit Bitwise XOR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value XOR YY. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z4XXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Increment <b>(Renegade Only)</b></td><td rowspan="2">Adds YY to the value at adddress XXXXXX when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z8XXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Decrement <b>(Renegade Only)</b></td><td rowspan="2">Subtracts YY to the value at adddress XXXXXX when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">Z9XXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Bitwise AND <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value AND YY when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">ZAXXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Bitwise OR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value OR YY when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">ZBXXXXXX 00YY</td></tr>
+ <tr><td>GS Button Z-Bit Bitwise XOR <b>(Renegade Only)</b></td><td rowspan="2">Value at adddress XXXXXX is changed to value XOR YY when GS button is pressed. Z = 0-2 for 32, 16, and 8 bit in that order.</td></tr>
+ <tr><td class="code">ZCXXXXXX 00YY</td></tr>
+
+ <tr><td>32-Bit Slide Write <b>(Renegade Only)</b></td><td rowspan="2">Writes YY 32-bit values starting at address XXXXXX.<br /><br />Example: <br />
+  <div class="code">6000C0F4 00000002<br />08018090 AFA40000<br />60060240 00000007<br />00047600 3C028008<br />8C429EE0 34013F80<br />A44100DC A44100E0<br />0800303F 00000000</div>
+  <br />This the same as:<br />
+  <div class="code">8000C0F4 0801<br />8000C0F6 8090<br />8000C0F8 AFA4<br />8000C0FA 0000<br />80060240 0004<br />80060242 7600<br />80060244 3C02<br />80060246 8008<br />80060248 8C42<br />8006024A 9EE0<br />8006024C 3401<br />8006024E 3F80<br />80060250 A441<br />80060252 00E0<br />80060254 0800<br />80060256 303F </div>
+ </td></tr>
+ <tr><td class="code">60XXXXXX 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">PC Code Types (Very similar to PS2 code types)</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value YY to adddress XXXXXXX. The 'A0' prefix does the same thing here.</td></tr>
+ <tr><td class="code">0XXXXXXX 000000YY</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value YYYY to adddress XXXXXXX. The 'A1' prefix does the same thing here.</td></tr>
+ <tr><td class="code">1XXXXXXX 0000YYYY</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value YYYYYYYY to adddress XXXXXXX.</td></tr>
+ <tr><td class="code">2XXXXXXX YYYYYYYY</td></tr>
+ <tr><td>Keyboard Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZZZZZ) ONLY when the keyboard key (YY) is being pressed. Uses standard Virtual Key codes with GetAsyncKeyState(YY). C0 is the Tilde key, for example. Look up the rest.</td></tr>
+ <tr><td class="code">90000000 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>8-Bit Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZZZZZ) ONLY when the value stored in address XXXXXX is equal to YY. </td></tr>
+ <tr><td class="code">DXXXXXXX 100000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">DXXXXXXX 0000YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>8-Bit Not Equal To Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZZZZZ) ONLY when the value stored in address XXXXXX is NOT equal to YY. </td></tr>
+ <tr><td class="code">DXXXXXXX 101000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Not Equal To Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">DXXXXXXX 0010YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>8-Bit Less Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZZZZZ) ONLY when the value stored in address XXXXXX is less than YY. ? is 0 for regular Less Than, 1 for Less OR Equal. </td></tr>
+ <tr><td class="code">DXXXXXXX 102?00YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Less Than Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">DXXXXXXX 002?YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>8-Bit Greater Than Activator</td><td rowspan="2">Execute the following code (ZZZZZZZZ ZZZZZZZZ) ONLY when the value stored in address XXXXXX is greater than YY. </td></tr>
+ <tr><td class="code">DXXXXXXX 103?00YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>16-Bit Greater Than Activator</td><td rowspan="2">Same as above but checks a 16-bit value.</td></tr>
+ <tr><td class="code">DXXXXXXX 003?YYYY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>Patch/Repeater</td><td rowspan="2">Patch codes, aka Serial Repeaters, are used to make a code string shorter. EG, You have five codes put together to give you "all weapons." Use the patch to shorten it to two codes. XXXXXXX is the address to write; YYYY is the number of addresses to write, ZZZZ is the amount (offset) to add to each address; VVVVVVVV is value; IIIIIIII is the amount to add to each value.</td></tr>
+ <tr><td class="code">4XXXXXXX YYYYZZZZ<br />VVVVVVVV IIIIIIII</td></tr>
+ <tr><td>Copy Bytes</td><td rowspan="2">Copies YYYYYYYY bytes from location XXXXXXXX to location ZZZZZZZZ. <br /><br />Example use would be:<br />50040450 00000008<br />00040680 00000000<br />That would copy 8 bytes from 40450 to 40680</td></tr>
+ <tr><td class="code">5XXXXXXX YYYYYYYY<br />ZZZZZZZZ 00000000</td></tr>
+ <tr><td>8-Bit Pointer Write</td><td rowspan="2">Writes value ZZ to adddress stored at XXXXXXX + offset (YYYYYY).</td></tr>
+ <tr><td class="code">7XXXXXXX 00YYYYYY<br />000000ZZ 00000000</td></tr>
+ <tr><td>16-Bit Pointer Write</td><td rowspan="2">Writes value ZZZZ to adddress stored at XXXXXXX + offset (YYYYYY).</td></tr>
+ <tr><td class="code">7XXXXXXX 10YYYYYY<br />0000ZZZZ 00000000</td></tr>
+ <tr><td>32-Bit Pointer Write</td><td rowspan="2">Writes value ZZZZZZZZ to adddress stored at XXXXXXX + offset (YYYYYY).</td></tr>
+ <tr><td class="code">7XXXXXXX 20YYYYYY<br />ZZZZZZZZ 00000000</td></tr>
+
+ <tr><td>8-Bit Increment</td><td rowspan="2">Adds YY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">301000YY 0XXXXXXX</td></tr>
+ <tr><td>8-Bit Decrement</td><td rowspan="2">Adds YY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">302000YY 0XXXXXXX</td></tr>
+ <tr><td>16-Bit Increment</td><td rowspan="2">Adds YYYY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">3010YYYY 0XXXXXXX</td></tr>
+ <tr><td>16-Bit Decrement</td><td rowspan="2">Adds YYYY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">3020YYYY 0XXXXXXX</td></tr>
+ <tr><td>8-Bit Bitwise</td><td rowspan="2">AND/OR/XOR(Z=0-2) YY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">307Z00YY 0XXXXXXX</td></tr>
+ <tr><td>16-Bit Bitwise</td><td rowspan="2">AND/OR/XOR(Z=0-2) YYYY to the value at adddress XXXXXXX.</td></tr>
+ <tr><td class="code">308ZYYYY 0XXXXXXX</td></tr>
+
+ <tr><td>32-Bit Slide Write</td><td rowspan="2">Writes YY 32-bit values starting at address XXXXXX.<br /><br />Example: <br />
+  <div class="code">6000C0F4 00000002<br />08018090 AFA40000<br />60060240 00000007<br />00047600 3C028008<br />8C429EE0 34013F80<br />A44100DC A44100E0<br />0800303F 00000000</div>
+  <br />This the same as:<br />
+  <div class="code">2000C0F4 08018090<br />2000C0F8 AFA40000<br />20060240 00047600<br />20060244 3C028008<br />20060248 8C429EE0<br />2006024C 34013F80<br />20060250 A44100E0<br />20060254 0800303F</div>
+ </td></tr>
+ <tr><td class="code">6XXXXXXX 000000YY<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+ <tr><th colspan="2">Neo Geo Pcket (NGPx) Code Types</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value ?? to adddress XXXX.</td></tr>
+ <tr><td class="code">0000XXXX 00??</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value ???? to adddress XXXX.</td></tr>
+ <tr><td class="code">1000XXXX ????</td></tr>
+
+ <tr><th colspan="2">File Patching Code Types (All Systems)</th></tr>
+ <tr><td>8-Bit Write</td><td rowspan="2">Writes value ?? to adddress XXXXXX.</td></tr>
+ <tr><td class="code">00XXXXXX 000000??</td></tr>
+ <tr><td>16-Bit Write</td><td rowspan="2">Writes value ???? to adddress XXXXXX.</td></tr>
+ <tr><td class="code">10XXXXXX 0000????</td></tr>
+ <tr><td>32-Bit Write</td><td rowspan="2">Writes value ???????? to adddress XXXXXX.</td></tr>
+ <tr><td class="code">20XXXXXX ????????</td></tr>
+ <tr><td>16-Bit Equal To Check</td><td rowspan="2">In the case of file patching, this can be used as a verifier so the code on the next line (ZZZZZZZZ ZZZZZZZ) is only used if the value at address XXXXXX is equal to ????.</td></tr>
+ <tr><td class="code">D0XXXXXX 0000????<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+ <tr><td>32-Bit Equal To Check</td><td rowspan="2">32-bit version of the above.</td></tr>
+ <tr><td class="code">D1XXXXXX ????????<br />ZZZZZZZZ ZZZZZZZZ</td></tr>
+
+
+</table><br /><br />
+
+<table>
+<tr><th id="credits">Credits/Contact</th></tr>
+<tr><td>
+Written by <a href="MAILTO:viper@vipersgp.cjb.net">Viper187</a> of <a href="http://www.kodewerx.net/">Kodewerx</a> and <a href="http://vipersgp.cjb.net">The Snake Pit</a><br /><br />
+
+Special Thanks To:<br />
+Parasyte - His 1337 programming/hacking skills are unmatched. I'm always asking him shit.<br />
+HyperHacker - GS hacker and VB6 programmer. :)<br />
+</td></tr>
+</table><br /><br />
+
+</td></tr></table>
+</body>
+</html>

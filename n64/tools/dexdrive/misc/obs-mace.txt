@@ -1,0 +1,74 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-mace.zip?                                   4th January 2001 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-mace.txt         Guide to Macet (This File)                       :
+:       obs-mace.nfo         Brief Info                                       :
+:       macet.exe            Macet - N64 CRC Calculation Utility              :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Macet - N64 CRC Calculation Utility.                                      :
+:   ------------------------------------                                      :
+:                                                                             :
+:   Why release another CRC calculation utility? Well while checking MotetII  :
+:   I discovered other CRC calculation tools do not calculate their CRC's     :
+:   100% correctly. The result caused test binarys not to boot on the N64.    :
+:   After exploring the problem, I decided it was wise to release a tool      :
+:   which will actually calculate CRC's correctly. Other tools may claim      :
+:   they do, but they have bugs that cause failures to result in a truely     :
+:   correct and functional CRC.                                               :
+:                                                                             :
+:   All major CIC and bootcodes are supported, except for Starfox / Lylat     :
+:   Wars. I will fix this in a future update.                                 :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   How do I use Macet?                                                       :
+:   -------------------                                                       :
+:                                                                             :
+:   Macet is best controlled from the command line prompt. However from       :
+:   Windows, the user could just drag and drop the desired file on the Macet  :
+:   executable and run the program that way.                                  :
+:                                                                             :
+:   At the prompt type:                                                       :
+:                                                                             :
+:      macet <filename>                                                       :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Obsidian brings you another first for the scene! Look out for more of     :
+:   our projects in the future...                                             :
+:                                                                             :
+:   Any suggests for additional features in any of our software are welcome.  :
+:   User feedback is a major driving force in us releasing our tools to the   :
+:   public. And any results in using this tool would be helpful!              :
+:                                                                             :
+:   Thanks to our various supporters in the scene, remember who brings you    :
+:   innovative tools, and who doesn't. Remember who continues to keep the     :
+:   scene alive, and who doesn't. Obsidian will continue to support the N64   :
+:   throught 2001 and beyond!                                                 :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

@@ -1,0 +1,499 @@
+%PDF-1.2 
+%‚„œ”
+ 
+10 0 obj
+<<
+/Length 11 0 R
+>>
+stream
+BT90 708.96  TD0 0 0 rg /F0 12  Tf-0.0112  Tc 0.0112  Tw (INSTRUCTION MANUAL  FOR SHARKLINK\231) Tj261.12 0  TD 0  Tc 0  Tw ( ) Tj-261.12 -13.8  TD -0  Tc 0  Tw (For use with the GameShark\231 CDX Game Enhancer) Tj275.64 0  TD /F1 12  Tf0  Tc 0  Tw ( ) Tj-275.64 -13.56  TD -0.036  Tc (I) Tj3.84 0  TD (-) Tj4.08 0  TD 0  Tc (22) Tj12 0  TD -0.036  Tc (-) Tj3.96 0  TD 0  Tc (200) Tj18 0  TD ( ) Tj-41.88 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0035  Tc -0.0035  Tw (Here is some information that you should know before using SharkLink:) Tj372.12 0  TD 0  Tc 0  Tw ( ) Tj-372.12 -13.56  TD /F1 12  Tf( ) Tj0 -13.92  TD /F0 12  Tf0.0025  Tc -0.0025  Tw (DUE TO THE COMPLEXITY OF THIS FEATURE, QUESTIONS ON HOW TO ) Tj0 -13.8  TD -0.0016  Tc 0.0256  Tw (HACK CODES USING SHARKLINK WILL NOT) Tj262.44 0  TD 0.009  Tc -0.039  Tw ( BE ANSWERED BY ) Tj-262.44 -13.56  TD -0  Tc 0  Tw (INTERACT\222S CONSUMER SERVICES DEPARTMENT.) Tj301.32 0  TD /F1 12  Tf-0.0109  Tc 0.0409  Tw ( However, we've included ) Tj-301.32 -13.8  TD -0.0026  Tc 0.0106  Tw (as much information as possible for users to try hacking codes on their own. We ) Tj0 -13.8  TD -0.0068  Tc 0.0293  Tw (encourage everyone to give it a try and to use the discussion board on the GameShark ) TjT* -0.0133  Tc 0.0133  Tw (website \(w) Tj52.2 0  TD 0.0034  Tc -0.0034  Tw (ww.gameshark.com\) to talk to others. ) Tj184.2 0  TD 0  Tc 0  Tw ( ) Tj-236.4 -13.8  TD ( ) Tj0 -13.8  TD -0.0014  Tc 0.0014  Tw (We must warn that this is an advanced feature, and will not be for everyone. A general ) TjT* -0  Tc 0  Tw (knowledge of programming code is recommended, but not required, and some practice ) TjT* -0.0015  Tc 0.0015  Tw (will most likely be needed to develop good hacki) Tj235.92 0  TD 0.0107  Tc -0.0107  Tw (ng skills. ) Tj46.44 0  TD 0  Tc 0  Tw ( ) Tj-282.36 -13.68  TD ( ) Tj0 -13.8  TD -0.0012  Tc 0.0087  Tw (Due to many varying factors that go into developing a PlayStation video game, it is not ) TjT* -0  Tc 0  Tw (possible for all PlayStation games to work properly with SharkLink. ) Tj330.96 0  TD 0  Tc 0  Tw ( ) Tj-330.96 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0012  Tc -0.0012  Tw (CREATING YOUR OWN CODES) Tj180.36 0  TD 0  Tc 0  Tw ( ) Tj-180.36 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0125  Tc 0.067  Tw (If you want to create your own SharkLink\231 codes and you have) Tj310.68 0  TD -0.0051  Tc 0.0251  Tw ( a PC computer, then the ) Tj-310.68 -13.8  TD -0.005  Tc 0.0308  Tw (next section explains how to connect your PC and PlayStation\256 to create a powerful ) Tj0 -13.8  TD -0.0051  Tc 0.0193  Tw (game code development system.  This system consists of a CD to install on your PC, and ) TjT* -0.0043  Tc 0.0261  Tw (a cable to connect the serial ports of your PlayStation and P) Tj286.32 0  TD 0.018  Tc 0  Tw (C.) Tj11.04 0  TD 0  Tc ( ) Tj-297.36 -13.68  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0042  Tc -0.0042  Tw (PLAYSTATION UTILITIES CDX ) Tj183.12 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD -0.0058  Tc 0.0058  Tw ( PC WINDOWS 95/98 SOFTWARE FOR ) Tj-187.08 -13.8  TD -0.0027  Tc 0  Tw (SHARKLINK) Tj73.2 0  TD 0  Tc ( ) Tj-73.2 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0051  Tc 0.0236  Tw (This is a software support package for PlayStation SharkLink owners. This version has ) TjT* -0.0023  Tc 0.0023  Tw (the following features:) Tj108.6 0  TD 0  Tc 0  Tw ( ) Tj-108.6 -13.8  TD ( ) Tj18 -14.76  TD /F2 12  Tf(\267) Tj5.52 0  TD ( ) Tj12.48 0  TD /F1 12  Tf-0.0015  Tc 0.0135  Tw ("Code Generator". Find your own codes like infinite lives, infinite ammo) Tj351.12 0  TD 0.012  Tc -0.012  Tw (, etc) Tj19.92 0  TD 0  Tc 0  Tw ( ) Tj-389.04 -14.64  TD /F2 12  Tf(\267) Tj5.52 0  TD ( ) Tj12.48 0  TD /F1 12  Tf-0.0056  Tc 0.0399  Tw (Download your code list to a text file.) Tj182.04 0  TD 0  Tc 0  Tw ( ) Tj-200.04 -14.64  TD /F2 12  Tf(\267) Tj5.52 0  TD ( ) Tj12.48 0  TD /F1 12  Tf-0.0082  Tc 0.0425  Tw (Upload a text code list to your cartridge.) Tj193.92 0  TD 0  Tc 0  Tw ( ) Tj-229.92 -13.68  TD ( ) Tj0 -13.8  TD -0.0059  Tc 0.0145  Tw (Updates of this program and documentation will be made available on the web page ) Tj0 -14.04  TD /F0 12  Tf0.0106  Tc 0  Tw (www.gameshark.com) Tj109.92 0  TD /F1 12  Tf0  Tc ( ) Tj-109.92 -13.56  TD ( ) Tj0 -13.8  TD -0.0079  Tc 0.0559  Tw (This software requires a special serial cable that connects your P) Tj309.96 0  TD -0.0051  Tc 0.0222  Tw (C via a 9 pin serial port ) Tj-309.96 -13.8  TD -0.0032  Tc 0.0203  Tw (to your PlayStation's serial port \(supplied with SharkLink\).) Tj283.44 0  TD 0  Tc 0  Tw ( ) Tj-283.44 -13.68  TD ( ) Tj0 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0168  Tc (SETUP) Tj38.64 0  TD 0  Tc ( ) Tj-38.64 -13.56  TD /F1 12  Tf( ) Tj3 0  TD ( ) TjETendstream
+endobj
+11 0 obj
+4827
+endobj
+4 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+/F2 12 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 10 0 R
+>>
+endobj
+15 0 obj
+<<
+/Length 16 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf-0.0049  Tc -0.0031  Tw (The CDX Utilities CD contains a folder named "CDX_UTILS".  You will need to copy ) Tj0 -13.8  TD -0.0023  Tc 0.0103  Tw (this folder and its contents to your PC\222s hard disk \(\221C:\222 drive\). To run the s) Tj359.28 0  TD -0.008  Tc 0.008  Tw (oftware, open ) Tj-359.28 -13.8  TD -0.0014  Tc 0.0148  Tw (the \223CDX_UTILS\224 folder and double click the \223PSX Utils.exe\224 program.) Tj353.64 0  TD 0  Tc 0  Tw ( ) Tj-353.64 -13.8  TD -0.0073  Tc 0.0298  Tw (You will need to connect your PC to your PlayStation using the serial cable. The cable ) Tj0 -13.8  TD -0.0048  Tc 0.0181  Tw (plugs into a 9 pin serial \(COM\) port on your PC. The other end plugs into the serial p) Tj409.56 0  TD -0.004  Tc 0.004  Tw (ort ) Tj-409.56 -13.8  TD -0.0049  Tc 0.0049  Tw (of the PlayStation.) Tj88.92 0  TD 0  Tc 0  Tw ( ) Tj-88.92 -13.68  TD ( ) Tj0 -13.8  TD -0.0073  Tc 0.0298  Tw (Depending on which PC COM port you plug the cable into, you may need to configure ) TjT* -0  Tc -0.006  Tw (the COM port in the PC Software. The COM port setting is at the bottom of the \223System ) Tj139.8 -13.8  TD 0  Tc 0  Tw ( ) Tj-139.8 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0069  Tc -0.0369  Tw (USING THE PSX UTILITIES SOFTWARE) Tj228.12 0  TD 0  Tc 0  Tw ( ) Tj-228.12 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD 0  Tc -0  Tw (Run the file ") Tj64.56 0  TD /F0 12  Tf-0.007  Tc 0.007  Tw (PSX Utils.exe) Tj69.24 0  TD /F1 12  Tf-0.0168  Tc 0.0968  Tw (" on your PC.) Tj65.64 0  TD 0  Tc 0  Tw ( ) Tj-199.44 -13.8  TD ( ) Tj0 -13.8  TD -0.001  Tc 0.001  Tw (The software is in the form of a standard Windows dialog box with different features of ) Tj0 -13.68  TD -0.0017  Tc 0.0103  Tw (the product on separate "pages" of the dialog. Each page is explained in this manual.) Tj405.72 0  TD 0  Tc 0  Tw ( ) Tj-405.72 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0  Tc 0  Tw (CONNECTION PROBLEMS) Tj153.12 0  TD 0  Tc 0  Tw ( ) Tj-153.12 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0166  Tc 0.0566  Tw (When you first s) Tj79.56 0  TD -0.0019  Tc 0.0119  Tw (witch on the PlayStation and/or PC, you may find the software keeps ) Tj-79.56 -13.8  TD -0.0086  Tc 0.0286  Tw (saying "Error: Console did not respond". ) Tj198.6 0  TD 0  Tc 0  Tw ( ) Tj-198.6 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0048  Tc -0.0048  Tw (SYSTEM INFORMATION TAB) Tj169.44 0  TD 0  Tc 0  Tw ( ) Tj-169.44 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0088  Tc 0.0441  Tw (This is the first page that will be displayed when you run the software. It simply displays ) Tj0 -13.68  TD -0.0067  Tc 0.0367  Tw (information about your PC and) Tj149.28 0  TD -0.0117  Tc 0.0651  Tw ( the version information of your SharkLink when you ) Tj-149.28 -13.8  TD -0.0042  Tc 0.0042  Tw (click the "Detect" button.) Tj121.8 0  TD 0  Tc 0  Tw ( ) Tj-121.8 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.0037  Tc 0.0037  Tw (CODE GENERATOR) Tj114.96 0  TD 0  Tc 0  Tw ( ) Tj-114.96 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0049  Tc 0.0199  Tw (The "Hex" tick button allows you to see and enter values in hexadecimal. This feature is ) TjT* -0.003  Tc -0.057  Tw (for advanced users only ) Tj117.24 0  TD -0.036  Tc 0  Tw (-) Tj4.08 0  TD -0.008  Tc 0.032  Tw ( other users should steer clear.) Tj145.2 0  TD 0  Tc 0  Tw ( ) Tj-266.52 -13.8  TD ( ) Tj0 -13.8  TD -0.0168  Tc 0.0168  Tw (The "Search ) Tj62.16 0  TD -0.0058  Tc 0.0208  Tw (History" lists what you did during the search. ) Tj220.44 0  TD 0  Tc 0  Tw ( ) Tj-282.6 -13.8  TD ( ) Tj0 -13.68  TD -0.0078  Tc 0.0278  Tw (A powerful feature is being able to change the size of the data you are searching for. By ) Tj0 -13.8  TD -0.0096  Tc 0.0396  Tw (default you will search for 16 bit numbers which range from 0 to 65535. However, you ) TjT* -0.0069  Tc 0.0269  Tw (will find values like money are ) Tj151.92 0  TD -0  Tc 0  Tw (usually 32 bit numbers. To search for 32 bit numbers ) Tj-151.92 -13.8  TD -0.0146  Tc 0.0596  Tw (simply click the "32 bit" and start a search.) Tj205.92 0  TD 0  Tc 0  Tw ( ) Tj-205.92 -13.8  TD ( ) Tj0 -13.8  TD -0.0094  Tc 0.0447  Tw (The "Resume Last" button is for resuming a search you were doing before. If you quit a ) TjT* -0  Tc 0  Tw (search half way through or quit the PSX Utilities program by mistake,) Tj336.6 0  TD -0.0148  Tc 0.0628  Tw ( you can use this ) Tj-336.6 -13.8  TD -0.0092  Tc 0.0392  Tw (button to resume the search where you left off.) Tj224.16 0  TD 0  Tc 0  Tw ( ) Tj-224.16 -13.8  TD ( ) Tj0 -13.8  TD -0.0022  Tc 0.0022  Tw (Example: How to Find a Code) Tj146.28 0  TD 0  Tc 0  Tw ( ) TjETendstream
+endobj
+16 0 obj
+4689
+endobj
+14 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 15 0 R
+>>
+endobj
+18 0 obj
+<<
+/Length 19 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf0  Tc 0  Tw ( ) Tj0 -13.8  TD -0.0048  Tc 0.0248  Tw (Load the SharkLink\231 on your PlayStation. ) Tj212.04 0  TD 0  Tc 0  Tw ( ) Tj-212.04 -13.8  TD ( ) Tj0 -13.8  TD -0.0035  Tc 0.026  Tw (Select a game that has either lives or bullets displayed on screen when you\222re playing it. ) TjT* -0.0055  Tc 0.0255  Tw (Put this game CD into your PlayStation.) Tj192.96 0  TD 0  Tc 0  Tw ( ) Tj-192.96 -13.8  TD ( ) Tj0 -13.68  TD -0.0073  Tc 0.033  Tw (Load the game from the SharkLink main menu by selecting \223Start Game\224 and \223Start ) Tj0 -13.8  TD -0.024  Tc 0  Tw (G) Tj8.64 0  TD 0.0013  Tc -0.0013  Tw (ame Without Codes\224. You need to \223Start Game Without Codes\224 to enable the link to ) Tj-8.64 -13.8  TD 0.01  Tc -0.01  Tw (the PC.) Tj35.4 0  TD 0  Tc 0  Tw ( ) Tj-35.4 -13.8  TD ( ) Tj0 -13.8  TD -0.0012  Tc 0.0083  Tw (On the PC software select the \223Code Generator\224 tab. Ensure that \22316 bit\224 is set in the ) TjET1 1 1 rg 18 -18 612 792 re f0 0 0 rg BT169.56 557.52  TD0  Tc 0  Tw ( ) Tj-79.56 -13.8  TD ( ) Tj0 -13.8  TD -0.0073  Tc 0.0313  Tw (When playing the game you should have something displayed on ) Tj315.84 0  TD -0  Tc 0  Tw (screen like the number ) Tj-315.84 -13.8  TD -0.0051  Tc 0.0236  Tw (of lives or bullets. For this example, let's say you have 6 lives. ) Tj301.44 0  TD 0  Tc 0  Tw ( ) Tj-301.44 -13.8  TD ( ) Tj0 -13.68  TD -0.0065  Tc 0.0255  Tw (On the PC software, you need to enter the value in the edit box next to the \223Equal To\224 ) Tj0 -13.8  TD -0.0066  Tc 0.0306  Tw (button.  In our example, this means entering "6" in the edit box \(do not incl) Tj360.72 0  TD -0.012  Tc 0.012  Tw (ude the ) Tj-360.72 -13.8  TD -0.0051  Tc 0.0201  Tw (inverted comma's !\). Now tell the software to search the game for all instances of the ) Tj0 -13.8  TD 0.001  Tc -0.001  Tw (number 6, by clicking the \223Equal To\224 button.) Tj217.68 0  TD 0  Tc 0  Tw ( ) Tj-217.68 -13.8  TD ( ) Tj0 -13.8  TD -0  Tc 0  Tw (The PlayStation will freeze while the game is searched ) Tj266.28 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD -0.0043  Tc 0.0215  Tw ( a progress bar is displayed on ) Tj-270.24 -13.8  TD 0.0031  Tc -0.0031  Tw (the PC software during this) Tj131.4 0  TD -0.0086  Tc 0.0086  Tw ( period.) Tj36.6 0  TD 0  Tc 0  Tw ( ) Tj-168 -13.8  TD ( ) Tj0 -13.8  TD -0.0017  Tc 0.0117  Tw (When finished, the number of  \223possibilities\224 \(possible "correct" codes\) will be ) TjT* -0.001  Tc 0.001  Tw (displayed. This will be quite a high number like 4000. We need to get this number down ) Tj0 -13.68  TD -0.0041  Tc 0.0112  Tw (to 1 or 2.  To do this, return to the PlayStation and purposely lose a life in) Tj353.52 0  TD -0.0175  Tc 0.0775  Tw ( the game; you ) Tj-353.52 -13.8  TD -0.005  Tc 0.0165  Tw (should now have 5 lives.   Change the value in the edit box to 5 and click the \223Equal To\224 ) Tj0 -13.8  TD -0.0017  Tc 0.0097  Tw (button. The search happens again, and the number of possibilities will reduce.  If the ) TjT* -0.0023  Tc 0.0023  Tw (number of possibilities is less than 10 then we can stop here, o) Tj299.52 0  TD -0.0093  Tc 0.0693  Tw (therwise you can keep ) Tj-299.52 -13.8  TD -0.0048  Tc 0.0181  Tw (losing lives and performing another \223Equal To\224 search each time.) Tj315.12 0  TD 0  Tc 0  Tw ( ) Tj-315.12 -13.8  TD ( ) Tj0 -13.8  TD -0.003  Tc 0.019  Tw (Now you should have only a few possibilities displayed.  Go to the \223Results \(Code ) TjT* -0.0056  Tc 0.0267  Tw (Tester\)\224 tab.  In here, all the possibilities will be displayed in a list.  One of the) Tj378.6 0  TD -0.0045  Tc 0.0045  Tw (se will be ) Tj-378.6 -13.8  TD -0.0048  Tc 0.0175  Tw (the code for infinite lives, but at this point we don't know which one.  To try one, click ) Tj0 -13.8  TD -0.0013  Tc 0.0079  Tw (the \223address\224 value so it is highlighted.  Then click the \223Copy to active\224 button to send it ) Tj0 -13.68  TD -0.0042  Tc 0.0142  Tw (to the PlayStation.  After a few seconds the new code will ap) Tj292.2 0  TD 0.0027  Tc -0.0027  Tw (pear in the \223Active Codes\224 ) Tj-292.2 -13.8  TD -0.0088  Tc 0.0316  Tw (list.  Play the game and see if it has worked \(lose a life on purpose again\).  If the lives ) Tj0 -13.8  TD -0.0118  Tc 0.0497  Tw (stay the same when you die, this is the correct code.  If not, try another code until you ) TjT* -0.0055  Tc 0.0055  Tw (discover the correct one.) Tj117.96 0  TD 0  Tc 0  Tw ( ) Tj-117.96 -13.8  TD ( ) Tj0 -13.8  TD -0.0233  Tc 0.0833  Tw (Once you have found ) Tj105.96 0  TD -0.0166  Tc 0.0486  Tw (a code you can add it to your code list using the \223Code List\224 utility ) Tj-105.96 -13.8  TD -0.0037  Tc 0.0277  Tw (as described later in this manual.) Tj157.32 0  TD 0  Tc 0  Tw ( ) Tj-157.32 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.009  Tc -0.009  Tw (CODE LIST COMPILER) Tj134.04 0  TD 0  Tc 0  Tw ( ) Tj-134.04 -13.56  TD /F1 12  Tf( ) TjETendstream
+endobj
+19 0 obj
+5015
+endobj
+17 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 18 0 R
+>>
+endobj
+21 0 obj
+<<
+/Length 22 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf-0.002  Tc 0.01  Tw (This page contains code list related utilities. These utilities allow you to maintain a code ) Tj0 -13.8  TD -0.005  Tc 0.035  Tw (list on your PC and upload it to your) Tj175.32 0  TD -0.0089  Tc 0.0416  Tw ( cartridge when you like. This means you can type in ) Tj-175.32 -13.8  TD -0.0095  Tc 0.0362  Tw (codes on your PC, or even download your code list and send it to a friend on the Internet.) Tj428.4 0  TD 0  Tc 0  Tw ( ) Tj-428.4 -13.8  TD ( ) Tj0 -13.8  TD -0.0045  Tc 0.0216  Tw (The page is split into three separate sections "Code List Compiler", "Upload Codes to ) TjT* -0.0071  Tc 0.0471  Tw (Cartridge" and "Download ) Tj131.4 0  TD -0.0114  Tc 0.0114  Tw (Codes from Cartridge".) Tj112.56 0  TD 0  Tc 0  Tw ( ) Tj-243.96 -13.68  TD -0.0081  Tc 0.0542  Tw (The first thing you should do is download your code list from your SharkLink.) Tj377.4 0  TD 0  Tc 0  Tw ( ) Tj-377.4 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.0055  Tc 0.0055  Tw (DOWNLOAD CODES FROM CARTRIDGE) Tj233.64 0  TD 0  Tc 0  Tw ( ) Tj-233.64 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.004  Tc 0.019  Tw (Use the "Download Codes from Cartridge" section to download your code list to a file on ) TjT* -0.0129  Tc 0.0471  Tw (your PC. Firstly, you will need to ) Tj163.56 0  TD 0.001  Tc 0.0123  Tw (specify a filename in the edit box titled "Destination ) Tj-163.56 -13.8  TD -0.0015  Tc 0.009  Tw (file for code list", then type in a filename like "mycodes.txt".  Making sure the main ) Tj0 -13.8  TD -0.008  Tc 0  Tw (men) Tj20.64 0  TD -0.0086  Tc 0.0429  Tw (u is displayed on your SharkLink\231, click the "Download codes" button.  The codes ) Tj-20.64 -13.8  TD -0.0107  Tc 0.0573  Tw (are downloaded to your PC and saved to the file you specified.  Open your codes file with ) Tj0 -13.8  TD -0.0024  Tc 0.0184  Tw (Wordpad or a similar text editor and you will see the code list as text on) Tj345.72 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD -0.0069  Tc 0.0069  Tw (screen. ) Tj36.6 0  TD 0  Tc 0  Tw ( ) Tj-386.28 -13.68  TD ( ) Tj0 -13.8  TD -0.0047  Tc 0.0114  Tw (You can edit the code list and add or remove codes as you wish. The process of editing ) TjT* -0.0055  Tc 0.0055  Tw (this list is explained on the next page.) Tj180.48 0  TD 0  Tc 0  Tw ( ) Tj-180.48 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.009  Tc -0.009  Tw (CODE LIST COMPILER) Tj134.04 0  TD 0  Tc 0  Tw ( ) Tj-134.04 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0037  Tc 0.0187  Tw (This utility will check your code list for errors before sending it to the SharkLink. You ) TjT* -0.0424  Tc 0.1624  Tw (must "compile" yo) Tj89.64 0  TD -0.0039  Tc 0.0264  Tw (ur code list before you can send it back to the SharkLink.  To see this ) Tj-89.64 -13.8  TD -0.0073  Tc 0.0313  Tw (work, simply click the "browse" button and select the codes file you downloaded with the ) Tj0 -13.8  TD -0.0047  Tc 0.0304  Tw ("Download Codes" button.  Now click the "Compile Codes" button and you should find ) Tj0 -13.68  TD 0.0036  Tc -0.0036  Tw (the list com) Tj56.04 0  TD -0.006  Tc -0.034  Tw (piles with no errors.) Tj95.76 0  TD 0  Tc 0  Tw ( ) Tj-151.8 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.0125  Tc 0.0125  Tw (UPLOAD CODES TO CARTRIDGE) Tj191.52 0  TD 0  Tc 0  Tw ( ) Tj-191.52 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0086  Tc 0.0406  Tw (Once you have compiled your code list with the "Compile Codes" button, you can upload ) TjT* -0  Tc 0  Tw (them back to the SharkLink and replace its code list.  To do this, simply click the ) TjT* -0.0036  Tc 0.0036  Tw ("Upload Codes" button.) Tj114.72 0  TD 0  Tc 0  Tw ( ) Tj-114.72 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.0131  Tc 0.1331  Tw (KNOWN PROBLE) Tj100.32 0  TD 0  Tc 0  Tw (MS ) Tj21 0  TD ( ) Tj-121.32 -13.56  TD /F1 12  Tf( ) Tj0 -13.68  TD -0.0018  Tc 0.011  Tw (Game freezes and doesn\222t resume during code search/code test Because of all the ) Tj0 -13.8  TD -0.0031  Tc 0.0216  Tw (communication necessary when finding and testing codes, the system can cause the game ) TjT* -0.0049  Tc 0.022  Tw (to freeze or lose communication with the PC. This can usually be corrected by repeati) Tj411.48 0  TD -0.06  Tc -0.06  Tw (ng ) Tj-411.48 -13.8  TD -0.0088  Tc 0.0431  Tw (the operation you were trying \(clicking the button again\) or by clicking the \223system ) Tj0 -13.8  TD -0.0061  Tc 0.0279  Tw (information\224 tab and repeatedly clicking the \223Detect\224 button until the game re) Tj374.76 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0.0154  Tc (starts.) Tj28.44 0  TD 0  Tc ( ) Tj-407.16 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0.0045  Tc -0.0045  Tw (EDITING A CODE LIST TEXT FILE) Tj198.48 0  TD 0  Tc 0  Tw ( ) Tj-198.48 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0074  Tc 0.0589  Tw (Download your current code list with the "Downloa) Tj249.24 0  TD -0.0052  Tc 0.0252  Tw (d Codes from Cartridge" utility and ) Tj-249.24 -13.8  TD -0.0017  Tc 0.0137  Tw (have a look at the file with a normal text editor like "Wordpad".  The file may look a bit ) TjETendstream
+endobj
+22 0 obj
+5122
+endobj
+20 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 21 0 R
+>>
+endobj
+24 0 obj
+<<
+/Length 25 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf-0.0052  Tc 0.0292  Tw (strange but you will clearly see the basic format of a code list file.  It consists of lines that ) Tj0 -13.8  TD 0  Tc 0  Tw (start with the character \221;\222 , ) Tj132.96 0  TD -0.0046  Tc -0.0054  Tw (lines that are titles for games, titles for the codes, and finally ) Tj-132.96 -13.8  TD -0.0122  Tc 0.0422  Tw (the number for the codes themselves. At the end of each game you will see ".end" ) Tj395.52 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0.015  Tc -0.015  Tw ( this ) Tj-399.48 -13.8  TD -0.0014  Tc 0.0174  Tw (marks the end of the codes for that game, and a new game title will follow.) Tj359.64 0  TD 0  Tc 0  Tw ( ) Tj-359.64 -13.8  TD ( ) Tj0 -13.8  TD -0.0113  Tc 0.0313  Tw (It is easy to add new ga) Tj112.56 0  TD -0.0028  Tc 0.0188  Tw (me titles and codes.  In this example we will add a new game title ) Tj-112.56 -13.68  TD -0.006  Tc 0.021  Tw (and a couple of codes to your code list.) Tj187.56 0  TD 0  Tc 0  Tw ( ) Tj-187.56 -13.8  TD ( ) Tj0 -13.8  TD -0.0044  Tc 0.017  Tw (We will add our game at the very bottom of the file, after the last line which reads ".end". ) Tj432.96 0  TD 0  Tc 0  Tw ( ) Tj-432.96 -13.8  TD ( ) Tj0 -13.8  TD -0.0045  Tc 0.0312  Tw (Type the game's name in quotation marks like so: ) Tj241.2 0  TD /F0 12  Tf-0.072  Tc 0  Tw ("my) Tj22.56 0  TD -0.0048  Tc 0.0048  Tw ( game") Tj37.08 0  TD /F1 12  Tf0  Tc 0  Tw ( ) Tj-300.84 -13.8  TD -0.0058  Tc 0.027  Tw (After the name, you need its codes. Codes are made up of the code name \(again in ) Tj0 -13.8  TD -0.006  Tc 0.006  Tw (quotes\). ) Tj41.28 0  TD /F0 12  Tf0.0033  Tc -0.0033  Tw (Eg: "infinite lives") Tj96.72 0  TD /F1 12  Tf0  Tc 0  Tw ( ) Tj-138 -13.8  TD ( ) Tj0 -13.8  TD -0.0118  Tc 0.0598  Tw (After the code name you can have any number of code parameters \(code parameters are ) TjT* -0.0053  Tc 0.0173  Tw (made up of an 8 digit hexadecimal number, then a spac) Tj264.84 0  TD -0.007  Tc 0.037  Tw (e \221 \221 character, then a 4 digit ) Tj-264.84 -13.68  TD -0.0076  Tc 0.0076  Tw (hexadecimal number\). ) Tj110.16 0  TD /F0 12  Tf0.008  Tc -0.008  Tw (Eg: 8001a630 0163) Tj96.12 0  TD 0  Tc 0  Tw ( ) Tj-206.28 -13.8  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0023  Tc 0.0143  Tw (You must now end the game entry with the text ".end) Tj256.56 0  TD /F0 12  Tf0.018  Tc -0.018  Tw (".  .end) Tj37.44 0  TD 0  Tc 0  Tw ( ) Tj-294 -13.8  TD /F1 12  Tf-0.0042  Tc 0.0319  Tw (The finished game entry with it\222s single code should now look like this :) Tj347.76 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0  Tc ( ) Tj-351.72 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf-0.015  Tc 0.015  Tw ("my game") Tj59.64 0  TD 0  Tc 0  Tw ( ) Tj-131.64 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.004  Tc -0.004  Tw ("infinite lives") Tj75.72 0  TD 0  Tc 0  Tw ( ) Tj-147.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a630 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.012  Tc (.end) Tj21.72 0  TD /F1 12  Tf0  Tc ( ) Tj-93.72 -13.56  TD ( ) Tj0 -13.8  TD -0.0051  Tc 0.0262  Tw (If you have more than one code parameter to follow a code\222s name, simply enter it after ) Tj0 -13.68  TD -0.0049  Tc 0.0049  Tw (the first code parameter. ) Tj119.64 0  TD /F0 12  Tf0.009  Tc 0  Tw (E.g.) Tj20.04 0  TD 0  Tc ( ) Tj-139.68 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.015  Tc 0.015  Tw ("my game") Tj59.64 0  TD 0  Tc 0  Tw ( ) Tj-131.64 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.004  Tc -0.004  Tw ("infinite lives") Tj75.72 0  TD 0  Tc 0  Tw ( ) Tj-147.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a630 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a632 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.012  Tc (.end) Tj21.72 0  TD 0  Tc ( ) Tj-93.72 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0125  Tc 0.0525  Tw (If you have more than one code for the game, then simply put) Tj296.16 0  TD 0  Tc 0  Tw ( it after the first code. E.g.) Tj125.76 0  TD ( ) Tj-421.92 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf-0.015  Tc 0.015  Tw ("my game") Tj59.64 0  TD 0  Tc 0  Tw ( ) Tj-131.64 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.004  Tc -0.004  Tw ("infinite lives") Tj75.72 0  TD 0  Tc 0  Tw ( ) Tj-147.72 -13.68  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a630 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a632 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0017  Tc 0.0017  Tw ("infinite ammo") Tj84.96 0  TD 0  Tc 0  Tw ( ) Tj-156.96 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a928 0009) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.012  Tc (.end) Tj21.72 0  TD /F1 12  Tf0  Tc ( ) Tj-93.72 -13.56  TD ( ) Tj0 -14.04  TD /F0 12  Tf0  Tc (COMMENTS) Tj72 0  TD 0  Tc ( ) Tj-72 -13.56  TD /F1 12  Tf( ) TjETendstream
+endobj
+25 0 obj
+4963
+endobj
+23 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 24 0 R
+>>
+endobj
+27 0 obj
+<<
+/Length 28 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf-0.0087  Tc 0.0421  Tw (You can also enter your own comments in the file.  Comments are lines of text which are ) Tj0 -13.8  TD 0  Tc -0  Tw (ignored by the compile) Tj110.88 0  TD -0.0052  Tc 0.0252  Tw (r. They are useful for adding \221line breaks\222 between games or for ) Tj-110.88 -13.8  TD -0.0081  Tc 0.0595  Tw (simply adding descriptions to your game lists. ) Tj224.04 0  TD 0  Tc 0  Tw ( ) Tj-224.04 -13.8  TD -0.0027  Tc 0.0027  Tw (A comment line must start with a \221;\222 or \221#\222 character.) Tj254.16 0  TD 0  Tc 0  Tw ( ) Tj-182.16 -14.04  TD /F0 12  Tf-0.0165  Tc 0.0165  Tw (Example :) Tj52.2 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0  Tc ( ) Tj-128.16 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.036  Tc (;) Tj3.96 0  TD 0.0019  Tc (--------------------------------------) Tj151.8 0  TD 0  Tc ( ) Tj-227.76 -13.68  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0011  Tc 0.0011  Tw (; I added this on 27/10/99) Tj129 0  TD 0  Tc 0  Tw ( ) Tj-201 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.032  Tc 0.032  Tw ("my ) Tj25.56 0  TD -0.0048  Tc 0  Tw (game") Tj34.08 0  TD 0  Tc ( ) Tj-131.64 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.004  Tc -0.004  Tw ("infinite lives") Tj75.72 0  TD 0  Tc 0  Tw ( ) Tj-147.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a630 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a632 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0017  Tc 0.0017  Tw ("infinite ammo") Tj84.96 0  TD 0  Tc 0  Tw ( ) Tj-156.96 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a928 0009) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.012  Tc (.end) Tj21.72 0  TD 0  Tc ( ) Tj-93.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.036  Tc (;) Tj3.96 0  TD 0.0019  Tc (--------------------------------------) Tj151.8 0  TD 0  Tc ( ) Tj-227.76 -13.56  TD /F1 12  Tf( ) Tj0 -13.68  TD ( ) Tj0 -14.04  TD /F0 12  Tf0  Tc -0  Tw (CODES WHICH DEFAULT ON OR OFF) Tj217.56 0  TD 0  Tc 0  Tw ( ) Tj-217.56 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0048  Tc 0.0288  Tw (As in the cartridge "edit code" function, you can make codes default to being ON or) Tj402.96 0  TD -0.016  Tc -0.044  Tw ( OFF ) Tj-402.96 -13.8  TD -0.0086  Tc 0.025  Tw (in the list when you first look at them.  By default, the codes in the list are ON.  You can ) Tj0 -13.8  TD -0.002  Tc -0.0055  Tw (make individual codes default to OFF by adding the text ".off" after the codes name. Eg ) TjT* -0.0025  Tc 0.0025  Tw (the code named "infinite ammo" in the example below will default to OF) Tj350.4 0  TD 0.036  Tc 0.084  Tw (F :) Tj13.08 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0  Tc ( ) Tj-367.44 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf-0.015  Tc 0.015  Tw ("my game") Tj59.64 0  TD 0  Tc 0  Tw ( ) Tj-131.64 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.004  Tc -0.004  Tw ("infinite lives") Tj75.72 0  TD 0  Tc 0  Tw ( ) Tj-147.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a630 0163) Tj75 0  TD ( ) Tj-147 -13.68  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a632 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.008  Tc -0.008  Tw ("infinite ammo" .off) Tj105.12 0  TD 0  Tc 0  Tw ( ) Tj-177.12 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a928 0009) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.012  Tc (.end) Tj21.72 0  TD 0  Tc ( ) Tj-93.72 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.0034  Tc 0.0234  Tw (STOPPING AT A POINT IN THE FILE) Tj209.4 0  TD 0  Tc 0  Tw ( ) Tj-209.4 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0045  Tc 0.0165  Tw (You can end the code file generation process at any point in your list, so long as it is after ) TjT* -0.0173  Tc 0.0173  Tw (the end of a) Tj56.16 0  TD -0.0015  Tc 0.0227  Tw ( game entry \(not in the middle of an entry\). To do this simply insert the text ) Tj-56.16 -13.68  TD -0.0077  Tc 0.0343  Tw (".stop".  For example, the file below would result in the game "my 1st game" being in the ) Tj0 -13.8  TD -0.0124  Tc 0.0547  Tw (list, but not the game "my 2nd game" as there is a ".stop" command before this game :) Tj413.76 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0  Tc ( ) Tj-417.72 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf(#) Tj6 0  TD 0.0019  Tc (--------------------------------------) Tj151.8 0  TD 0  Tc ( ) Tj-229.8 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0  Tc -0  Tw (# I added this on 27/10/99) Tj131.04 0  TD 0  Tc 0  Tw ( ) Tj-203.04 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0131  Tc 0.0131  Tw ("my 1st game") Tj77.28 0  TD 0  Tc 0  Tw ( ) Tj-149.28 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0076  Tc 0.0076  Tw ("code name 1") Tj76.56 0  TD 0  Tc 0  Tw ( ) Tj-148.56 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8001a630 0163) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.012  Tc (.end) Tj21.72 0  TD 0  Tc ( ) Tj-93.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.0048  Tc (.stop) Tj24.36 0  TD 0  Tc ( ) Tj-96.36 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (#) Tj6 0  TD 0.0019  Tc (--------------------------------------) Tj151.8 0  TD 0  Tc ( ) TjETendstream
+endobj
+28 0 obj
+5248
+endobj
+26 0 obj
+<<
+/Type /Page
+/Parent 5 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 27 0 R
+>>
+endobj
+31 0 obj
+<<
+/Length 32 0 R
+>>
+stream
+BT90 708.96  TD0 0 0 rg /F1 12  Tf0  Tc 0  Tw ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf0  Tc -0  Tw (# I added this on 27/10/99) Tj131.04 0  TD 0  Tc 0  Tw ( ) Tj-203.04 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0131  Tc 0.0131  Tw ("my 2nd game") Tj81.96 0  TD 0  Tc 0  Tw ( ) Tj-153.96 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0076  Tc 0.0076  Tw ("code name 1") Tj76.56 0  TD 0  Tc 0  Tw ( ) Tj-148.56 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (8004a500 0172) Tj75 0  TD ( ) Tj-147 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (.) Tj3 0  TD 0.016  Tc (end) Tj18.72 0  TD 0  Tc ( ) Tj-93.72 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD (#) Tj6 0  TD 0.0019  Tc (--------------------------------------) Tj151.8 0  TD /F1 12  Tf0  Tc ( ) Tj-229.8 -13.44  TD ( ) Tj0 -13.8  TD 0.007  Tc -0.007  Tw (And that\222s it!) Tj63.96 0  TD 0  Tc 0  Tw ( ) Tj-63.96 -13.8  TD -0.0062  Tc 0.0247  Tw (You now know all there is to know about editing your code list ) Tj306.24 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0.0129  Tc 0.0471  Tw ( simple isn\222t it? ) Tj77.52 0  TD 0  Tc 0  Tw ( ) Tj-387.72 -13.8  TD ( ) Tj0 -13.8  TD -0.0063  Tc 0.0263  Tw (All you need to do now is compile the code list file and then upload it to your SharkLink.) Tj428.88 0  TD 0  Tc 0  Tw ( ) Tj-428.88 -13.8  TD ( ) Tj0 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf0  Tc -0  Tw (ADVANCED CODE TYP) Tj133.2 0  TD 0.042  Tc 0  Tw (ES) Tj14.76 0  TD 0  Tc ( ) Tj-147.96 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0032  Tc 0.0166  Tw (As well as the standard 8000000 codes, there are a few more which can be used.  Some ) Tj0 -13.68  TD -0.0047  Tc 0.0207  Tw (affect memory in the game, just like 8000000 codes, and some affect the way SharkLink ) Tj0 -13.8  TD -0.0165  Tc 0  Tw (behaves.) Tj41.52 0  TD 0  Tc ( ) Tj-41.52 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf(80) Tj12 0  TD ( ) Tj-12 -13.56  TD /F1 12  Tf( ) Tj3 0  TD ( ) Tj-3 -13.8  TD -0.0042  Tc 0.0127  Tw (This is the most common code.  It simply writes the given 16 bit v) Tj318.24 0  TD -0.0069  Tc 0.0069  Tw (alue to the given ) Tj-318.24 -13.8  TD -0.004  Tc 0.004  Tw (memory location.) Tj84.6 0  TD 0  Tc 0  Tw ( ) Tj-84.6 -13.8  TD ( ) Tj0 -13.8  TD /F0 12  Tf-0.0165  Tc (Example:) Tj49.2 0  TD /F1 12  Tf0.0032  Tc -0.0032  Tw ( The word value 2067 is repeatedly written to memory location 80100204.) Tj357.48 0  TD 0  Tc 0  Tw ( ) Tj-406.68 -13.8  TD ( ) Tj0 -13.68  TD ( ) Tj36 0  TD (80100204 2067) Tj75 0  TD ( ) Tj-111 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf(30) Tj12 0  TD ( ) Tj-12 -13.56  TD /F1 12  Tf( ) Tj3 0  TD ( ) Tj-3 -13.8  TD -0.0059  Tc 0.0259  Tw (Byte code. Same as 80 code but only affects the byte at the given address \(odd or even ) Tj0 -13.8  TD -0.016  Tc 0  Tw (address\).) Tj42.84 0  TD 0  Tc ( ) Tj-42.84 -13.8  TD ( ) Tj0 -13.8  TD /F0 12  Tf0.0034  Tc (Example) Tj45.24 0  TD /F1 12  Tf0.0132  Tc -0.0132  Tw (: The byte va) Tj63 0  TD 0.0019  Tc 0.0115  Tw (lue 67 is repeatedly written to the memory location 80100205) Tj296.52 0  TD 0  Tc 0  Tw ( ) Tj-404.76 -13.8  TD ( ) Tj0 -13.8  TD ( ) Tj36 0  TD (30100205 0067) Tj75 0  TD ( ) Tj-111 -13.68  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.012  Tc (D0) Tj14.64 0  TD 0  Tc ( ) Tj-14.64 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0018  Tc 0.0098  Tw (If word value in location supplied is the same as value supplied, perform the next code.) Tj418.92 0  TD 0  Tc 0  Tw ( ) Tj-418.92 -13.8  TD -0.0024  Tc 0.0249  Tw (This code is useful if you only want to execute certain codes at certain points in th) Tj394.8 0  TD -0.048  Tc 0.048  Tw (e game ) Tj-394.8 -13.8  TD -0.0073  Tc 0.0401  Tw (\(like on certain levels, or only when the game has fully loaded\).) Tj306.24 0  TD 0  Tc 0  Tw ( ) Tj-306.24 -13.8  TD ( ) Tj0 -13.8  TD /F0 12  Tf-0.0165  Tc (Example:) Tj49.2 0  TD /F1 12  Tf-0.0048  Tc 0.0288  Tw (  If the memory location 8008030C holds the value 01FE then perform the code ) Tj-49.2 -13.8  TD -0.006  Tc 0.006  Tw (80100204 0067. Otherwise do nothing.) Tj187.92 0  TD 0  Tc 0  Tw ( ) Tj-187.92 -13.8  TD ( ) Tj36 0  TD -0.006  Tc 0.006  Tw (D008030C 01FE) Tj81.6 0  TD 0  Tc 0  Tw ( ) TjETendstream
+endobj
+32 0 obj
+4220
+endobj
+29 0 obj
+<<
+/Type /Page
+/Parent 30 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 31 0 R
+>>
+endobj
+34 0 obj
+<<
+/Length 35 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf0  Tc 0  Tw ( ) Tj36 0  TD (80100204 0067) Tj75 0  TD ( ) Tj-111 -13.8  TD ( ) Tj0 -13.8  TD ( ) TjT* 0.018  Tc -0.018  Tw (C0 ) Tj17.04 0  TD 0  Tc 0  Tw ( ) Tj18.96 0  TD 0.004  Tc -0.004  Tw (\(No effect on V1.00/V2.0) Tj123.6 0  TD -0.012  Tc 0.012  Tw (0\). ) Tj15.96 0  TD 0  Tc 0  Tw ( ) Tj-175.56 -13.8  TD ( ) Tj0 -13.8  TD -0.0014  Tc 0.0089  Tw (If word value in location supplied is the same as value, do ALL codes. Otherwise don't ) Tj0 -13.68  TD -0.0218  Tc 0.0218  Tw (do anything.) Tj59.88 0  TD 0  Tc 0  Tw ( ) Tj-59.88 -13.8  TD ( ) Tj0 -13.8  TD -0.012  Tc 0.0463  Tw (A C0 code is the same as a D0 code except it acts on ALL codes and is useful for games ) TjT* -0.0024  Tc 0.0117  Tw (that don\222t load when codes are on.  This code should be put in) Tj297.96 0  TD -0.0193  Tc 0.0536  Tw ( a "Must Be On" "\(M\)" so ) Tj-297.96 -13.8  TD -0.0064  Tc 0.0064  Tw (it can be turned off.) Tj94.2 0  TD 0  Tc 0  Tw ( ) Tj-94.2 -13.8  TD ( ) Tj0 -13.8  TD /F0 12  Tf-0.0142  Tc 0.0142  Tw (For example:) Tj68.16 0  TD /F1 12  Tf-0.0099  Tc 0.0549  Tw ( If you had a game for which you don\222t want any codes on until the ) Tj-68.16 -13.8  TD -0.0048  Tc 0.0148  Tw (memory location 801AAAAA contains the value 1234, you could have the following ) Tj0 -13.8  TD -0.0384  Tc 0  Tw (code:) Tj25.92 0  TD 0  Tc ( ) Tj-25.92 -13.8  TD ( ) Tj0 -13.68  TD ( ) Tj36 0  TD -0.012  Tc 0.012  Tw (\223\(M\) Must be on\224) Tj86.16 0  TD 0  Tc 0  Tw ( ) Tj-122.16 -13.8  TD ( ) Tj36 0  TD -0.007  Tc 0.007  Tw (C01AAAAA  1234 ) Tj96.24 0  TD 0  Tc 0  Tw ( ) Tj-132.24 -13.8  TD ( ) Tj36 0  TD ( ) Tj-36 -13.8  TD -0.008  Tc (Having) Tj35.16 0  TD -0.0017  Tc 0.0143  Tw ( the text \223\(M\)\224 at the start of the name of the code makes the code default to ON ) Tj-35.16 -13.8  TD -0.0037  Tc 0.0157  Tw (and the user cannot turn it off in the code list.) Tj218.28 0  TD 0  Tc 0  Tw ( ) Tj-218.28 -13.8  TD ( ) Tj0 -13.8  TD ( ) TjT* 0.018  Tc -0.018  Tw (C1 ) Tj17.04 0  TD 0  Tc 0  Tw ( ) Tj18.96 0  TD -0.003  Tc 0.003  Tw (\(No effect on V1.00/V2.00\). ) Tj139.56 0  TD 0  Tc 0  Tw ( ) Tj-175.56 -13.8  TD ( ) Tj0 -13.8  TD -0.0057  Tc 0.0199  Tw (Code on time delay, delay codes being turned on for a period of time specified by the ) Tj0 -13.68  TD -0.024  Tc 0  Tw (va) Tj11.28 0  TD -0.0042  Tc 0.0184  Tw (lue part of this code. By default this value is set to 1388 hex \(5000 decimal\) which ) Tj-11.28 -13.8  TD -0.003  Tc 0.0101  Tw (waits about 10 seconds before activating the cheats.  This can be a useful alternative to a ) Tj0 -13.8  TD -0.0093  Tc 0.036  Tw (D code for keeping codes off whilst a game loads.) Tj240.6 0  TD 0  Tc 0  Tw ( ) Tj-240.6 -13.8  TD ( ) Tj0 -13.8  TD /F0 12  Tf-0.0165  Tc 0.0165  Tw (Example: ) Tj52.2 0  TD /F1 12  Tf0.0048  Tc -0.0048  Tw (To delay all codes ) Tj90.72 0  TD -0.0034  Tc 0.0034  Tw (from being turned on for about 30 seconds in most games, ) Tj-142.92 -13.8  TD -0.0125  Tc 0.0549  Tw (use the code C1000000 4000.  The value you use depends on the game you are playing, ) Tj0 -13.8  TD -0.002  Tc 0.0161  Tw (the value 4000 might be 30 seconds on one game, but may only be 10 seconds on ) TjT* -0  Tc 0  Tw (another.  The only way is to know for) Tj180.96 0  TD -0.002  Tc 0.002  Tw ( sure is to experiment.  You can tell if codes are on ) Tj-180.96 -13.8  TD -0.01  Tc 0.0386  Tw (or off by going in to the \223In Game Menu\224 and looking at the text \223Codes are ON\224.  If it ) Tj0 -13.8  TD -0.0123  Tc 0.0483  Tw (says \223Codes are ON\224, then codes are on. If it says \223Codes are ON\224 \(with a \221.\222 at the end ) Tj0 -13.68  TD 0.0023  Tc -0.0023  Tw (of the string\), then code) Tj114.24 0  TD -0.0039  Tc 0.0339  Tw (s are actually off until this timer runs out.) Tj199.08 0  TD 0  Tc 0  Tw ( ) Tj-313.32 -13.8  TD ( ) Tj36 0  TD ( ) Tj-36 -13.8  TD -0.0016  Tc 0.0071  Tw (Also, it is a good idea to use this code in a code that can\222t be turned off \(i.e. use the text ) Tj0 -13.8  TD -0  Tc 0.0156  Tw (\223\(M\)\224 in the name\). The example code then becomes:) Tj258.36 0  TD 0  Tc 0  Tw ( ) Tj-258.36 -13.8  TD ( ) Tj0 -13.8  TD ( ) Tj36 0  TD -0.012  Tc 0.012  Tw (\223\(M\) Must be on\224) Tj86.28 0  TD 0  Tc 0  Tw ( ) Tj21.72 0  TD ( ) Tj-144 -13.8  TD ( ) Tj36 0  TD 0.003  Tc -0.003  Tw (C1000000 4000) Tj77.04 0  TD 0  Tc 0  Tw ( ) Tj-113.04 -13.8  TD ( ) Tj0 -13.8  TD ( ) TjETendstream
+endobj
+35 0 obj
+4508
+endobj
+33 0 obj
+<<
+/Type /Page
+/Parent 30 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 34 0 R
+>>
+endobj
+37 0 obj
+<<
+/Length 38 0 R
+>>
+stream
+BT90 708.96  TD0 0 0 rg /F0 12  Tf-0.0048  Tc 0.0048  Tw (TROUBLE SHOOTING) Tj126.96 0  TD 0  Tc 0  Tw ( ) Tj-126.96 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0624  Tc 0.1824  Tw (If you ) Tj31.92 0  TD -0.0056  Tc 0.0241  Tw (are having problems with your SharkLink, make sure the cable is plugged in ) Tj-31.92 -13.8  TD -0.0102  Tc 0.0617  Tw (properly. If you are still having problems, you can call our PC Technical Support ) Tj0 -13.8  TD -0.0042  Tc 0.0042  Tw (department at \(410\) 785) Tj115.56 0  TD -0.036  Tc 0  Tw (-) Tj4.08 0  TD -0.0043  Tc 0.0135  Tw (4064.  Please DO NOT call this number for codes, as they are ) Tj-119.64 -13.8  TD -0.008  Tc 0.008  Tw (not available ) Tj64.56 0  TD 0.0019  Tc -0.0019  Tw (through Tech Support.) Tj108.36 0  TD 0  Tc 0  Tw ( ) Tj-172.92 -13.68  TD ( ) Tj0 -13.8  TD -0.0245  Tc 0.0545  Tw (You can reach InterAct by:) Tj130.56 0  TD 0  Tc 0  Tw ( ) Tj-130.56 -13.8  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.02  Tc (Phone:) Tj36 0  TD 0  Tc (410) Tj18 0  TD -0.036  Tc (-) Tj3.96 0  TD 0  Tc (785) Tj18 0  TD -0.036  Tc (-) Tj3.96 0  TD 0  Tc (4064, Mon ) Tj57 0  TD (\226) Tj6 0  TD -0.0228  Tc 0.0228  Tw ( Fri, 9:00 am ) Tj68.88 0  TD 0  Tc 0  Tw (\226) Tj6 0  TD 0.024  Tc -0.024  Tw ( 8:00 pm EST) Tj70.56 0  TD 0  Tc 0  Tw ( ) Tj-288.36 -13.8  TD -0.024  Tc 0.024  Tw (FAX:  ) Tj34.68 0  TD 0  Tc 0  Tw ( ) Tj1.32 0  TD (410) Tj18 0  TD -0.036  Tc (-) Tj3.96 0  TD 0  Tc (785) Tj18 0  TD -0.036  Tc (-) Tj3.96 0  TD 0  Tc (5725) Tj24 0  TD ( ) Tj-103.92 -13.8  TD 0.002  Tc (Email:) Tj34.68 0  TD 0  Tc ( ) Tj1.32 0  TD 0.0089  Tc (pcsupport@gameshark.com) Tj144.12 0  TD 0  Tc ( ) Tj-180.12 -13.8  TD 0.0009  Tc -0.0009  Tw (World Wide Web: ) Tj97.68 0  TD 0 0 1 rg -0.001  Tc 0  Tw (http://www.gameshark.com) TjET187.68 540.96 141.96 1.2 re fBT329.64 543.48  TD0 0 0 rg 0  Tc ( ) Tj-239.64 -13.8  TD ( ) Tj0 -13.8  TD 0.0024  Tc -0.0024  Tw (Mailing Address:) Tj89.04 0  TD 0  Tc 0  Tw ( ) Tj3 0  TD ( ) Tj-92.04 -13.8  TD -0  Tc 0  Tw (InterAct Accessories, Inc.) Tj131.28 0  TD 0  Tc 0  Tw ( ) Tj-131.28 -13.68  TD -0.003  Tc 0.003  Tw (ATTN:  Consumer Service ) Tj139.92 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0.072  Tc -0.072  Tw ( MM) Tj25.68 0  TD 0  Tc 0  Tw ( ) Tj-169.56 -13.8  TD 0.0113  Tc -0.0113  Tw (10999 McCormick Road) Tj125.4 0  TD 0  Tc 0  Tw ( ) Tj-125.4 -13.8  TD -0  Tc 0  Tw (Hunt Valley, MD 21031) Tj121.32 0  TD /F1 12  Tf0  Tc 0  Tw ( ) Tj-121.32 -13.56  TD ( ) Tj0 -14.04  TD /F0 12  Tf-0.0019  Tc 0.0019  Tw (WARRANTY INFORMATION) Tj164.28 0  TD 0  Tc 0  Tw ( ) Tj-164.28 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD -0.0034  Tc 0.0126  Tw (InterAct Accessories, Inc. warrants to the original purchaser of the SharkLink for the ) TjT* -0.0045  Tc 0.0195  Tw (PlayStation system that it will be free from ) Tj209.28 0  TD -0.0015  Tc 0.0015  Tw (defects in materials and/or workmanship for a ) Tj-209.28 -13.8  TD -0.0011  Tc 0.0078  Tw (period of ninety \(90\) days from the date of purchase.  If the SharkLink is discovered to be ) Tj0 -13.8  TD -0.003  Tc 0.0215  Tw (defective within this warranty period, InterAct Accessories, Inc. will repair or replace, at ) Tj0 -13.68  TD -0.0126  Tc 0.0426  Tw (it\222s option, free of char) Tj110.28 0  TD -0.0042  Tc 0.0282  Tw (ge, any part that InterAct Accessories, Inc. determines to be ) Tj-110.28 -13.8  TD -0.0008  Tc 0.0008  Tw (defective, provided that a copy of the original sales receipt is included with the product ) Tj0 -13.8  TD -0.0137  Tc 0.0137  Tw (return.  ) Tj37.56 0  TD 0  Tc 0  Tw ( ) Tj-37.56 -13.8  TD ( ) Tj0 -13.8  TD -0.0047  Tc 0.0122  Tw (This warranty is limited to the internal works of this product and the external housing.  It) Tj426.84 0  TD 0  Tc 0  Tw ( ) Tj-426.84 -13.8  TD -0.0058  Tc 0.0315  Tw (will not apply if your InterAct product has been damaged by abuse, misuse, negligence, ) Tj0 -13.8  TD -0.0015  Tc 0.0115  Tw (accident, modification, tampering, or by any other causes unrelated to defective materials ) TjT* -0.006  Tc 0.006  Tw (and/or workmanship.) Tj101.88 0  TD 0  Tc 0  Tw ( ) Tj-101.88 -13.8  TD ( ) Tj0 -13.8  TD -0.0043  Tc 0.0193  Tw (Repair or replacement as provided under this warranty is) Tj272.52 0  TD -0.0078  Tc 0.0678  Tw ( InterAct Accessories, Inc.\222s ) Tj-272.52 -13.68  TD -0.0016  Tc 0.0016  Tw (exclusive prerogative.  Any applicable implied warranties, including warranties of ) Tj0 -13.8  TD -0.0034  Tc 0.0119  Tw (merchantability and fitness for a particular purpose, are hereby limited to 90 days from ) TjT* -0.0027  Tc 0.016  Tw (the date of purchase and are subject to the conditions) Tj254.28 0  TD -0.0071  Tc 0.0205  Tw ( set forth in this limited warranty.  In ) Tj-254.28 -13.8  TD -0.0048  Tc 0.0305  Tw (no event shall InterAct Accessories, Inc. or its affiliates be liable for consequential or ) Tj0 -13.8  TD -0.0041  Tc 0.0368  Tw (incidental damages resulting from the breach of any express or implied warranties.) Tj397.32 0  TD 0  Tc 0  Tw ( ) Tj-397.32 -13.8  TD ( ) Tj0 -13.8  TD 0.004  Tc -0.004  Tw (Some states do not allow limitations on ) Tj192.48 0  TD -0.0024  Tc 0.0024  Tw (how long an implied warranty lasts or exclusion ) Tj-192.48 -13.8  TD -0.0026  Tc -0.0174  Tw (or limitation of incidental/consequential damages, so the above limitation may not apply ) Tj0 -13.8  TD -0.0077  Tc 0.043  Tw (to you.  This warranty gives you specific legal rights, and you may also have other legal ) TjT* -0.003  Tc 0.003  Tw (rights which vary from state ) Tj138.24 0  TD -0.0015  Tc 0.0015  Tw (to state.) Tj37.32 0  TD 0  Tc 0  Tw ( ) TjETendstream
+endobj
+38 0 obj
+5679
+endobj
+36 0 obj
+<<
+/Type /Page
+/Parent 30 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 37 0 R
+>>
+endobj
+40 0 obj
+<<
+/Length 41 0 R
+>>
+stream
+BT90 709.2  TD0 0 0 rg /F1 12  Tf0  Tc 0  Tw ( ) Tj0 -13.8  TD -0.0036  Tc 0.0121  Tw (To obtain warranty service within the warranty period:  Send the defective item postage ) TjT* -0.0012  Tc 0.0087  Tw (prepaid with a copy of the sales receipt, return address and a brief description of the ) TjT* -0.0141  Tc 0.1041  Tw (problems you are experiencing to:) Tj163.92 0  TD 0  Tc 0  Tw ( ) Tj-163.92 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf-0  Tc 0  Tw (InterAct Accessories, Inc.) Tj131.28 0  TD 0  Tc 0  Tw ( ) Tj-203.28 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.036  Tc (ATTN) Tj33.36 0  TD -0.0053  Tc 0.0053  Tw (:  Consumer Service ) Tj106.56 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD -0.138  Tc 0.258  Tw ( PC) Tj18.96 0  TD 0  Tc 0  Tw ( ) Tj-234.84 -13.68  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.0113  Tc -0.0113  Tw (10999 McCormick Road) Tj125.4 0  TD 0  Tc 0  Tw ( ) Tj-197.4 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0  Tc 0  Tw (Hunt Valley, MD 21031) Tj121.32 0  TD 0  Tc 0  Tw ( ) Tj-193.32 -13.56  TD /F1 12  Tf( ) Tj0 -13.8  TD (For questions, trouble) Tj104.88 0  TD -0.036  Tc (-) Tj3.96 0  TD -0  Tc 0.012  Tw (shooting assistance or to obtain service after the warranty period ) Tj-108.84 -13.8  TD -0.0036  Tc 0.0221  Tw (has expired, contact InterAct\222s PC consumer service support team by any of the ) Tj0 -13.8  TD -0.0046  Tc 0.0046  Tw (following mean) Tj75.6 0  TD 0.018  Tc 0  Tw (s:) Tj8.04 0  TD 0  Tc ( ) Tj-83.64 -14.04  TD ( ) Tj36 0  TD ( ) Tj36 0  TD /F0 12  Tf-0.012  Tc 0.012  Tw (PHONE: 410) Tj67.56 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0  Tc (785) Tj18.12 0  TD -0.036  Tc (-) Tj3.96 0  TD 0.015  Tc -0.015  Tw (4064, Mon ) Tj57.12 0  TD 0  Tc 0  Tw (\226) Tj6 0  TD -0.0108  Tc -0.0192  Tw ( Fri, 9:00 am ) Tj68.88 0  TD 0  Tc 0  Tw (\226) Tj6 0  TD 0.0107  Tc -0.0107  Tw ( 8:00 pm EST) Tj70.44 0  TD 0  Tc 0  Tw ( ) Tj-374.04 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD -0.0137  Tc 0.0137  Tw (FAX:  410) Tj52.56 0  TD -0.036  Tc 0  Tw (-) Tj3.96 0  TD 0  Tc (785) Tj18 0  TD -0.036  Tc (-) Tj3.96 0  TD 0  Tc (5725) Tj24 0  TD ( ) Tj-174.48 -13.8  TD ( ) Tj36 0  TD ( ) Tj36 0  TD 0.002  Tc (Email:) Tj34.68 0  TD 0  Tc ( ) Tj1.32 0  TD 0.0089  Tc (pcsupport@gameshark.com) Tj144.12 0  TD /F1 12  Tf0  Tc ( ) Tj-252.12 -13.56  TD ( ) Tj0 -13.68  TD ( ) Tj0 -13.8  TD -0.0088  Tc 0.0457  Tw (\251 1999 InterAct Accessories, Inc.  InterAct and SharkLink are trademarks of STD ) TjT* -0.0023  Tc 0.0156  Tw (Manufacturing LTD.  PlayStation is a registered trademark of ) Tj299.28 0  TD 0.004  Tc -0.004  Tw (Sony Computer ) Tj-299.28 -13.8  TD -0.0081  Tc 0.0299  Tw (Entertainment Inc.  SharkLink is not sponsored, endorsed, or approved by Sony.) Tj385.56 0  TD 0  Tc 0  Tw ( ) Tj-385.56 -13.8  TD ( ) TjETendstream
+endobj
+41 0 obj
+2830
+endobj
+39 0 obj
+<<
+/Type /Page
+/Parent 30 0 R
+/Resources <<
+/Font <<
+/F0 6 0 R 
+/F1 8 0 R 
+>>
+/ProcSet 2 0 R
+>>
+/Contents 40 0 R
+>>
+endobj
+6 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F0
+/BaseFont /TimesNewRoman,Bold
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 555 500 500 1000 833 278 333 333 500 570 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 333 333 570 570 570 
+500 930 722 667 722 722 667 611 778 778 389 500 778 667 944 722 
+778 611 778 722 556 667 722 722 1000 722 722 667 333 278 333 581 
+500 333 500 556 444 556 444 333 500 556 278 333 556 278 833 556 
+500 556 556 444 389 333 556 500 722 500 500 444 394 220 394 520 
+778 500 778 333 500 500 1000 500 500 333 1000 556 333 556 667 667 
+667 778 333 333 500 500 350 500 1000 333 1000 389 333 389 521 444 
+444 250 333 333 667 500 722 220 500 333 747 556 500 570 333 747 
+667 400 549 333 278 333 576 540 250 333 500 389 500 667 333 469 
+444 722 722 722 722 722 667 722 722 722 667 667 667 667 389 389 
+722 722 722 722 778 778 778 778 570 722 722 722 722 722 722 667 
+556 444 500 500 500 500 278 444 444 444 444 444 444 444 278 278 
+733 556 556 556 500 500 500 500 549 444 556 556 556 556 500 333 
+333 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman,Bold
+/Flags 16418
+/FontBBox [ -250 -220 1212 920 ]
+/MissingWidth 780
+/StemV 137
+/StemH 137
+/ItalicAngle 0
+/CapHeight 920
+/XHeight 644
+/Ascent 920
+/Descent -220
+/Leading 180
+/MaxWidth 1010
+/AvgWidth 430
+>>
+endobj
+8 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F1
+/BaseFont /TimesNewRoman
+/FirstChar 31
+/LastChar 255
+/Widths [ 778 250 333 408 500 500 833 778 180 333 333 500 564 250 333 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 564 564 564 
+444 921 722 667 667 722 611 556 722 722 333 389 722 611 889 722 
+722 556 722 667 556 611 722 722 944 722 722 611 333 278 333 469 
+500 333 444 500 444 500 444 333 500 500 278 278 500 278 778 500 
+500 500 500 333 389 278 500 500 722 500 500 444 480 200 480 541 
+778 500 778 333 500 444 1000 500 500 333 1000 556 333 556 611 611 
+611 778 333 333 444 444 350 500 1000 333 980 389 333 389 427 444 
+444 250 333 333 611 500 722 200 500 333 760 556 500 564 333 760 
+611 400 549 333 278 333 576 453 250 333 444 389 500 611 333 406 
+444 667 722 722 722 722 611 667 667 667 611 611 611 611 333 333 
+722 722 722 722 722 722 722 722 564 667 722 722 722 722 722 611 
+500 333 444 444 444 444 278 444 444 444 444 444 444 444 278 278 
+646 500 500 500 500 500 500 500 549 333 500 500 500 500 500 278 
+333 ]
+/Encoding /WinAnsiEncoding
+/FontDescriptor 9 0 R
+>>
+endobj
+9 0 obj
+<<
+/Type /FontDescriptor
+/FontName /TimesNewRoman
+/Flags 34
+/FontBBox [ -250 -240 1200 900 ]
+/MissingWidth 780
+/StemV 73
+/StemH 73
+/ItalicAngle 0
+/CapHeight 900
+/XHeight 630
+/Ascent 900
+/Descent -240
+/Leading 180
+/MaxWidth 1000
+/AvgWidth 400
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/Subtype /TrueType
+/Name /F2
+/BaseFont /Symbol
+/FirstChar 31
+/LastChar 255
+/Widths [ 600 250 333 713 500 549 833 778 439 333 333 500 549 250 549 250 
+278 500 500 500 500 500 500 500 500 500 500 278 278 549 549 549 
+444 549 722 667 722 612 611 763 603 722 333 631 722 686 889 722 
+722 768 741 556 592 611 690 439 768 645 795 611 333 863 333 658 
+500 500 631 549 549 494 439 521 411 603 329 603 549 549 576 521 
+549 549 521 549 603 439 576 713 686 493 686 494 480 200 480 549 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 600 
+600 600 620 247 549 167 713 500 753 753 753 753 1042 987 603 987 
+603 400 549 411 549 549 713 494 460 549 549 549 549 1000 603 1000 
+658 823 686 795 987 768 768 823 768 768 713 713 713 713 713 713 
+713 768 713 790 790 890 823 549 250 713 603 603 1042 987 603 987 
+603 494 329 790 790 786 713 384 384 384 384 384 384 494 494 494 
+494 600 329 274 686 686 686 384 384 384 384 384 384 494 494 494 
+600 ]
+/FontDescriptor 13 0 R
+>>
+endobj
+13 0 obj
+<<
+/Type /FontDescriptor
+/FontName /Symbol
+/Flags 6
+/FontBBox [ -250 -220 1248 1000 ]
+/MissingWidth 600
+/StemV 109
+/StemH 109
+/ItalicAngle 0
+/CapHeight 1000
+/XHeight 700
+/Ascent 1000
+/Descent -220
+/Leading 220
+/MaxWidth 1040
+/AvgWidth 600
+>>
+endobj
+2 0 obj
+[ /PDF /Text  ]
+endobj
+5 0 obj
+<<
+/Kids [4 0 R 14 0 R 17 0 R 20 0 R 23 0 R 26 0 R ]
+/Count 6
+/Type /Pages
+/Parent 42 0 R
+>>
+endobj
+30 0 obj
+<<
+/Kids [29 0 R 33 0 R 36 0 R 39 0 R ]
+/Count 4
+/Type /Pages
+/Parent 42 0 R
+>>
+endobj
+42 0 obj
+<<
+/Kids [5 0 R 30 0 R ]
+/Count 10
+/Type /Pages
+/MediaBox [ 0 0 612 792 ]
+>>
+endobj
+1 0 obj
+<<
+/Creator <FEFF004D006900630072006F0073006F0066007400200057006F007200640020>
+/CreationDate (D:20010201131132)
+/Title <FEFF0049002D00320032002D003200300030002E005000440046>
+/Author <FEFF006D00610072006300720061006C00650079>
+/Producer (Acrobat PDFWriter 4.05 for Windows)
+>>
+endobj
+3 0 obj
+<<
+/Pages 42 0 R
+/Type /Catalog
+/DefaultGray 43 0 R
+/DefaultRGB  44 0 R
+>>
+endobj
+43 0 obj
+[/CalGray
+<<
+/WhitePoint [0.9502 1 1.0875 ]
+/Gamma 2.1992 
+>>
+]
+endobj
+44 0 obj
+[/CalRGB
+<<
+/WhitePoint [0.9502 1 1.0875 ]
+/Gamma [2.1992 2.1992 2.1992 ]
+/Matrix [0.4542 0.2419 0.0149 0.3534 0.6738 0.0907 0.1565 0.0844 0.7193 ]
+>>
+]
+endobj
+xref
+0 45
+0000000000 65535 f
+0000053974 00000 n
+0000053619 00000 n
+0000054273 00000 n
+0000004933 00000 n
+0000053653 00000 n
+0000049438 00000 n
+0000050566 00000 n
+0000050855 00000 n
+0000051975 00000 n
+0000000021 00000 n
+0000004909 00000 n
+0000052254 00000 n
+0000053342 00000 n
+0000009864 00000 n
+0000005090 00000 n
+0000009840 00000 n
+0000015109 00000 n
+0000010009 00000 n
+0000015085 00000 n
+0000020461 00000 n
+0000015254 00000 n
+0000020437 00000 n
+0000025654 00000 n
+0000020606 00000 n
+0000025630 00000 n
+0000031132 00000 n
+0000025799 00000 n
+0000031108 00000 n
+0000035582 00000 n
+0000053769 00000 n
+0000031277 00000 n
+0000035558 00000 n
+0000040321 00000 n
+0000035728 00000 n
+0000040297 00000 n
+0000046231 00000 n
+0000040467 00000 n
+0000046207 00000 n
+0000049292 00000 n
+0000046377 00000 n
+0000049268 00000 n
+0000053873 00000 n
+0000054371 00000 n
+0000054459 00000 n
+trailer
+<<
+/Size 45
+/Root 3 0 R
+/Info 1 0 R
+/ID [<984b5da445bb1cd86de6fd5bfd235de8><984b5da445bb1cd86de6fd5bfd235de8>]
+>>
+startxref
+54637
+%%EOF

@@ -1,0 +1,32 @@
+; dlltool --base-file C:\DOCUME~1\Viper\LOCALS~1\Temp/cca03300.base --output-exp Renegade64.exp --dllname Renegade64.dll --output-def libRenegade64.def --no-export-all-symbols --add-stdcall-alias --exclude-symbol=DllMainCRTStartup@12 --def C:\DOCUME~1\Viper\LOCALS~1\Temp/cca03300.def --output-lib libRenegade64.a
+EXPORTS
+	CopyFileBytes = CopyFileBytes@20 @ 1 ; 
+	CopyFileBytes@20 @ 2 ; 
+	Double2LLLower = Double2LLLower@8 @ 3 ; 
+	Double2LLLower@8 @ 4 ; 
+	Double2LLUpper = Double2LLUpper@8 @ 5 ; 
+	Double2LLUpper@8 @ 6 ; 
+	DumpRAM = DumpRAM@16 @ 7 ; 
+	DumpRAM@16 @ 8 ; 
+	FileSearch = FileSearch@56 @ 9 ; 
+	FileSearch@56 @ 10 ; 
+	InitResults = InitResults@28 @ 11 ; 
+	InitResults@28 @ 12 ; 
+	ListTasks = ListTasks@4 @ 13 ; 
+	ListTasks@4 @ 14 ; 
+	Long2Single = Long2Single@4 @ 15 ; 
+	Long2Single@4 @ 16 ; 
+	SLL = SLL@8 @ 17 ; 
+	SLL@8 @ 18 ; 
+	SRL = SRL@8 @ 19 ; 
+	SRL@8 @ 20 ; 
+	SearchROM = SearchROM@24 @ 21 ; 
+	SearchROM@24 @ 22 ; 
+	Single2Long = Single2Long@4 @ 23 ; 
+	Single2Long@4 @ 24 ; 
+	WriteAllResults = WriteAllResults@16 @ 25 ; 
+	WriteAllResults@16 @ 26 ; 
+	WriteDis = WriteDis@32 @ 27 ; 
+	WriteDis@32 @ 28 ; 
+	WriteResults = WriteResults@20 @ 29 ; 
+	WriteResults@20 @ 30 ; 

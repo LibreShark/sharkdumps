@@ -1,0 +1,235 @@
+N64 CIC Changer V1.1 - [By RaO 1999/2001]
+=========================================
+
+Disclaimer.
+===========
+Anyone using this program does so at their own risk. The author does not accept any liability 
+for loss or damage arising from its use.
+
+
+Copyrights.
+==========
+You are free to copy and distribute this product as long as this package is distributed in its 
+entirety. You are not allowed to change the program in any form.
+
+
+Index:
+======
+  0. What's new
+
+  1. What does this program do?
+  
+  2. Who needs it ?
+
+  3. Which CIC-NUS types does it work with ?
+
+  4. How does it all work ?
+    4.1 The CIC-NUS bootcode
+    4.2 Change entry point adress
+    4.3 Recalculate the CRC's 
+
+  5. Requirements
+
+  6. How To Install..
+    6.1 Using a unit with Windows 9x / ME
+    6.2 Using a unit with Windows NT 4.0 / Windows 2000
+
+  7. CIC-NUS bootcode files
+
+  8. Syntax
+
+  9. Credits and contact
+
+ 10. Thanks
+
+0. What's new
+=============
+- Fixed a bug in V1 which could cause unpredictable results!
+
+
+1. What does this program do?
+=============================
+N64CICC was created when I made my Backup ROM for JrRead / wJrRead. I was tired of using so 
+many different programs to change one for changing the CIC-NUS type for the ROM, one for 
+recalculate the CRC's and finally one to upload it again to my V64Jr. This program does it 
+all in one go!
+
+
+2. Who needs it ?
+=================
+This program exchange the CIC-NUS bootcode in a valid N64 ROM, alter the entry point adress and
+recalculate the CRC's. This tool is for either the N64 programmer or for people who wants to 
+experiment with games / demos running with different bootcarts.
+
+
+3. Which CIC-NUS types does it work with ?
+==========================================
+It works on 6102, 6103, 6105 and 6106. I haven't tried the 6101 since this CIC-NUS is only used 
+in Lylat Wars/StarFox 64 cartridge. So I haven't given it any time/thoughts. 
+
+Just remember to include these two assembly lines somewhere near the start of youre code:
+
+li      t0,8
+sw      t0,($bfc007fc)
+
+They are taken from Yoshi's Story Crack Intro by Titanik/CZN (sources can be found on Dextrose).
+here is what he says about them:
+
+<-- quote begin -->
+
+        li      t0,8           ; Ok that's the magic "initialisation". what's
+        sw      t0,($bfc007fc) ; at $bfc007fc ? It's an interface to the
+        jr      ra             ; security chip. If you don't put the bit 3
+        nop                    ; to 1 after approx 2 sec, the n64 will be
+                               ; locked.
+                               ; In the games, libraries etc they don't write
+                               ; 8 to $bfc007fc but instead just set the
+                               ; bit 3 to 1. Still writing 8 is working fine.
+                               ;
+                               ; and NO this has NOTHING to do with joypad
+                               ; initialisation or whatever. If you rip some
+                               ; code, at least try to understand what it
+                               ; does!
+
+<-- quote end -->
+
+!Update! A post from LaC on Dextrose board cleared it up:
+
+<-- quote begin -->
+*bfc007fc|=0x8
+thats also done by osInitialize() if you are using the devkit.
+its really just writing to the pif status/control reg in order to enable the NMI. (reset switch)
+its not really a protection.
+<-- quote end -->
+
+Thanks to LaC! I don't use a devkit, so i thought it was some kind of protection :)
+
+
+4. How does it all work ?
+=========================
+To make your code/game/demo work with a non-6102 cartridge you need to change a few things:
+
+1. The CIC-NUS bootcode (ranging from $40 - $1000 in every N64 ROM)
+2. Change the entry point adress (which may be different from one CIC-NUS type to another)
+3. Recalculate the CRC's 
+
+
+4.1 The CIC-NUS bootcode
+========================
+As you proberly allready know there is 6 different CIC-NUS types out there 6101, 6102, 6103,
+6105 and 6106. You can read more about them on either dextrose forum (USE SEARCH - plz!) :) or 
+other www sites.. You can extract these 4032 bytes of data with RN64CRC or other tools. 
+(NOTE: CIC-NUS bootcode files are not included in this archive since it is copyrighted material 
+ by NIntendo). 
+
+
+4.2 Change entry point adress
+=============================
+This id another security "feature" from Nintendo (at least for 6103 and 6106) :)
+The Entry point adress is located in the header from byte $8 and is 4 bytes long. This tells 
+the N64 where to put your program in N64's RAM for JrRead I used $80000400.  
+Here is what to do for each CIC-NUS type :
+
+6101  :  ??????? (for now N64CICC doesen't change the EP adress)
+6102  :  nothing
+6103  :  Add $100000 ($80000400 would be $80100400 instead)
+6105  :  nothing
+6106  :  Add $200000 ($80000400 would be $80200400 instead).
+
+
+4.3 Recalculate the CRC's 
+=========================
+The CRC algorithm is diffrent from one CIC-NUS type to another, so you'll have to recalculate
+the CRC's with either this program or RN64CRC.
+
+
+
+5. Requirements
+===============
+- Bootcode files. These data can be extracted from demos, games etc. with eg. RN64CRC
+
+Optional:
+- A Doctor V64 Jr. / PV-Backup Unit (attached to the PC via. the parallel port)
+
+
+6. How To Install..
+===================
+Create a new folder on your HD and unzip (with WinZip) this package. 
+Start the program N64CICC.EXE via MS-DOS Prompt.
+
+You can delete DLPORTIO.sys and DLPORTIO.dll if you don't want to use/own a V64Jr. or PV-B Unit.
+ 
+6.1 Using a unit with Windows 9x / ME
+=====================================
+You can delete DLPORTIO.sys If you don't plan to use Win NT / 2000
+
+6.2 Using a unit with Windows NT 4.0 / Windows 2000
+===================================================
+I have included DLPORTIO.sys which should be placed in your in your \WinNT\System32\Drivers 
+folder. Move DLPORTIO.dll to the \WinNT\System32 folder N64CICC will load the driver by 
+itself when needed. 
+
+(if you get any DriverLinx errors then search and remove DLPORTIO.sys and .dll from all other
+ location than mentioned above)
+
+
+
+7. CIC-NUS bootcode files
+=========================
+These files are not included in this archive since they are copyrighted material (Nintendo). 
+Use another tool like RN64CRC to extract the files and place them in the same directory where
+you placed N64CICC. 
+
+It dosen't matter if you extract the bootcode files in V64 format or BIN. N64CICC can use both
+formats.
+
+
+8. Syntax
+=========
+Syntax (file) : -F<filename> [-CIC<CIC-NUS type> OR -INFO]
+Syntax (Unit) : [-V64Jr<port> OR -PVB<port>] [-CIC<CIC-NUS type> OR -INFO]
+
+Parameters:
+-F<filname>   :  A valid N64 ROM file.
+
+-v64Jr<port>
+-pvb<port>    :  Instead of a file you can change the CIC-NUS bootcode on
+                 your V64Jr. or PV-Backup Unit.  If <port> isen't specified
+                 then N64CICC will try to autodetect the backup unit / LPT Port
+
+-CIC<CIC-NUS type>
+                 Valid arguments : 6101, 6102, 6103, 6105 or 6106
+
+-INFO         :  Shows some informations about the current N64 ROM.
+                 this command is valid for both unit and file
+
+
+
+9. Credits and contact
+======================
+All programming is done by RaO.
+
+If you find any bugs or if you have any ideas, comments or spelling mistakes since 
+english is not my "first language" then e-mail me @: rao@mailroom.com
+
+For more info on how to build your own PV-Backup unit see Valery Pudov's site at 
+http://www.pro.com.ru/
+
+
+10. Thanks
+==========
+- MMR - for being a very good friend! :) 
+- Pitou! for testing on the PV-Backup Unit.
+- Valery Pudov for inventing the PV-Backup Unit. (http://www.pro.com.ru/)
+- Titanik / CZN - Thank you for the info!
+- The regulars in #consolepal and #Dextrose (EFNet) 
+- LaC for clearing up the osInitialize() thing!
+- Dextrose for the best forum for the N64.
+- Nintendo for their products! 
+- All the ppl. who keeps the scene going! (You know who you are) :)
+
+That's All..
+
+- RaO
+
+[EOT]

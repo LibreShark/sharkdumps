@@ -1,0 +1,33 @@
+LemAsm - N64 Rom editor/assembler by Lemmy
+
+
+
+This readme.txt sucks, but I hope the program is easy to use so you hopefully won't need it anyway :)
+
+
+
+Main program features
+ - Allows you to edit existing n64 rom files
+ - Has Hex Viewer, Mips Editor and image viewer
+ - Loads rom completely into memory, so there is no need to do a backup before loading into LemAsm
+ - Calculates the CRC when saving using a crc algorythm compatible with Mario's bootcode
+ - Allows you to easily load the rom into an emulator to test it (only tried nemu ;))
+ - Can change size of a rom
+ - Directly jump to an address (press F4)
+ - Byteswap feature
+ - Wordswap feature
+
+Features of MIPS assembler/disassembler (activate by pressing F3 in MIPS disassembly mode)
+ - Can show registers as R0,R1,R2... or R0,AT,V0,V1...
+ - Immediate values are decimal if entered as "1234", or hexadecimal if entered as "$1234"
+ - Supports all known opcodes of the n64 main cpu, including COP0 and COP1 opcodes
+ - Allows you to enter hex values directly by pressing $
+
+Features of image viewer
+ - Supports formats 5551 and 8888
+
+
+
+Conclusion: If you know Niew, you should have no problem using LemAsm. Main reason I wrote it was that Niew doesn't support cop0 or cop1 (or I am too stupid).
+
+Suggestions and Bug reports please send to lemmy@nemu.com
