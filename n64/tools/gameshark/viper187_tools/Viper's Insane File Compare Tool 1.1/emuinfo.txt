@@ -1,0 +1,48 @@
+ePSXe - 16-bit little endian (GZipped)
+header: 0x1BA
+
+
+PJ64 - 32-bit little endian
+header: 0x75C
+
+
+VBA saves - 16-bit little endian (GZipped)
+header?: 0x1DF
+IRAM (0300) 0x1E0-81DF?
+WRAM (0200) 0x85E0-485DF?
+
+
+ZSNES - 16-bit little endian
+header: 0xC14
+
+SNES9x - big endian (GZipped)
+header: 0x10C55
+
+
+DGen RAM dumps - big endian
+Genecyst RAM dumps - 16-bit little endian?
+
+Kega & Gens saves - 16bit little endian
+header - 0x2478
+
+
+CHASMS -
+header: 0x98
+add C000 to get D2xx
+
+Dega - GZipped
+header: 0x80
+add C000 to get D2xx
+
+eSMS -
+header: 0x18
+add C000 to get D2xx
+
+Mekaw -
+header: 0x67
+add C000 to get D2xx
+
+Past-O-Rama -
+header: 0x8030
+add C000 to get D2xx
+

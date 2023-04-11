@@ -1,0 +1,188 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-eve3.zip?                                   9th January 2001 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-eve3.txt         Guide to EvekIII (This File)                     :
+:       obs-eve3.nfo         Brief Info                                       :
+:       evekIII.exe          EvekIII - V64jr Save Manager                     :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   EvekIII - V64jr Save Manager.                                             :
+:   -----------------------------                                             :
+:                                                                             :
+:   EvekIII is the 3rd public release build of Evek. Once again Obsidian      :
+:   provide V64jr users with new innovations for save management! EvekIII     :
+:   contains options never seen before in any tool released before it!        :
+:                                                                             :
+:   EvekIII supports every N64 save type to date! 4Kbit EEPROM, 16Kbit        :
+:   EEPROM, 32KBytes SRAM, 32KBytes Controller Pak, and "Emulated" 1Mbit      :
+:   FLASH! EvekIII also supports save management with any bootcart. Now       :
+:   users can send and receive saves from any cartridge they choose.          :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   How do I use EvekIII?                                                     :
+:   ---------------------                                                     :
+:                                                                             :
+:   If your using Elim with your V64jr at the moment, then you'll have no     :
+:   trouble with EvekIII. EvekIII is built on the 'Elim engine' by Refried,   :
+:   so it should work with all the same OS types as Elim does. For more       :
+:   information on this, consult the Elim information files in the            :
+:   obs-elim.zip file available from our website.                             :
+:                                                                             :
+:   EvekIII is best controlled from the command line prompt, however you      :
+:   could setup Window's shortcuts to send and receive saves at the double    :
+:   click of your mouse, provided you know how to use Windows, I'm not here   :
+:   to explain how to do that.                                                :
+:                                                                             :
+:   At the prompt type:                                                       :
+:                                                                             :
+:      evekIII <filename> [action] [save] [CIC-type]                          :
+:                                                                             :
+:   There are three different actions.                                        :
+:                                                                             :
+:            -s         = this action will receive a save file from the N64   :
+:                         and write it to the PC.                             :
+:            -l         = this action will send the selected save file from   :
+:                         the PC to the N64.                                  :
+:            -f         = this action will format the selected save chip on   :
+:                         the N64. Note a <filename> is not needed for this   :
+:                         option, for obvious reasons.                        :
+:                                                                             :
+:   There are five different save types.                                      :
+:                                                                             :
+:            -e04       = 4Kbit EEPROM                                        :
+:            -e16       = 16Kbit EEPROM                                       :
+:            -s32       = 32KBytes SRAM                                       :
+:            -f01       = 1Mbit FLASH                                         :
+:            -c32       = 32KBytes Controller Pak                             :
+:                                                                             :
+:   There are six different CIC-types.                                        :
+:                                                                             :
+:   CIC-Types: -mario   = Mario-Type CIC Bootchip. (CIC-6102 or CIC-7101)     :
+:              -starf   = Starf-Type CIC Bootchip. (CIC-6101)                 :
+:              -lylat   = Lylat-Type CIC Bootchip. (CIC-7102)                 :
+:              -diddy   = Diddy-Type CIC Bootchip. (CIC-6103 or CIC-7103)     :
+:              -yoshi   = Yoshi-Type CIC Bootchip. (CIC-6106 or CIC-7106)     :
+:              -zelda   = Zelda-Type CIC Bootchip. (CIC-6105 or CIC-7105)     :
+:                                                                             :
+:      The CIC-type is dependant on the CIC chip inside the bootcart. The     :
+:      naming convention for the flags is for the first game to use the       :
+:      type of CIC chip.                                                      :
+:                                                                             :
+:      If the CIC-type option is left blank, then the CIC chip will be        :
+:      assumed to be Mario-Type (CIC-6102 or CIC-7101).                       :
+:                                                                             :
+:   EvekIII no longer features the --software flag, this is no longer         :
+:   required as if EvekIII does not find an EPP 1.9 compliant parallel port,  :
+:   it will automatically use the software protocol.                          :
+:                                                                             :
+:   Example Command Lines:                                                    :
+:                                                                             :
+:      evekIII game.sav -l -e16 -yoshi                                        :
+:                                                                             :
+:         The above command will load the 16Kbit EEPROM save named game.sav   :
+:         to the console for loading with a CIC-6106 or CIC-7106 bootcart.    :
+:                                                                             :
+:      evekIII game.sav -s -f01                                               :
+:                                                                             :
+:         The above command will save the 1Mbit FLASH save named game.sav     :
+:         from the console. The -f01 command can be used to send and          :
+:         receive 128KBytes of data from SRAM also, if a FLASH chip is not    :
+:         found, SRAM will be used instead. This will work with games that    :
+:         usually use FLASH, but have been modified to save to to SRAM        :
+:         instead. The default CIC-6102 or CIC-7101 will be assumed to be     :
+:         present.                                                            :
+:                                                                             :
+:      evekIII -f -e04 -diddy                                                 :
+:                                                                             :
+:         The above command will format the 4Kbit EEPROM save chip onboard,   :
+:         the N64's bootcart. A bootcart with a NUS-6103 or NUS-7103 chip     :
+:         will be required to boot.                                           :
+:                                                                             :
+:      evekIII game.sav -l -c32 -lylat                                        :
+:                                                                             :
+:         The above command will load the 32KBytes Controller Pak save        :
+:         named game.sav to the console's Controller Pak in controller One.   :
+:         The CIC-7102 bootchip will be required to be present to boot.       :
+:                                                                             :
+:   Everything else is straight forward, just make sure you read the prompts  :
+:   that evekIII.exe gives, and read what the display on your tv says also.   :
+:                                                                             :
+:   All previous saves that Evek and EvekII produced are compatible, such as  :
+:   Z64 save dumps, and DexDrive save files.                                  :
+:                                                                             :
+:   Also, you must of course have the actual hardware to store the save.      :
+:                                                                             :
+:   Example bootcarts:                                                        :
+:                                                                             :
+:      For 4Kbit EEPROM use Mario 64, or similar, or a DX256.                 :
+:      For 16Kbit EEPROM use Star Wars: Episode One. Pod Racer, or similar.   :
+:      For 32KBytes SRAM use WCW Revenge, or similar, or a DS1.               :
+:      For 1Mbit FLASH use Command & Conquer or similar.                      :
+:                                                                             :
+:   And remember, you are no longer limited by the CIC chip as to which       :
+:   bootcart you wish to save your game to!                                   :
+:                                                                             :
+:   Once the save has been sent or received, EvekIII will wait for a ROM to   :
+:   be sent to the N64. Once the ROM has been sent, EvekIII will reset your   :
+:   N64 so you can begin playing.                                             :
+:                                                                             :
+:   If the ROM sent while EvekIII is waiting to restart is CIC-NUS-6102,      :
+:   CIC-NUS-6101, CIC-NUS-6103, CIC-NUS-6106, CIC-NUS-7101, CIC-NUS-7102,     :
+:   CIC-NUS-7103, or CIC-NUS-7106, EvekIII will boot the rom for you!         :
+:   EvekIII will also by-passes region protection, so you no longer have to   :
+:   fix roms that have region lockouts, EvekIII will take care of it for      :
+:   you. There is no need for additional cracks or boot-emulators with the    :
+:   specifed CIC chips!                                                       :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Note: Loading FLASH saves to FLASH carts is currently unsupported. This   :
+:         feature has been removed for reasons of compatibility. It will be   :
+:         delayed until these issues can be addressed. However the -l -f01    :
+:         command will load 1Mbit FLASH the save into SRAM (DS1 Required).    :
+:         This will work with games which have been modified to save to SRAM  :
+:         instead of FLASH. Expect this feature to be fully working in an     :
+:         updated release of EvekIII. Saving FLASH saves from the console     :
+:         will still work. Any other suggestions are welcome.                 :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Obsidian brings you another first for the scene! Look out for more of     :
+:   our projects in the future...                                             :
+:                                                                             :
+:   Any suggests for additional features in any of our software are always    :
+:   welcome. User feedback is a major driving force in us releasing our       :
+:   tools to the public. And any results in using this tool would be very     :
+:   helpful!                                                                  :
+:                                                                             :
+:   Thanks to our various supporters in the scene, remember who brings you    :
+:   innovative tools, and who doesn't. Remember who continues to keep the     :
+:   scene alive, and who doesn't. Obsidian will continue to support the N64   :
+:   throughout 2001 and beyond!                                               :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

@@ -1,0 +1,295 @@
+wJrWrite V2 - [By RaO 1999/2000]
+================================
+
+Disclaimer.
+===========
+Anyone using this program does so at their own risk. The author does not accept any liability 
+for loss or damage arising from its use.
+
+
+Copyrights.
+==========
+You are free to copy and distribute this product as long as this package is distributed in its 
+entirety. You are not allowed to change the program in any form.
+
+
+Index:
+======
+  0. What's new ?
+
+  1. What is this program for ?
+
+  2. Requirements
+
+  3. How To Install..
+    3.1 Windows 9x / ME
+    3.2 Windows NT 4.0 / Windows 2000
+
+  4. How to Use the program. (setup)
+    4.1 Unit Info 
+    4.2 ROM File Types
+      4.2.1 Extensions.
+      4.2.2  PopUp menu for extensions
+      4.2.3  Default Action
+      4.2.4  N64 Rom File Icon
+
+    4.3 BootEmulator
+      4.3.1 Action
+      4.3.2 BootEmulator
+      4.3.3 Selection apply all CIC's
+
+    4.4 Options / About
+
+  5. How to use the program (general).
+
+  6. Show N64 ROM Info
+    6.1 Send File (Ctrl + s) Or Enter Key
+    6.2 Send File - Overriding BootEmulator (Shift + Ctrl + s) Or (Shift + Enter key)
+    6.3 Check CRC (Ctrl + a) or (Shift + Ctrl + a)
+    6.4 Copy Info to Clipboard (Ctrl + c) or (Shift + Ctrl + c)
+    6.5 StatusBar
+
+  7. Send N64 ROM File
+  8. How to Uninstall the program.
+  9. Contact
+ 10. Thanks / greetings
+
+
+0. What's new ?
+===============
+- Support for PV-BackUp (a homemade V64Jr. from Valery Pudov - http://www.pro.com.ru/)
+- Support for Win 2K 
+- Bootemulator support
+- Checksum calc. for all known CIC's (just like RN64CRC)
+- Changed/Updated the GUI
+- Fixed a few bugs (support for files < 1Mbit) etc. etc. :)
+
+
+1. What is this program for ?
+=============================
+This program was made because I was not satisfied with the send-utility for windows that comes 
+with Doctor V64 Jr. So I decided to make a more "Windows integrated" send-utility 
+(and info utility) for the Doctor V64 Jr and now also support for PV-Backup Unit.
+
+
+2. Requirements
+===============
+- A PC with EPP LPT Port and MS Windows9x / NT 4.0 / 2000 - See NT section for more info!
+- A Doctor V64 Jr. or a PV-BackUp Unit (attached to the PC via. the parallel port) :)
+
+
+3. How To Install..
+===================
+  Create a new folder on your HD and unzip (with WinZip) this package. 
+  Start the program wJrWrite.exe via explore or Start -> Run. 
+  You could make a shortcut to the wJrWrite.exe program. 
+
+  3.1 Windows 9x / ME
+  ===================
+  You can delete DLPORTIO.sys If you don't plan to use Win NT / 2000
+
+  3.2 Windows NT 4.0 / Windows 2000
+  =================================
+  In version 2 of wJrWrite I have included DLPORTIO.sys which should be placed in your
+  in your \WinNT\System32\Drivers folder. Move DLPORTIO.dll to the \WinNT\System32 folder
+  wJrWrite will load the driver by itself when needed. 
+
+  (if you get any DriverLinx errors then search and remove DLPORTIO.sys and .dll from all other
+   location than mentioned above)
+
+   
+4. How to Use the program (setup)
+=================================
+When you start the program you see 3 tabs: 
+
+  4.1 Unit Info 
+  =============
+  On this page, you can see if the program has found the backup unit. If not you can click on 
+  Find It! and wJrWrite will start searching on your LPT-port(s).  
+
+  If you don't see any values or valid values in the "Available LPT ports" line, then select 
+  LPT-Ports -> Fixed from the system-menu (left click the wJrWrite icon on the titlebar).
+
+  This will write the "most used" values to the registry. IF the port-values shown does not 
+  match your configuration then you can edit them manually by using regedit under the following 
+  key : HKEY_CURRENT_USER\Software\wJr_Tools\LPT Ports
+
+  If you wish to activate the build-in port detection again then select LPT-Ports -> AutoDetect
+  (The Port values in the registry will be deleted)
+
+  If you are having trouble detecting the Unit then try selecting your unit from Unit in 
+  system-menu (AutoDetect is default).
+
+  4.2 ROM File Types
+  ==================
+  
+  4.2.1 Extensions
+  ================ 
+  In the Extension checklistbox you can set / unset the extensions you add. I have pre-defined
+  .rom, .v64 and .z64  You add extensions by entering them in the editbox below the
+  checklistbox and press enter or click on the button "Add Extension".
+
+  4.2.2  PopUp menu for extensions
+  ================================
+  - Add / Edit Offset      (Will be disabled if no extesion is selected as active).
+  A small window will popup, where you can enter the offset (in hex) for the extension. 
+  Remeber the offset must be an even number. Valid offsets are numbers between $2 - $ffffe.
+    
+  If you wish to delete an existing offset, then enter 0 (zero) in the edit-box.
+
+  - Select All
+  This will select (register) all extensions listed in the checklistbox.
+
+  - Select None
+  This will de-select (un-register) all extensions listed in the checklistbox.
+
+  - Remove <extension>   (Will be disabled if no extesion is selected).
+  This will remove the selected extension from the checklistbox. If the selected extension 
+  was checked the association will be removed.
+    
+  4.2.3  Default Action
+  =====================        
+  Selects what acion wJrWrite should do, when you dbl. click on an associated file in 
+  e.g. explorer.
+
+  4.2.4  N64 Rom File Icon
+  ========================
+  Select an icon to use with the associated files.
+
+  - Load Icon
+  You can load an icon by dbl. clicking the icon shown in N64 Rom File Icon.
+
+  - Removed (disabled if current icon is an internal!)..
+  This will remove the loaded icon.
+
+  Select the desired icon by using the two arrows under the icon. 
+
+  4.3 BootEmulator
+  ================
+  Here you can specify which bootemulator you wish to use for a certain CIC. 
+
+  4.3.1 Action
+  ============
+  dbl. click "Action" to change the action. Actions can be:
+  Nothing = wJrWrite does nothing - just send the ROM file..
+  Use     = wJrWrite will use a file 
+  Ask	  = wJrWrite will ask you if you wish to us the bootemulator file or select another
+            one.
+
+  4.3.2 BootEmulator
+  ==================
+  dbl. click in the box to select a bootemulator file (= a valid N64 ROM file).
+
+  4.3.3 Selection apply all CIC's
+  ===============================
+  When checked then the changes you make to one will be used on all the others
+
+
+
+  4.4 Options / About
+  ===================
+  On This page you can set the following:
+
+   - Warn if filesize is bigger than the Unit's RAM.
+   This will show a warning if you try to send a file which is bigger than your Unit's RAM.
+
+   - Calc CRC's:
+    - When Needed:  wJrWrite will calculate the CRC's of the ROM file if it is smaller than                          2Mbit or if the CRC's differs from the original CRC's. The new CRC's will be written 
+      to the Units RAM..
+
+    - Always: wJrWrite will calculate the CRC's when ever a valid N64 ROM file is send to the
+      unit.
+
+    - Never: wJrWrite will never do any calculations.
+
+   - Allow transfer of files without a valid header
+   When checked wJrWrite will send all files with or without a valid N64 ROM header.
+
+   - Quit wJrWrite after succesfull sending (Show Info).
+   When selected: wJrWrite will quit after sending a file from within Show Info. 
+ 
+
+5. How to use the program (general).
+====================================
+When you are using explorer or desktop then simply dbl. click on one of your N64-files with an 
+extension that you have specified in the setup. wJrWrite will either 6. Show N64 ROM Info or
+7. Send N64 ROM file.
+
+
+6. Show N64 ROM Info
+====================
+Here you see some details/info about the file(s). 
+
+  6.1 Send File (Ctrl + s) Or Enter Key
+  =====================================
+  Sends the file to the backup Unit (can be cancelled by pressing ESC key or stop button 
+  during send).
+
+  During send - wJrWrite will swap the bytes of a N64 ROM file (on the fly) if needed! So you
+  don't have to convert them before sending them..
+
+  6.2 Send File - Overriding BootEmulator (Shift + Ctrl + s) Or (Shift + Enter key)
+  =================================================================================
+  This will do the same as 6.1.1, but if you have choosen a BootEmulator and set wJrWrite to
+  either ask or use it then it won't happen. wJrWrite will just send the ROM file skipping the
+  bootemulator.
+
+
+  6.3 Check CRC (Ctrl + a) or (Shift + Ctrl + a)
+  ==============================================
+  This will perfom a CRC's check on the ROM-file. a checkmark will appear after the CRC's 
+  values if they are OK. Otherwise the line will become RED and a minus sign will be shown.
+
+  You can choose to calculate CRC's for all files or just the selected one by using the 
+  button pulldown menu.
+
+ 
+  6.4 Copy Info to Clipboard (Ctrl + c) or (Shift + Ctrl + c)
+  ===========================================================
+  Copy the N64 Info for the selected or for all N64 ROM files to the clipboard.
+
+
+  6.5 StatusBar
+  =============
+  Here you can get a statusbar shown at the buttom of the window with various info.
+
+
+7. Send N64 ROM File
+====================
+This is the same as in 6.1 and it will use a bootemulator if you selected one from the
+setup.
+
+
+8. How to Uninstall the program.
+===============================
+- Simply start the program (setup) and choose Remove Settings From Registry from the 
+  system-menu (left-click the wJrWrite icon on the titlebar).
+
+- Delete the folder where the wJrWrite files are.
+
+
+9. Contact
+==========
+If you find any bugs or if you have any ideas, comments or spelling mistakes since english is
+not my "first language" then email me @ : rao@mailroom.com
+
+Mails with any kind of ROM request will be ignored!
+
+
+10. Thanks / greetings
+======================
+- MMR - For the CRC icon and for being a very good friend! :) 
+- Valery Pudov for inventing the PV-Backup Unit.
+- Pitou! for being a good partner during PV-Backup development and testing!
+- The regulars in #consolepal and #Dextrose (EFNet) 
+- anarko <anarko@flashback.net> for the excellent Nintendo 64 Toolkit
+- Andreas Sterbenz <stan@sbox.tu-graz.ac.at> for the N64 CRC-source in C.
+- Dextrose for having the best forum for the N64.
+- Nintendo for their products! 
+- All the ppl. who keeps the scene going! (You know who you are) :)
+
+That's All ( and happy sending :) )
+
+- RaO 
+
+[EOT]

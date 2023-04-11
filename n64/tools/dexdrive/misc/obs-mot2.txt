@@ -1,0 +1,101 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-mot2.zip?                                   4th January 2001 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-mot2.txt         Guide to Motet (This File)                       :
+:       obs-mot2.nfo         Brief Info                                       :
+:       motetII.exe          motetII - N64 Header & Bootcode Utility          :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   MotetII - N64 Header & Bootcode Utility.                                  :
+:   ----------------------------------------                                  :
+:                                                                             :
+:   MotetII can be used to change the bootcode of any N64 Binary in any       :
+:   known format. This allows the user to change bootcodes of images at will  :
+:   for use with any Bootcart. Supported bootcodes are Mario type, Diddy      :
+:   type, Yoshi type, and Zelda type. MotetII is not designed to 'crack'      :
+:   games! Also, the main reason for motetII's release is there was a small   :
+:   bug in the original release, which caused problems with CRC calculation   :
+:   on roms which were smaller than 10Mbit. My apologies for this, it has     :
+:   been fixed, thanks to CrowTRobo for alerting me to this problem as the    :
+:   bug was not in the final build that I had intended to release.            :
+:                                                                             :
+:   Since some people can not see any need for such a tool, here is a prime   :
+:   example. You want to save your game of Donkey Kong 64 which requires a    :
+:   16kbit EEPROM save chip, but the only 16kbit EEPROM chip you have is on   :
+:   the Crusin' World cart, with motetII you can boot your Donkey Kong 64     :
+:   backup with the Crusin' World cart. Provided you use the correct bootemu. :
+:   This is only one example of the many uses motetII has, if you can not     :
+:   see anymore, then you have no use for this tool. However, if you are      :
+:   smart enough to see the various applications that motetII has, enjoy      :
+:   using the updated tool.                                                   :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   How do I use Motet?                                                       :
+:   -------------------                                                       :
+:                                                                             :
+:   Motet is best controlled from the command line prompt.                    :
+:                                                                             :
+:   At the prompt type:                                                       :
+:                                                                             :
+:      motetII <filename> [CIC-Type] [Info]                                   :
+:                                                                             :
+:   There are four different CIC-Types. (Each CIC-Type refers to the first    :
+:   game to use that type of CIC bootchip.)                                   :
+:                                                                             :
+:            -mario    = This will backup a cartridge with the Mario-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6102 & NUS-CIC-7101        :
+:                                                                             :
+:            -diddy    = This will backup a cartridge with the Diddy-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6103 & NUS-CIC-7103        :
+:                                                                             :
+:            -yoshi    = This will backup a cartridge with the Yoshi-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6106 & NUS-CIC-7106        :
+:                                                                             :
+:            -zelda    = This will backup a cartridge with the Zelda-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6105 & NUS-CIC-7105        :
+:                                                                             :
+:   The Info option allows one to view the header information without         :
+:   modifying the ROM.                                                        :
+:                                                                             :
+:            -info     = Views the header information.                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Obsidian brings you another first for the scene! Look out for more of     :
+:   our projects in the future...                                             :
+:                                                                             :
+:   Any suggests for additional features in any of our software are welcome.  :
+:   User feedback is a major driving force in us releasing our tools to the   :
+:   public. And any results in using this tool would be helpful!              :
+:                                                                             :
+:   Thanks to our various supporters in the scene, remember who brings you    :
+:   innovative tools, and who doesn't. Remember who continues to keep the     :
+:   scene alive, and who doesn't. Obsidian will continue to support the N64   :
+:   throught 2001 and beyond!                                                 :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

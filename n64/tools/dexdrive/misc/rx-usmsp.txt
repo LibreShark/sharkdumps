@@ -1,0 +1,56 @@
+rÝ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°ÕÍÍÍÍÍÍÍÍÍÍÍÍÍ¸°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°° RùEùDùBùOùX °°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°ÔÍÍÍÍÍÍÍÍÍÍÍÍÍ¾°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°ÚÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ( RELEASE-INFO: )ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄ¿°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³  Title        : UltraSMS v1.0 V64 Emulation function Patch       ³°°±²Þ
+Ý²±°°³  Release-date : 26.03.2000                                       ³°°±²Þ
+Ý²±°°³  Suppler      : RedboX                                           ³°°±²Þ
+Ý²±°°³  Quote        : "If I was mental I'd have a car sticker saying   ³°°±²Þ
+Ý²±°°³                  'I've been to hospital'".                       ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³  --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---  ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³    Well, theres another patch, im sure someone will find some    ³°°±²Þ
+Ý²±°°³    use for it.                                                   ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³    This patch will let you use the emulation function of the     ³°°±²Þ
+Ý²±°°³    Doctor v64's BIOS to change the SMS cartridge rom for         ³°°±²Þ
+Ý²±°°³    Jos Kwanten's excelent ultraSMS emulator.  Beaware that       ³°°±²Þ
+Ý²±°°³    the emulator can only handle 512Kb cartridges, and if you     ³°°±²Þ
+Ý²±°°³    try to use a larger cartridge image it will not work.         ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³  Usage:                                                          ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³     Apply the patch to the orginal v64 format emulator, then     ³°°±²Þ
+Ý²±°°³     use the file as you whould with any other emulator with      ³°°±²Þ
+Ý²±°°³     the Doctor64.                                                ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³     If you dont have a Doctor v64 and still want to use this     ³°°±²Þ
+Ý²±°°³     patch, you can try the following:                            ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³     COPY /B ultraSMS.v64+smsrom.rom patched.v64                  ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³     Make sure ultraSMS.v64 is not in v64 format before you       ³°°±²Þ
+Ý²±°°³     do this.                                                     ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°ÀÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÙ°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°ÚÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ( GREETINGS: )ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄ¿°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³  Groups : BlackBag,Msftug,CrazyNation,TheSecretForce and more... ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³  --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---  ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°³  Personal : Breakpoint, Zigor, Ego_UK, Anarko, Acey, Nina_k,     ³°°±²Þ
+Ý²±°°³             Actraiser, Hartec, Kelv, Breakpoint, Frac, Silo,     ³°°±²Þ
+Ý²±°°³             Chris Morris, my Dad.                                ³°°±²Þ
+Ý²±°°³                                                                  ³°°±²Þ
+Ý²±°°ÀÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÙ°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ
+Ý²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Þ

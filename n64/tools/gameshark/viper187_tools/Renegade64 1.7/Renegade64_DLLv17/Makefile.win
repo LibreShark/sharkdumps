@@ -1,0 +1,75 @@
+# Project: Project1
+# Makefile created by Dev-C++ 4.9.9.0
+
+CPP  = g++.exe
+CC   = gcc.exe
+WINDRES = windres.exe
+RES  = 
+OBJ  = dllmain2.o vbsearch.o fileio.o misc.o search.o searchxt.o results.o n64lib.o d64type0.o d64type1.o d64type2.o vbfileio.o vb64dis.o vbAPI.o vbresults.o $(RES)
+LINKOBJ  = dllmain2.o vbsearch.o fileio.o misc.o search.o searchxt.o results.o n64lib.o d64type0.o d64type1.o d64type2.o vbfileio.o vb64dis.o vbAPI.o vbresults.o $(RES)
+LIBS =  -L"E:/Dev-Cpp/lib" --no-export-all-symbols --add-stdcall-alias E:/Dev-Cpp/lib/liboleaut32.a E:/Dev-Cpp/lib/libpsapi.a  
+INCS =  -I"E:/Dev-Cpp/include" 
+CXXINCS =  -I"E:/Dev-Cpp/include/c++/3.3.1"  -I"E:/Dev-Cpp/include/c++/3.3.1/mingw32"  -I"E:/Dev-Cpp/include/c++/3.3.1/backward"  -I"E:/Dev-Cpp/lib/gcc-lib/mingw32/3.3.1/include"  -I"E:/Dev-Cpp/include" 
+BIN  = Renegade64.dll
+CXXFLAGS = $(CXXINCS) -DBUILDING_DLL=1  
+CFLAGS = $(INCS) -DBUILDING_DLL=1  
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before Renegade64.dll all-after
+
+
+clean: clean-custom
+	rm -f $(OBJ) $(BIN)
+
+DLLWRAP=dllwrap.exe
+DEFFILE=libRenegade64.def
+STATICLIB=libRenegade64.a
+
+$(BIN): $(LINKOBJ)
+	$(DLLWRAP) --output-def $(DEFFILE) --implib $(STATICLIB) $(LINKOBJ) $(LIBS) -o $(BIN)
+
+dllmain2.o: dllmain2.c
+	$(CC) -c dllmain2.c -o dllmain2.o $(CFLAGS)
+
+vbsearch.o: vbsearch.c
+	$(CC) -c vbsearch.c -o vbsearch.o $(CFLAGS)
+
+fileio.o: fileio.c
+	$(CC) -c fileio.c -o fileio.o $(CFLAGS)
+
+misc.o: misc.c
+	$(CC) -c misc.c -o misc.o $(CFLAGS)
+
+search.o: search.c
+	$(CC) -c search.c -o search.o $(CFLAGS)
+
+searchxt.o: searchxt.c
+	$(CC) -c searchxt.c -o searchxt.o $(CFLAGS)
+
+results.o: results.c
+	$(CC) -c results.c -o results.o $(CFLAGS)
+
+n64lib.o: n64lib.c
+	$(CC) -c n64lib.c -o n64lib.o $(CFLAGS)
+
+d64type0.o: d64type0.c
+	$(CC) -c d64type0.c -o d64type0.o $(CFLAGS)
+
+d64type1.o: d64type1.c
+	$(CC) -c d64type1.c -o d64type1.o $(CFLAGS)
+
+d64type2.o: d64type2.c
+	$(CC) -c d64type2.c -o d64type2.o $(CFLAGS)
+
+vbfileio.o: vbfileio.c
+	$(CC) -c vbfileio.c -o vbfileio.o $(CFLAGS)
+
+vb64dis.o: vb64dis.c
+	$(CC) -c vb64dis.c -o vb64dis.o $(CFLAGS)
+
+vbAPI.o: vbAPI.c
+	$(CC) -c vbAPI.c -o vbAPI.o $(CFLAGS)
+
+vbresults.o: vbresults.c
+	$(CC) -c vbresults.c -o vbresults.o $(CFLAGS)

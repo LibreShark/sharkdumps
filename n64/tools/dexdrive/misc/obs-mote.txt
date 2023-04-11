@@ -1,0 +1,79 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-mote.zip?                                 22nd December 2000 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-mote.txt         Guide to Motet (This File)                       :
+:       obs-mote.nfo         Brief Info                                       :
+:       motet.exe            Motet - N64 Header & Bootcode Utility            :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Motet - N64 Header & Bootcode Utility.                                    :
+:   --------------------------------------                                    :
+:                                                                             :
+:   Motet can be used to change the bootcode of any N64 Binary in any known   :
+:   format. This allows the user to change bootcodes of images at will for    :
+:   use with any Bootcart. Supported bootcodes are Mario type, Diddy type,    :
+:   Yoshi type, and Zelda type.                                               :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   How do I use Motet?                                                       :
+:   -------------------                                                       :
+:                                                                             :
+:   Motet is best controlled from the command line prompt.                    :
+:                                                                             :
+:   At the prompt type:                                                       :
+:                                                                             :
+:      motet <filename> [CIC-Type] [Info]                                     :
+:                                                                             :
+:   There are four different CIC-Types. (Each CIC-Type refers to the first    :
+:   game to use that type of CIC bootchip.)                                   :
+:                                                                             :
+:            -mario    = This will backup a cartridge with the Mario-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6102 & NUS-CIC-7101        :
+:                                                                             :
+:            -diddy    = This will backup a cartridge with the Diddy-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6103 & NUS-CIC-7103        :
+:                                                                             :
+:            -yoshi    = This will backup a cartridge with the Yoshi-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6106 & NUS-CIC-7106        :
+:                                                                             :
+:            -zelda    = This will backup a cartridge with the Zelda-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6105 & NUS-CIC-7105        :
+:                                                                             :
+:   The Info option allows one to view the header information without         :
+:   modifying the ROM.                                                        :
+:                                                                             :
+:            --info    = Views the header information.                        :
+:                                                                             :
+:   Obsidian brings you another first for the scene! Look out for more of     :
+:   our projects in the future...                                             :
+:                                                                             :
+:   Any suggests for additional features in any of our software are welcome.  :
+:   User feedback is a major driving force in us releasing our tools to the   :
+:   public. And any results in using this tool would be helpful!              :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

@@ -1,0 +1,221 @@
+wJrRead V1 - [By RaO 1999/2000]
+===============================
+(Windows Version) - without PV-Backup Support! (sorry)...
+
+*NOTE*  This program has not been out in any betatest rounds, so it may contain errors! Be sure
+to check your backups.
+
+
+Disclaimer.
+===========
+Anyone using this program does so at their own risk. The author does not accept any liability 
+for loss or damage arising from its use. The program (wJrRead) and the Backup ROM which is
+transfered to the Unit dosen't contain ANY copyrighted material. The N64 Backup ROM is made in
+pure assembler without any use of libraries or Devkits.
+
+
+Copyrights.
+==========
+You are free to copy and distribute this product as long as this package is distributed in its 
+entirety. You are not allowed to change the program in any form.
+
+
+Index:
+======
+  1. What is this program for ?
+
+  2. Requirements
+
+  3. How To Install..
+    3.1 Windows 9x / ME
+    3.2 Windows NT 4.0 / Windows 2000
+  
+  4. How to Use the program. 
+    4.1 Unit / About 
+    4.2 BackUp Cartridge
+       4.2.1 Cartridge Size MBit 
+       4.2.2 Use BootCode
+       4.2.3 Working directory
+       4.2.4 Verify (By a 2nd copy)
+       4.2.5 Save Log File
+
+    4.3 "Start Backup" / Backup Status screen
+
+  5. BackUp cartridges > 256 Mbit on a V64Jr./PV-Backup Unit
+
+  6. Files In The Archive
+
+  7. E-mail 
+
+  8. Thanks
+
+
+
+1. What is this program for ?
+=============================
+This program is for dumping your N64 cartridges from a V64Jr. / PV-Backup Unit. 
+It supports the following CIC-NUS 6102, 6103, 6105 and 6106. (6101 is left out because
+it is only used in one game which is Lylat Wars / StarFox 64).
+
+I have included PV-Backup unit in the docs, but the matter of fact is that we are having
+some trouble getting a clean backup from the unit, so I've decided to remove the PV-Backup
+support in the program for now.. When wJrRead is working 100% with that unit I'll release 
+a V1.1 with support for it...
+
+
+2. Requirements
+===============
+- A PC with LPT port (EPP 1.9) and MS Windows9x / NT 4.0 / 2000 - See NT section for more info!
+- A Doctor V64 Jr. / PV-Backup Unit (attached to the PC via. the parallel port) :)
+- Bootcode files. These data can be extracted from demos, games etc. with eg. RN64CRC
+
+
+3. How To Install..
+===================
+  Create a new folder on your HD and unzip (with WinZip) this package. 
+  Start the program wJrRead.exe via explore or Start -> Run. 
+  You could make a shortcut to the wJrRead.exe program. 
+
+
+  3.1 Windows 9x / ME
+  ===================
+  You can delete DLPORTIO.sys If you don't plan to use Win NT / 2000
+
+  3.2 Windows NT 4.0 / Windows 2000
+  =================================
+  I have included DLPORTIO.sys which should be placed in your in your \WinNT\System32\Drivers 
+  folder. Move DLPORTIO.dll to the \WinNT\System32 folder wJrRead will load the driver by 
+  itself when needed. 
+
+  You must store the bootcodefiles in the same folder where you placed wJrRead
+
+  (if you get any DriverLinx errors then search and remove DLPORTIO.sys and .dll from all other
+   location than mentioned above)
+
+   
+4. How to Use the program. 
+==========================
+  IMPORTANT: To successfully backup a cartridge, it must be plugged directly into the unit
+  Be sure to remove any cartridges that may be sitting inbetween the game cartridge and the 
+  unit such as DX256, DS1, GS etc.
+
+  4.1 Unit / About 
+  ================
+  On this page, you can see if the program has found the unit. If not you can click on 
+  Find It! and wJrRead will start searching on your LPT-port(s).  
+
+  After the unit when the unit is found then you can "Detect Mbit Installed" by default 
+  wJrRead will assume that you have a 256 Mbit unit.
+
+  You can select NTSC if your NTSC N64 TV / monitor (Yes I am a PAL User) :) 
+
+  If you have trouble detecting your unit then you can use the system menu to select what
+  unit you are using and if wJrRead should autodetect your LPT port(s).
+
+  
+  4.2 BackUp Cartridge
+  ====================
+  (This tab will only be visible if/when your Unit was found by wJrRead).
+
+  4.2.1 Cartridge Size MBit 
+  =========================
+  This is the size (in Mbit) to backup from the cartridge it can be any number between 
+  32 and 512.
+
+  4.2.2 Use BootCode
+  ==================
+  Here you select what bootcode (CIC-NUS chip) the cartridge have. wJrRead dosen't contain 
+  any bootcodes at all since this is copyrighted material (by Nintendo), so you have to 
+  use another program (e.g. RN64CRC.EXE) to extract them from other ROMS or get them elsewhere. 
+  Place them in the same folder where you placed wJrRead.
+
+  It dosen't matter if they are in .BIN or .V64 format wJrRead can use both formats.
+
+  When clicking "Refresh bootcode list" wJrRead will search for valid bootcode files in the
+  directory where wJrRead is installed.
+
+  4.2.3 Working directory
+  =======================
+  Here you enter or select (by dbl. clicking the edit-box) where wJrRead can store data during 
+  backup. By default your Windows Temp. folder is used.
+
+  4.2.4 Verify (By a 2nd copy)
+  ============================
+  When enabled then wJrRead will make 2 copies of the cartridge and then compare them. 
+  Regardless if this option is choosen or not wJrRead will make a CRC check when the backup
+  is done.
+
+  4.2.5 Save Log File
+  ===================
+  This will save a log of the backup progress in the folder where you store the ROM file 
+  with a .Log extension
+ 
+
+  When you are ready press "Start Backup" and follow the instructions on the screen and you 
+  will soon have made your first copy! :)
+
+  After a succesfull copy a save dialog will appear where you enter a name for the ROM and 
+  press save. The ROM is saved in V64 format...
+
+ 
+  4.3 "Start Backup" / Backup Status screen
+  =========================================
+  When you click "Start Backup" from the Backup Cartridge page then wJrRead will alter the 
+  N64 backup ROM upon the size, CIC-NUS type you have choosen and send it to the Unit, 
+  recalc the CRC's and ask you to turn on the N64 ..  You should see a screen on the N64
+  with "Backup In progress.."  when it say "Backup Done.." then you can turn off the N64 again
+  and press "OK" button in wJrRead it will then transfer the data back to the PC.  This is what
+  I call a "turn" you can read below how many "turns" it takes to backup cartridges depending
+  on their size in Mbit and your Unit.
+
+
+
+5. BackUp cartridges > 256 Mbit on a V64Jr./PV-Backup Unit
+==========================================================
+You can backup cartridges which is bigger than 256 Mbit on your 256Mbit V64Jr. But you can't
+test the backup. It is done in 2 "turns". Take a look at the table below to see how many "turns"
+is needed with or without Verify..
+
+ w/o Verify:    
+   -V64Jr./PV-Backup     256 Mbit  512 Mbit.
+   cart. <= 256 Mbit       1 turn    1 turn
+   cart. > 256 Mbit	   2 turns   1 turn
+
+ With Verify:
+   -V64Jr./ PV-Backup    256 Mbit  512 Mbit.
+   cart. <= 256 Mbit       2 turns   2 turns
+   cart. > 256 Mbit	   4 turns   2 turns
+  
+
+6. Files In The Archive
+========================
+wJrRead.txt       7.596  19-12-00
+wJrRead.exe      520512  19-12-00
+DLPortIO.dll      34816  10-01-99
+DLPortIO.sys 	   3584  10-01-99  (not used on Win9x/ME platforms)
+
+
+7. E-mail 
+=========
+If you find any bugs or if you have any ideas, comments or spelling mistakes since english is
+not my "first language" then email me @ : rao@mailroom.com
+
+Mails with any kind of ROM / Bootcode request will be ignored!
+
+
+8. Thanks
+=========
+- MMR - for being a very good friend! :) 
+- Pitou! for testing on the PV-Backup Unit.
+- Valery Pudov for inventing the PV-Backup Unit. (http://www.pro.com.ru/)
+- Titanik / CZN - Thank you for the info!
+- The regulars in #consolepal and #Dextrose (EFNet) 
+- Dextrose for the best forum for the N64.
+- Nintendo for their products! 
+- All the ppl. who keeps the scene going! (You know who you are) :)
+
+That's All..
+
+- RaO
+
+[EOT]

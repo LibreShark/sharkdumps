@@ -1,0 +1,139 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-ziya.zip?                                 22nd December 2000 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-ziya.txt         Guide to Ziyal (This File)                       :
+:       obs-ziya.nfo         Brief Info                                       :
+:       ziyal.exe            Ziyal - V64jr Cartridge Backup Utility           :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Ziyal - V64jr Cartridge Backup Utility.                                   :
+:   ---------------------------------------                                   :
+:                                                                             :
+:   Ziyal is the ultimate V64jr Cartridge Backup tool. It provides options    :
+:   never seen in any other backup tool before it, or on any other backup     :
+:   unit than the V64jr.                                                      :
+:                                                                             :
+:   Ziyal has the ability to dump cartridges of any NUS-CIC bootchip type!    :
+:   As well as features like smart cartridge size detection, onboard save     :
+:   chip detection along with fast and accurate dumps. Ziyal is by far the    :
+:   most advanced V64jr Cartridge Backup Utility!                             :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   How do I use Ziyal?                                                       :
+:   -------------------                                                       :
+:                                                                             :
+:   If your using Elim or EvekII with your V64jr at the moment, then you'll   :
+:   have no trouble with Ziyal, it is built on the 'Elim engine' by Refried,  :
+:   so it should work with all the same OS types as Elim does. For more       :
+:   information on this, consult the Elim information files in the            :
+:   obs-elim.zip file available from our website. If you don't use Elim at    :
+:   the moment, I suggest you upgrade to Elim, and use the best V64jr         :
+:   transfer tool ever, and if your not using EvekII, then your not getting   :
+:   the full advantage of your V64jr. Download EvekII and manage your save    :
+:   game data easily!                                                         :
+:                                                                             :
+:   Setup your N64 and V64jr as you would for using Elim or EvekII, but make  :
+:   sure that the only thing plugged into the V64jr is the cartridge which    :
+:   you want to backup. If there is anything else plugged inbetween the       :
+:   cartridge and the V64jr, backups maybe corrupt, or Ziyal may not          :
+:   function correctly and produce error messages.                            :
+:                                                                             :
+:   Ziyal is best controlled from the command line prompt.                    :
+:                                                                             :
+:   At the prompt type:                                                       :
+:                                                                             :
+:      ziyal [CIC-Type] [mode]                                                :
+:                                                                             :
+:   There are four different CIC-Types. (Each CIC-Type refers to the first    :
+:   game to use that type of CIC bootchip.)                                   :
+:                                                                             :
+:            -mario    = This will backup a cartridge with the Mario-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6102 & NUS-CIC-7101        :
+:                                                                             :
+:            -diddy    = This will backup a cartridge with the Diddy-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6103 & NUS-CIC-7103        :
+:                                                                             :
+:            -yoshi    = This will backup a cartridge with the Yoshi-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6106 & NUS-CIC-7106        :
+:                                                                             :
+:            -zelda    = This will backup a cartridge with the Zelda-Type     :
+:                        CIC bootchip. ie: NUS-CIC-6105 & NUS-CIC-7105        :
+:                                                                             :
+:                                                                             :
+:      If no [CIC-Type] is selected then the cartridge is assumed to be the   :
+:      common Mario-Type CIC bootchip (NUS-CIC-6102 & NUS-CIC-7101).          :
+:                                                                             :
+:   There is one user selectable send mode.                                   :
+:                                                                             :
+:            --software = Forces Ziyal to send using Software emulation       :
+:                         of the EPP handshaking protocol. This is useful     :
+:                         if it is not possible to use an EPP 1.9 lpt port    :
+:                         or you are having trouble sending and receiving.    :
+:                                                                             :
+:      If the mode option is left blank, the the port will be assumed to be   :
+:      EPP 1.9 (just like Elim).                                              :
+:                                                                             :
+:   Example Cases:                                                            :
+:                                                                             :
+:   If Ziyal is executed with no arguments at all, then Ziyal will assume     :
+:   that the parallel port is EPP 1.9 and the cartridge being dumped is       :
+:   Mario-Type (NUS-CIC-6102 & NUS-CIC-7101).                                 :
+:                                                                             :
+:      ziyal                                                                  :
+:                                                                             :
+:   If the desired cartridge being backed up has a CIC-NUS-6105 bootchip,     :
+:   the the user must execute Ziyal as follows.                               :
+:                                                                             :
+:      Ziyal -zelda                                                           :
+:                                                                             :
+:   If the user does not know what type of CIC bootchip the cartridge uses    :
+:   they must try each of the [CIC-Types] until the Ziyal is able to dump     :
+:   the cartridge. If Ziyal reports errors after you turn on the N64, or      :
+:   when the N64 is turned on and there is no onscreen display, try           :
+:   selecting another CIC bootchip with the [CIC-Types] option.               :
+:                                                                             :
+:   Once executed, follow the prompts that Ziyal produces, both on the PC     :
+:   and the N64 display.                                                      :
+:                                                                             :
+:   Along with dumping the ROM in the cartridge, if Ziyal detects any         :
+:   onboard save chip, that chip will be dumped also and saved to the PC.     :
+:                                                                             :
+:   When the PC reports it has finished dumping the cartridge, the N64 can    :
+:   be turned off.                                                            :
+:                                                                             :
+:   Note: The current build of Ziyal does not support backup of the Starfox   :
+:         or Lylat-Wars cartridges. This will be addressed in a future        :
+:         release of Ziyal.                                                   :
+:                                                                             :
+:   Look out for more Obsidian projects in the future...                      :
+:                                                                             :
+:   Any suggests for additional features in any of our software are welcome.  :
+:   User feedback is a major driving force in us releasing our tools to the   :
+:   public. And any results in using this tool would be helpful!              :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

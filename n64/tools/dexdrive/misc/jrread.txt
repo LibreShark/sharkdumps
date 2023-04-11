@@ -1,0 +1,214 @@
+JrRead V1 - [By RaO 1999/2000]
+==============================
+(DOS32 Version) - without PV-Backup Support! (sorry)...
+
+*NOTE*  This program has not been out in any betatest rounds, so it may contain errors! Be sure
+to check your backups.
+
+
+Disclaimer.
+===========
+Anyone using this program does so at their own risk. The author does not accept any liability 
+for loss or damage arising from its use. The program (JrRead) and the Backup ROM which is
+transfered to the Unit dosen't contain ANY copyrighted material. The N64 Backup ROM is made in
+pure assembler without any use of libraries or Devkits.
+
+
+Copyrights.
+==========
+You are free to copy and distribute this product as long as this package is distributed in its 
+entirety. You are not allowed to change the program in any form.
+
+
+Index:
+======
+  1. What is this program for ?
+
+  2. Requirements
+
+  3. How To Install..
+    3.1 Windows 9x / ME
+    3.2 Windows NT 4.0 / Windows 2000
+
+  4. How to Use the program. 
+    4.1 Parameters
+    4.1.1 -v64jr<port> / -pvb<port>
+    4.1.2 -MBit<Number>  / -MB<Number>
+    4.1.3 -CIC<Bootcode ID>
+    4.1.4 -512
+    4.1.5 -Verify / -V
+    4.1.6 -File<FileName> / -F<FileName>
+    4.1.7 -NTSC
+
+    4.2 Working directory
+
+  5. BackUp cartridges > 256 Mbit on a V64Jr./PV-Backup Unit
+
+  6. Files In The Archive
+
+  7. E-mail 
+
+  8. Thanks
+
+1. What is this program for ?
+=============================
+This program is for dumping your N64 cartridges from a V64Jr. / PV-Backup Unit. 
+It supports the following CIC-NUS 6102, 6103, 6105 and 6106. (6101 is left out because
+it is only used in one game which is Lylat Wars / StarFox 64).
+
+I have included PV-Backup unit in the docs, but the matter of fact is that we are having
+some trouble getting a clean backup from the unit, so I've decided to remove the PV-Backup
+support in the program for now.. When JrRead is working 100% with that unit I'll release 
+a V1.1 with support for it...
+
+
+2. Requirements
+===============
+- A PC with LPT port (EPP 1.9) and MS Windows9x / NT 4.0 / 2000 - See NT section for more info!
+- A Doctor V64 Jr. / PV-Backup Unit (attached to the PC via. the parallel port) :)
+- Bootcode files. These data can be extracted from demos, games etc. with eg. RN64CRC
+
+
+3. How To Install..
+===================
+  Create a new folder on your HD and unzip (with WinZip) this package. 
+  Start the program JrRead.exe via MS-DOS Prompt.
+
+  3.1 Windows 9x / ME
+  ===================
+  You can delete DLPORTIO.sys If you don't plan to use Win NT / 2000
+
+  3.2 Windows NT 4.0 / Windows 2000
+  =================================
+  I have included DLPORTIO.sys which should be placed in your in your \WinNT\System32\Drivers 
+  folder. Move DLPORTIO.dll to the \WinNT\System32 folder JrRead will load the driver by 
+  itself when needed. 
+
+  You must store the bootcodefiles in the same folder where you placed JrRead
+
+  (if you get any DriverLinx errors then search and remove DLPORTIO.sys and .dll from all other
+   location than mentioned above)
+
+   
+4. How to Use the program. 
+==========================
+  IMPORTANT: To successfully backup a cartridge, it must be plugged directly into the unit
+  Be sure to remove any cartridges that may be sitting inbetween the game cartridge and the 
+  unit such as DX256, DS1, GS etc.
+
+
+  Start a MS-DOS prompt and go to the directory where you placed JrRead. 
+  You can write jrRead and press enter to get see the help screen. 
+
+  Syntax : [-v64jr<port> / -pvb<port>] -MBXXX -CICXXXX -512 -verify -File<FileName> -NTSC
+
+
+  4.1 Parameters
+  ==============
+  
+  4.1.1 -v64jr<port> / -pvb<port>
+  ===============================
+  IF this parameter is left out then JrRead will use an autodetection routine to detect
+  your unit and LPT port(s).
+
+  <Port> can either be in hex or decimal (eg. $378 or 888). 
+
+  You can combine the unit and port. eg. -v64Jr alone will trigger the autodetection for 
+  the <port> only. 
+
+
+  4.1.2 -MBit<Number>  / -MB<Number>
+  ==================================
+  Set the size in Mbit you wish to backup from the cartridge. <Number> is a valid integer
+  between 32 and 512.
+
+  4.1.3 -CIC<Bootcode ID>
+  =======================
+  Select what bootcode (CIC-NUS chip) the cartridge have. JrRead or the N64 Backup ROM dosen't
+  contain any at all since this is copyrighted material (by Nintendo), so you have to use 
+  another program (e.g. RN64CRC.EXE) to extract them from other ROMS or get them elsewhere. 
+  Place them in the same folder where you placed JrRead. 
+
+  It dosen't matter if they are in .BIN or .V64 format JrRead can use both formats.
+
+  <BootCode ID> can be 6102, 6103, 6105 or 6106
+
+  4.1.4 -512
+  ==========
+  This tells JrRead that you are using a 512 Mbit unit (default is 256). This option is only
+  used when you backup cartridges bigger than 256 Mbit.
+  (see "BackUp cartridges > 256 Mbit on a V64Jr./PV-Backup Unit" section).
+
+  4.1.5 -Verify / -V
+  ==================
+  Tells JrRead to make 2 copies of the cartridge and then compare them. 
+  Regardless if this option is choosen or not JrRead will make a CRC check when the backup
+  is done.
+
+  4.1.6 -File<FileName> / -F<FileName>
+  ====================================
+  The filename of the backup. If you use space then use " (eg. -File"D:\my folder\test it.v64")
+  The ROM is saved in V64 format.
+
+
+  4.1.7 -NTSC
+  ===========
+  If you are using a NTSC N64 / TV .. (PAL is default) :) 
+
+
+  
+  4.2 Working directory
+  =====================
+  jrRead uses the current directory as "working directory", a good rule is to have 3 * ROM size
+  free. So if you use -verify and make a backup of 256Mbit make sure to have at least 96 Mb free
+
+
+5. BackUp cartridges > 256 Mbit on a V64Jr./PV-Backup Unit
+==========================================================
+You can backup cartridges which is bigger than 256 Mbit on your 256Mbit V64Jr. But you can't
+test the backup. It is done in 2 "turns". Take a look at the table below to see how many "turns"
+is needed with or without Verify..
+
+ w/o Verify:    
+   -V64Jr./PV-Backup     256 Mbit  512 Mbit.
+   cart. <= 256 Mbit       1 turn    1 turn
+   cart. > 256 Mbit	   2 turns   1 turn
+
+ With Verify:
+   -V64Jr./ PV-Backup    256 Mbit  512 Mbit.
+   cart. <= 256 Mbit       2 turns   2 turns
+   cart. > 256 Mbit	   4 turns   2 turns
+  
+
+6. Files In The Archive
+========================
+JrRead.txt       6.717  19-12-00
+JrRead.exe     423.744  19-12-00
+DLPortIO.dll     34816  10-01-99
+DLPortIO.sys      3584  10-01-99  (not used on Win9x/ME platforms)
+
+
+7. E-mail 
+=========
+If you find any bugs or if you have any ideas, comments or spelling mistakes since english is
+not my "first language" then email me @ : rao@mailroom.com
+
+Mails with any kind of ROM / Bootcode request will be ignored!
+
+
+8. Thanks
+=========
+- MMR - for being a very good friend! :) 
+- Pitou! for testing on the PV-Backup Unit.
+- Valery Pudov for inventing the PV-Backup Unit. (http://www.pro.com.ru/)
+- Titanik / CZN - Thank you for the info!
+- The regulars in #consolepal and #Dextrose (EFNet) 
+- Dextrose for the best forum for the N64.
+- Nintendo for their products! 
+- All the ppl. who keeps the scene going! (You know who you are) :)
+
+That's All..
+
+- RaO
+
+[EOT]

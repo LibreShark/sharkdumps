@@ -1,0 +1,24 @@
+Well since the bios zip was absent of any type of manual (come on Mr. Backup, be a little more professional about this stuff), many people
+were wondering how to work the mempack backup feature of the new bios, well here's how:
+
+1.Load up the On-Screen-Display
+2.Arrow down to the game you want to backup your mempack for
+3.Hit the left c-button
+4.Pick "Save"
+
+Now when you want to play that game with your mempack once again, just load the game up like normal, and it will prompt you on whether to
+load the mempack or not, and click yes... After loading the rom, it will take about 20 seconds to load the mempack, then its done...
+
+From what I can tell, it backs up the entire mempack to the zipdisk under the filename specified by what game you hit "left-c" on... Meaning if
+you hit "left-c" on Vigilante 8, the save file will be something like vigilant.mpk (or something similar)... The file weighs in at 32k (the size of a
+nintendo mempack). This also means that if you save a mempack with two different games on it (say Vigilante 8 and Madden), only the title
+you hit "left-c" on will load the mempack automatically... So say you have the Madden/Vig 8 mempack and you hit "left-c" on Vigilante 8...
+When you load your madden rom, it won't load the memory pak with it... A bit annoying, but now that you really don't have to buy memory
+packs, I suggest just keeping one game to a save file, and you'll make it a whole lot easier.
+
+One thing I would like to suggest for the next bios version ([SoS] chuckles to himself at the thought of them actually listening to user requests
+for the next bios), a mempack data screen that can be accessed from the OSD... Just something to browse the memory paks and clean up files
+a bit... Also allowing a .diz or .txt file to put mempack descriptions in (like where you were in the game, what level, etc...) that can be viewed
+from the OSD... (That's in addition to the CDROM support of course...)
+ 
+

@@ -1,0 +1,157 @@
+           ______                           ______                             
+           \_    |                         |    _/                 /\ -poyZ/99 
+____________|    |___     ________      ___|    |         ________/  \_________
+\ _    _    |    _   \_.--\    __/_____/   _    |______.--\_    _/    \     _ /
+:\/    /    |    /    /    \    \     |    \    |     /    _    |    \ \    \/:
+:/__________|________/___________\____|_________|____/__________|_____\______\:
++-----------------------------------------------------------------------------+
+:                                                                             :
+:                        O   B   S   I   D   I   A   N                        :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Whats in obs-gmpp.zip?                                 14th December 2000 :
+:   ----------------------                                                    :
+:                                                                             :
+:       obs-gmpp.txt        Guide to Ghemor Parallel Port Version (This File) :
+:       obs-gmpp.nfo        Brief Info                                        :
+:       obs-gmpp.rom        The ROM                                           :
+:       ghemor.exe          The EXE                                           :
+:       cwsdpmi.exe         DPMI Manager used by ghemor.exe                   :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Ghemor (Parallel Port version).                                           :
+:   -------------------------------                                           :
+:                                                                             :
+:   Ghemor is a transfer/save util for the CD64. If you combined Elim and     :
+:   Evek and made it for use with the CD64, this is the util you would get.   :
+:                                                                             :
+:   This is the Parallel Port version that the majority of CD64 users have    :
+:   been waiting for. I would like to give a big thanks to rastaman, who      :
+:   lent me his PPA. Without one, this might not have ever been completed     :
+:   or would at least have taken a lot longer.                                :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Instructions.                                                             :
+:   -------------                                                             :
+:                                                                             :
+:   Load and run obs-gmpp.rom, then you control everything via the exe.       :
+:                                                                             :
+:   Usage: GHEMOR <command> [options] <file> [patches]                        :
+:                                                                             :
+:   The commands are:                                                         :
+:                                                                             :
+:     -loadmem    Loads a save file into a mempak. The N64 will search        :
+:                 for the first mempak it finds and will load the save        :
+:                 into that pak.                                              :
+:                                                                             :
+:     -loadmem#   Loads a save file into the mempak you specify. Replace      :
+:                 the # with a number between 1-4 to select which pak you     :
+:                 want to use.                                                :
+:                                                                             :
+:     -savemem    Saves a mempak to a file. The N64 will search for the       :
+:                 first mempak it finds and will read from that pak.          :
+:                                                                             :
+:     -savemem#   Saves the mempak you specify to a file. Replace the #       :
+:                 with a number between 1-4 to select which pak you want      :
+:                 to use.                                                     :
+:                                                                             :
+:     -loadeep    Loads a save file into EEPROM. This works with both         :
+:                 4kbit and 16kbit chips. If you try to load a file           :
+:                 that is a different size than the EEPROM that is            :
+:                 present, the N64 will tell you about it.                    :
+:                                                                             :
+:     -saveeep    Saves EEPROM to a file. The size of the EEPROM will         :
+:                 automatically be detected.                                  :
+:                                                                             :
+:     -loadsram   Loads a save file into SRAM. You can also use this          :
+:                 command to load an emulated Flash save.                     :
+:                                                                             :
+:     -savesram   Saves SRAM to a file. This is for regular SRAM only,        :
+:                 not emulated Flash.                                         :
+:                                                                             :
+:     -loadflash  Loads an emulated Flash file into SRAM. This uses           :
+:                 the exact same function as -loadsram. Hopefully one         :
+:                 day it will be used for real Flash. :)                      :
+:                                                                             :
+:     -saveflash  Saves emulated Flash to a file. Technically you can         :
+:                 also save real Flash data with the command, but you         :
+:                 might not be getting 100% valid data.                       :
+:                                                                             :
+:     -loadrom    Loads a ROM and executes it. This command will take         :
+:                 care of booting 6101, 6102, 6103 and 6106 games just        :
+:                 like the CD64 BIOS. So there is no need for a crack or      :
+:                 bootemu for those bootcodes. It will also perform a         :
+:                 country fix.                                                :
+:                                                                             :
+:                 Ghemor's sending function is compatible with the CD64       :
+:                 BIOS. So you can use this command to send a ROM in the      :
+:                 BIOS without the Ghemor ROM running. You can also use       :
+:                 other CD64 transfer utils to load ROM's with the N64        :
+:                 side of Ghemor running. For instance, you could load        :
+:                 up Ghemor to restore a save, then use RTool or another      :
+:                 util that supports the CD64 and send a ROM.                 :
+:                                                                             :
+:     -loadboot   Since Ghemor can't boot 6105 games itself, this command     :
+:                 lets you use LaC's Unversal Bootemu. Just load a ROM        :
+:                 without executing it (using the -t option) and then         :
+:                 load the bootemu 'ghemor -loadboot dx-be.rom'. Once         :
+:                 the bootemu screen comes up, press Start.                   :
+:                                                                             :
+:     -dumpcart   Dumps the cart that is currently plugged into the CD64.     :
+:                 The size of the cart is displayed at the bottom of the      :
+:                 screen on the N64.                                          :
+:                                                                             :
+:     -runrom     Runs the ROM that was loaded into the CD64. Use this        :
+:                 command by itself, no need for a filename.                  :
+:                                                                             :
+:     -runcart    Runs the cart that is plugged into the CD64. Use this       :
+:                 command by itself, no need for a filename.                  :
+:                                                                             :
+:   The options are:                                                          :
+:                                                                             :
+:     -t          This is used with the -loadrom command. It makes Ghemor     :
+:                 transfer the ROM without executing it.                      :
+:                                                                             :
+:                                                                             :
+:   About [patches] in the Ghemor usage. When you load a ROM you can          :
+:   have Ghemor apply patches to it while it sends. This way you don't        :
+:   modify the file. Ghemor supports both IPS and APS. You can also           :
+:   use up to 4 patches at once.                                              :
+:                                                                             :
+:   Ghemor is compatible with DexDrive and Z64 mempak saves, Z64 SRAM         :
+:   saves and Z64 4kbit EEPROM saves.                                         :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:   Some extra info.                                                          :
+:   ----------------                                                          :
+:                                                                             :
+:   You can quit both the EXE and ROM, which is useful if the CD64 and PC     :
+:   get out of sync and both programs get 'stuck' waiting for data. Press     :
+:   CTRL+C to quit GHEMOR.EXE and pressing Reset when the ROM is loaded       :
+:   will go back to the CD64 BIOS.                                            :
+:                                                                             :
+:   This also applies to the Comms Link version, but I forgot to mention      :
+:   it in the nfo. :)                                                         :
+:                                                                             :
+:   If you find any bugs or have any comments about this util, you can        :
+:   contact me at crowtrobo@hotmail.com. DO NOT email me asking for ROM's     :
+:   or for help on getting ROM's to work.                                     :
+:                                                                             :
+:   CrowTRobo                                                                 :
+:                                                                             :
++-----------------------------------------------------------------------------+
+:                                                                             :
+:             http://go.to/obsidian/  -  obs@startrekmail.com                 :
+:                                                                             :
++---------------------+---------------+---------------+-----------------------+
+:          ______     : Obsidian Team :  Department   :                       :
+:          \_    |    +---------------+---------------+            /\ -poyZ/99:
+:___________|    |___ :   WT_Riker    :   Coding      :   ________/  \_________
+\ _    _    |    _   \:   JL_Picard   :   Coding      :.--\_    _/    \     _ /
+:\/    /    |    /    :   Refried     :   Coding      :    _    |    \ \    \/:
+:/__________|________/:   CrowTRobo   :   Coding      :_________|_____\______\:
+`---------------------+---------------+---------------+-----------------------'

@@ -1,0 +1,59 @@
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°ÕÍÍÍÍÍÍÍÍÍÍÍÍÍ¸°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°° RùEùDùBùOùX °°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°ÔÍÍÍÍÍÍÍÍÍÍÍÍÍ¾°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°ÚÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ( RELEASE-INFO: )ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄ¿°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Title        : UltraMSX2 v1.0 MSX2 rom insert program           ³°°±²Ş
+İ²±°°³  Release-date : 16.02.2000                                       ³°°±²Ş
+İ²±°°³  Suppler      : RedboX                                           ³°°±²Ş
+İ²±°°³  Quote        : "If wanted to invade poland, I'd of been         ³°°±²Ş
+İ²±°°³                  german..."                                      ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Release-notes :                                                 ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³    Well, theres another util, im sure someone will find some     ³°°±²Ş
+İ²±°°³    use for it.                                                   ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³    This util will let you change the MSX2 cartridge rom in       ³°°±²Ş
+İ²±°°³    Jos Kwanten's excelent ultraMSX2 emulator.  Beaware that      ³°°±²Ş
+İ²±°°³    the emulator can only handle 128Kb cartridges, and if you     ³°°±²Ş
+İ²±°°³    try to insert a larger cartridge image it will not work.      ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³    To use the utility you will need to specify the path and      ³°°±²Ş
+İ²±°°³    filename of the emulator, the path and filename of the        ³°°±²Ş
+İ²±°°³    cartridge image to insert, and optionaly a filename for       ³°°±²Ş
+İ²±°°³    the output file.                                              ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Usage:                                                          ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³     xmsxinst.exe ultraMSX.v64 cartridge.rom outputfile.v64       ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Notes:                                                          ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³     The utility will automaticaly detect the format of           ³°°±²Ş
+İ²±°°³     emulator and automaticaly flip the image if nessasary.       ³°°±²Ş
+İ²±°°³     The utility will also fix the CRC of the output file.        ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°ÀÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÙ°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°ÚÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ( GREETINGS: )ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄ¿°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Groups : BlackBag,Msftug,CrazyNation,TheSecretForce and more... ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Personal : Breakpoint, Zigor, Ego_UK, Anarko, Acey, Nina_k,     ³°°±²Ş
+İ²±°°³             Actraiser, Hartec, Kelv, Breakpoint, Frac, Silo,     ³°°±²Ş
+İ²±°°³             Chris Morris, my Dad.                                ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°ÀÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÙ°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş

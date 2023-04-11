@@ -1,0 +1,71 @@
+PERFECT TRAINER V1.0b for N64 - coded by iCEMARiO
+-------------------------------------------------
+Compatible with Action Replay/Gameshark cartridges
+
+What is Perfect Trainer?
+It is a new rom that you can upload to your N64 Action Replay or
+Gameshark cartridge.  It was specially designed for you to hack
+Perfect Dark and Donkey Kong 64.  It also stops the annoying
+freezes that you get in Banjo-Tooie while using the old Action 
+Replay/Gameshark versions.
+
+Trainer Types:
+
+Perfect Dark PAL
+Perfect Dark USA
+Perfect Dark JAP (No Code Support in this ver)
+Donkey Kong 64 PAL
+Donkey Kong 64 USA
+Banjo-Tooie UK
+Banjo-Tooie USA
+Standard Trainer
+
+There is no in-built code generator.  Just use the N64 Utils
+to dump memory, train and activate codes.
+
+Installing:
+
+Backup your existing ar3.enc/gs3.enc file from your N64 Utils folder.
+Just rename it to ar3backup.enc or something. Then simply extract
+the ar3.enc in this archive to the directory of your N64 Utils.
+Switch on your N64 and get to the AR/GS main menu. Make sure you have
+the suitable cable connected between your Pc and AR/GS comms link.
+Run the N64 Utils and go to "Other Utilities" and click Upgrade.
+This will start the upgrade procedure which should not take longer
+than 30 seconds.  The N64 screen will say "Upgrade Completed" if
+successful.
+
+Running:
+
+Switch on the N64 with your AR/GS cart in the N64 and the game on top.
+Note: Perfect Trainer is hard-coded to only run games that use the
+Zelda keycode.  It will not boot with any other game type.
+
+Uninstalling:
+
+Just rename your backup enc file back to ar3.enc/gs3.enc and repeat
+the upgrade procedure when Perfect Trainer is at it's main menu.  This
+will put your AR/GS cart back to whatever version your original .enc was.
+
+
+-------------------------------------------------------------------
+
+Try and get the trainer to crash, preferably at the same spot in one
+game. I can then investigate the cause and develop a fix.
+
+
+THIS PRODUCT IS NOT ENDORSED BY DATEL OR NINTENDO.
+IT IS IN BETA STAGE AND I CANNOT BE HELD RESPONSIBLE IF YOUR LIFE
+SUDDENLY GOES PEAR SHAPED AND YOUR AR/GS CART DIES.
+
+send bugs, suggestions, praise, hatemail to icemariouk@ntlworld.com
+
+
+Enjoy!
+
+
+-iCEMARiO
+
+
+
+Greetz 2 me.

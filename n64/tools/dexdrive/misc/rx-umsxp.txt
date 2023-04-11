@@ -1,0 +1,59 @@
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°ÕÍÍÍÍÍÍÍÍÍÍÍÍÍ¸°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°° RùEùDùBùOùX °°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°ÔÍÍÍÍÍÍÍÍÍÍÍÍÍ¾°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°ÚÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ( RELEASE-INFO: )ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄ¿°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Title        : UltraMSX2 v1.0 V64 Emulation function Patch      ³°°±²Ş
+İ²±°°³  Release-date : 16.02.2000                                       ³°°±²Ş
+İ²±°°³  Suppler      : RedboX                                           ³°°±²Ş
+İ²±°°³  Quote        : "If wanted to invade poland, I'd of been         ³°°±²Ş
+İ²±°°³                  german..."                                      ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Release-notes :                                                 ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³    Well, theres another patch, im sure someone will find some    ³°°±²Ş
+İ²±°°³    use for it.                                                   ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³    This patch will let you use the emulation function of the     ³°°±²Ş
+İ²±°°³    Doctor v64's BIOS to change the MSX2 cartridge rom for        ³°°±²Ş
+İ²±°°³    Jos Kwanten's excelent ultraMSX2 emulator.  Beaware that      ³°°±²Ş
+İ²±°°³    the emulator can only handle 128Kb cartridges, and if you     ³°°±²Ş
+İ²±°°³    try to use a larger cartridge image it will not work.         ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Usage:                                                          ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³     Apply the patch to the orginal v64 format emulator, then     ³°°±²Ş
+İ²±°°³     use the file as you whould with any other emulator with      ³°°±²Ş
+İ²±°°³     the Doctor64.  I'd recomend you rename the MSX cartridge     ³°°±²Ş
+İ²±°°³     files as .EMU.                                               ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³     If you dont have a Doctor v64 and still want to use this     ³°°±²Ş
+İ²±°°³     patch, you can try the following:                            ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³     COPY /B ultraMSX.v64+msxrom.rom patched.v64                  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³     Make sure ultraMSX.v64 is not in v64 format before you       ³°°±²Ş
+İ²±°°³     do this.                                                     ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°ÀÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÙ°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°ÚÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ( GREETINGS: )ÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄ¿°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Groups : BlackBag,Msftug,CrazyNation,TheSecretForce and more... ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  --ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ---  ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°³  Personal : Breakpoint, Zigor, Ego_UK, Anarko, Acey, Nina_k,     ³°°±²Ş
+İ²±°°³             Actraiser, Hartec, Kelv, Breakpoint, Frac, Silo,     ³°°±²Ş
+İ²±°°³             Chris Morris, my Dad.                                ³°°±²Ş
+İ²±°°³                                                                  ³°°±²Ş
+İ²±°°ÀÄÄÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÄÄÙ°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
+İ²±°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°±²Ş
