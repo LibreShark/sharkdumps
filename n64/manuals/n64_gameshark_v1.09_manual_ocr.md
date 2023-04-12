@@ -1,5 +1,8 @@
-Instruction Manual for GameShark (Nintendo®64) V1.09
-====================================================
+Instruction Manual for <br>
+GameShark              <br>
+(Nintendo®64)          <br>
+V1.09
+======================
 
 ![GameShark logo](./images/gameshark-logo-300x173.png)
 
