@@ -114,10 +114,10 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 | Manual name                   | Searchable PDF                                                                        | Markdown                                                   |
 |:----------------------------- |:------------------------------------------------------------------------------------- |:---------------------------------------------------------- |
 | DexDrive manual               | [Searchable PDF (official)](/n64/manuals/n64_dexdrive_manual_official.pdf)            | _TODO_                                                     |
-| GameShark v1.09 manual        | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v1.09_manual_ocr.md) |
-| GameShark v2.0 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.00_manual_ocr.md) |
-| GameShark v2.1 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.10_manual_ocr.md) |
-| GameShark v2.2 manual         | _TODO_                                                                                | _TODO_                                                     |
+| GameShark v1.09 manual        | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v1.09_manual.md) |
+| GameShark v2.0 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.00_manual.md) |
+| GameShark v2.1 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.10_manual.md) |
+| GameShark v2.2 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.20_manual.md) |
 | GameShark Pro v3.0 manual     | _TODO_                                                                                | _TODO_                                                     |
 | GameShark Pro v3.1 manual     | _TODO_                                                                                | _TODO_                                                     |
 | GameShark Pro v3.2 manual     | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.2_manual_ocr.pdf)            | _TODO_                                                     |
