@@ -114,7 +114,7 @@ The GameShark will now present you with two blue boxes. Select either Game Card,
 Copying and Deleting Files
 --------------------------
 
-Once the save file has been selected, highlighted in white, press the “A” button to copy the file. The directional arrow beside the word “COPY” will point in the direction of the destination of that file, if the instruction reads “A:←COPY” the file will be copied from the right box into the left box. To delete a file, select the unwanted file and press the “Z” button. At this point a confirmation screen will appear, select either “YES” or “NO" using the directional control and press the “A” button.
+Once the save file has been selected, highlighted in white, press the “A” button to copy the file. The directional arrow beside the word “COPY” will point in the direction of the destination of that file, if the instruction reads “A:<-COPY” the file will be copied from the right box into the left box. To delete a file, select the unwanted file and press the “Z” button. At this point a confirmation screen will appear, select either “YES” or “NO" using the directional control and press the “A” button.
 
 Smart Card Port
 ---------------
