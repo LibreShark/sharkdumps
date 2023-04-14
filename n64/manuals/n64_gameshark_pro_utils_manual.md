@@ -329,4 +329,4 @@ Tip: For best results, pause the game, then download the memory and edit it all 
 For more information about hacking your own codes, visit www.gameshark.com and check out the “Hacking Tips”!
 
 URL to hacking tips as of 1/20/01:
-http://www.gameshark.com/search/searchresults art.jsp?Author=220&column=1
+http://www.gameshark.com/search/searchresults_art.jsp?Author=220&column=1
