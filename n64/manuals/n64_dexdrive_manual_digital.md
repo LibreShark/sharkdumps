@@ -25,7 +25,7 @@ TECHNICAL SPECIFICATIONS
 
 FIG. 1
 
-![Diagram of the DexDrive hardware components](./images/dexdrive-fig1-official-185x138.png)
+![Diagram of the DexDrive hardware components](./images/dexdrive-fig1-digital-185x138.png)
 
 ### System Requirements
 
@@ -98,7 +98,7 @@ Understanding the DexPlorer Software Program
 
 When you choose the DexPlorer icon, the DexPlorer window will appear (FIG. 2):
 
-![Screenshot of DexPlorer](./images/dexdrive-fig2-official-180x137.png)
+![Screenshot of DexPlorer](./images/dexdrive-fig2-digital-180x137.png)
 
 **Left Panel**
 
