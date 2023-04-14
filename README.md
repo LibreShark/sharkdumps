@@ -111,7 +111,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 ### N64 device manuals
 
-The Markdown transcriptions below are faithful reproductions of the original printed materials. As such, all typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
+The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
 - [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md)        • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
 - DexDrive manual (printed) - TODO
