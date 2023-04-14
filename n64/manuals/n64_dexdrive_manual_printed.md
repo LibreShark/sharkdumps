@@ -484,12 +484,12 @@ The DexDrive is an electronic unit and should be treated with care when handling
 
 If you are having difficulty with your DexDrive, please contact InterAct Accessories by the following means:
 
-| -               | - | -                                                                                               |
-|:--------------- |:- |:--- |
-| Phone           | : | (407) 333-1392 Monday through Friday, 9:00am to 5:00pm EST                                      |
-| E-mail          | : | dexsupport@interact-acc.com                                                                     |
-| World Wide Web  | : | http://www.dexchange.net                                                                        |
-| Mailing Address | : | InterAct Accessories <br>ATTN: Customer Service <br>2950 Lake Emma Road <br>Lake Mary, FL 32746 |
+| -                | -                                                                                               |
+|:---------------- |:----------------------------------------------------------------------------------------------- |
+| Phone:           | (407) 333-1392 <br>Monday through Friday, 9:00am to 5:00pm EST                                  |
+| E-mail:          | dexsupport@interact-acc.com                                                                     |
+| World Wide Web:  | http://www.dexchange.net                                                                        |
+| Mailing Address: | InterAct Accessories <br>ATTN: Customer Service <br>2950 Lake Emma Road <br>Lake Mary, FL 32746 |
 
 ***NOTE: Please call Customer Service before mailing any product to them.***
 
