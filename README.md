@@ -111,16 +111,18 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 ### N64 device manuals
 
-| Manual name                   | Searchable PDF                                                                        | Markdown                                                   |
-|:----------------------------- |:------------------------------------------------------------------------------------- |:---------------------------------------------------------- |
-| DexDrive manual               | [Searchable PDF (official)](/n64/manuals/n64_dexdrive_manual_official.pdf)            | _TODO_                                                     |
-| GameShark v1.09 manual        | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v1.09_manual.md) |
-| GameShark v2.0 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.00_manual.md) |
-| GameShark v2.1 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.10_manual.md) |
-| GameShark v2.2 manual         | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)               | [Markdown](/n64/manuals/n64_gameshark_v2.20_manual.md) |
-| GameShark Pro v3.0 manual     | _TODO_                                                                                | _TODO_                                                     |
-| GameShark Pro v3.1 manual     | _TODO_                                                                                | _TODO_                                                     |
-| GameShark Pro v3.2 manual     | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.2_manual_ocr.pdf)            | _TODO_                                                     |
-| GameShark Pro v3.3 manual     | [Searchable PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.3_manual_ocr.pdf)            | _TODO_                                                     |
-| GameShark Pro PC Utils manual | [Searchable PDF (official)](/n64/manuals/n64_gameshark_pro_utils_manual_official.pdf) | _TODO_                                                     |
-| Xplorer64 manual 1999-06-21   | [Searchable PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)                | _TODO_                                                     |
+The Markdown transcriptions below are faithful reproductions of the original printed materials. As such, all typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
+
+- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md)        • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
+- DexDrive manual (printed) - TODO
+- [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md)                        • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
+- [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            • [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
+- [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)
+- [GameShark v2.1 manual](/n64/manuals/n64_gameshark_v2.10_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)
+- [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)
+- [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_pro_v3.00_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)
+- [GameShark Pro v3.1 manual](/n64/manuals/n64_gameshark_pro_v3.10_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.10_manual_ocr.pdf)
+- [GameShark Pro v3.2 manual](/n64/manuals/n64_gameshark_pro_v3.20_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
+- [GameShark Pro v3.3 manual](/n64/manuals/n64_gameshark_pro_v3.30_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf)
+- [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
+- [Xplorer64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md)        • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
