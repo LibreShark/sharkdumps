@@ -25,6 +25,8 @@ TECHNICAL SPECIFICATIONS
 
 FIG. 1
 
+---
+
 ![Diagram of the DexDrive hardware components](./images/dexdrive-fig1-digital-185x138.png)
 
 ### System Requirements
@@ -52,6 +54,8 @@ Connecting the DexDrive
 
 Installing the DexPlorer Software
 ---------------------------------
+
+---
 
 ***NOTE: Before installing, please READ the "System Requirements" section above.***
 
@@ -94,6 +98,8 @@ To run the DexPlorer software program, you must:
 Understanding the DexPlorer Software Program
 --------------------------------------------
 
+---
+
 **NOTE: This version of the DexPlorer program is "Dual Compatible", which means that the DexPlorer program can read game saves from both the PlayStation® AND the Nintendo® 64 DexDrive. Look for future upgrade versions of the DexPlorer software at the Official DexDrive website: www.gameshark.com.**
 
 When you choose the DexPlorer icon, the DexPlorer window will appear (FIG. 2):
@@ -123,6 +129,8 @@ Shows the current status of the DexDrive.
 **Menu Bar**
 
 The Menu Bar contains the Memory Card, Edit, Data File and Help menus.
+
+---
 
 ### The Memory Card menu allows you to:
 
@@ -166,6 +174,8 @@ Copies selected game saves from either the left or right display panel, and stor
 
 **Paste**
 
+---
+
 Pastes the copied data from the memory buffer to a folder in either the left or right display panel.
 
 **Delete**
@@ -204,6 +214,8 @@ Shows the version number of the DexDrive firmware and the DexPlorer software.
 
 **Bottom Panel**
 
+---
+
 The **Backup, Restore, Duplicate, Re-Format, E-Mail, Delete, Refresh, and Exit** buttons will perform the same functions as those same commands listed under the Memory Card or Edit menus.
 
 ### Copying and Pasting Game Saves
@@ -234,6 +246,9 @@ The following methods work for games saves stored on either a memory card or in 
 4.  If you choose Yes, a processing bar will appear indicating that the Copy process has started. When the bar disappears, the game save will have been copied and stored in the memory buffer of the DexDrive.
 5.  Click on a Folder that **IS NOT in the same panel** as the game save that you just copied.
 6.  Click the **Edit** heading on the **Menu Bar**, then choose **Paste**, **OR** Press these keys on your keyboard simultaneously: **Ctrl+V**.
+
+---
+
 7.  A message box will appear. Click **Yes** to continue or **Cancel** to stop the process.
 8.  If you choose Yes, a processing bar will appear indicating that the Paste process has started. When the bar disappears, the game save will have been pasted into the display panel that you chose.
 
@@ -265,6 +280,8 @@ The following methods work for games saves stored on either a memory card or in 
 3.  Click **OK** to delete the save or **Cancel** to stop the deletion process.
 4.  If you choose OK, a processing bar will appear. When the bar disappears, the deletion process is complete.
 5.  Repeat the procedure from **Step 1** if you want to delete another game save.
+
+---
 
 **NOTE: You cannot stop the deletion process once it has begun, but you can undelete a save.**
 
@@ -303,6 +320,9 @@ There are 2 types of data files that the DexPlorer program recognizes:
 ### How to Select a .N64 (Nintendo® 64) data file
 
 1.  Make sure your Nintendo® 64 DexDrive is plugged into COM/Serial port #1.
+
+---
+
 2.  Click the **Data File** heading on the Menu Bar, then choose **Select .N64 File**.
 3.  Find the .N64 file that you want to open, then click **Open**.
 4.  The .N64 file that you selected will appear in the Right display panel.
@@ -333,6 +353,9 @@ The "plus signs" that you see beside each game save in a data file (either the .
 The DexPlorer program provides an easy way for users to backup all the contents of a memory card:
 
 1.  Click the **Memory Card** heading on the **Menu Bar**, then choose **Backup**, **OR** Click the **Backup** button on the **Bottom Panel**. **The Backup Memory Card dialog box will appear.**
+
+---
+
 2.  Type in the name of the new backup file that you want to create and save onto the hard drive or floppy disk, **OR** Click the **Browse** button, and the **Select New Game** dialog box will appear. Type in the name of the file that you want to create and save onto the hard drive or floppy disk (If you select an existing .GME or .N64 file, the warning message "Replace existing file" will appear).
 3.  Click the **Start** button to begin the backup process.
 
@@ -362,6 +385,8 @@ The following procedures describe how to duplicate the contents of a memory card
 3.  Press **OK** to start reformating or **Cancel** to stop the reformat process. A processing bar will appear.
 4.  When the processing bar disappears, the card is reformated.
 
+---
+
 **NOTE: You cannot stop the re-format process after you have pressed OK.**
 
 ### How to Restore a Backup File To a Memory Card
@@ -387,7 +412,10 @@ The DexPlorer program can restore the contents of a selected backup file to a me
 
 1.  While in your e-mail program, **Start or Compose** a new message.
 2.  Click on the **File Attachment** button (usually symbolized by a Paper Clip). **The Insert Attachment dialog box will appear.**
-3.  Find the Data file (either .GME or .N64) that you want to send. Click it, then press the **Attach** button.
+
+---
+
+3.  3. Find the Data file (either .GME or .N64) that you want to send. Click it, then press the **Attach** button.
 4.  4. The Data file should now be attached to your new message.
 5.  5. Specify the **e-mail address** of the recipient(s) and complete the **Subject Line** of the message.
 6.  6. Click the Send button.
@@ -423,6 +451,8 @@ The Index provides a quick search feature of the Help topics of different functi
 5.  Select **InterAct DexPlorer** and click **Add/Remove** button.
 6.  Select **Yes** in the **"Confirm File Deletion"** window
 
+---
+
 CARE FOR THE UNIT AND TROUBLESHOOTING
 -------------------------------------
 
@@ -454,7 +484,9 @@ WARRANTY
 
 InterAct Accessories, Inc. warrants to the original purchaser of the ***DexDrive*** for the PlayStation® that it will be free from defects in material and/or workmanship for a 90-day period from the date of purchase. If the ***DexDrive*** is discovered to be defective within this warranty period, InterAct Accessories, Inc. at its option will repair or replace, at no charge, any part that InterAct Accessories. Inc. determines to be defective.
 
-To obtain warranty services during the warranty period, send the ***DexDrive*** postage pre- paid, with a check or money order for $5.00 to cover return postage and handing, along with proof and date of purchase to InterAct Accessories, Inc. 2950 Lake Emma Road, Lake Mary, FL 32746
+---
+
+To obtain warranty services during the warranty period, send the ***DexDrive*** postage pre-paid, with a check or money order for $5.00 to cover return postage and handing, along with proof and date of purchase to InterAct Accessories, Inc. 2950 Lake Emma Road, Lake Mary, FL 32746
 
 This warranty is limited to the internal works of the ***DexDrive*** and the external housing. It does not cover normal wear and tear, abuse or misuse.
 
