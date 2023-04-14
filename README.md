@@ -114,7 +114,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
 - [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md)        • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
--  DexDrive manual (printed)                                                      •  PDF (OCR) - TODO
+- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md)        • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
 - [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md)                        • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 - [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            • [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
 - [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)
