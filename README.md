@@ -121,7 +121,7 @@ The Markdown versions have been transcribed as faithfully to the original printe
 - [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)
 - [GameShark v2.1 manual](/n64/manuals/n64_gameshark_v2.10_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)
 - [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)
--  GameShark Pro v3.0 manual                                                      •  PDF (OCR) - TODO
+- [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_v3.00_manual.md)         • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)
 -  GameShark Pro v3.1 manual                                                      •  PDF (OCR) - TODO
 -  GameShark Pro v3.2 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf) - TODO
 -  GameShark Pro v3.3 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO
