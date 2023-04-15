@@ -1,7 +1,7 @@
 DexDrive
 ========
 
-![InterAct logo](./images/dexdrive-interact-logo-200x70.png)
+![InterAct logo](./images/dexdrive-printed-interact-logo-200x70.png)
 
 http://www.dexchange.net
 
@@ -30,7 +30,7 @@ TECHNICAL SPECIFICATIONS
 
 **FIG. 1**
 
-![Diagram of the DexDrive hardware components](./images/dexdrive-fig1-printed-1921x1676.png)
+![Diagram of the DexDrive hardware components](./images/dexdrive-printed-fig1-1921x1676.png)
 
 ### System Requirements
 
@@ -103,7 +103,7 @@ UNDERSTANDING THE DEXPLORER SOFTWARE PROGRAM
 
 When you choose the DexPlorer icon, the DexPlorer window will appear (FIG. 2):
 
-![Screenshot of DexPlorer](./images/dexdrive-fig2-printed-2006x1522.png)
+![Screenshot of DexPlorer](./images/dexdrive-printed-fig2-2006x1522.png)
 
 **Left Panel**
 

@@ -193,7 +193,7 @@ Repair or replacement as provided under this warranty is InterAct Accessories, I
 
 GameShark customer service hotline (for questions, trouble shooting or additional instructions only please): 410-238-1426
 
-![InterAct logo](./images/interact-logo-200x66.png)
+![InterAct logo](./images/interact-logo-v2-200x66.png)
 
     InterAct Accessories, Inc.
     A RECOTON® COMPANY
