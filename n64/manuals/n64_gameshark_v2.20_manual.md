@@ -202,8 +202,9 @@ InterAct Accessories only. You can contact interAct Accessories through the foll
 ---
 
 WARRANTY INFORMATION
+--------------------
 
-InterAct Accessories, Inc., warrants to the original purchaser of the GameShark for the Nintendo®64 system that it will be free from defects in materials and/or workmanship for a 90-day period from the date of purchase. If the GameShark is discovered to be defective within this warran-ty period, InterAct Accessories, Inc. at its option will repair or replace, at no charge, any part that InterAct Accessories, Inc. determines to be defective.
+InterAct Accessories, Inc., warrants to the original purchaser of the GameShark for the Nintendo®64 system that it will be free from defects in materials and/or workmanship for a 90-day period from the date of purchase. If the GameShark is discovered to be defective within this warranty period, InterAct Accessories, Inc. at its option will repair or replace, at no charge, any part that InterAct Accessories, Inc. determines to be defective.
 
 To obtain warranty services during the warranty period, send the GameShark, postage pre-paid, with a check or money order for $5.00 to cover return postage and handling, along with proof of purchase and the date of purchase to:
 

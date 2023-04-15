@@ -40,9 +40,9 @@ The Main Menu
 2) **Select Cheat Codes**
 3) **Memory Card Manager**
 
-Use the up and down arrows on the direction pad to highlight one of these items. Press the "A" button to select. Use the "B" button to return from the selected screen.
+Use the up and down arrows on the direction pad to highlight one of these items. Press the “A” button to select. Use the “B” button to return from the selected screen.
 
-Some games require a special Keycode in order to work with GameShark. For instructions on Keycodes see the "using Keycode" section later in this manual.
+Some games require a special Keycode in order to work with GameShark. For instructions on Keycodes see the “using Keycode” section later in this manual.
 
 ## 1. Start Game
 
@@ -50,14 +50,18 @@ Choosing **Start Game** takes you to the **Start Game Options** menu. You will t
 
 1. Start Game With Selected Codes <br>This option starts the game using any enhancements selected from the **Select Cheat Codes** menu.
 2. Start Game Without codes <br>This option starts the game without any enhancements. The game will play as it normally would.
-3. Cancel - return to previous menu <br>This option takes you to the opening menu. Use the up and down arrows on the direction pad to highlight one of these options. Press the "A" button to select.
+3. Cancel - return to previous menu <br>This option takes you to the opening menu. Use the up and down arrows on the direction pad to highlight one of these options. Press the “A” button to select.
 
 Select Cheat Codes
 ------------------
 
-This option takes you to the built-in list of games currently supported by the GameShark. Games are listed alphabetically. use the up and down keys on the direction pad to highlight the desired game and press the "A" button to select. Button "B'' will return you to the previous menu.
+This option takes you to the built-in list of games currently
 
-Once you've selected a game, a full list of enhancements will appear on the screen for that game. Use the up and down arrow keys on the direction pad to highlight each individual enhancement. Button "A" will toggle the enhancement on and off. You can activate almost any combination of enhancements. NOTE: some codes do not work in conjunction with other codes. Experimentation will help you determine the best combinations of codes for each game. Activated enhancements will be highlighted in green. When you are finished selecting the desired enhancements, press the "B" button to return to the previous menu or press the "start" button to go to the **Start Game Options** menu.
+---
+
+supported by the GameShark. Games are listed alphabetically. use the up and down keys on the direction pad to highlight the desired game and press the “A” button to select. Button “B” will return you to the previous menu.
+
+Once you've selected a game, a full list of enhancements will appear on the screen for that game. Use the up and down arrow keys on the direction pad to highlight each individual enhancement. Button “A” will toggle the enhancement on and off. You can activate almost any combination of enhancements. NOTE: some codes do not work in conjunction with other codes. Experimentation will help you determine the best combinations of codes for each game. Activated enhancements will be highlighted in green. When you are finished selecting the desired enhancements, press the “B” button to return to the previous menu or press the “start” button to go to the **Start Game Options** menu.
 
 Adding New Enhancements
 -----------------------
@@ -67,32 +71,32 @@ As new games are released, you will want to add new enhancements for those games
 Entering New Games
 ------------------
 
-To enter new codes, simply go to the **Select Cheat Codes** menu where existing games and enhancements are listed. Highlight the "New Game" selection at the top of the menu, and use the "A" button to select it. This will take you to the New Game Edit screen. This is the screen where new games can be entered. You will be presented with a text entry box. Use the direction pad to highlight letters from the letter box to spell the name of the game you are entering enhancements for. Use the "A" button to select a letter.
+To enter new codes, simply go to the **Select Cheat Codes** menu where existing games and enhancements are listed. Highlight the “New Game” selection at the top of the menu, and use the “A” button to select it. This will take you to the New Game Edit screen. This is the screen where new games can be entered. You will be presented with a text entry box. Use the direction pad to highlight letters from the letter box to spell the name of the game you are entering enhancements for. Use the “A” button to select a letter.
 
 ---
 
-When you have finished entering the name of the new game, press the "B" button. After entering and saving the game name, select the game from the "SELECT GAME" menu. Next, select the "NEW CODE" option
+When you have finished entering the name of the new game, press the “B” button. After entering and saving the game name, select the game from the “SELECT GAME” menu. Next, select the “NEW CODE” option
 
 New Code Description
 --------------------
 
-By selecting the New Code Description option, you will be presented with a new text entry box. This is where you will give your new enhancements descriptions. You will probably want to name your new enhancements something similar to what they do. For example, you may want to name a new enhancement "Infinite Lives." Enter the name as you did when entering the New Game Name. Press the "B" button and save when you are finished. You can use the "C-upper" button to change between upper and lower case characters.
+By selecting the New Code Description option, you will be presented with a new text entry box. This is where you will give your new enhancements descriptions. You will probably want to name your new enhancements something similar to what they do. For example, you may want to name a new enhancement “Infinite Lives.” Enter the name as you did when entering the New Game Name. Press the “B” button and save when you are finished. You can use the “C-upper” button to change between upper and lower case characters.
 
 Enhancement Entry
 -----------------
 
-By selecting the blue Code Entry section in the left hand corner, you will produce a small text entry box. This is where you will enter the actual Enhancement Code. Each code will include numbers and letters. Again, use the direction pad to highlight a letter or number, and press the "A" button to select that letter or number. Continue until the entire code is entered. Individual codes can sometimes be quite long, so a bit of concentration may be required. If you make a mistake while entering a code, don't panic! use the "L" trigger button to **backspace** and use the "R" for **space**.
+By selecting the blue Code Entry section in the left hand corner, you will produce a small text entry box. This is where you will enter the actual Enhancement Code. Each code will include numbers and letters. Again, use the direction pad to highlight a letter or number, and press the “A” button to select that letter or number. Continue until the entire code is entered. Individual codes can sometimes be quite long, so a bit of concentration may be required. If you make a mistake while entering a code, don't panic! use the “L” trigger button to **backspace** and use the “R” for **space**.
 
 Default Box
 -----------
 
-The status of the Default Box can be toggled off and on by highlighting the box and pressing the "A" button. With the Default Box set to ON, the enhancements for that particular game will always be active when you select that particular game from the menu. When the Default Box is set to OFF, you will need to activate the enhancements each time you start that particular game.
+The status of the Default Box can be toggled off and on by highlighting the box and pressing the “A” button. With the Default Box set to ON, the enhancements for that particular game will always be active when you select that particular game from the menu. When the Default Box is set to OFF, you will need to activate the enhancements each time you start that particular game.
 
 ---
 
-After you have entered and saved the new enhancement for this game, press the "B" button to return to the **Select Cheat Codes** menu. You can now select the game and enhancement you entered to test them out.
+After you have entered and saved the new enhancement for this game, press the “B” button to return to the **Select Cheat Codes** menu. You can now select the game and enhancement you entered to test them out.
 
-Your new enhancement has been saved to the menu of the GameShark and will remain there until you decide to delete it. You can add additional enhancements to any game simply by highlighting the New Code line and pressing the "A" button and going through the entry steps above.
+Your new enhancement has been saved to the menu of the GameShark and will remain there until you decide to delete it. You can add additional enhancements to any game simply by highlighting the New Code line and pressing the “A” button and going through the entry steps above.
 
 Memory Card Manager
 -------------------
@@ -121,34 +125,32 @@ For use with Smart Card products available soon for GameShark.
 Exiting Back to the Main Menu
 -----------------------------
 
-To exit the memory card manager and return to the main menu simply press the "B" button.
+To exit the memory card manager and return to the main menu simply press the “B” button.
 
 Using Keycodes
 --------------
 
-Some games will require a "Keycode", or specific activation code, in order to use any enhancements. These keycodes may be shared by some games, whilst other games will require their own specific keycode. Not all games will require a keycode, but you'll know that one is required if the game will not load when the GameShark is present. The GameShark currently contains keycodes for any games that require them. As new games are released, any new keycodes required will be provided through our website or our Technical support Department. once you receive the new keycode from InterAct, follow the directions listed below to activate it properly.
+Some games will require a “Keycode”, or specific activation code, in order to use any enhancements. These keycodes may be shared by some games, whilst other games will require their own specific keycode. Not all games will require a keycode, but you'll know that one is required if the game will not load when the GameShark is present. The GameShark currently contains keycodes for any games that require them. As new games are released, any new keycodes required will be provided through our website or our Technical support Department. once you receive the new keycode from InterAct, follow the directions listed below to activate it properly.
 
 WARNING: Do not activate any keycodes unless you have the game available. Entering a keycode without the game will cause the GameShark to lock up until that game is inserted.
 
 How to get started
 ------------------
 
-Games that require keycodes are not compatible with the GameShark until the keycode is activated. For this reason, you will need to insert another game first, to get into the GameShark menus and activate the keycode. Choose a game that you know works fine with the GameShark to use as your "set-up cart". Once the keycode is activated, you will need to turn off your Nintendo 64 system, remove the set-up cart and insert the new game requiring the code, and then power up again to play.
+Games that require keycodes are not compatible with the GameShark until the keycode is activated. For this reason, you will need to insert another game first, to get into the GameShark menus and activate the keycode. Choose a game that you know works fine with the GameShark to use as your “set-up cart”. Once the keycode is activated, you will need to turn off your Nintendo 64 system, remove the set-up cart and insert the new game requiring the code, and then power up again to play.
 
 ---
 
 Adding new keycodes
 -------------------
 
-With a standard game, or " set-up cart" inserted, go into the main menu and press both triggers " L" & " R" to get into the keycode menu. Push the analog stick all the way down until a blank key- code is displayed, then press the "A" button to select. You can now enter a new keycode and comment. This only has to be entered once, and will be stored in the GameShark for future use. once the keycode has been added, follow the instructions for
+With a standard game, or “set-up cart” inserted, go into the main menu and press both triggers “L” & “R” to get into the keycode menu. Push the analog stick all the way down until a blank keycode is displayed, then press the “A” button to select. You can now enter a new keycode and comment. This only has to be entered once, and will be stored in the GameShark for future use. once the keycode has been added, follow the instructions for
 activating it.
 
 Activating a keycode
 --------------------
 
-While in the main menu, press triggers " L" & " R" to go into the keycode menu. In this menu, any current keycodes will be shown, along with a comment or description. Select a keycode by pushing the analog stick up or down to highlight the code wanted, and pressing "A" to select it. At this point, a warning is displayed to confirm that you have the game associated with the selected key- code. IF YOU DO NOT HAVE THE GAME AVAILABLE, DO NOT PRESS THE "A" BUTTON TO SELECT IT. IF YOU DO SELECT THE KEYCODE, THEN THE NEXT TIME YOU POWER UP THE GAMESHA RK, THE GAME MUST BE PRES ENT. BE WARNED - IF THE GAME IS NOT PRESENT, YOUR
-
-GAMESHARK WILL LOCK-UP UNTIL THE GAME IS INSERTED. If you have the game, and are prepared to activate the keycode, follow the on- screen instructions and then turn your Nintendo 64 system off. If you do not have the game, press any button on your controller to deactivate this selection.
+While in the main menu, press triggers “L” & “R” to go into the keycode menu. In this menu, any current keycodes will be shown, along with a comment or description. Select a keycode by pushing the analog stick up or down to highlight the code wanted, and pressing “A” to select it. At this point, a warning is displayed to confirm that you have the game associated with the selected keycode. IF YOU DO NOT HAVE THE GAME AVAILABLE, DO NOT PRESS THE “A” BUTTON TO SELECT IT. IF YOU DO SELECT THE KEYCODE, THEN THE NEXT TIME YOU POWER UP THE GAMESHARK, THE GAME MUST BE PRESENT. BE WARNED - IF THE GAME IS NOT PRESENT, YOUR GAMESHARK WILL LOCK-UP UNTIL THE GAME IS INSERTED. If you have the game, and are prepared to activate the keycode, follow the onscreen instructions and then turn your Nintendo 64 system off. If you do not have the game, press any button on your controller to deactivate this selection.
 
 Starting the game with keycode activated
 ----------------------------------------
@@ -157,12 +159,12 @@ Once you have activated the keycode and turned the system off, remove the set-up
 
 ---
 
-Please note that the keycode system is a "one shot" operation. This means that after you've finished playing a game using keycodes and then switched off your system, it will return to the factory settings. You will have to repeat the activation procedures every time you use one of these games requiring keycodes. It is best to use a game cartridge which you know works with GameShark's factory settings as a standard set-up cart.
+Please note that the keycode system is a “one shot” operation. This means that after you’ve finished playing a game using keycodes and then switched off your system, it will return to the factory settings. You will have to repeat the activation procedures every time you use one of these games requiring keycodes. It is best to use a game cartridge which you know works with GameShark’s factory settings as a standard set-up cart.
 
 Getting New Enhancement codes
 -----------------------------
 
-There are four ways you can get new codes for your GameShark. One way is to join _Dangerous Waters_, the exclusive members-only source for the latest codes. Full details on joining are on the membership card enclosed. You will also be given the option to access _Surfing With The Sharks_, (www.gameshark.com) our free World Wide Web Page. We also have a "900 number" dedicated to GameShark codes.
+There are four ways you can get new codes for your GameShark. One way is to join _Dangerous Waters_, the exclusive members-only source for the latest codes. Full details on joining are on the membership card enclosed. You will also be given the option to access _Surfing With The Sharks_, (www.gameshark.com) our free World Wide Web Page. We also have a “900 number” dedicated to GameShark codes.
 
 The number to the GameShark Hotline is 1-900-773-SHARK (7427). The call costs $ 1.29 a minute, and you must be 18 years old or have your parent's permission to call.
 
@@ -171,7 +173,7 @@ Finally, you can check your favorite Video Game Magazines for codes. Each month,
 Trouble Shooting
 ----------------
 
-If you are having problems with your GameShark, make sure the cartridge is plugged in properly. If you are having problems with codes, make sure you have entered the code or codes properly. If you are still having problems, you can call our Technical Support departmentat(410)238-1426. PleaseDONOTcallthisnumberfor codes, as they are not available through Tech support.
+If you are having problems with your GameShark, make sure the cartridge is plugged in properly. If you are having problems with codes, make sure you have entered the code or codes properly. If you are still having problems, you can call our Technical Support department at(410)238-1426. PleaseDONOTcallthisnumberfor codes, as they are not available through Tech support.
 
 ---
 
@@ -187,7 +189,7 @@ To obtain warranty services during the warranty period, send the GameShark, post
 
 This warranty is limited to the internal works of the GameShark and the external housing. It does not cover normal wear and tear, abuse, or misuse.
 
-Repair or replacement as provided under this warranty is InterAct Accessories, lnc.'s exclusive prerogative. InterAct Accessories, Inc. shall not be held liable for any incidental or consequential damages for breach of any express or implied warranty on the GameShark, except to the extent prohibited by applicable law, and any implied warranty of proper operation is limited in duration to the duration of this warranty.
+Repair or replacement as provided under this warranty is InterAct Accessories, Inc.'s exclusive prerogative. InterAct Accessories, Inc. shall not be held liable for any incidental or consequential damages for breach of any express or implied warranty on the GameShark, except to the extent prohibited by applicable law, and any implied warranty of proper operation is limited in duration to the duration of this warranty.
 
 GameShark customer service hotline (for questions, trouble shooting or additional instructions only please): 410-238-1426
 
