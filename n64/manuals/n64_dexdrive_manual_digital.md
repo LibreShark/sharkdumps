@@ -415,10 +415,10 @@ The DexPlorer program can restore the contents of a selected backup file to a me
 
 ---
 
-3.  3. Find the Data file (either .GME or .N64) that you want to send. Click it, then press the **Attach** button.
-4.  4. The Data file should now be attached to your new message.
-5.  5. Specify the **e-mail address** of the recipient(s) and complete the **Subject Line** of the message.
-6.  6. Click the Send button.
+3.  3\. Find the Data file (either .GME or .N64) that you want to send. Click it, then press the **Attach** button.
+4.  4\. The Data file should now be attached to your new message.
+5.  5\. Specify the **e-mail address** of the recipient(s) and complete the **Subject Line** of the message.
+6.  6\. Click the Send button.
 
 **NOTE: These instructions do not correspond to any specific e-mail program. Please refer to your e-mail program's Help file for complete instructions on Sending an E- mail and File Attachment.**
 
@@ -460,18 +460,20 @@ The DexDrive is an electronic unit and should be treated with care when handling
 
 If you are having difficulty with your DexDrive, please contact InterAct Accessories by the following means:
 
-Phone : (407) 333-1392
-Monday through Friday, 8:00am to 8:00pm EST Saturday 9:00am to 4:00pm EST
-E-mail : dexsupport@interact-acc.com
+Phone : (407) 333-1392                                                    <br>
+Monday through Friday, 8:00am to 8:00pm EST Saturday 9:00am to 4:00pm EST <br>
+E-mail : dexsupport@interact-acc.com                                      <br>
 World Wide Web : http://www.gameshark.com
 
-Mailing Address : InterAct Accessories ATTN: Customer Service
-2950 Lake Emma Road,
+Mailing Address : InterAct Accessories <br>
+ATTN: Customer Service                 <br>
+2950 Lake Emma Road,                   <br>
 Lake Mary, FL 32746
 
 ***NOTE: Please call Customer Service before mailing any product to them.***
 
-PlayStation® is a registered trademark of Sony Computer Entertainment Inc. Nintendo 64® is a registered trademark of Nintendo of America Inc.
+PlayStation® is a registered trademark of Sony Computer Entertainment Inc.
+Nintendo 64® is a registered trademark of Nintendo of America Inc.
 
 ©1998 STD Manfacturing Ltd, an affiliate of InterAct Accessories, Inc.
 

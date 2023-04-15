@@ -295,15 +295,15 @@ Click the **Delete** button on the **Bottom Panel**
 
 1.  Click the **Memory Card** heading on the **Menu Bar**, then choose **Change Page**.
 2.  The following functions are listed in the pull down menu:
-    -   Next Page
+    -   Next Page <br>
         Allows the user to move forward one page on a multi-page memory card.
-    -   Previous Page
+    -   Previous Page <br>
         Allows the user to move backward one page on a multi-page memory card.
-    -   Fast Forward
+    -   Fast Forward <br>
         Allows the user to move forward 10 pages on a multi-page memory card.
-    -   Fast Backward
+    -   Fast Backward <br>
         Allows the user to move backward 10 pages on a multi-page memory card.
-    -   Jump Relative
+    -   Jump Relative <br>
         Allows the user to move forward or backward by more than one page relative to the current page.
 
 1.  Insert the number of pages that will be jumped.
@@ -319,29 +319,28 @@ The user must click this entry before inserting the Massive Memory Card 1440 int
 
 ---
 
-DATA FILES
-----------
+### DATA FILES
 
 There are 2 types of data files that the DexPlorer program recognizes:
 
 - **PlayStation** data file represented with the **.GME extension**
 - **Nintendo 64** data file represented with the **.N64 extension**
 
-### How to Select a .GME (PlayStation) data file
+#### How to Select a .GME (PlayStation) data file
 
 1.  Make sure your PlayStation DexDrive is plugged into COM/Serial port #1.
 2.  Click the **Data File** heading on the **Menu Bar**, then choose **Select .GME File**.
 3.  Find the .GME file that you want to open, then click **Open**.
 4.  The .GME file that you selected will appear in the Right display panel.
 
-### How to Create a .GME data file
+#### How to Create a .GME data file
 
 1.  Make sure your PlayStation DexDrive is plugged into COM/Serial port #1.
 2.  Click the **Data File** heading on the **Menu Bar**, then choose **Create .GME File**.
 3.  Choose the place that you want to store this new file and name the file using the .GME extension, and then click **Open**.
 4.  The .GME file that you created will appear in the Right display panel.
 
-### How to Select a .N64 (Nintendo 64) data file
+#### How to Select a .N64 (Nintendo 64) data file
 
 1.  Make sure your Nintendo 64 DexDrive is plugged into COM/Serial port #1.
 2.  Click the **Data File** heading on the Menu Bar, then choose **Select .N64 File**.
@@ -350,18 +349,18 @@ There are 2 types of data files that the DexPlorer program recognizes:
 
 ---
 
-### How to Create a .N64 data file
+#### How to Create a .N64 data file
 
 1.  Make sure your Nintendo 64 DexDrive is plugged into COM/Serial port #1.
 2.  Click the **Data File** heading on the **Menu Bar**, then choose **Create .N64 File**.
 3.  Choose the place that you want to store this new file and name the file using the .N64 extension, and then click **Open**.
 4.  The .N64 file that you created will appear in the Right display panel.
 
-### USING FILE EXPANDERS WITHIN DATA FILES
+#### USING FILE EXPANDERS WITHIN DATA FILES
 
 The "plus signs" that you see beside each game save in a data file (either the .GME or .N64 files) are called File Expanders. This is where you can input your comments about specific game saves. Your message will be displayed in the Right Panel.
 
-### Using a File Extender
+##### Using a File Extender
 
 1.  Click on the plus sign by the game save that you want to comment about.
 2.  A Document icon will appear. Double click on this icon and a "Notes Editing" dialog box will appear.
@@ -484,12 +483,14 @@ The DexDrive is an electronic unit and should be treated with care when handling
 
 If you are having difficulty with your DexDrive, please contact InterAct Accessories by the following means:
 
-| -                | -                                                                                               |
-|:---------------- |:----------------------------------------------------------------------------------------------- |
-| Phone:           | (407) 333-1392 <br>Monday through Friday, 9:00am to 5:00pm EST                                  |
-| E-mail:          | dexsupport@interact-acc.com                                                                     |
-| World Wide Web:  | http://www.dexchange.net                                                                        |
-| Mailing Address: | InterAct Accessories <br>ATTN: Customer Service <br>2950 Lake Emma Road <br>Lake Mary, FL 32746 |
+    Phone           : (407) 333-1392
+                      Monday through Friday, 9:00am to 5:00pm EST
+    E-mail          : dexsupport@interact-acc.com
+    World Wide Web  : http://www.dexchange.net
+    Mailing Address : InterAct Accessories
+                      ATTN: Customer Service
+                            2950 Lake Emma Road
+                            Lake Mary, FL 32746
 
 ***NOTE: Please call Customer Service before mailing any product to them.***
 

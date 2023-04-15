@@ -8,8 +8,8 @@ GameShark Pro N64 V3.0
 
 ---
 
-**Instruction Manual for GameShark™ Pro**
-**For use with the Nintendo® 64 game system**
+**Instruction Manual for GameShark™ Pro**     <br>
+**For use with the Nintendo® 64 game system** <br>
 **Version 3.0**
 
 INTRODUCTION
@@ -74,18 +74,18 @@ Move up and down on the direction pad (D-Pad) or the analog stick of the control
 
 This selection takes you to the Start Game Options menu. You will then be presented with two or more options. Press up and down on the D-pad or the analog stick to highlight an option and press the A button to select it.
 
-**Option 1: Start Game With Selected Codes**
+**Option 1: Start Game With Selected Codes** <br>
 This option starts the game using the enhancements codes selected from the Select Cheat Codes menu. You will see this option only after you have activated codes for a game and you are ready to start playing.
 
-**Option 2: Start Game Without Codes**
+**Option 2: Start Game Without Codes** <br>
 This option starts the game without any enhancement codes. The game will play as normal.
 
-**Option 3: Code Generator ON/OFF**
+**Option 3: Code Generator ON/OFF** <br>
 This option gives you the ability to access the Code Generator and search for GameShark codes while playing a game. Read the Code Generator section in this manual for more information. Press the A button to toggle between ON and OFF.
 
 **NOTE: To use the Code Generator, you must have a 4MB Expansion Pak inserted into your Nintendo 64 game system, if the Expansion Pak is not inserted, this option will not appear on screen.**
 
-**Option 4: Cancel**
+**Option 4: Cancel** <br>
 This option takes you back to the Main Menu.
 
 ### SELECT CHEAT CODES
@@ -126,18 +126,18 @@ You can also go to the Select Cheat Codes menu and select "New Game" at the top 
 
 The New Game Edit screen will appear. Now you can enter the title of a new game. You will be presented with 3 or 4 options:
 
-**Option 1: Edit Name**
+**Option 1: Edit Name** <br>
 Highlight this option and press the A button on your controller. You will be presented with a box filled with Letters, Numbers and Symbols. Use the directional pad or analog stick to highlight characters within the letterbox to spell the name of the game that you want to add to the GameShark Pro. Use the A button to select a character.
 
 Use the Z-Trigger button to toggle between upper and lower case letters. To backspace the cursor 1 character, press the L button. To move the cursor forward 1 space, press the R button. To delete the entire name, press the Left C button. When you have finished entering the name of the new game, press the B button.
 
-**Option 2: Detect Game**
+**Option 2: Detect Game** <br>
 The GameShark Pro will search for the title of the inserted game cartridge, and place it in the box located at the top of the screen. The title it finds will replace any name that you have placed into that box. Sometimes your GameShark Pro may not find the title of your game. If it does not, use the Edit Name option and enter the title.
 
-**Option 3: Exit and Save**
+**Option 3: Exit and Save** <br>
 This saves the title into the built-in list of games found in the Select Game list and returns you to that list. This option will appear only after you have created a name for a game.
 
-**Option 4: Exit and Discard**
+**Option 4: Exit and Discard** <br>
 This deletes the name you entered or the title the GameShark Pro found, then returns you to the Select Game list.
 
 ---
@@ -160,13 +160,13 @@ Continue until the entire code is entered. Individual codes can sometimes be qui
 
 After you have entered the new code for this game, press the B button to return to the Options menu. You'll be able to select these options:
 
-**Option 1: Default On**
+**Option 1: Default On** <br>
 This allows you to keep this code on at ail times. So every time you start the GameShark Pro. this one code will ALWAYS be activated. Use the A button to toggle between on and off status.
 
-**Option 2: Exit and Save**
+**Option 2: Exit and Save** <br>
 This will save your new code to the specific game listed at the top of this menu and then exit you to the Select Cheat Codes menu. From there you can enter more enhancement codes for your game by selecting New Code or activate your new code IF the code isn't always on by default.
 
-**Option 3: Exit and Discard**
+**Option 3: Exit and Discard** <br>
 This will delete the code that you just entered and then exit you to the Select Cheat Codes menu. From there you can enter more enhancement codes for your game by selecting New Code.
 
 Once you have entered and saved you new codes, you can start to use them. If you chose Option 2. your new codes will be saved to the built-in list of games within the GameShark Pro and will remain there until you decide to delete them. Remember to activate your codes before you start the game if their default is OFF. All activated codes are highlighted in Blue.
@@ -221,7 +221,7 @@ This feature allows you to load codes from a memory card to your GameShark Pro s
 
 ---
 
-NOTE: You can only load N64 game codes into a N64 GameShark Pro. You cannot load codes into a GameShark with a version number lower than 3.0.
+**NOTE: You can only load N64 game codes into a N64 GameShark Pro. You cannot load codes into a GameShark with a version number lower than 3.0.**
 
 ### OPTIONS
 
@@ -246,14 +246,14 @@ Exits the Options menu and takes you back to the Main Menu.
 
 Sometimes, certain Nintendo 64 games will not work with the GameShark Pro until a special "key code" is activated. Here is a list of Nintendo 64 games that require the use of a key code in order to work with your GameShark Pro at the time this manual was printed (April 1999):
 
-**The Legend of Zelda: The Ocarina of Time**
-**Yoshi's Story**
-**Major League Baseball Featuring Ken Griffey Jr.**
-**Kobe Bryant in NBA Courtside**
-**F Zero X**
-**Diddy Kong Racing**
-**Cruis'n World**
-**Banjo-Kazooie**
+**The Legend of Zelda: The Ocarina of Time** <br>
+**Yoshi's Story** <br>
+**Major League Baseball Featuring Ken Griffey Jr.** <br>
+**Kobe Bryant in NBA Courtside** <br>
+**F Zero X** <br>
+**Diddy Kong Racing** <br>
+**Cruis'n World** <br>
+**Banjo-Kazooie** <br>
 **1080° Snowboarding**
 
 The GameShark Pro comes preloaded with keycodes for ail of these games, but these key codes must be activated BEFORE you use the GameShark Pro with one of these titles. Since these games will not work with the GameShark Pro until the key code has been activated, you must first insert another game cartridge into the GameShark Pro in order to access the menu screen, and then activate that game's key code.
@@ -390,16 +390,16 @@ This new feature in the GameShark Pro is used while you are playing a game. Pres
 
 Before you start playing your game, you must go to the Start Game menu and turn the Code Generator ON, so that the In-Game menu will appear when you press the GS button. Pressing the GS Button on your GameShark Pro will display the following options:
 
-**Option 1: Codes Are On/Off**
+**Option 1: Codes Are On/Off** <br>
 This means that the codes for the game you are playing have been turned on or off. Highlight this option and press the A button to toggle between the codes being On or Off.
 
-**Option 2: Code Generator**
+**Option 2: Code Generator** <br>
 This option takes you to the built-in Code Generator menu. Highlight and press the A button.
 
-**Option 3: Memory Editor**
+**Option 3: Memory Editor** <br>
 This allows the user to view the game's programming. To select, highlight and press the A button. Read more about the Memory Editor in the Code Generator section.
 
-**Option 4:View GFX Memory**
+**Option 4:View GFX Memory** <br>
 This option is used to view images that are currently stored in the Nintendo 64's VRAM (Video RAM). To see what image is in the Nintendo 64 VRAM, highlight this option and press the A button. While viewing the image:
 
     D-Pad or Analog stick:       Allows you to navigate within the image on screen
@@ -441,21 +441,21 @@ Before you use the Code Generator, you must:
 
 The Code Generator menu contains these options:
 
-**Option 1: Return To Game**
+**Option 1: Return To Game** <br>
 Exits the Code Generator menu and returns the user to the game.
 
-**Option 2: Exit To Main Menu**
+**Option 2: Exit To Main Menu** <br>
 Returns the user to the In-Game Menu.
 
-**Option 3: Known Value Search**
+**Option 3: Known Value Search** <br>
 Allows the user to search the game for all addresses with a specific value. This is useful for finding codes for ammo, money, etc. Read below for further instructions.
 
 ---
 
-**Option 4: Unknown Value Search**
+**Option 4: Unknown Value Search** <br>
 For the advanced hacker, this allows the user to search the game and locate addresses that do not use specified values. This search is long because the user may have to search many areas of memory. Luckily, once the desired address is found, most other relevant addresses are in the same basic area of memory. This search is useful for finding codes for health meters, etc. See below for further instructions.
 
-**Option 5: 8 or 16 Bit Search**
+**Option 5: 8 or 16 Bit Search** <br>
 Allows you to perform a search for a value between 0-255 (8-bit) or for a value that is more than 255, but less than or equal to 65535 (16-bit).
 
 **NOTE: if your game crashes or locks up during any of the following procedures, simply turn your Nintendo 64 game system off, then turn it on again and start over.**
@@ -466,16 +466,16 @@ A known value search is used to find codes when you know the value of what you a
 
 The Known Value Search menu appears and contains these 4 commands:
 
-**Option 1: Return To Game**
+**Option 1: Return To Game** <br>
 This will return you to the game.
 
-**Option 2: Exit To Main Menu**
+**Option 2: Exit To Main Menu** <br>
 This takes you back to the In-Game Menu.
 
-**Option 3: Reset Code Generator**
+**Option 3: Reset Code Generator** <br>
 This will clear the Code Generator of ail other searches that were previously performed. Use this option when you are re-starting a search.
 
-**Option 4: Equal To**
+**Option 4: Equal To** <br>
 This lets you perform a search for a value that you specify. If you are in 8-bit mode, the value range that you can search for is from 0 to 255. If you are in 16-bit mode, the value range is from 0 to 65535.
 
 ##### How To Perform A Known Value Search
@@ -567,16 +567,16 @@ An unknown search is performed when the variable you are looking for has no know
 
 The Unknown Value Search menu will appear and contain these 4 commands:
 
-**Option 1: Return To Game**
+**Option 1: Return To Game** <br>
 This will return you to the game.
 
-**Option 2: Exit To Main Menu**
+**Option 2: Exit To Main Menu** <br>
 This takes you back to the in-Game Menu.
 
-**Option 3: Reset Code Generator**
+**Option 3: Reset Code Generator** <br>
 This will clear the Code Generator of ail other searches previously performed. Use this option when you are re-starting a search.
 
-**Option 4: Start**
+**Option 4: Start** <br>
 This will start the search for an unknown value.
 
 #### How To Perform An Unknown Value Search
@@ -605,25 +605,25 @@ FINDING CODE VALUES
 
 Once you go back into you're the Code Generator, you will find these options:
 
-**Option 1: Return To Game**
+**Option 1: Return To Game** <br>
 This will return you to the game.
 
-**Option 2: Exit To Main Menu**
+**Option 2: Exit To Main Menu** <br>
 This takes you back to the In-Game Menu.
 
-**Option 3: Reset Code Generator**
+**Option 3: Reset Code Generator** <br>
 This will clear the Code Generator of all other searches that were performed previously. Use this option when you are re-starting a search.
 
-**Option 4: Greater Than Last**
+**Option 4: Greater Than Last** <br>
 Searches for values that are now greater than the last search you performed.
 
-**Option 5: Less Than Last**
+**Option 5: Less Than Last** <br>
 Searches for values that are now less than the last search you performed.
 
-**Option 6: Different To Last**
+**Option 6: Different To Last** <br>
 Searches for values that are now either more than or less than the last search you performed.
 
-**Option 7: Equal to Last**
+**Option 7: Equal to Last** <br>
 Searches for values that are still the same as the last search you performed.
 
 9.  Highlight the Less Than Last option and press the A button. The orange status bar will appear indicating that a search for values that are now less than the previous search has started.
@@ -670,22 +670,22 @@ NOTE: Using the known address of a code may uncover new codes. For instance, if 
 
 The Memory Editor also has a menu of advanced options. Press the A button while in the Memory Editor to view these options:
 
-**Option 1: Go to Address**
+**Option 1: Go to Address** <br>
 This feature allows the user to input a specific address and then view it. Use the D-pad or analog stick to enter the desired memory address, then press the A button to go to the address. Press the B button to go back to the In-Game Menu.
 
-**Option 2: Text Search**
+**Option 2: Text Search** <br>
 The Text Search allows you to search for programmers cheats, passwords, Easter eggs or other text clues to the game. Use the D-pad to input text, as well as to change letters. Press the D-pad left or right to go to the next letter. Once the text is entered, press the A button. The address displayed will be the first match to the text. If you would like to continue searching, select the "Text Search" option and press the A button. The search will continue from the current address.
 
 If the text you entered is not found, this message will appear: "String Not Found, Press B". If you press the B button, you will be taken to the Memory Editor screen.
 
 **NOTE: Most games that have programmers cheats store the information in the same area, so once the first cheat is found, the others should be in that area. Key words to search for are 'credit' and 'extra', as these are common words used in many cheats.**
 
-**Option 3: Back To Editor**
+**Option 3: Back To Editor** <br>
 Returns to the Memory Editor feature.
 
 ---
 
-**Option 4: Return To Game**
+**Option 4: Return To Game** <br>
 Exits the GameShark Pro In-Game Menu and re-enters the game.
 
 ### FREQUENTLY ASKED QUESTIONS HACKING WITH THE GAMESHARK PRO

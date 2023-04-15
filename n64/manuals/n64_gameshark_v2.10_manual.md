@@ -144,7 +144,7 @@ To exit the memory card manager and return to the main menu simply press the “
 
 Some games will require a “keycode”, or specific activation code, in order to use any enhancements. These keycodes may be shared by some games, whilst other games will require their own specific keycode. Not all games will require a keycode, but you’ll know that one is required if the game will not load when the GameShark is present. The GameShark currently contains keycodes for any games that require them. As new games are released, any new keycodes required will be provided through our website or our Technical Support Department. Once you receive the new keycode from InterAct, follow the directions listed below to activate it properly.
 
-WARNING: Do not activate any keycodes unless you have the game available.
+***WARNING: Do not activate any keycodes unless you have the game available.***
 
 Entering a keycode without the game will cause the GameShark to lock up until that game is inserted.
 

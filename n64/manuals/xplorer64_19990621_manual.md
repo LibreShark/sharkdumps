@@ -80,12 +80,10 @@ Special Game Boot Modes
 
 Xplorer 64 comes initially with 4 Boot Modes that currently cover all existing game titles. These 4 modes cover the following games;
 
-| -                                      | -                    |
-|:-------------------------------------- |:-------------------- |
-| Mario, Lylat Wars and MOST other games | Boot Mode 1 (LED ON) |
-| 1080 Snowboarding, Banjo Kazooie       | Boot Mode 2          |
-| Yoshi's Story                          | Boot Mode 3          |
-| Zelda: Ocinara of Time                 | Boot Mode 4          |
+    Mario, Lylat Wars and MOST other games    Boot Mode 1 (LED ON)
+    1080 Snowboarding, Banjo Kazooie          Boot Mode 2
+    Yoshi's Story                             Boot Mode 3
+    Zelda: Ocinara of Time                    Boot Mode 4
 
 To change the Boot Mode.
 ------------------------
@@ -138,20 +136,20 @@ Please return your product Registration Card. Your comments help us improve our 
 
 If you experience problems with your Xplorer 64, please contact;
 
-Future Console Design Ltd
-Unit 15,
-Shaw Wood Business Park
-Shaw Wood Way
-Doncaster
+Future Console Design Ltd <br>
+Unit 15,                  <br>
+Shaw Wood Business Park   <br>
+Shaw Wood Way             <br>
+Doncaster                 <br>
 DN2 5TB
 
 Codes Hotline: 01302 380601 (Standard Rate Call Only)
 Email: [support@x-plorer.co.uk](mailto:support@x-plorer.co.uk)
 
-_*Official Charttrak Data_
-_*PC X-Link, Special format memory Cards available separately._
-_Action Replay is a trademark of Datel Holdings Ltd._
-_Gameshark is a trademark of Interact Accessories Ltd._
+_*Official Charttrak Data_                                                   <br>
+_*PC X-Link, Special format memory Cards available separately._              <br>
+_Action Replay is a trademark of Datel Holdings Ltd._                        <br>
+_Gameshark is a trademark of Interact Accessories Ltd._                      <br>
 _Nintendo and Nintendo 64 are registered trademarks of Nintendo of America._
 
 _21 June 1999_
