@@ -1,7 +1,10 @@
-Instruction Manual for
-GameShark Pro
-For use with the Nintendo® 64 Game System
+Instruction Manual for                    <br>
+GameShark Pro                             <br>
+For use with the Nintendo® 64 Game System <br>
 GameShark Pro N64 V3.1
+=========================================
+
+![GameShark logo](./images/gameshark-logo-300x173.png)
 
 ---
 
@@ -83,14 +86,13 @@ This option gives you the ability to access the Code Generator and search for Ga
 
 **NOTE: To use the Code Generator, you must have a 4MB Expansion Pak inserted into your Nintendo 64 game system. If the Expansion Pak is not inserted, this option will not appear on screen.**
 
-Option 4: Cancel
-
+**Option 4: Cancel** <br>
 This option takes you back to the Main Menu.
 
 SELECT CHEAT CODES
 ------------------
 
-This option takes you to the built-in list of Nintendo 64 titles currently supported by the GameShark Pro. Al! titles are listed alphabetically. Press up or down on the D-pad or the analog stick to highlight the desired game and press the A button to select it. The B button will return you to the Main Menu. The L button will scroll the list of games up and R button will scroll the list down.
+This option takes you to the built-in list of Nintendo 64 titles currently supported by the GameShark Pro. All titles are listed alphabetically. Press up or down on the D-pad or the analog stick to highlight the desired game and press the A button to select it. The B button will return you to the Main Menu. The L button will scroll the list of games up and R button will scroll the list down.
 
 The bottom of the Select Cheat Codes screen will display the highlighted game, the number of enhancement codes that are currently active for that game, and the percentage of storage space available within the GameShark Pro's memory.
 
@@ -106,13 +108,10 @@ Once you've selected a game, a full list of enhancement code descriptions will a
 
 As new games are released, you will want to add new codes for those games to your GameShark Pro. You can find new codes at:
 
-• The Official GameShark World Wide Web page **http://www.gameshark.com**
-
-• Various videogame magazines
-
-• The Official GameShark Newsletter **Dangerous Waters**
-
-• The Official Code Hotline 1-900-773-SHARK.This call costs $1.29 per minute, and you must be over 18 years old or have your parent's permission to call.
+- The Official GameShark World Wide Web page **http://www.gameshark.com**
+- Various videogame magazines
+- The Official GameShark Newsletter **Dangerous Waters**
+- The Official Code Hotline **1-900-773-SHARK**. This call costs $1.29 per minute, and you must be over 18 years old or have your parent's permission to call.
 
 We're making sure that the newest codes to the hottest games are available and easy to find.
 
@@ -121,7 +120,6 @@ We're making sure that the newest codes to the hottest games are available and e
 To add new codes to your GameShark Pro, you must first add the title of the game to the GameShark Pro, IF that title does not already exist in the built-in list of games. To add a new game title:
 
 1.  Go into the Select Cheat Codes menu and press the Z-Trigger.
-
 2.  Highlight Add New Game and press the A button to select.
 
 You can also go to the Select Cheat Codes menu and select "New Game" at the top of the list.
@@ -173,7 +171,7 @@ Once you have entered and saved you new codes, you can start to use them. If you
 
 You can add more codes to any game simply by selecting the game and highlighting the New Code line and pressing the A button and going through the code entry steps described above.
 
-**NOTE: Each code Is usually only one line, and each code should have 1 description. Do not make the mistake of entering a group of separate GameShark Pro codes into one description. Make a description for each code you add, unless a code is more than 1 line long.**
+**NOTE: Each code is usually only one line, and each code should have 1 description. Do not make the mistake of entering a group of separate GameShark Pro codes into one description. Make a description for each code you add, unless a code is more than 1 line long.**
 
 ### DELETING A CODE
 
@@ -264,7 +262,7 @@ The GameShark Pro comes preloaded with keycodes for all of these games, but thes
 
 Imagine that you want to play one of the games listed above that need a key code, like The Legend of Zelda: The Ocarina of Time. To activate the key code, simply:
 
-1.  Find a Set-Up Cartridge. A Set-Up Cartridge is ANY Nintendo 64 game that you know DOES NOT require a key code to work with the GameShark Pro. All games that are not mentioned in the list above do not need a key code to work with the GameShark Pro. Let's use Mortal Kombat Trilogy as the Set-Up Cartridge for this example,
+1.  Find a Set-Up Cartridge. A Set-Up Cartridge is ANY Nintendo 64 game that you know DOES NOT require a key code to work with the GameShark Pro. All games that are not mentioned in the list above do not need a key code to work with the GameShark Pro. Let's use Mortal Kombat Trilogy as the Set-Up Cartridge for this example.
 
 2.  Insert the GameShark Pro into your Nintendo 64 system. Also, plug a controller into Controller Port #1.
 
@@ -278,7 +276,7 @@ Imagine that you want to play one of the games listed above that need a key code
 
 NOTE: IF YOU DO NOT HAVE THE KEY CODE GAME AVAILABLE. DO NOT SELECT YES AT THE WARNING SCREEN. IF YOU DO SELECT YES, THEN THE NEXT TIME YOU USE THE GAMESHARK PRO THE KEY CODE GAME MUST BE CONNECTED TO THE GAMESHARK PRO.
 
-BE WARNED - IF YOU ACTIVATED A KEY CODE, THE GAMESHARK PRO WILL NOT FUNCTION PROPERLY UNTILTHAT KEY CODE GAME IS CONNECTED TO IT.
+BE WARNED - IF YOU ACTIVATED A KEY CODE, THE GAMESHARK PRO WILL NOT FUNCTION PROPERLY UNTIL THAT KEY CODE GAME IS CONNECTED TO IT.
 
 7.  After you answer yes to the warning, the key code will be activated. Turn off your Nintendo 64 system.
 
@@ -405,7 +403,7 @@ This option is used to view images that are currently stored in the Nintendo 64'
     D-Pad or Analog stick:       Allows you to navigate within the image on screen
     Left and Right C-Buttons:    Expands or contracts the image horizontally
     Up and Down C-Buttons:       Expands or contracts the image vertically
-    Left Button:                 increases the resolution
+    Left Button:                 Increases the resolution
     Right Button:                Decreases the resolution
     A Button:                    Returns the image to its normal size and shape
     Start Button:                Returns you to the In-Game Menu
@@ -417,11 +415,11 @@ THE CODE GENERATOR
 
 The terms "Training" and "Hacking" have been used throughout the gaming industry to describe the process of finding enhancement codes within a game. For several years, we have been hacking GameShark codes for our customers and providing them on the GameShark website, in the Dangerous Waters newsletter, and other means. We will continue to do so, but in addition, we have updated the new GameShark Pro to include built-in Code Generator software for independent code hacking. Users can now try their hand at finding codes for infinite lives, weapons, secrets, etc.!
 
-The following section of this manual explains the new Code Generator feature, including a detailed FAQ section of common questions. Additionally, the "How to Hack Like a Pro" video shows examples of the Code Generator in use. After watching this video, if you still have questions or want to share your findings' the new discussion board on the GameShark website **(www.gameshark.com)** offers an excellent forum for communication with others within the GameShark hacking community.
+The following section of this manual explains the new Code Generator feature, including a detailed FAQ section of common questions. Additionally, the "How to Hack Like a Pro" video shows examples of the Code Generator in use. After watching this video, if you still have questions or want to share your findings, the new discussion board on the GameShark website **(www.gameshark.com)** offers an excellent forum for communication with others within the GameShark hacking community.
 
 Here is some information that you should know before using the Code Generator:
 
-1.  **DUE TO THE COMPLEXITY OF THIS FEATURE, QUESTIONS ON HOWTO HACK CODES USING THE CODE GENERATOR WILL NOT BE ANSWERED BY INTERACTS CONSUMER SERVICES DEPARTMENT.** However, we've included as much information as possible for users to try hacking codes on their own. We encourage everyone to give it a try and to use the discussion board on the GameShark website to talk to others.
+1.  **DUE TO THE COMPLEXITY OF THIS FEATURE, QUESTIONS ON HOW TO HACK CODES USING THE CODE GENERATOR WILL NOT BE ANSWERED BY INTERACT'S CONSUMER SERVICES DEPARTMENT.** However, we've included as much information as possible for users to try hacking codes on their own. We encourage everyone to give it a try and to use the discussion board on the GameShark website to talk to others.
 
 2.  We must warn that this is an advanced feature, and will not be for everyone. A general knowledge of programming code is recommended, but not required, and some practice will most likely be needed to develop good hacking skills.
 
@@ -454,13 +452,13 @@ Allows the user to search the game for all addresses with a specific value. This
 For the advanced hacker, this allows the user to search the game and locate addresses that do not use specified values. This search is long because the user may have to search many areas of memory. Luckily, once the desired address is found, most other relevant addresses are in the same basic area of memory. This search is useful for finding codes for health meters, etc. See below for further instructions.
 
 **Option 5: 8 or 16 Bit Search** <br>
-Allows you to perform a search for a value between 0-255 (8-bit) or for a value that is more than 255. but less than or equal to 65535 (16-bit).
+Allows you to perform a search for a value between 0-255 (8-bit) or for a value that is more than 255, but less than or equal to 65535 (16-bit).
 
 **NOTE: If your game crashes or locks up during any of the following procedures, simply turn your Nintendo 64 game system off, then turn it on again and start over.**
 
 #### KNOWN VALUE SEARCH
 
-A known value search is used to find codes when you know the value of what you are looking for, like "6 Lives or "100 Bullets." To start a known search, highlight the Known Value Search option in the Code Generator menu and press the A button.
+A known value search is used to find codes when you know the value of what you are looking for, like "6 Lives" or "100 Bullets." To start a known search, highlight the Known Value Search option in the Code Generator menu and press the A button.
 
 The Known Value Search menu appears and contains these 4 commands:
 
@@ -471,7 +469,7 @@ This will return you to the game.
 This takes you back to the In-Game Menu.
 
 **Option 3: Reset Code Generator** <br>
-This will clear the Code Generator of ail other searches that were previously performed. Use this option when you are re-starting a search.
+This will clear the Code Generator of all other searches that were previously performed. Use this option when you are re-starting a search.
 
 **Option 4: Equal To** <br>
 This lets you perform a search for a value that you specify. If you are in 8-bit mode, the value range that you can search for is from 0 to 255. If you are in 16-bit mode, the value range is from 0 to 65535.
@@ -488,15 +486,13 @@ STARTING A SEARCH
 
 FINDING CODE VALUES
 
-4.  Once the game has started, press the GS button on the GameShark Pro. Highlight Code Generator and press the
-
-A button.
+4.  Once the game has started, press the GS button on the GameShark Pro. Highlight Code Generator and press the A button.
 
 5.  Decide if you want to perform a 8 or 16-bit search.
 
 6.  Highlight the Known Value search and press the A button.
 
-7.  Highlight Equal To and press the A button. Insert the number of arrow you start with (30). and press the A button.
+7.  Highlight Equal To and press the A button. Insert the number of arrow you start with (30), and press the A button.
 
 8.  An orange status bar will appear, and then a message will appear telling you how many Possibilities Remain.
 
@@ -556,11 +552,11 @@ If you would like to copy a new code from the Active Codes list and add it to th
 
 ##### TIPS FOR PERFORMING A KNOWN VALUE SEARCH
 
-1.  if at any time you feel that you have made an error, select the Reset Code Generator option and start over.
+1.  If at any time you feel that you have made an error, select the Reset Code Generator option and start over.
 
 ---
 
-2.  If the number of possibilities is less than 10. you may want select the View Search Results option, unless you can get to a lower number of possibilities. This will display all of the current memory addresses that have your desired value.
+2.  If the number of possibilities is less than 10, you may want select the View Search Results option, unless you can get to a lower number of possibilities. This will display all of the current memory addresses that have your desired value.
 
 #### UNKNOWN VALUE SEARCH
 
@@ -675,9 +671,9 @@ The Memory Editor also has a menu of advanced options. Press the A button while 
 This feature allows the user to input a specific address and then view it. Use the D-pad or analog stick to enter the desired memory address, then press the A button to go to the address. Press the B button to go back to the In-Game Menu.
 
 **Option 2: Text Search** <br>
-The Text Search allows you to search for programmer's cheats, passwords. Easter eggs or other text clues to the game. Use the D-pad to input text, as well as to change letters. Press the D-pad left or right to go to the next letter. Once the text is entered, press the A button. The address displayed will be the first match to the text. If you would like to continue searching, select the "Text Search" option and press the A button. The search will continue from the current address.
+The Text Search allows you to search for programmer's cheats, passwords, Easter eggs or other text clues to the game. Use the D-pad to input text, as well as to change letters. Press the D-pad left or right to go to the next letter. Once the text is entered, press the A button. The address displayed will be the first match to the text. If you would like to continue searching, select the "Text Search" option and press the A button. The search will continue from the current address.
 
-If the text you entered is not found, this message will appear: "String Not Found, Press B . If you press the B button, you will be taken to the Memory Editor screen.
+If the text you entered is not found, this message will appear: "String Not Found, Press B". If you press the B button, you will be taken to the Memory Editor screen.
 
 **NOTE: Most games that have programmers cheats store the information in the same area, so once the first cheat is found, the others should be in that area. Key words to search for are ’credit' and 'extra', as these are common words used in many cheats.**
 
@@ -701,12 +697,12 @@ One thing game training (hacking) requires is a great deal of patience. Take it 
 
 Go to The Hackery at **www.gameshark.com** to find more Frequently Asked Questions regarding hacking with the GameShark Pro.
 
-Q: What is the difference between the numbers and letters?
+**Q: What is the difference between the numbers and letters?**
 
 A: The numbering system that the GameShark Pro uses is called hexadecimal (hex). Instead of the standard decimal system (0 - 10), the GameShark Pro reads 0 through f (a = 10, b = 11...f = 15). Here is an example of 1 - 20 in Decimal, then in Hex:
 
-    Decimal:  1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,....
-    Hex:      1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, 10, 11, 12, 13, 14,....
+    Decimal:    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,....
+    Hex:        1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, 10, 11, 12, 13, 14,....
 
 ---
 
@@ -786,7 +782,7 @@ A: Most of the time, if you have found one code, others will be in the same area
 
 **Q: The code I have selected is not working. What's wrong?**
 
-A: There are a couple of possibilities. The first is that the code you have selected is the wrong one. Even though some codes match all the search criteria you input (Greater Than, Less Than, Equal To) does not mean that it is in fact the code you are looking for. Also, the code may not be under the Active Code List. It needs to be there and the ‘Codes Are ON' option should be active under the In Game Menu.
+A: There are a couple of possibilities. The first is that the code you have selected is the wrong one. Even though some codes match all the search criteria you input (Greater Than, Less Than, Equal To) does not mean that it is in fact the code you are looking for. Also, the code may not be under the Active Code List. It needs to be there and the 'Codes Are ON' option should be active under the In Game Menu.
 
 If the code is incorrect, try the search again. If the codes you have are not working, you may have searched in the wrong area or have the wrong code/s turned on. Write down codes that you know do not work, as well as the ones that do work.
 
@@ -801,20 +797,20 @@ If you are having problems with your GameShark Pro, make sure the cartridge is p
 
 You can reach InterAct by the following means:
 
-    Phone:            (410) 785-4064
-    E-Mail:           support@gameshark.com
-    World Wide Web:   http://www.gameshark.com
-    Mailing Address:  InterAct Accessories, Inc.
-                      ATTN: CUSTOMER SERVICE
-                      10999 McCormick Road
-                      Hunt Valley, MD 21031
+    Phone:              (410) 785-4064
+    E-Mail:             support@gameshark.com
+    World Wide Web:     http://www.gameshark.com
+    Mailing Address:    InterAct Accessories, Inc.
+                        ATTN: CUSTOMER SERVICE
+                        10999 McCormick Road
+                        Hunt Valley, MD 21031
 
 ---
 
 WARRANTY INFORMATION
 --------------------
 
-interAct Accessories, Inc., warrants to the original purchaser of the GameShark Pro for the Nintendo 64 system that it will be free from defects in materials and/or workmanship for a 90-day period from the date of purchase. If the GameShark Pro is discovered to be defective within this warranty period, InterAct Accessories, Inc. at its option will repair or replace, at no charge, any part that InterAct Accessories, Inc. determines to be defective.
+InterAct Accessories, Inc., warrants to the original purchaser of the GameShark Pro for the Nintendo 64 system that it will be free from defects in materials and/or workmanship for a 90-day period from the date of purchase. If the GameShark Pro is discovered to be defective within this warranty period, InterAct Accessories, Inc. at its option will repair or replace, at no charge, any part that InterAct Accessories, Inc. determines to be defective.
 
 To obtain warranty services during the warranty period, send the GameShark Pro, postage pre-paid, with a check or money order for $5.00 to cover return postage and handling, along with proof of purchase and the date of purchase to:
 
@@ -832,7 +828,7 @@ InterAct Accessories, Inc.   <br>
 10999 McCormick Road         <br>
 Hunt Valley, Maryland, 21031
 
-©1999 InterAct Accessories, Inc. InterAct and GameShark Pro are trademarks of STD Manufacturing LTD. GameShark codes ©1996-1999 interAct Accessories, Inc. and/or its suppliers. Midway and Mortal Kombat are trademarks of Midway Games, Inc. Battle Tanx is a trademark of the 3DO Company. Turok: Dinosaur Hunter is a trademark of Acclaim Entertainment. Nintendo 64, N64, and the Legend of Zelda are trademarks of Nintendo of America Inc. GameShark Pro is not sponsored, endorsed or approved by Nintendo.
+©1999 InterAct Accessories, Inc. InterAct and GameShark Pro are trademarks of STD Manufacturing LTD. GameShark codes ©1996-1999 InterAct Accessories, Inc. and/or its suppliers. Midway and Mortal Kombat are trademarks of Midway Games, Inc. Battle Tanx is a trademark of the 3DO Company. Turok: Dinosaur Hunter is a trademark of Acclaim Entertainment. Nintendo 64, N64, and the Legend of Zelda are trademarks of Nintendo of America Inc. GameShark Pro is not sponsored, endorsed or approved by Nintendo.
 
 ![InterAct logo](./images/interact-logo-v3-200x54.png)
 
@@ -840,5 +836,3 @@ InterAct Accessories, Inc.   <br>
 A RECOTON® COMPANY           <br>
 10999 McCormick Road         <br>
 Hunt Valley, Maryland, 21031
-
----
