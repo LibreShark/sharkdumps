@@ -161,7 +161,7 @@ Continue until the entire code is entered. Individual codes can sometimes be qui
 After you have entered the new code for this game, press the B button to return to the Options menu. You'll be able to select these options:
 
 **Option 1: Default On** <br>
-This allows you to keep this code on at ail times. So every time you start the GameShark Pro. this one code will ALWAYS be activated. Use the A button to toggle between on and off status.
+This allows you to keep this code on at all times. So every time you start the GameShark Pro. this one code will ALWAYS be activated. Use the A button to toggle between on and off status.
 
 **Option 2: Exit and Save** <br>
 This will save your new code to the specific game listed at the top of this menu and then exit you to the Select Cheat Codes menu. From there you can enter more enhancement codes for your game by selecting New Code or activate your new code IF the code isn't always on by default.
@@ -195,7 +195,7 @@ This feature allows you to save a set of GameShark codes to a Nintendo 64 memory
 
 4.  Press the Z-Trigger button to display the Options menu.
 
-5.  Highlight Save Codes To Memory Card and press the A button. Ail codes for the selected game will be saved to the memory card in Controller #1.
+5.  Highlight Save Codes To Memory Card and press the A button. All codes for the selected game will be saved to the memory card in Controller #1.
 
 6.  You can store only one set of codes on a memory card at a time. For example, if you saved Battle Tanx codes to a memory card and then saved Mortal Kombat Trilogy codes to the same memory card, your Battle Tanx codes will be ERASED and REPLACED with the Mortal Kombat Trilogy codes.
 
@@ -256,7 +256,7 @@ Sometimes, certain Nintendo 64 games will not work with the GameShark Pro until 
 **Banjo-Kazooie** <br>
 **1080° Snowboarding**
 
-The GameShark Pro comes preloaded with keycodes for ail of these games, but these key codes must be activated BEFORE you use the GameShark Pro with one of these titles. Since these games will not work with the GameShark Pro until the key code has been activated, you must first insert another game cartridge into the GameShark Pro in order to access the menu screen, and then activate that game's key code.
+The GameShark Pro comes preloaded with keycodes for all of these games, but these key codes must be activated BEFORE you use the GameShark Pro with one of these titles. Since these games will not work with the GameShark Pro until the key code has been activated, you must first insert another game cartridge into the GameShark Pro in order to access the menu screen, and then activate that game's key code.
 
 #### ACTIVATING A KEY CODE
 
@@ -473,7 +473,7 @@ This will return you to the game.
 This takes you back to the In-Game Menu.
 
 **Option 3: Reset Code Generator** <br>
-This will clear the Code Generator of ail other searches that were previously performed. Use this option when you are re-starting a search.
+This will clear the Code Generator of all other searches that were previously performed. Use this option when you are re-starting a search.
 
 **Option 4: Equal To** <br>
 This lets you perform a search for a value that you specify. If you are in 8-bit mode, the value range that you can search for is from 0 to 255. If you are in 16-bit mode, the value range is from 0 to 65535.
@@ -574,7 +574,7 @@ This will return you to the game.
 This takes you back to the in-Game Menu.
 
 **Option 3: Reset Code Generator** <br>
-This will clear the Code Generator of ail other searches previously performed. Use this option when you are re-starting a search.
+This will clear the Code Generator of all other searches previously performed. Use this option when you are re-starting a search.
 
 **Option 4: Start** <br>
 This will start the search for an unknown value.
@@ -793,7 +793,7 @@ One thing game training (hacking) requires is a great deal of patience. Take it 
 
 ## TROUBLE SHOOTING
 
-If you are having problems with your GameShark Pro, make sure the cartridge is plugged in properly. If you are having problems with codes, make sure you have entered the correct code or codes properly. Some games require an access code labeled as (M), which means that this code "ALWAYS MUST BE ON." This code will be highlighted in green at ail times or the GameShark Pro will not be able to load the game properly. There may be future titles that require this access code. If this code is required on new games it will be made available with codes for that game. If you are still having problems, you can call our Technical Support department at (410) 785-4064. Please DO NOT call this number for codes, as they are not available through Tech Support.
+If you are having problems with your GameShark Pro, make sure the cartridge is plugged in properly. If you are having problems with codes, make sure you have entered the correct code or codes properly. Some games require an access code labeled as (M), which means that this code "ALWAYS MUST BE ON." This code will be highlighted in green at all times or the GameShark Pro will not be able to load the game properly. There may be future titles that require this access code. If this code is required on new games it will be made available with codes for that game. If you are still having problems, you can call our Technical Support department at (410) 785-4064. Please DO NOT call this number for codes, as they are not available through Tech Support.
 
 You can reach InterAct by the following means:
 
