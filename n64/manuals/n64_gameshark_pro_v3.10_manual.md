@@ -274,9 +274,9 @@ Imagine that you want to play one of the games listed above that need a key code
 
 6.  A warning message will appear and ask if you actually have the key code game available. IF you actually have the Zelda game, you can highlight YES at the Warning screen, then press the A button. If you do not have the key code game, press the B button to exit the warning screen.
 
-NOTE: IF YOU DO NOT HAVE THE KEY CODE GAME AVAILABLE. DO NOT SELECT YES AT THE WARNING SCREEN. IF YOU DO SELECT YES, THEN THE NEXT TIME YOU USE THE GAMESHARK PRO THE KEY CODE GAME MUST BE CONNECTED TO THE GAMESHARK PRO.
+**NOTE: IF YOU DO NOT HAVE THE KEY CODE GAME AVAILABLE, DO NOT SELECT YES AT THE WARNING SCREEN. IF YOU DO SELECT YES, THEN THE NEXT TIME YOU USE THE GAMESHARK PRO THE KEY CODE GAME MUST BE CONNECTED TO THE GAMESHARK PRO.**
 
-BE WARNED - IF YOU ACTIVATED A KEY CODE, THE GAMESHARK PRO WILL NOT FUNCTION PROPERLY UNTIL THAT KEY CODE GAME IS CONNECTED TO IT.
+**BE WARNED - IF YOU ACTIVATED A KEY CODE, THE GAMESHARK PRO WILL NOT FUNCTION PROPERLY UNTIL THAT KEY CODE GAME IS CONNECTED TO IT.**
 
 7.  After you answer yes to the warning, the key code will be activated. Turn off your Nintendo 64 system.
 
@@ -758,7 +758,7 @@ A: Searching for an unknown value is quite different from searching for a known 
 
 Next, select Unknown Value Search from the Code Generator menu. Press the Start button.
 
---
+---
 
 Allow your character to lose some of his health. Now, make a Less Than Last search, because your character’s health meter has gone down; therefore the value of the health meter has dropped.
 
