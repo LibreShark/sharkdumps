@@ -49,6 +49,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gs-2.21-19981218-dump1.bin`][]       | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ⚠️     |
 |   [`gs-2.21-19981218-dump2.bin`][]       | `v2.21`       | `1998-12-18T12:47` |   112   |    675   | ⚠️     |
 |   [`gs-2.21-19981218-dump3.bin`][]       | `v2.21`       | `1998-12-18T12:47` |   106   |    621   | ⚠️     |
+|   [`gs-2.21-19981218-dump4.bin`][]       | `v2.21`       | `1998-12-18T12:47` |   113   |    656   | ⚠️     |
 |    `gs-2.40-xxxxxxxx.bin`                | `v2.40`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-2.50-xxxx0504-bricked.bin`][]     | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
 |   [`gs-2.50-xxxx0504-patched.bin`][]     | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
@@ -97,6 +98,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-2.21-19981218-dump1.bin`]:        /n64/firmware/gs-2.21-19981218-dump1.bin
 [`gs-2.21-19981218-dump2.bin`]:        /n64/firmware/gs-2.21-19981218-dump2.bin
 [`gs-2.21-19981218-dump3.bin`]:        /n64/firmware/gs-2.21-19981218-dump3.bin
+[`gs-2.21-19981218-dump4.bin`]:        /n64/firmware/gs-2.21-19981218-dump4.bin
 [`gs-2.50-xxxx0504-bricked.bin`]:      /n64/firmware/gs-2.50-xxxx0504-bricked.bin
 [`gs-2.50-xxxx0504-patched.bin`]:      /n64/firmware/gs-2.50-xxxx0504-patched.bin
 [`gspro-3.00-19990401.bin`]:           /n64/firmware/gspro-3.00-19990401.bin
