@@ -300,14 +300,13 @@ Press the Z-Trigger button to set the key codes to the factory default. The fact
 
 **NOTE: You only have to create a key code once. Your new key code will stay in the memory of the GameShark Pro. Remember, you must use a Set-Up cartridge and follow the activation procedures before you play any of the games that require a key code.**
 
-MEMORY CARD MANAGER
--------------------
+### MEMORY CARD MANAGER
 
 The Memory Card Manager gives you the ability to format, view or copy the contents of any Nintendo 64 memory card. In addition, the Memory Card Manager allows you to copy the game saves from your N64 game cartridge to a memory card.
 
 At the Main Menu of the GameShark Pro, highlight Memory Card Manager and press the A button. Upon entering the Memory Card Manager, the GameShark Pro will attempt to check for any memory cards inserted into a controller connected to the N64 system. This will take only a few seconds.
 
-### USING THE MEMORY CARD MANAGER
+#### USING THE MEMORY CARD MANAGER
 
 The GameShark Pro will now present you with two boxes. Use the D-pad or the analog stick to navigate between the two boxes.
 
@@ -323,7 +322,7 @@ When the game saves appear in a box, the bottom of each box will show you how ma
     R button:     Re-Reads the highlighted memory card
     Z-Trigger:    Deletes the highlighted save on a memory card
 
-### COPYING GAME SAVES
+#### COPYING GAME SAVES
 
 **To copy game saves from one memory card to another memory card**
 
@@ -357,11 +356,11 @@ When the game saves appear in a box, the bottom of each box will show you how ma
 
 7.  Repeat the steps until you have copied all the game saves that you want.
 
-### DELETING GAME SAVES
+#### DELETING GAME SAVES
 
 To delete game saves from either a memory card or a game cartridge, highlight the game save that you want to delete then press the Z-Trigger button. Once you have deleted a save, there is no way to retrieve it.
 
-### FORMATTING A MEMORY CARD
+#### FORMATTING A MEMORY CARD
 
 **NOTE: Formatting a memory card will delete all the game saves on a memory card.**
 
@@ -406,8 +405,7 @@ This option is used to view images that are currently stored in the Nintendo 64'
 
 To exit the In-Game Menu and return to the game, press the START button.
 
-THE CODE GENERATOR
-------------------
+### THE CODE GENERATOR
 
 The terms "Training" and "Hacking" have been used throughout the gaming industry to describe the process of finding enhancement codes within a game. For several years, we have been hacking GameShark codes for our customers and providing them on the GameShark website, in the Dangerous Waters newsletter, and other means. We will continue to do so, but in addition, we have updated the new GameShark Pro to include built-in Code Generator software for independent code hacking. Users can now try their hand at finding codes for infinite lives, weapons, secrets, etc.!
 
@@ -421,7 +419,7 @@ Here is some information that you should know before using the Code Generator:
 
 3.  Watch the "How To Hack Like A Pro" video that comes with the Game Shark Pro.
 
-### USING THE CODE GENERATOR
+#### USING THE CODE GENERATOR
 
 Before you use the Code Generator, you must:
 
@@ -641,7 +639,7 @@ VIEWING YOUR SEARCH RESULTS
 
 18. Continue this process until you find a code that does not make the variable that you were searching for decrease.
 
-##### TIPS FOR PERFORMING AN UNKNOWN VALUE SEARCH
+#### TIPS FOR PERFORMING AN UNKNOWN VALUE SEARCH
 
 1.  If at any time you feel that you have made an error, select the Reset Code Generator option and begin again.
 
@@ -649,7 +647,7 @@ VIEWING YOUR SEARCH RESULTS
 
 3.  If you run out of time, or if your character dies before you have completed your search, your health meter may INCREASE in the next round. If this happens, do not stop your search! Simply choose the GREATER THAN LAST option the next time you press the GS and continue your search.
 
-#### MEMORY EDITOR
+### MEMORY EDITOR
 
 The Memory Editor allows the user to view the programming of a Nintendo 64 game. The programming is displayed on the left side of the screen, and the corresponding text on the right. To toggle the cursor between the number on the left and the text on the right press the Z-Trigger button. To scroll through the information, press up or down on the D-pad. Use the L button to page up and R button to page down. To alter either the numbers on the left or text on the right, use the Up C button to increase and the Down C button to decrease a character. You may press the B button to exit this feature at any time.
 
@@ -679,17 +677,17 @@ Returns to the Memory Editor feature.
 **Option 4: Return To Game** <br>
 Exits the GameShark Pro In-Game Menu and re-enters the game.
 
-#### HACKING CODES WITH YOUR PC
+### HACKING CODES WITH YOUR PC
 
 If you are a real hard core gamer and have a desire to take Code Creation to more advanced levels, then GameShark Pro can be connected to a PC - simply by using a standard printer lead connected to the parallel port of any PC. The correct printer lead will have 25 Pin Male to 25 Pin Female Connectors and are available from wherever you buy your computer accessories.
 
 Simply connect one end to the printer port of you PC and the other to the comms port of your GameShark Pro. then download the special SharkLink Software that you will find on our GameShark website:**http://www.gameshark.com**. You now have the power to generate codes using your PC.
 
-#### A NOTE FROM THE INTERNET HACKERS
+### A NOTE FROM THE INTERNET HACKERS
 
 One thing game training (hacking) requires is a great deal of patience. Take it from Kato, CodeBoy and Code Master, do not expect to be a hacking genius overnight. We come across things we have not seen before every once in awhile ourselves. With experience, you will be able to crack just about any game code a programmer can throw at you.
 
-#### FREQUENTLY ASKED QUESTIONS HACKING WITH THE GAMESHARK PRO
+### FREQUENTLY ASKED QUESTIONS HACKING WITH THE GAMESHARK PRO
 
 Go to The Hackery at **www.gameshark.com** to find more Frequently Asked Questions regarding hacking with the GameShark Pro.
 
