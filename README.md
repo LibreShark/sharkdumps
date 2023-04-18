@@ -131,12 +131,10 @@ The Markdown versions have been transcribed as faithfully to the original printe
 - [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)
 - [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_pro_v3.00_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)
 - [GameShark Pro v3.1 manual](/n64/manuals/n64_gameshark_pro_v3.10_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.10_manual_ocr.pdf)
-
 - [GameShark Pro v3.2 manual](/n64/manuals/n64_gameshark_pro_v3.20_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
 -  GameShark Pro v3.3 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO
-
 - [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
-#### Xplorer64 (EU)
+#### Xplorer 64 (EU)
 
-- [Xplorer64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md)        • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md)       • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
