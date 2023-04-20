@@ -220,7 +220,7 @@ Repair or replacement as provided under this warranty is InterAct Accessories, I
 
 GameShark customer service hotline (for questions, trouble shooting or additional instructions only please): 410-238-1426
 
-![InterAct logo](./images/interact-logo-200x66.png)
+![InterAct logo](./images/interact-logo-v2-200x66.png)
 
     InterAct Accessories, Inc.
     A RECOTON® COMPANY
@@ -259,4 +259,4 @@ To enable the easiest of cheat codes you will need to beat the Runway level on "
 
 You have just accomplished the second and final objective. If you have completed this within the object time you will enable a cheat, this will be available in the Select Mission screen under option #3, 'Cheat Options'. Now input the following codes into the Action Replay and go to the 'Cheat Options' Menu. The codes you have entered into the Action Replay will appear here.
 
-![InterAct logo](./images/interact-logo-200x66.png)
+![InterAct logo](./images/interact-logo-v2-200x66.png)

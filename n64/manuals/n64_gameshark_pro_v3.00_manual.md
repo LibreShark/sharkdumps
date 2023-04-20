@@ -53,7 +53,7 @@ INSTRUCTIONS FOR START-UP
 
 ---
 
-NOTE: If the GameShark Pro does not start, check to see if the game you want to play requires a key code. Some games require a special Key Code in order to work with the GameShark Pro. For information about Key Codes, read the Using Key Codes section of this manual.
+**NOTE: If the GameShark Pro does not start, check to see if the game you want to play requires a key code. Some games require a special Key Code in order to work with the GameShark Pro. For information about Key Codes, read the Using Key Codes section of this manual.**
 
 Never, under any circumstances, plug the GameShark Pro or a cartridge into the N64 while the power is on. Doing so could result in damage to the N64, the GameShark Pro, or the cartridge.
 
@@ -83,7 +83,7 @@ This option starts the game without any enhancement codes. The game will play as
 **Option 3: Code Generator ON/OFF** <br>
 This option gives you the ability to access the Code Generator and search for GameShark codes while playing a game. Read the Code Generator section in this manual for more information. Press the A button to toggle between ON and OFF.
 
-**NOTE: To use the Code Generator, you must have a 4MB Expansion Pak inserted into your Nintendo 64 game system, if the Expansion Pak is not inserted, this option will not appear on screen.**
+**NOTE: To use the Code Generator, you must have a 4MB Expansion Pak inserted into your Nintendo 64 game system. If the Expansion Pak is not inserted, this option will not appear on screen.**
 
 **Option 4: Cancel** <br>
 This option takes you back to the Main Menu.
@@ -161,7 +161,7 @@ Continue until the entire code is entered. Individual codes can sometimes be qui
 After you have entered the new code for this game, press the B button to return to the Options menu. You'll be able to select these options:
 
 **Option 1: Default On** <br>
-This allows you to keep this code on at ail times. So every time you start the GameShark Pro. this one code will ALWAYS be activated. Use the A button to toggle between on and off status.
+This allows you to keep this code on at all times. So every time you start the GameShark Pro, this one code will ALWAYS be activated. Use the A button to toggle between on and off status.
 
 **Option 2: Exit and Save** <br>
 This will save your new code to the specific game listed at the top of this menu and then exit you to the Select Cheat Codes menu. From there you can enter more enhancement codes for your game by selecting New Code or activate your new code IF the code isn't always on by default.
@@ -169,7 +169,7 @@ This will save your new code to the specific game listed at the top of this menu
 **Option 3: Exit and Discard** <br>
 This will delete the code that you just entered and then exit you to the Select Cheat Codes menu. From there you can enter more enhancement codes for your game by selecting New Code.
 
-Once you have entered and saved you new codes, you can start to use them. If you chose Option 2. your new codes will be saved to the built-in list of games within the GameShark Pro and will remain there until you decide to delete them. Remember to activate your codes before you start the game if their default is OFF. All activated codes are highlighted in Blue.
+Once you have entered and saved you new codes, you can start to use them. If you chose Option 2, your new codes will be saved to the built-in list of games within the GameShark Pro and will remain there until you decide to delete them. Remember to activate your codes before you start the game if their default is OFF. All activated codes are highlighted in Blue.
 
 ---
 
@@ -195,7 +195,7 @@ This feature allows you to save a set of GameShark codes to a Nintendo 64 memory
 
 4.  Press the Z-Trigger button to display the Options menu.
 
-5.  Highlight Save Codes To Memory Card and press the A button. Ail codes for the selected game will be saved to the memory card in Controller #1.
+5.  Highlight Save Codes To Memory Card and press the A button. All codes for the selected game will be saved to the memory card in Controller #1.
 
 6.  You can store only one set of codes on a memory card at a time. For example, if you saved Battle Tanx codes to a memory card and then saved Mortal Kombat Trilogy codes to the same memory card, your Battle Tanx codes will be ERASED and REPLACED with the Mortal Kombat Trilogy codes.
 
@@ -213,7 +213,7 @@ This feature allows you to load codes from a memory card to your GameShark Pro s
 
 4.  Highlight Load Codes From Memory Card then press the A button.
 
-5.  The Save/Load screen will appear, if the codes are on the memory card in Controller #1, a message will tell you that the codes were found.
+5.  The Save/Load screen will appear. If the codes are on the memory card in Controller #1, a message will tell you that the codes were found.
 
 6.  Highlight Add Codes and press the A button. To cancel this procedure, highlight cancel and press the A button.
 
@@ -227,36 +227,36 @@ This feature allows you to load codes from a memory card to your GameShark Pro s
 
 Choosing Options allows you to perform the following tasks:
 
-**Task 1: Change Background**
+**Task 1: Change Background** <br>
 You can choose from a number of different background settings and patterns. Use the D-pad or the analog stick to scroll through the different patterns and colors. When you find the desired background, press the A button.
 
-**Task 2: Scroll Background On/Off**
+**Task 2: Scroll Background On/Off** <br>
 The background can either scroll or remain stationary. Press the A button to toggle On and Off.
 
-**Task 3: Menu Scrolling On**
+**Task 3: Menu Scrolling On** <br>
 This option makes the menus either scroll or flash off the screen when you move to a new menu. Press the A button to toggle between On and Off,
 
-**Task 4: Sound Enabled/ Disabled**
+**Task 4: Sound Enabled/ Disabled** <br>
 Press the A button to toggle the sound On and Off.
 
-**Task 5: Exit**
+**Task 5: Exit** <br>
 Exits the Options menu and takes you back to the Main Menu.
 
 ### USING KEY CODES
 
 Sometimes, certain Nintendo 64 games will not work with the GameShark Pro until a special "key code" is activated. Here is a list of Nintendo 64 games that require the use of a key code in order to work with your GameShark Pro at the time this manual was printed (April 1999):
 
-**The Legend of Zelda: The Ocarina of Time** <br>
-**Yoshi's Story** <br>
+**The Legend of Zelda: The Ocarina of Time**        <br>
+**Yoshi's Story**                                   <br>
 **Major League Baseball Featuring Ken Griffey Jr.** <br>
-**Kobe Bryant in NBA Courtside** <br>
-**F Zero X** <br>
-**Diddy Kong Racing** <br>
-**Cruis'n World** <br>
-**Banjo-Kazooie** <br>
+**Kobe Bryant in NBA Courtside**                    <br>
+**F Zero X**                                        <br>
+**Diddy Kong Racing**                               <br>
+**Cruis'n World**                                   <br>
+**Banjo-Kazooie**                                   <br>
 **1080° Snowboarding**
 
-The GameShark Pro comes preloaded with keycodes for ail of these games, but these key codes must be activated BEFORE you use the GameShark Pro with one of these titles. Since these games will not work with the GameShark Pro until the key code has been activated, you must first insert another game cartridge into the GameShark Pro in order to access the menu screen, and then activate that game's key code.
+The GameShark Pro comes preloaded with keycodes for all of these games, but these key codes must be activated BEFORE you use the GameShark Pro with one of these titles. Since these games will not work with the GameShark Pro until the key code has been activated, you must first insert another game cartridge into the GameShark Pro in order to access the menu screen, and then activate that game's key code.
 
 #### ACTIVATING A KEY CODE
 
@@ -317,6 +317,7 @@ entering the Memory Card Manager, the GameShark Pro will attempt to check for an
 #### USING THE MEMORY CARD MANAGER
 
 The GameShark Pro will now present you with two boxes. Use the D-pad or the analog stick to navigate between the two boxes.
+
 Inside each box, you will see a listing of all controllers that are connected to the N64 that have a memory card in them. The GameShark Pro can read or copy information from any of these controllers, if they have a memory card inserted.
 
 You may also notice a GamePak listing. This represents the Nintendo 64 game cartridge that you have inserted into the GameShark Pro. This option allows you to copy game saves to or transfer game save from a game cartridge.
@@ -341,7 +342,7 @@ When the game saves appear in a box, the bottom of each box will show you how ma
 
 4.  Now highlight "Controller #2" in the box on the right using the D-pad or analog stick on Controller #1. Press the A button. The saves on memory card #2 will appear as well.
 
-5.  Using the D-pad or analog stick on Controller #1. highlight a game save that you want to copy, then press the A button. A progress bar will appear and the save will be copied onto the memory card in Controller #2. To delete a game save, highlight the save then press the Z-Trigger button.
+5.  Using the D-pad or analog stick on Controller #1, highlight a game save that you want to copy, then press the A button. A progress bar will appear and the save will be copied onto the memory card in Controller #2. To delete a game save, highlight the save then press the Z-Trigger button.
 
 6.  Repeat these steps until you have copied all the game saves that you want.
 
@@ -458,7 +459,7 @@ For the advanced hacker, this allows the user to search the game and locate addr
 **Option 5: 8 or 16 Bit Search** <br>
 Allows you to perform a search for a value between 0-255 (8-bit) or for a value that is more than 255, but less than or equal to 65535 (16-bit).
 
-**NOTE: if your game crashes or locks up during any of the following procedures, simply turn your Nintendo 64 game system off, then turn it on again and start over.**
+**NOTE: If your game crashes or locks up during any of the following procedures, simply turn your Nintendo 64 game system off, then turn it on again and start over.**
 
 #### KNOWN VALUE SEARCH
 
@@ -473,7 +474,7 @@ This will return you to the game.
 This takes you back to the In-Game Menu.
 
 **Option 3: Reset Code Generator** <br>
-This will clear the Code Generator of ail other searches that were previously performed. Use this option when you are re-starting a search.
+This will clear the Code Generator of all other searches that were previously performed. Use this option when you are re-starting a search.
 
 **Option 4: Equal To** <br>
 This lets you perform a search for a value that you specify. If you are in 8-bit mode, the value range that you can search for is from 0 to 255. If you are in 16-bit mode, the value range is from 0 to 65535.
@@ -515,7 +516,7 @@ VIEWING YOUR SEARCH RESULTS
 
 14. Once inside the menu, the box on the right will contain a list of code possibilities found by the Code Generator. Use the D-pad or analog stick to highlight a code, then press the A button to copy the code to the Active Codes box on the left. Press Start to return to the game.
 
-15. When testing an active code, to easily recognize which code controls the variable that you are looking for. choose only one code at a time. You will know when you are testing the correct code when the variable that you were looking for remains at the same value, even when you try to decrease it. So, in this example, you will know you have the correct code when you shoot a Tek Arrow, and the number of arrows never decreases.
+15. When testing an active code, to easily recognize which code controls the variable that you are looking for, choose only one code at a time. You will know when you are testing the correct code when the variable that you were looking for remains at the same value, even when you try to decrease it. So, in this example, you will know you have the correct code when you shoot a Tek Arrow, and the number of arrows never decreases.
 
 16. If the code is not correct, simply go back into the View Search Results option and use the D-pad or analog stick to highlight the wrong code, then press the Left C button to remove it from the Active Codes list.
 
@@ -525,7 +526,7 @@ VIEWING YOUR SEARCH RESULTS
 
 ### EDITING AN ACTIVE CODE
 
-Editing a code allows you to change the value of an active code that you find using the Code Generator. For example, if the Infinite Tek Arrow code you found in Turok is: 80128e0f 0015, where the "015" means you have 15 arrows, you can edit the value of that code to 80128e0f 0099. so now you will have 99 arrows. To edit an active code, simply:
+Editing a code allows you to change the value of an active code that you find using the Code Generator. For example, if the Infinite Tek Arrow code you found in Turok is: 80128e0f 0015, where the "015" means you have 15 arrows, you can edit the value of that code to 80128e0f 0099, so now you will have 99 arrows. To edit an active code, simply:
 
 1.  Select the View Search Results option to see the active code.
 
@@ -543,9 +544,9 @@ Editing a code allows you to change the value of an active code that you find us
 
 If you would like to copy a new code from the Active Codes list and add it to the GameShark Pro:
 
-1. Turn the N64 system OFF then turn it on again.
+1.  Turn the N64 system OFF, then turn it on again.
 
-2. Highlight and select the Select Cheat Codes option.
+2.  Highlight and select the Select Cheat Codes option.
 
 ---
 
@@ -574,7 +575,7 @@ This will return you to the game.
 This takes you back to the in-Game Menu.
 
 **Option 3: Reset Code Generator** <br>
-This will clear the Code Generator of ail other searches previously performed. Use this option when you are re-starting a search.
+This will clear the Code Generator of all other searches previously performed. Use this option when you are re-starting a search.
 
 **Option 4: Start** <br>
 This will start the search for an unknown value.
@@ -674,7 +675,7 @@ The Memory Editor also has a menu of advanced options. Press the A button while 
 This feature allows the user to input a specific address and then view it. Use the D-pad or analog stick to enter the desired memory address, then press the A button to go to the address. Press the B button to go back to the In-Game Menu.
 
 **Option 2: Text Search** <br>
-The Text Search allows you to search for programmers cheats, passwords, Easter eggs or other text clues to the game. Use the D-pad to input text, as well as to change letters. Press the D-pad left or right to go to the next letter. Once the text is entered, press the A button. The address displayed will be the first match to the text. If you would like to continue searching, select the "Text Search" option and press the A button. The search will continue from the current address.
+The Text Search allows you to search for programmer's cheats, passwords, Easter eggs or other text clues to the game. Use the D-pad to input text, as well as to change letters. Press the D-pad left or right to go to the next letter. Once the text is entered, press the A button. The address displayed will be the first match to the text. If you would like to continue searching, select the "Text Search" option and press the A button. The search will continue from the current address.
 
 If the text you entered is not found, this message will appear: "String Not Found, Press B". If you press the B button, you will be taken to the Memory Editor screen.
 
@@ -694,7 +695,7 @@ Go to The Hackery at www.gameshark.com to find more Frequently Asked Questions r
 
 **Q: What is the difference between the numbers and letters?**
 
-A: The numbering system that the GameShark Pro uses is called hexadecimal (hex). Instead of the standard decimal system (0 - 10), the GameShark Pro reads 0 through f (a = 10. b = 11...f = 15). Here is an example of 1 - 20 in Decimal, then in Hex:
+A: The numbering system that the GameShark Pro uses is called hexadecimal (hex). Instead of the standard decimal system (0 - 10), the GameShark Pro reads 0 through f (a = 10, b = 11...f = 15). Here is an example of 1 - 20 in Decimal, then in Hex:
 
     Decimal:    1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20,....
     Hex:        1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, 10, 11, 12, 13, 14,....
@@ -703,7 +704,7 @@ It is of great assistance to have a calculator that can convert from decimal to 
 
 **Q: What does the code itself mean?**
 
-A. The first eight digits are the address in the RAM (Random Access memory) of the Nintendo 64 and the last four digits are the values of that address. So, as an example, 80123456 xxxx: 80123456 is the address of the code in the RAM and xxxx is the value (where xxxx can range from 0000 [decimal — 0] to ffff [decimal = 65,535])
+A. The first eight digits are the address in the RAM (Random Access memory) of the Nintendo 64 and the last four digits are the values of that address. So, as an example, 80123456 xxxx: 80123456 is the address of the code in the RAM and xxxx is the value (where xxxx can range from 0000 [decimal = 0] to ffff [decimal = 65,535])
 
 **Q: What is the difference between a Known Value Search and an Unknown Value Search?**
 
@@ -716,7 +717,7 @@ A: An example of hacking a known value is the game BattleTanx from 3DO:
 **Hacking Tip**: Make sure that:
 
 1.  You have a 4MB Expansion Pak inserted into your Nintendo 64.
-2.  The 'Codes Are ON' option is listed under the 'In Game Menu'; if not. it may cause problems with your hacking searches.
+2.  The 'Codes Are ON' option is listed under the 'In Game Menu'; if not, it may cause problems with your hacking searches.
 3.  The Code Generator has been turned on.
 
 After entering the game, take the initial reading (i.e. when you see that you have 70 bullets in your tank).
@@ -759,7 +760,7 @@ Allow your character to lose some of his health. Now, make a Less Than Last sear
 
 **Hacking Tip**: Occasionally, the inverse is true; i.e. as the health meter drops the value is actually increasing. This occurs very rarely on only a few games.
 
-Return to the game and repeat the above step, allowing some more of your health to go down, if your character is killed during the round, at the start of the next round, perform a Greater Than Last search after his/her health is restored to full.
+Return to the game and repeat the above step, allowing some more of your health to go down. If your character is killed during the round, at the start of the next round, perform a Greater Than Last search after his/her health is restored to full.
 
 **Hacking Tip**: After you have taken a few searches, take a reading at the start of a round, then allow your character to be killed and do an Equal To Last. Search at the start of the following round, as long as the health meter is full, you know that the values are equal. This will greatly narrow down the amount of possibilities.
 
@@ -779,7 +780,7 @@ A: Most of the time, if you have found one code, others will be in the same area
 
 **Q: The code I have selected is not working. What's wrong?**
 
-A: There are a couple of possibilities. The first is that the code you have selected is the wrong one. Even though some codes match all the search criteria you input (Greater Than, Less Than, Equal To) does not mean that it is in fact the code you are looking for. Also, the code may not be under the Active Code List. It needs to be there and the Codes Are ON' option should be active under the In Game Menu.
+A: There are a couple of possibilities. The first is that the code you have selected is the wrong one. Even though some codes match all the search criteria you input (Greater Than, Less Than, Equal To) does not mean that it is in fact the code you are looking for. Also, the code may not be under the Active Code List. It needs to be there and the 'Codes Are ON' option should be active under the In Game Menu.
 
 If the code is incorrect, try the search again. If the codes you have are not working, you may have searched in the wrong area or have the wrong code/s turned on. Write down codes that you know do not work, as well as the ones that do work.
 
@@ -793,7 +794,7 @@ One thing game training (hacking) requires is a great deal of patience. Take it 
 
 ## TROUBLE SHOOTING
 
-If you are having problems with your GameShark Pro, make sure the cartridge is plugged in properly. If you are having problems with codes, make sure you have entered the correct code or codes properly. Some games require an access code labeled as (M), which means that this code "ALWAYS MUST BE ON." This code will be highlighted in green at ail times or the GameShark Pro will not be able to load the game properly. There may be future titles that require this access code. If this code is required on new games it will be made available with codes for that game. If you are still having problems, you can call our Technical Support department at (410) 785-4064. Please DO NOT call this number for codes, as they are not available through Tech Support.
+If you are having problems with your GameShark Pro, make sure the cartridge is plugged in properly. If you are having problems with codes, make sure you have entered the correct code or codes properly. Some games require an access code labeled as (M), which means that this code "ALWAYS MUST BE ON." This code will be highlighted in green at all times or the GameShark Pro will not be able to load the game properly. There may be future titles that require this access code. If this code is required on new games it will be made available with codes for that game. If you are still having problems, you can call our Technical Support department at (410) 785-4064. **Please DO NOT call this number for codes, as they are not available through Tech Support.**
 
 You can reach InterAct by the following means:
 
@@ -814,8 +815,8 @@ InterAct Accessories, Inc., warrants to the original purchaser of the GameShark 
 
 To obtain warranty services during the warranty period, send the GameShark Pro, postage pre-paid, with a check or money order for $5.00 to cover return postage and handling, along with proof of purchase and the date of purchase to:
 
-InterAct Accessories, Inc.
-10999 McCormick Road
+InterAct Accessories, Inc.   <br>
+10999 McCormick Road         <br>
 Hunt Valley, Maryland, 21031
 
 This warranty is limited to the internal works of the GameShark Pro and the external housing. It does not cover normal wear and tear, abuse, or misuse.
@@ -824,15 +825,15 @@ Repair or replacement as provided under this warranty is InterAct Accessories, I
 
 GameShark Pro customer service hotline (for questions, trouble shooting or additional instructions only please): 410-785-4064.
 
-InterAct Accessories, Inc.
-10999 McCormick Road
+InterAct Accessories, Inc.   <br>
+10999 McCormick Road         <br>
 Hunt Valley, Maryland, 21031
 
 ©1999 InterAct Accessories, Inc. InterAct and GameShark Pro are trademarks of STD Manufacturing LTD. GameShark codes ©1996-1999 InterAct Accessories, Inc. and/or its suppliers. Midway and Mortal Kombat are trademarks of Midway Games, Inc. Battle Tanx is a trademark of the 3DO Company. Turok: Dinosaur Hunter is a trademark of Acclaim Entertainment. Nintendo 64, N64, and the Legend of Zelda are trademarks of Nintendo of America Inc. GameShark Pro is not sponsored, endorsed or approved by Nintendo.
 
 ![InterAct logo](./images/interact-logo-v3-200x54.png)
 
-    InterAct Accessories, Inc.
-    A RECOTON® COMPANY
-    10999 McCormick Road
-    Hunt Valley, Maryland, 21031
+InterAct Accessories, Inc.   <br>
+A RECOTON® COMPANY           <br>
+10999 McCormick Road         <br>
+Hunt Valley, Maryland, 21031
