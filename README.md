@@ -29,8 +29,9 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 | Filename                                 | Version       | Build timestamp    | #G      | #C       | Pris? |
 |:---------------------------------------- |:------------- |:------------------ | -------:| --------:|:-----:|
-|    `gs-1.02-xxxxxxxx.bin`                | `v1.02`       | _Unknown_          |     ?   |      ?   | ⚠️     |
-|   [`gs-1.04-19970819.bin`][]             | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ⚠️     |
+|   [`gs-1.02-19970801.bin`]               | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ⚠️     |
+| ~~[`gs-1.04-19970819-bad-codes.bin`][]~~ | `v1.04`       | `1997-08-19T10:35` |   ~~1~~ |    ~~3~~ | ⚠️     |
+|   [`gs-1.04-19970819-good-codes.bin`][]  | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ⚠️     |
 |   [`gs-1.05-19970904.bin`][]             | `v1.05`       | `1997-09-04T16:25` |    23   |    133   | ⚠️     |
 |   [`gs-1.06-19970919.bin`][]             | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ⚠️     |
 |   [`gs-1.07-19971107.bin`][]             | `v1.07`       | `1997-11-07T10:24` |    27   |    169   | ⚠️     |
@@ -80,7 +81,9 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`ar-1.11-19980415.bin`]:              /n64/firmware/ar-1.11-19980415.bin
 [`arpro-3.0-19990324.bin`]:            /n64/firmware/arpro-3.0-19990324.bin
 [`arpro-3.3-20000418.bin`]:            /n64/firmware/arpro-3.3-20000418.bin
-[`gs-1.04-19970819.bin`]:              /n64/firmware/gs-1.04-19970819.bin
+[`gs-1.02-19970801.bin`]:              /n64/firmware/gs-1.02-19970801.bin
+[`gs-1.04-19970819-bad-codes.bin`]:    /n64/firmware/gs-1.04-19970819-bad-codes.bin
+[`gs-1.04-19970819-good-codes.bin`]:   /n64/firmware/gs-1.04-19970819-good-codes.bin
 [`gs-1.05-19970904.bin`]:              /n64/firmware/gs-1.05-19970904.bin
 [`gs-1.06-19970919.bin`]:              /n64/firmware/gs-1.06-19970919.bin
 [`gs-1.07-19971107.bin`]:              /n64/firmware/gs-1.07-19971107.bin
