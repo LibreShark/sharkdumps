@@ -70,8 +70,7 @@ The Main Menu is composed of these 5 items:
 
 Move up and down on the direction pad (D-Pad) or the analog stick of the controller to highlight one of these items, and press the A button to select. Use the B button to exit from the selected screen.
 
-START GAME
-----------
+### START GAME
 
 This selection takes you to the Start Game Options menu. You will then be presented with two or more options. Press up and down on the D-pad or the analog stick to highlight an option and press the A button to select it.
 
@@ -89,12 +88,11 @@ This option gives you the ability to access the Code Generator and search for Ga
 **Option 4: Cancel** <br>
 This option takes you back to the Main Menu.
 
-SELECT CHEAT CODES
-------------------
+### SELECT CHEAT CODES
 
 This option takes you to the built-in list of Nintendo 64 titles currently supported by the GameShark Pro. All titles are listed alphabetically. Press up or down on the D-pad or the analog stick to highlight the desired game and press the A button to select it. The B button will return you to the Main Menu. The L button will scroll the list of games up and R button will scroll the list down.
 
-The bottom of the Select Cheat Codes screen will display the highlighted game, the number of enhancement codes that are currently active for that game, and the percentage of storage space available within the GameShark Pro's memory.
+The bottom of the Select Cheat Codes screen will display the highlighted game, the number of enhancement codes that are currently active for that game, and the percentage of storage space available within the GameShark Pro’s memory.
 
 Once you've selected a game, a full list of enhancement code descriptions will appear on the screen for that game. These descriptions represent a code. Press up or down on the D-pad or analog stick to highlight an individual code. The A button will toggle the codes on and off. You can activate almost any combination of enhancements. Active codes are highlighted in blue. To delete a code, press the Left C button. When you are finished activating your desired codes, press the Start button to go to the Start Game Option menu.
 
@@ -104,7 +102,7 @@ Once you've selected a game, a full list of enhancement code descriptions will a
 
 ---
 
-### WHERE TO FIND NEW ENHANCEMENT CODES
+#### WHERE TO FIND NEW ENHANCEMENT CODES
 
 As new games are released, you will want to add new codes for those games to your GameShark Pro. You can find new codes at:
 
@@ -115,7 +113,7 @@ As new games are released, you will want to add new codes for those games to you
 
 We're making sure that the newest codes to the hottest games are available and easy to find.
 
-### ADDING NEW GAMES TO THE GAMESHARK PRO
+#### ADDING NEW GAMES TO THE GAMESHARK PRO
 
 To add new codes to your GameShark Pro, you must first add the title of the game to the GameShark Pro, IF that title does not already exist in the built-in list of games. To add a new game title:
 
@@ -140,7 +138,7 @@ This saves the title into the built-in list of games found in the Select Game li
 **Option 4: Exit and Discard** <br>
 This deletes the name you entered or the title the GameShark Pro found, then returns you to the Select Game list. Once you have added the title of your game to the Select Game list, find the title you created by using the L and R buttons to scroll up and down the list. Highlight the name of the game you just created and press the A button. The Select Cheat Codes screen will appear. It is now time for you to add your codes to the GameShark Pro.
 
-### ADDING NEW CODES TO THE GAMESHARK PRO
+#### ADDING NEW CODES TO THE GAMESHARK PRO
 
 In the Select Cheat Codes menu, highlight New Code and press the A button. This will take you to the New Code Description screen. In this screen, you will be presented with a new box filled with characters. This is where you will give each of your new codes a description. You will probably want to name your new enhancement codes something similar to what they do.
 
@@ -148,7 +146,7 @@ For example, if a code gives you a large number of lives, you may want to name t
 
 ---
 
-### ENTERING CODES INTO THE GAMESHARK PRO
+#### ENTERING CODES INTO THE GAMESHARK PRO
 
 After you have entered a description and pressed the B button, 2 more boxes will appear on screen. The box on the left, with the dots, is the Code Entry box. The box on the right is the Options box. Use the D-pad or analog stick to navigate between the boxes. A yellow border will appear around the box that you are currently using.
 
@@ -173,13 +171,13 @@ You can add more codes to any game simply by selecting the game and highlighting
 
 **NOTE: Each code is usually only one line, and each code should have 1 description. Do not make the mistake of entering a group of separate GameShark Pro codes into one description. Make a description for each code you add, unless a code is more than 1 line long.**
 
-### DELETING A CODE
+#### DELETING A CODE
 
 If you want to delete a code, simply highlight the description of the code and press the left C button. A message will appear asking if you are sure you want to delete the code. Use the D-pad or analog stick to highlight Delete and press the A button.
 
 To cancel, simply highlight cancel and press the A button.
 
-### SAVING GAMESHARK CODES TO MEMORY CARD
+#### SAVING GAMESHARK CODES TO MEMORY CARD
 
 This feature allows you to save a set of GameShark codes to a Nintendo 64 memory card. You can either give the card to a friend, so that they can load the codes into their GameShark Pro or you can use InterAct's DexDrive and e-mail or post the codes to the Internet. To save a set of codes onto a memory card:
 
@@ -199,9 +197,9 @@ This feature allows you to save a set of GameShark codes to a Nintendo 64 memory
 
 **NOTE: GameShark Pro code saves are always labeled GAME-SAVEDAT.**
 
-### LOADING CODES FROM A MEMORY CARD TO A GAMESHARK PRO
+#### LOADING CODES FROM A MEMORY CARD TO A GAMESHARK PRO
 
-This feature allows you to load codes from a memory card to your GameShark Pro so that you don't have to manually enter the codes yourself. Even if the game's title does not exist in the GameShark Pro's built-in list of games, this feature will automatically add the game, plus the codes, to your GameShark Pro. To load a set of codes from your memory card to your GameShark Pro:
+This feature allows you to load codes from a memory card to your GameShark Pro so that you don’t have to manually enter the codes yourself. Even if the game’s title does not exist in the GameShark Pro's built-in list of games, this feature will automatically add the game, plus the codes, to your GameShark Pro. To load a set of codes from your memory card to your GameShark Pro:
 
 1.  Insert the memory card that contains the GameShark codes into Controller #1.
 
@@ -219,8 +217,7 @@ This feature allows you to load codes from a memory card to your GameShark Pro s
 
 **NOTE: You can only load N64 game codes into a N64 GameShark Pro. You cannot load codes into a GameShark with a version number lower than 3.0.**
 
-OPTIONS
--------
+### OPTIONS
 
 Choosing Options allows you to perform the following tasks:
 
@@ -239,8 +236,7 @@ Press the A button to toggle the sound On and Off.
 **Task 5: Exit** <br>
 Exits the Options menu and takes you back to the Main Menu.
 
-USING KEY CODES
----------------
+### USING KEY CODES
 
 Sometimes, certain Nintendo 64 games will not work with the GameShark Pro until a special "key code" is activated. Here is a list of Nintendo 64 games that require the use of a key code in order to work with your GameShark Pro at the time this manual was printed (April 1999):
 
@@ -258,7 +254,7 @@ Sometimes, certain Nintendo 64 games will not work with the GameShark Pro until 
 
 The GameShark Pro comes preloaded with keycodes for all of these games, but these key codes must be activated BEFORE you use the GameShark Pro with one of these titles. Since these games will not work with the GameShark Pro until the key code has been activated, you must first insert another game cartridge into the GameShark Pro in order to access the menu screen, and then activate that game's key code.
 
-### ACTIVATING A KEY CODE
+#### ACTIVATING A KEY CODE
 
 Imagine that you want to play one of the games listed above that need a key code, like The Legend of Zelda: The Ocarina of Time. To activate the key code, simply:
 
@@ -284,7 +280,7 @@ Imagine that you want to play one of the games listed above that need a key code
 
 As new games are released, some of them may require new key codes. Be sure to check out the GameShark website (www.gameshark.com) to find out which games will need new key codes.
 
-### ADDING NEW KEY CODES TO THE GAMESHARK PRO
+#### ADDING NEW KEY CODES TO THE GAMESHARK PRO
 
 When a new game is released and it needs a key code, you'll have to get the key code from the GameShark website and then add the key code to your GameShark Pro. To add a new key code to the GameShark Pro:
 
@@ -304,14 +300,13 @@ Press the Z-Trigger button to set the key codes to the factory default. The fact
 
 **NOTE: You only have to create a key code once. Your new key code will stay in the memory of the GameShark Pro. Remember, you must use a Set-Up cartridge and follow the activation procedures before you play any of the games that require a key code.**
 
-MEMORY CARD MANAGER
--------------------
+### MEMORY CARD MANAGER
 
 The Memory Card Manager gives you the ability to format, view or copy the contents of any Nintendo 64 memory card. In addition, the Memory Card Manager allows you to copy the game saves from your N64 game cartridge to a memory card.
 
 At the Main Menu of the GameShark Pro, highlight Memory Card Manager and press the A button. Upon entering the Memory Card Manager, the GameShark Pro will attempt to check for any memory cards inserted into a controller connected to the N64 system. This will take only a few seconds.
 
-### USING THE MEMORY CARD MANAGER
+#### USING THE MEMORY CARD MANAGER
 
 The GameShark Pro will now present you with two boxes. Use the D-pad or the analog stick to navigate between the two boxes.
 
@@ -327,7 +322,7 @@ When the game saves appear in a box, the bottom of each box will show you how ma
     R button:     Re-Reads the highlighted memory card
     Z-Trigger:    Deletes the highlighted save on a memory card
 
-### COPYING GAME SAVES
+#### COPYING GAME SAVES
 
 **To copy game saves from one memory card to another memory card**
 
@@ -361,11 +356,11 @@ When the game saves appear in a box, the bottom of each box will show you how ma
 
 7.  Repeat the steps until you have copied all the game saves that you want.
 
-### DELETING GAME SAVES
+#### DELETING GAME SAVES
 
 To delete game saves from either a memory card or a game cartridge, highlight the game save that you want to delete then press the Z-Trigger button. Once you have deleted a save, there is no way to retrieve it.
 
-### FORMATTING A MEMORY CARD
+#### FORMATTING A MEMORY CARD
 
 **NOTE: Formatting a memory card will delete all the game saves on a memory card.**
 
@@ -410,8 +405,7 @@ This option is used to view images that are currently stored in the Nintendo 64'
 
 To exit the In-Game Menu and return to the game, press the START button.
 
-THE CODE GENERATOR
-------------------
+### THE CODE GENERATOR
 
 The terms "Training" and "Hacking" have been used throughout the gaming industry to describe the process of finding enhancement codes within a game. For several years, we have been hacking GameShark codes for our customers and providing them on the GameShark website, in the Dangerous Waters newsletter, and other means. We will continue to do so, but in addition, we have updated the new GameShark Pro to include built-in Code Generator software for independent code hacking. Users can now try their hand at finding codes for infinite lives, weapons, secrets, etc.!
 
@@ -419,13 +413,13 @@ The following section of this manual explains the new Code Generator feature, in
 
 Here is some information that you should know before using the Code Generator:
 
-1.  **DUE TO THE COMPLEXITY OF THIS FEATURE, QUESTIONS ON HOW TO HACK CODES USING THE CODE GENERATOR WILL NOT BE ANSWERED BY INTERACT'S CONSUMER SERVICES DEPARTMENT.** However, we've included as much information as possible for users to try hacking codes on their own. We encourage everyone to give it a try and to use the discussion board on the GameShark website to talk to others.
+1.  **DUE TO THE COMPLEXITY OF THIS FEATURE, QUESTIONS ON HOW TO HACK CODES USING THE CODE GENERATOR WILL NOT BE ANSWERED BY INTERACT’S CONSUMER SERVICES DEPARTMENT.** However, we’ve included as much information as possible for users to try hacking codes on their own. We encourage everyone to give it a try and to use the discussion board on the GameShark website to talk to others.
 
 2.  We must warn that this is an advanced feature, and will not be for everyone. A general knowledge of programming code is recommended, but not required, and some practice will most likely be needed to develop good hacking skills.
 
 3.  Watch the "How To Hack Like A Pro" video that comes with the Game Shark Pro.
 
-### USING THE CODE GENERATOR
+#### USING THE CODE GENERATOR
 
 Before you use the Code Generator, you must:
 
@@ -568,7 +562,7 @@ The Unknown Value Search menu will appear and contain these 4 commands:
 This will return you to the game.
 
 **Option 2: Exit To Main Menu** <br>
-This takes you back to the in-Game Menu.
+This takes you back to the In-Game Menu.
 
 **Option 3: Reset Code Generator** <br>
 This will clear the Code Generator of all other searches previously performed. Use this option when you are re-starting a search.
@@ -653,7 +647,7 @@ VIEWING YOUR SEARCH RESULTS
 
 3.  If you run out of time, or if your character dies before you have completed your search, your health meter may INCREASE in the next round. If this happens, do not stop your search! Simply choose the GREATER THAN LAST option the next time you press the GS and continue your search.
 
-#### MEMORY EDITOR
+### MEMORY EDITOR
 
 The Memory Editor allows the user to view the programming of a Nintendo 64 game. The programming is displayed on the left side of the screen, and the corresponding text on the right. To toggle the cursor between the number on the left and the text on the right press the Z-Trigger button. To scroll through the information, press up or down on the D-pad. Use the L button to page up and R button to page down. To alter either the numbers on the left or text on the right, use the Up C button to increase and the Down C button to decrease a character. You may press the B button to exit this feature at any time.
 
@@ -683,17 +677,17 @@ Returns to the Memory Editor feature.
 **Option 4: Return To Game** <br>
 Exits the GameShark Pro In-Game Menu and re-enters the game.
 
-#### HACKING CODES WITH YOUR PC
+### HACKING CODES WITH YOUR PC
 
 If you are a real hard core gamer and have a desire to take Code Creation to more advanced levels, then GameShark Pro can be connected to a PC - simply by using a standard printer lead connected to the parallel port of any PC. The correct printer lead will have 25 Pin Male to 25 Pin Female Connectors and are available from wherever you buy your computer accessories.
 
 Simply connect one end to the printer port of you PC and the other to the comms port of your GameShark Pro. then download the special SharkLink Software that you will find on our GameShark website:**http://www.gameshark.com**. You now have the power to generate codes using your PC.
 
-#### A NOTE FROM THE INTERNET HACKERS
+### A NOTE FROM THE INTERNET HACKERS
 
 One thing game training (hacking) requires is a great deal of patience. Take it from Kato, CodeBoy and Code Master, do not expect to be a hacking genius overnight. We come across things we have not seen before every once in awhile ourselves. With experience, you will be able to crack just about any game code a programmer can throw at you.
 
-#### FREQUENTLY ASKED QUESTIONS HACKING WITH THE GAMESHARK PRO
+### FREQUENTLY ASKED QUESTIONS HACKING WITH THE GAMESHARK PRO
 
 Go to The Hackery at **www.gameshark.com** to find more Frequently Asked Questions regarding hacking with the GameShark Pro.
 

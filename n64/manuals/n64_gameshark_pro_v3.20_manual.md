@@ -466,7 +466,7 @@ This takes you back to the In-Game Menu.
 This will clear the Code Generator of all other searches that were previously performed. Use this option when you are re-starting a search.
 
 **Option 4: Equal To** <br>
-This lets you perform a search for a value that you specify. If you are in 8-bit mode, the value range that you can search for is from 0 to 255. if you are in 16-bit mode, the value range is from 0 to 65535.
+This lets you perform a search for a value that you specify. If you are in 8-bit mode, the value range that you can search for is from 0 to 255. If you are in 16-bit mode, the value range is from 0 to 65535.
 
 ##### How To Perform A Known Value Search
 
@@ -639,7 +639,7 @@ VIEWING YOUR SEARCH RESULTS
 
 18. Continue this process until you find a code that does not make the variable that you were searching for decrease.
 
-#### TIPS FOR PERFORMING AN UNKNOWN VALUE SEARCH
+##### TIPS FOR PERFORMING AN UNKNOWN VALUE SEARCH
 
 1.  If at any time you feel that you have made an error, select the Reset Code Generator option and begin again.
 
