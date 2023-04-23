@@ -1,0 +1,208 @@
+﻿<?xml version="1.0"?>
+<!-- <!DOCTYPE Chapters SYSTEM "matroskachapters.dtd"> -->
+<Chapters>
+  <EditionEntry>
+    <EditionUID>1734292345021977869</EditionUID>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:00:00.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Intro</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404701</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:00:24.500000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Great New Features</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404702</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:01:00.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>In This Video</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404703</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:01:16.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Selecting Codes</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404704</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:01:36.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Using Key Codes</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404705</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:02:11.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Setup Cartridge</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404706</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:03:08.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>New Key Codes</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404707</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:03:22.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Memory Card Manager</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404708</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:03:52.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>V-RAM Viewer</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404709</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:04:07.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Code Generator</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404710</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:04:43.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Using The Code Generator</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404711</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:06:54.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Creating Your Own Codes</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404712</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:07:54.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Known Value Search</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404713</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:09:09.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Saving New Codes</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404714</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:10:00.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Unknown Value Search</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404715</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:11:29.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Official Code Sources</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404716</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:12:08.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>DexDrive advertisement</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404717</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:13:00.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>SuperPad 64 advertisement</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404718</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:13:38.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>V3FX Racing Wheel advertisement</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404719</ChapterUID>
+    </ChapterAtom>
+
+    <ChapterAtom>
+      <ChapterTimeStart>00:14:18.000000000</ChapterTimeStart>
+      <ChapterDisplay>
+        <ChapterString>Outro</ChapterString>
+        <ChapterLanguage>eng</ChapterLanguage>
+        <ChapLanguageIETF>en</ChapLanguageIETF>
+      </ChapterDisplay>
+      <ChapterUID>1571029508087404720</ChapterUID>
+    </ChapterAtom>
+
+  </EditionEntry>
+</Chapters>
