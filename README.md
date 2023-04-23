@@ -145,3 +145,56 @@ The Markdown versions have been transcribed as faithfully to the original printe
 #### Xplorer 64 (EU)
 
 - [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md)       • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+
+### N64 "How To Hack Like A Pro" VHS tapes
+
+Most[^1] GameShark Pro versions came with a VHS tape entitled "How To Hack Like A Pro".
+
+[^1]: To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.
+
+![Photo of VHS tape](n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg)
+
+There are two known versions of the VHS tape for N64. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
+
+![How To Hack Like A Pro](n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png)
+![Guy](n64_gs_vhs_tape1_snapshot_21-guy.png)
+![Using The Code Generator](n64_gs_vhs_tape1_snapshot_33-using_the_code_generator.png)
+![Creating Your Own Codes](n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png)
+![Equal To Search](n64_gs_vhs_tape1_snapshot_45-equal_to_search.png)
+![Active Codes](n64_gs_vhs_tape1_snapshot_48-active_codes.png)
+![Shark Link](n64_gs_vhs_tape1_snapshot_73-shark_link.png)
+![Parallel Port](n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png)
+![Phone Hotline](n64_gs_vhs_tape1_snapshot_78-phone_hotline.png)
+
+#### N64 tape version 1
+
+[Watch on YouTube](https://youtu.be/JDmp0huzQvU)
+
+Runtime: 15 minutes, 2 seconds
+
+| File               | Compression | Codec            | Resolution/scan    | Size     |
+|:------------------ |:----------- |:---------------- |:------------------ | --------:|
+| [Download][dl-1.1] | Compressed  | H.265 (CQ = 75)  | 480p (progressive) |  0.92 GB |
+| [Download][dl-1.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |  5.47 GB |
+| [Download][dl-1.3] | Raw capture | Composite YUV    | 480i (interlaced)  | 19.19 GB |
+
+[dl-1.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480p_h265_cq75.mkv
+[dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480p_h265_cq100.mkv
+[dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480i_raw.mov
+
+#### N64 tape version 2
+
+[Watch on YouTube](https://youtu.be/mOGWxb8kuig)
+
+Runtime: 14 minutes, 27 seconds
+
+| File               | Compression | Codec            | Resolution/scan    | Size     |
+|:------------------ |:----------- |:---------------- |:------------------ | --------:|
+| [Download][dl-2.1] | Compressed  | H.265 (CQ = 75)  | 480p (progressive) |  0.76 GB |
+| [Download][dl-2.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |  4.95 GB |
+| [Download][dl-2.3] | Raw capture | Composite YUV    | 480i (interlaced)  | 18.44 GB |
+
+[dl-2.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480p_h265_cq75.mkv
+[dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480p_h265_cq100.mkv
+[dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480i_raw.mov
+
