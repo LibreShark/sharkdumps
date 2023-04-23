@@ -156,15 +156,15 @@ Most[^1] GameShark Pro versions came with a VHS tape entitled "How To Hack Like 
 
 There are two known versions of the VHS tape for N64. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
 
-![How To Hack Like A Pro](n64/vhs/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png)
-![Guy](n64/vhs/n64_gs_vhs_tape1_snapshot_21-guy.png)
-![Using The Code Generator](n64/vhs/n64_gs_vhs_tape1_snapshot_33-using_the_code_generator.png)
-![Creating Your Own Codes](n64/vhs/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png)
-![Equal To Search](n64/vhs/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png)
-![Active Codes](n64/vhs/n64_gs_vhs_tape1_snapshot_48-active_codes.png)
-![Shark Link](n64/vhs/n64_gs_vhs_tape1_snapshot_73-shark_link.png)
-![Parallel Port](n64/vhs/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png)
-![Phone Hotline](n64/vhs/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png)
+![How To Hack Like A Pro](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png)
+![Guy](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png)
+![Using The Code Generator](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_33-using_the_code_generator.png)
+![Creating Your Own Codes](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png)
+![Equal To Search](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png)
+![Active Codes](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png)
+![Shark Link](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png)
+![Parallel Port](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png)
+![Phone Hotline](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png)
 
 #### N64 tape version 1
 
