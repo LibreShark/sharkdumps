@@ -108,9 +108,8 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-2.21-19981218-dump4.bin`]:         /n64/firmware/gs-2.21-19981218-dump4.bin
 [`gs-2.50-xxxx0504-corrupt-codes.bin`]: /n64/firmware/gs-2.50-xxxx0504-corrupt-codes.bin
 [`gs-2.50-xxxx0504-v3-codes.bin`]:      /n64/firmware/gs-2.50-xxxx0504-v3-codes.bin
-[`gspro-3.00-19990401.bin`]:            /n64/firmware/gspro-3.00-19990401.bin
-[`gspro-3.10-19990609-dump1.bin`]:      /n64/firmware/gspro-3.10-19990609-dump1.bin
-[`gspro-3.10-19990609-pristine.bin`]:      /n64/firmware/gspro-3.10-19990609-pristine.bin
+[`gspro-3.00-19990401-pristine.bin`]:   /n64/firmware/gspro-3.00-19990401-pristine.bin
+[`gspro-3.10-19990609-pristine.bin`]:   /n64/firmware/gspro-3.10-19990609-pristine.bin
 [`gspro-3.20-19990622-pristine.bin`]:   /n64/firmware/gspro-3.20-19990622-pristine.bin
 [`gspro-3.21-20000104-pristine.bin`]:   /n64/firmware/gspro-3.21-20000104-pristine.bin
 [`gspro-3.30-20000327-pristine.bin`]:   /n64/firmware/gspro-3.30-20000327-pristine.bin
