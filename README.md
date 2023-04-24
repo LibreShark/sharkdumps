@@ -172,10 +172,6 @@ All VHS tapes were captured with the following hardware and software:
 
 [Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1.md)
 
-Runtime: 15 minutes, 2 seconds.
-
-Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
-
 <img alt="How To Hack Like A Pro"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png">
@@ -195,6 +191,10 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png">
 
+Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
+
+Runtime: 15 minutes, 2 seconds.
+
 | Size     | Video file         | Compression | Codec            | Resolution/scan    |
 | --------:|:------------------ |:----------- |:---------------- |:------------------ |
 |  0.92 GB | [Download][dl-1.1] | Lossy       | H.265 (CQ = 75)  | 480p (progressive) |
@@ -209,16 +209,16 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2.md)
 
-Runtime: 14 minutes, 27 seconds.
-
-Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-25 parallel printer cable).
-
 <img alt="Shark Link"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png">
 <img alt="Parallel Port"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png">
+
+Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-25 parallel printer cable).
+
+Runtime: 14 minutes, 27 seconds.
 
 | Size     | Video file         | Compression | Codec            | Resolution/scan    |
 | --------:|:------------------ |:----------- |:---------------- |:------------------ |
