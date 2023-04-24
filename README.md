@@ -260,3 +260,12 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 - GameShark CDX v3.4 • [PDF (original)](/psx/manuals/psx_gscdx_v3.4.pdf)
 - GameShark Lite     • [PDF (original)](/psx/manuals/psx_gslite.pdf)
 - SharkLink          • [PDF (original)](/psx/manuals/psx_sharklink.pdf)
+
+---
+
+## Dreamcast
+
+### DC device manuals
+
+- Cheats 'N Codes    • [PDF (original)](/dc/manuals/dc_cheats_n_codes.pdf)
+- GameShark CDX v3.3 • [PDF (original)](/dc/manuals/dc_gameshark_cdx_v3.3_oem.pdf) • [PDF (OCR)](/dc/manuals/dc_gameshark_cdx_v3.3_ocr.pdf)
