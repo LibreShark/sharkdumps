@@ -121,6 +121,10 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
+![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)
+![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)
+![N64 GameShark v1.09 manual thumbnail](/n64/manuals/thumbs/gs-v1.09-manual-p1.png)
+
 #### DexDrive
 
 - [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md)        • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
@@ -152,21 +156,18 @@ Most[^1] GameShark Pro versions came with a VHS tape entitled "How To Hack Like 
 
 [^1]: To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.
 
+There are two known versions of the VHS tape for N64. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
+
 <img alt="Photo of VHS tape"
      width="400"
      src="n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg">
 
-There are two known versions of the VHS tape for N64. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
-
 <img alt="How To Hack Like A Pro"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png">
-<img alt="Guy"
+<img alt="GameShark guy"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png">
-<img alt="Using The Code Generator"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_33-using_the_code_generator.png">
 <img alt="Creating Your Own Codes"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png">
