@@ -138,7 +138,7 @@ The Markdown versions have been transcribed as faithfully to the original printe
 ### N64 "How To Hack Like A Pro" VHS tapes
 
 <img alt="Photo of VHS tape"
-     src="n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg"
+     src="n64/vhs/n64_gspro_vhs_tape.jpg"
      width="400">
 
 Most versions of the GameShark Pro came with a VHS tape entitled "How To Hack Like A Pro". (To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.)
@@ -180,7 +180,7 @@ All VHS tapes were captured with the following hardware and software:
 
 #### N64 VHS tape — version 1
 
-[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1.md)
+[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
 
 Runtime: 15 minutes, 2 seconds.
 
@@ -192,13 +192,13 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 |  5.47 GB | [Download][dl-1.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |
 | 19.19 GB | [Download][dl-1.3] | None (raw)  | Raw YUV          | 480i (interlaced)  |
 
-[dl-1.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480p_h265_cq75.mkv
-[dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480p_h265_cq100.mkv
-[dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480i_raw.mov
+[dl-1.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq75.mkv
+[dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
+[dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
 
 #### N64 VHS tape — version 2
 
-[Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2.md)
+[Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
 
 Runtime: 14 minutes, 27 seconds.
 
@@ -210,9 +210,9 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 |  4.95 GB | [Download][dl-2.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |
 | 18.44 GB | [Download][dl-2.3] | None (raw)  | Raw YUV          | 480i (interlaced)  |
 
-[dl-2.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480p_h265_cq75.mkv
-[dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480p_h265_cq100.mkv
-[dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480i_raw.mov
+[dl-2.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq75.mkv
+[dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
+[dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
 ---
 
