@@ -231,3 +231,32 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2_480i_raw.mov
 
+---
+
+## Game Boy
+
+### GB device manuals
+
+- GameShark for Game Boy Pocket & Color            • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
+- Mega Memory Card for Game Boy and Game Boy Color • [PDF (original)](/gb/manuals/gb_mega_memory.pdf)
+
+---
+
+## GameCube
+
+### GC device manuals
+
+- Action Replay Max  • [PDF (original)](/gc/manuals/gc_action_replay_max.pdf)
+- Action Replay v1.2 • [PDF (original)](/gc/manuals/gc_action_replay_v1.2.pdf)
+
+---
+
+## PlayStation
+
+### PSX device manuals
+
+- Cheats 'N Codes    • [PDF (original)](/psx/manuals/psx_cheats_n_codes.pdf)
+- GameShark Pro v3.2 • [PDF (original)](/psx/manuals/psx_gamesharkpro_v3.2.2.pdf)
+- GameShark CDX v3.4 • [PDF (original)](/psx/manuals/psx_gscdx_v3.4.2.pdf)
+- GameShark Lite     • [PDF (original)](/psx/manuals/psx_gslite.2.pdf)
+- SharkLink          • [PDF (original)](/psx/manuals/psx_sharklink.2.pdf)
