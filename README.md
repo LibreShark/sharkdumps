@@ -177,15 +177,15 @@ There are two known versions of the N64 VHS tape. The informational content is n
 <img alt="Active Codes"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png">
-<img alt="Phone Hotline"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png">
 <img alt="Shark Link"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png">
 <img alt="Parallel Port"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png">
+<img alt="Phone Hotline"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png">
 
 All VHS tapes were captured with the following hardware and software:
 
