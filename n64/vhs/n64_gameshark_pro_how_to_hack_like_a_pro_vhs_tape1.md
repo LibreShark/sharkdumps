@@ -349,11 +349,11 @@ Nintendo 64 and the 3-D 'N' logo are trademarks of Nintendo of America Inc. © 1
 
 World Wrestling Federation® is a trademark of Titan Sports Inc. ©1998 Titan Sports Int. All rights reserved. Game Code ©1998 Acclaim Entertainment Inc. Acclaim is a registered trademark of Acclaim Entertainment Inc.
 
-Duke Nukem™️64 © 1996, 1997 3D Realms Entertainment. All rights reserved. Published by GI Interactive. GI Interactive is a trademark of GI Interactive Software Corp.
+Duke Nukem™64 © 1996, 1997 3D Realms Entertainment. All rights reserved. Published by GI Interactive. GI Interactive is a trademark of GI Interactive Software Corp.
 
 Automobili Lamborghini and Diablo are owned by and used under license from Automobili Lamborghini S.P.A Italy. Published by Titus.
 
-Top Gear® Overdrive™️ ©1998 KEMCO Snowblind. Top Gear is a registered trademark of KEMCO.
+Top Gear® Overdrive™ ©1998 KEMCO Snowblind. Top Gear is a registered trademark of KEMCO.
 
 Mortal Kombat® Trilogy ©1997 Midway Games Inc. All rights reserved. MIDWAY and MORTAL KOMBAT and all character names are trademarks of Midway Games Inc.
 
