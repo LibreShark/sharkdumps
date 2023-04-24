@@ -17,6 +17,8 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
     - ❌ = Confirmed **Dirty**. The owner of the cartridge modified some of the games, cheats, or preferences on the cart, so they no longer match the factory defaults.
     - ⚠️ = Provenance **Unknown**. We have not yet confirmed whether the games, cheats, and preferences are original or user-modified.
 
+---
+
 ## N64
 
 ![GameShark v2.x front photo](/assets/photos/gs2x-front-512.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-512.png)
@@ -153,8 +155,8 @@ The Markdown versions have been transcribed as faithfully to the original printe
 ### N64 "How To Hack Like A Pro" VHS tapes
 
 <img alt="Photo of VHS tape"
-     width="400"
-     src="n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg">
+     src="n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg"
+     width="400">
 
 Most versions of the GameShark Pro came with a VHS tape entitled "How To Hack Like A Pro". (To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.)
 
@@ -163,29 +165,29 @@ The video demonstrates typical usage of the GameShark Pro, as well as the Code G
 There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
 
 <img alt="How To Hack Like A Pro"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
+     width="200">
 <img alt="GameShark guy"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png"
+     width="200">
 <img alt="Creating Your Own Codes"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png"
+     width="200">
 <img alt="Equal To Search"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png"
+     width="200">
 <img alt="Active Codes"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png"
+     width="200">
 <img alt="Shark Link"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png"
+     width="200">
 <img alt="Parallel Port"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png"
+     width="200">
 <img alt="Phone Hotline"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png">
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
+     width="200">
 
 All VHS tapes were captured with the following hardware and software:
 
@@ -193,7 +195,7 @@ All VHS tapes were captured with the following hardware and software:
 - [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
 - [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
 
-#### N64 tape version 1
+#### N64 VHS tape — version 1
 
 [Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1.md)
 
@@ -211,7 +213,7 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 [dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480p_h265_cq100.mkv
 [dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1_480i_raw.mov
 
-#### N64 tape version 2
+#### N64 VHS tape — version 2
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2.md)
 
