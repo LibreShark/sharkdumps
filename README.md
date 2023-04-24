@@ -53,7 +53,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gs-2.50-xxxx0504-v3.3-codes.bin`][]    | `v2.50`       | `????-05-04T12:58` |   188   |   2093   | ⚠️      |
 |   [`gspro-3.00-19990401-clean.bin`][]      | `v3.00`       | `1999-04-01T15:05` |   120   |   1124   | ✅      |
 |   [`gspro-3.10-19990609-clean.bin`][]      | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ✅      |
-|   [`gspro-3.20-19990622-pristine.bin`][]   | `v3.20`       | `1999-06-22T18:45` |   122   |   1143   | ⭐️      |
+|   [`gspro-3.20-19990622-clean.bin`][]      | `v3.20`       | `1999-06-22T18:45` |   122   |   1143   | ✅      |
 |   [`gspro-3.21-20000104-pristine.bin`][]   | `v3.21`       | `2000-01-04T14:26` |   122   |   1143   | ⭐️      |
 |   [`gspro-3.30-20000327-pristine.bin`][]   | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ⭐️      |
 |   [`gspro-3.30-20000404-pristine.bin`][]   | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ⭐️      |
@@ -95,7 +95,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-2.50-xxxx0504-v3.3-codes.bin`]:    /n64/firmware/gs-2.50-xxxx0504-v3.3-codes.bin
 [`gspro-3.00-19990401-clean.bin`]:      /n64/firmware/gspro-3.00-19990401-clean.bin
 [`gspro-3.10-19990609-clean.bin`]:      /n64/firmware/gspro-3.10-19990609-clean.bin
-[`gspro-3.20-19990622-pristine.bin`]:   /n64/firmware/gspro-3.20-19990622-pristine.bin
+[`gspro-3.20-19990622-clean.bin`]:      /n64/firmware/gspro-3.20-19990622-clean.bin
 [`gspro-3.21-20000104-pristine.bin`]:   /n64/firmware/gspro-3.21-20000104-pristine.bin
 [`gspro-3.30-20000327-pristine.bin`]:   /n64/firmware/gspro-3.30-20000327-pristine.bin
 [`gspro-3.30-20000404-pristine.bin`]:   /n64/firmware/gspro-3.30-20000404-pristine.bin
