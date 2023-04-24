@@ -46,7 +46,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 | ~~[`gs-1.09-19980105-dump2.bin`][]~~       | `v1.09`       | `1998-01-05T17:40` |  ~~39~~ |  ~~189~~ | ❌     |
 | ~~[`gs-1.09-19980105-dump3.bin`][]~~       | `v1.09`       | `1998-01-05T17:40` |  ~~36~~ |  ~~171~~ | ❌     |
 |   [`gs-2.00-19980305-pristine.bin`][]      | `v2.00 (Mar)` | `1998-03-05T08:06` |    36   |    165   | ✅     |
-|   [`gs-2.00-19980406.bin`][]               | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ?     |
+|   [`gs-2.00-19980406-pristine.bin`][]      | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ✅     |
 |   [`gs-2.10-19980825-dump1.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    338   | ?     |
 |   [`gs-2.10-19980825-dump2.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    348   | ?     |
 |    `gs-2.20-xxxxxxxx.bin`[^v2.20]          | `v2.20`       | _Unknown_          |     ?   |      ?   | ?     |
@@ -99,7 +99,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-1.09-19980105-dump2.bin`]:         /n64/firmware/gs-1.09-19980105-dump2.bin
 [`gs-1.09-19980105-dump3.bin`]:         /n64/firmware/gs-1.09-19980105-dump3.bin
 [`gs-2.00-19980305-pristine.bin`]:      /n64/firmware/gs-2.00-19980305-pristine.bin
-[`gs-2.00-19980406.bin`]:               /n64/firmware/gs-2.00-19980406.bin
+[`gs-2.00-19980406-pristine.bin`]:      /n64/firmware/gs-2.00-19980406-pristine.bin
 [`gs-2.10-19980825-dump1.bin`]:         /n64/firmware/gs-2.10-19980825-dump1.bin
 [`gs-2.10-19980825-dump2.bin`]:         /n64/firmware/gs-2.10-19980825-dump2.bin
 [`gs-2.21-19981218-dump1.bin`]:         /n64/firmware/gs-2.21-19981218-dump1.bin
