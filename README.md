@@ -15,8 +15,8 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
 - __Pris?__ = Pristine OEM game/cheat list and settings
     - ✅ = Confirmed **Pristine**. All cheats and settings are identical to their original factory defaults.
     - ❌ = Confirmed **Dirty**. The owner of the cartridge modified some of the games, cheats, or preferences on the cart, so they no longer match the factory defaults.
-    - ⚠️ = Confirmed **Almost** pristine. A small number of user modifications have been made to the cheat list, but it should be possible to undo them to create a pristine image.
-    - ? = Provenance **Unknown**. We have not yet confirmed whether the games, cheats, and preferences are original or user-modified.
+    - ⚠️ = Provenance **Unknown**. We have not yet confirmed whether the games, cheats, and preferences are original or user-modified, so the dump is assumed to be dirty until proven otherwise.
+    - `?` = We have not yet acquired a cart to dump the firmware.
 
 ---
 
@@ -42,18 +42,16 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gs-1.07-19971107.bin`][]               | `v1.07`       | `1997-11-07T10:24` |    27   |    169   | ❌     |
 |   [`gs-1.08-19971124.bin`][]               | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌     |
 |   [`gs-1.08-19971208.bin`][]               | `v1.08 (Dec)` | `1997-12-08T11:10` |    20   |    109   | ❌     |
-|   [`gs-1.09-19980105-dump1.bin`][][^v1.09] | `v1.09`       | `1998-01-05T17:40` |    37   |    166   | ⚠️     |
-| ~~[`gs-1.09-19980105-dump2.bin`][]~~       | `v1.09`       | `1998-01-05T17:40` |  ~~39~~ |  ~~189~~ | ❌     |
-| ~~[`gs-1.09-19980105-dump3.bin`][]~~       | `v1.09`       | `1998-01-05T17:40` |  ~~36~~ |  ~~171~~ | ❌     |
+|   [`gs-1.09-19980105-pristine.bin`][]      | `v1.09`       | `1998-01-05T17:40` |    37   |    166   | ✅     |
 |   [`gs-2.00-19980305-pristine.bin`][]      | `v2.00 (Mar)` | `1998-03-05T08:06` |    36   |    165   | ✅     |
 |   [`gs-2.00-19980406-pristine.bin`][]      | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ✅     |
-|   [`gs-2.10-19980825-dump1.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    338   | ?     |
-|   [`gs-2.10-19980825-dump2.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    348   | ?     |
+|   [`gs-2.10-19980825-dump1.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    338   | ⚠️     |
+|   [`gs-2.10-19980825-dump2.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    348   | ⚠️     |
 |    `gs-2.20-xxxxxxxx.bin`[^v2.20]          | `v2.20`       | _Unknown_          |     ?   |      ?   | ?     |
-|   [`gs-2.21-19981218-dump1.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ?     |
-|   [`gs-2.21-19981218-dump2.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   112   |    675   | ?     |
-|   [`gs-2.21-19981218-dump3.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    621   | ?     |
-|   [`gs-2.21-19981218-dump4.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   113   |    656   | ?     |
+|   [`gs-2.21-19981218-dump1.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ⚠️     |
+|   [`gs-2.21-19981218-dump2.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   112   |    675   | ⚠️     |
+|   [`gs-2.21-19981218-dump3.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    621   | ⚠️     |
+|   [`gs-2.21-19981218-dump4.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   113   |    656   | ⚠️     |
 |    `gs-2.40-xxxxxxxx.bin`[^v2.40]          | `v2.40`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-2.50-xxxx0504-corrupt-codes.bin`][] | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
 |   [`gs-2.50-xxxx0504-v3-codes.bin`][]      | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
@@ -66,7 +64,6 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 [^v1.01]: `v1.01` is _presumed_ to exist because `v1.02` and `v1.04`–`v1.09` have all been verified, but we have not yet found any conclusive evidence of a `v1.01` cart.
 [^v1.03]: `v1.03` is _assumed_ to exist because it falls between `v1.02` and `v1.04`, but we have not yet found any conclusive evidence of a `v1.03` cart.
-[^v1.09]: `v1.09-dump1` is _almost_ pristine, but it has one added game/code: `"RAMPAGE" "No Cheat Name"`. Once this game/code is deleted, it should be pristine.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
 [^v2.40]: `v2.40` supposedly exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
 
@@ -95,9 +92,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-1.07-19971107.bin`]:               /n64/firmware/gs-1.07-19971107.bin
 [`gs-1.08-19971124.bin`]:               /n64/firmware/gs-1.08-19971124.bin
 [`gs-1.08-19971208.bin`]:               /n64/firmware/gs-1.08-19971208.bin
-[`gs-1.09-19980105-dump1.bin`]:         /n64/firmware/gs-1.09-19980105-dump1.bin
-[`gs-1.09-19980105-dump2.bin`]:         /n64/firmware/gs-1.09-19980105-dump2.bin
-[`gs-1.09-19980105-dump3.bin`]:         /n64/firmware/gs-1.09-19980105-dump3.bin
+[`gs-1.09-19980105-pristine.bin`]:      /n64/firmware/gs-1.09-19980105-pristine.bin
 [`gs-2.00-19980305-pristine.bin`]:      /n64/firmware/gs-2.00-19980305-pristine.bin
 [`gs-2.00-19980406-pristine.bin`]:      /n64/firmware/gs-2.00-19980406-pristine.bin
 [`gs-2.10-19980825-dump1.bin`]:         /n64/firmware/gs-2.10-19980825-dump1.bin
