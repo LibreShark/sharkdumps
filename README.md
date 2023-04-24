@@ -53,8 +53,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gs-2.21-19981218-dump3.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    621   | ⚠️     |
 |   [`gs-2.21-19981218-dump4.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   113   |    656   | ⚠️     |
 |    `gs-2.40-xxxxxxxx.bin`[^v2.40]          | `v2.40`       | _Unknown_          |     ?   |      ?   | ?     |
-|   [`gs-2.50-xxxx0504-corrupt-codes.bin`][] | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
-|   [`gs-2.50-xxxx0504-v3-codes.bin`][]      | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
+|   [`gs-2.50-xxxx0504-v3.3-codes.bin`][]    | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
 |   [`gspro-3.00-19990401-pristine.bin`][]   | `v3.00`       | `1999-04-01T15:05` |   120   |   1124   | ✅     |
 |   [`gspro-3.10-19990609-pristine.bin`][]   | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ✅     |
 |   [`gspro-3.20-19990622-pristine.bin`][]   | `v3.20`       | `1999-06-22T18:45` |   125   |   1192   | ✅     |
@@ -101,8 +100,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-2.21-19981218-dump2.bin`]:         /n64/firmware/gs-2.21-19981218-dump2.bin
 [`gs-2.21-19981218-dump3.bin`]:         /n64/firmware/gs-2.21-19981218-dump3.bin
 [`gs-2.21-19981218-dump4.bin`]:         /n64/firmware/gs-2.21-19981218-dump4.bin
-[`gs-2.50-xxxx0504-corrupt-codes.bin`]: /n64/firmware/gs-2.50-xxxx0504-corrupt-codes.bin
-[`gs-2.50-xxxx0504-v3-codes.bin`]:      /n64/firmware/gs-2.50-xxxx0504-v3-codes.bin
+[`gs-2.50-xxxx0504-v3.3-codes.bin`]:    /n64/firmware/gs-2.50-xxxx0504-v3.3-codes.bin
 [`gspro-3.00-19990401-pristine.bin`]:   /n64/firmware/gspro-3.00-19990401-pristine.bin
 [`gspro-3.10-19990609-pristine.bin`]:   /n64/firmware/gspro-3.10-19990609-pristine.bin
 [`gspro-3.20-19990622-pristine.bin`]:   /n64/firmware/gspro-3.20-19990622-pristine.bin
