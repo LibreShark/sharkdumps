@@ -68,7 +68,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [^v1.03]: `v1.03` is _assumed_ to exist because it falls between `v1.02` and `v1.04`, but we have not yet found any conclusive evidence of a `v1.03` cart.
 [^v1.09]: `v1.09-dump1` is _almost_ pristine, but it has one added game/code: `"RAMPAGE" "No Cheat Name"`. Once this game/code is deleted, it should be pristine.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
-[^v2.40]: `v2.40` exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
+[^v2.40]: `v2.40` supposedly exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
 
 #### N64 Action Replay (EU)
 
