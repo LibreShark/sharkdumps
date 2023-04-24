@@ -29,9 +29,9 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 | Filename                                   | Version       | Build timestamp    | #G      | #C       | Pris? |
 |:------------------------------------------ |:------------- |:------------------ | -------:| --------:|:-----:|
-|    `gs-1.01-xxxxxxxx.bin`                  | `v1.01`       | _Unknown_          |     ?   |      ?   | ?     |
+|    `gs-1.01-xxxxxxxx.bin`[^v1.01]          | `v1.01`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-1.02-19970801.bin`]                 | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ⚠️     |
-|    `gs-1.03-xxxxxxxx.bin`                  | `v1.03`       | _Unknown_          |     ?   |      ?   | ?     |
+|    `gs-1.03-xxxxxxxx.bin`[^v1.03]          | `v1.03`       | _Unknown_          |     ?   |      ?   | ?     |
 | ~~[`gs-1.04-19970819-bad-codes.bin`][]~~   | `v1.04`       | `1997-08-19T10:35` |   ~~1~~ |    ~~3~~ | ⚠️     |
 |   [`gs-1.04-19970819-good-codes.bin`][]    | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ⚠️     |
 |   [`gs-1.05-19970904.bin`][]               | `v1.05`       | `1997-09-04T16:25` |    23   |    133   | ⚠️     |
@@ -48,23 +48,26 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gs-2.00-19980406.bin`][]               | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ⚠️     |
 |   [`gs-2.10-19980825-dump1.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    338   | ⚠️     |
 |   [`gs-2.10-19980825-dump2.bin`][]         | `v2.10`       | `1998-08-25T13:57` |    61   |    348   | ⚠️     |
-|    `gs-2.20-xxxxxxxx.bin`                  | `v2.20`       | _Unknown_          |     ?   |      ?   | ?     |
+|    `gs-2.20-xxxxxxxx.bin`[^v2.20]          | `v2.20`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-2.21-19981218-dump1.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ⚠️     |
 |   [`gs-2.21-19981218-dump2.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   112   |    675   | ⚠️     |
 |   [`gs-2.21-19981218-dump3.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   106   |    621   | ⚠️     |
 |   [`gs-2.21-19981218-dump4.bin`][]         | `v2.21`       | `1998-12-18T12:47` |   113   |    656   | ⚠️     |
-|    `gs-2.40-xxxxxxxx.bin`                  | `v2.40`       | _Unknown_          |     ?   |      ?   | ?     |
+|    `gs-2.40-xxxxxxxx.bin`[^v2.40]          | `v2.40`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-2.50-xxxx0504-corrupt-codes.bin`][] | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
 |   [`gs-2.50-xxxx0504-v3-codes.bin`][]      | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
 |   [`gspro-3.00-19990401.bin`][]            | `v3.00`       | `1999-04-01T15:05` |   120   |   1125   | ⚠️     |
 |   [`gspro-3.10-19990609-dump1.bin`][]      | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ⚠️     |
 |   [`gspro-3.10-19990609-dump2.bin`][]      | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ⚠️     |
-| ~~[`gspro-3.20-19990622-dirty1.bin`][]~~   | `v3.20`       | `1999-06-22T18:45` | ~~123~~ | ~~1146~~ | ❌     |
-| ~~[`gspro-3.20-19990622-dirty2.bin`][]~~   | `v3.20`       | `1999-06-22T18:45` | ~~126~~ | ~~1163~~ | ❌     |
 |   [`gspro-3.20-19990622-pristine.bin`][]   | `v3.20`       | `1999-06-22T18:45` |   125   |   1192   | ✅     |
 |   [`gspro-3.21-20000104-pristine.bin`][]   | `v3.21`       | `2000-01-04T14:26` |   122   |   1143   | ✅     |
 |   [`gspro-3.30-20000327-pristine.bin`][]   | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ✅     |
 |   [`gspro-3.30-20000404-pristine.bin`][]   | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ✅     |
+
+[^v1.01]: `v1.01` is _presumed_ to exist because `v1.02` and `v1.04`–`v1.09` have all been verified, but we have not yet found any conclusive evidence of a `v1.01` cart.
+[^v1.03]: `v1.03` is _assumed_ to exist because it falls between `v1.02` and `v1.04`, but we have not yet found any conclusive evidence of a `v1.03` cart.
+[^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
+[^v2.40]: `v2.40` exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
 
 #### N64 Action Replay (EU)
 
@@ -153,11 +156,11 @@ The Markdown versions have been transcribed as faithfully to the original printe
 
 ### N64 "How To Hack Like A Pro" VHS tapes
 
-Most[^1] GameShark Pro versions came with a VHS tape entitled "How To Hack Like A Pro".
+Most versions of the GameShark Pro came with a VHS tape entitled "How To Hack Like A Pro". (To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.)
 
-[^1]: To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.
+The video demonstrates typical usage of the GameShark Pro, as well as the Code Generator feature, which lets you find your own GameShark codes.
 
-There are two known versions of the VHS tape for N64. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
+There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
 
 <img alt="Photo of VHS tape"
      width="400"
@@ -190,9 +193,11 @@ There are two known versions of the VHS tape for N64. The informational content 
 
 #### N64 tape version 1
 
-[Watch on YouTube](https://youtu.be/JDmp0huzQvU)
+[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1.md)
 
-Runtime: 15 minutes, 2 seconds
+Runtime: 15 minutes, 2 seconds.
+
+Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
 
 | File               | Compression | Codec            | Resolution/scan    | Size     |
 |:------------------ |:----------- |:---------------- |:------------------ | --------:|
@@ -206,9 +211,11 @@ Runtime: 15 minutes, 2 seconds
 
 #### N64 tape version 2
 
-[Watch on YouTube](https://youtu.be/mOGWxb8kuig)
+[Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2.md)
 
-Runtime: 14 minutes, 27 seconds
+Runtime: 14 minutes, 27 seconds.
+
+Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-25 parallel printer cable).
 
 | File               | Compression | Codec            | Resolution/scan    | Size     |
 |:------------------ |:----------- |:---------------- |:------------------ | --------:|
