@@ -32,9 +32,9 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 | Filename                                   | Version       | Build timestamp    | #G      | #C       | Pris? |
 |:------------------------------------------ |:------------- |:------------------ | -------:| --------:|:-----:|
-|    `gs-1.01-xxxxxxxx.bin`[^v1.01]          | `v1.01`       | _Unknown_          |     ?   |      ?   | ?     |
+|    `gs-1.01-xxxxxxxx.bin`[^v1.0x]          | `v1.01`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-1.02-19970801.bin`]                 | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ❌     |
-|    `gs-1.03-xxxxxxxx.bin`[^v1.03]          | `v1.03`       | _Unknown_          |     ?   |      ?   | ?     |
+|    `gs-1.03-xxxxxxxx.bin`[^v1.0x]          | `v1.03`       | _Unknown_          |     ?   |      ?   | ?     |
 | ~~[`gs-1.04-19970819-bad-codes.bin`][]~~   | `v1.04`       | `1997-08-19T10:35` |   ~~1~~ |    ~~3~~ | ❌     |
 |   [`gs-1.04-19970819-good-codes.bin`][]    | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ❌     |
 |   [`gs-1.05-19970904.bin`][]               | `v1.05`       | `1997-09-04T16:25` |    23   |    133   | ❌     |
@@ -61,8 +61,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gspro-3.30-20000327-pristine.bin`][]   | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ✅     |
 |   [`gspro-3.30-20000404-pristine.bin`][]   | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ✅     |
 
-[^v1.01]: `v1.01` supposedly exists according to a [Krikzz forum post](https://krikzz.com/forum/index.php?topic=6585.0), [Reddit post](https://www.reddit.com/r/Roms/comments/dui43a/n64_gameshark_v32/), and [vspolaris article](https://vspolaris.tistory.com/24), but we have not yet found any conclusive evidence of a `v1.01` cart.
-[^v1.03]: `v1.03` supposedly exists according to a [Krikzz forum post](https://krikzz.com/forum/index.php?topic=6585.0), [Reddit post](https://www.reddit.com/r/Roms/comments/dui43a/n64_gameshark_v32/), and [vspolaris article](https://vspolaris.tistory.com/24), but we have not yet found any conclusive evidence of a `v1.03` cart.
+[^v1.0x]: `v1.01` and `v1.03` supposedly exist according to a [Krikzz forum post](https://krikzz.com/forum/index.php?topic=6585.0), [Reddit post](https://www.reddit.com/r/Roms/comments/dui43a/n64_gameshark_v32/), and [vspolaris article](https://vspolaris.tistory.com/24), but we have not yet found any conclusive evidence of a `v1.01` or `v1.03` cart.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
 [^v2.40]: `v2.40` supposedly exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
 
