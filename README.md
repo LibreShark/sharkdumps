@@ -56,7 +56,7 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |    `gs-2.40-xxxxxxxx.bin`[^v2.40]          | `v2.40`       | _Unknown_          |     ?   |      ?   | ?     |
 |   [`gs-2.50-xxxx0504-corrupt-codes.bin`][] | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
 |   [`gs-2.50-xxxx0504-v3-codes.bin`][]      | `v2.50`       | `????-05-04T12:58` |     ?   |      ?   | ❌     |
-|   [`gspro-3.00-19990401.bin`][][^v3.00]    | `v3.00`       | `1999-04-01T15:05` |   120   |   1125   | ⚠️     |
+|   [`gspro-3.00-19990401-pristine.bin`][]   | `v3.00`       | `1999-04-01T15:05` |   120   |   1124   | ✅     |
 |   [`gspro-3.10-19990609-pristine.bin`][]   | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ✅     |
 |   [`gspro-3.20-19990622-pristine.bin`][]   | `v3.20`       | `1999-06-22T18:45` |   125   |   1192   | ✅     |
 |   [`gspro-3.21-20000104-pristine.bin`][]   | `v3.21`       | `2000-01-04T14:26` |   122   |   1143   | ✅     |
@@ -67,7 +67,6 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [^v1.03]: `v1.03` is _assumed_ to exist because it falls between `v1.02` and `v1.04`, but we have not yet found any conclusive evidence of a `v1.03` cart.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
 [^v2.40]: `v2.40` exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
-[^v3.00]: `v3.00` is _almost_ pristine, but the code list has been modified slightly. It _should_ have the exact same code list as `v3.10`. If we copy the codes from `v3.10` to `v3.00`, we will have a pristine factory image.
 
 #### N64 Action Replay (EU)
 
