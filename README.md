@@ -152,19 +152,39 @@ Most[^1] GameShark Pro versions came with a VHS tape entitled "How To Hack Like 
 
 [^1]: To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.
 
-![Photo of VHS tape](n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg)
+<img alt="Photo of VHS tape"
+     width="400"
+     src="n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape.jpg">
 
 There are two known versions of the VHS tape for N64. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
 
-![How To Hack Like A Pro](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png)
-![Guy](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png)
-![Using The Code Generator](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_33-using_the_code_generator.png)
-![Creating Your Own Codes](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png)
-![Equal To Search](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png)
-![Active Codes](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png)
-![Shark Link](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png)
-![Parallel Port](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png)
-![Phone Hotline](n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png)
+<img alt="How To Hack Like A Pro"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png">
+<img alt="Guy"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png">
+<img alt="Using The Code Generator"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_33-using_the_code_generator.png">
+<img alt="Creating Your Own Codes"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png">
+<img alt="Equal To Search"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png">
+<img alt="Active Codes"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png">
+<img alt="Shark Link"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png">
+<img alt="Parallel Port"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png">
+<img alt="Phone Hotline"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png">
 
 #### N64 tape version 1
 
