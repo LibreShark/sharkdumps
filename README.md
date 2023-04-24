@@ -162,16 +162,6 @@ The video demonstrates typical usage of the GameShark Pro, as well as the Code G
 
 There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
 
-All VHS tapes were captured with the following hardware and software:
-
-- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
-- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
-- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
-
-#### N64 tape version 1
-
-[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1.md)
-
 <img alt="How To Hack Like A Pro"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png">
@@ -190,10 +180,26 @@ All VHS tapes were captured with the following hardware and software:
 <img alt="Phone Hotline"
      width="200"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png">
+<img alt="Shark Link"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png">
+<img alt="Parallel Port"
+     width="200"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png">
 
-Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
+All VHS tapes were captured with the following hardware and software:
+
+- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
+- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
+- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
+
+#### N64 tape version 1
+
+[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape1.md)
 
 Runtime: 15 minutes, 2 seconds.
+
+Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
 
 | Size     | Video file         | Compression | Codec            | Resolution/scan    |
 | --------:|:------------------ |:----------- |:---------------- |:------------------ |
@@ -209,16 +215,9 @@ Runtime: 15 minutes, 2 seconds.
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gameshark_pro_how_to_hack_like_a_pro_vhs_tape2.md)
 
-<img alt="Shark Link"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png">
-<img alt="Parallel Port"
-     width="200"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png">
+Runtime: 14 minutes, 27 seconds.
 
 Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-25 parallel printer cable).
-
-Runtime: 14 minutes, 27 seconds.
 
 | Size     | Video file         | Compression | Codec            | Resolution/scan    |
 | --------:|:------------------ |:----------- |:---------------- |:------------------ |
