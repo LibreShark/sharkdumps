@@ -31,17 +31,17 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 #### N64 GameShark (US)
 
-<img src="screenshots/n64-gs-1.05-19970904-screenshot-01-splash-screen.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.07-19971107-screenshot-01-splash-screen.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-01-splash-screen.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.07-19971107-screenshot-01-splash-screen.png" alt="" width="200">
 
-<img src="screenshots/n64-gs-1.02-19970801-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.04-19970819-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.05-19970904-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.06-19970919-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.07-19971107-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.08-19971124-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.08-19971208-screenshot-02-main-menu.png" alt="" width="200">
-<img src="screenshots/n64-gs-1.09-19980105-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.02-19970801-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.04-19970819-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.06-19970919-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.07-19971107-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.08-19971124-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.08-19971208-screenshot-02-main-menu.png" alt="" width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.09-19980105-screenshot-02-main-menu.png" alt="" width="200">
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
