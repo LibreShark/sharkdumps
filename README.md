@@ -70,7 +70,8 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |    `gs-1.03-xxxxxxxx.bin`[^v1.0x]            | `v1.03`       | _Unknown_          |     ?   |      ?   | ?      |
 | ~~[`gs-1.04-19970819-corrupt-codes.bin`][]~~ | `v1.04`       | `1997-08-19T10:35` |   ~~2~~ |    ~~3~~ | ❌      |
 |   [`gs-1.04-19970819-valid-codes.bin`][]     | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ❌      |
-|   [`gs-1.05-19970904.bin`][]                 | `v1.05`       | `1997-09-04T16:25` |    23   |    133   | ❌      |
+|   [`gs-1.05-19970904-dirty.bin`][]           | `v1.05 (Thu)` | `1997-09-04T16:25` |    23   |    133   | ❌      |
+|   [`gs-1.05-19970905-dirty.bin`][]           | `v1.05 (Fri)` | `1997-09-05T13:51` |    24   |    146   | ❌      |
 |   [`gs-1.06-19970919.bin`][]                 | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ❌      |
 |   [`gs-1.07-19971107.bin`][]                 | `v1.07`       | `1997-11-07T10:24` |    27   |    169   | ❌      |
 |   [`gs-1.08-19971124.bin`][]                 | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌      |
@@ -114,7 +115,8 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gs-1.02-19970801.bin`]:               /n64/firmware/gs-1.02-19970801.bin
 [`gs-1.04-19970819-corrupt-codes.bin`]: /n64/firmware/gs-1.04-19970819-corrupt-codes.bin
 [`gs-1.04-19970819-valid-codes.bin`]:   /n64/firmware/gs-1.04-19970819-valid-codes.bin
-[`gs-1.05-19970904.bin`]:               /n64/firmware/gs-1.05-19970904.bin
+[`gs-1.05-19970904-dirty.bin`]:         /n64/firmware/gs-1.05-19970904-dirty.bin
+[`gs-1.05-19970905-dirty.bin`]:         /n64/firmware/gs-1.05-19970905-dirty.bin
 [`gs-1.06-19970919.bin`]:               /n64/firmware/gs-1.06-19970919.bin
 [`gs-1.07-19971107.bin`]:               /n64/firmware/gs-1.07-19971107.bin
 [`gs-1.08-19971124.bin`]:               /n64/firmware/gs-1.08-19971124.bin
