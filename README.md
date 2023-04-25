@@ -32,35 +32,41 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 #### N64 GameShark (US)
 
 <img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v1.05 (19970904)"
+     alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v1.07 (19971107)"
+     alt="Screenshot of the splash screen from an N64 GameShark v1.07 (1997-11-07)"
+     width="200">
+<img src="/n64/firmware/screenshots/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
+     alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
      width="200">
 
 <img src="/n64/firmware/screenshots/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.02 (19970801)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.04 (19970819)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.04 (1997-08-19)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.05 (19970904)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.06 (19970919)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.07 (19971107)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.07 (1997-11-07)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.08 (19971124)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-11-24)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.08 (19971208)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-12-08)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.09 (19980105)"
+     alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
+     width="200">
+<img src="/n64/firmware/screenshots/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
+     alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
      width="200">
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
