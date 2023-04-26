@@ -50,6 +50,9 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 <img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
      width="200">
+<img src="/n64/firmware/screenshots/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
+     alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-05)"
+     width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
      width="200">
@@ -64,6 +67,9 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
+     width="200">
+<img src="/n64/firmware/screenshots/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
+     alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
      width="200">
 <img src="/n64/firmware/screenshots/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
