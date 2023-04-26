@@ -61,13 +61,13 @@ fn parse_month(str MMM) {
 
 struct BuildTimestamp {
     char HH[2];
-    char colon[1];
+    char colon [[hidden]];
     char mm[2];
-    char space1[1];
+    char space1 [[hidden]];
     char MMM[3];
-    char space2[1];
+    char space2 [[hidden]];
     char dd[while(std::ctype::isdigit(std::mem::read_unsigned($, 1)))];
-    char space3[1];
+    char space3 [[hidden]];
     char yy[while(std::ctype::isdigit(std::mem::read_unsigned($, 1)))];
 
     bool hasYear = std::string::length(yy) > 0;
