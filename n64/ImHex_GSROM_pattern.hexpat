@@ -3,7 +3,7 @@
  * Supports all known GameShark firmware versions
  * (tested on v1.02 through v3.30).
  *
- * @author CheatoBaggins <cheatobaggins@gmail.com
+ * @author CheatoBaggins <cheatobaggins@gmail.com>
  * @date 2023-04-26
  */
 
