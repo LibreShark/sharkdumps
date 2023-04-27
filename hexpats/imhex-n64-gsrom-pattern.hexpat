@@ -82,6 +82,10 @@ fn find(u32 startAddr, u32 endAddr, auto ... bytes) {
     return addr;
 };
 
+fn bytes_to_u32(auto bytes) {
+    return (bytes[3] << 24) | (bytes[2] << 16) | (bytes[1] << 8) | (bytes[0]);
+};
+
 fn read_u32_at(u32 addr) {
     return std::mem::read_unsigned(addr, 4);
 };
@@ -423,6 +427,11 @@ fn format_game_list(GameListSection gameList) {
  * Key Code List section
  ******************************************************************************/
 
+fn is_active_key_code(auto ipl3ChunkCrc32, auto gsFwChunkCrc32) {
+    return read_u32_at(0x00000010) == bytes_to_u32(ipl3ChunkCrc32) &&
+           read_u32_at(0x00000014) == bytes_to_u32(gsFwChunkCrc32);
+};
+
 struct KeyCodeOption<auto Len, auto MaxAddr> {
     assert(Len >= 9 && Len <= 13, "Key Code length must be 9-13 bytes, but found {}.", Len);
 
@@ -450,6 +459,9 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
 
     u32 boundaryAddr = std::math::min($ + 9, MaxAddr);
     padding[while($ < boundaryAddr && is_null())];
+
+    bool isActive = is_active_key_code(ipl3ChunkCrc32, gsFwChunkCrc32);
+    std::print("Key code: '{}'{}", name, isActive ? " (ACTIVE)" : "");
 };
 
 struct KeyCodeListSection {
