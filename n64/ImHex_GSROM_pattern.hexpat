@@ -90,27 +90,31 @@ fn format_header_build_timestamp(BuildTimestamp bts) {
 };
 
 struct HeaderSection {
-    char magic[4] [[format_read("format_header_magic")]];
+    u32 startAddr = $;
+
+    char magic[4] [[color("000000"), format_read("format_header_magic")]];
 
     std::assert(magic == GS_ROM_FILE_MAGIC, std::format("Invalid magic value! Expected \"{}\", got \"{}\".", GS_ROM_FILE_MAGIC, magic));
 
-    std::mem::Bytes<4> unknown1 [[color("000000"), hidden]];
+    std::mem::Bytes<4> unknownBytes1 [[color("555555")]];
 
-    u8 maybeKeyCodeChecksum[3]  [[color("FF0000"), format_read("format_header_key_code_checksum")]];
+    u8 mysteriousKeyCodeTailBytes[4] [[color("FF0000"), format_read("format_checksum")]];
 
-    std::mem::Bytes<1> unknown2 [[color("000000"), hidden]];
-    std::mem::Bytes<4> unknown3 [[color("000000"), hidden]];
+    std::mem::Bytes<4> unknownBytes2 [[color("555555")]];
 
-    u8 activeKeyCodePrefix[8]   [[color("FF0000"), format_read("format_header_active_key_code_prefix")]];
+    u8 ipl3ChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
+    u8 gsRomChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
 
-    std::mem::Bytes<8> unknown4 [[color("000000"), hidden]];
+    std::mem::Bytes<8> unknownBytes3 [[color("555555")]];
 
-    char manufacturerName[16]   [[color("FFFF00")]];
+    char manufacturerName[16] [[color("0000FF")]];
+
     BuildTimestamp buildTimestamp;
 
     bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
     bool isTrain = manufacturerName == "Perfect Trainer ";
+
     std::assert(isV1or2 || isV3Pro || isTrain, std::format("Invalid manufacturer name! Got \"{}\".", manufacturerName));
 } [[format_read("format_header_section")]];
 
@@ -125,31 +129,11 @@ fn format_header_magic(str magic) {
 
 fn format_header_section(HeaderSection hdr) {
     return std::format(
-        "Built on \"{}\". Active key code: \"{}  {}\".",
+        "Built on \"{}\". Active key code: \"{}  {}  {}\".",
         hdr.buildTimestamp,
-        hdr.activeKeyCodePrefix,
-        hdr.maybeKeyCodeChecksum);
-};
-
-fn format_header_key_code_checksum(auto maybeKeyCodeChecksum) {
-    return std::format(
-        "{:02X} {:02X} {:02X}",
-        maybeKeyCodeChecksum[0],
-        maybeKeyCodeChecksum[1],
-        maybeKeyCodeChecksum[2]);
-};
-
-fn format_header_active_key_code_prefix(auto activeKeyCodePrefix) {
-    return std::format(
-        "{:02X} {:02X} {:02X} {:02X} {:02X} {:02X} {:02X} {:02X}",
-        activeKeyCodePrefix[0],
-        activeKeyCodePrefix[1],
-        activeKeyCodePrefix[2],
-        activeKeyCodePrefix[3],
-        activeKeyCodePrefix[4],
-        activeKeyCodePrefix[5],
-        activeKeyCodePrefix[6],
-        activeKeyCodePrefix[7]);
+        hdr.ipl3ChunkChecksum,
+        hdr.gsRomChunkChecksum,
+        hdr.mysteriousKeyCodeTailBytes);
 };
 
 /*******************************************************************************
@@ -321,12 +305,43 @@ fn format_game_list(GameListSection gameList) {
  * Key Code List section
  ******************************************************************************/
 
-struct KeyCode<auto Len, auto MaxAddr> {
-    u8 keyCode[Len] [[color("FF0000")]];
-    char name[]     [[color("00FF00")]];
+struct KeyCodeOption<auto Len, auto MaxAddr> {
+    std::assert(Len >= 9 && Len <= 13, "Key Code length must be between 9 and 13 bytes.");
 
-    u32 maxAddr = std::math::min($ + 9, MaxAddr);
-    padding[while($ < maxAddr && std::mem::read_unsigned($, 1) == 0)];
+    u32 startAddr = $;
+
+    // The IPL3 chunk initiates communication between the game cart's CIC
+    // and the N64 console's PIF. The console **will not boot the game**
+    // (or in this case the GS ROM, which the N64 _thinks_ is the game)
+    // main code until the CIC/PIF link is established.
+    // If the PIF ever gets the wrong response from the CIC, it immediately
+    // terminates CPU execution and the console hangs until it is power cycled
+    // (physically turned off and then on).
+    //
+    // Q1: Does each GS version have a different IPL3 chunk?
+    //     How many bytes is it, and what's its address in ROM/RAM?
+    //
+    // Q2:
+    u8 ipl3ChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
+
+    // Checksum of the GS firmware chunk of the GS ROM file???
+    u8 gsRomChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
+
+    u8 mysteriousTailBytes[Len - 8] [[color("FF0000")]];
+
+    char name[] [[color("00FF00")]];
+
+    u32 boundaryAddr = std::math::min($ + 9, MaxAddr);
+    padding[while($ < boundaryAddr && std::mem::read_unsigned($, 1) == 0)];
+};
+
+fn format_checksum(auto bytes) {
+    return std::format(
+        "{:02X} {:02X} {:02X} {:02X}",
+        bytes[0],
+        bytes[1],
+        bytes[2],
+        bytes[3]);
 };
 
 struct KeyCodeListSection {
@@ -369,7 +384,7 @@ struct KeyCodeListSection {
     if (yoshiAddr != 0xFFFFFFFF) { numKeyCodes += 1; }
     if (zeldaAddr != 0xFFFFFFFF) { numKeyCodes += 1; }
 
-    KeyCode<keyCodeLen, endAddr> keyCodes[numKeyCodes];
+    KeyCodeOption<keyCodeLen, endAddr> keyCodes[numKeyCodes];
 };
 
 /*******************************************************************************
