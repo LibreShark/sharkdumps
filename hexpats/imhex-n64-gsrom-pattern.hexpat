@@ -216,10 +216,10 @@ struct HeaderSection {
     char magic2[4]                   [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic2, HEADER_MAGIC_2);
     u8 ipl3ChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     u8 gsFwChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
-    u8 unknownBytes1[8]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    padding[8];
     char manufacturerName[16]        [[COLOR_LOWLIGHT]];
     BuildTimestamp buildTimestamp;
-    u8 unknownBytes2[0x40 - $]       [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    u8 unknownBytes[0x40 - $]        [[COLOR_UNKNOWN,   FORMAT_BYTES]];
 
     bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
@@ -457,11 +457,11 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
 
     char name[]                     [[COLOR_PRIMARY]];
 
-    u32 boundaryAddr = std::math::min($ + 9, MaxAddr);
-    padding[while($ < boundaryAddr && is_null())];
-
     bool isActive = is_active_key_code(ipl3ChunkCrc32, gsFwChunkCrc32);
     std::print("Key code: '{}'{}", name, isActive ? " (ACTIVE)" : "");
+
+    u32 boundaryAddr = std::math::min($ + 9, MaxAddr);
+    padding[while($ < boundaryAddr && is_null())];
 } [[format_read("format_key_code_option")]];
 
 fn format_key_code_option(auto keyCode) {
