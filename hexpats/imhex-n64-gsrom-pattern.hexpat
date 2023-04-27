@@ -57,12 +57,19 @@ using Bytes<auto Len>       = std::mem::Bytes<Len>;
 
 #define FORMAT_BYTES    format_read("format_bytes")
 
+str HEADER_MAGIC_1 = "\x80\x37\x12\x40\x00\x00\x00\x0F";
+str HEADER_MAGIC_2 = "\x00\x00\x14\x44";
+
 /*******************************************************************************
- * Shorthand functions
+ * Utility functions
  ******************************************************************************/
 
 fn assert(bool condition, str message, auto ... params) {
     std::assert(condition, std::format(message, params));
+};
+
+fn assert_magic_str(auto actual, auto expected) {
+    assert(actual == expected, "Invalid magic header value! Expected \"{}\", got \"{}\".", expected, actual);
 };
 
 fn find(u32 startAddr, u32 endAddr, auto ... bytes) {
@@ -118,10 +125,6 @@ fn strlen(auto s) {
     return std::string::length(s);
 };
 
-/*******************************************************************************
- * Common utility functions
- ******************************************************************************/
-
 fn format_bytes(auto bytes) {
     u32 i = 0;
     u32 len = sizeof(bytes);
@@ -139,8 +142,6 @@ fn format_bytes(auto bytes) {
 /*******************************************************************************
  * Header section
  ******************************************************************************/
-
-str GS_ROM_FILE_MAGIC = "\x80\x37\x12\x40";
 
 enum BgPattern : u8 {
     SILK  = 0x00,
@@ -206,17 +207,15 @@ fn format_header_build_timestamp(BuildTimestamp bts) {
 struct HeaderSection {
     u32 startAddr = $;
 
-    char magic[4]                    [[COLOR_MAGIC,     FORMAT_BYTES]];
-    assert(magic == GS_ROM_FILE_MAGIC, "Invalid magic value! Expected \"{}\", got \"{}\".", GS_ROM_FILE_MAGIC, magic);
-    u8 unknownBytes1[4]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    char magic1[8]                   [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic1, HEADER_MAGIC_1);
     u8 mysteriousKeyCodeTailBytes[4] [[COLOR_IMPORTANT, FORMAT_BYTES]];
-    u8 unknownBytes2[4]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    char magic2[4]                   [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic2, HEADER_MAGIC_2);
     u8 ipl3ChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     u8 gsFwChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
-    u8 unknownBytes3[8]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    u8 unknownBytes1[8]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
     char manufacturerName[16]        [[COLOR_LOWLIGHT]];
     BuildTimestamp buildTimestamp;
-    u8 unknownBytes4[0x40 - $]       [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    u8 unknownBytes2[0x40 - $]       [[COLOR_UNKNOWN,   FORMAT_BYTES]];
 
     bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
