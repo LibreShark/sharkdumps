@@ -55,6 +55,8 @@ using Bytes<auto Len>       = std::mem::Bytes<Len>;
 // green
 #define COLOR_PRIMARY   color("00FF00")
 
+#define FORMAT_BYTES    format_read("format_bytes")
+
 /*******************************************************************************
  * Shorthand functions
  ******************************************************************************/
@@ -73,20 +75,35 @@ fn find(u32 startAddr, u32 endAddr, auto ... bytes) {
     return addr;
 };
 
-fn is_null() {
-    return std::mem::read_unsigned($, 1) == 0;
-};
-
-fn is_digit() {
-    return std::ctype::isdigit(std::mem::read_unsigned($, 1));
-};
-
-fn read_u32(u32 addr) {
+fn read_u32_at(u32 addr) {
     return std::mem::read_unsigned(addr, 4);
 };
 
-fn strlen(auto s) {
-    return std::string::length(s);
+fn read_next_byte() {
+    return std::mem::read_unsigned($, 1);
+};
+
+fn is_null() {
+    return read_next_byte() == 0;
+};
+
+fn is_digit() {
+    return std::ctype::isdigit(read_next_byte());
+};
+
+fn is_version_char() {
+    u8 b = read_next_byte();
+    return std::ctype::isalnum(b) || b == '.';
+};
+
+fn is_iso_date_char() {
+    u8 b = read_next_byte();
+    return (b >= '0' && b <= '9') || b == '-';
+};
+
+fn is_printable_char() {
+    u8 b = read_next_byte();
+    return b >= ' ' && b <= '~';
 };
 
 fn parse_int(auto s) {
@@ -95,6 +112,28 @@ fn parse_int(auto s) {
 
 fn parse_float(auto s) {
     return std::string::parse_float(s);
+};
+
+fn strlen(auto s) {
+    return std::string::length(s);
+};
+
+/*******************************************************************************
+ * Common utility functions
+ ******************************************************************************/
+
+fn format_bytes(auto bytes) {
+    u32 i = 0;
+    u32 len = sizeof(bytes);
+    if (len == 0) {
+        return "";
+    }
+    str fmt;
+    while (i < len) {
+        fmt += std::format(" {:02X}", u8(bytes[i]));
+        i += 1;
+    }
+    return std::string::substr(fmt, 1, std::string::length(fmt));
 };
 
 /*******************************************************************************
@@ -147,9 +186,7 @@ struct BuildTimestamp {
     char space3 [[hidden]];
     char yy[while(is_digit())];
 
-    bool hasYear = strlen(yy) > 0;
-
-    u16 year  = hasYear ? parse_int("19" + yy) : 2000;
+    u16 year  = strlen(yy) > 0 ? parse_int("19" + yy) : 2000;
     u8 month  = parse_month(MMM);
     u8 day    = parse_int(dd);
     u8 hour   = parse_int(HH);
@@ -169,17 +206,17 @@ fn format_header_build_timestamp(BuildTimestamp bts) {
 struct HeaderSection {
     u32 startAddr = $;
 
-    char magic[4]                    [[COLOR_MAGIC, format_read("format_header_magic")]];
+    char magic[4]                    [[COLOR_MAGIC,     FORMAT_BYTES]];
     assert(magic == GS_ROM_FILE_MAGIC, "Invalid magic value! Expected \"{}\", got \"{}\".", GS_ROM_FILE_MAGIC, magic);
-    Bytes<4> unknownBytes1           [[COLOR_UNKNOWN]];
-    u8 mysteriousKeyCodeTailBytes[4] [[COLOR_IMPORTANT, format_read("format_checksum")]];
-    Bytes<4> unknownBytes2           [[COLOR_UNKNOWN]];
-    u8 ipl3ChunkChecksum[4]          [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
-    u8 gsRomChunkChecksum[4]         [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
-    Bytes<8> unknownBytes3           [[COLOR_UNKNOWN]];
+    u8 unknownBytes1[4]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    u8 mysteriousKeyCodeTailBytes[4] [[COLOR_IMPORTANT, FORMAT_BYTES]];
+    u8 unknownBytes2[4]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    u8 ipl3ChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
+    u8 gsFwChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
+    u8 unknownBytes3[8]              [[COLOR_UNKNOWN,   FORMAT_BYTES]];
     char manufacturerName[16]        [[COLOR_LOWLIGHT]];
-
     BuildTimestamp buildTimestamp;
+    u8 unknownBytes4[0x40 - $]       [[COLOR_UNKNOWN,   FORMAT_BYTES]];
 
     bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
@@ -188,21 +225,12 @@ struct HeaderSection {
     assert(isV1or2 || isV3Pro || isTrain, "Invalid manufacturer name: \"{}\".", manufacturerName);
 } [[format_read("format_header_section")]];
 
-fn format_header_magic(str magic) {
-    return std::format(
-        "{:02X} {:02X} {:02X} {:02X}",
-        u8(magic[0]),
-        u8(magic[1]),
-        u8(magic[2]),
-        u8(magic[3]));
-};
-
 fn format_header_section(HeaderSection hdr) {
     return std::format(
         "Built on \"{}\". Active key code: \"{}  {}  {}\".",
         hdr.buildTimestamp,
-        hdr.ipl3ChunkChecksum,
-        hdr.gsRomChunkChecksum,
+        hdr.ipl3ChunkCrc32,
+        hdr.gsFwChunkCrc32,
         hdr.mysteriousKeyCodeTailBytes);
 };
 
@@ -222,6 +250,13 @@ struct FirmwareSection {
                                  'V','e','r','s','i','o','n',' '
         );
 
+    u32 rspSwVersionAddr = find(
+        /* offsetFrom       = */ startAddr,
+        /* offsetTo         = */ approxEndAddr,
+        /* bytes            = */ 'R','S','P',' ','S','W',' ',
+                                 'V','e','r','s','i','o','n',':',' '
+        );
+
     if (titleAddr != 0xFFFFFFFF) {
         char mainMenuTitle[]   @ titleAddr      [[COLOR_HIGHLIGHT]];
         char mainMenuVersion[] @ titleAddr + 22 [[COLOR_IMPORTANT]];
@@ -230,6 +265,12 @@ struct FirmwareSection {
         std::print("Firmware version: v{}", versionNumber);
     } else {
         std::print("Firmware version: UNKNOWN (firmware is compressed; unable to read)");
+    }
+
+    if (rspSwVersionAddr != 0xFFFFFFFF) {
+        char rspSwVerNumStr[while(is_version_char())]    @ rspSwVersionAddr + 0x10;
+        char rspSwVerDateStr[while(is_iso_date_char())]  @ addressof(rspSwVerNumStr)  + sizeof(rspSwVerNumStr)  + 2;
+        char sgiU64GfxSwTeam[while(is_printable_char())] @ addressof(rspSwVerDateStr) + sizeof(rspSwVerDateStr) + 22;
     }
 }; // [[format_read("format_firmware_section")]];
 
@@ -330,8 +371,8 @@ fn format_code_value(auto value) {
 };
 
 bitfield CodeCount {
-    bool isCheatEnabled : 1;
-    unsigned numCodes   : 7;
+    bool isCheatEnabled : 1 [[COLOR_LOWLIGHT]];
+    unsigned numCodes   : 7 [[COLOR_LOWLIGHT]];
 } [[COLOR_LOWLIGHT, format_read("format_cheat_code_count")]];
 
 fn format_cheat_code_count(CodeCount ccc) {
@@ -398,13 +439,13 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
     //     How many bytes is it, and what's its address in ROM/RAM?
     //
     // Q2:
-    u8 ipl3ChunkChecksum[4]         [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
+    u8 ipl3ChunkCrc32[4]            [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
 
     // Checksum of the GS firmware chunk of the GS ROM file???
-    u8 gsRomChunkChecksum[4]        [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
+    u8 gsFwChunkCrc32[4]            [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
 
     // TODO(CheatoBaggins): What are these bytes used for?
-    u8 mysteriousTailBytes[Len - 8] [[COLOR_IMPORTANT]];
+    u8 mysteriousTailBytes[Len - 8] [[COLOR_IMPORTANT, FORMAT_BYTES]];
 
     char name[]                     [[COLOR_PRIMARY]];
 
@@ -412,41 +453,32 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
     padding[while($ < boundaryAddr && is_null())];
 };
 
-fn format_checksum(auto bytes) {
-    return std::format(
-        "{:02X} {:02X} {:02X} {:02X}",
-        bytes[0],
-        bytes[1],
-        bytes[2],
-        bytes[3]);
-};
-
 struct KeyCodeListSection {
     u32 startAddr = $;
     u32 endAddr = startAddr + 0xA0;
 
     u32 marioAddr = find(
-        /* offsetFrom       = */ startAddr,
-        /* offsetTo         = */ endAddr,
-        /* bytes            = */ 'M','a','r','i','o',' ',
-                                 'W','o','r','l','d',' ',
-                                 '6','4',' ','&',' ',
-                                 'O','t','h','e','r','s'
+        /* offsetFrom = */ startAddr,
+        /* offsetTo   = */ endAddr,
+        /* bytes      = */ 'M','a','r','i','o',' ',
+                           'W','o','r','l','d',' ',
+                           '6','4',' ','&',' ',
+                           'O','t','h','e','r','s'
         );
     u32 diddyAddr = find(
-        /* offsetFrom       = */ startAddr,
-        /* offsetTo         = */ endAddr,
-        /* bytes            = */ 'D','i','d','d','y'
+        /* offsetFrom = */ startAddr,
+        /* offsetTo   = */ endAddr,
+        /* bytes      = */ 'D','i','d','d','y'
         );
     u32 yoshiAddr = find(
-        /* offsetFrom       = */ startAddr,
-        /* offsetTo         = */ endAddr,
-        /* bytes            = */ 'Y','o','s','h','i'
+        /* offsetFrom = */ startAddr,
+        /* offsetTo   = */ endAddr,
+        /* bytes      = */ 'Y','o','s','h','i'
         );
     u32 zeldaAddr = find(
-        /* offsetFrom       = */ startAddr,
-        /* offsetTo         = */ endAddr,
-        /* bytes            = */ 'Z','e','l','d','a'
+        /* offsetFrom = */ startAddr,
+        /* offsetTo   = */ endAddr,
+        /* bytes      = */ 'Z','e','l','d','a'
         );
 
     u8 keyCodeLen = marioAddr - startAddr;
@@ -467,11 +499,11 @@ struct KeyCodeListSection {
 struct GSROM {
     HeaderSection header @ 0x00000000;
 
-    bool isV3Firmware    = read_u32(0x00001000) == 0x00000000;
-    bool isV2GameList    = read_u32(0x0002DFF0) == 0x00000000;
-    bool isV2KeyCodeList = read_u32(0x0002D7F0) == 0x00000000;
-    bool isV3KeyCodeList = read_u32(0x0002FBF0) == 0xFFFFFFFF;
-    bool hasUserConfig   = read_u32(0x0002FAF0) == 0xFFFFFFFF;
+    bool isV3Firmware    = read_u32_at(0x00001000) == 0x00000000;
+    bool isV2GameList    = read_u32_at(0x0002DFF0) == 0x00000000;
+    bool isV2KeyCodeList = read_u32_at(0x0002D7F0) == 0x00000000;
+    bool isV3KeyCodeList = read_u32_at(0x0002FBF0) == 0xFFFFFFFF;
+    bool hasUserConfig   = read_u32_at(0x0002FAF0) == 0xFFFFFFFF;
 
     u32 firmwareAddr    = isV3Firmware ? 0x00001080 : 0x00001000;
     u32 gameListAddr    = isV2GameList ? 0x0002E000 : 0x00030000;
