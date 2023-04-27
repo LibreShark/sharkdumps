@@ -500,6 +500,6 @@ fn format_gsrom(GSROM rom) {
  ******************************************************************************/
 
 u64 fileSize = std::mem::size();
-assert(fileSize == 0x00040000, "N64 GameShark ROMs must be EXACTLY 256 KiB (0x40000 bytes), but found {:X} bytes.", fileSize);
+assert(fileSize == 0x00040000, "N64 GameShark ROMs must be EXACTLY 256 KiB (0x40000 bytes), but found 0x{:X} bytes.", fileSize);
 
 be GSROM gsrom @ 0x00;
