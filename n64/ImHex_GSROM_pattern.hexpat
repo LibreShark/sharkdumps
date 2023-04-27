@@ -7,11 +7,14 @@
  * @date 2023-04-26
  */
 
+#pragma MIME application/x-n64-gameshark-rom
+
 #include <type/magic.pat>
 #include <type/size.pat>
 #include <type/time.pat>
 
 #include <std/array.pat>
+#include <std/core.pat>
 #include <std/ctype.pat>
 #include <std/hash.pat>
 #include <std/math.pat>
@@ -19,6 +22,80 @@
 #include <std/string.pat>
 #include <std/sys.pat>
 #include <std/time.pat>
+
+/*******************************************************************************
+ * Type aliases
+ ******************************************************************************/
+
+using Array<Type, auto Len> = std::Array<Type, Len>;
+using Bytes<auto Len>       = std::mem::Bytes<Len>;
+
+/*******************************************************************************
+ * Constants
+ ******************************************************************************/
+
+// white
+#define COLOR_MAGIC     color("FFFFFF")
+
+// green
+#define COLOR_TIMESTAMP color("00FF00")
+
+// dark gray
+#define COLOR_UNKNOWN   color("555555")
+
+// red
+#define COLOR_IMPORTANT color("FF0000")
+
+// yellow
+#define COLOR_HIGHLIGHT color("FFFF00")
+
+// blue
+#define COLOR_LOWLIGHT  color("0000FF")
+
+// green
+#define COLOR_PRIMARY   color("00FF00")
+
+/*******************************************************************************
+ * Shorthand functions
+ ******************************************************************************/
+
+fn assert(bool condition, str message, auto ... params) {
+    std::assert(condition, std::format(message, params));
+};
+
+fn find(u32 startAddr, u32 endAddr, auto ... bytes) {
+    u32 addr = std::mem::find_sequence_in_range(
+        /* occurrence_index = */ 0,
+        /* offsetFrom       = */ startAddr,
+        /* offsetTo         = */ endAddr,
+        /* bytes            = */ bytes
+        );
+    return addr;
+};
+
+fn is_null() {
+    return std::mem::read_unsigned($, 1) == 0;
+};
+
+fn is_digit() {
+    return std::ctype::isdigit(std::mem::read_unsigned($, 1));
+};
+
+fn read_u32(u32 addr) {
+    return std::mem::read_unsigned(addr, 4);
+};
+
+fn strlen(auto s) {
+    return std::string::length(s);
+};
+
+fn parse_int(auto s) {
+    return std::string::parse_int(s, 10);
+};
+
+fn parse_float(auto s) {
+    return std::string::parse_float(s);
+};
 
 /*******************************************************************************
  * Header section
@@ -33,13 +110,13 @@ enum BgPattern : u8 {
 };
 
 enum BgColor : u8 {
-    GREY   = 0x00,
-    TAN    = 0x01,
-    BLUE   = 0x02,
-    GREEN  = 0x03,
-    PINK   = 0x04,
-    YELLOW = 0x05,
-    RED    = 0x06,
+    GREY   = 0x00, // [[color("555555")]]
+    TAN    = 0x01, // [[color("D2B48C")]]
+    BLUE   = 0x02, // [[color("0000FF")]]
+    GREEN  = 0x03, // [[color("00FF00")]]
+    PINK   = 0x04, // [[color("FFC0CB")]]
+    YELLOW = 0x05, // [[color("FFFF00")]]
+    RED    = 0x06, // [[color("FF0000")]]
 };
 
 fn parse_month(str MMM) {
@@ -61,23 +138,23 @@ fn parse_month(str MMM) {
 
 struct BuildTimestamp {
     char HH[2];
-    char colon [[hidden]];
+    char colon  [[hidden]];
     char mm[2];
     char space1 [[hidden]];
     char MMM[3];
     char space2 [[hidden]];
-    char dd[while(std::ctype::isdigit(std::mem::read_unsigned($, 1)))];
+    char dd[while(is_digit())];
     char space3 [[hidden]];
-    char yy[while(std::ctype::isdigit(std::mem::read_unsigned($, 1)))];
+    char yy[while(is_digit())];
 
-    bool hasYear = std::string::length(yy) > 0;
+    bool hasYear = strlen(yy) > 0;
 
-    u16 year = hasYear ? std::string::parse_int("19" + yy, 10) : 2000;
-    u8 month = parse_month(MMM);
-    u8 day = std::string::parse_int(dd, 10);
-    u8 hour = std::string::parse_int(HH, 10);
-    u8 minute = std::string::parse_int(mm, 10);
-} [[format_read("format_header_build_timestamp"), color("00FF00")]];
+    u16 year  = hasYear ? parse_int("19" + yy) : 2000;
+    u8 month  = parse_month(MMM);
+    u8 day    = parse_int(dd);
+    u8 hour   = parse_int(HH);
+    u8 minute = parse_int(mm);
+} [[COLOR_TIMESTAMP, format_read("format_header_build_timestamp")]];
 
 fn format_header_build_timestamp(BuildTimestamp bts) {
     return std::format(
@@ -92,22 +169,15 @@ fn format_header_build_timestamp(BuildTimestamp bts) {
 struct HeaderSection {
     u32 startAddr = $;
 
-    char magic[4] [[color("000000"), format_read("format_header_magic")]];
-
-    std::assert(magic == GS_ROM_FILE_MAGIC, std::format("Invalid magic value! Expected \"{}\", got \"{}\".", GS_ROM_FILE_MAGIC, magic));
-
-    std::mem::Bytes<4> unknownBytes1 [[color("555555")]];
-
-    u8 mysteriousKeyCodeTailBytes[4] [[color("FF0000"), format_read("format_checksum")]];
-
-    std::mem::Bytes<4> unknownBytes2 [[color("555555")]];
-
-    u8 ipl3ChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
-    u8 gsRomChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
-
-    std::mem::Bytes<8> unknownBytes3 [[color("555555")]];
-
-    char manufacturerName[16] [[color("0000FF")]];
+    char magic[4]                    [[COLOR_MAGIC, format_read("format_header_magic")]];
+    assert(magic == GS_ROM_FILE_MAGIC, "Invalid magic value! Expected \"{}\", got \"{}\".", GS_ROM_FILE_MAGIC, magic);
+    Bytes<4> unknownBytes1           [[COLOR_UNKNOWN]];
+    u8 mysteriousKeyCodeTailBytes[4] [[COLOR_IMPORTANT, format_read("format_checksum")]];
+    Bytes<4> unknownBytes2           [[COLOR_UNKNOWN]];
+    u8 ipl3ChunkChecksum[4]          [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
+    u8 gsRomChunkChecksum[4]         [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
+    Bytes<8> unknownBytes3           [[COLOR_UNKNOWN]];
+    char manufacturerName[16]        [[COLOR_LOWLIGHT]];
 
     BuildTimestamp buildTimestamp;
 
@@ -115,7 +185,7 @@ struct HeaderSection {
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
     bool isTrain = manufacturerName == "Perfect Trainer ";
 
-    std::assert(isV1or2 || isV3Pro || isTrain, std::format("Invalid manufacturer name! Got \"{}\".", manufacturerName));
+    assert(isV1or2 || isV3Pro || isTrain, "Invalid manufacturer name: \"{}\".", manufacturerName);
 } [[format_read("format_header_section")]];
 
 fn format_header_magic(str magic) {
@@ -144,8 +214,7 @@ struct FirmwareSection {
     u32 startAddr = $;
     u32 approxEndAddr = startAddr + 0x0002D000;
 
-    u32 titleAddr = std::mem::find_sequence_in_range(
-        /* occurrence_index = */ 0,
+    u32 titleAddr = find(
         /* offsetFrom       = */ startAddr,
         /* offsetTo         = */ approxEndAddr,
         /* bytes            = */ 'N','6','4',' ',
@@ -154,13 +223,13 @@ struct FirmwareSection {
         );
 
     if (titleAddr != 0xFFFFFFFF) {
-        char mainMenuTitle[]   @ titleAddr      [[color("00FF00")]];
-        char mainMenuVersion[] @ titleAddr + 22 [[color("0000FF")]];
+        char mainMenuTitle[]   @ titleAddr      [[COLOR_HIGHLIGHT]];
+        char mainMenuVersion[] @ titleAddr + 22 [[COLOR_IMPORTANT]];
 
-        double versionNumber = std::string::parse_float(mainMenuVersion);
-        std::print(std::format("Firmware version: v{}", versionNumber));
+        double versionNumber = parse_float(mainMenuVersion);
+        std::print("Firmware version: v{}", versionNumber);
     } else {
-        std::print(std::format("Firmware version: UNKNOWN (firmware is compressed; unable to read)"));
+        std::print("Firmware version: UNKNOWN (firmware is compressed; unable to read)");
     }
 }; // [[format_read("format_firmware_section")]];
 
@@ -179,18 +248,26 @@ struct UserConfigSection {
         BgPattern bgPattern;
         BgColor bgColor;
         u8 selectedGameIndexStartingAt1; // 0 = no game; 1...255 = game index starting at 1
-        u8 unknown1 [[color("000000")]];
+        u8 unknown1    [[COLOR_UNKNOWN]];
         bool isBackgroundScrollOn;
-        u8 unknown2[2] [[color("000000")]];
-        u8 unknown3 [[color("000000")]];
+        u8 unknown2[2] [[COLOR_UNKNOWN]];
+        u8 unknown3    [[COLOR_UNKNOWN]];
         padding[0x61];
         bool isMenuScrollOn;
+
+        if (bgColor == BgColor::GREY  ) { std::print("bgColor == BgColor::GREY  "); std::core::set_pattern_color(bgColor, 0x555555FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        if (bgColor == BgColor::TAN   ) { std::print("bgColor == BgColor::TAN   "); std::core::set_pattern_color(bgColor, 0xD2B48CFF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        if (bgColor == BgColor::BLUE  ) { std::print("bgColor == BgColor::BLUE  "); std::core::set_pattern_color(bgColor, 0x0000FFFF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        if (bgColor == BgColor::GREEN ) { std::print("bgColor == BgColor::GREEN "); std::core::set_pattern_color(bgColor, 0x00FF00FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        if (bgColor == BgColor::PINK  ) { std::print("bgColor == BgColor::PINK  "); std::core::set_pattern_color(bgColor, 0xFFC0CBFF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        if (bgColor == BgColor::YELLOW) { std::print("bgColor == BgColor::YELLOW"); std::core::set_pattern_color(bgColor, 0xFFFF00FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        if (bgColor == BgColor::RED   ) { std::print("bgColor == BgColor::RED   "); std::core::set_pattern_color(bgColor, 0xFF0000FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
     } else if (isPristine) {
         // Brand new cart with factory settings.
-        std::mem::Bytes<0x6D> uninitialized;
+        Bytes<0x6D> uninitialized;
     } else {
         // v2.21 and earlier do not have a user config section.
-        std::mem::Bytes<0x00> notPresent;
+        Bytes<0x00> notPresent;
     }
 };
 
@@ -223,7 +300,7 @@ struct Code {
     OpCode opcode;
     u8 address[3] [[format_read("format_code_address")]];
     u8 value[2]   [[format_read("format_code_value")]];
-} [[format_read("format_code"), color("FF0000")]];
+} [[COLOR_IMPORTANT, format_read("format_code")]];
 
 fn format_code(Code code) {
     return std::format(
@@ -252,9 +329,9 @@ fn format_code_value(auto value) {
 };
 
 bitfield CodeCount {
-    bool isCheatEnabled : 1 [[color("0000FF")]];
-    unsigned numCodes : 7   [[color("0000FF")]];
-} [[format_read("format_cheat_code_count")]];
+    bool isCheatEnabled : 1;
+    unsigned numCodes   : 7;
+} [[COLOR_LOWLIGHT, format_read("format_cheat_code_count")]];
 
 fn format_cheat_code_count(CodeCount ccc) {
     return std::format(
@@ -265,9 +342,9 @@ fn format_cheat_code_count(CodeCount ccc) {
 };
 
 struct Cheat {
-    char name[]         [[color("00FF00")]];
-    CodeCount codeCount [[color("0000FF")]];
-    std::Array<Code, codeCount.numCodes> codes;
+    char name[] [[COLOR_PRIMARY]];
+    CodeCount codeCount;
+    Array<Code, codeCount.numCodes> codes;
 } [[format_read("format_cheat")]];
 
 fn format_cheat(Cheat cheat) {
@@ -278,9 +355,9 @@ fn format_cheat(Cheat cheat) {
 };
 
 struct Game {
-    char name[]   [[color("00FF00")]];
-    u8 cheatCount [[color("0000FF")]];
-    std::Array<Cheat, cheatCount> cheats;
+    char name[]   [[COLOR_PRIMARY]];
+    u8 cheatCount [[COLOR_LOWLIGHT]];
+    Array<Cheat, cheatCount> cheats;
 }; // [[format_read("format_game")]];
 
 fn format_game(Game game) {
@@ -293,8 +370,8 @@ fn format_game(Game game) {
 
 struct GameListSection {
     padding[2];
-    u16 gameCount [[color("0000FF")]];
-    std::Array<Game, gameCount> games;
+    u16 gameCount [[COLOR_LOWLIGHT]];
+    Array<Game, gameCount> games;
 }; // [[format_read("format_game_list")]];
 
 fn format_game_list(GameListSection gameList) {
@@ -306,9 +383,7 @@ fn format_game_list(GameListSection gameList) {
  ******************************************************************************/
 
 struct KeyCodeOption<auto Len, auto MaxAddr> {
-    std::assert(Len >= 9 && Len <= 13, "Key Code length must be between 9 and 13 bytes.");
-
-    u32 startAddr = $;
+    assert(Len >= 9 && Len <= 13, "Key Code length must be 9-13 bytes, but found {}.", Len);
 
     // The IPL3 chunk initiates communication between the game cart's CIC
     // and the N64 console's PIF. The console **will not boot the game**
@@ -322,17 +397,18 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
     //     How many bytes is it, and what's its address in ROM/RAM?
     //
     // Q2:
-    u8 ipl3ChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
+    u8 ipl3ChunkChecksum[4]         [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
 
     // Checksum of the GS firmware chunk of the GS ROM file???
-    u8 gsRomChunkChecksum[4] [[color("FFFF00"), format_read("format_checksum")]];
+    u8 gsRomChunkChecksum[4]        [[COLOR_HIGHLIGHT, format_read("format_checksum")]];
 
-    u8 mysteriousTailBytes[Len - 8] [[color("FF0000")]];
+    // TODO(CheatoBaggins): What are these bytes used for?
+    u8 mysteriousTailBytes[Len - 8] [[COLOR_IMPORTANT]];
 
-    char name[] [[color("00FF00")]];
+    char name[]                     [[COLOR_PRIMARY]];
 
     u32 boundaryAddr = std::math::min($ + 9, MaxAddr);
-    padding[while($ < boundaryAddr && std::mem::read_unsigned($, 1) == 0)];
+    padding[while($ < boundaryAddr && is_null())];
 };
 
 fn format_checksum(auto bytes) {
@@ -348,8 +424,7 @@ struct KeyCodeListSection {
     u32 startAddr = $;
     u32 endAddr = startAddr + 0xA0;
 
-    u32 marioAddr = std::mem::find_sequence_in_range(
-        /* occurrence_index = */ 0,
+    u32 marioAddr = find(
         /* offsetFrom       = */ startAddr,
         /* offsetTo         = */ endAddr,
         /* bytes            = */ 'M','a','r','i','o',' ',
@@ -357,20 +432,17 @@ struct KeyCodeListSection {
                                  '6','4',' ','&',' ',
                                  'O','t','h','e','r','s'
         );
-    u32 diddyAddr = std::mem::find_sequence_in_range(
-        /* occurrence_index = */ 0,
+    u32 diddyAddr = find(
         /* offsetFrom       = */ startAddr,
         /* offsetTo         = */ endAddr,
         /* bytes            = */ 'D','i','d','d','y'
         );
-    u32 yoshiAddr = std::mem::find_sequence_in_range(
-        /* occurrence_index = */ 0,
+    u32 yoshiAddr = find(
         /* offsetFrom       = */ startAddr,
         /* offsetTo         = */ endAddr,
         /* bytes            = */ 'Y','o','s','h','i'
         );
-    u32 zeldaAddr = std::mem::find_sequence_in_range(
-        /* occurrence_index = */ 0,
+    u32 zeldaAddr = find(
         /* offsetFrom       = */ startAddr,
         /* offsetTo         = */ endAddr,
         /* bytes            = */ 'Z','e','l','d','a'
@@ -394,14 +466,14 @@ struct KeyCodeListSection {
 struct GSROM {
     HeaderSection header @ 0x00000000;
 
-    bool isV3Firmware = std::mem::read_unsigned(0x00001000, 4) == 0;
-    bool isV2GameList = std::mem::read_unsigned(0x0002DFF0, 4) == 0;
-    bool hasUserConfig = std::mem::read_unsigned(0x0002FAF0, 4) == 0xFFFFFFFF;
-    bool isV3KeyCodeList = std::mem::read_unsigned(0x0002FBF0, 4) == 0xFFFFFFFF;
-    bool isV2KeyCodeList = std::mem::read_unsigned(0x0002D7F0, 4) == 0x00000000;
+    bool isV3Firmware    = read_u32(0x00001000) == 0x00000000;
+    bool isV2GameList    = read_u32(0x0002DFF0) == 0x00000000;
+    bool isV2KeyCodeList = read_u32(0x0002D7F0) == 0x00000000;
+    bool isV3KeyCodeList = read_u32(0x0002FBF0) == 0xFFFFFFFF;
+    bool hasUserConfig   = read_u32(0x0002FAF0) == 0xFFFFFFFF;
 
-    u32 firmwareAddr = isV3Firmware ? 0x00001080 : 0x00001000;
-    u32 gameListAddr = isV2GameList ? 0x0002E000 : 0x00030000;
+    u32 firmwareAddr    = isV3Firmware ? 0x00001080 : 0x00001000;
+    u32 gameListAddr    = isV2GameList ? 0x0002E000 : 0x00030000;
     u32 keyCodeListAddr = isV3KeyCodeList ? 0x0002FC00 : (isV2KeyCodeList ? 0x0002D800 : 0xFFFFFFFF);
 
     FirmwareSection firmware @ firmwareAddr;
@@ -426,6 +498,7 @@ fn format_gsrom(GSROM rom) {
  * Bootstrap
  ******************************************************************************/
 
-std::assert(std::mem::size() == 0x00040000, "N64 GameShark ROMs must be EXACTLY 256 KiB.");
+u64 fileSize = std::mem::size();
+assert(fileSize == 0x00040000, "N64 GameShark ROMs must be EXACTLY 256 KiB (0x40000 bytes), but found {:X} bytes.", fileSize);
 
 be GSROM gsrom @ 0x00;
