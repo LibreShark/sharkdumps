@@ -512,6 +512,14 @@ struct KeyCodeListSection {
     if (zeldaAddr != 0xFFFFFFFF) { numKeyCodes += 1; }
 
     KeyCodeOption<keyCodeLen, endAddr> keyCodes[numKeyCodes];
+} [[format_read("format_key_code_list_section")]];
+
+fn format_key_code_list_section(KeyCodeListSection list) {
+    return std::format(
+        "{} {}",
+        list.numKeyCodes,
+        list.numKeyCodes == 1 ? "key code" : "key codes"
+        );
 };
 
 /*******************************************************************************
