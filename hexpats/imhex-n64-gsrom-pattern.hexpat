@@ -255,13 +255,14 @@ struct UserConfigSection {
         padding[0x61];
         bool isMenuScrollOn;
 
-        if (bgColor == BgColor::GREY  ) { std::print("bgColor == BgColor::GREY  "); std::core::set_pattern_color(bgColor, 0x555555FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
-        if (bgColor == BgColor::TAN   ) { std::print("bgColor == BgColor::TAN   "); std::core::set_pattern_color(bgColor, 0xD2B48CFF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
-        if (bgColor == BgColor::BLUE  ) { std::print("bgColor == BgColor::BLUE  "); std::core::set_pattern_color(bgColor, 0x0000FFFF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
-        if (bgColor == BgColor::GREEN ) { std::print("bgColor == BgColor::GREEN "); std::core::set_pattern_color(bgColor, 0x00FF00FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
-        if (bgColor == BgColor::PINK  ) { std::print("bgColor == BgColor::PINK  "); std::core::set_pattern_color(bgColor, 0xFFC0CBFF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
-        if (bgColor == BgColor::YELLOW) { std::print("bgColor == BgColor::YELLOW"); std::core::set_pattern_color(bgColor, 0xFFFF00FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
-        if (bgColor == BgColor::RED   ) { std::print("bgColor == BgColor::RED   "); std::core::set_pattern_color(bgColor, 0xFF0000FF); std::core::set_display_name(bgColor, "POOPY BUTT"); }
+        // TODO(CheatoBaggins): Why doesn't this change the color in the ImHex UI?
+        if (bgColor == BgColor::GREY  ) { std::core::set_pattern_color(bgColor, 0x555555FF); }
+        if (bgColor == BgColor::TAN   ) { std::core::set_pattern_color(bgColor, 0xD2B48CFF); }
+        if (bgColor == BgColor::BLUE  ) { std::core::set_pattern_color(bgColor, 0x0000FFFF); }
+        if (bgColor == BgColor::GREEN ) { std::core::set_pattern_color(bgColor, 0x00FF00FF); }
+        if (bgColor == BgColor::PINK  ) { std::core::set_pattern_color(bgColor, 0xFFC0CBFF); }
+        if (bgColor == BgColor::YELLOW) { std::core::set_pattern_color(bgColor, 0xFFFF00FF); }
+        if (bgColor == BgColor::RED   ) { std::core::set_pattern_color(bgColor, 0xFF0000FF); }
     } else if (isPristine) {
         // Brand new cart with factory settings.
         Bytes<0x6D> uninitialized;
