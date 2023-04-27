@@ -252,7 +252,7 @@ fn format_code_value(auto value) {
 };
 
 bitfield CodeCount {
-    bool isCheatEnabled : 1 [[color("FF1493")]];
+    bool isCheatEnabled : 1 [[color("0000FF")]];
     unsigned numCodes : 7   [[color("0000FF")]];
 } [[format_read("format_cheat_code_count")]];
 
