@@ -185,25 +185,37 @@ fn parse_month(str MMM) {
 };
 
 struct BuildTimestamp {
-    char HH[2];
-    char [[hidden]];
-    char mm[2];
-    char [[hidden]];
-    char MMM[3];
-    char [[hidden]];
-    char dd[while(is_digit())];
-    char [[hidden]];
-    char yy[while(is_digit())];
+    str headerId = std::mem::read_string(0x20, 0x20);
+    bool isPerfectTrainer = std::string::starts_with(headerId, "Perfect Trainer 2003 iCEMARi0");
 
-    bool hasYear = strlen(yy) > 0;
-    u16 year     = hasYear ? parse_int("19" + yy) : 2000;
-    u8 month     = parse_month(MMM);
-    u8 day       = parse_int(dd);
-    u8 hour      = parse_int(HH);
-    u8 minute    = parse_int(mm);
-    str raw      = std::format("{}:{} {} {}{}", HH, mm, MMM, dd, hasYear ? " " + yy : "");
-    str iso      = std::format("{:04d}-{:02d}-{:02d}T{:02d}:{:02d}", year, month, day, hour, minute);
-    str id       = std::format("{:04d}{:02d}{:02d}T{:02d}{:02d}",    year, month, day, hour, minute);
+    if (isPerfectTrainer) {
+        u16 year  = 2003;
+        u8 month  = 06;
+        u8 day    = 18;
+        u8 hour   = 00;
+        u8 minute = 00;
+    } else {
+        char HH[2];
+        char [[hidden]];
+        char mm[2];
+        char [[hidden]];
+        char MMM[3];
+        char [[hidden]];
+        char dd[while(is_digit())];
+        char [[hidden]];
+        char yy[while(is_digit())];
+
+        bool hasYear = strlen(yy) > 0;
+
+        u16 year  = hasYear ? parse_int("19" + yy) : 2000;
+        u8 month  = parse_month(MMM);
+        u8 day    = parse_int(dd);
+        u8 hour   = parse_int(HH);
+        u8 minute = parse_int(mm);
+    }
+
+    str id  = std::format("{:04d}{:02d}{:02d}T{:02d}{:02d}",    year, month, day, hour, minute);
+    str iso = std::format("{:04d}-{:02d}-{:02d}T{:02d}:{:02d}", year, month, day, hour, minute);
 } [[COLOR_TIMESTAMP, format_read("format_header_build_timestamp")]];
 
 fn format_header_build_timestamp(BuildTimestamp bts) {
@@ -240,7 +252,7 @@ struct HeaderSection {
     double firmwareVersion = 0.00;
     str firmwareDisambiguator = "";
 
-    if (std::mem::read_string(0x20, 0x20) == "Perfect Trainer 2003 iCE MARi0") {
+    if (isTrain) {
         firmwareBrand = FirmwareBrand::PERFECT_TRAINER;
         firmwareVersion = 1.0;
         firmwareDisambiguator = "b";
@@ -556,9 +568,17 @@ fn format_game(Game game) {
 };
 
 struct GameListSection {
-    padding[2];
-    u16 gameCount [[COLOR_LOWLIGHT]];
-    Array<Game, gameCount> games;
+    // Perfect Trainer
+    if (std::mem::read_string($, 0x08) == "No Codes") {
+        char noCodesMessage[8];
+    }
+    // Standard GS/AR ROM
+    else {
+        padding[2];
+        u16 gameCount [[COLOR_LOWLIGHT]];
+        u32 len = gameCount < 250 ? gameCount : 0;
+        Array<Game, len> games;
+    }
 }; // [[format_read("format_game_list")]];
 
 fn format_game_list(GameListSection gameList) {
@@ -699,10 +719,16 @@ struct GSROM {
         (FirmwareBrand::LIBRESHARK):      fwBrand = "libreshark";
     }
 
-    str firmwareId = std::format(
-        "n64-{}-{:.2f}-{}",
-        fwBrand,
+    str fwVersion = std::format(
+        "{:.2f}{}",
         header.firmwareVersion,
+        std::string::to_lower(std::string::substr(header.firmwareDisambiguator, 0, 3))
+        );
+
+    str firmwareId = std::format(
+        "n64-{}-{}-{}",
+        fwBrand,
+        fwVersion,
         header.buildTimestamp.id
         );
 
