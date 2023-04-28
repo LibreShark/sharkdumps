@@ -624,7 +624,14 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
     char name[]                     [[COLOR_PRIMARY]];
 
     bool isActive = is_active_key_code(ipl3ChunkCrc32, gsFwChunkCrc32);
-    std::print("Key code: \"{}\"{}", name, isActive ? " (ACTIVE)" : "");
+    std::print(
+        "Key code: \"{} {} {}\" = \"{}\"{}",
+        ipl3ChunkCrc32,
+        gsFwChunkCrc32,
+        mysteriousTailBytes,
+        name,
+        isActive ? " (ACTIVE)" : ""
+        );
 
     padding[while($ < MaxAddr && is_null())];
 } [[format_read("format_key_code_option")]];
@@ -707,8 +714,14 @@ struct GSROM {
     FirmwareSection firmware @ firmwareAddr;
     GameListSection gameList @ gameListAddr;
 
+    std::print("");
+
     if (keyCodeListAddr != 0xFFFFFFFF) {
         KeyCodeListSection keyCodeList @ keyCodeListAddr;
+    }
+
+    if (!(keyCodeList.numKeyCodes > 0)) {
+        std::print("No key codes found.");
     }
 
     if (hasUserConfig) {
