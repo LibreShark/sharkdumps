@@ -460,8 +460,7 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
     bool isActive = is_active_key_code(ipl3ChunkCrc32, gsFwChunkCrc32);
     std::print("Key code: '{}'{}", name, isActive ? " (ACTIVE)" : "");
 
-    u32 boundaryAddr = std::math::min($ + 9, MaxAddr);
-    padding[while($ < boundaryAddr && is_null())];
+    padding[while($ < MaxAddr && is_null())];
 } [[format_read("format_key_code_option")]];
 
 fn format_key_code_option(auto keyCode) {
