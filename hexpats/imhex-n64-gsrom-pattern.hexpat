@@ -186,28 +186,36 @@ fn parse_month(str MMM) {
 
 struct BuildTimestamp {
     char HH[2];
-    char colon  [[hidden]];
+    char [[hidden]];
     char mm[2];
-    char space1 [[hidden]];
+    char [[hidden]];
     char MMM[3];
-    char space2 [[hidden]];
+    char [[hidden]];
     char dd[while(is_digit())];
-    char space3 [[hidden]];
+    char [[hidden]];
     char yy[while(is_digit())];
 
-    u16 year  = strlen(yy) > 0 ? parse_int("19" + yy) : 2000;
-    u8 month  = parse_month(MMM);
-    u8 day    = parse_int(dd);
-    u8 hour   = parse_int(HH);
-    u8 minute = parse_int(mm);
-
-    str iso   = std::format(
-        "{:04d}-{:02d}-{:02d}T{:02d}:{:02d}",
-        year, month, day, hour, minute);
+    bool hasYear = strlen(yy) > 0;
+    u16 year     = hasYear ? parse_int("19" + yy) : 2000;
+    u8 month     = parse_month(MMM);
+    u8 day       = parse_int(dd);
+    u8 hour      = parse_int(HH);
+    u8 minute    = parse_int(mm);
+    str raw      = std::format("{}:{} {} {}{}", HH, mm, MMM, dd, hasYear ? " " + yy : "");
+    str iso      = std::format("{:04d}-{:02d}-{:02d}T{:02d}:{:02d}", year, month, day, hour, minute);
+    str id       = std::format("{:04d}{:02d}{:02d}T{:02d}{:02d}",    year, month, day, hour, minute);
 } [[COLOR_TIMESTAMP, format_read("format_header_build_timestamp")]];
 
 fn format_header_build_timestamp(BuildTimestamp bts) {
     return bts.iso;
+};
+
+enum FirmwareBrand : u32 {
+    UNKNOWN_BRAND,
+    GAMESHARK,
+    ACTION_REPLAY,
+    PERFECT_TRAINER,
+    LIBRESHARK,
 };
 
 struct HeaderSection {
@@ -227,6 +235,119 @@ struct HeaderSection {
     bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
     bool isTrain = manufacturerName == "Perfect Trainer ";
+
+    FirmwareBrand firmwareBrand = FirmwareBrand::UNKNOWN_BRAND;
+    double firmwareVersion = 0.00;
+    str firmwareDisambiguator = "";
+
+    if (std::mem::read_string(0x20, 0x20) == "Perfect Trainer 2003 iCE MARi0") {
+        firmwareBrand = FirmwareBrand::PERFECT_TRAINER;
+        firmwareVersion = 1.0;
+        firmwareDisambiguator = "b";
+    }
+
+    match (buildTimestamp.id) {
+        ("19980415T1456"): {
+            firmwareBrand = FirmwareBrand::ACTION_REPLAY;
+            firmwareVersion = 1.11;
+        }
+        ("19990324T1550"): {
+            firmwareBrand = FirmwareBrand::ACTION_REPLAY;
+            firmwareVersion = 3.00;
+        }
+        ("20000418T1608"): {
+            firmwareBrand = FirmwareBrand::ACTION_REPLAY;
+            firmwareVersion = 3.30;
+        }
+        ("19970801T1250"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.02;
+        }
+        ("19970819T1035"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.04;
+        }
+        ("19970904T1625"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.05;
+            firmwareDisambiguator = "Thursday";
+        }
+        ("19970905T1351"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.05;
+            firmwareDisambiguator = "Friday";
+        }
+        ("19970919T1425"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.06;
+        }
+        ("19971107T1024"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.07;
+        }
+        ("19971124T1158"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.08;
+            firmwareDisambiguator = "November";
+        }
+        ("19971208T1110"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.08;
+            firmwareDisambiguator = "December";
+        }
+        ("19980105T1740"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 1.09;
+        }
+        ("19980305T0806"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 2.00;
+            firmwareDisambiguator = "March";
+        }
+        ("19980406T1005"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 2.00;
+            firmwareDisambiguator = "April";
+        }
+        ("19980825T1357"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 2.10;
+        }
+        ("19981218T1247"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 2.21;
+        }
+        ("19990504T1258"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 2.50;
+        }
+        ("19990401T1505"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 3.00;
+        }
+        ("19990609T1650"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 3.10;
+        }
+        ("19990622T1845"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 3.20;
+        }
+        ("20000104T1426"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 3.21;
+        }
+        ("20000327T0954"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 3.30;
+            firmwareDisambiguator = "March";
+        }
+        ("20000404T1556"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 3.30;
+            firmwareDisambiguator = "April";
+        }
+    }
 
     assert(isV1or2 || isV3Pro || isTrain, "Invalid manufacturer name: \"{}\".", manufacturerName);
 } [[format_read("format_header_section")]];
@@ -281,14 +402,17 @@ struct FirmwareSection {
                                  'V','e','r','s','i','o','n',':',' '
         );
 
+    double versionNumber = 0.00;
+
     if (titleAddr != 0xFFFFFFFF) {
         char mainMenuTitle[]   @ titleAddr      [[COLOR_HIGHLIGHT]];
         char mainMenuVersion[] @ titleAddr + 22 [[COLOR_IMPORTANT]];
 
-        double versionNumber = parse_float(mainMenuVersion);
-        std::print("Firmware version: v{}", versionNumber);
+        versionNumber = parse_float(mainMenuVersion);
+
+        std::print("Main Menu title version: v{}", versionNumber);
     } else {
-        std::print("Firmware version: UNKNOWN (firmware is compressed; unable to read)");
+        std::print("Main Menu title version: UNKNOWN (firmware is compressed; unable to read UI strings)");
     }
 
     if (rspSwVersionAddr != 0xFFFFFFFF) {
@@ -560,12 +684,31 @@ struct GSROM {
     GameListSection gameList @ gameListAddr;
 
     if (keyCodeListAddr != 0xFFFFFFFF) {
-        KeyCodeListSection keyCodeList @keyCodeListAddr;
+        KeyCodeListSection keyCodeList @ keyCodeListAddr;
     }
 
     if (hasUserConfig) {
         UserConfigSection userConfig @ 0x0002FB00;
     }
+
+    str fwBrand = "UNKNOWN";
+    match (header.firmwareBrand) {
+        (FirmwareBrand::GAMESHARK):       fwBrand = "gs";
+        (FirmwareBrand::ACTION_REPLAY):   fwBrand = "ar";
+        (FirmwareBrand::PERFECT_TRAINER): fwBrand = "perfect-trainer";
+        (FirmwareBrand::LIBRESHARK):      fwBrand = "libreshark";
+    }
+
+    str firmwareId = std::format(
+        "n64-{}-{:.2f}-{}",
+        fwBrand,
+        header.firmwareVersion,
+        header.buildTimestamp.id
+        );
+
+    std::print("");
+    std::print("Firmware ID: {}", firmwareId);
+    std::print("");
 }; // [[format_read("format_gsrom")]];
 
 fn format_gsrom(GSROM rom) {
