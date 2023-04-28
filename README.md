@@ -19,61 +19,57 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
         We have not yet confirmed whether the games, cheats, and preferences are original or user-modified, so the dump is assumed to be dirty until proven otherwise.
     - `?` = We have not yet acquired a cart to dump the firmware.
 
----
-
-## N64
+## N64 GameShark (US)
 
 ![GameShark v2.x front photo](/assets/photos/gs2x-front-512.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-512.png)
 
-### N64 device firmware
-
-N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings as well.
-
-#### N64 GameShark (US)
-
-<img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
      alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
      alt="Screenshot of the splash screen from an N64 GameShark v1.07 (1997-11-07)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
      alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
      width="200">
 
-<img src="/n64/firmware/screenshots/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.04 (1997-08-19)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-05)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.07 (1997-11-07)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-11-24)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-12-08)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
      width="200">
-<img src="/n64/firmware/screenshots/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
      alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
      width="200">
+
+### N64 GameShark firmware
+
+N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings as well.
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
@@ -102,28 +98,12 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 |   [`gspro-3.21-20000104-pristine.bin`][]     | `v3.21`       | `2000-01-04T14:26` |   122   |   1143   | ⭐️      |
 |   [`gspro-3.30-20000327-pristine.bin`][]     | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ⭐️      |
 |   [`gspro-3.30-20000404-pristine.bin`][]     | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ⭐️      |
+|   [`perfect_trainer-1.0b-20030618.bin`][]    | `v1.0b`       | `2003-06-18T00:00` |  _N/A_  |   _N/A_  | _N/A_  |
 
 [^v1.0x]: `v1.01` and `v1.03` supposedly exist according to a [Krikzz forum post](https://krikzz.com/forum/index.php?topic=6585.0), [Reddit post](https://www.reddit.com/r/Roms/comments/dui43a/n64_gameshark_v32/), and [vspolaris article](https://vspolaris.tistory.com/24), but we have not yet found any conclusive evidence of a `v1.01` or `v1.03` cart.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
 [^v2.40]: `v2.40` supposedly exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
 
-#### N64 Action Replay (EU)
-
-| Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
-|:---------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`ar-1.11-19980415.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ⚠️      |
-| [`arpro-3.0-19990324.bin`][] | `v3.00` | `1999-03-24T15:50` |   49 |  506 | ⚠️      |
-| [`arpro-3.3-20000418.bin`][] | `v3.30` | `2000-04-18T16:08` |  181 | 2043 | ⚠️      |
-
-#### N64 trainers
-
-| Filename                                | Version | Build timestamp    |
-|:--------------------------------------- |:------- |:------------------ |
-| [`perfect_trainer-1.0b-20030618.bin`][] | `v1.0b` | `2003-06-18T00:00` |
-
-[`ar-1.11-19980415.bin`]:               /n64/firmware/ar-1.11-19980415.bin
-[`arpro-3.0-19990324.bin`]:             /n64/firmware/arpro-3.0-19990324.bin
-[`arpro-3.3-20000418.bin`]:             /n64/firmware/arpro-3.3-20000418.bin
 [`gs-1.02-19970801-dirty.bin`]:         /n64/firmware/gs-1.02-19970801-dirty.bin
 [`gs-1.04-19970819-corrupt-codes.bin`]: /n64/firmware/gs-1.04-19970819-corrupt-codes.bin
 [`gs-1.04-19970819-valid-codes.bin`]:   /n64/firmware/gs-1.04-19970819-valid-codes.bin
@@ -147,25 +127,12 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`gspro-3.30-20000404-pristine.bin`]:   /n64/firmware/gspro-3.30-20000404-pristine.bin
 [`perfect_trainer-1.0b-20030618.bin`]:  /n64/firmware/perfect_trainer-1.0b-20030618.bin
 
-### N64 device manuals
-
-The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
+### N64 GameShark manuals
 
 [![N64 GameShark v1.09 manual thumbnail](/n64/manuals/thumbs/gs-v1.09-manual-p1.png)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
 [![N64 GameShark v3.20 manual thumbnail](/n64/manuals/thumbs/gs-v3.20-manual-p1.png)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
-[![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
-[![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
-#### DexDrive
-
-- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md)        • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
-- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md)        • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
-
-#### GB Hunter
-
-- [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md)                        • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
-
-#### GameShark (US)
+The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
 - [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            • [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
 - [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)
@@ -177,11 +144,96 @@ The Markdown versions have been transcribed as faithfully to the original printe
 -  GameShark Pro v3.3 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO
 - [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
-#### Xplorer 64 (EU)
+## N64 Action Replay (UK)
 
-- [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md)       • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+| Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
+|:---------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`ar-1.11-19980415.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ⚠️      |
+| [`arpro-3.0-19990324.bin`][] | `v3.00` | `1999-03-24T15:50` |   49 |  506 | ⚠️      |
+| [`arpro-3.3-20000418.bin`][] | `v3.30` | `2000-04-18T16:08` |  181 | 2043 | ⚠️      |
 
-### N64 "How To Hack Like A Pro" VHS tapes
+[`ar-1.11-19980415.bin`]:   /n64/firmware/ar-1.11-19980415.bin
+[`arpro-3.0-19990324.bin`]: /n64/firmware/arpro-3.0-19990324.bin
+[`arpro-3.3-20000418.bin`]: /n64/firmware/arpro-3.3-20000418.bin
+
+## N64 DexDrive
+
+[![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+
+- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
+- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+
+## N64 GB Hunter
+
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-01-splash-copyright.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-03-loading.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-04-warioland2-splash.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-06-warioland2-2coins.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-07-pause-screen.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-09-main-menu.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-19-blue-border.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-20-gradient-border.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-22-custom-palette.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-29-game-list-p01.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-33-game-list-p05.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-39-game-list-p11.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-41-cheat-list-warioland1.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-18-cheats-empty.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-16-trainer-eq.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-25-trainer-gt-184.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-27-trainer-gt-9.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-28-trainer-1-result.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-42-active-cheats.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-43-cheats-in-use.png"
+     alt="" width="200">
+
+[![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
+
+- [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md) • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
+
+## N64 Xplorer 64 (EU)
+
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-1-fcd-logo-zoom.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-2-fcd-logo-normal.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-3-blaze-logo.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-4-main-menu.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-5-customise.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-6-colors.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-7-game-list.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-8-zelda-cheats.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-9-mario64-cheats.png"
+     alt="" width="200">
+
+- [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+
+## N64 "How To Hack Like A Pro" VHS tapes
 
 <img alt="Photo of VHS tape"
      src="n64/vhs/n64_gspro_vhs_tape.jpg"
@@ -224,7 +276,7 @@ All VHS tapes were captured with the following hardware and software:
 - [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
 - [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
 
-#### N64 VHS tape — version 1
+### N64 VHS tape — version 1
 
 [Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
 
@@ -242,7 +294,7 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 [dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
 [dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
 
-#### N64 VHS tape — version 2
+### N64 VHS tape — version 2
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
 
