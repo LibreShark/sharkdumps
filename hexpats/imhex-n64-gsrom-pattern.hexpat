@@ -211,15 +211,16 @@ fn format_header_build_timestamp(BuildTimestamp bts) {
 struct HeaderSection {
     u32 startAddr = $;
 
-    char magic1[8]                   [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic1, HEADER_MAGIC_1);
-    u8 mysteriousKeyCodeTailBytes[4] [[COLOR_IMPORTANT, FORMAT_BYTES]];
-    char magic2[4]                   [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic2, HEADER_MAGIC_2);
-    u8 ipl3ChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
-    u8 gsFwChunkCrc32[4]             [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
+    char magic1[8]                    [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic1, HEADER_MAGIC_1);
+    u8 mysteriousKeyCodeTailBytes[4]  [[COLOR_IMPORTANT, FORMAT_BYTES]];
+    char magic2[4]                    [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic2, HEADER_MAGIC_2);
+    u8 ipl3ChunkCrc32[4]              [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
+    u8 gsFwChunkCrc32[4]              [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
+    u8 activeKeyCodePrefix[8] @ $ - 8 [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     padding[8];
-    char manufacturerName[16]        [[COLOR_LOWLIGHT]];
+    char manufacturerName[16]         [[COLOR_LOWLIGHT]];
     BuildTimestamp buildTimestamp;
-    u8 unknownBytes[0x40 - $]        [[COLOR_UNKNOWN,   FORMAT_BYTES]];
+    u8 unknownBytes[0x40 - $]         [[COLOR_UNKNOWN,   FORMAT_BYTES]];
 
     bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
     bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
