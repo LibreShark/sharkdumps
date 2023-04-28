@@ -359,6 +359,10 @@ struct HeaderSection {
             firmwareVersion = 3.30;
             firmwareDisambiguator = "April";
         }
+        ("20000504T1258"): {
+            firmwareBrand = FirmwareBrand::GAMESHARK;
+            firmwareVersion = 2.50;
+        }
     }
 
     assert(isV1or2 || isV3Pro || isTrain, "Invalid manufacturer name: \"{}\".", manufacturerName);
@@ -720,7 +724,7 @@ struct GSROM {
     }
 
     str fwVersion = std::format(
-        "{:.2f}{}",
+        "v{:.2f}{}",
         header.firmwareVersion,
         std::string::to_lower(std::string::substr(header.firmwareDisambiguator, 0, 3))
         );
