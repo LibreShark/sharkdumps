@@ -459,14 +459,14 @@ struct KeyCodeOption<auto Len, auto MaxAddr> {
     char name[]                     [[COLOR_PRIMARY]];
 
     bool isActive = is_active_key_code(ipl3ChunkCrc32, gsFwChunkCrc32);
-    std::print("Key code: '{}'{}", name, isActive ? " (ACTIVE)" : "");
+    std::print("Key code: \"{}\"{}", name, isActive ? " (ACTIVE)" : "");
 
     padding[while($ < MaxAddr && is_null())];
 } [[format_read("format_key_code_option")]];
 
 fn format_key_code_option(auto keyCode) {
     return std::format(
-        "{} {} {}: '{}'{}",
+        "{} {} {}: \"{}\"{}",
         keyCode.ipl3ChunkCrc32,
         keyCode.gsFwChunkCrc32,
         keyCode.mysteriousTailBytes,
