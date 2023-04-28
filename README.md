@@ -78,16 +78,16 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
 |    `gs-1.01-xxxxxxxx.bin`[^v1.0x]            | `v1.01`       | _Unknown_          |     ?   |      ?   | ?      |
-|   [`gs-1.02-19970801.bin`]                   | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ❌      |
+|   [`gs-1.02-19970801-dirty.bin`]             | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ❌      |
 |    `gs-1.03-xxxxxxxx.bin`[^v1.0x]            | `v1.03`       | _Unknown_          |     ?   |      ?   | ?      |
 | ~~[`gs-1.04-19970819-corrupt-codes.bin`][]~~ | `v1.04`       | `1997-08-19T10:35` |   ~~2~~ |    ~~3~~ | ❌      |
 |   [`gs-1.04-19970819-valid-codes.bin`][]     | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ❌      |
 |   [`gs-1.05-19970904-dirty.bin`][]           | `v1.05 (Thu)` | `1997-09-04T16:25` |    23   |    133   | ❌      |
 |   [`gs-1.05-19970905-dirty.bin`][]           | `v1.05 (Fri)` | `1997-09-05T13:51` |    24   |    146   | ❌      |
-|   [`gs-1.06-19970919.bin`][]                 | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ❌      |
-|   [`gs-1.07-19971107.bin`][]                 | `v1.07`       | `1997-11-07T10:24` |    27   |    169   | ❌      |
-|   [`gs-1.08-19971124.bin`][]                 | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌      |
-|   [`gs-1.08-19971208.bin`][]                 | `v1.08 (Dec)` | `1997-12-08T11:10` |    20   |    109   | ❌      |
+|   [`gs-1.06-19970919-dirty.bin`][]           | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ❌      |
+|   [`gs-1.07-19971107-dirty.bin`][]           | `v1.07`       | `1997-11-07T10:24` |    27   |    169   | ❌      |
+|   [`gs-1.08-19971124-dirty.bin`][]           | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌      |
+|   [`gs-1.08-19971208-dirty.bin`][]           | `v1.08 (Dec)` | `1997-12-08T11:10` |    20   |    109   | ❌      |
 |   [`gs-1.09-19980105-clean.bin`][]           | `v1.09`       | `1998-01-05T17:40` |    36   |    165   | ✅      |
 |   [`gs-2.00-19980305-clean.bin`][]           | `v2.00 (Mar)` | `1998-03-05T08:06` |    36   |    165   | ✅      |
 |   [`gs-2.00-19980406-clean.bin`][]           | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ✅      |
@@ -124,15 +124,15 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 [`ar-1.11-19980415.bin`]:               /n64/firmware/ar-1.11-19980415.bin
 [`arpro-3.0-19990324.bin`]:             /n64/firmware/arpro-3.0-19990324.bin
 [`arpro-3.3-20000418.bin`]:             /n64/firmware/arpro-3.3-20000418.bin
-[`gs-1.02-19970801.bin`]:               /n64/firmware/gs-1.02-19970801.bin
+[`gs-1.02-19970801-dirty.bin`]:         /n64/firmware/gs-1.02-19970801-dirty.bin
 [`gs-1.04-19970819-corrupt-codes.bin`]: /n64/firmware/gs-1.04-19970819-corrupt-codes.bin
 [`gs-1.04-19970819-valid-codes.bin`]:   /n64/firmware/gs-1.04-19970819-valid-codes.bin
 [`gs-1.05-19970904-dirty.bin`]:         /n64/firmware/gs-1.05-19970904-dirty.bin
 [`gs-1.05-19970905-dirty.bin`]:         /n64/firmware/gs-1.05-19970905-dirty.bin
-[`gs-1.06-19970919.bin`]:               /n64/firmware/gs-1.06-19970919.bin
-[`gs-1.07-19971107.bin`]:               /n64/firmware/gs-1.07-19971107.bin
-[`gs-1.08-19971124.bin`]:               /n64/firmware/gs-1.08-19971124.bin
-[`gs-1.08-19971208.bin`]:               /n64/firmware/gs-1.08-19971208.bin
+[`gs-1.06-19970919-dirty.bin`]:         /n64/firmware/gs-1.06-19970919-dirty.bin
+[`gs-1.07-19971107-dirty.bin`]:         /n64/firmware/gs-1.07-19971107-dirty.bin
+[`gs-1.08-19971124-dirty.bin`]:         /n64/firmware/gs-1.08-19971124-dirty.bin
+[`gs-1.08-19971208-dirty.bin`]:         /n64/firmware/gs-1.08-19971208-dirty.bin
 [`gs-1.09-19980105-clean.bin`]:         /n64/firmware/gs-1.09-19980105-clean.bin
 [`gs-2.00-19980305-clean.bin`]:         /n64/firmware/gs-2.00-19980305-clean.bin
 [`gs-2.00-19980406-clean.bin`]:         /n64/firmware/gs-2.00-19980406-clean.bin
