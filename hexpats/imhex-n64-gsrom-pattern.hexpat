@@ -5,6 +5,7 @@
  *
  * @author CheatoBaggins <cheatobaggins@gmail.com>
  * @date 2023-04-26
+ * @license MIT
  */
 
 #pragma MIME application/x-n64-gameshark-rom
@@ -83,7 +84,10 @@ fn find(u32 startAddr, u32 endAddr, auto ... bytes) {
 };
 
 fn bytes_to_u32(auto bytes) {
-    return (bytes[3] << 24) | (bytes[2] << 16) | (bytes[1] << 8) | (bytes[0]);
+    return (bytes[3] << 24)
+         | (bytes[2] << 16)
+         | (bytes[1] <<  8)
+         | (bytes[0]);
 };
 
 fn read_u32_at(u32 addr) {
@@ -196,16 +200,14 @@ struct BuildTimestamp {
     u8 day    = parse_int(dd);
     u8 hour   = parse_int(HH);
     u8 minute = parse_int(mm);
+
+    str iso   = std::format(
+        "{:04d}-{:02d}-{:02d}T{:02d}:{:02d}",
+        year, month, day, hour, minute);
 } [[COLOR_TIMESTAMP, format_read("format_header_build_timestamp")]];
 
 fn format_header_build_timestamp(BuildTimestamp bts) {
-    return std::format(
-        "{:04d}-{:02d}-{:02d}T{:02d}:{:02d}",
-        bts.year,
-        bts.month,
-        bts.day,
-        bts.hour,
-        bts.minute);
+    return bts.iso;
 };
 
 struct HeaderSection {
@@ -242,6 +244,24 @@ fn format_header_section(HeaderSection hdr) {
  * Firmware section
  ******************************************************************************/
 
+struct RspSwVerDate {
+    char MM[2];
+    char dash1 [[hidden]];
+    char dd[2];
+    char dash2 [[hidden]];
+    char yy[2];
+
+    u16 year = parse_int("19" + yy);
+    u8 month = parse_int(MM);
+    u8 day   = parse_int(dd);
+
+    str iso = std::format("{}-{:02d}-{:02d}", year, month, day);
+} [[COLOR_TIMESTAMP, format_read("format_rspswverdate")]];
+
+fn format_rspswverdate(RspSwVerDate date) {
+    return date.iso;
+};
+
 struct FirmwareSection {
     u32 startAddr = $;
     u32 approxEndAddr = startAddr + 0x0002D000;
@@ -273,10 +293,10 @@ struct FirmwareSection {
 
     if (rspSwVersionAddr != 0xFFFFFFFF) {
         char rspSwVerNumStr[while(is_version_char())]    @ rspSwVersionAddr + 0x10;
-        char rspSwVerDateStr[while(is_iso_date_char())]  @ addressof(rspSwVerNumStr)  + sizeof(rspSwVerNumStr)  + 2;
+        RspSwVerDate rspSwVerDateStr                     @ addressof(rspSwVerNumStr)  + sizeof(rspSwVerNumStr)  + 2  [[format_read("format_rspswverdate")]];
         char sgiU64GfxSwTeam[while(is_printable_char())] @ addressof(rspSwVerDateStr) + sizeof(rspSwVerDateStr) + 22;
     }
-}; // [[format_read("format_firmware_section")]];
+};
 
 /*******************************************************************************
  * User Config section
@@ -350,13 +370,10 @@ struct Code {
 
 fn format_code(Code code) {
     return std::format(
-        "{:02X}{:02X}{:02X}{:02X} {:02X}{:02X}",
+        "{} {}",
         u8(code.opcode),
-        code.address[0],
-        code.address[1],
-        code.address[2],
-        code.value[0],
-        code.value[1]);
+        code.address,
+        code.value);
 };
 
 fn format_code_address(auto addr) {
