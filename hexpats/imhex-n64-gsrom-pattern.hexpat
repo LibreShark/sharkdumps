@@ -510,7 +510,7 @@ struct Code {
 
 fn format_code(Code code) {
     return std::format(
-        "{} {}",
+        "{:02X}{} {}",
         u8(code.opcode),
         code.address,
         code.value);
