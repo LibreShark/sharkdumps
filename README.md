@@ -212,23 +212,23 @@ The Markdown versions have been transcribed as faithfully to the original printe
 
 ## N64 Xplorer 64 (EU)
 
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-1-fcd-logo-zoom.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-2-fcd-logo-normal.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-3-blaze-logo.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-4-main-menu.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-5-customise.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-6-colors.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-7-game-list.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-8-zelda-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
      alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-xp64-screenshot-9-mario64-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
      alt="" width="200">
 
 - [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
