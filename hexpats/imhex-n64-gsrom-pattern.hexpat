@@ -292,9 +292,9 @@ struct FirmwareSection {
     }
 
     if (rspSwVersionAddr != 0xFFFFFFFF) {
-        char rspSwVerNumStr[while(is_version_char())]    @ rspSwVersionAddr + 0x10;
-        RspSwVerDate rspSwVerDateStr                     @ addressof(rspSwVerNumStr)  + sizeof(rspSwVerNumStr)  + 2  [[format_read("format_rspswverdate")]];
-        char sgiU64GfxSwTeam[while(is_printable_char())] @ addressof(rspSwVerDateStr) + sizeof(rspSwVerDateStr) + 22;
+        char rspSwVerNumStr[while(is_version_char())]    @ rspSwVersionAddr + 0x10                                   [[COLOR_HIGHLIGHT]];
+        RspSwVerDate rspSwVerDateStr                     @ addressof(rspSwVerNumStr)  + sizeof(rspSwVerNumStr)  +  2 [[format_read("format_rspswverdate")]];
+        char sgiU64GfxSwTeam[while(is_printable_char())] @ addressof(rspSwVerDateStr) + sizeof(rspSwVerDateStr) + 22 [[COLOR_IMPORTANT]];
     }
 };
 
