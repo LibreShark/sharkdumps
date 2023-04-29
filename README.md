@@ -19,7 +19,7 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
         We have not yet confirmed whether the games, cheats, and preferences are original or user-modified, so the dump is assumed to be dirty until proven otherwise.
     - `?` = We have not yet acquired a cart to dump the firmware.
 
-## N64 GameShark (US)
+## N64 GameShark (NA)
 
 ![GameShark v2.x front photo](/assets/photos/gs2x-front-256.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-256.png)
 
@@ -237,7 +237,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
-## N64 Action Replay (UK)
+## N64 Action Replay (EU)
 
 | Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
 |:---------------------------- |:------- |:------------------ | ----:| ----:|:------:|
@@ -303,7 +303,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
 
-## N64 GB Hunter
+## N64 GB Hunter (NA)
 
 ### GB Hunter screenshots
 
@@ -361,6 +361,12 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
 - [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md) • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
+
+## N64 Game Booster (EU)
+
+![Screenshot of the N64 Game Booster splash screen](https://tcrf.net/images/b/ba/GameBooster-title.png)
+
+See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
