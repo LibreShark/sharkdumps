@@ -144,6 +144,85 @@ The Markdown versions have been transcribed as faithfully to the original printe
 -  GameShark Pro v3.3 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO
 - [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
+### N64 _How To Hack Like A Pro_ VHS tapes
+
+<img alt="Photo of VHS tape"
+     src="n64/vhs/n64_gspro_vhs_tape.jpg"
+     width="400">
+
+Most versions of the GameShark Pro came with a VHS tape entitled "How To Hack Like A Pro". (To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.)
+
+The video demonstrates typical usage of the GameShark Pro, as well as the Code Generator feature, which lets you find your own GameShark codes.
+
+There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
+
+<img alt="How To Hack Like A Pro"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
+     width="200">
+<img alt="GameShark guy"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png"
+     width="200">
+<img alt="Creating Your Own Codes"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png"
+     width="200">
+<img alt="Equal To Search"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png"
+     width="200">
+<img alt="Active Codes"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png"
+     width="200">
+<img alt="Shark Link"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png"
+     width="200">
+<img alt="Parallel Port"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png"
+     width="200">
+<img alt="Phone Hotline"
+     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
+     width="200">
+
+All VHS tapes were captured with the following hardware and software:
+
+- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
+- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
+- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
+
+#### N64 VHS tape — version 1
+
+[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
+
+Runtime: 15 minutes, 2 seconds.
+
+Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
+
+| Size     | Video file         | Compression | Codec            | Resolution/scan    |
+| --------:|:------------------ |:----------- |:---------------- |:------------------ |
+|  0.92 GB | [Download][dl-1.1] | Lossy       | H.265 (CQ = 75)  | 480p (progressive) |
+|  5.47 GB | [Download][dl-1.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |
+| 19.19 GB | [Download][dl-1.3] | None (raw)  | Raw YUV          | 480i (interlaced)  |
+
+[dl-1.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq75.mkv
+[dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
+[dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
+
+#### N64 VHS tape — version 2
+
+[Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
+
+Runtime: 14 minutes, 27 seconds.
+
+Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-25 parallel printer cable).
+
+| Size     | Video file         | Compression | Codec            | Resolution/scan    |
+| --------:|:------------------ |:----------- |:---------------- |:------------------ |
+|  0.76 GB | [Download][dl-2.1] | Lossy       | H.265 (CQ = 75)  | 480p (progressive) |
+|  4.95 GB | [Download][dl-2.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |
+| 18.44 GB | [Download][dl-2.3] | None (raw)  | Raw YUV          | 480i (interlaced)  |
+
+[dl-2.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq75.mkv
+[dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
+[dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
+
 ## N64 Action Replay (UK)
 
 | Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
@@ -212,6 +291,8 @@ The Markdown versions have been transcribed as faithfully to the original printe
 
 ## N64 Xplorer 64 (EU)
 
+![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-512.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-512.png)
+
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
      alt="" width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
@@ -231,86 +312,21 @@ The Markdown versions have been transcribed as faithfully to the original printe
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
      alt="" width="200">
 
+### Xplorer 64 firmware
+
+| Filename                                             | Version   | Build # | Build timestamp            | #G | #C | Clean? |
+|:---------------------------------------------------- |:--------- | -------:|:-------------------------- | --:| --:|:------:|
+| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` |  `1834` | `1999-08-16T12:10:59+0100` |  ? |  ? | ⚠️      |
+| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` |  `2515` | `2000-05-05T23:42:59+0100` |  ? |  ? | ⚠️      |
+| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` |  `2510` | `2000-xx-xxTxx:xx:xx+0100` |  ? |  ? | ⚠️      |
+
+[^b1834]: Raw encrypted firmware dump from a green Xplorer 64 cart.
+[^b2515]: Raw encrypted firmware dump from an orange Xplorer 64 cart.
+[^b2510]: Plain unencrypted firmware update from Blaze.
+
+### Xplorer 64 manuals
+
 - [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
-
-## N64 "How To Hack Like A Pro" VHS tapes
-
-<img alt="Photo of VHS tape"
-     src="n64/vhs/n64_gspro_vhs_tape.jpg"
-     width="400">
-
-Most versions of the GameShark Pro came with a VHS tape entitled "How To Hack Like A Pro". (To save costs, the final production run of the GameShark Pro v3.3 did _not_ come with a VHS tape.)
-
-The video demonstrates typical usage of the GameShark Pro, as well as the Code Generator feature, which lets you find your own GameShark codes.
-
-There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
-
-<img alt="How To Hack Like A Pro"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
-     width="200">
-<img alt="GameShark guy"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png"
-     width="200">
-<img alt="Creating Your Own Codes"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_37-creating_your_own_codes.png"
-     width="200">
-<img alt="Equal To Search"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_45-equal_to_search.png"
-     width="200">
-<img alt="Active Codes"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_48-active_codes.png"
-     width="200">
-<img alt="Shark Link"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_73-shark_link.png"
-     width="200">
-<img alt="Parallel Port"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png"
-     width="200">
-<img alt="Phone Hotline"
-     src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
-     width="200">
-
-All VHS tapes were captured with the following hardware and software:
-
-- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
-- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
-- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
-
-### N64 VHS tape — version 1
-
-[Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
-
-Runtime: 15 minutes, 2 seconds.
-
-Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Legal Notice" section at the end.
-
-| Size     | Video file         | Compression | Codec            | Resolution/scan    |
-| --------:|:------------------ |:----------- |:---------------- |:------------------ |
-|  0.92 GB | [Download][dl-1.1] | Lossy       | H.265 (CQ = 75)  | 480p (progressive) |
-|  5.47 GB | [Download][dl-1.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |
-| 19.19 GB | [Download][dl-1.3] | None (raw)  | Raw YUV          | 480i (interlaced)  |
-
-[dl-1.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq75.mkv
-[dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
-[dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
-
-### N64 VHS tape — version 2
-
-[Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
-
-Runtime: 14 minutes, 27 seconds.
-
-Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-25 parallel printer cable).
-
-| Size     | Video file         | Compression | Codec            | Resolution/scan    |
-| --------:|:------------------ |:----------- |:---------------- |:------------------ |
-|  0.76 GB | [Download][dl-2.1] | Lossy       | H.265 (CQ = 75)  | 480p (progressive) |
-|  4.95 GB | [Download][dl-2.2] | Lossless    | H.265 (CQ = 100) | 480p (progressive) |
-| 18.44 GB | [Download][dl-2.3] | None (raw)  | Raw YUV          | 480i (interlaced)  |
-
-[dl-2.1]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq75.mkv
-[dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
-[dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
 ---
 
