@@ -21,7 +21,7 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
 
 ## N64 GameShark (US)
 
-![GameShark v2.x front photo](/assets/photos/gs2x-front-512.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-512.png)
+![GameShark v2.x front photo](/assets/photos/gs2x-front-256.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-256.png)
 
 <img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
      alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
@@ -285,13 +285,23 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-43-cheats-in-use.png"
      alt="" width="200">
 
+### GB Hunter firmware
+
+| Filename                          | Version   | Build timestamp            | #G | #C | Clean? |
+|:--------------------------------- |:--------- |:-------------------------- | --:| --:|:------:|
+| [`gb-hunter-1998-pristine.bin`][] | _Unknown  | _Unknown_                  |  ? |  ? | ⭐️      |
+
+[`gb-hunter-1998-pristine.bin`]: /n64/firmware/gb-hunter-1998-pristine.bin
+
+### GB Hunter manual
+
 [![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
 - [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md) • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
 ## N64 Xplorer 64 (EU)
 
-![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-512.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-512.png)
+![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-256.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-256.png)
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
      alt="" width="200">
@@ -319,6 +329,10 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 | [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` |  `1834` | `1999-08-16T12:10:59+0100` |  ? |  ? | ⚠️      |
 | [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` |  `2515` | `2000-05-05T23:42:59+0100` |  ? |  ? | ⚠️      |
 | [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` |  `2510` | `2000-xx-xxTxx:xx:xx+0100` |  ? |  ? | ⚠️      |
+
+[`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
+[`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
+[`xp64-update-v1.067e-b2510-2000xxxx.bin`]: /n64/firmware/xp64-update-v1.067e-b2510-2000xxxx.bin
 
 [^b1834]: Raw encrypted firmware dump from a green Xplorer 64 cart.
 [^b2515]: Raw encrypted firmware dump from an orange Xplorer 64 cart.
