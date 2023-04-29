@@ -71,23 +71,13 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
 
 ### N64 GameShark PCBs
 
-<img src="/n64/pcbs/n64-gs-ref1329-clone/Front.png"
+<img src="https://github.com/RWeick/REF1329-N64-Gameshark-Clone/raw/5d514f6cc7af05dea53b4324b4a6ea6b0c075cca/Front.png"
      alt="" width="200">
-<img src="/n64/pcbs/n64-gs-ref1329-fork/REF1329-GS.png"
-     alt="" width="200">
-<img src="/n64/pcbs/n64-xp64-clone/FCD-003.1S X64.png"
+<img src="https://github.com/RWeick/N64-Gameshark-Pro-REF1329/raw/daf4c7581749218150ecb1b72f3c068bd0e4d737/REF1329-GS.png"
      alt="" width="200">
 
-<img src="/n64/pcbs/n64-controller-200010-clone/Controller2000.png"
-     alt="" width="200">
-<img src="/n64/pcbs/n64-controller-700010-clone/Controller7000.png"
-     alt="" width="200">
-
-- [GameShark REF1329 PCB clone](/n64/pcbs/n64-gs-ref1329-clone) (original design)
-- [GameShark REF1329 PCB fork](/n64/pcbs/n64-gs-ref1329-forkj) (optimized design)
-- [Xplorer 64 PCB clone](/n64/pcbs/n64-xp64-clone)
-- [N64 controller CFS8120-200010-00 clone](/n64/pcbs/n64-controller-2000-clone)
-- [N64 controller CFS8120-700010 clone](/n64/pcbs/n64-controller-2000-clone)
+- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (original design)
+- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (optimized design)
 
 ### N64 GameShark firmware
 
@@ -259,12 +249,59 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [`arpro-3.0-19990324.bin`]: /n64/firmware/arpro-3.0-19990324.bin
 [`arpro-3.3-20000418.bin`]: /n64/firmware/arpro-3.3-20000418.bin
 
-## N64 DexDrive
+## N64 Xplorer 64 (EU)
 
-[![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-256.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-256.png)
 
-- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
-- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+### Xplorer 64 screenshots
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
+     alt="" width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
+     alt="" width="200">
+
+### Xplorer 64 PCBs
+
+<img src="https://github.com/RWeick/FCD-0003.1S-Xplorer64/raw/8d1c70792dd1057c8f61399bea8a48a8909b2363/FCD-0003.1S%20X64.png"
+     alt="" width="200">
+
+- [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
+
+### Xplorer 64 firmware
+
+| Filename                                             | Version   | Build  | Build timestamp       | #G | #C | Clean? |
+|:---------------------------------------------------- |:--------- | ------:|:--------------------- | --:| --:|:------:|
+| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
+| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
+| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
+
+[`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
+[`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
+[`xp64-update-v1.067e-b2510-2000xxxx.bin`]: /n64/firmware/xp64-update-v1.067e-b2510-2000xxxx.bin
+
+[^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
+[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
+[^b2510]: Plain **unencrypted** firmware update file from Blaze.
+
+### Xplorer 64 manuals
+
+- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
+    - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
 
 ## N64 GB Hunter
 
@@ -325,52 +362,12 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 - [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md) • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
-## N64 Xplorer 64 (EU)
+## N64 DexDrive
 
-![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-256.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-256.png)
+[![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
 
-### Xplorer 64 screenshots
-
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
-     alt="" width="200">
-
-### Xplorer 64 firmware
-
-| Filename                                             | Version   | Build  | Build timestamp       | #G | #C | Clean? |
-|:---------------------------------------------------- |:--------- | ------:|:--------------------- | --:| --:|:------:|
-| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
-| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
-| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
-
-[`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
-[`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
-[`xp64-update-v1.067e-b2510-2000xxxx.bin`]: /n64/firmware/xp64-update-v1.067e-b2510-2000xxxx.bin
-
-[^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
-[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
-[^b2510]: Plain **unencrypted** firmware update file from Blaze.
-
-### Xplorer 64 manuals
-
-- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
-- [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
-    - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
+- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
+- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
 
 ---
 
