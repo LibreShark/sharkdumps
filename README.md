@@ -23,6 +23,8 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
 
 ![GameShark v2.x front photo](/assets/photos/gs2x-front-256.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-256.png)
 
+### N64 GameShark screenshots
+
 <img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
      alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
      width="200">
@@ -156,6 +158,14 @@ The video demonstrates typical usage of the GameShark Pro, as well as the Code G
 
 There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
 
+All VHS tapes were captured with the following hardware and software:
+
+- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
+- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
+- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
+
+#### N64 VHS screenshots
+
 <img alt="How To Hack Like A Pro"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
      width="200">
@@ -180,12 +190,6 @@ There are two known versions of the N64 VHS tape. The informational content is n
 <img alt="Phone Hotline"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
      width="200">
-
-All VHS tapes were captured with the following hardware and software:
-
-- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
-- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
-- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
 
 #### N64 VHS tape — version 1
 
@@ -243,6 +247,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 - [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
 
 ## N64 GB Hunter
+
+### GB Hunter screenshots
 
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-01-splash-copyright.png"
      alt="" width="200">
@@ -302,6 +308,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 ## N64 Xplorer 64 (EU)
 
 ![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-256.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-256.png)
+
+### Xplorer 64 screenshots
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
      alt="" width="200">
