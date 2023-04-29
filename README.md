@@ -69,6 +69,26 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
      alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
      width="200">
 
+### N64 GameShark PCBs
+
+<img src="/n64/pcbs/n64-gs-ref1329-clone/Front.png"
+     alt="" width="200">
+<img src="/n64/pcbs/n64-gs-ref1329-fork/REF1329-GS.png"
+     alt="" width="200">
+<img src="/n64/pcbs/n64-xp64-clone/FCD-003.1S X64.png"
+     alt="" width="200">
+
+<img src="/n64/pcbs/n64-controller-200010-clone/Controller2000.png"
+     alt="" width="200">
+<img src="/n64/pcbs/n64-controller-700010-clone/Controller7000.png"
+     alt="" width="200">
+
+- [GameShark REF1329 PCB clone](/n64/pcbs/n64-gs-ref1329-clone) (original design)
+- [GameShark REF1329 PCB fork](/n64/pcbs/n64-gs-ref1329-forkj) (optimized design)
+- [Xplorer 64 PCB clone](/n64/pcbs/n64-xp64-clone)
+- [N64 controller CFS8120-200010-00 clone](/n64/pcbs/n64-controller-2000-clone)
+- [N64 controller CFS8120-700010 clone](/n64/pcbs/n64-controller-2000-clone)
+
 ### N64 GameShark firmware
 
 N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings as well.
