@@ -295,7 +295,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 | Filename                          | Version   | Build timestamp            | #G | #C | Clean? |
 |:--------------------------------- |:--------- |:-------------------------- | --:| --:|:------:|
-| [`gb-hunter-1998-pristine.bin`][] | _Unknown  | _Unknown_                  |  ? |  ? | ⭐️      |
+| [`gb-hunter-1998-pristine.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⭐️      |
 
 [`gb-hunter-1998-pristine.bin`]: /n64/firmware/gb-hunter-1998-pristine.bin
 
@@ -332,11 +332,11 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### Xplorer 64 firmware
 
-| Filename                                             | Version   | Build # | Build timestamp       | #G | #C | Clean? |
-|:---------------------------------------------------- |:--------- | -------:|:--------------------- | --:| --:|:------:|
-| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` |  `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
-| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` |  `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
-| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` |  `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
+| Filename                                             | Version   | Build  | Build timestamp       | #G | #C | Clean? |
+|:---------------------------------------------------- |:--------- | ------:|:--------------------- | --:| --:|:------:|
+| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
+| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
+| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
 
 [`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
 [`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
@@ -348,7 +348,9 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### Xplorer 64 manuals
 
-- [Xplorer 64 manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
+    - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
 
 ---
 
