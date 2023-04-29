@@ -332,19 +332,19 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### Xplorer 64 firmware
 
-| Filename                                             | Version   | Build # | Build timestamp            | #G | #C | Clean? |
-|:---------------------------------------------------- |:--------- | -------:|:-------------------------- | --:| --:|:------:|
-| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` |  `1834` | `1999-08-16T12:10:59+0100` |  ? |  ? | ⚠️      |
-| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` |  `2515` | `2000-05-05T23:42:59+0100` |  ? |  ? | ⚠️      |
-| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` |  `2510` | `2000-xx-xxTxx:xx:xx+0100` |  ? |  ? | ⚠️      |
+| Filename                                             | Version   | Build # | Build timestamp       | #G | #C | Clean? |
+|:---------------------------------------------------- |:--------- | -------:|:--------------------- | --:| --:|:------:|
+| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` |  `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
+| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` |  `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
+| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` |  `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
 
 [`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
 [`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
 [`xp64-update-v1.067e-b2510-2000xxxx.bin`]: /n64/firmware/xp64-update-v1.067e-b2510-2000xxxx.bin
 
-[^b1834]: Raw encrypted firmware dump from a green Xplorer 64 cart.
-[^b2515]: Raw encrypted firmware dump from an orange Xplorer 64 cart.
-[^b2510]: Plain unencrypted firmware update from Blaze.
+[^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
+[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
+[^b2510]: Plain **unencrypted** firmware update file from Blaze.
 
 ### Xplorer 64 manuals
 
