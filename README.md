@@ -298,7 +298,7 @@ _Captured by @CheatoBaggins_
 
 _Expertly traced in CAD by @RWeick_
 
-<img src="/assets/photos/xplorer64-clone-pcb-1280.png" alt="Xplorer 64 PCB clone" width="200">
+<img src="/assets/photos/xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
 
 - [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
@@ -424,10 +424,17 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
-### N64 DexDrive photos
+### N64 DexDrive software
 
 <a href="/assets/photos/dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-2of2-256.png" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
+
+| Program                                                              | Build date   | Author                                   |
+|:-------------------------------------------------------------------- |:------------ |:---------------------------------------- |
+| **[DexPlorer v1.10.950](/n64/tools/dexdrive/dexplorer_v1.10.950)**   | `1999-01-05` | Datel/InterAct                           |
+|   [Dex2Save](/n64/tools/dexdrive/dex2save)                           | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
+|   [MemPack Save Converter v1.0](/n64/tools/mempack_to_n64_uploader)  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
+|   [MemPack to N64 Uploader v1.0](/n64/tools/mempack_to_n64_uploader) | `1999-10-13` | "Destop of Crazy Nation"                 |
 
 ### N64 DexDrive manuals
 
