@@ -72,10 +72,10 @@ Collection of all known EEPROM firmware dumps and software utilities for retro v
 
 ### N64 GameShark PCBs
 
-<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1280.png" width="200"><img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1280.png"  width="200">
+<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1280.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1280.png"  width="200">
 
-- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (original design)
-- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (optimized design)
+- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (original design by Datel)
+- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (modern optimized design by @RWeick)
 
 ### N64 GameShark firmware
 
