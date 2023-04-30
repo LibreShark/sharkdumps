@@ -1,8 +1,19 @@
 # SharkDumps
 
-Collection of all known EEPROM firmware dumps and software utilities for retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
-
 ![Dump truck icon](/assets/icons/dump-truck-256.png)
+
+This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s: GameShark, Action Replay, Xplorer 64, Code Breaker, DexDrive, etc.
+
+Specifically, we document:
+
+1. EEPROM firmware dumps
+2. PCB schematics
+3. Software utilities
+4. Instruction manuals
+5. Photos
+6. Box art
+
+We welcome contributions! If you have firmware, schematics, photos, etc. that are not yet documented here, please create a pull request! 😀
 
 ## Legend
 
