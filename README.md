@@ -421,6 +421,13 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
+### N64 DexDrive photos
+
+<a href="/assets/photos/dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
+<a href="/assets/photos/dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-2of2-256.png" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
+
+### N64 DexDrive manuals
+
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 [![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
