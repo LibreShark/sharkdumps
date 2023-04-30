@@ -21,7 +21,8 @@ Collection of all known EEPROM firmware dumps and software utilities for retro v
 
 ## N64 GameShark (NA)
 
-<a href="/assets/photos/n64-gs-2.x-front-2400.png"><img src="/assets/photos/n64-gs-2.x-front-256.png" alt="Photo of the front of a GameShark v2.x"></a><a href="/assets/photos/n64-gs-2.x-rear-1400.png"><img src="/assets/photos/n64-gs-2.x-rear-256.png" alt="Photo of the back of a GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.x-front-2400.png"><img src="/assets/photos/n64-gs-2.x-front-256.png" alt="Photo of the front of a GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.x-rear-1400.png"><img src="/assets/photos/n64-gs-2.x-rear-256.png" alt="Photo of the back of a GameShark v2.x"></a>
 
 ### N64 GameShark screenshots
 
