@@ -26,6 +26,8 @@ Collection of all known EEPROM firmware dumps and software utilities for retro v
 
 ### N64 GameShark screenshots
 
+_Captured by @CheatoBaggins_
+
 <img alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
      src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
      width="200">
@@ -72,7 +74,7 @@ Collection of all known EEPROM firmware dumps and software utilities for retro v
 
 ### N64 GameShark PCBs
 
-Expertly traced in CAD by @RWeick.
+_Expertly traced in CAD by @RWeick_
 
 <img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1280.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1280.png"  width="200">
 
@@ -80,6 +82,8 @@ Expertly traced in CAD by @RWeick.
 - [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (@RWeick's optimized design)
 
 ### N64 GameShark firmware
+
+_Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
 
 N64 GameShark "ROMs" contain the not only the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
@@ -141,6 +145,8 @@ N64 GameShark "ROMs" contain the not only the firmware, but also the user's chea
 
 ### N64 GameShark manuals
 
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
+
 [![N64 GameShark v1.09 manual thumbnail](/n64/manuals/thumbs/gs-v1.09-manual-p1.png)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
 [![N64 GameShark v3.20 manual thumbnail](/n64/manuals/thumbs/gs-v3.20-manual-p1.png)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
 
@@ -157,6 +163,8 @@ The Markdown versions have been transcribed as faithfully to the original printe
 - [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
 ### N64 _How To Hack Like A Pro_ VHS tapes
+
+_Captured and encoded by @CheatoBaggins_
 
 <img alt="Photo of VHS tape"
      src="n64/vhs/n64_gspro_vhs_tape.jpg"
@@ -256,6 +264,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### Xplorer 64 screenshots
 
+_Captured by @CheatoBaggins_
+
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
      alt="Screenshot of the Future Console Design logo mid-animation from an N64 Xplorer 64"
      width="200">
@@ -286,17 +296,21 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### Xplorer 64 PCBs
 
+_Expertly traced in CAD by @RWeick_
+
 <img src="/assets/photos/xplorer64-clone-pcb-1280.png" alt="Xplorer 64 PCB clone" width="200">
 
 - [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
 ### Xplorer 64 firmware
 
-| Filename                                             | Version   | Build  | Build timestamp       | #G | #C | Clean? |
-|:---------------------------------------------------- |:--------- | ------:|:--------------------- | --:| --:|:------:|
-| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
-| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
-| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
+_Dumped by @RWeick and @danhans42_
+
+| Filename                                             | Version   | Build  | Build timestamp       | Language | #G | #C | Clean? | Unencrypted? |
+|:---------------------------------------------------- |:--------- | ------:|:--------------------- |:-------- | --:| --:|:------:|:------------:|
+| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` | English  |  ? |  ? | ⚠️      | ✅            |
 
 [`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
 [`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
@@ -308,6 +322,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### Xplorer 64 manuals
 
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
+
 - [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
@@ -315,6 +331,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 ## N64 GB Hunter (NA)
 
 ### GB Hunter screenshots
+
+_Captured by @CheatoBaggins_
 
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-01-splash-copyright.png"
      alt="Screenshot of the splash screen from an N64 GB Hunter"
@@ -379,6 +397,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### GB Hunter firmware
 
+_Dumped by @RWeick_
+
 | Filename                          | Version   | Build timestamp            | #G | #C | Clean? |
 |:--------------------------------- |:--------- |:-------------------------- | --:| --:|:------:|
 | [`gb-hunter-1998-pristine.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⭐️      |
@@ -386,6 +406,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [`gb-hunter-1998-pristine.bin`]: /n64/firmware/gb-hunter-1998-pristine.bin
 
 ### GB Hunter manual
+
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 [![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
@@ -398,6 +420,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
+
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 [![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
 
