@@ -23,8 +23,7 @@ Collection of all known EEPROM firmware dumps and software utilities for retro v
 
 <a href="/assets/photos/n64-gs-2.x-front-2400.png">
   <img src="/assets/photos/n64-gs-2.x-front-256.png" alt="Photo of the front of a GameShark v2.x">
-</a>
-<a href="/assets/photos/n64-gs-2.x-rear-1400.png">
+</a><a href="/assets/photos/n64-gs-2.x-rear-1400.png">
   <img src="/assets/photos/n64-gs-2.x-rear-256.png" alt="Photo of the back of a GameShark v2.x">
 </a>
 
@@ -256,8 +255,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 <a href="/assets/photos/xplorer64-green-front-3328.png">
   <img src="/assets/photos/xplorer64-green-front-256.png" alt="Xplorer 64 (green label) front photo">
-</a>
-<a href="/assets/photos/xplorer64-orange-front-3328.png">
+</a><a href="/assets/photos/xplorer64-orange-front-3328.png">
   <img src="/assets/photos/xplorer64-orange-front-256.png" alt="Xplorer 64 (orange label) front photo">
 </a>
 
