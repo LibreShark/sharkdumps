@@ -435,13 +435,13 @@ See https://tcrf.net/GB_Hunter
 |   [Dex2Save][]                     | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
 |   [MemPack Save Converter v1.0][]  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
 |   [MemPack to N64 Uploader v1.0][] | `1999-10-13` | "Destop of Crazy Nation"                 |
-|   [64Scener Tools][]               | -            | [64Scener mirror][]                      |
+|   [64Scener Tools][]               | -            | -                                        |
 
 [DexPlorer v1.10.950]:          /n64/tools/dexdrive/dexplorer_v1.10.950
 [Dex2Save]:                     /n64/tools/dexdrive/dex2save
 [MemPack Save Converter v1.0]:  /n64/tools/dexdrive/mempack_save_converter
 [MemPack to N64 Uploader v1.0]: /n64/tools/dexdrive/mempack_to_n64_uploader
-[64Scener mirror]:              http://n64.icequake.net/mirror/64scener.parodius.com
+[64Scener Tools]:               http://n64.icequake.net/mirror/64scener.parodius.com
 
 ### N64 DexDrive manuals
 
