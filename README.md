@@ -48,6 +48,9 @@ _Captured by @CheatoBaggins_
 <img alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
      src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
      width="200">
+<img alt="Screenshot of the splash screen from an N64 GameShark Pro v3.00 (1999-04-01)"
+     src="/n64/firmware/screenshots/gameshark/n64-gspro-3.00-19990401-screenshot-01-splash-screen.png"
+     width="200">
 
 <img alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
      src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
@@ -79,8 +82,23 @@ _Captured by @CheatoBaggins_
 <img alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
      src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
      width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-04-06)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980406-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark v2.10 (1998-08-25)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.10-19980825-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark v2.21 (1998-12-18)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.21-19981218-screenshot-02-main-menu.png"
+     width="200">
 <img alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
      src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark Pro v3.00 (1999-04-01)"
+     src="/n64/firmware/screenshots/gameshark/n64-gspro-3.00-19990401-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark Pro v3.10 (1999-06-09)"
+     src="/n64/firmware/screenshots/gameshark/n64-gspro-3.10-19990609-screenshot-02-main-menu.png"
      width="200">
 
 ### N64 GameShark PCBs
