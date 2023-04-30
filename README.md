@@ -250,7 +250,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ## N64 Xplorer 64 (EU)
 
-<a href="/assets/photos/xplorer64-green-front-3328.png"><img src="/assets/photos/xplorer64-green-front-256.png" alt="Xplorer 64 (green label) front photo"></a><a href="/assets/photos/xplorer64-orange-front-3328.png"><img src="/assets/photos/xplorer64-orange-front-256.png" alt="Xplorer 64 (orange label) front photo"></a>
+<a href="/assets/photos/xplorer64-green-front-3328.png"><img src="/assets/photos/xplorer64-green-front-256.png" alt="Xplorer 64 (green label) front photo"></a>
+<a href="/assets/photos/xplorer64-orange-front-3328.png"><img src="/assets/photos/xplorer64-orange-front-256.png" alt="Xplorer 64 (orange label) front photo"></a>
 
 ### Xplorer 64 screenshots
 
