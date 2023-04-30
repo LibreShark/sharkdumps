@@ -306,19 +306,22 @@ _Expertly traced in CAD by @RWeick_
 
 _Dumped by @RWeick and @danhans42_
 
-| Filename                                             | Version   | Build  | Build timestamp       | Language | #G | #C | Clean? | Unencrypted? |
-|:---------------------------------------------------- |:--------- | ------:|:--------------------- |:-------- | --:| --:|:------:|:------------:|
-| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` | English  |  ? |  ? | ⚠️      | ❌            |
-| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` | English  |  ? |  ? | ⚠️      | ❌            |
-| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` | English  |  ? |  ? | ⚠️      | ✅            |
+| Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
+|:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
+| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067e` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067g` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
 
-[`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
-[`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
-[`xp64-update-v1.067e-b2510-2000xxxx.bin`]: /n64/firmware/xp64-update-v1.067e-b2510-2000xxxx.bin
+[`xp64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xp64-v1.000e-b1834-19990816-green.enc
+[`xp64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xp64-v1.067e-b2510-19991123.bin
+[`xp64-v1.067g-b1930-19991124.bin`]:        /n64/firmware/xp64-v1.067g-b1930-19991124.bin
+[`xp64-v1.067e-b2515-20000505-orange.enc`]: /n64/firmware/xp64-v1.067e-b2515-20000505-orange.enc
 
 [^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
-[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
 [^b2510]: Plain **unencrypted** firmware update file from Blaze.
+[^b1930]: Plain **unencrypted** firmware update file from Blaze.
+[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
 
 ### Xplorer 64 manuals
 
