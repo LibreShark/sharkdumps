@@ -433,7 +433,7 @@ See https://tcrf.net/GB_Hunter
 |:-------------------------------------------------------------------- |:------------ |:---------------------------------------- |
 | **[DexPlorer v1.10.950](/n64/tools/dexdrive/dexplorer_v1.10.950)**   | `1999-01-05` | Datel/InterAct                           |
 |   [Dex2Save](/n64/tools/dexdrive/dex2save)                           | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
-|   [MemPack Save Converter v1.0](/n64/tools/mempack_to_n64_uploader)  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
+|   [MemPack Save Converter v1.0](/n64/tools/mempack_save_converter)   | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
 |   [MemPack to N64 Uploader v1.0](/n64/tools/mempack_to_n64_uploader) | `1999-10-13` | "Destop of Crazy Nation"                 |
 
 ### N64 DexDrive manuals
