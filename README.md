@@ -1,6 +1,6 @@
 # SharkDumps
 
-Collection of all known firmware/ROM/software dumps for retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
+Collection of all known EEPROM firmware dumps and software utilities for retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
 
 ![Dump truck icon](/assets/icons/dump-truck-256.png)
 
@@ -21,60 +21,63 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
 
 ## N64 GameShark (NA)
 
-![GameShark v2.x front photo](/assets/photos/gs2x-front-256.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-256.png)
+<a href="/assets/photos/n64-gs-2.x-front-2400.png">
+  <img src="/assets/photos/n64-gs-2.x-front-256.png" alt="Photo of the front of a GameShark v2.x">
+</a>
+<a href="/assets/photos/n64-gs-2.x-rear-1400.png">
+  <img src="/assets/photos/n64-gs-2.x-rear-256.png" alt="Photo of the back of a GameShark v2.x">
+</a>
 
 ### N64 GameShark screenshots
 
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
+<img alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v1.07 (1997-11-07)"
+<img alt="Screenshot of the splash screen from an N64 GameShark v1.07 (1997-11-07)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
+<img alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
      width="200">
 
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.04 (1997-08-19)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.04 (1997-08-19)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-05)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-05)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.07 (1997-11-07)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.07 (1997-11-07)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-11-24)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-11-24)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-12-08)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-12-08)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
+<img alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
+<img alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
      width="200">
 
 ### N64 GameShark PCBs
 
-<img src="https://github.com/RWeick/REF1329-N64-Gameshark-Clone/raw/5d514f6cc7af05dea53b4324b4a6ea6b0c075cca/Front.png"
-     alt="" width="200">
-<img src="https://github.com/RWeick/N64-Gameshark-Pro-REF1329/raw/daf4c7581749218150ecb1b72f3c068bd0e4d737/REF1329-GS.png"
-     alt="" width="200">
+<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1280.png" width="200">
+<img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1280.png"  width="200">
 
 - [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (original design)
 - [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (optimized design)
@@ -251,33 +254,46 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ## N64 Xplorer 64 (EU)
 
-![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-256.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-256.png)
+<a href="/assets/photos/xplorer64-green-front-3328.png">
+  <img src="/assets/photos/xplorer64-green-front-256.png" alt="Xplorer 64 (green label) front photo">
+</a>
+<a href="/assets/photos/xplorer64-orange-front-3328.png">
+  <img src="/assets/photos/xplorer64-orange-front-256.png" alt="Xplorer 64 (orange label) front photo">
+</a>
 
 ### Xplorer 64 screenshots
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
-     alt="" width="200">
+     alt="Screenshot of the Future Console Design logo mid-animation from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
-     alt="" width="200">
+     alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
-     alt="" width="200">
+     alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
-     alt="" width="200">
+     alt="Screenshot of the main menu from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
-     alt="" width="200">
+     alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
-     alt="" width="200">
+     alt="Screenshot of the 'Colors' screen from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
-     alt="" width="200">
+     alt="Screenshot of the game list from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
-     alt="" width="200">
+     alt="Screenshot of the Zelda OoT cheats from an N64 Xplorer 64"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
-     alt="" width="200">
+     alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
+     width="200">
 
 ### Xplorer 64 PCBs
 
-<img src="https://github.com/RWeick/FCD-0003.1S-Xplorer64/raw/8d1c70792dd1057c8f61399bea8a48a8909b2363/FCD-0003.1S%20X64.png"
-     alt="" width="200">
+<img src="/assets/photos/xplorer64-clone-pcb-1280.png" alt="Xplorer 64 PCB clone" width="200">
 
 - [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
@@ -308,45 +324,65 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 ### GB Hunter screenshots
 
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-01-splash-copyright.png"
-     alt="" width="200">
+     alt="Screenshot of the splash screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-03-loading.png"
-     alt="" width="200">
+     alt="Screenshot of the loading screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-04-warioland2-splash.png"
-     alt="" width="200">
+     alt="Screenshot of the Wario Land II splash screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-06-warioland2-2coins.png"
-     alt="" width="200">
+     alt="Screenshot of Wario with 2 coins in Wario Land II from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-07-pause-screen.png"
-     alt="" width="200">
+     alt="Screenshot of the pause screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-09-main-menu.png"
-     alt="" width="200">
+     alt="Screenshot of the main menu from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-19-blue-border.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II with a blue border from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-20-gradient-border.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II with a gradient border from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-22-custom-palette.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II with a custom palette from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-29-game-list-p01.png"
-     alt="" width="200">
+     alt="Screenshot of the first page of the game list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-33-game-list-p05.png"
-     alt="" width="200">
+     alt="Screenshot of the 5th page of the game list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-39-game-list-p11.png"
-     alt="" width="200">
+     alt="Screenshot of the 11th page of the game list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-41-cheat-list-warioland1.png"
-     alt="" width="200">
+     alt="Screenshot of the Wario Land cheat list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-18-cheats-empty.png"
-     alt="" width="200">
+     alt="Screenshot of an empty 'Cheats' screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-16-trainer-eq.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-25-trainer-gt-184.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer with 184 results from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-27-trainer-gt-9.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer with 9 results from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-28-trainer-1-result.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer with 1 result from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-42-active-cheats.png"
-     alt="" width="200">
+     alt="Screenshot of the active cheat list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-43-cheats-in-use.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II gameplay with cheats active from an N64 GB Hunter"
+     width="200">
 
 ### GB Hunter firmware
 
@@ -413,3 +449,15 @@ See https://tcrf.net/GB_Hunter
 
 - Cheats 'N Codes    • [PDF (original)](/dc/manuals/dc_cheats_n_codes.pdf)
 - GameShark CDX v3.3 • [PDF (original)](/dc/manuals/dc_gameshark_cdx_v3.3_oem.pdf) • [PDF (OCR)](/dc/manuals/dc_gameshark_cdx_v3.3_ocr.pdf)
+
+## Credits
+
+This project is the result of many years of hard work and brilliant insight from some _amazing_ hackers.
+It would not be possible without them!
+
+Most notably, we wish to thank:
+
+- @Parasyte - Legendary GameShark hacker and OG N64 reverse engineer
+- @RWeick - Crazy-talented Kaminoan cloner of PCBs
+
+_If you feel that someone is missing from this list, please submit a PR to add them!_ 😀
