@@ -364,6 +364,9 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-22-custom-palette.png"
      alt="Screenshot of Wario Land II with a custom palette from an N64 GB Hunter"
      width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-18-cheats-empty.png"
+     alt="Screenshot of an empty 'Cheats' screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-29-game-list-p01.png"
      alt="Screenshot of the first page of the game list from an N64 GB Hunter"
      width="200">
@@ -375,9 +378,6 @@ _Captured by @CheatoBaggins_
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-41-cheat-list-warioland1.png"
      alt="Screenshot of the Wario Land cheat list from an N64 GB Hunter"
-     width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-18-cheats-empty.png"
-     alt="Screenshot of an empty 'Cheats' screen from an N64 GB Hunter"
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-16-trainer-eq.png"
      alt="Screenshot of the trainer from an N64 GB Hunter"
