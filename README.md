@@ -429,12 +429,19 @@ See https://tcrf.net/GB_Hunter
 <a href="/assets/photos/dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-2of2-256.png" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
 
-| Program                                                              | Build date   | Author                                   |
-|:-------------------------------------------------------------------- |:------------ |:---------------------------------------- |
-| **[DexPlorer v1.10.950](/n64/tools/dexdrive/dexplorer_v1.10.950)**   | `1999-01-05` | Datel/InterAct                           |
-|   [Dex2Save](/n64/tools/dexdrive/dex2save)                           | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
-|   [MemPack Save Converter v1.0](/n64/tools/mempack_save_converter)   | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
-|   [MemPack to N64 Uploader v1.0](/n64/tools/mempack_to_n64_uploader) | `1999-10-13` | "Destop of Crazy Nation"                 |
+| Program                            | Build date   | Source                                   |
+|:---------------------------------- |:------------ |:---------------------------------------- |
+| **[DexPlorer v1.10.950][]          | `1999-01-05` | Datel/InterAct                           |
+|   [Dex2Save][]                     | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
+|   [MemPack Save Converter v1.0][]  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
+|   [MemPack to N64 Uploader v1.0][] | `1999-10-13` | "Destop of Crazy Nation"                 |
+|   [64Scener Tools][]               | -            | [64Scener mirror][]                      |
+
+[DexPlorer v1.10.950]:          /n64/tools/dexdrive/dexplorer_v1.10.950
+[Dex2Save]:                     /n64/tools/dexdrive/dex2save
+[MemPack Save Converter v1.0]:  /n64/tools/dexdrive/mempack_save_converter
+[MemPack to N64 Uploader v1.0]: /n64/tools/dexdrive/mempack_to_n64_uploader
+[64Scener mirror]:              http://n64.icequake.net/mirror/64scener.parodius.com
 
 ### N64 DexDrive manuals
 
