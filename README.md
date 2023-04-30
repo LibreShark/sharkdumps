@@ -431,7 +431,7 @@ See https://tcrf.net/GB_Hunter
 
 | Program                            | Build date   | Source                                   |
 |:---------------------------------- |:------------ |:---------------------------------------- |
-| **[DexPlorer v1.10.950][]          | `1999-01-05` | Datel/InterAct                           |
+| **[DexPlorer v1.10.950][]**        | `1999-01-05` | Datel/InterAct                           |
 |   [Dex2Save][]                     | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
 |   [MemPack Save Converter v1.0][]  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
 |   [MemPack to N64 Uploader v1.0][] | `1999-10-13` | "Destop of Crazy Nation"                 |
