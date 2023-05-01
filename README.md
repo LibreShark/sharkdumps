@@ -470,12 +470,10 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
-<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-200.png" width="200" alt=""></a>
-
 ### N64 DexDrive software
 
-<a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
-<a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
+<a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
+<a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
 
 | Program                            | Build date   | Source                                   |
 |:---------------------------------- |:------------ |:---------------------------------------- |
@@ -500,6 +498,12 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 - [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
 - [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+
+### N64 box art
+
+_Photographed by @CheatoBaggins_
+
+<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-200.png" width="200" alt=""></a>
 
 ---
 
