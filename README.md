@@ -274,6 +274,10 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
+### N64 GameShark box art
+
+<a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a><a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
+
 ## N64 Action Replay (EU)
 
 | Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
