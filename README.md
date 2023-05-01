@@ -32,8 +32,11 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 ## N64 GameShark (NA)
 
-<a href="/assets/photos/n64-gs-2.x-front-2400.png"><img src="/assets/photos/n64-gs-2.x-front-256.png" alt="Photo of the front of a GameShark v2.x"></a>
-<a href="/assets/photos/n64-gs-2.x-rear-1400.png"><img src="/assets/photos/n64-gs-2.x-rear-256.png" alt="Photo of the back of a GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.x-front-2400x2000.png"><img src="/assets/photos/n64-gs-2.x-front-200.png" alt="Front side of a typical GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.00-black-front-2600x2000.png"><img src="/assets/photos/n64-gs-2.00-black-front-200.png" alt="Front side of a black GameShark v2.0"></a>
+
+<a href="/assets/photos/n64-gs-2.x-rear-1400x1000.png"><img src="/assets/photos/n64-gs-2.x-rear-200.png" alt="Back side of a typical GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.00-black-rear-3000x2200.png"><img src="/assets/photos/n64-gs-2.00-black-rear-200.png" alt="Back side of a black GameShark v2.0"></a>
 
 ### N64 GameShark screenshots
 
