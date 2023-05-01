@@ -43,6 +43,15 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 <a href="/assets/photos/n64-gs-3.30-full-rear-3000x2200.png"><img src="/assets/photos/n64-gs-3.30-full-rear-200.png" alt="Back side of a full GameShark v3.3"></a>
 <a href="/assets/photos/n64-gs-3.30-neutered-rear-3000x2200.png"><img src="/assets/photos/n64-gs-3.30-neutered-rear-200.png" alt="Back side of a neutered GameShark v3.3"></a>
 
+### N64 GameShark PCBs
+
+_Expertly traced in CAD by @RWeick_
+
+<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1080x752.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1080x752.png"  width="200">
+
+- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (Datel's original design)
+- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (@RWeick's optimized design)
+
 ### N64 GameShark screenshots
 
 _Captured by @CheatoBaggins_
@@ -108,15 +117,6 @@ _Captured by @CheatoBaggins_
 <img alt="Screenshot of the main menu from an N64 GameShark Pro v3.10 (1999-06-09)"
      src="/n64/firmware/screenshots/gameshark/n64-gspro-3.10-19990609-screenshot-02-main-menu.png"
      width="200">
-
-### N64 GameShark PCBs
-
-_Expertly traced in CAD by @RWeick_
-
-<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1080x752.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1080x752.png"  width="200">
-
-- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (Datel's original design)
-- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (@RWeick's optimized design)
 
 ### N64 GameShark firmware
 
@@ -310,6 +310,14 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 <a href="/assets/photos/n64-xplorer64-rear-3400x2200.png"><img src="/assets/photos/n64-xplorer64-rear-200.png" alt="Back side of an Xplorer 64"></a>
 <a href="/assets/photos/n64-xplorer64-top-3400x1400.png"><img src="/assets/photos/n64-xplorer64-top-200.png" alt="Top side of an Xplorer 64"></a>
 
+### Xplorer 64 PCBs
+
+_Expertly traced in CAD by @RWeick_
+
+<img src="/assets/photos/xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
+
+- [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
+
 ### Xplorer 64 screenshots
 
 _Captured by @CheatoBaggins_
@@ -341,14 +349,6 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
      alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
      width="200">
-
-### Xplorer 64 PCBs
-
-_Expertly traced in CAD by @RWeick_
-
-<img src="/assets/photos/xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
-
-- [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
 ### Xplorer 64 firmware
 
