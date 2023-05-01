@@ -375,6 +375,10 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 ## N64 GB Hunter (NA)
 
+<a href="/assets/photos/n64-gb-hunter-front-2800x2400.png"><img src="/assets/photos/n64-gb-hunter-front-200.png" width="200" alt=""></a>
+<a href="/assets/photos/n64-gb-hunter-rear-3200x2200.png"><img src="/assets/photos/n64-gb-hunter-rear-200.png" width="200" alt=""></a>
+<a href="/assets/photos/n64-gb-hunter-top-3400x1200.png"><img src="/assets/photos/n64-gb-hunter-top-200.png" width="200" alt=""></a>
+
 ### GB Hunter screenshots
 
 _Captured by @CheatoBaggins_
