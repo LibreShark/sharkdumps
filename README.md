@@ -276,7 +276,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### N64 GameShark box art
 
-<a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a><a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
+<a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
+<a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
 
 ## N64 Action Replay (EU)
 
@@ -292,8 +293,10 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ## N64 Xplorer 64 (EU)
 
-<a href="/assets/photos/xplorer64-green-front-3328.png"><img src="/assets/photos/xplorer64-green-front-256.png" alt="Xplorer 64 (green label) front photo"></a>
-<a href="/assets/photos/xplorer64-orange-front-3328.png"><img src="/assets/photos/xplorer64-orange-front-256.png" alt="Xplorer 64 (orange label) front photo"></a>
+<a href="/assets/photos/n64-xplorer64-green-front-3328.png"><img src="/assets/photos/n64-xplorer64-green-front-200.png" alt="Front side of an Xplorer 64 (green label)"></a>
+<a href="/assets/photos/n64-xplorer64-orange-front-3328.png"><img src="/assets/photos/n64-xplorer64-orange-front-200.png" alt="Front side of an Xplorer 64 (orange label)"></a>
+<a href="/assets/photos/n64-xplorer64-rear-3400x2200.png"><img src="/assets/photos/n64-xplorer64-rear-200.png" alt="Back side of an Xplorer 64"></a>
+<a href="/assets/photos/n64-xplorer64-top-3400x1400.png"><img src="/assets/photos/n64-xplorer64-top-200.png" alt="Top side of an Xplorer 64"></a>
 
 ### Xplorer 64 screenshots
 
@@ -459,8 +462,8 @@ See https://tcrf.net/GB_Hunter
 
 ### N64 DexDrive software
 
-<a href="/assets/photos/dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
-<a href="/assets/photos/dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/dexdrive-floppy-disk-2of2-256.png" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
+<a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
+<a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
 
 | Program                            | Build date   | Source                                   |
 |:---------------------------------- |:------------ |:---------------------------------------- |
