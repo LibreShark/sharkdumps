@@ -30,6 +30,8 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
         We have not yet confirmed whether the games, cheats, and preferences are original or user-modified, so the dump is assumed to be dirty until proven otherwise.
     - `?` = We have not yet acquired a cart to dump the firmware.
 
+---
+
 ## N64 GameShark (NA)
 
 <a href="/assets/photos/n64-gs-2.x-front-2400x2000.png"><img src="/assets/photos/n64-gs-2.x-front-200.png" alt="Front side of a typical GameShark v2.x"></a>
@@ -285,6 +287,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
 
+---
+
 ## N64 Action Replay (EU)
 
 | Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
@@ -296,6 +300,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [`ar-1.11-19980415.bin`]:   /n64/firmware/ar-1.11-19980415.bin
 [`arpro-3.0-19990324.bin`]: /n64/firmware/arpro-3.0-19990324.bin
 [`arpro-3.3-20000418.bin`]: /n64/firmware/arpro-3.3-20000418.bin
+
+---
 
 ## N64 Xplorer 64 (EU)
 
@@ -372,6 +378,8 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 - [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
+
+---
 
 ## N64 GB Hunter (NA)
 
@@ -467,6 +475,8 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 ![Screenshot of the N64 Game Booster splash screen](https://tcrf.net/images/b/ba/GameBooster-title.png)
 
 See https://tcrf.net/GB_Hunter
+
+---
 
 ## N64 DexDrive
 
