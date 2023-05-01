@@ -509,11 +509,11 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 - [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
 - [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
 
-### N64 box art
+### N64 DexDrive box art
 
 _Photographed by @CheatoBaggins_
 
-<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-200.png" width="200" alt=""></a>
+<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-600x353.png" width="600" alt=""></a>
 
 ---
 
