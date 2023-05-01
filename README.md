@@ -531,7 +531,9 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 _Traced by @CheatoBaggins_
 
-<img src="/assets/logos/interact-logo-rect-3000x843.png" width="300" alt="InterAct logo rectangular"><img src="/assets/logos/gameshark-logo-n64-600x400.png" width="300" alt="N64 GameShark logo circa 1998"><a href="/assets/logos/gameshark-logo-gba-4000x3000.png"><img src="/assets/logos/gameshark-logo-gba-600x450.png" width="300" alt="GameShark logo circa 2003"></a>
+<img src="/assets/logos/interact-logo-rect-3000x843.png" width="300" alt="InterAct logo rectangular">
+
+<img src="/assets/logos/gameshark-logo-n64-600x400.png" width="300" alt="N64 GameShark logo circa 1998"><a href="/assets/logos/gameshark-logo-gba-4000x3000.png"><img src="/assets/logos/gameshark-logo-gba-600x450.png" width="300" alt="GameShark logo circa 2003"></a>
 
 ---
 
