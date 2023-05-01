@@ -480,6 +480,8 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
+<a href="/assets/photos/n64-dexdrive-hardware-480.png"><img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64"></a>
+
 ### N64 DexDrive software
 
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
