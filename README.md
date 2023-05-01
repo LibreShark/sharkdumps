@@ -521,6 +521,16 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 - Cheats 'N Codes    • [PDF (original)](/dc/manuals/dc_cheats_n_codes.pdf)
 - GameShark CDX v3.3 • [PDF (original)](/dc/manuals/dc_gameshark_cdx_v3.3_oem.pdf) • [PDF (OCR)](/dc/manuals/dc_gameshark_cdx_v3.3_ocr.pdf)
 
+---
+
+## Logos
+
+<a href="/assets/logos/gameshark-logo-gba-4000x3000.png"><img src="/assets/logos/gameshark-logo-gba-600x450.png" width="200" alt="GameShark logo circa 2003"></a>
+<img src="/assets/logos/gameshark-logo-n64-600x400.png" width="200" alt="N64 GameShark logo circa 1998">
+<img src="/assets/logos/interact-logo-rect-3000x843.png" width="200" alt="InterAct logo rectangular">
+
+---
+
 ## Credits
 
 This project is the result of many years of hard work and brilliant insight from some _amazing_ hackers.
