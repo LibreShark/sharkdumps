@@ -314,7 +314,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 _Expertly traced in CAD by @RWeick_
 
-<img src="/assets/photos/xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
+<img src="/assets/photos/n64-xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
 
 - [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
