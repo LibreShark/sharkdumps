@@ -470,6 +470,8 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
+<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-200.png" width="200" alt=""></a>
+
 ### N64 DexDrive software
 
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
