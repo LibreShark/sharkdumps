@@ -120,7 +120,7 @@ _Expertly traced in CAD by @RWeick_
 
 _Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
 
-N64 GameShark "ROMs" contain the not only the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
+N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
