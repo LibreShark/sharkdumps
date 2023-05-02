@@ -192,7 +192,9 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 [![N64 GameShark v1.09 manual thumbnail](/n64/manuals/thumbs/gs-v1.09-manual-p1.png)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
+[![N64 GameShark v2.10 manual thumbnail](/n64/manuals/thumbs/gs-v2.10-manual-p1.png)](/n64/manuals/n64_gameshark_pro_v2.10_manual_ocr.pdf)
 [![N64 GameShark v3.20 manual thumbnail](/n64/manuals/thumbs/gs-v3.20-manual-p1.png)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
+[![N64 GameShark PC Utils manual thumbnail](/n64/manuals/thumbs/gs-utils-manual-p1.png)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
 The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
