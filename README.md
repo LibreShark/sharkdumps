@@ -1,8 +1,19 @@
 # SharkDumps
 
-Collection of all known firmware/ROM/software dumps for retro video game enhancers (GameShark, Action Replay, Code Breaker, etc.).
-
 ![Dump truck icon](/assets/icons/dump-truck-256.png)
+
+This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s: GameShark, Action Replay, Xplorer 64, Code Breaker, DexDrive, etc.
+
+Specifically, we document:
+
+1. EEPROM firmware dumps
+2. PCB schematics
+3. Software utilities
+4. Instruction manuals
+5. Photos
+6. Box art
+
+We welcome contributions! If you have firmware, schematics, photos, etc. that are not yet documented here, please create a pull request! 😀
 
 ## Legend
 
@@ -19,59 +30,99 @@ Collection of all known firmware/ROM/software dumps for retro video game enhance
         We have not yet confirmed whether the games, cheats, and preferences are original or user-modified, so the dump is assumed to be dirty until proven otherwise.
     - `?` = We have not yet acquired a cart to dump the firmware.
 
-## N64 GameShark (US)
+---
 
-![GameShark v2.x front photo](/assets/photos/gs2x-front-256.png) ![GameShark v2.x rear photo](/assets/photos/gs2x-rear-256.png)
+## N64 GameShark (NA)
+
+<a href="/assets/photos/n64-gs-2.x-front-2400x2000.png"><img src="/assets/photos/n64-gs-2.x-front-200.png" alt="Front side of a typical GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.00-black-front-2600x2000.png"><img src="/assets/photos/n64-gs-2.00-black-front-200.png" alt="Front side of a black GameShark v2.0"></a>
+<a href="/assets/photos/n64-gs-3.30-full-front-2600x2000.png"><img src="/assets/photos/n64-gs-3.30-full-front-200.png" alt="Front side of a full GameShark v3.3"></a>
+<a href="/assets/photos/n64-gs-3.30-neutered-front-2600x2000.png"><img src="/assets/photos/n64-gs-3.30-neutered-front-200.png" alt="Front side of a neutered GameShark v3.3"></a>
+<a href="/assets/photos/n64-gs-2.x-rear-1400x1000.png"><img src="/assets/photos/n64-gs-2.x-rear-200.png" alt="Back side of a typical GameShark v2.x"></a>
+<a href="/assets/photos/n64-gs-2.00-black-rear-3000x2200.png"><img src="/assets/photos/n64-gs-2.00-black-rear-200.png" alt="Back side of a black GameShark v2.0"></a>
+<a href="/assets/photos/n64-gs-3.30-full-rear-3000x2200.png"><img src="/assets/photos/n64-gs-3.30-full-rear-200.png" alt="Back side of a full GameShark v3.3"></a>
+<a href="/assets/photos/n64-gs-3.30-neutered-rear-3000x2200.png"><img src="/assets/photos/n64-gs-3.30-neutered-rear-200.png" alt="Back side of a neutered GameShark v3.3"></a>
+
+### N64 GameShark PCBs
+
+_Expertly traced in CAD by @RWeick_
+
+<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1080x752.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1080x752.png"  width="200">
+
+- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (Datel's original design)
+- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (@RWeick's optimized design)
 
 ### N64 GameShark screenshots
 
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
+_Captured by @CheatoBaggins_
+
+<img alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v1.07 (1997-11-07)"
+<img alt="Screenshot of the splash screen from an N64 GameShark v1.07 (1997-11-07)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-01-splash-screen.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
-     alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
+<img alt="Screenshot of the splash screen from an N64 GameShark v2.50 (xxxx-05-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the splash screen from an N64 GameShark Pro v3.00 (1999-04-01)"
+     src="/n64/firmware/screenshots/gameshark/n64-gspro-3.00-19990401-screenshot-01-splash-screen.png"
      width="200">
 
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.04 (1997-08-19)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.04 (1997-08-19)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.04-19970819-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-05)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.05 (1997-09-05)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970905-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.06 (1997-09-19)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.06-19970919-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.07 (1997-11-07)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.07 (1997-11-07)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.07-19971107-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-11-24)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-11-24)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971124-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-12-08)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.08 (1997-12-08)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.08-19971208-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
+<img alt="Screenshot of the main menu from an N64 GameShark v1.09 (1998-01-05)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-1.09-19980105-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
+<img alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-03-05)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980305-screenshot-02-main-menu.png"
      width="200">
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
-     alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
+<img alt="Screenshot of the main menu from an N64 GameShark v2.00 (1998-04-06)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.00-19980406-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark v2.10 (1998-08-25)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.10-19980825-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark v2.21 (1998-12-18)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.21-19981218-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark v2.50 (xxxx-05-04)"
+     src="/n64/firmware/screenshots/gameshark/n64-gs-2.50-xxxx0504-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark Pro v3.00 (1999-04-01)"
+     src="/n64/firmware/screenshots/gameshark/n64-gspro-3.00-19990401-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 GameShark Pro v3.10 (1999-06-09)"
+     src="/n64/firmware/screenshots/gameshark/n64-gspro-3.10-19990609-screenshot-02-main-menu.png"
      width="200">
 
 ### N64 GameShark firmware
 
-N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, so dumping or reflashing a GameShark will also dump/overwrite the user's cheat list and settings as well.
+_Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
+
+N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
@@ -131,6 +182,8 @@ N64 GameShark "ROMs" contain the firmware, cheat list, _and_ user preferences, s
 
 ### N64 GameShark manuals
 
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
+
 [![N64 GameShark v1.09 manual thumbnail](/n64/manuals/thumbs/gs-v1.09-manual-p1.png)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
 [![N64 GameShark v3.20 manual thumbnail](/n64/manuals/thumbs/gs-v3.20-manual-p1.png)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
 
@@ -147,6 +200,8 @@ The Markdown versions have been transcribed as faithfully to the original printe
 - [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
 ### N64 _How To Hack Like A Pro_ VHS tapes
+
+_Captured and encoded by @CheatoBaggins_
 
 <img alt="Photo of VHS tape"
      src="n64/vhs/n64_gspro_vhs_tape.jpg"
@@ -227,7 +282,14 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
-## N64 Action Replay (UK)
+### N64 GameShark box art
+
+<a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
+<a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
+
+---
+
+## N64 Action Replay (EU)
 
 | Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
 |:---------------------------- |:------- |:------------------ | ----:| ----:|:------:|
@@ -239,59 +301,165 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [`arpro-3.0-19990324.bin`]: /n64/firmware/arpro-3.0-19990324.bin
 [`arpro-3.3-20000418.bin`]: /n64/firmware/arpro-3.3-20000418.bin
 
-## N64 DexDrive
+---
 
-[![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+## N64 Xplorer 64 (EU)
 
-- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
-- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+<a href="/assets/photos/n64-xplorer64-green-front-3328.png"><img src="/assets/photos/n64-xplorer64-green-front-200.png" alt="Front side of an Xplorer 64 (green label)"></a>
+<a href="/assets/photos/n64-xplorer64-orange-front-3328.png"><img src="/assets/photos/n64-xplorer64-orange-front-200.png" alt="Front side of an Xplorer 64 (orange label)"></a>
+<a href="/assets/photos/n64-xplorer64-rear-3400x2200.png"><img src="/assets/photos/n64-xplorer64-rear-200.png" alt="Back side of an Xplorer 64"></a>
+<a href="/assets/photos/n64-xplorer64-top-3400x1400.png"><img src="/assets/photos/n64-xplorer64-top-200.png" alt="Top side of an Xplorer 64"></a>
 
-## N64 GB Hunter
+### Xplorer 64 PCBs
+
+_Expertly traced in CAD by @RWeick_
+
+<img src="/assets/photos/n64-xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
+
+- [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
+
+### Xplorer 64 screenshots
+
+_Captured by @CheatoBaggins_
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
+     alt="Screenshot of the Future Console Design logo mid-animation from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
+     alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
+     alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
+     alt="Screenshot of the main menu from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
+     alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
+     alt="Screenshot of the 'Colors' screen from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
+     alt="Screenshot of the game list from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
+     alt="Screenshot of the Zelda OoT cheats from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
+     alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
+     width="200">
+
+### Xplorer 64 firmware
+
+_Dumped by @RWeick and @danhans42_
+
+| Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
+|:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
+| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067e` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067g` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+
+[`xp64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xp64-v1.000e-b1834-19990816-green.enc
+[`xp64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xp64-v1.067e-b2510-19991123.bin
+[`xp64-v1.067g-b1930-19991124.bin`]:        /n64/firmware/xp64-v1.067g-b1930-19991124.bin
+[`xp64-v1.067e-b2515-20000505-orange.enc`]: /n64/firmware/xp64-v1.067e-b2515-20000505-orange.enc
+
+[^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
+[^b2510]: Plain **unencrypted** firmware update file from Blaze.
+[^b1930]: Plain **unencrypted** firmware update file from Blaze.
+[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
+
+### Xplorer 64 software
+
+* [X-Killer](/n64/tools/xplorer64/x-killer_v060.zip)
+* [Xplorer 64 PC update utility (German)](/n64/tools/xplorer64/xp64_1067g.zip)
+
+### Xplorer 64 manuals
+
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
+
+- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
+    - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
+
+---
+
+## N64 GB Hunter (NA)
+
+<a href="/assets/photos/n64-gb-hunter-front-2800x2400.png"><img src="/assets/photos/n64-gb-hunter-front-200.png" width="200" alt=""></a>
+<a href="/assets/photos/n64-gb-hunter-rear-3200x2200.png"><img src="/assets/photos/n64-gb-hunter-rear-200.png" width="200" alt=""></a>
+<a href="/assets/photos/n64-gb-hunter-top-3400x1200.png"><img src="/assets/photos/n64-gb-hunter-top-200.png" width="200" alt=""></a>
 
 ### GB Hunter screenshots
 
+_Captured by @CheatoBaggins_
+
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-01-splash-copyright.png"
-     alt="" width="200">
+     alt="Screenshot of the splash screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-03-loading.png"
-     alt="" width="200">
+     alt="Screenshot of the loading screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-04-warioland2-splash.png"
-     alt="" width="200">
+     alt="Screenshot of the Wario Land II splash screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-06-warioland2-2coins.png"
-     alt="" width="200">
+     alt="Screenshot of Wario with 2 coins in Wario Land II from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-07-pause-screen.png"
-     alt="" width="200">
+     alt="Screenshot of the pause screen from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-09-main-menu.png"
-     alt="" width="200">
+     alt="Screenshot of the main menu from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-19-blue-border.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II with a blue border from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-20-gradient-border.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II with a gradient border from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-22-custom-palette.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-29-game-list-p01.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-33-game-list-p05.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-39-game-list-p11.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-41-cheat-list-warioland1.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II with a custom palette from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-18-cheats-empty.png"
-     alt="" width="200">
+     alt="Screenshot of an empty 'Cheats' screen from an N64 GB Hunter"
+     width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-29-game-list-p01.png"
+     alt="Screenshot of the first page of the game list from an N64 GB Hunter"
+     width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-33-game-list-p05.png"
+     alt="Screenshot of the 5th page of the game list from an N64 GB Hunter"
+     width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-39-game-list-p11.png"
+     alt="Screenshot of the 11th page of the game list from an N64 GB Hunter"
+     width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-41-cheat-list-warioland1.png"
+     alt="Screenshot of the Wario Land cheat list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-16-trainer-eq.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-25-trainer-gt-184.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer with 184 results from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-27-trainer-gt-9.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer with 9 results from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-28-trainer-1-result.png"
-     alt="" width="200">
+     alt="Screenshot of the trainer with 1 result from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-42-active-cheats.png"
-     alt="" width="200">
+     alt="Screenshot of the active cheat list from an N64 GB Hunter"
+     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-43-cheats-in-use.png"
-     alt="" width="200">
+     alt="Screenshot of Wario Land II gameplay with cheats active from an N64 GB Hunter"
+     width="200">
 
 ### GB Hunter firmware
+
+_Dumped by @RWeick_
 
 | Filename                          | Version   | Build timestamp            | #G | #C | Clean? |
 |:--------------------------------- |:--------- |:-------------------------- | --:| --:|:------:|
@@ -301,65 +469,106 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 ### GB Hunter manual
 
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
+
 [![N64 GB Hunter manual thumbnail](/n64/manuals/thumbs/gb-hunter-manual-p1.png)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
 - [GB Hunter manual](/n64/manuals/n64_gb_hunter_manual.md) • [PDF (OCR)](/n64/manuals/n64_gb_hunter_manual_ocr.pdf)
 
-## N64 Xplorer 64 (EU)
+## N64 Game Booster (EU)
 
-![Xplorer 64 (green label) front photo](/assets/photos/xplorer64-green-front-256.png) ![Xplorer 64 (orange label) rear photo](/assets/photos/xplorer64-orange-front-256.png)
+![Screenshot of the N64 Game Booster splash screen](https://tcrf.net/images/b/ba/GameBooster-title.png)
 
-### Xplorer 64 screenshots
-
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
-     alt="" width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
-     alt="" width="200">
-
-### Xplorer 64 firmware
-
-| Filename                                             | Version   | Build  | Build timestamp       | #G | #C | Clean? |
-|:---------------------------------------------------- |:--------- | ------:|:--------------------- | --:| --:|:------:|
-| [`xp64-green-v1.000e-b1834-19990816.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59` |  ? |  ? | ⚠️      |
-| [`xp64-orange-v1.067e-b2515-20000505.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59` |  ? |  ? | ⚠️      |
-| [`xp64-update-v1.067e-b2510-2000xxxx.bin`][][^b2510] | `v1.067e` | `2510` | `2000-xx-xxTxx:xx:xx` |  ? |  ? | ⚠️      |
-
-[`xp64-green-v1.000e-b1834-19990816.enc`]: /n64/firmware/xp64-green-v1.000e-b1834-19990816.enc
-[`xp64-orange-v1.067e-b2515-20000505.enc`]: /n64/firmware/xp64-orange-v1.067e-b2515-20000505.enc
-[`xp64-update-v1.067e-b2510-2000xxxx.bin`]: /n64/firmware/xp64-update-v1.067e-b2510-2000xxxx.bin
-
-[^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
-[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
-[^b2510]: Plain **unencrypted** firmware update file from Blaze.
-
-### Xplorer 64 manuals
-
-- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
-- [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
-    - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
+See https://tcrf.net/GB_Hunter
 
 ---
 
-## Game Boy
+## N64 DexDrive
 
-### GB device manuals
+<a href="/assets/photos/n64-dexdrive-hardware-480.png"><img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64"></a>
 
-- GameShark for Game Boy Pocket & Color            • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
-- Mega Memory Card for Game Boy and Game Boy Color • [PDF (original)](/gb/manuals/gb_mega_memory.pdf)
+### N64 DexDrive software
+
+<a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
+<a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
+
+| Program                       | Build date   | Author                                   |
+|:----------------------------- |:------------ |:---------------------------------------- |
+| **[DexPlorer v1.10.950][]**   | `1999-01-05` | Datel/InterAct                           |
+|   [DexPlorer v2.00.902][]     | `2000-01-24` | Datel/InterAct                           |
+|   [Dex2Save][]                | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
+|   [MemPack Save Converter][]  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
+|   [MemPack to N64 Uploader][] | `1999-10-13` | "Destop of Crazy Nation"                 |
+|   [64Scener Tools][]          | -            | [64Scener mirror][]                      |
+
+[DexPlorer v1.10.950]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_200.902_at-2000-01-24.zip
+[DexPlorer v2.00.902]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_110.950_at-1999-01-05.zip
+[Dex2Save]:                /n64/tools/dexdrive/dex2save
+[MemPack Save Converter]:  /n64/tools/dexdrive/mempack_save_converter
+[MemPack to N64 Uploader]: /n64/tools/dexdrive/mempack_to_n64_uploader
+[64Scener Tools]:          /n64/tools/dexdrive/misc
+[64Scener mirror]:         http://n64.icequake.net/mirror/64scener.parodius.com
+
+### N64 DexDrive manuals
+
+_Scanned, OCR'd, and transcribed by @CheatoBaggins_
+
+[![N64 DexDrive manual thumbnail](/n64/manuals/thumbs/dexdrive-manual-p2.png)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+
+- [DexDrive manual (digital)](/n64/manuals/n64_dexdrive_manual_digital.md) • [PDF (original)](/n64/manuals/n64_dexdrive_manual_digital.pdf)
+- [DexDrive manual (printed)](/n64/manuals/n64_dexdrive_manual_printed.md) • [PDF (OCR)](/n64/manuals/n64_dexdrive_manual_printed_ocr.pdf)
+
+### N64 DexDrive box art
+
+_Photographed by @CheatoBaggins_
+
+<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-600x353.png" width="600" alt=""></a>
+
+---
+
+## GB GameShark (NA)
+
+For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Advance (GBA).
+
+- GameShark for Game Boy Pocket & Color • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
+
+---
+
+## GB Shark MX
+
+_Dumped by @RWeick_
+
+| Filename                                  | Version | Build date | Flash chip         | Clean? |
+|:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
+| [`gb-shark-mx-v1.02-1998-pristine.bin`][] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
+
+[`gb-shark-mx-v1.02-1998-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-1998-pristine.bin
+
+From https://gameshark-mx.blogspot.com/:
+
+**REG code: `SHGGGGGGGGGGGGGQ`**
+
+---
+
+## GB Mega Memory Card
+
+For Game Boy and Game Boy Color.
+
+- Mega Memory Card manual • [PDF (original)](/gb/manuals/gb_mega_memory.pdf)
+
+---
+
+## GBA TV Tuner
+
+_Dumped by @RWeick_
+
+Made by Pelican. More information on the [Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner).
+
+| Filename                                          | Version | Build date | Flash chip           | Clean? |
+|:------------------------------------------------- |:------- |:---------- |:-------------------- |:------:|
+| [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | `MBM29LV400TCTSOP48` | ? |
+
+[`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gb/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
 
 ---
 
@@ -390,3 +599,27 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 - Cheats 'N Codes    • [PDF (original)](/dc/manuals/dc_cheats_n_codes.pdf)
 - GameShark CDX v3.3 • [PDF (original)](/dc/manuals/dc_gameshark_cdx_v3.3_oem.pdf) • [PDF (OCR)](/dc/manuals/dc_gameshark_cdx_v3.3_ocr.pdf)
+
+---
+
+## Logos
+
+_Traced by @CheatoBaggins_
+
+<img src="/assets/logos/interact-logo-rect-3000x843.png" width="300" alt="InterAct logo rectangular">
+
+<img src="/assets/logos/n64-gameshark-pro-logo-blue-2200x1400.png" width="300" alt="N64 GameShark logo (blue text)"><img src="/assets/logos/n64-gameshark-pro-logo-red-2200x1400.png" width="300" alt="N64 GameShark logo (red text)"><a href="/assets/logos/gameshark-logo-gba-4000x3000.png"><img src="/assets/logos/gameshark-logo-gba-600x450.png" width="300" alt="GameShark logo circa 2003"></a>
+
+---
+
+## Credits
+
+This project is the result of many years of hard work and brilliant insight from some _amazing_ hackers.
+It would not be possible without them!
+
+Most notably, we wish to thank:
+
+- @Parasyte - Legendary GameShark hacker and OG N64 reverse engineer
+- @RWeick - Crazy-talented Kaminoan cloner of PCBs
+
+_If you feel that someone is missing from this list, please submit a PR to add them!_ 😀

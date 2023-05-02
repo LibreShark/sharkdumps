@@ -1,0 +1,15 @@
+[submodule "n64/pcbs/n64-gs-ref1329-clone"]
+	path = n64/pcbs/n64-gs-ref1329-clone
+	url = https://github.com/RWeick/REF1329-N64-Gameshark-Clone
+[submodule "n64/pcbs/n64-gs-ref1329-fork"]
+	path = n64/pcbs/n64-gs-ref1329-fork
+	url = https://github.com/RWeick/N64-Gameshark-Pro-REF1329
+[submodule "n64/pcbs/n64-xp64-clone"]
+	path = n64/pcbs/n64-xp64-clone
+	url = https://github.com/RWeick/FCD-0003.1S-Xplorer64
+[submodule "n64/pcbs/n64-controller-7000-clone"]
+	path = n64/pcbs/n64-controller-7000-clone
+	url = https://github.com/RWeick/N64-Controller-CFS8120-700010
+[submodule "n64/pcbs/n64-controller-2000-clone"]
+	path = n64/pcbs/n64-controller-2000-clone
+	url = https://github.com/RWeick/N64-Controller-CFS8120-200010-00
