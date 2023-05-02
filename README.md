@@ -3,7 +3,7 @@
 ![Dump truck icon](/assets/icons/dump-truck-256.png)
 
 This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s:
-GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuner, etc.
+GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuners, etc.
 
 Specifically, we document:
 

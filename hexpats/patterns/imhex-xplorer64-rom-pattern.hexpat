@@ -200,6 +200,7 @@ struct HeaderSection {
     char website[] @ 0x940;
 
     double versionNumber = parse_float(versionStr);
+    double buildNumber = parse_int(buildStr);
 };
 
 /*******************************************************************************
