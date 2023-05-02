@@ -306,6 +306,15 @@ struct Cheat {
     char name[];
     u8 codeCount [[COLOR_LOWLIGHT]];
     Code codes[codeCount];
+} [[format_read("format_cheat")]];
+
+fn format_cheat(Cheat cheat) {
+    return std::format(
+        "{} ({} {})",
+        cheat.name,
+        cheat.codeCount,
+        cheat.codeCount == 1 ? "code" : "codes"
+        );
 };
 
 struct Game {
