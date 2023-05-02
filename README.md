@@ -555,6 +555,10 @@ _Dumped by @RWeick_
 <a href="/assets/photos/gbc-shark-mx-box-front-2574x2944.png"><img src="/assets/photos/gbc-shark-mx-box-front-200.png" width="200" alt=""></a>
 <a href="/assets/photos/gbc-shark-mx-box-rear-2574x2944.png"><img src="/assets/photos/gbc-shark-mx-box-rear-200.png" width="200" alt=""></a>
 
+To view the contents of the ROM dumps, use our [GB Shark MX ROM hexpattern](/hexpats/patterns/imhex-gb-shark-mx-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+![Screenshot of ImHex viewing a GB Shark MX ROM file](/gb/firmware/screenshots/gb-shark-mx-imhex-pattern-2672x1527.png)
+
 | Filename                                  | Version | Build date | Flash chip         | Clean? |
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
 | [`gb-shark-mx-v1.02-2000-pristine.bin`][] | `v1.02` | `2000`     | `SST39SF020PLCC32` | ⭐️ |
