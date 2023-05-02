@@ -1,14 +1,12 @@
 /*!
- * ImHex pattern for N64 GameShark ROM files (firmware dumps).
- * Supports all known GameShark firmware versions
- * (tested on v1.02 through v3.30).
+ * ImHex pattern for Game Boy "Shark MX" firmware dumps.
  *
  * @author CheatoBaggins <cheatobaggins@gmail.com>
- * @date 2023-04-26
+ * @date 2023-05-04
  * @license MIT
  */
 
-#pragma MIME application/x-n64-gameshark-rom
+#pragma MIME application/x-gb-shark-mx-rom
 
 #include <type/magic.pat>
 #include <type/size.pat>
