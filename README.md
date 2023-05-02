@@ -529,11 +529,13 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 ## GB Shark MX
 
+From https://gameshark-mx.blogspot.com/:
+
 **REG code: `SHGGGGGGGGGGGGGQ`**
 
-| Filename                                | Version | Build date | Flash chip         | Clean? |
-|:--------------------------------------- |:------- |:---------- |:------------------ |:------:|
-| [`gb-shark-mx-v1.02-1998-pristine.bin`] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
+| Filename                                  | Version | Build date | Flash chip         | Clean? |
+|:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
+| [`gb-shark-mx-v1.02-1998-pristine.bin`][] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
 
 [`gb-shark-mx-v1.02-1998-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-1998-pristine.bin
 
@@ -544,6 +546,18 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 For Game Boy and Game Boy Color.
 
 - Mega Memory Card manual • [PDF (original)](/gb/manuals/gb_mega_memory.pdf)
+
+---
+
+## GBA TV Tuner
+
+Made by Pelican. More information on the [Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner).
+
+| Filename                                          | Version | Build date | Flash chip           | Clean? |
+|:------------------------------------------------- |:------- |:---------- |:-------------------- |:------:|
+| [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | `MBM29LV400TCTSOP48` | ? |
+
+[`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gb/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
 
 ---
 
