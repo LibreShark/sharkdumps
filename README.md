@@ -125,6 +125,12 @@ _Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
 
 N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
+N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark). **NOTE:** As of 2023-05-02, the Sanni does _not_ yet support GameShark v1.08 and earlier hardware, which use different EEPROM chips. @RWeick is working on a patch that will fix this problem and allow _all_ GameShark hardware to be read/written.
+
+To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/hexpats/patterns/imhex-n64-gsrom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png" width="200" alt="">
+
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
 |    `gs-1.01-xxxxxxxx.bin`[^v1.0x]            | `v1.01`       | _Unknown_          |     ?   |      ?   | ?      |
@@ -354,6 +360,10 @@ _Captured by @CheatoBaggins_
 ### Xplorer 64 firmware
 
 _Dumped by @RWeick and @danhans42_
+
+To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/n64/firmware/screenshots/xplorer64/n64-xp64-imhex-pattern-2672x1527.png" width="200" alt="">
 
 | Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
