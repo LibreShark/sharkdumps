@@ -129,7 +129,7 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
 
 To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/hexpats/patterns/imhex-n64-gsrom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-<img src="/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png" width="200" alt="">
+![Screenshot of ImHex viewing an N64 GameShark ROM file](/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png)
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
@@ -363,7 +363,7 @@ _Dumped by @RWeick and @danhans42_
 
 To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="200" alt="">
+![Screenshot of ImHex viewing an Xplorer 64 ROM file](/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png)
 
 | Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
