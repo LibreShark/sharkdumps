@@ -551,6 +551,10 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 _Dumped by @RWeick_
 
+<a href="/assets/photos/gbc-shark-mx-cart-1200x2000.png"><img src="/assets/photos/gbc-shark-mx-cart-200.png" width="200" alt=""></a>
+<a href="/assets/photos/gbc-shark-mx-box-front-2574x2944.png"><img src="/assets/photos/gbc-shark-mx-box-front-200.png" width="200" alt=""></a>
+<a href="/assets/photos/gbc-shark-mx-box-rear-2574x2944.png"><img src="/assets/photos/gbc-shark-mx-box-rear-200.png" width="200" alt=""></a>
+
 | Filename                                  | Version | Build date | Flash chip         | Clean? |
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
 | [`gb-shark-mx-v1.02-1998-pristine.bin`][] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
