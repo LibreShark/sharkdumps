@@ -546,7 +546,14 @@ _Dumped by @RWeick_
 
 From https://gameshark-mx.blogspot.com/:
 
-**REG code: `SHGGGGGGGGGGGGGQ`**
+> **Working Registration Codes:**
+>
+> - `SHGGGGGGGGGGGGGQ`
+> - `WTU69SSN6INIEFNP`
+> - `EPR6NNC4XB5YIDND`
+> - `ZIQD79DTJG58W875`
+> - `S5V5KI686BHFH5HJ`
+> - `7K5TBICAGSZSN4U9`
 
 ---
 
