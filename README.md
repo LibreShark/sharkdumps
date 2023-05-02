@@ -371,6 +371,11 @@ _Dumped by @RWeick and @danhans42_
 [^b1930]: Plain **unencrypted** firmware update file from Blaze.
 [^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
 
+### Xplorer 64 software
+
+* [X-Killer](/n64/tools/xplorer64/x-killer_v060.zip)
+* [Xplorer 64 PC update utility (German)](/n64/tools/xplorer64/xp64_1067g.zip)
+
 ### Xplorer 64 manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
