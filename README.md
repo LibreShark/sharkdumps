@@ -536,15 +536,17 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 ## GB Shark MX
 
-From https://gameshark-mx.blogspot.com/:
-
-**REG code: `SHGGGGGGGGGGGGGQ`**
+_Dumped by @RWeick_
 
 | Filename                                  | Version | Build date | Flash chip         | Clean? |
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
 | [`gb-shark-mx-v1.02-1998-pristine.bin`][] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
 
 [`gb-shark-mx-v1.02-1998-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-1998-pristine.bin
+
+From https://gameshark-mx.blogspot.com/:
+
+**REG code: `SHGGGGGGGGGGGGGQ`**
 
 ---
 
@@ -557,6 +559,8 @@ For Game Boy and Game Boy Color.
 ---
 
 ## GBA TV Tuner
+
+_Dumped by @RWeick_
 
 Made by Pelican. More information on the [Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner).
 
