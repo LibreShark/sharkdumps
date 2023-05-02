@@ -591,6 +591,9 @@ For Game Boy and Game Boy Color.
 
 _Dumped by @RWeick and @felixjones_
 
+<img src="/assets/photos/gba-pelican-tv-tuner-rev1-400.png" width="200" alt="">
+<img src="/assets/photos/gba-blaze-tv-tuner-ns-720.png" width="200" alt="">
+
 | Filename                                          | Version | Build date | Region      | Flash chip           | Clean? |
 |:------------------------------------------------- |:------- |:---------- |:----------- |:-------------------- |:------:|
 | [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | NTSC-M (US) | `MBM29LV400TCTSOP48` | ? |
@@ -604,6 +607,8 @@ More information:
 - [Pelican TV Tuner article from the Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner)
 - [Blaze TV Tuner dump: tweet from @felixjones on Twitter](https://twitter.com/Xilefian/status/1626322091141218306)
 - [Blaze TV Tuner dump: file from @felixjones on GitHub](https://gist.github.com/felixjones/ed8fab59b0d3bb08d6f07fa75bcfab47)
+- [IGN product review (2002-10-24)](https://www.ign.com/articles/2002/10/24/tv-tuner)
+- [YouTube: Playing Nintendo Switch on a Game Boy Advance](https://www.youtube.com/watch?v=IhZrvBU-q9s)
 
 ---
 
