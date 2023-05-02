@@ -591,7 +591,7 @@ For Game Boy and Game Boy Color.
 
 _Dumped by @RWeick and @felixjones_
 
-<img src="/assets/photos/gba-pelican-tv-tuner-rev1-400.png" width="200" alt=""><img src="/assets/photos/gba-blaze-tv-tuner-ns-720.png" width="200" alt=""><img src="/assets/photos/gba-blaze-tv-tuner-bare-533.png" width="200" alt="">
+<img src="/assets/photos/gba-pelican-tv-tuner-rev1-400.png" width="200" alt="">&nbsp;<img src="/assets/photos/gba-blaze-tv-tuner-bare-533.png" width="200" alt="">&nbsp;<img src="/assets/photos/gba-blaze-tv-tuner-ns-720.png" width="200" alt="">
 
 | Filename                                          | Version | Build date | Region      | Flash chip           | Clean? |
 |:------------------------------------------------- |:------- |:---------- |:----------- |:-------------------- |:------:|
