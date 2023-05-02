@@ -2,7 +2,8 @@
 
 ![Dump truck icon](/assets/icons/dump-truck-256.png)
 
-This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s: GameShark, Action Replay, Xplorer 64, Code Breaker, DexDrive, etc.
+This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s:
+GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuner, etc.
 
 Specifically, we document:
 
@@ -10,7 +11,7 @@ Specifically, we document:
 2. PCB schematics
 3. Software utilities
 4. Instruction manuals
-5. Photos
+5. Cartridge designs
 6. Box art
 
 We welcome contributions! If you have firmware, schematics, photos, etc. that are not yet documented here, please create a pull request! 😀
@@ -555,6 +556,15 @@ From https://gameshark-mx.blogspot.com/:
 > - `S5V5KI686BHFH5HJ`
 > - `7K5TBICAGSZSN4U9`
 
+More information:
+
+- [IGN product review (2000-09-14)](https://www.ign.com/articles/2000/09/15/shark-mx)
+- [NesDev forum post (2012-11-25)](https://forums.nesdev.org/viewtopic.php?t=9520)
+- [Shark MX overview](https://web.archive.org/web/20140416175758/www.bennvenn.com/mx.html)
+- [Datel MBC1 chip documentation](https://web.archive.org/web/20140416180028/http://www.bennvenn.com/Datel_MBC1.htm)
+- [Re-Programming the Shark MX](https://web.archive.org/web/20140416180029/http://bennvenn.com/Reprogramming_the_Shark_MX.htm)
+- [Technical details, chip datasheets, and software](https://web.archive.org/web/20140416175937/http://www.oocities.org/grinara/)
+
 ---
 
 ## GB Mega Memory Card
@@ -565,17 +575,23 @@ For Game Boy and Game Boy Color.
 
 ---
 
-## GBA TV Tuner
+## GBA TV Tuners
 
-_Dumped by @RWeick_
+_Dumped by @RWeick and @felixjones_
 
-Made by Pelican. More information on the [Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner).
-
-| Filename                                          | Version | Build date | Flash chip           | Clean? |
-|:------------------------------------------------- |:------- |:---------- |:-------------------- |:------:|
-| [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | `MBM29LV400TCTSOP48` | ? |
+| Filename                                          | Version | Build date | Region      | Flash chip           | Clean? |
+|:------------------------------------------------- |:------- |:---------- |:----------- |:-------------------- |:------:|
+| [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | NTSC-M (US) | `MBM29LV400TCTSOP48` | ? |
+| [`gba-blaze-tv-tuner-tvap-0.7z`]                  | ?       | ?          | PAL-? (EU)  | ?                    | ? |
 
 [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gb/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
+[`gba-blaze-tv-tuner-tvap-0.7z`]:                /gb/firmware/gba-blaze-tv-tuner-tvap-0.7z
+
+More information:
+
+- [Pelican TV Tuner article from the Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner)
+- [Blaze TV Tuner dump: tweet from @felixjones on Twitter](https://twitter.com/Xilefian/status/1626322091141218306)
+- [Blaze TV Tuner dump: file from @felixjones on GitHub](https://gist.github.com/felixjones/ed8fab59b0d3bb08d6f07fa75bcfab47)
 
 ---
 
