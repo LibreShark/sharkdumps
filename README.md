@@ -519,12 +519,31 @@ _Photographed by @CheatoBaggins_
 
 ---
 
-## Game Boy
+## GB GameShark (NA)
 
-### GB device manuals
+For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Advance (GBA).
 
-- GameShark for Game Boy Pocket & Color            • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
-- Mega Memory Card for Game Boy and Game Boy Color • [PDF (original)](/gb/manuals/gb_mega_memory.pdf)
+- GameShark for Game Boy Pocket & Color • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
+
+---
+
+## GB Shark MX
+
+**REG code: `SHGGGGGGGGGGGGGQ`**
+
+| Filename                                | Version | Build date | Flash chip         | Clean? |
+|:--------------------------------------- |:------- |:---------- |:------------------ |:------:|
+| [`gb-shark-mx-v1.02-1998-pristine.bin`] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
+
+[`gb-shark-mx-v1.02-1998-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-1998-pristine.bin
+
+---
+
+## GB Mega Memory Card
+
+For Game Boy and Game Boy Color.
+
+- Mega Memory Card manual • [PDF (original)](/gb/manuals/gb_mega_memory.pdf)
 
 ---
 
