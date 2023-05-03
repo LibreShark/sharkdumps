@@ -350,9 +350,6 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
-     alt="Screenshot of the 'Colors' screen from an N64 Xplorer 64"
-     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
      width="200">
