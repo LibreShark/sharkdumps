@@ -271,10 +271,10 @@ Quality-of-life utilities for Windows 98:
 [`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
 [`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
 [Alexander Davidson]: https://liquidninja.com/metapad/download.html
-[CMX]:                cmx@cmgsccc.com
+[CMX]:                mailto:cmx@cmgsccc.com
 [Maël Hörz]:          https://mh-nexus.de/en/about.php
 [Scons]:              https://www.scons.org/
-[Tomas Franzon]:      tomas_franzon@hotmail.com
+[Tomas Franzon]:      mailto:tomas_franzon@hotmail.com
 
 
 ### N64 GameShark manuals
