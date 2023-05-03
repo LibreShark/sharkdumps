@@ -742,7 +742,12 @@ For Game Boy and Game Boy Color.
 
 _Dumped by @RWeick and @felixjones_
 
-<img src="/assets/photos/gba-pelican-tv-tuner-rev1-400.png" width="200" alt="">&nbsp;<img src="/assets/photos/gba-blaze-tv-tuner-bare-533.png" width="200" alt="">&nbsp;<img src="/assets/photos/gba-blaze-tv-tuner-ns-720.png" width="200" alt="">
+<img src="/assets/photos/gba-pelican-tv-tuner-rev1-400.png"
+     width="200" alt="">
+<img src="/assets/photos/gba-blaze-tv-tuner-bare-533.png"
+     width="200" alt="">
+<img src="/assets/photos/gba-blaze-tv-tuner-ns-720.png"
+     width="200" alt="">
 
 | Filename                                          | Version | Build date | Region      | Flash chip           | Clean? |
 |:------------------------------------------------- |:------- |:---------- |:----------- |:-------------------- |:------:|
@@ -798,7 +803,13 @@ _Traced by @CheatoBaggins_
 
 <img src="/assets/logos/interact-logo-rect-3000x843.png" width="300" alt="InterAct logo rectangular">
 
-<img src="/assets/logos/n64-gameshark-pro-logo-blue-2200x1400.png" width="300" alt="N64 GameShark logo (blue text)"><img src="/assets/logos/n64-gameshark-pro-logo-red-2200x1400.png" width="300" alt="N64 GameShark logo (red text)"><a href="/assets/logos/gameshark-logo-gba-4000x3000.png"><img src="/assets/logos/gameshark-logo-gba-600x450.png" width="300" alt="GameShark logo circa 2003"></a>
+<img src="/assets/logos/n64-gameshark-pro-logo-blue-2200x1400.png"
+     width="300" alt="N64 GameShark logo (blue text)">
+<img src="/assets/logos/n64-gameshark-pro-logo-red-2200x1400.png"
+     width="300" alt="N64 GameShark logo (red text)">
+<a href="/assets/logos/gameshark-logo-gba-4000x3000.png">
+    <img src="/assets/logos/gameshark-logo-gba-600x450.png"
+         width="300" alt="GameShark logo circa 2003"></a>
 
 ---
 
