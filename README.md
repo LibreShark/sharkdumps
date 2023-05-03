@@ -225,6 +225,31 @@ Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 <img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png"
      width="200" alt="">
 
+| Filname                                                 | Build date   | OSes     | Requirements   | Author           |
+|:------------------------------------------------------- |:------------ |:-------- |:-------------- |:---------------- |
+| [`n64-gscc-win98-v1.10.101-20020105.zip`][]             | `2002-01-05` | 98 only  | -              | CMX              |
+| [`n64-gscc-winxp-v1.10.101-20060414.zip`][]             | `2006-04-14` | 98, XP?  | [`UserPort`][] | CMX              |
+| [`n64-gscc-winxp-v1.10.102-20070417.zip`][]             | `2007-04-17` | 98, XP?  | [`UserPort`][] | CMX              |
+| [`n64-gscentral-manager-winxp-20070201.zip`][]          | `2007-02-01` | XP?      | [`.NET 3.5`][] | GSC              |
+| [`n64-gspro-crypt-20010506.zip`][]                      | `2001-05-06` | _Any?_   | -              | ?                |
+| [`n64-gspro-datel-utils-original-win98-20000327.zip`][] | `2000-03-27` | 98, XP?  | -              | Datel            |
+| [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]  | `2007-04-22` | 98, XP?  | -              | Datel, @Parasyte |
+| [`n64-parallel-userport-driver-winxp-20010529.zip`][]   | `2001-05-29` | 2000, XP | -              | ?                |
+| [`n64-skaman-gsrom-20150411.zip`][]                     | `2015-04-11` | _Any?_   | -              | Skaman           |
+
+[`n64-gscc-win98-v1.10.101-20020105.zip`]:             /n64/tools/gameeshark/n64-gscc-win98-v1.10.101-20020105.zip
+[`n64-gscc-winxp-v1.10.101-20060414.zip`]:             /n64/tools/gameeshark/n64-gscc-winxp-v1.10.101-20060414.zip
+[`n64-gscc-winxp-v1.10.102-20070417.zip`]:             /n64/tools/gameeshark/n64-gscc-winxp-v1.10.102-20070417.zip
+[`n64-gscentral-manager-winxp-20070201.zip`]:          /n64/tools/gameeshark/n64-gscentral-manager-winxp-20070201.zip
+[`n64-gspro-crypt-20010506.zip`]:                      /n64/tools/gameeshark/n64-gspro-crypt-20010506.zip
+[`n64-gspro-datel-utils-original-win98-20000327.zip`]: /n64/tools/gameeshark/n64-gspro-datel-utils-original-win98-20000327.zip
+[`n64-gspro-datel-utils-patched-win98-20070422.zip`]:  /n64/tools/gameeshark/n64-gspro-datel-utils-patched-win98-20070422.zip
+[`n64-parallel-userport-driver-winxp-20010529.zip`]:   /n64/tools/gameeshark/n64-parallel-userport-driver-winxp-20010529.zip
+[`n64-skaman-gsrom-20150411.zip`]:                     /n64/tools/gameeshark/n64-skaman-gsrom-20150411.zip
+
+[`UserPort`]:                                          /n64/tools/gameeshark/n64-parallel-userport-driver-winxp-20010529.zip
+[`.NET 3.5`]:                                          https://www.microsoft.com/en-us/download/details.aspx?id=25150
+
 ### N64 GameShark manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
