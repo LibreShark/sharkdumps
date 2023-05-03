@@ -243,7 +243,7 @@ Offline GS ROM and cheat code management tools:
 | [`n64-gscentral-manager-winxp-20070201.zip`][] | `2007-02-01` | XP and up  | [`.NET 3.5`][]    | SK Genius              |
 | [`n64-gspro-crypt-20010506.zip`][]             | `2001-05-06` | _Any?_     | -                 | [CMX][], Hanimar       |
 | [`n64-skaman-gsrom-20150411.zip`][]            | `2015-04-11` | _Any?_     | -                 | Skaman                 |
-| [`n64rd-v0.2.0-src-20140810.zip`][]            | `2014-08-10` | Linux only | Python, [SCons][] | @Parasyte/n64rd        |
+| [`n64rd-v0.2.0-src-20140810.zip`][]            | `2014-08-10` | Linux only | Python, [SCons][] | [@Parasyte/n64rd][]    |
 
 Quality-of-life utilities for Windows 98:
 
@@ -269,6 +269,7 @@ Quality-of-life utilities for Windows 98:
 [`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
 [`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
 [Scons]:              https://www.scons.org/
+[@Parasyte/n64rd]:    https://github.com/parasyte/n64rd
 [CMX]:                cmx@cmgsccc.com
 [Tim Kosse]:          tim.kosse@filezilla-project.org
 [Tomas Franzon]:      tomas_franzon@hotmail.com
