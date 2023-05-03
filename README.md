@@ -129,7 +129,7 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
 
 To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/hexpats/patterns/imhex-n64-gsrom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-![Screenshot of ImHex viewing an N64 GameShark ROM file](/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png)
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an N64 GameShark ROM file">
 
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
@@ -366,7 +366,7 @@ _Dumped by @RWeick and @danhans42_
 
 To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-![Screenshot of ImHex viewing an Xplorer 64 ROM file](/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png)
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
 | Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
@@ -558,7 +558,7 @@ _Dumped by @RWeick_
 
 To view the contents of the ROM dumps, use our [GB Shark MX ROM hexpattern](/hexpats/patterns/imhex-gb-shark-mx-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-![Screenshot of ImHex viewing a GB Shark MX ROM file](/gb/firmware/screenshots/gb-shark-mx-imhex-pattern-2672x1527.png)
+<img src="/gb/firmware/screenshots/gb-shark-mx-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing a GB Shark MX ROM file">
 
 | Filename                                  | Version | Build date | Flash chip         | Clean? |
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
