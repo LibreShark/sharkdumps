@@ -227,45 +227,45 @@ Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 
 GameShark PC link cable tools:
 
-| Filname                                                 | Build date   | OSes       | Prereqs               | Authors             |
-|:------------------------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [`n64-gscc-win98-v1.10.101-20020105.zip`][]             | `2002-01-05` | 98 only    | -                     | [CMX][]             |
-| [`n64-gscc-winxp-v1.10.101-20060414.zip`][]             | `2006-04-14` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
-| [`n64-gscc-winxp-v1.10.102-20070417.zip`][]             | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
-| [`n64-gspro-datel-utils-original-win98-20000327.zip`][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
-| [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [`n64-parallel-userport-driver-winxp-20010529.zip`][]   | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
-| [`n64rd-v0.2.0-src-20140810.zip`][]                     | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
+| Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
+|:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98 only    | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
+| [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
 Offline GS ROM and cheat code management tools:
 
-| Filname                                        | Build date   | OSes      | Prereqs        | Authors          |
-|:---------------------------------------------- |:------------ |:--------- |:-------------- |:---------------- |
-| [`n64-gscentral-manager-winxp-20070201.zip`][] | `2007-02-01` | XP and up | [`.NET 3.5`][] | SK Genius        |
-| [`n64-gspro-crypt-20010506.zip`][]             | `2001-05-06` | _Any?_    | -              | [CMX][], Hanimar |
-| [`n64-skaman-gsrom-20150411.zip`][]            | `2015-04-11` | _Any?_    | -              | Skaman           |
+| Tool                                 | Build date   | OSes      | Prereqs        | Authors          |
+|:------------------------------------ |:------------ |:--------- |:-------------- |:---------------- |
+| [GS ROM decrypter/encrypter][]       | `2001-05-06` | _Any?_    | -              | [CMX][], Hanimar |
+| [Skaman's GS ROM tool][]             | `2015-04-11` | _Any?_    | -              | Skaman           |
+| [GSCentral Cheat Manager][]          | `2007-02-01` | XP and up | [`.NET 3.5`][] | SK Genius        |
 
 Quality-of-life utilities for Windows 98:
 
-| Filname                                     | Build date   | OSes      | Authors                |
-|:------------------------------------------- |:------------ |:--------- |:---------------------- |
-| [`hxd-v1.7.7.0-setup-win95-20090403.zip`][] | `2009-04-03` | 95 and up | [Maël Hörz][]          |
-| [`metapad-v3.6-win95-20110523.zip`][]       | `2011-05-23` | 95 and up | [Alexander Davidson][] |
-| [`winrar-v3.71-setup-win95-20070921.exe`][] | `2007-09-21` | 95 and up | RARLAB                 |
+| Tool                              | Build date   | OSes      | Authors                |
+|:--------------------------------- |:------------ |:--------- |:---------------------- |
+| [HxD hex editor v1.7.7.0 setup][] | `2009-04-03` | 95 and up | [Maël Hörz][]          |
+| [MetaPad v3.6 portable][]         | `2011-05-23` | 95 and up | [Alexander Davidson][] |
+| [WinRAR v3.71 setup (trial)][]    | `2007-09-21` | 95 and up | RARLAB                 |
 
-[`hxd-v1.7.7.0-setup-win95-20090403.zip`]:              /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
-[`metapad-v3.6-win95-20110523.zip`]:                    /n64/tools/metapad-v3.6-win95-20110523.zip
-[`n64-gscc-win98-v1.10.101-20020105.zip`]:              /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
-[`n64-gscc-winxp-v1.10.101-20060414.zip`]:              /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
-[`n64-gscc-winxp-v1.10.102-20070417.zip`]:              /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
-[`n64-gscentral-manager-winxp-20070201.zip`]:           /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
-[`n64-gspro-crypt-20010506.zip`]:                       /n64/tools/gameshark/n64-gspro-crypt-20010506.zip
-[`n64-gspro-datel-utils-original-win98-20000327.zip`]:  /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
-[`n64-gspro-datel-utils-patched-win98-20070422.zip`]:   /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
-[`n64-parallel-userport-driver-winxp-20010529.zip`]:    /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
-[`n64-skaman-gsrom-20150411.zip`]:                      /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
-[`n64rd-v0.2.0-src-20140810.zip`]:                      /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
-[`winrar-v3.71-setup-win95-20070921.exe`]:              /n64/tools/winrar-v3.71-setup-win95-20070921.exe
+[GS ROM decrypter/encrypter]:          /n64/tools/gameshark/n64-gspro-crypt-20010506.zip
+[GSCC v1.10.101 (98)]:                 /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
+[GSCC v1.10.101 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
+[GSCC v1.10.102 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
+[GSCentral Manager]:                   /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
+[HxD hex editor v1.7.7.0 setup]:       /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
+[MetaPad v3.6 portable]:               /n64/tools/metapad-v3.6-portable-win95-20110523.zip
+[N64 Remote Debugger]:                 /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
+[Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
+[Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
+[Skaman's GS ROM tool]:                /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
+[UserPort parallel driver for XP]:     /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
+[WinRAR v3.71 setup (trial)]:          /n64/tools/winrar-v3.71-setup-win95-20070921.exe
 
 [@Parasyte/n64rd]:    https://github.com/parasyte/n64rd
 [`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
