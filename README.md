@@ -225,23 +225,32 @@ Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 <img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png"
      width="200" alt="">
 
-| Filname                                                  | Build date   | OSes      | Prereqs                    | Author                 |
-|:-------------------------------------------------------- |:------------ |:--------- |:-------------------------- |:---------------------- |
-| [`n64-gscc-win98-v1.10.101-20020105.zip`][]              | `2002-01-05` | 98 only   | -                          | [CMX][]                |
-| [`n64-gscc-winxp-v1.10.101-20060414.zip`][]              | `2006-04-14` | 98, XP    | XP requires [`UserPort`][] | [CMX][]                |
-| [`n64-gscc-winxp-v1.10.102-20070417.zip`][]              | `2007-04-17` | 98, XP    | XP requires [`UserPort`][] | [CMX][]                |
-| [`n64-gscentral-manager-winxp-20070201.zip`][]           | `2007-02-01` | XP and up | [`.NET 3.5`][]             | SK Genius              |
-| [`n64-gspro-crypt-20010506.zip`][]                       | `2001-05-06` | _Any?_    | -                          | [CMX][], Hanimar       |
-| [`n64-gspro-datel-utils-original-win98-20000327.zip`][]  | `2000-03-27` | 98, XP    | XP requires [`UserPort`][] | Datel                  |
-| [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]   | `2007-04-22` | 98, XP    | XP requires [`UserPort`][] | Datel, @Parasyte       |
-| [`n64-parallel-userport-driver-winxp-20010529.zip`][]    | `2001-05-29` | 2000, XP  | -                          | [Tomas Franzon][]      |
-| [`n64-skaman-gsrom-20150411.zip`][]                      | `2015-04-11` | _Any?_    | -                          | Skaman                 |
-| -                                                        | -            | -         | -                          | -                      |
-| [`metapad-v3.6-win98-20110523.zip`][]                    | `2011-05-23` | 95 and up | -                          | [Alexander Davidson][] |
-| [`winrar-v3.71-setup-win98-20070921.exe`][]              | `2007-09-21` | 95 and up | -                          | RARLAB                 |
-| [`filezilla-client-v2.2.14b-setup-win98-20050806.exe`][] | `2005-08-06` | 98 and up | -                          | [Tim Kosse]            |
+GameShark PC link cable tools:
 
-FileZilla 2.2.14b client
+| Filname                                                 | Build date   | OSes      | Prereqs                    | Author                 |
+|:------------------------------------------------------- |:------------ |:--------- |:-------------------------- |:---------------------- |
+| [`n64-gscc-win98-v1.10.101-20020105.zip`][]             | `2002-01-05` | 98 only   | -                          | [CMX][]                |
+| [`n64-gscc-winxp-v1.10.101-20060414.zip`][]             | `2006-04-14` | 98, XP    | XP requires [`UserPort`][] | [CMX][]                |
+| [`n64-gscc-winxp-v1.10.102-20070417.zip`][]             | `2007-04-17` | 98, XP    | XP requires [`UserPort`][] | [CMX][]                |
+| [`n64-gscentral-manager-winxp-20070201.zip`][]          | `2007-02-01` | XP and up | [`.NET 3.5`][]             | SK Genius              |
+| [`n64-gspro-datel-utils-original-win98-20000327.zip`][] | `2000-03-27` | 98, XP    | XP requires [`UserPort`][] | Datel                  |
+| [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]  | `2007-04-22` | 98, XP    | XP requires [`UserPort`][] | Datel, @Parasyte       |
+| [`n64-parallel-userport-driver-winxp-20010529.zip`][]   | `2001-05-29` | 2000, XP  | -                          | [Tomas Franzon][]      |
+
+Offline GS ROM tools:
+
+| Filname                             | Build date   | OSes   | Author                 |
+|:----------------------------------- |:------------ |:------ |:---------------------- |
+| [`n64-gspro-crypt-20010506.zip`][]  | `2001-05-06` | _Any?_ | [CMX][], Hanimar       |
+| [`n64-skaman-gsrom-20150411.zip`][] | `2015-04-11` | _Any?_ | Skaman                 |
+
+Quality-of-life utilities for Windows 98:
+
+| Filname                                                  | Build date   | OSes      | Author                 |
+|:-------------------------------------------------------- |:------------ |:--------- |:---------------------- |
+| [`metapad-v3.6-win95-20110523.zip`][]                    | `2011-05-23` | 95 and up | [Alexander Davidson][] |
+| [`winrar-v3.71-setup-win95-20070921.exe`][]              | `2007-09-21` | 95 and up | RARLAB                 |
+| [`filezilla-client-v2.2.14b-setup-win98-20050806.exe`][] | `2005-08-06` | 98 and up | [Tim Kosse]            |
 
 [`n64-gscc-win98-v1.10.101-20020105.zip`]:              /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
 [`n64-gscc-winxp-v1.10.101-20060414.zip`]:              /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
@@ -262,7 +271,6 @@ FileZilla 2.2.14b client
 [Tim Kosse]:          tim.kosse@filezilla-project.org
 [Tomas Franzon]:      tomas_franzon@hotmail.com
 [Alexander Davidson]: https://liquidninja.com/metapad/download.html
-[xxx]: http://www.oldversion.com/windows/winrar-3-71
 
 
 ### N64 GameShark manuals
