@@ -257,10 +257,10 @@ Quality-of-life utilities for Windows 98:
 [GSCC v1.10.101 (98)]:                 /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
 [GSCC v1.10.101 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
 [GSCC v1.10.102 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
-[GSCentral Manager]:                   /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
+[GSCentral Cheat Manager]:             /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
 [HxD hex editor v1.7.7.0 setup]:       /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
 [MetaPad v3.6 portable]:               /n64/tools/metapad-v3.6-portable-win95-20110523.zip
-[N64 Remote Debugger]:                 /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
+[N64 Remote Debugger C source code]:   /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
 [Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
 [Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
 [Skaman's GS ROM tool]:                /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
