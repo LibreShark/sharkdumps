@@ -585,14 +585,16 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
-<a href="/assets/photos/n64-dexdrive-hardware-480.png"><img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64"></a>
+The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with a RS-232 serial cable.
+
+<img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
 ### N64 DexDrive software
 
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
 
-DexPlorer v1.10.950 (`1999-01-05`):
+DexPlorer v1.10.950:
 
 <img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-01-installer.png"
      width="200" alt="">
@@ -611,7 +613,7 @@ DexPlorer v1.10.950 (`1999-01-05`):
 <img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-08-restore-prompt.png"
      width="200" alt="">
 
-DexPlorer v2.00.902 (`2000-01-24`):
+DexPlorer v2.00.902:
 
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-01-installer.png"
      width="200" alt="">
@@ -643,6 +645,8 @@ DexPlorer v2.00.902 (`2000-01-24`):
      width="200" alt="">
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-15-internet-list-s.png"
      width="200" alt="">
+
+DexDrive PC utilities:
 
 | Program                       | Build date   | Author                                   |
 |:----------------------------- |:------------ |:---------------------------------------- |
