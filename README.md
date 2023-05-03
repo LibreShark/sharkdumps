@@ -239,20 +239,22 @@ GameShark PC link cable tools:
 
 Offline GS ROM and cheat code management tools:
 
-| Filname                                        | Build date   | OSes       | Prereqs        | Authors          |
-|:---------------------------------------------- |:------------ |:---------- |:-------------- |:---------------- |
-| [`n64-gscentral-manager-winxp-20070201.zip`][] | `2007-02-01` | XP and up  | [`.NET 3.5`][] | SK Genius        |
-| [`n64-gspro-crypt-20010506.zip`][]             | `2001-05-06` | _Any?_     | -              | [CMX][], Hanimar |
-| [`n64-skaman-gsrom-20150411.zip`][]            | `2015-04-11` | _Any?_     | -              | Skaman           |
+| Filname                                        | Build date   | OSes      | Prereqs        | Authors          |
+|:---------------------------------------------- |:------------ |:--------- |:-------------- |:---------------- |
+| [`n64-gscentral-manager-winxp-20070201.zip`][] | `2007-02-01` | XP and up | [`.NET 3.5`][] | SK Genius        |
+| [`n64-gspro-crypt-20010506.zip`][]             | `2001-05-06` | _Any?_    | -              | [CMX][], Hanimar |
+| [`n64-skaman-gsrom-20150411.zip`][]            | `2015-04-11` | _Any?_    | -              | Skaman           |
 
 Quality-of-life utilities for Windows 98:
 
-| Filname                                                  | Build date   | OSes      | Authors                |
-|:-------------------------------------------------------- |:------------ |:--------- |:---------------------- |
-| [`metapad-v3.6-win95-20110523.zip`][]                    | `2011-05-23` | 95 and up | [Alexander Davidson][] |
-| [`winrar-v3.71-setup-win95-20070921.exe`][]              | `2007-09-21` | 95 and up | RARLAB                 |
-| [`filezilla-client-v2.2.14b-setup-win98-20050806.exe`][] | `2005-08-06` | 98 and up | [Tim Kosse]            |
+| Filname                                     | Build date   | OSes      | Authors                |
+|:------------------------------------------- |:------------ |:--------- |:---------------------- |
+| [`hxd-v1.7.7.0-setup-win95-20090403.zip`][] | `2009-04-03` | 95 and up | [Maël Hörz][]          |
+| [`metapad-v3.6-win95-20110523.zip`][]       | `2011-05-23` | 95 and up | [Alexander Davidson][] |
+| [`winrar-v3.71-setup-win95-20070921.exe`][] | `2007-09-21` | 95 and up | RARLAB                 |
 
+[`hxd-v1.7.7.0-setup-win95-20090403.zip`]:              /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
+[`metapad-v3.6-win95-20110523.zip`]:                    /n64/tools/metapad-v3.6-win95-20110523.zip
 [`n64-gscc-win98-v1.10.101-20020105.zip`]:              /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
 [`n64-gscc-winxp-v1.10.101-20060414.zip`]:              /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
 [`n64-gscc-winxp-v1.10.102-20070417.zip`]:              /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
@@ -263,18 +265,16 @@ Quality-of-life utilities for Windows 98:
 [`n64-parallel-userport-driver-winxp-20010529.zip`]:    /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
 [`n64-skaman-gsrom-20150411.zip`]:                      /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
 [`n64rd-v0.2.0-src-20140810.zip`]:                      /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
-[`metapad-v3.6-win95-20110523.zip`]:                    /n64/tools/metapad-v3.6-win95-20110523.zip
 [`winrar-v3.71-setup-win95-20070921.exe`]:              /n64/tools/winrar-v3.71-setup-win95-20070921.exe
-[`filezilla-client-v2.2.14b-setup-win98-20050806.exe`]: /n64/tools/filezilla-client-v2.2.14b-setup-win98-20050806.exe
 
-[`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
-[`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
-[Scons]:              https://www.scons.org/
 [@Parasyte/n64rd]:    https://github.com/parasyte/n64rd
-[CMX]:                cmx@cmgsccc.com
-[Tim Kosse]:          tim.kosse@filezilla-project.org
-[Tomas Franzon]:      tomas_franzon@hotmail.com
+[`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
+[`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
 [Alexander Davidson]: https://liquidninja.com/metapad/download.html
+[CMX]:                cmx@cmgsccc.com
+[Maël Hörz]:          https://mh-nexus.de/en/about.php
+[Scons]:              https://www.scons.org/
+[Tomas Franzon]:      tomas_franzon@hotmail.com
 
 
 ### N64 GameShark manuals
