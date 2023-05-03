@@ -288,7 +288,7 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
-| Markdown transcription                                                          | Searchable PDF                                                            |
+| Plain text transcription                                                        | Searchable flatbed scan                                                   |
 |:------------------------------------------------------------------------------- |:------------------------------------------------------------------------- |
 | [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            | [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)              |
 | [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)              |
