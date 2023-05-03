@@ -288,15 +288,17 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
-- [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            • [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
-- [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)
-- [GameShark v2.1 manual](/n64/manuals/n64_gameshark_v2.10_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)
-- [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)
-- [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_pro_v3.00_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)
-- [GameShark Pro v3.1 manual](/n64/manuals/n64_gameshark_pro_v3.10_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.10_manual_ocr.pdf)
-- [GameShark Pro v3.2 manual](/n64/manuals/n64_gameshark_pro_v3.20_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
--  GameShark Pro v3.3 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO
-- [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
+| Markdown transcription                                                          | Searchable PDF                                                            |
+|:------------------------------------------------------------------------------- |:------------------------------------------------------------------------- |
+| [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            | [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)              |
+| [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)              |
+| [GameShark v2.1 manual](/n64/manuals/n64_gameshark_v2.10_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)              |
+| [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)              |
+| [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_pro_v3.00_manual.md)     | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)          |
+| [GameShark Pro v3.1 manual](/n64/manuals/n64_gameshark_pro_v3.10_manual.md)     | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.10_manual_ocr.pdf)          |
+| [GameShark Pro v3.2 manual](/n64/manuals/n64_gameshark_pro_v3.20_manual.md)     | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)          |
+|  GameShark Pro v3.3 manual                                                      | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO   |
+| [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) | [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf) |
 
 ### N64 _How To Hack Like A Pro_ VHS tapes
 
