@@ -592,6 +592,58 @@ See https://tcrf.net/GB_Hunter
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
 
+DexPlorer v1.10.950 (`1999-01-05`):
+
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-01-installer.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-02-main-window.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-03-about-box.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-04-backup-file.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-05-backup-progress.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-06-backup-view.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-07-edit-notes.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-08-restore-prompt.png"
+     width="200" alt="">
+
+DexPlorer v2.00.902 (`2000-01-24`):
+
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-01-installer.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-02-main-window.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-03-about-box.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-04-config-loading.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-05-config-options.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-06-utilities-menu.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-07-manipulator.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-08-backup-file.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-10-backup-complete.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-11-edit-note.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-12-internet-loading.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-13-internet-cancel.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-14-internet-list-a.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-15-internet-list-s.png"
+     width="200" alt="">
+
 | Program                       | Build date   | Author                                   |
 |:----------------------------- |:------------ |:---------------------------------------- |
 | **[DexPlorer v1.10.950][]**   | `1999-01-05` | Datel/InterAct                           |
