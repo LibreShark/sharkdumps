@@ -262,6 +262,7 @@ Quality-of-life utilities for Windows 98:
 [`n64-gspro-datel-utils-patched-win98-20070422.zip`]:   /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
 [`n64-parallel-userport-driver-winxp-20010529.zip`]:    /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
 [`n64-skaman-gsrom-20150411.zip`]:                      /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
+[`n64rd-v0.2.0-src-20140810.zip`]:                      /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
 [`metapad-v3.6-win95-20110523.zip`]:                    /n64/tools/metapad-v3.6-win95-20110523.zip
 [`winrar-v3.71-setup-win95-20070921.exe`]:              /n64/tools/winrar-v3.71-setup-win95-20070921.exe
 [`filezilla-client-v2.2.14b-setup-win98-20050806.exe`]: /n64/tools/filezilla-client-v2.2.14b-setup-win98-20050806.exe
