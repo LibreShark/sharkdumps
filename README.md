@@ -189,7 +189,41 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 ### N64 GameShark software
 
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-04-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-05-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-06-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-08-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-10-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-11-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-2.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-3.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-4.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-5.png" width="200" alt="">&nbsp;<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png" width="200" alt="">
+Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
+
+Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega":
+
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-04-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-05-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-06-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-08-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-10-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-11-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png"
+     width="200" alt="">
+
+Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
+
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-2.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-3.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-4.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-5.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png"
+     width="200" alt="">
 
 ### N64 GameShark manuals
 
