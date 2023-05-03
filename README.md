@@ -227,23 +227,23 @@ Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 
 GameShark PC link cable tools:
 
-| Filname                                                 | Build date   | OSes      | Prereqs               | Authors           |
-|:------------------------------------------------------- |:------------ |:--------- |:--------------------- |:----------------- |
-| [`n64-gscc-win98-v1.10.101-20020105.zip`][]             | `2002-01-05` | 98 only   | -                     | [CMX][]           |
-| [`n64-gscc-winxp-v1.10.101-20060414.zip`][]             | `2006-04-14` | 98, XP    | [`UserPort`][] for XP | [CMX][]           |
-| [`n64-gscc-winxp-v1.10.102-20070417.zip`][]             | `2007-04-17` | 98, XP    | [`UserPort`][] for XP | [CMX][]           |
-| [`n64-gspro-datel-utils-original-win98-20000327.zip`][] | `2000-03-27` | 98, XP    | [`UserPort`][] for XP | Datel             |
-| [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]  | `2007-04-22` | 98, XP    | [`UserPort`][] for XP | Datel, @Parasyte  |
-| [`n64-parallel-userport-driver-winxp-20010529.zip`][]   | `2001-05-29` | 2000, XP  | -                     | [Tomas Franzon][] |
+| Filname                                                 | Build date   | OSes       | Prereqs               | Authors             |
+|:------------------------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
+| [`n64-gscc-win98-v1.10.101-20020105.zip`][]             | `2002-01-05` | 98 only    | -                     | [CMX][]             |
+| [`n64-gscc-winxp-v1.10.101-20060414.zip`][]             | `2006-04-14` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [`n64-gscc-winxp-v1.10.102-20070417.zip`][]             | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [`n64-gspro-datel-utils-original-win98-20000327.zip`][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
+| [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [`n64rd-v0.2.0-src-20140810.zip`][]                     | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
+| [`n64-parallel-userport-driver-winxp-20010529.zip`][]   | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
 
 Offline GS ROM and cheat code management tools:
 
-| Filname                                        | Build date   | OSes       | Prereqs           | Authors                |
-|:---------------------------------------------- |:------------ |:---------- |:----------------- |:---------------------- |
-| [`n64-gscentral-manager-winxp-20070201.zip`][] | `2007-02-01` | XP and up  | [`.NET 3.5`][]    | SK Genius              |
-| [`n64-gspro-crypt-20010506.zip`][]             | `2001-05-06` | _Any?_     | -                 | [CMX][], Hanimar       |
-| [`n64-skaman-gsrom-20150411.zip`][]            | `2015-04-11` | _Any?_     | -                 | Skaman                 |
-| [`n64rd-v0.2.0-src-20140810.zip`][]            | `2014-08-10` | Linux only | Python, [SCons][] | [@Parasyte/n64rd][]    |
+| Filname                                        | Build date   | OSes       | Prereqs        | Authors          |
+|:---------------------------------------------- |:------------ |:---------- |:-------------- |:---------------- |
+| [`n64-gscentral-manager-winxp-20070201.zip`][] | `2007-02-01` | XP and up  | [`.NET 3.5`][] | SK Genius        |
+| [`n64-gspro-crypt-20010506.zip`][]             | `2001-05-06` | _Any?_     | -              | [CMX][], Hanimar |
+| [`n64-skaman-gsrom-20150411.zip`][]            | `2015-04-11` | _Any?_     | -              | Skaman           |
 
 Quality-of-life utilities for Windows 98:
 
