@@ -187,6 +187,21 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 [`gspro-3.30-20000404-pristine.bin`]:   /n64/firmware/gspro-3.30-20000404-pristine.bin
 [`perfect_trainer-1.0b-20030618.bin`]:  /n64/firmware/perfect_trainer-1.0b-20030618.bin
 
+### N64 GameShark software
+
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-01-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-02-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-04-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-05-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-06-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-07-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-08-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-09-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-10-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-11-689x467.png" width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png" width="200" alt="">
+
 ### N64 GameShark manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
