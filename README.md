@@ -234,8 +234,8 @@ GameShark PC link cable tools:
 | [`n64-gscc-winxp-v1.10.102-20070417.zip`][]             | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
 | [`n64-gspro-datel-utils-original-win98-20000327.zip`][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
 | [`n64-gspro-datel-utils-patched-win98-20070422.zip`][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [`n64rd-v0.2.0-src-20140810.zip`][]                     | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 | [`n64-parallel-userport-driver-winxp-20010529.zip`][]   | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
+| [`n64rd-v0.2.0-src-20140810.zip`][]                     | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
 Offline GS ROM and cheat code management tools:
 
