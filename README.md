@@ -607,8 +607,6 @@ DexPlorer v2.00.902:
 
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-01-installer.png"
      width="200" alt="">
-<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-02-main-window.png"
-     width="200" alt="">
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-03-about-box.png"
      width="200" alt="">
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-04-config-loading.png"
@@ -626,10 +624,6 @@ DexPlorer v2.00.902:
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-10-backup-complete.png"
      width="200" alt="">
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-11-edit-note.png"
-     width="200" alt="">
-<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-12-internet-loading.png"
-     width="200" alt="">
-<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-13-internet-cancel.png"
      width="200" alt="">
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-14-internet-list-a.png"
      width="200" alt="">
