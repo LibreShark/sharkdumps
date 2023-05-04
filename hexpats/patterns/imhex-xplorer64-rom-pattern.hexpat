@@ -1,14 +1,12 @@
 /*!
- * ImHex pattern for N64 GameShark ROM files (firmware dumps).
- * Supports all known GameShark firmware versions
- * (tested on v1.02 through v3.30).
+ * ImHex pattern for N64 Xplorer 64 ROM files (firmware dumps).
  *
  * @author CheatoBaggins <cheatobaggins@gmail.com>
  * @date 2023-04-26
  * @license MIT
  */
 
-#pragma MIME application/x-n64-gameshark-rom
+#pragma MIME application/x-n64-xplorer64-rom
 
 #include <type/magic.pat>
 #include <type/size.pat>
@@ -200,6 +198,7 @@ struct HeaderSection {
     char website[] @ 0x940;
 
     double versionNumber = parse_float(versionStr);
+    double buildNumber = parse_int(buildStr);
 };
 
 /*******************************************************************************
@@ -305,6 +304,15 @@ struct Cheat {
     char name[];
     u8 codeCount [[COLOR_LOWLIGHT]];
     Code codes[codeCount];
+} [[format_read("format_cheat")]];
+
+fn format_cheat(Cheat cheat) {
+    return std::format(
+        "{} ({} {})",
+        cheat.name,
+        cheat.codeCount,
+        cheat.codeCount == 1 ? "code" : "codes"
+        );
 };
 
 struct Game {

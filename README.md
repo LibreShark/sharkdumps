@@ -2,7 +2,8 @@
 
 ![Dump truck icon](/assets/icons/dump-truck-256.png)
 
-This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s: GameShark, Action Replay, Xplorer 64, Code Breaker, DexDrive, etc.
+This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s:
+GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuners, etc.
 
 Specifically, we document:
 
@@ -10,7 +11,7 @@ Specifically, we document:
 2. PCB schematics
 3. Software utilities
 4. Instruction manuals
-5. Photos
+5. Cartridge designs
 6. Box art
 
 We welcome contributions! If you have firmware, schematics, photos, etc. that are not yet documented here, please create a pull request! 😀
@@ -124,6 +125,12 @@ _Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
 
 N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
+N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark). **NOTE:** As of 2023-05-02, the Sanni does _not_ yet support GameShark v1.08 and earlier hardware, which use different EEPROM chips. @RWeick is working on a patch that will fix this problem and allow _all_ GameShark hardware to be read/written.
+
+To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/hexpats/patterns/imhex-n64-gsrom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an N64 GameShark ROM file">
+
 | Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
 |:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
 |    `gs-1.01-xxxxxxxx.bin`[^v1.0x]            | `v1.01`       | _Unknown_          |     ?   |      ?   | ?      |
@@ -180,24 +187,118 @@ N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat li
 [`gspro-3.30-20000404-pristine.bin`]:   /n64/firmware/gspro-3.30-20000404-pristine.bin
 [`perfect_trainer-1.0b-20030618.bin`]:  /n64/firmware/perfect_trainer-1.0b-20030618.bin
 
+### N64 GameShark software
+
+Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
+
+Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
+
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-04-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-05-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-06-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-08-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-10-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-11-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png"
+     width="200" alt="">
+
+Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
+
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-2.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-3.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-4.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-5.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png"
+     width="200" alt="">
+
+GameShark PC link cable tools:
+
+| Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
+|:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98 only    | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
+| [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
+
+Offline GS ROM and cheat code management tools:
+
+| Tool                                 | Build date   | OSes      | Prereqs        | Authors          |
+|:------------------------------------ |:------------ |:--------- |:-------------- |:---------------- |
+| [GS ROM decrypter/encrypter][]       | `2001-05-06` | _Any?_    | -              | [CMX][], Hanimar |
+| [Skaman's GS ROM tool][]             | `2015-04-11` | _Any?_    | -              | Skaman           |
+| [GSCentral Cheat Manager][]          | `2007-02-01` | XP and up | [`.NET 3.5`][] | SK Genius        |
+
+Quality-of-life utilities for Windows 98:
+
+| Tool                              | Build date   | OSes      | Authors                |
+|:--------------------------------- |:------------ |:--------- |:---------------------- |
+| [HxD hex editor v1.7.7.0 setup][] | `2009-04-03` | 95 and up | [Maël Hörz][]          |
+| [MetaPad v3.6 portable][]         | `2011-05-23` | 95 and up | [Alexander Davidson][] |
+| [WinRAR v3.71 setup (trial)][]    | `2007-09-21` | 95 and up | RARLAB                 |
+
+[GS ROM decrypter/encrypter]:          /n64/tools/gameshark/n64-gspro-crypt-20010506.zip
+[GSCC v1.10.101 (98)]:                 /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
+[GSCC v1.10.101 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
+[GSCC v1.10.102 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
+[GSCentral Cheat Manager]:             /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
+[HxD hex editor v1.7.7.0 setup]:       /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
+[MetaPad v3.6 portable]:               /n64/tools/metapad-v3.6-portable-win95-20110523.zip
+[N64 Remote Debugger C source code]:   /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
+[Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
+[Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
+[Skaman's GS ROM tool]:                /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
+[UserPort parallel driver for XP]:     /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
+[WinRAR v3.71 setup (trial)]:          /n64/tools/winrar-v3.71-setup-win95-20070921.exe
+
+[@Parasyte/n64rd]:    https://github.com/parasyte/n64rd
+[`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
+[`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
+[Alexander Davidson]: https://liquidninja.com/metapad/download.html
+[CMX]:                mailto:cmx@cmgsccc.com
+[Maël Hörz]:          https://mh-nexus.de/en/about.php
+[Scons]:              https://www.scons.org/
+[Tomas Franzon]:      mailto:tomas_franzon@hotmail.com
+
+
 ### N64 GameShark manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 [![N64 GameShark v1.09 manual thumbnail](/n64/manuals/thumbs/gs-v1.09-manual-p1.png)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
+[![N64 GameShark v2.10 manual thumbnail](/n64/manuals/thumbs/gs-v2.10-manual-p1.png)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)
 [![N64 GameShark v3.20 manual thumbnail](/n64/manuals/thumbs/gs-v3.20-manual-p1.png)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
+[![N64 GameShark PC Utils manual thumbnail](/n64/manuals/thumbs/gs-utils-manual-p1.png)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
 
 The Markdown versions have been transcribed as faithfully to the original printed materials as possible. All typos, misspellings, and odd/inconsistent style choices are intentionally left as-is.
 
-- [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            • [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)
-- [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)
-- [GameShark v2.1 manual](/n64/manuals/n64_gameshark_v2.10_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)
-- [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             • [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)
-- [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_pro_v3.00_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)
-- [GameShark Pro v3.1 manual](/n64/manuals/n64_gameshark_pro_v3.10_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.10_manual_ocr.pdf)
-- [GameShark Pro v3.2 manual](/n64/manuals/n64_gameshark_pro_v3.20_manual.md)     • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)
--  GameShark Pro v3.3 manual                                                      • [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO
-- [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) • [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf)
+| Plain text transcription                                                        | Searchable flatbed scan                                                   |
+|:------------------------------------------------------------------------------- |:------------------------------------------------------------------------- |
+| [GameShark v1.09 manual](/n64/manuals/n64_gameshark_v1.09_manual.md)            | [PDF (OCR)](/n64/manuals/n64_gameshark_v1.09_manual_ocr.pdf)              |
+| [GameShark v2.0 manual](/n64/manuals/n64_gameshark_v2.00_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.00_manual_ocr.pdf)              |
+| [GameShark v2.1 manual](/n64/manuals/n64_gameshark_v2.10_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.10_manual_ocr.pdf)              |
+| [GameShark v2.2 manual](/n64/manuals/n64_gameshark_v2.20_manual.md)             | [PDF (OCR)](/n64/manuals/n64_gameshark_v2.20_manual_ocr.pdf)              |
+| [GameShark Pro v3.0 manual](/n64/manuals/n64_gameshark_pro_v3.00_manual.md)     | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.00_manual_ocr.pdf)          |
+| [GameShark Pro v3.1 manual](/n64/manuals/n64_gameshark_pro_v3.10_manual.md)     | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.10_manual_ocr.pdf)          |
+| [GameShark Pro v3.2 manual](/n64/manuals/n64_gameshark_pro_v3.20_manual.md)     | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.20_manual_ocr.pdf)          |
+|  GameShark Pro v3.3 manual                                                      | [PDF (OCR)](/n64/manuals/n64_gameshark_pro_v3.30_manual_ocr.pdf) - TODO   |
+| [GameShark Pro PC Utils manual](/n64/manuals/n64_gameshark_pro_utils_manual.md) | [PDF (original)](/n64/manuals/n64_gameshark_pro_utils_manual_digital.pdf) |
 
 ### N64 _How To Hack Like A Pro_ VHS tapes
 
@@ -337,9 +438,6 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-6-colors.png"
-     alt="Screenshot of the 'Colors' screen from an N64 Xplorer 64"
-     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
      width="200">
@@ -353,6 +451,10 @@ _Captured by @CheatoBaggins_
 ### Xplorer 64 firmware
 
 _Dumped by @RWeick and @danhans42_
+
+To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
 | Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
@@ -405,41 +507,32 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-04-warioland2-splash.png"
      alt="Screenshot of the Wario Land II splash screen from an N64 GB Hunter"
      width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-06-warioland2-2coins.png"
-     alt="Screenshot of Wario with 2 coins in Wario Land II from an N64 GB Hunter"
-     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-07-pause-screen.png"
      alt="Screenshot of the pause screen from an N64 GB Hunter"
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-09-main-menu.png"
      alt="Screenshot of the main menu from an N64 GB Hunter"
      width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-19-blue-border.png"
-     alt="Screenshot of Wario Land II with a blue border from an N64 GB Hunter"
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-06-warioland2-2coins.png"
+     alt="Screenshot of Wario with 2 coins in Wario Land II from an N64 GB Hunter"
      width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-20-gradient-border.png"
-     alt="Screenshot of Wario Land II with a gradient border from an N64 GB Hunter"
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-44-border1.png"
+     alt="Screenshot of Wario Land II with a blue gradient border from an N64 GB Hunter"
+     width="200">
+<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-46-border3.png"
+     alt="Screenshot of Wario Land II with a rainbow border from an N64 GB Hunter"
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-22-custom-palette.png"
      alt="Screenshot of Wario Land II with a custom palette from an N64 GB Hunter"
      width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-18-cheats-empty.png"
-     alt="Screenshot of an empty 'Cheats' screen from an N64 GB Hunter"
-     width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-29-game-list-p01.png"
      alt="Screenshot of the first page of the game list from an N64 GB Hunter"
-     width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-33-game-list-p05.png"
-     alt="Screenshot of the 5th page of the game list from an N64 GB Hunter"
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-39-game-list-p11.png"
      alt="Screenshot of the 11th page of the game list from an N64 GB Hunter"
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-41-cheat-list-warioland1.png"
      alt="Screenshot of the Wario Land cheat list from an N64 GB Hunter"
-     width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-16-trainer-eq.png"
-     alt="Screenshot of the trainer from an N64 GB Hunter"
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-25-trainer-gt-184.png"
      alt="Screenshot of the trainer with 184 results from an N64 GB Hunter"
@@ -452,9 +545,6 @@ _Captured by @CheatoBaggins_
      width="200">
 <img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-42-active-cheats.png"
      alt="Screenshot of the active cheat list from an N64 GB Hunter"
-     width="200">
-<img src="/n64/firmware/screenshots/gb-hunter/n64-gbh-screenshot-43-cheats-in-use.png"
-     alt="Screenshot of Wario Land II gameplay with cheats active from an N64 GB Hunter"
      width="200">
 
 ### GB Hunter firmware
@@ -485,12 +575,62 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
-<a href="/assets/photos/n64-dexdrive-hardware-480.png"><img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64"></a>
+The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with a RS-232 serial cable.
+
+<img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
 ### N64 DexDrive software
 
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
+
+DexPlorer v1.10.950:
+
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-01-installer.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-02-main-window.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-03-about-box.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-04-backup-file.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-05-backup-progress.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-06-backup-view.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-07-edit-notes.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-08-restore-prompt.png"
+     width="200" alt="">
+
+DexPlorer v2.00.902:
+
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-01-installer.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-03-about-box.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-04-config-loading.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-05-config-options.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-06-utilities-menu.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-07-manipulator.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-08-backup-file.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-10-backup-complete.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-11-edit-note.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-14-internet-list-a.png"
+     width="200" alt="">
+<img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-15-internet-list-s.png"
+     width="200" alt="">
+
+DexDrive PC utilities:
 
 | Program                       | Build date   | Author                                   |
 |:----------------------------- |:------------ |:---------------------------------------- |
@@ -538,15 +678,39 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 _Dumped by @RWeick_
 
+<a href="/assets/photos/gbc-shark-mx-cart-1200x2000.png"><img src="/assets/photos/gbc-shark-mx-cart-200.png" width="200" alt=""></a>
+<a href="/assets/photos/gbc-shark-mx-box-front-2574x2944.png"><img src="/assets/photos/gbc-shark-mx-box-front-200.png" width="200" alt=""></a>
+<a href="/assets/photos/gbc-shark-mx-box-rear-2574x2944.png"><img src="/assets/photos/gbc-shark-mx-box-rear-200.png" width="200" alt=""></a>
+
+To view the contents of the ROM dumps, use our [GB Shark MX ROM hexpattern](/hexpats/patterns/imhex-gb-shark-mx-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/gb/firmware/screenshots/gb-shark-mx-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing a GB Shark MX ROM file">
+
 | Filename                                  | Version | Build date | Flash chip         | Clean? |
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
-| [`gb-shark-mx-v1.02-1998-pristine.bin`][] | `v1.02` | `1998`     | `SST39SF020PLCC32` | ⭐️ |
+| [`gb-shark-mx-v1.02-2000-pristine.bin`][] | `v1.02` | `2000`     | `SST39SF020PLCC32` | ⭐️ |
 
-[`gb-shark-mx-v1.02-1998-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-1998-pristine.bin
+[`gb-shark-mx-v1.02-2000-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-2000-pristine.bin
 
 From https://gameshark-mx.blogspot.com/:
 
-**REG code: `SHGGGGGGGGGGGGGQ`**
+> **Working Registration Codes:**
+>
+> - `SHGGGGGGGGGGGGGQ`
+> - `WTU69SSN6INIEFNP`
+> - `EPR6NNC4XB5YIDND`
+> - `ZIQD79DTJG58W875`
+> - `S5V5KI686BHFH5HJ`
+> - `7K5TBICAGSZSN4U9`
+
+More information:
+
+- [IGN product review (2000-09-14)](https://www.ign.com/articles/2000/09/15/shark-mx)
+- [NesDev forum post (2012-11-25)](https://forums.nesdev.org/viewtopic.php?t=9520)
+- [Shark MX overview](https://web.archive.org/web/20140416175758/www.bennvenn.com/mx.html)
+- [Datel MBC1 chip documentation](https://web.archive.org/web/20140416180028/http://www.bennvenn.com/Datel_MBC1.htm)
+- [Re-Programming the Shark MX](https://web.archive.org/web/20140416180029/http://bennvenn.com/Reprogramming_the_Shark_MX.htm)
+- [Technical details, chip datasheets, and software](https://web.archive.org/web/20140416175937/http://www.oocities.org/grinara/)
 
 ---
 
@@ -558,17 +722,32 @@ For Game Boy and Game Boy Color.
 
 ---
 
-## GBA TV Tuner
+## GBA TV Tuners
 
-_Dumped by @RWeick_
+_Dumped by @RWeick and @felixjones_
 
-Made by Pelican. More information on the [Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner).
+<img src="/assets/photos/gba-pelican-tv-tuner-rev1-400.png"
+     width="200" alt="">
+<img src="/assets/photos/gba-blaze-tv-tuner-bare-533.png"
+     width="200" alt="">
+<img src="/assets/photos/gba-blaze-tv-tuner-ns-720.png"
+     width="200" alt="">
 
-| Filename                                          | Version | Build date | Flash chip           | Clean? |
-|:------------------------------------------------- |:------- |:---------- |:-------------------- |:------:|
-| [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | `MBM29LV400TCTSOP48` | ? |
+| Filename                                          | Version | Build date | Region      | Flash chip           | Clean? |
+|:------------------------------------------------- |:------- |:---------- |:----------- |:-------------------- |:------:|
+| [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | NTSC-M (US) | `MBM29LV400TCTSOP48` | ? |
+| [`gba-blaze-tv-tuner-tvap-0.7z`]                  | ?       | ?          | PAL-? (EU)  | ?                    | ? |
 
 [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gb/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
+[`gba-blaze-tv-tuner-tvap-0.7z`]:                /gb/firmware/gba-blaze-tv-tuner-tvap-0.7z
+
+More information:
+
+- [Pelican TV Tuner article from the Nintendo Fandom wiki](https://nintendo.fandom.com/wiki/Pelican_TV_Tuner)
+- [Blaze TV Tuner dump: tweet from @felixjones on Twitter](https://twitter.com/Xilefian/status/1626322091141218306)
+- [Blaze TV Tuner dump: file from @felixjones on GitHub](https://gist.github.com/felixjones/ed8fab59b0d3bb08d6f07fa75bcfab47)
+- [IGN product review (2002-10-24)](https://www.ign.com/articles/2002/10/24/tv-tuner)
+- [YouTube: Playing Nintendo Switch on a Game Boy Advance](https://www.youtube.com/watch?v=IhZrvBU-q9s)
 
 ---
 
@@ -608,7 +787,13 @@ _Traced by @CheatoBaggins_
 
 <img src="/assets/logos/interact-logo-rect-3000x843.png" width="300" alt="InterAct logo rectangular">
 
-<img src="/assets/logos/n64-gameshark-pro-logo-blue-2200x1400.png" width="300" alt="N64 GameShark logo (blue text)"><img src="/assets/logos/n64-gameshark-pro-logo-red-2200x1400.png" width="300" alt="N64 GameShark logo (red text)"><a href="/assets/logos/gameshark-logo-gba-4000x3000.png"><img src="/assets/logos/gameshark-logo-gba-600x450.png" width="300" alt="GameShark logo circa 2003"></a>
+<img src="/assets/logos/n64-gameshark-pro-logo-blue-2200x1400.png"
+     width="300" alt="N64 GameShark logo (blue text)">
+<img src="/assets/logos/n64-gameshark-pro-logo-red-2200x1400.png"
+     width="300" alt="N64 GameShark logo (red text)">
+<a href="/assets/logos/gameshark-logo-gba-4000x3000.png">
+    <img src="/assets/logos/gameshark-logo-gba-600x450.png"
+         width="300" alt="GameShark logo circa 2003"></a>
 
 ---
 
