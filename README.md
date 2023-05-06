@@ -5,9 +5,11 @@
 This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s:
 GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuners, etc.
 
+_(Note: "GameShark", "Action Replay", "Game Buster", and "Equalizer" are all just country-specific brand names for the exact same hardware.)_
+
 Specifically, we document:
 
-1. EEPROM firmware dumps
+1. Firmware dumps
 2. PCB schematics
 3. Software utilities
 4. Instruction manuals
@@ -46,12 +48,31 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 ### N64 GameShark PCBs
 
-_Expertly traced in CAD by @RWeick_
+_Expertly traced, optimized, and reverse engineered by @RWeick_
 
-<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1080x752.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1080x752.png"  width="200">
+<img alt="GameShark REF1329 open source PCB CAD diagram"
+     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1080x752.png"
+     width="200">
+<img alt="GameShark REF1329 replacement PCB CAD diagram"
+     src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
+     width="200">
 
-- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (Datel's original design)
-- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (@RWeick's optimized design)
+#### Datel REF1329 PCB
+
+Most versions of the N64 GameShark used the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
+
+Because these chips are no longer manufactured and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
+
+1. **[Libre open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
+    - **This is almost certainly the one you want!**
+    - Designed with easily-sourced components
+    - No OEM hardware required
+    - 100% compatible with Datel's firmware images
+    - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
+2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
+    - This is a "rescue" board for good (working) LZ9FC17 chips
+    - It will ***only*** work with an authentic Datel LZ9FC17 chip (which is no longer being manufactured and can only be found in old GameSharks)
+    - If you accidentally fry the main board in a GameShark/AR, but the GAL still works, this PCB can be used as a fully compatible, optimized replacement for the fried OEM board (think of it like transplanting a shark's brain into a robot body)
 
 ### N64 GameShark screenshots
 
@@ -121,7 +142,7 @@ _Captured by @CheatoBaggins_
 
 ### N64 GameShark firmware
 
-_Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
+_Dumped by @Parasyte, @RWeick, @CheatoBaggins, and SharkByte_
 
 N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
@@ -191,6 +212,8 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
 
+***We recommend using Windows Me if possible. It has the same great software compatibility as Windows 98, but with a much better quality-of-life (e.g., Me has USB support).***
+
 Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
 <img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
@@ -229,11 +252,11 @@ GameShark PC link cable tools:
 
 | Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
 |:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98 only    | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, Me, XP | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, Me, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/Me only | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
 | [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
 | [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
@@ -387,6 +410,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
+
+The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box art](https://www.thecoverproject.net/view.php?game_id=6788).
 
 ---
 
@@ -779,6 +804,10 @@ More information:
 - Cheats 'N Codes    • [PDF (original)](/dc/manuals/dc_cheats_n_codes.pdf)
 - GameShark CDX v3.3 • [PDF (original)](/dc/manuals/dc_gameshark_cdx_v3.3_oem.pdf) • [PDF (OCR)](/dc/manuals/dc_gameshark_cdx_v3.3_ocr.pdf)
 
+### DC box art
+
+The Cover Project has a [simplified, incomplete scan of the GameShark Lite box art](https://www.thecoverproject.net/view.php?game_id=5609).
+
 ---
 
 ## Logos
@@ -796,6 +825,17 @@ _Traced by @CheatoBaggins_
          width="300" alt="GameShark logo circa 2003"></a>
 
 ---
+
+## Related projects
+
+- [N64brew community](https://n64brew.dev/)
+- @Parasyte's [picard - PIC Action Replay Decoder](https://github.com/parasyte/picard)
+- @Parasyte's [n64rd - N64 Remote Debugger](https://github.com/parasyte/n64rd)
+- @danhans42's [Xplorer 64 resources](https://github.com/danhans42/xplorer64)
+- @danhans42's [Xplorer/Xploder control utility](https://github.com/danhans42/xpp_psx)
+- Retroactive's [64Drive flash cart](https://64drive.retroactive.be/)
+- Krikzz's [EverDrive-64 X7](https://krikzz.com/our-products/cartridges/ed64x7.html)
+- [The Cover Project](https://www.thecoverproject.net/view.php?game_id=6788)
 
 ## Credits
 
