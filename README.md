@@ -212,6 +212,8 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
 
+***We recommend using Windows Me if possible. It has the same great software compatibility as Windows 98, but with a much better quality-of-life (e.g., Me has USB support).***
+
 Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
 <img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
@@ -250,11 +252,11 @@ GameShark PC link cable tools:
 
 | Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
 |:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, XP     | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, XP     | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98 only    | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, XP     | [`UserPort`][] for XP | [CMX][]             |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, Me, XP | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, Me, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/Me only | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
 | [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
 | [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
