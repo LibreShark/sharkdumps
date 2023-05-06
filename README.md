@@ -59,7 +59,7 @@ _Expertly traced, optimized, and reverse engineered by @RWeick_
 
 #### Datel REF1329 PCB
 
-Most versions of the N64 GameShark come with the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
+Most versions of the N64 GameShark used the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
 
 Because these chips are no longer manufactured and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
 
