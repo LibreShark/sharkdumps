@@ -142,7 +142,7 @@ _Captured by @CheatoBaggins_
 
 ### N64 GameShark firmware
 
-_Dumped by @Parasyte, @RWeick, and @CheatoBaggins_
+_Dumped by @Parasyte, @RWeick, @CheatoBaggins, and SharkByte_
 
 N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat list and settings, so dumping or reflashing a GameShark will also dump or overwrite the user's codes and preferences.
 
