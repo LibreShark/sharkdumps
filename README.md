@@ -5,9 +5,11 @@
 This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s:
 GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuners, etc.
 
+_(Note: "GameShark", "Action Replay", "Game Buster", and "Equalizer" are all just country-specific brand names for the exact same hardware.)_
+
 Specifically, we document:
 
-1. EEPROM firmware dumps
+1. Firmware dumps
 2. PCB schematics
 3. Software utilities
 4. Instruction manuals
@@ -46,12 +48,31 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 ### N64 GameShark PCBs
 
-_Expertly traced in CAD by @RWeick_
+_Expertly traced, optimized, and reverse engineered by @RWeick_
 
-<img alt="GameShark REF1329 PCB clone" src="/assets/photos/n64-gs-ref1329-pcb-clone-1080x752.png" width="200"> <img alt="GameShark REF1329 PCB fork"  src="/assets/photos/n64-gs-ref1329-pcb-fork-1080x752.png"  width="200">
+<img alt="GameShark REF1329 open source PCB CAD diagram"
+     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1080x752.png"
+     width="200">
+<img alt="GameShark REF1329 replacement PCB CAD diagram"
+     src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
+     width="200">
 
-- [GameShark REF1329 PCB clone](https://github.com/RWeick/REF1329-N64-Gameshark-Clone) (Datel's original design)
-- [GameShark REF1329 PCB fork](https://github.com/RWeick/N64-Gameshark-Pro-REF1329) (@RWeick's optimized design)
+### Datel REF1329 PCB
+
+Most versions of the N64 GameShark come with the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
+
+Because these chips are no longer manufactured and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
+
+1. **[Libre open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
+    - **This is almost certainly the one you want!**
+    - Designed with easily-sourced components
+    - No OEM hardware required
+    - 100% compatible with Datel's firmware images
+    - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
+2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
+    - This is a "rescue" board for good (working) LZ9FC17 chips
+    - It will ***only*** work with an authentic Datel LZ9FC17 chip (which are no longer manufactured and only found in old GameSharks)
+    - If you accidentally fry the main board in a GameShark/AR, but the GAL still works, this PCB can be used as a fully compatible, optimized replacement for the fried REF1329 (think of it like transplanting a shark's brain into a robot body)
 
 ### N64 GameShark screenshots
 
