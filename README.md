@@ -57,7 +57,7 @@ _Expertly traced, optimized, and reverse engineered by @RWeick_
      src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
      width="200">
 
-### Datel REF1329 PCB
+#### Datel REF1329 PCB
 
 Most versions of the N64 GameShark come with the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
 
