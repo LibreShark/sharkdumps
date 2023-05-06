@@ -71,8 +71,8 @@ Because these chips are no longer manufactured and the internal design was never
     - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
 2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
     - This is a "rescue" board for good (working) LZ9FC17 chips
-    - It will ***only*** work with an authentic Datel LZ9FC17 chip (which are no longer manufactured and only found in old GameSharks)
-    - If you accidentally fry the main board in a GameShark/AR, but the GAL still works, this PCB can be used as a fully compatible, optimized replacement for the fried REF1329 (think of it like transplanting a shark's brain into a robot body)
+    - It will ***only*** work with an authentic Datel LZ9FC17 chip (which is no longer being manufactured and can only be found in old GameSharks)
+    - If you accidentally fry the main board in a GameShark/AR, but the GAL still works, this PCB can be used as a fully compatible, optimized replacement for the fried OEM board (think of it like transplanting a shark's brain into a robot body)
 
 ### N64 GameShark screenshots
 
