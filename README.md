@@ -409,6 +409,8 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
 
+The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box art](https://www.thecoverproject.net/view.php?game_id=6788).
+
 ---
 
 ## N64 Action Replay (EU)
@@ -800,6 +802,10 @@ More information:
 - Cheats 'N Codes    • [PDF (original)](/dc/manuals/dc_cheats_n_codes.pdf)
 - GameShark CDX v3.3 • [PDF (original)](/dc/manuals/dc_gameshark_cdx_v3.3_oem.pdf) • [PDF (OCR)](/dc/manuals/dc_gameshark_cdx_v3.3_ocr.pdf)
 
+### DC box art
+
+The Cover Project has a [simplified, incomplete scan of the GameShark Lite box art](https://www.thecoverproject.net/view.php?game_id=5609).
+
 ---
 
 ## Logos
@@ -817,6 +823,17 @@ _Traced by @CheatoBaggins_
          width="300" alt="GameShark logo circa 2003"></a>
 
 ---
+
+## Related projects
+
+- [N64brew community](https://n64brew.dev/)
+- @Parasyte's [picard - PIC Action Replay Decoder](https://github.com/parasyte/picard)
+- @Parasyte's [n64rd - N64 Remote Debugger](https://github.com/parasyte/n64rd)
+- @danhans42's [Xplorer 64 resources](https://github.com/danhans42/xplorer64)
+- @danhans42's [Xplorer/Xploder control utility](https://github.com/danhans42/xpp_psx)
+- Retroactive's [64Drive flash cart](https://64drive.retroactive.be/)
+- Krikzz's [EverDrive-64 X7](https://krikzz.com/our-products/cartridges/ed64x7.html)
+- [The Cover Project](https://www.thecoverproject.net/view.php?game_id=6788)
 
 ## Credits
 
