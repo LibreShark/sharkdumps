@@ -538,14 +538,35 @@ bitfield CodeCount {
 
 fn format_cheat_code_count(CodeCount ccc) {
     return std::format(
-        "{} {}, {}",
+        "{} {}{}",
         ccc.numCodes,
         ccc.numCodes == 1 ? "code" : "codes",
-        ccc.isCheatEnabled ? "ENABLED by default" : "DISABLED by default");
+        ccc.isCheatEnabled ? ", ON" : "");
+};
+
+fn inflate_cheat_name(str deflated) {
+    str inflated = "";
+    for (u8 i = 0, i < strlen(deflated), i = i + 1) {
+        char ch = deflated[i];
+        match (ch) {
+            (0xF6): inflated += "Key";
+            (0xF7): inflated += "Have ";
+            (0xF8): inflated += "Lives";
+            (0xF9): inflated += "Energy";
+            (0xFA): inflated += "Health";
+            (0xFB): inflated += "Activate ";
+            (0xFC): inflated += "Unlimited ";
+            (0xFD): inflated += "Player ";
+            (0xFE): inflated += "Always ";
+            (0xFF): inflated += "Infinite ";
+            (_):    inflated += ch;
+        }
+    }
+    return inflated;
 };
 
 struct Cheat {
-    char name[] [[COLOR_PRIMARY]];
+    char name[] [[COLOR_PRIMARY, format_read("inflate_cheat_name")]];
     CodeCount codeCount;
     Array<Code, codeCount.numCodes> codes;
 } [[format_read("format_cheat")]];
@@ -553,7 +574,7 @@ struct Cheat {
 fn format_cheat(Cheat cheat) {
     return std::format(
         "\"{}\" ({})",
-        cheat.name,
+        inflate_cheat_name(cheat.name),
         cheat.codeCount);
 };
 
