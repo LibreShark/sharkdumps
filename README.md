@@ -162,7 +162,8 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 |   [`gs-1.05-19970904-dirty.bin`][]           | `v1.05 (Thu)` | `1997-09-04T16:25` |    23   |    133   | ❌      |
 |   [`gs-1.05-19970905-dirty.bin`][]           | `v1.05 (Fri)` | `1997-09-05T13:51` |    24   |    146   | ❌      |
 |   [`gs-1.06-19970919-dirty.bin`][]           | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ❌      |
-|   [`gs-1.07-19971107-dirty.bin`][]           | `v1.07`       | `1997-11-07T10:24` |    27   |    169   | ❌      |
+|   [`gs-1.07-19971027-dirty.bin`][]           | `v1.07 (Oct)` | `1997-10-27T17:21` |    28   |    175   | ❌      |
+|   [`gs-1.07-19971107-dirty.bin`][]           | `v1.07 (Nov)` | `1997-11-07T10:24` |    27   |    169   | ❌      |
 |   [`gs-1.08-19971124-dirty.bin`][]           | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌      |
 |   [`gs-1.08-19971208-dirty.bin`][]           | `v1.08 (Dec)` | `1997-12-08T11:10` |    20   |    109   | ❌      |
 |   [`gs-1.09-19980105-clean.bin`][]           | `v1.09`       | `1998-01-05T17:40` |    36   |    165   | ✅      |
@@ -191,6 +192,7 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 [`gs-1.05-19970904-dirty.bin`]:         /n64/firmware/gs-1.05-19970904-dirty.bin
 [`gs-1.05-19970905-dirty.bin`]:         /n64/firmware/gs-1.05-19970905-dirty.bin
 [`gs-1.06-19970919-dirty.bin`]:         /n64/firmware/gs-1.06-19970919-dirty.bin
+[`gs-1.07-19971027-dirty.bin`]:         /n64/firmware/gs-1.07-19971027-dirty.bin
 [`gs-1.07-19971107-dirty.bin`]:         /n64/firmware/gs-1.07-19971107-dirty.bin
 [`gs-1.08-19971124-dirty.bin`]:         /n64/firmware/gs-1.08-19971124-dirty.bin
 [`gs-1.08-19971208-dirty.bin`]:         /n64/firmware/gs-1.08-19971208-dirty.bin
