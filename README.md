@@ -456,6 +456,9 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-03-blaze-logo.png"
      alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
      width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
+     alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
+     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-04-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
@@ -470,9 +473,6 @@ _Captured by @CheatoBaggins_
      width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-09-mario64-cheats.png"
      alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
-     width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
-     alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
      width="200">
 
 ### Xplorer 64 firmware
