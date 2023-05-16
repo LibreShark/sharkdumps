@@ -419,15 +419,15 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Action Replay (EU)
 
-| Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
-|:---------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`ar-1.11-19980415.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ⚠️      |
-| [`arpro-3.0-19990324.bin`][] | `v3.00` | `1999-03-24T15:50` |   49 |  506 | ⚠️      |
-| [`arpro-3.3-20000418.bin`][] | `v3.30` | `2000-04-18T16:08` |  181 | 2043 | ⚠️      |
+| Filename                           | Version | Build timestamp    | #G   | #C   | Clean? |
+|:---------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`ar-1.11-19980415-dirty.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ❌      |
+| [`arpro-3.0-19990324-dirty.bin`][] | `v3.00` | `1999-03-24T15:50` |   49 |  506 | ❌      |
+| [`arpro-3.3-20000418-dirty.bin`][] | `v3.30` | `2000-04-18T16:08` |  181 | 2043 | ❌      |
 
-[`ar-1.11-19980415.bin`]:   /n64/firmware/ar-1.11-19980415.bin
-[`arpro-3.0-19990324.bin`]: /n64/firmware/arpro-3.0-19990324.bin
-[`arpro-3.3-20000418.bin`]: /n64/firmware/arpro-3.3-20000418.bin
+[`ar-1.11-19980415-dirty.bin`]:   /n64/firmware/ar-1.11-19980415-dirty.bin
+[`arpro-3.0-19990324-dirty.bin`]: /n64/firmware/arpro-3.0-19990324-dirty.bin
+[`arpro-3.3-20000418-dirty.bin`]: /n64/firmware/arpro-3.3-20000418-dirty.bin
 
 ---
 
