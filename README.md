@@ -408,7 +408,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
-### N64 GameShark box art
+### N64 GameShark repro box art
 
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
@@ -456,14 +456,14 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-03-blaze-logo.png"
      alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
-     alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
-     width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-04-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-05-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
+     alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
      width="200">
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-07-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
@@ -483,7 +483,7 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
-| Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
+| Filename                                             | Version   | Build  | Timestamp                  | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
 | [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000E` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
 | [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067E` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
@@ -502,14 +502,28 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 
 ### Xplorer 64 software
 
-* [X-Killer](/n64/tools/xplorer64/x-killer_v060.zip)
-* [Xplorer 64 PC update utility (German)](/n64/tools/xplorer64/xp64_1067g.zip)
+- [Official upgrade utility v1.067G (German)](/n64/tools/xplorer64/xp64_1067g.zip)
+    - Build date: `2000-05-29`
+    - Author: Blaze/FCD
+    - Features _(unconfirmed)_:
+        - Upgrade Xplorer 64 cartridge firmware
+        - Cheat manager
+- [Unofficial X-Killer utility v0.60 (English)](/n64/tools/xplorer64/x-killer_v060.zip)
+    - Build date: `2000-12-01`
+    - Author: Tim Schuerewegen from Belgium
+    - Features _(unconfirmed)_:
+        - No territory check when upgrading the ROM
+        - Ability to encrypt and decrypt ROM files
+        - Backup the ROM without having to upgrade it
+        - View information about ROM files in ROM Manager (version/date/...)
+        - Extract codes from ROM files
+        - No restrictions on viewing and downloading memory
 
 ### Xplorer 64 manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
-- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 printed manual (`1999-06-21`)](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
 
@@ -602,7 +616,7 @@ See https://tcrf.net/GB_Hunter
 
 ## N64 DexDrive
 
-The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with a RS-232 serial cable.
+The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with an RS-232 serial cable.
 
 <img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
