@@ -450,29 +450,29 @@ _Expertly traced in CAD by @RWeick_
 
 _Captured by @CheatoBaggins_
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
-     alt="Screenshot of the Future Console Design logo mid-animation from an N64 Xplorer 64"
-     width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-02-fcd-logo-normal.png"
      alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-03-blaze-logo.png"
      alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-04-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-05-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-07-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-08-zelda-cheats.png"
      alt="Screenshot of the Zelda OoT cheats from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-09-mario64-cheats.png"
      alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
+     alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
      width="200">
 
 ### Xplorer 64 firmware
@@ -485,10 +485,10 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 
 | Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
-| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
-| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067e` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
-| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067g` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
-| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000E` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067E` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067G` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067E` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
 
 [`xp64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xp64-v1.000e-b1834-19990816-green.enc
 [`xp64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xp64-v1.067e-b2510-19991123.bin
