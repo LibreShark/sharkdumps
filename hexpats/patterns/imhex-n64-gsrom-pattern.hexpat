@@ -720,59 +720,63 @@ fn format_key_code_list_section(KeyCodeListSection list) {
  ******************************************************************************/
 
 struct GSROM {
-    HeaderSection header @ 0x00000000;
+    if (find(0x00000000, 0x00000007, 0xAE, 0x59, 0x63, 0x54) == 0) {
+        u8 encryptedBytes[0x00040000] @ 0x00000000;
+    } else {
+        HeaderSection header @ 0x00000000;
 
-    bool isV3Firmware    = read_u32_at(0x00001000) == 0x00000000;
-    bool isV2GameList    = read_u32_at(0x0002DFF0) == 0x00000000;
-    bool isV2KeyCodeList = read_u32_at(0x0002D7F0) == 0x00000000;
-    bool isV3KeyCodeList = read_u32_at(0x0002FBF0) == 0xFFFFFFFF;
-    bool hasUserConfig   = read_u32_at(0x0002FAF0) == 0xFFFFFFFF;
+        bool isV3Firmware    = read_u32_at(0x00001000) == 0x00000000;
+        bool isV2GameList    = read_u32_at(0x0002DFF0) == 0x00000000;
+        bool isV2KeyCodeList = read_u32_at(0x0002D7F0) == 0x00000000;
+        bool isV3KeyCodeList = read_u32_at(0x0002FBF0) == 0xFFFFFFFF;
+        bool hasUserConfig   = read_u32_at(0x0002FAF0) == 0xFFFFFFFF;
 
-    u32 firmwareAddr    = isV3Firmware ? 0x00001080 : 0x00001000;
-    u32 gameListAddr    = isV2GameList ? 0x0002E000 : 0x00030000;
-    u32 keyCodeListAddr = isV3KeyCodeList ? 0x0002FC00 : (isV2KeyCodeList ? 0x0002D800 : 0xFFFFFFFF);
+        u32 firmwareAddr    = isV3Firmware ? 0x00001080 : 0x00001000;
+        u32 gameListAddr    = isV2GameList ? 0x0002E000 : 0x00030000;
+        u32 keyCodeListAddr = isV3KeyCodeList ? 0x0002FC00 : (isV2KeyCodeList ? 0x0002D800 : 0xFFFFFFFF);
 
-    FirmwareSection firmware @ firmwareAddr;
-    GameListSection gameList @ gameListAddr;
+        FirmwareSection firmware @ firmwareAddr;
+        GameListSection gameList @ gameListAddr;
 
-    std::print("");
+        std::print("");
 
-    if (keyCodeListAddr != 0xFFFFFFFF) {
-        KeyCodeListSection keyCodeList @ keyCodeListAddr;
+        if (keyCodeListAddr != 0xFFFFFFFF) {
+            KeyCodeListSection keyCodeList @ keyCodeListAddr;
+        }
+
+        if (!(keyCodeList.numKeyCodes > 0)) {
+            std::print("No key codes found.");
+        }
+
+        if (hasUserConfig) {
+            UserConfigSection userConfig @ 0x0002FB00;
+        }
+
+        str fwBrand = "UNKNOWN";
+        match (header.firmwareBrand) {
+            (FirmwareBrand::GAMESHARK):       fwBrand = "gs";
+            (FirmwareBrand::ACTION_REPLAY):   fwBrand = "ar";
+            (FirmwareBrand::PERFECT_TRAINER): fwBrand = "perfect-trainer";
+            (FirmwareBrand::LIBRESHARK):      fwBrand = "libreshark";
+        }
+
+        str fwVersion = std::format(
+            "v{:.2f}{}",
+            header.firmwareVersion,
+            std::string::to_lower(std::string::substr(header.firmwareDisambiguator, 0, 3))
+            );
+
+        str firmwareId = std::format(
+            "n64-{}-{}-{}",
+            fwBrand,
+            fwVersion,
+            header.buildTimestamp.id
+            );
+
+        std::print("");
+        std::print("Firmware ID: {}", firmwareId);
+        std::print("");
     }
-
-    if (!(keyCodeList.numKeyCodes > 0)) {
-        std::print("No key codes found.");
-    }
-
-    if (hasUserConfig) {
-        UserConfigSection userConfig @ 0x0002FB00;
-    }
-
-    str fwBrand = "UNKNOWN";
-    match (header.firmwareBrand) {
-        (FirmwareBrand::GAMESHARK):       fwBrand = "gs";
-        (FirmwareBrand::ACTION_REPLAY):   fwBrand = "ar";
-        (FirmwareBrand::PERFECT_TRAINER): fwBrand = "perfect-trainer";
-        (FirmwareBrand::LIBRESHARK):      fwBrand = "libreshark";
-    }
-
-    str fwVersion = std::format(
-        "v{:.2f}{}",
-        header.firmwareVersion,
-        std::string::to_lower(std::string::substr(header.firmwareDisambiguator, 0, 3))
-        );
-
-    str firmwareId = std::format(
-        "n64-{}-{}-{}",
-        fwBrand,
-        fwVersion,
-        header.buildTimestamp.id
-        );
-
-    std::print("");
-    std::print("Firmware ID: {}", firmwareId);
-    std::print("");
 }; // [[format_read("format_gsrom")]];
 
 fn format_gsrom(GSROM rom) {
