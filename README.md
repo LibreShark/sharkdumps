@@ -641,68 +641,68 @@ Game Booster is the European version of GB Hunter. (Or rather, GB Hunter is the 
 
 _Captured by @CheatoBaggins_
 
-<img src="n64-gamebooster-screenshot-01-booting.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-01-booting.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-02-splash-1.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-02-splash-1.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-04-loading.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-04-loading.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-05-sml-border0.png"
-     alt=""
-     width="200">
-
-<img src="n64-gamebooster-screenshot-06-sml-border1.png"
-     alt=""
-     width="200">
-<img src="n64-gamebooster-screenshot-07-sml-border2.png"
-     alt=""
-     width="200">
-<img src="n64-gamebooster-screenshot-08-sml-border3.png"
-     alt=""
-     width="200">
-<img src="n64-gamebooster-screenshot-09-sml-border4.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-05-sml-border0.png"
      alt=""
      width="200">
 
-<img src="n64-gamebooster-screenshot-10-tetrisdx-splash.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-06-sml-border1.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-11-warioland2-splash.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-07-sml-border2.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-13-kirby2-splash.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-08-sml-border3.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-19-kss-splash.png"
-     alt=""
-     width="200">
-
-<img src="n64-gamebooster-screenshot-20-rebound-01-splash.png"
-     alt=""
-     width="200">
-<img src="n64-gamebooster-screenshot-21-rebound-02-new-game.png"
-     alt=""
-     width="200">
-<img src="n64-gamebooster-screenshot-22-rebound-03-level1-starting.png"
-     alt=""
-     width="200">
-<img src="n64-gamebooster-screenshot-23-rebound-04-level1-playing.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-09-sml-border4.png"
      alt=""
      width="200">
 
-<img src="n64-gamebooster-screenshot-24-rebound-05-level2-starting.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-10-tetrisdx-splash.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-25-rebound-06-game-over.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-11-warioland2-splash.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-26-rebound-07-continue.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-13-kirby2-splash.png"
      alt=""
      width="200">
-<img src="n64-gamebooster-screenshot-27-rebound-08-password.png"
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-19-kss-splash.png"
+     alt=""
+     width="200">
+
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-20-rebound-01-splash.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-21-rebound-02-new-game.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-22-rebound-03-level1-starting.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-23-rebound-04-level1-playing.png"
+     alt=""
+     width="200">
+
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-24-rebound-05-level2-starting.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-25-rebound-06-game-over.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-26-rebound-07-continue.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-27-rebound-08-password.png"
      alt=""
      width="200">
 
