@@ -51,7 +51,7 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 _Expertly traced, optimized, and reverse engineered by @RWeick_
 
 <img alt="GameShark REF1329 open source PCB CAD diagram"
-     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1080x752.png"
+     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1620x1121.png"
      width="200">
 <img alt="GameShark REF1329 replacement PCB CAD diagram"
      src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
@@ -63,10 +63,10 @@ Most versions of the N64 GameShark used the same proprietary ASIC chip: the LZ9F
 
 Because these chips are no longer manufactured and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
 
-1. **[Libre open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
+1. **[Fully open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
     - **This is almost certainly the one you want!**
     - Designed with easily-sourced components
-    - No OEM hardware required
+    - No donor parts required
     - 100% compatible with Datel's firmware images
     - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
 2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
