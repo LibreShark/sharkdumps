@@ -649,7 +649,7 @@ Like the GB Hunter, Game Booster supports:
 - Manual cheat code entry
 - Trainer for finding new cheat codes
 
-Game Booster ***does not support*** Game Boy Color games, and not all DMG Game Boy games are supported either (e.g., Pokémon Yellow doesn't boot).
+Game Booster ***does not support*** GBC-only games (but it _does_ support dual-compatible GB/GBC games), and not all DMG Game Boy games are supported either (e.g., Pokémon Yellow doesn't boot).
 
 ### Game Booster screenshots
 
@@ -698,9 +698,9 @@ Insert one of the following games into the Game Booster and power on the console
 
 - Pokémon Gold Version
 - Wario Land II
-    - ONLY the Game Boy ***Color*** editions of this game (with a **BLACK** or _transparent_ cartridge) will boot into Rebound Mission. The gray carts are  do not trigger the Easter egg.
+    - ONLY the dual-compatible GB/GBC version of this game (with the **BLACK** cartridge) will boot into Rebound Mission. The gray cart version does not trigger the Easter egg.
 
-Instead of starting the game on the cartridge, it will load a hidden game made by Datel called "Rebound Mission" (basically a mix between Pong and Space Invaders):
+Instead of starting the game on the cartridge, the Game Booster loads a _hidden_ game made by Datel called "Rebound Mission" (basically a mix between Pong and Space Invaders):
 
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-20-rebound-01-splash.png"
      alt=""
