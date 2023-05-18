@@ -649,7 +649,7 @@ Like the GB Hunter, Game Booster supports:
 - Manual cheat code entry
 - Trainer for finding new cheat codes
 
-Game Booster ***does not support*** GBC-only games (but it _does_ support dual-compatible GB/GBC games), and not all DMG Game Boy games are supported either (e.g., Pokémon Yellow doesn't boot).
+Game Booster ***does not support*** GBC-only games (though it _does_ support dual-compatible GB/GBC and Super Game Boy games), and not all Game Boy games are supported (e.g., Pokémon Yellow doesn't boot).
 
 ### Game Booster screenshots
 
