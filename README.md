@@ -443,11 +443,11 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Game Buster (DE)
 
-| Filename                          | Version | Build timestamp    | #G   | #C   | Clean? |
-|:--------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`gb-v3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  535 | ❌      |
+| Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
+|:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`gb-3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  535 | ❌      |
 
-[`gb-v3.21-19990805-dirty.bin`]: /n64/firmware/gb-v3.21-19990805-dirty.bin
+[`gb-3.21-19990805-dirty.bin`]: /n64/firmware/gb-3.21-19990805-dirty.bin
 
 ---
 
