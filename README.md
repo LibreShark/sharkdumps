@@ -51,7 +51,7 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 _Expertly traced, optimized, and reverse engineered by @RWeick_
 
 <img alt="GameShark REF1329 open source PCB CAD diagram"
-     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1080x752.png"
+     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1620x1121.png"
      width="200">
 <img alt="GameShark REF1329 replacement PCB CAD diagram"
      src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
@@ -63,10 +63,10 @@ Most versions of the N64 GameShark used the same proprietary ASIC chip: the LZ9F
 
 Because these chips are no longer manufactured and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
 
-1. **[Libre open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
+1. **[Fully open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
     - **This is almost certainly the one you want!**
     - Designed with easily-sourced components
-    - No OEM hardware required
+    - No donor parts required
     - 100% compatible with Datel's firmware images
     - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
 2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
@@ -408,7 +408,7 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
-### N64 GameShark box art
+### N64 GameShark repro box art
 
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
@@ -419,15 +419,15 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Action Replay (EU)
 
-| Filename                     | Version | Build timestamp    | #G   | #C   | Clean? |
-|:---------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`ar-1.11-19980415.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ⚠️      |
-| [`arpro-3.0-19990324.bin`][] | `v3.00` | `1999-03-24T15:50` |   49 |  506 | ⚠️      |
-| [`arpro-3.3-20000418.bin`][] | `v3.30` | `2000-04-18T16:08` |  181 | 2043 | ⚠️      |
+| Filename                           | Version | Build timestamp    | #G   | #C   | Clean? |
+|:---------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`ar-1.11-19980415-dirty.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ❌      |
+| [`arpro-3.0-19990324-dirty.bin`][] | `v3.00` | `1999-03-24T15:50` |   49 |  506 | ❌      |
+| [`arpro-3.3-20000418-dirty.bin`][] | `v3.30` | `2000-04-18T16:08` |  181 | 2043 | ❌      |
 
-[`ar-1.11-19980415.bin`]:   /n64/firmware/ar-1.11-19980415.bin
-[`arpro-3.0-19990324.bin`]: /n64/firmware/arpro-3.0-19990324.bin
-[`arpro-3.3-20000418.bin`]: /n64/firmware/arpro-3.3-20000418.bin
+[`ar-1.11-19980415-dirty.bin`]:   /n64/firmware/ar-1.11-19980415-dirty.bin
+[`arpro-3.0-19990324-dirty.bin`]: /n64/firmware/arpro-3.0-19990324-dirty.bin
+[`arpro-3.3-20000418-dirty.bin`]: /n64/firmware/arpro-3.3-20000418-dirty.bin
 
 ---
 
@@ -450,28 +450,28 @@ _Expertly traced in CAD by @RWeick_
 
 _Captured by @CheatoBaggins_
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-1-fcd-logo-zoom.png"
-     alt="Screenshot of the Future Console Design logo mid-animation from an N64 Xplorer 64"
-     width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-2-fcd-logo-normal.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-02-fcd-logo-normal.png"
      alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-3-blaze-logo.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-03-blaze-logo.png"
      alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-4-main-menu.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-04-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-5-customise.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-05-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-7-game-list.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
+     alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-07-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-8-zelda-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-08-zelda-cheats.png"
      alt="Screenshot of the Zelda OoT cheats from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-9-mario64-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-09-mario64-cheats.png"
      alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
      width="200">
 
@@ -483,12 +483,12 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
-| Filename                                             | Version   | Build  | Build timestamp            | Language | #G | #C | Clean? | Unencrypted? |
+| Filename                                             | Version   | Build  | Timestamp                  | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
-| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000e` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
-| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067e` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
-| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067g` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
-| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067e` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000E` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067E` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067G` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
+| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067E` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
 
 [`xp64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xp64-v1.000e-b1834-19990816-green.enc
 [`xp64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xp64-v1.067e-b2510-19991123.bin
@@ -502,14 +502,28 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 
 ### Xplorer 64 software
 
-* [X-Killer](/n64/tools/xplorer64/x-killer_v060.zip)
-* [Xplorer 64 PC update utility (German)](/n64/tools/xplorer64/xp64_1067g.zip)
+- [Official upgrade utility v1.067G (German)](/n64/tools/xplorer64/xp64_1067g.zip)
+    - Build date: `2000-05-29`
+    - Author: Blaze/FCD
+    - Features _(unconfirmed)_:
+        - Upgrade Xplorer 64 cartridge firmware
+        - Cheat manager
+- [Unofficial X-Killer utility v0.60 (English)](/n64/tools/xplorer64/x-killer_v060.zip)
+    - Build date: `2000-12-01`
+    - Author: Tim Schuerewegen from Belgium
+    - Features _(unconfirmed)_:
+        - No territory check when upgrading the ROM
+        - Ability to encrypt and decrypt ROM files
+        - Backup the ROM without having to upgrade it
+        - View information about ROM files in ROM Manager (version/date/...)
+        - Extract codes from ROM files
+        - No restrictions on viewing and downloading memory
 
 ### Xplorer 64 manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
-- [Xplorer 64 offline manual 1999-06-21](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
+- [Xplorer 64 printed manual (`1999-06-21`)](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
 
@@ -594,15 +608,158 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 ## N64 Game Booster (EU)
 
-![Screenshot of the N64 Game Booster splash screen](https://tcrf.net/images/b/ba/GameBooster-title.png)
+Game Booster is the European version of GB Hunter
+(or rather, GB Hunter is the American version of the Game Booster.)
 
-See https://tcrf.net/GB_Hunter
+Like the GB Hunter, Game Booster supports:
+
+- Super Game Boy-enhanced games
+    - Special border graphics
+    - Basic color palettes
+- Custom color palettes
+- Four Datel-designed borders that can be selected by the user
+- Preloaded list of GameShark / Action Replay cheats
+- Manual cheat code entry
+- Trainer for finding new cheat codes
+
+Game Booster ***does not support*** Game Boy Color games.
+
+### Game Booster screenshots
+
+_Captured by @CheatoBaggins_
+
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-01-booting.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-02-splash-1.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-04-loading.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-05-sml-border0.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-06-sml-border1.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-07-sml-border2.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-08-sml-border3.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-09-sml-border4.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-10-tetrisdx-splash.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-11-warioland2-splash.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-13-kirby2-splash.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-19-kss-splash.png"
+     alt=""
+     width="200">
+
+### Hidden game: "Rebound Mission"
+
+The Game Booster contains a built-in Game Boy game, "Rebound Mission", that can be played by starting it up without a Game Boy cartridge plugged in. This game is not present in the GB Hunter.
+
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-20-rebound-01-splash.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-21-rebound-02-new-game.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-22-rebound-03-level1-starting.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-23-rebound-04-level1-playing.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-24-rebound-05-level2-starting.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-25-rebound-06-game-over.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-26-rebound-07-continue.png"
+     alt=""
+     width="200">
+<img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-27-rebound-08-password.png"
+     alt=""
+     width="200">
+
+"Continue" passwords (from [GameFAQs](https://gamefaqs.gamespot.com/boards/916387-nintendo-64/80384269)):
+
+```
+Level 01: STARTING
+Level 02: NEWBIE
+Level 03: WARMUP
+Level 04: WIDEBOY
+Level 05: COFFECUP
+Level 06: TEASPOON
+Level 07: GLASSJAR
+Level 08: GUITARR
+Level 09: CAPSLOCK
+Level 10: CLOUDS
+Level 11: HELPME
+Level 12: BIRDNEST
+Level 13: PENCIL
+Level 14: IMMORTAL
+Level 15: GOODLUCK
+Level 16: DOORWAY
+Level 17: MONITOR
+Level 18: PAPER
+Level 19: JOYSTICK
+Level 20: FEBRUARY
+Level 21: CHEMIST
+Level 22: ZOOM
+Level 23: SNOWBALL
+Level 24: NECKLACE
+Level 25: CURTAIN
+Level 26: PENNY
+Level 27: BOOKMARK
+Level 28: MACHINES
+Level 29: BASEMENT
+Level 30: ELEVATOR
+Level 31: RADIATOR
+Level 32: ICECREAM
+Level 33: AIRPLANE
+Level 34: WINDOW
+Level 35: RECORD
+Level 36: PIANO
+Level 37: POSTCARD
+Level 38: SQUIRREL
+Level 39: ELEPHANT
+Level 40: DENTIST
+Level 41: FERARRI
+Level 42: CONTRACT
+Level 43: FIREPOST
+Level 44: FLAMES
+Level 45: SANDWICH
+Level 46: POETRY
+Level 47: AUTHOR
+Level 48: SPEAKERS
+Level 49: PIZZAMAN
+Level 50: ENDLEVEL
+```
+
+More information:
+
+- https://nerdbacon.com/gamebooster/
+- https://mamedev.emulab.it/haze/2018/01/28/things-youre-probably-not-going-to-want-to-do-348693/
+- https://wiki.gamehacking.org/GB_Hunter
 
 ---
 
 ## N64 DexDrive
 
-The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with a RS-232 serial cable.
+The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with an RS-232 serial cable.
 
 <img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
