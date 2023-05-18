@@ -721,60 +721,66 @@ The Game Booster contains a built-in Game Boy game, "Rebound Mission", that can 
      alt=""
      width="200">
 
-"Continue" passwords:
+"Continue" passwords (from [GameFAQs](https://gamefaqs.gamespot.com/boards/916387-nintendo-64/80384269)):
 
-| Level | Password   |
-| -----:|:---------- |
-|   `1` | `STARTING` |
-|   `2` | `NEWBIE`   |
-|   `3` | `WARMUP`   |
-|   `4` | `WIDEBOY`  |
-|   `5` | `COFFECUP` |
-|   `6` | `TEASPOON` |
-|   `7` | `GLASSJAR` |
-|   `8` | `GUITARR`  |
-|   `9` | `CAPSLOCK` |
-|  `10` | `CLOUDS`   |
-|  `11` | `HELPME`   |
-|  `12` | `BIRDNEST` |
-|  `13` | `PENCIL`   |
-|  `14` | `IMMORTAL` |
-|  `15` | `GOODLUCK` |
-|  `16` | `DOORWAY`  |
-|  `17` | `MONITOR`  |
-|  `18` | `PAPER`    |
-|  `19` | `JOYSTICK` |
-|  `20` | `FEBRUARY` |
-|  `21` | `CHEMIST`  |
-|  `22` | `ZOOM`     |
-|  `23` | `SNOWBALL` |
-|  `24` | `NECKLACE` |
-|  `25` | `CURTAIN`  |
-|  `26` | `PENNY`    |
-|  `27` | `BOOKMARK` |
-|  `28` | `MACHINES` |
-|  `29` | `BASEMENT` |
-|  `30` | `ELEVATOR` |
-|  `31` | `RADIATOR` |
-|  `32` | `ICECREAM` |
-|  `33` | `AIRPLANE` |
-|  `34` | `WINDOW`   |
-|  `35` | `RECORD`   |
-|  `36` | `PIANO`    |
-|  `37` | `POSTCARD` |
-|  `38` | `SQUIRREL` |
-|  `39` | `ELEPHANT` |
-|  `40` | `DENTIST`  |
-|  `41` | `FERARRI`  |
-|  `42` | `CONTRACT` |
-|  `43` | `FIREPOST` |
-|  `44` | `FLAMES`   |
-|  `45` | `SANDWICH` |
-|  `46` | `POETRY`   |
-|  `47` | `AUTHOR`   |
-|  `48` | `SPEAKERS` |
-|  `49` | `PIZZAMAN` |
-|  `50` | `ENDLEVEL` |
+```
+Level 01: STARTING
+Level 02: NEWBIE
+Level 03: WARMUP
+Level 04: WIDEBOY
+Level 05: COFFECUP
+Level 06: TEASPOON
+Level 07: GLASSJAR
+Level 08: GUITARR
+Level 09: CAPSLOCK
+Level 10: CLOUDS
+Level 11: HELPME
+Level 12: BIRDNEST
+Level 13: PENCIL
+Level 14: IMMORTAL
+Level 15: GOODLUCK
+Level 16: DOORWAY
+Level 17: MONITOR
+Level 18: PAPER
+Level 19: JOYSTICK
+Level 20: FEBRUARY
+Level 21: CHEMIST
+Level 22: ZOOM
+Level 23: SNOWBALL
+Level 24: NECKLACE
+Level 25: CURTAIN
+Level 26: PENNY
+Level 27: BOOKMARK
+Level 28: MACHINES
+Level 29: BASEMENT
+Level 30: ELEVATOR
+Level 31: RADIATOR
+Level 32: ICECREAM
+Level 33: AIRPLANE
+Level 34: WINDOW
+Level 35: RECORD
+Level 36: PIANO
+Level 37: POSTCARD
+Level 38: SQUIRREL
+Level 39: ELEPHANT
+Level 40: DENTIST
+Level 41: FERARRI
+Level 42: CONTRACT
+Level 43: FIREPOST
+Level 44: FLAMES
+Level 45: SANDWICH
+Level 46: POETRY
+Level 47: AUTHOR
+Level 48: SPEAKERS
+Level 49: PIZZAMAN
+Level 50: ENDLEVEL
+```
+
+More information:
+
+- https://nerdbacon.com/gamebooster/
+- https://mamedev.emulab.it/haze/2018/01/28/things-youre-probably-not-going-to-want-to-do-348693/
+- https://wiki.gamehacking.org/GB_Hunter
 
 ---
 
