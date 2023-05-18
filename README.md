@@ -431,6 +431,26 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ---
 
+## N64 Equalizer (EU)
+
+| Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
+|:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`eq-3.00-19990720-dirty.bin`][] | `v3.00` | `1998-04-15T14:56` |   58 |  535 | ❌      |
+
+[`eq-3.00-19990720-dirty.bin`]: /n64/firmware/eq-3.00-19990720-dirty.bin
+
+---
+
+## N64 Game Buster (DE)
+
+| Filename                          | Version | Build timestamp    | #G   | #C   | Clean? |
+|:--------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`gb-v3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  535 | ❌      |
+
+[`gb-v3.21-19990805-dirty.bin`]: /n64/firmware/gb-v3.21-19990805-dirty.bin
+
+---
+
 ## N64 Xplorer 64 (EU)
 
 <a href="/assets/photos/n64-xplorer64-green-front-3328.png"><img src="/assets/photos/n64-xplorer64-green-front-200.png" alt="Front side of an Xplorer 64 (green label)"></a>
@@ -592,11 +612,11 @@ _Captured by @CheatoBaggins_
 
 _Dumped by @RWeick_
 
-| Filename                          | Version   | Build timestamp            | #G | #C | Clean? |
-|:--------------------------------- |:--------- |:-------------------------- | --:| --:|:------:|
-| [`gb-hunter-1998-pristine.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⭐️      |
+| Filename                    | Version   | Build timestamp            | #G | #C | Clean? |
+|:--------------------------- |:--------- |:-------------------------- | --:| --:|:------:|
+| [`gbh-1998-pristine.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⭐️      |
 
-[`gb-hunter-1998-pristine.bin`]: /n64/firmware/gb-hunter-1998-pristine.bin
+[`gbh-1998-pristine.bin`]: /n64/firmware/gbh-1998-pristine.bin
 
 ### GB Hunter manual
 
