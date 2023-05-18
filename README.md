@@ -721,6 +721,61 @@ The Game Booster contains a built-in Game Boy game, "Rebound Mission", that can 
      alt=""
      width="200">
 
+"Continue" passwords:
+
+| Level | Password   |
+| -----:|:---------- |
+|   `1` | `STARTING` |
+|   `2` | `NEWBIE`   |
+|   `3` | `WARMUP`   |
+|   `4` | `WIDEBOY`  |
+|   `5` | `COFFECUP` |
+|   `6` | `TEASPOON` |
+|   `7` | `GLASSJAR` |
+|   `8` | `GUITARR`  |
+|   `9` | `CAPSLOCK` |
+|  `10` | `CLOUDS`   |
+|  `11` | `HELPME`   |
+|  `12` | `BIRDNEST` |
+|  `13` | `PENCIL`   |
+|  `14` | `IMMORTAL` |
+|  `15` | `GOODLUCK` |
+|  `16` | `DOORWAY`  |
+|  `17` | `MONITOR`  |
+|  `18` | `PAPER`    |
+|  `19` | `JOYSTICK` |
+|  `20` | `FEBRUARY` |
+|  `21` | `CHEMIST`  |
+|  `22` | `ZOOM`     |
+|  `23` | `SNOWBALL` |
+|  `24` | `NECKLACE` |
+|  `25` | `CURTAIN`  |
+|  `26` | `PENNY`    |
+|  `27` | `BOOKMARK` |
+|  `28` | `MACHINES` |
+|  `29` | `BASEMENT` |
+|  `30` | `ELEVATOR` |
+|  `31` | `RADIATOR` |
+|  `32` | `ICECREAM` |
+|  `33` | `AIRPLANE` |
+|  `34` | `WINDOW`   |
+|  `35` | `RECORD`   |
+|  `36` | `PIANO`    |
+|  `37` | `POSTCARD` |
+|  `38` | `SQUIRREL` |
+|  `39` | `ELEPHANT` |
+|  `40` | `DENTIST`  |
+|  `41` | `FERARRI`  |
+|  `42` | `CONTRACT` |
+|  `43` | `FIREPOST` |
+|  `44` | `FLAMES`   |
+|  `45` | `SANDWICH` |
+|  `46` | `POETRY`   |
+|  `47` | `AUTHOR`   |
+|  `48` | `SPEAKERS` |
+|  `49` | `PIZZAMAN` |
+|  `50` | `ENDLEVEL` |
+
 ---
 
 ## N64 DexDrive
