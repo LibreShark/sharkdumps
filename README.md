@@ -429,33 +429,6 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 [`arpro-3.0-19990324-dirty.bin`]: /n64/firmware/arpro-3.0-19990324-dirty.bin
 [`arpro-3.3-20000418-dirty.bin`]: /n64/firmware/arpro-3.3-20000418-dirty.bin
 
-### N64 Action Replay cheat codes
-
-We have not yet been able to confirm the provenance of the cheat codes in the AR ROMs.
-
-`ar-1.11-19980415-dirty.bin` and `arpro-3.0-19990324-dirty.bin` both contain the `Infinite Time: 8009498F 003C` cheat, which — according the [Multi Racing Championship FAQ](https://www.neoseeker.com/mrc/faqs/29301-multi-racing-championship.html) — is for the US version of the game:
-
-> ***U.S. Version 1.0***
->
-> ```
-> High Course Time     8009483B FFFF
-> Infinite Time        8009498F 003C ; <!--------
-> Always First         800A9107 0000
->                      D0094E97 000A
-> Low Course Time      8009483B 0000
-> ```
->
-> ***U.K. Version 1.0***
->
-> ```
-> Infinite Time        80094E27 00FF
-> Always First         800A959F 0000
-> ```
-
-This suggests that either the AR came preloaded with codes for American games, or the owners of the cartridges from which they were dumped ...
-
-TODO(CheatoBaggins): Finish this
-
 ---
 
 ## N64 Xplorer 64 (EU)
