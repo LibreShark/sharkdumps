@@ -635,9 +635,23 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 ## N64 Game Booster (EU)
 
-Game Booster is the European version of GB Hunter. (Or rather, GB Hunter is the American version of Game Booster!)
+Game Booster is the European version of GB Hunter
+(or rather, GB Hunter is the American version of the Game Booster.)
 
-## Game Booster screenshots
+Like the GB Hunter, Game Booster supports:
+
+- Super Game Boy-enhanced games
+    - Special border graphics
+    - Basic color palettes
+- Custom color palettes
+- Four Datel-designed borders that can be selected by the user
+- Preloaded list of GameShark / Action Replay cheats
+- Manual cheat code entry
+- Trainer for finding new cheat codes
+
+Game Booster ***does not support*** Game Boy Color games, and not all DMG Game Boy games are supported either (e.g., Pokémon Yellow doesn't boot).
+
+### Game Booster screenshots
 
 _Captured by @CheatoBaggins_
 
@@ -653,7 +667,6 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-05-sml-border0.png"
      alt=""
      width="200">
-
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-06-sml-border1.png"
      alt=""
      width="200">
@@ -666,7 +679,6 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-09-sml-border4.png"
      alt=""
      width="200">
-
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-10-tetrisdx-splash.png"
      alt=""
      width="200">
@@ -680,6 +692,16 @@ _Captured by @CheatoBaggins_
      alt=""
      width="200">
 
+### Hidden game: "Rebound Mission"
+
+Insert one of the following games into the Game Booster and power on the console:
+
+- Pokémon Gold Version
+- Wario Land II
+    - ONLY the Game Boy ***Color*** editions of this game (with a **BLACK** or _transparent_ cartridge) will boot into Rebound Mission. The gray carts are  do not trigger the Easter egg.
+
+Instead of starting the game on the cartridge, it will load a hidden game made by Datel called "Rebound Mission" (basically a mix between Pong and Space Invaders):
+
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-20-rebound-01-splash.png"
      alt=""
      width="200">
@@ -692,7 +714,6 @@ _Captured by @CheatoBaggins_
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-23-rebound-04-level1-playing.png"
      alt=""
      width="200">
-
 <img src="/n64/firmware/screenshots/game-booster/n64-gamebooster-screenshot-24-rebound-05-level2-starting.png"
      alt=""
      width="200">
