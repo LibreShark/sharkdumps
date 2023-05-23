@@ -419,6 +419,19 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Action Replay (EU)
 
+<img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
+     src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Action Replay v1.11"
+     src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the splash screen from an N64 Action Replay v3.00"
+     src="/n64/firmware/screenshots/action-replay/ar-3.00-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Action Replay v3.00"
+     src="/n64/firmware/screenshots/action-replay/ar-3.00-screenshot-01-splash-screen.png"
+     width="200">
+
 | Filename                           | Version | Build timestamp    | #G   | #C   | Clean? |
 |:---------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
 | [`ar-1.11-19980415-dirty.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ❌      |
