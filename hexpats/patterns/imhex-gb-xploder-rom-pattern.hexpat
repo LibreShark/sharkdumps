@@ -147,7 +147,7 @@ fn format_bytes(auto bytes) {
  ******************************************************************************/
 
 struct Code {
-    u8 bytes[4];
+    u8 bytes[4] [[COLOR_IMPORTANT]];
 } [[format_read("format_code")]];
 
 fn format_code(Code code) {
@@ -161,8 +161,8 @@ fn format_code(Code code) {
 };
 
 struct Cheat {
-    char name[];
-    u8 codeCount;
+    char name[] [[COLOR_PRIMARY]];
+    u8 codeCount [[COLOR_LOWLIGHT]];
     Array<Code, codeCount> codes;
 } [[format_read("format_cheat")]];
 
@@ -175,8 +175,8 @@ fn format_cheat(Cheat cheat) {
 };
 
 struct Game {
-    char name[];
-    u8 cheatCount;
+    char name[] [[COLOR_PRIMARY]];
+    u8 cheatCount [[COLOR_LOWLIGHT]];
     Array<Cheat, cheatCount> cheats;
 } [[format_read("format_game")]];
 
@@ -188,8 +188,8 @@ fn format_game(Game game) {
         game.cheatCount == 1 ? "cheat" : "cheats");
 };
 
-struct CheatList {
-    Array<Game, 210> games;
+struct GameList {
+    Game games[while(!is_null())];
 };
 
 struct ROM {
@@ -204,7 +204,7 @@ struct ROM {
     char stringTable06[0x00D1] @ 0x00015E03;
     char stringTable07[0x01B9] @ 0x00019605;
 
-    CheatList cheatList @ 0x00020000;
+    GameList gameList @ 0x00020000;
 };
 
 /*******************************************************************************
