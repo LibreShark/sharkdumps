@@ -435,7 +435,7 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 | Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
 |:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`eq-3.00-19990720-dirty.bin`][] | `v3.00` | `1998-04-15T14:56` |   58 |  535 | ❌      |
+| [`eq-3.00-19990720-dirty.bin`][] | `v3.00` | `1998-04-15T14:56` |   53 |  534 | ❌      |
 
 [`eq-3.00-19990720-dirty.bin`]: /n64/firmware/eq-3.00-19990720-dirty.bin
 
@@ -443,9 +443,16 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Game Buster (DE)
 
+<img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05"
+     src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Game Buster v3.21 (1999-08-05)"
+     src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
+     width="200">
+
 | Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
 |:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`gb-3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  535 | ❌      |
+| [`gb-3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  534 | ❌      |
 
 [`gb-3.21-19990805-dirty.bin`]: /n64/firmware/gb-3.21-19990805-dirty.bin
 
