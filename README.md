@@ -440,11 +440,13 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
      src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-02-main-menu.png"
      width="200">
 
-| Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
-|:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`eq-3.00-19990720-dirty.bin`][] | `v3.00` | `1998-04-15T14:56` |   53 |  534 | ❌      |
+| Filename                               | Version | Build timestamp    | #G   | #C   | Clean? |
+|:-------------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`eq-3.00-19990720-dirty-dump1.bin`][] | `v3.00` | `1999-07-20T09:44` |   59 |  542 | ⚠️      |
+| [`eq-3.00-19990720-dirty-dump2.bin`][] | `v3.00` | `1999-07-20T09:44` |   60 |  590 | ❌      |
 
-[`eq-3.00-19990720-dirty.bin`]: /n64/firmware/eq-3.00-19990720-dirty.bin
+[`eq-3.00-19990720-dirty-dump1.bin`]: /n64/firmware/eq-3.00-19990720-dirty-dump1.bin
+[`eq-3.00-19990720-dirty-dump2.bin`]: /n64/firmware/eq-3.00-19990720-dirty-dump2.bin
 
 ---
 
