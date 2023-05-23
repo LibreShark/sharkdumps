@@ -891,7 +891,9 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 ## GB Pro Action Replay (EU)
 
-Photo of Pro Action Replay](/gb/photos/52233905-item-big-GB-PROACTIO-A-1.jpg)
+<img alt="Photo of Pro Action Replay"
+     src="/gb/photos/52233905-item-big-GB-PROACTIO-A-1.jpg"
+     height="200">
 
 [Source](https://www.fullyretro.com/product/game-boy-original-pro-action-replay-cheat-cartridge,52233905) ([Archive](https://web.archive.org/web/20211105072549/https://www.fullyretro.com/product/game-boy-original-pro-action-replay-cheat-cartridge,52233905))
 
@@ -925,7 +927,9 @@ Photo of Pro Action Replay](/gb/photos/52233905-item-big-GB-PROACTIO-A-1.jpg)
 
 [Source](https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270) ([Archive](https://web.archive.org/web/20211119155537/https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270))
 
-[Firmware](/gb/firmware/gb-xplorer-SST29EE020PLCC32.bin)
+Firmware:
+
+[`gb-xplorer-SST29EE020PLCC32.bin`](/gb/firmware/gb-xplorer-SST29EE020PLCC32.bin)
 
 According to the firmware image, the Xploder GB had an in-game trainer (cheat code finder) as well as the ability to transfer cheats AND upgrade the firmware over EXT cable OR infrared.
 
