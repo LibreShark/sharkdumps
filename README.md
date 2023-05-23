@@ -919,7 +919,7 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 ---
 
-## GBC Blaze Xploder
+## GBC Blaze Xploder (EU)
 
 <img alt="Photo of Blaze Xploder"
      src="/gb/photos/79882270-item-big-GB-XPLODERC-A-1.jpg"
@@ -939,9 +939,9 @@ To view the contents of the ROM dumps, use our [Xploder GB ROM hexpattern](/hexp
 
 <img src="/gb/firmware/screenshots/gbc-xploder-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xploder GB ROM file">
 
-| Filename                                   | Version   | Build timestamp            | #G | #C | Clean? |
-|:------------------------------------------ |:--------- |:-------------------------- | --:| --:|:------:|
-| [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⚠️      |
+| Filename                                   | Version   | Build timestamp            |  #G |  #C | Clean? |
+|:------------------------------------------ |:--------- |:-------------------------- | ---:| ---:|:------:|
+| [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  | 210 | 447 | ⚠️      |
 
 [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gb/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
 
@@ -949,7 +949,7 @@ EEPROM: `SST29EE020` `PLCC32`
 
 ---
 
-## GB Blaze Xploder Lite
+## GB Blaze Xploder Lite (EU)
 
 <img alt="Photo of Blaze Xploder Lite"
      src="/gb/photos/15306699-item-big-GB-XPLOLITE-A-1.jpg"
