@@ -447,7 +447,7 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
      src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
      width="200">
 <img alt="Screenshot of the main menu from an N64 Game Buster v3.21 (1999-08-05)"
-     src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
+     src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-02-main-menu.png"
      width="200">
 
 | Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
