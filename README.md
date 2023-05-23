@@ -870,11 +870,91 @@ _Photographed by @CheatoBaggins_
 
 ---
 
+["Game Boy Cheat Devices - History & Use" on YouTube](https://www.youtube.com/watch?v=NJZ3keMXKH4)
+
+---
+
 ## GB GameShark (NA)
 
 For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Advance (GBA).
 
 - GameShark for Game Boy Pocket & Color • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
+
+---
+
+## GB Pro Action Replay (EU)
+
+Photo of Pro Action Replay](/gb/photos/52233905-item-big-GB-PROACTIO-A-1.jpg)
+
+[Source](https://www.fullyretro.com/product/game-boy-original-pro-action-replay-cheat-cartridge,52233905) ([Archive](https://web.archive.org/web/20211105072549/https://www.fullyretro.com/product/game-boy-original-pro-action-replay-cheat-cartridge,52233905))
+
+---
+
+## GB Action Replay Professional (EU)
+
+<img alt="Photo of Action Replay Professional"
+     src="/gb/photos/45859158-item-big-GB-ACTIONRP-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-original-action-replay-professional-cheat-cartridge,45859158) ([Archive](https://web.archive.org/web/20211121003658/https://www.fullyretro.com/product/game-boy-original-action-replay-professional-cheat-cartridge,45859158))
+
+---
+
+## GBC Action Replay Pro (EU)
+
+<img alt="Photo of Action Replay Pro"
+     src="/gb/photos/89319444-item-big-GB-PROACTRY-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-color-action-replay-pro-cheat-cartridge,89319444) ([Archive](https://web.archive.org/web/20211114003955/https://www.fullyretro.com/product/game-boy-color-action-replay-pro-cheat-cartridge,89319444))
+
+---
+
+## GB Blaze Xploder
+
+<img alt="Photo of Blaze Xploder"
+     src="/gb/photos/79882270-item-big-GB-XPLODERC-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270) ([Archive](https://web.archive.org/web/20211119155537/https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270))
+
+[Firmware](/gb/firmware/gb-xplorer-SST29EE020PLCC32.bin)
+
+According to the firmware image, the Xploder GB had an in-game trainer (cheat code finder) as well as the ability to transfer cheats AND upgrade the firmware over EXT cable OR infrared.
+
+---
+
+## GB Blaze Xploder Lite
+
+<img alt="Photo of Blaze Xploder Lite"
+     src="/gb/photos/15306699-item-big-GB-XPLOLITE-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-blaze-xploder-lite-cheat-cartridge,15306699) ([Archive](https://web.archive.org/web/20211124124624/https://www.fullyretro.com/product/game-boy-blaze-xploder-lite-cheat-cartridge,15306699))
+
+---
+
+## GB Action Replay Xtreme (EU)
+
+<img alt="Photo of Action Replay Xtreme"
+     src="/gb/photos/97887158-item-big-GB-ACTRXPOK-A-1.jpg"
+     height="200">
+
+> Game Boy Action Replay Xtreme Cheat Cartridge Special Edition - Game Boy
+>
+> Cheat Cartridge for Game Boy. Includes codes for Pokemon Red, Blue, Yelow, Gold, Silver, Crystal, Pinball and the Trading Card game. In total, the Action Replay Extreme Special Edition has codes for 317 games, with more codes able to be added for other games.
+
+[Source](https://www.fullyretro.com/product/game-boy-action-replay-xtreme-cheat-cartridge-special-edition,97887158) ([Archive](https://web.archive.org/web/20211113065947/https://www.fullyretro.com/product/game-boy-action-replay-xtreme-cheat-cartridge-special-edition,97887158))
+
+---
+
+## GBA Blaze Xploder Advance
+
+<img alt="Photo of Blaze Xploder Advance"
+     src="/gb/photos/74818826-item-big-GBA-GBABLAZX-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-advance-blaze-xploder-advance-cheat-cartridge,74818826) ([Archive](https://web.archive.org/web/20170610195644/https://www.fullyretro.com/product/game-boy-advance-blaze-xploder-advance-cheat-cartridge,74818826))
 
 ---
 
