@@ -433,6 +433,13 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Equalizer (EU)
 
+<img alt="Screenshot of the splash screen from an N64 Equalizer v3.00"
+     src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Equalizer v3.00"
+     src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-02-main-menu.png"
+     width="200">
+
 | Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
 |:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
 | [`eq-3.00-19990720-dirty.bin`][] | `v3.00` | `1998-04-15T14:56` |   53 |  534 | ❌      |
@@ -479,6 +486,8 @@ _Captured by @CheatoBaggins_
 
 #### v1.000E build 1772
 
+Taken from an Xplorer 64 cart with a **green** label:
+
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-01-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
@@ -493,6 +502,8 @@ _Captured by @CheatoBaggins_
      width="200">
 
 #### v1.067E build 2515
+
+Taken from an Xplorer 64 cart with an **orange** label:
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-02-fcd-logo-normal.png"
      alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
