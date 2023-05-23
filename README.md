@@ -419,6 +419,19 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Action Replay (EU)
 
+<img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
+     src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Action Replay v1.11"
+     src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-02-main-menu.png"
+     width="200">
+<img alt="Screenshot of the splash screen from an N64 Action Replay v3.00"
+     src="/n64/firmware/screenshots/action-replay/arpro-3.00-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Action Replay v3.00"
+     src="/n64/firmware/screenshots/action-replay/arpro-3.00-screenshot-02-main-menu.png"
+     width="200">
+
 | Filename                           | Version | Build timestamp    | #G   | #C   | Clean? |
 |:---------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
 | [`ar-1.11-19980415-dirty.bin`][]   | `v1.11` | `1998-04-15T14:56` |   26 |  258 | ❌      |
@@ -433,21 +446,37 @@ The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box 
 
 ## N64 Equalizer (EU)
 
-| Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
-|:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`eq-3.00-19990720-dirty.bin`][] | `v3.00` | `1998-04-15T14:56` |   58 |  535 | ❌      |
+<img alt="Screenshot of the splash screen from an N64 Equalizer v3.00"
+     src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-01-splash-screen.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Equalizer v3.00"
+     src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-02-main-menu.png"
+     width="200">
 
-[`eq-3.00-19990720-dirty.bin`]: /n64/firmware/eq-3.00-19990720-dirty.bin
+| Filename                               | Version | Build timestamp    | #G   | #C   | Clean? |
+|:-------------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`eq-3.00-19990720-dirty-dump1.bin`][] | `v3.00` | `1999-07-20T09:44` |   59 |  542 | ⚠️      |
+| [`eq-3.00-19990720-dirty-dump2.bin`][] | `v3.00` | `1999-07-20T09:44` |   60 |  590 | ❌      |
+
+[`eq-3.00-19990720-dirty-dump1.bin`]: /n64/firmware/eq-3.00-19990720-dirty-dump1.bin
+[`eq-3.00-19990720-dirty-dump2.bin`]: /n64/firmware/eq-3.00-19990720-dirty-dump2.bin
 
 ---
 
 ## N64 Game Buster (DE)
 
-| Filename                          | Version | Build timestamp    | #G   | #C   | Clean? |
-|:--------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
-| [`gb-v3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  535 | ❌      |
+<img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05"
+     src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
+     width="200">
+<img alt="Screenshot of the main menu from an N64 Game Buster v3.21 (1999-08-05)"
+     src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-02-main-menu.png"
+     width="200">
 
-[`gb-v3.21-19990805-dirty.bin`]: /n64/firmware/gb-v3.21-19990805-dirty.bin
+| Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
+|:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`gb-3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  534 | ❌      |
+
+[`gb-3.21-19990805-dirty.bin`]: /n64/firmware/gb-3.21-19990805-dirty.bin
 
 ---
 
@@ -470,28 +499,49 @@ _Expertly traced in CAD by @RWeick_
 
 _Captured by @CheatoBaggins_
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-02-fcd-logo-normal.png"
-     alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
-     width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-03-blaze-logo.png"
-     alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
-     width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-04-main-menu.png"
+#### v1.000E build 1772
+
+Taken from an Xplorer 64 cart with a **green** label:
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-01-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-05-customise.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-02-version-screen.png"
+     alt="Screenshot of the Cartridge Info screen from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-03-game-list.png"
+     alt="Screenshot of the top of the game list from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-04-sote-cheats.png"
+     alt="Screenshot of cheats for Shadows of the Empire from an N64 Xplorer 64"
+     width="200">
+
+#### v1.067E build 2515
+
+Taken from an Xplorer 64 cart with an **orange** label:
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-02-fcd-logo-normal.png"
+     alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-03-blaze-logo.png"
+     alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-04-main-menu.png"
+     alt="Screenshot of the main menu from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-05-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-10-version-screen.png"
      alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-07-game-list.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-07-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-08-zelda-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-08-zelda-cheats.png"
      alt="Screenshot of the Zelda OoT cheats from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-09-mario64-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-09-mario64-cheats.png"
      alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
      width="200">
 
@@ -501,7 +551,7 @@ _Dumped by @RWeick and @danhans42_
 
 To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
 | Filename                                             | Version   | Build  | Timestamp                  | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
@@ -870,11 +920,109 @@ _Photographed by @CheatoBaggins_
 
 ---
 
+["Game Boy Cheat Devices - History & Use" on YouTube](https://www.youtube.com/watch?v=NJZ3keMXKH4)
+
+---
+
 ## GB GameShark (NA)
 
 For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Advance (GBA).
 
 - GameShark for Game Boy Pocket & Color • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
+
+---
+
+## GB Pro Action Replay (EU)
+
+<img alt="Photo of Pro Action Replay"
+     src="/gb/photos/52233905-item-big-GB-PROACTIO-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-original-pro-action-replay-cheat-cartridge,52233905) ([Archive](https://web.archive.org/web/20211105072549/https://www.fullyretro.com/product/game-boy-original-pro-action-replay-cheat-cartridge,52233905))
+
+---
+
+## GB Action Replay Professional (EU)
+
+<img alt="Photo of Action Replay Professional"
+     src="/gb/photos/45859158-item-big-GB-ACTIONRP-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-original-action-replay-professional-cheat-cartridge,45859158) ([Archive](https://web.archive.org/web/20211121003658/https://www.fullyretro.com/product/game-boy-original-action-replay-professional-cheat-cartridge,45859158))
+
+---
+
+## GBC Action Replay Pro (EU)
+
+<img alt="Photo of Action Replay Pro"
+     src="/gb/photos/89319444-item-big-GB-PROACTRY-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-color-action-replay-pro-cheat-cartridge,89319444) ([Archive](https://web.archive.org/web/20211114003955/https://www.fullyretro.com/product/game-boy-color-action-replay-pro-cheat-cartridge,89319444))
+
+---
+
+## GBC Blaze Xploder (EU)
+
+<img alt="Photo of Blaze Xploder"
+     src="/gb/photos/79882270-item-big-GB-XPLODERC-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270) ([Archive](https://web.archive.org/web/20211119155537/https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270))
+
+Compatible with Game Boy Color and regular Game Boy (DMG) games.
+
+The Xploder GB (aka Xplorer GB) has an in-game trainer (cheat code finder) as well as the ability to transfer cheats and upgrade the firmware over an EXT link cable or infrared (IR).
+
+### GBC Blaze Xploder firmware
+
+_Dumped by @RWeick_
+
+To view the contents of the ROM dumps, use our [Xploder GB ROM hexpattern](/hexpats/patterns/imhex-gbc-xploder-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/gb/firmware/screenshots/gbc-xploder-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xploder GB ROM file">
+
+| Filename                                   | Version   | Build timestamp            |  #G |  #C | Clean? |
+|:------------------------------------------ |:--------- |:-------------------------- | ---:| ---:|:------:|
+| [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  | 210 | 447 | ⚠️      |
+
+[`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gb/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
+
+EEPROM: `SST29EE020` `PLCC32`
+
+---
+
+## GB Blaze Xploder Lite (EU)
+
+<img alt="Photo of Blaze Xploder Lite"
+     src="/gb/photos/15306699-item-big-GB-XPLOLITE-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-blaze-xploder-lite-cheat-cartridge,15306699) ([Archive](https://web.archive.org/web/20211124124624/https://www.fullyretro.com/product/game-boy-blaze-xploder-lite-cheat-cartridge,15306699))
+
+---
+
+## GB Action Replay Xtreme (EU)
+
+<img alt="Photo of Action Replay Xtreme"
+     src="/gb/photos/97887158-item-big-GB-ACTRXPOK-A-1.jpg"
+     height="200">
+
+> Game Boy Action Replay Xtreme Cheat Cartridge Special Edition - Game Boy
+>
+> Cheat Cartridge for Game Boy. Includes codes for Pokemon Red, Blue, Yelow, Gold, Silver, Crystal, Pinball and the Trading Card game. In total, the Action Replay Extreme Special Edition has codes for 317 games, with more codes able to be added for other games.
+
+[Source](https://www.fullyretro.com/product/game-boy-action-replay-xtreme-cheat-cartridge-special-edition,97887158) ([Archive](https://web.archive.org/web/20211113065947/https://www.fullyretro.com/product/game-boy-action-replay-xtreme-cheat-cartridge-special-edition,97887158))
+
+---
+
+## GBA Blaze Xploder Advance
+
+<img alt="Photo of Blaze Xploder Advance"
+     src="/gb/photos/74818826-item-big-GBA-GBABLAZX-A-1.jpg"
+     height="200">
+
+[Source](https://www.fullyretro.com/product/game-boy-advance-blaze-xploder-advance-cheat-cartridge,74818826) ([Archive](https://web.archive.org/web/20170610195644/https://www.fullyretro.com/product/game-boy-advance-blaze-xploder-advance-cheat-cartridge,74818826))
 
 ---
 
