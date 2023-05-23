@@ -919,7 +919,7 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 ---
 
-## GB Blaze Xploder
+## GBC Blaze Xploder
 
 <img alt="Photo of Blaze Xploder"
      src="/gb/photos/79882270-item-big-GB-XPLODERC-A-1.jpg"
@@ -927,11 +927,21 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 
 [Source](https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270) ([Archive](https://web.archive.org/web/20211119155537/https://www.fullyretro.com/product/game-boy-blaze-xploder-cheat-cartridge,79882270))
 
-Firmware:
+Compatible with Game Boy Color and regular Game Boy (DMG) games.
 
-[`gb-xplorer-SST29EE020PLCC32.bin`](/gb/firmware/gb-xplorer-SST29EE020PLCC32.bin)
+The Xploder GB (aka Xplorer GB) has an in-game trainer (cheat code finder) as well as the ability to transfer cheats and upgrade the firmware over an EXT link cable or infrared (IR).
 
-According to the firmware image, the Xploder GB had an in-game trainer (cheat code finder) as well as the ability to transfer cheats and upgrade the firmware over EXT link cable or infrared (IR).
+### GBC Blaze Xploder firmware
+
+_Dumped by @RWeick_
+
+| Filename                                   | Version   | Build timestamp            | #G | #C | Clean? |
+|:------------------------------------------ |:--------- |:-------------------------- | --:| --:|:------:|
+| [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⚠️      |
+
+[`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gb/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
+
+EEPROM: `SST29EE020` `PLCC32`
 
 ---
 
