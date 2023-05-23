@@ -477,6 +477,23 @@ _Expertly traced in CAD by @RWeick_
 
 _Captured by @CheatoBaggins_
 
+#### v1.000E build 1772
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-01-main-menu.png"
+     alt="Screenshot of the main menu from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-02-version-screen.png"
+     alt="Screenshot of the Cartridge Info screen from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-03-game-list.png"
+     alt="Screenshot of the top of the game list from an N64 Xplorer 64"
+     width="200">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-04-sote-cheats.png"
+     alt="Screenshot of cheats for Shadows of the Empire from an N64 Xplorer 64"
+     width="200">
+
+#### v1.067E build 2515
+
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-02-fcd-logo-normal.png"
      alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
      width="200">
