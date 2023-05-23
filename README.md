@@ -931,7 +931,7 @@ Firmware:
 
 [`gb-xplorer-SST29EE020PLCC32.bin`](/gb/firmware/gb-xplorer-SST29EE020PLCC32.bin)
 
-According to the firmware image, the Xploder GB had an in-game trainer (cheat code finder) as well as the ability to transfer cheats AND upgrade the firmware over EXT cable OR infrared.
+According to the firmware image, the Xploder GB had an in-game trainer (cheat code finder) as well as the ability to transfer cheats and upgrade the firmware over EXT link cable or infrared (IR).
 
 ---
 
