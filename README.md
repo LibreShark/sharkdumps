@@ -477,28 +477,28 @@ _Expertly traced in CAD by @RWeick_
 
 _Captured by @CheatoBaggins_
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-02-fcd-logo-normal.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-02-fcd-logo-normal.png"
      alt="Screenshot of the Future Console Design logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-03-blaze-logo.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-03-blaze-logo.png"
      alt="Screenshot of the Blaze logo from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-04-main-menu.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-04-main-menu.png"
      alt="Screenshot of the main menu from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-05-customise.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-05-customise.png"
      alt="Screenshot of the 'Customise' screen from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-10-v1.067e-build2515.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-10-version-screen.png"
      alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-07-game-list.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-07-game-list.png"
      alt="Screenshot of the game list from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-08-zelda-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-08-zelda-cheats.png"
      alt="Screenshot of the Zelda OoT cheats from an N64 Xplorer 64"
      width="200">
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-screenshot-09-mario64-cheats.png"
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-09-mario64-cheats.png"
      alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
      width="200">
 
@@ -508,7 +508,7 @@ _Dumped by @RWeick and @danhans42_
 
 To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xp64-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
 | Filename                                             | Version   | Build  | Timestamp                  | Language | #G | #C | Clean? | Unencrypted? |
 |:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
