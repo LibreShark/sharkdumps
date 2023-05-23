@@ -935,6 +935,10 @@ The Xploder GB (aka Xplorer GB) has an in-game trainer (cheat code finder) as we
 
 _Dumped by @RWeick_
 
+To view the contents of the ROM dumps, use our [Xploder GB ROM hexpattern](/hexpats/patterns/imhex-gbc-xploder-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/gb/firmware/screenshots/gbc-xploder-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xploder GB ROM file">
+
 | Filename                                   | Version   | Build timestamp            | #G | #C | Clean? |
 |:------------------------------------------ |:--------- |:-------------------------- | --:| --:|:------:|
 | [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  |  ? |  ? | ⚠️      |
