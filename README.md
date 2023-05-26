@@ -1164,13 +1164,13 @@ This version does ***NOT*** require a parallel port dongle.
 
 **Splash screen:**
 
-![Splash screen from GameShark v3.00 for Windows](/pc/gs-win-3.00/setup.bmp)
+![Splash screen from GameShark v3.00 for Windows](/pc/gs-win-v3.00/setup.bmp)
 
 **Splash video:**
 
-![Splash video from GameShark v3.00 for Windows](/pc/gs-win-3.00/gs-win-v3.00-jaws.gif)
+![Splash video from GameShark v3.00 for Windows](/pc/gs-win-v3.00/gs-win-v3.00-jaws.gif)
 
-[Original MPEG-1 video](/pc/gs-win-3.00/gs-win-v3.00-jaws.m1v):
+[Original MPEG-1 video](/pc/gs-win-v3.00/gs-win-v3.00-jaws.m1v):
 
 - Duration: 11.600 sec
 - Video standard: PAL, 25.0 FPS, 4:3, 352x288 (progressive)
@@ -1179,9 +1179,9 @@ This version does ***NOT*** require a parallel port dongle.
 
 **Documentation:**
 
-- [QuickStart.doc](/pc/gs-win-3.00/QuickStart.doc)
-- [QuickStart.txt](/pc/gs-win-3.00/QuickStart.txt)
-- [ReadMe.txt](/pc/gs-win-3.00/ReadMe.txt)
+- [QuickStart.doc](/pc/gs-win-v3.00/QuickStart.doc)
+- [QuickStart.txt](/pc/gs-win-v3.00/QuickStart.txt)
+- [ReadMe.txt](/pc/gs-win-v3.00/ReadMe.txt)
 
 **Screenshots:**
 
