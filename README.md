@@ -1143,7 +1143,26 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 ### GameShark v3.00 for Windows
 
-![Splash screen movie from GameShark v3.00 for Windows](/pc/gs-win-3.00/gs-3.00-jaws.gif)
+Build date: `2000-10-23T11:41:58`
+
+This version does ***NOT*** require a parallel port dongle.
+
+**Setup splash screen:**
+
+![Splash screen from the setup utility (installer) for GameShark v3.00 for Windows](/pc/gs-win-3.00/setup.bmp)
+
+**Program splash screen:**
+
+![Splash screen from GameShark v3.00 for Windows](/pc/gs-win-3.00/gs-3.00-jaws.gif)
+
+[Original MPEG-1 video](/pc/gs-win-3.00/gs-3.00-jaws.m1v):
+
+- Duration: 11.600 sec
+- Video standard: PAL, 25.0 FPS, 4:3, 352x288 (progressive)
+- Original filename: `C:\\Program Files\\jaws.mpg`
+- File size: 1801014 bytes
+
+**Documentation:**
 
 - [QuickStart.doc](/pc/gs-win-3.00/QuickStart.doc)
 - [QuickStart.txt](/pc/gs-win-3.00/QuickStart.txt)
