@@ -1158,7 +1158,7 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 ### GameShark v3.00 for Windows
 
-[Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gw-win-v3.00-20001023-slim.zip) - includes everything from the CD _except_ the 100 MB IE5 installer.
+[Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gs-win-v3.00-20001023-slim.zip) - includes everything from the CD _except_ the 100 MB IE5 installer.
 
 Build date: `2000-10-23T11:41:58`
 
