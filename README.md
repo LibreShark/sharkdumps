@@ -1189,19 +1189,11 @@ Setup:
 
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-01-splash-screen.png"
      width="200" alt="">
-<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-02-wizard-welcome.png"
-     width="200" alt="">
-<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-03-destination.png"
-     width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-04-start-menu.png"
-     width="200" alt="">
-<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-05-desktop-shortcut.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-06-copying-progress.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-07-ie5-prompt.png"
-     width="200" alt="">
-<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-08-finished.png"
      width="200" alt="">
 
 Main UI:
@@ -1235,12 +1227,14 @@ MP3Shark (GS-branded fork of FreeAmp):
 
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-00-ui.png"
      width="200" alt="">
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-01-preferences-general.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-02-preferences-themes.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-03-about.png"
      width="200" alt="">
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-04-download-manager.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-05-import-wizard.png"
