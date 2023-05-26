@@ -589,6 +589,21 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
         - Extract codes from ROM files
         - No restrictions on viewing and downloading memory
 
+#### X-Killer screenshots
+
+<img src="/n64/tools/xplorer64/screenshots/x-killer-01-detected.png"
+     width="200" alt="">
+<img src="/n64/tools/xplorer64/screenshots/x-killer-02-timeout.png"
+     width="200" alt="">
+<img src="/n64/tools/xplorer64/screenshots/x-killer-03-locked.png"
+     width="200" alt="">
+<img src="/n64/tools/xplorer64/screenshots/x-killer-04-n64-menu.png"
+     width="200" alt="">
+<img src="/n64/tools/xplorer64/screenshots/x-killer-05-warning.png"
+     width="200" alt="">
+<img src="/n64/tools/xplorer64/screenshots/x-killer-06-encrypted.png"
+     width="200" alt="">
+
 ### Xplorer 64 manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
@@ -1147,19 +1162,19 @@ Build date: `2000-10-23T11:41:58`
 
 This version does ***NOT*** require a parallel port dongle.
 
-**Setup splash screen:**
+**Splash screen:**
 
-![Splash screen from the setup utility (installer) for GameShark v3.00 for Windows](/pc/gs-win-3.00/setup.bmp)
+![Splash screen from GameShark v3.00 for Windows](/pc/gs-win-3.00/setup.bmp)
 
-**Program splash screen:**
+**Splash video:**
 
-![Splash screen from GameShark v3.00 for Windows](/pc/gs-win-3.00/gs-3.00-jaws.gif)
+![Splash video from GameShark v3.00 for Windows](/pc/gs-win-3.00/gs-win-v3.00-jaws.gif)
 
-[Original MPEG-1 video](/pc/gs-win-3.00/gs-3.00-jaws.m1v):
+[Original MPEG-1 video](/pc/gs-win-3.00/gs-win-v3.00-jaws.m1v):
 
 - Duration: 11.600 sec
 - Video standard: PAL, 25.0 FPS, 4:3, 352x288 (progressive)
-- Original filename: `C:\\Program Files\\jaws.mpg`
+- Original filename: `C:\\Program Files\\Interact\GameShark for Windows\\Web\\jaws.mpg`
 - File size: 1801014 bytes
 
 **Documentation:**
@@ -1167,6 +1182,57 @@ This version does ***NOT*** require a parallel port dongle.
 - [QuickStart.doc](/pc/gs-win-3.00/QuickStart.doc)
 - [QuickStart.txt](/pc/gs-win-3.00/QuickStart.txt)
 - [ReadMe.txt](/pc/gs-win-3.00/ReadMe.txt)
+
+**Screenshots:**
+
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-01-splash-screen.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-02-wizard-welcome.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-03-destination.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-04-start-menu.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-05-desktop-shortcut.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-06-copying-progress.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-07-ie5-prompt.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-08-finished.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-01-splash-screen.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-02-splash-screen.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-03-activex-warning.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-04-version.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-05-games.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-06-add-cheat.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-01-welcome.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-02-the-games-page.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-03-the-codes-page.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-04-the-code-selector.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-00-ui.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-01-preferences-general.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-02-preferences-themes.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-03-about.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-04-download-manager.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-05-import-wizard.png"
+     width="200" alt="">
 
 ---
 
