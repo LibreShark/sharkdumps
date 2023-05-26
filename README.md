@@ -1143,7 +1143,11 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 ### GameShark v3.00 for Windows
 
-![Splash screen movie from GameShark v3.00 for Windows](/pc/gs-3.00-jaws.gif)
+![Splash screen movie from GameShark v3.00 for Windows](/pc/gs-win-3.00/gs-3.00-jaws.gif)
+
+- [QuickStart.doc](/pc/gs-win-3.00/QuickStart.doc)
+- [QuickStart.txt](/pc/gs-win-3.00/QuickStart.txt)
+- [ReadMe.txt](/pc/gs-win-3.00/ReadMe.txt)
 
 ---
 
