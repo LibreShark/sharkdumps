@@ -1176,7 +1176,7 @@ This version does ***NOT*** require a parallel port dongle.
 
 - Duration: 11.600 sec
 - Video standard: PAL, 25.0 FPS, 4:3, 352x288 (progressive)
-- Original filename: `C:\\Program Files\\Interact\GameShark for Windows\\Web\\jaws.mpg`
+- Original filename: `C:\Program Files\Interact\GameShark for Windows\Web\jaws.mpg`
 - File size: 1801014 bytes
 
 **Documentation:**
