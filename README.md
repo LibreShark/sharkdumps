@@ -1154,9 +1154,11 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 ## PC GameShark (NA)
 
-[GameShark for Windows 95: The PC Game Enhancer - Lazy Game Reviews](https://www.youtube.com/watch?v=pQnCdDpU1to)
+[GameShark for Windows 95: The PC Game Enhancer - Lazy Game Reviews on YouTube](https://www.youtube.com/watch?v=pQnCdDpU1to)
 
 ### GameShark v3.00 for Windows
+
+[Download GameShark v3.00 for Windows](/pc/gs-win-v3.00/gw-win-v3.00-20001023-slim.zip)
 
 Build date: `2000-10-23T11:41:58`
 
