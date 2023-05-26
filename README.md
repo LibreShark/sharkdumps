@@ -1185,6 +1185,8 @@ This version does ***NOT*** require a parallel port dongle.
 
 **Screenshots:**
 
+Setup:
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-01-splash-screen.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-02-wizard-welcome.png"
@@ -1201,18 +1203,25 @@ This version does ***NOT*** require a parallel port dongle.
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-01-setup-08-finished.png"
      width="200" alt="">
+
+Main UI:
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-01-splash-screen.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-02-splash-screen.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-03-activex-warning.png"
      width="200" alt="">
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-04-version.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-05-games.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-06-add-cheat.png"
      width="200" alt="">
+
+Help viewer:
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-01-welcome.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-02-the-games-page.png"
@@ -1221,6 +1230,9 @@ This version does ***NOT*** require a parallel port dongle.
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-04-the-code-selector.png"
      width="200" alt="">
+
+MP3Shark (GS-branded fork of FreeAmp):
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-00-ui.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-01-preferences-general.png"
