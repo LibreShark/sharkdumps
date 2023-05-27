@@ -1156,6 +1156,19 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 [GameShark for Windows 95: The PC Game Enhancer - Lazy Game Reviews on YouTube](https://www.youtube.com/watch?v=pQnCdDpU1to)
 
+### GameShark v1.10 for Windows
+
+![](/pc/gs-win-v1.10/assets/datel_sml.gif)
+![](/pc/gs-win-v1.10/assets/Interact_sml.gif)
+
+![](/pc/gs-win-v1.10/assets/Interact.gif)
+![](/pc/gs-win-v1.10/assets/shark.gif)
+
+![](/pc/gs-win-v1.10/assets/page1.BMP)
+![](/pc/gs-win-v1.10/assets/page2.BMP)
+![](/pc/gs-win-v1.10/assets/page3.BMP)
+![](/pc/gs-win-v1.10/assets/page4-256.bmp)
+
 ### GameShark v3.00 for Windows
 
 [Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim) - includes everything from the CD _except_ the 100 MB IE5 installer.
