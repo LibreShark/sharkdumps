@@ -1164,10 +1164,14 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 ![](/pc/gs-win-v1.10/assets/Interact.gif)
 ![](/pc/gs-win-v1.10/assets/shark.gif)
 
-<img src="/pc/gs-win-v1.10/assets/page1.BMP" width="200">
-<img src="/pc/gs-win-v1.10/assets/page2.BMP" width="200">
-<img src="/pc/gs-win-v1.10/assets/page3.BMP" width="200">
-<img src="/pc/gs-win-v1.10/assets/page4-256.bmp" width="200">
+<img src="/pc/gs-win-v1.10/assets/page1.BMP"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/assets/page2.BMP"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/assets/page3.BMP"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
+     width="200" alt="">
 
 ### GameShark v3.00 for Windows
 
