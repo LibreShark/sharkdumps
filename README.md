@@ -1173,6 +1173,30 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 <img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
      width="200" alt="">
 
+<model-viewer src="interact_tri-model/interact_tri.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="interact_tri-model/poster.png" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
+<model-viewer src="n_shark_6-model/n_shark_6.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="n_shark_6-model/poster.png" shadow-intensity="1">
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
+
 ### GameShark v3.00 for Windows
 
 [Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim) - includes everything from the CD _except_ the 100 MB IE5 installer.
