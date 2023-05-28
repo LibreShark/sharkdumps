@@ -1173,6 +1173,8 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 <img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
      width="200" alt="">
 
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.1.1/model-viewer.min.js"></script>
+
 <model-viewer src="interact_tri-model/interact_tri.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="interact_tri-model/poster.png" shadow-intensity="1">
     <div class="progress-bar hide" slot="progress-bar">
         <div class="update-bar"></div>
