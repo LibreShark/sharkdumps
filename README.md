@@ -1162,7 +1162,7 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 | [`gameshark-for-windows-v3.00-20001023-full.iso`][] | `v3.00` | `2000-10-23T11:41:58` | 108.7 MiB |
 
 [`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
-[`gameshark-for-windows-v3.00-20001023-full.iso `]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
+[`gameshark-for-windows-v3.00-20001023-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
 
 ### GameShark v1.10 for Windows
 
