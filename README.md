@@ -1156,6 +1156,14 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 [GameShark for Windows 95: The PC Game Enhancer - Lazy Game Reviews on YouTube](https://www.youtube.com/watch?v=pQnCdDpU1to)
 
+| Filename                                            | Version | Build date            | Size      |
+|:--------------------------------------------------- |:------- |:--------------------- | ---------:|
+| [`gameshark-for-windows-v1.10-19981118-full.iso`][] | `v1.10` | `1998-11-18T08:12:18` | 126.2 MiB |
+| [`gameshark-for-windows-v3.00-20001023-full.iso`][] | `v3.00` | `2000-10-23T11:41:58` | 108.7 MiB |
+
+[`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
+[`gameshark-for-windows-v3.00-20001023-full.iso `]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
+
 ### GameShark v1.10 for Windows
 
 ![](/pc/gs-win-v1.10/assets/datel_sml.gif)
@@ -1173,9 +1181,13 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 <img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
      width="200" alt="">
 
+<a href="https://youtu.be/ZR4WcQL76xs"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+<a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+<a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+
 ### GameShark v3.00 for Windows
 
-[Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim) - includes everything from the CD _except_ the 100 MB IE5 installer.
+[Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip) - includes everything from the CD _except_ the 100 MB IE5 installer.
 
 Build date: `2000-10-23T11:41:58`
 
@@ -1203,6 +1215,8 @@ This version does ***NOT*** require a parallel port dongle.
 - [ReadMe.txt](/pc/gs-win-v3.00/ReadMe.txt)
 
 **Screenshots:**
+
+_Captured by @CheatoBaggins_
 
 Setup:
 
@@ -1242,7 +1256,11 @@ Help viewer:
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-04-the-code-selector.png"
      width="200" alt="">
 
-MP3Shark (GS-branded fork of FreeAmp):
+MP3Shark:
+
+A GameShark-branded fork of the FreeAmp[^freeamp] audio player:
+
+[^freeamp]: FreeAmp was later renamed to [Zinf](https://zinf.org/) due to a [trademark dispute](https://en.wikipedia.org/wiki/Zinf#Naming).
 
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-00-ui.png"
      width="200" alt="">
