@@ -1166,6 +1166,8 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 ### GameShark v1.10 for Windows
 
+**Embedded animations:**
+
 ![](/pc/gs-win-v1.10/assets/datel_sml.gif)
 ![](/pc/gs-win-v1.10/assets/Interact_sml.gif)
 
@@ -1181,9 +1183,14 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 <img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
      width="200" alt="">
 
-<a href="https://youtu.be/ZR4WcQL76xs"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
-<a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
-<a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+**Short videos:**
+
+-   `intro.mpg` <br>
+    <a href="https://youtu.be/ZR4WcQL76xs"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+-   `credits.mpg` <br>
+    <a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+-   `about.mpg` <br>
+    <a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
 
 ### GameShark v3.00 for Windows
 
