@@ -72,15 +72,15 @@ Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 
 ### Parallel port (link cable) tools
 
-| Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
-|:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
-| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
-| [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
+| Tool                                          | Build date   | OSes       | Prereqs               | Authors             |
+|:--------------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
+| [Official Datel N64 Utils (original)][]       | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]        | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                       | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                       | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                       | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
+| [UserPort parallel driver for XP][]           | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
+| [N64 Remote Debugger (with C source code!)][] | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
 ### ROM and cheat management tools
 
@@ -108,7 +108,7 @@ Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 [N64 Remote Debugger C source code]:   /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
 [Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
 [Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
-[Skaman's GS ROM tool]:                /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
+[Skaman's GS ROM splitter]:            /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
 [UserPort parallel driver for XP]:     /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
 [WinRAR v3.71 setup (trial)]:          /n64/tools/winrar-v3.71-setup-win95-20070921.exe
 
@@ -326,14 +326,6 @@ Most versions of the GameShark Pro came with a VHS tape entitled "How To Hack Li
 
 The video demonstrates typical usage of the GameShark Pro, as well as the Code Generator feature, which lets you find your own GameShark codes.
 
-There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
-
-All VHS tapes were captured with the following hardware and software:
-
-- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
-- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
-- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
-
 <img alt="How To Hack Like A Pro"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
      width="200">
@@ -359,7 +351,15 @@ All VHS tapes were captured with the following hardware and software:
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
      width="200">
 
-#### GameShark Pro v3.0 VHS tape
+There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
+
+All VHS tapes were captured with the following hardware and software:
+
+- [Sony SLV-N750 VCR](https://www.crutchfield.com/S-ra1VCH8THBI/p_158SLV750S/Sony-SLV-N750.html) with composite A/V output
+- [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
+- [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
+
+#### VHS tape v3.0
 
 [Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
 
@@ -377,7 +377,7 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 [dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
 [dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
 
-#### GameShark Pro v3.1 VHS tape
+#### VHS tape v3.1
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
 
@@ -402,13 +402,13 @@ _Reproduced by @CheatoBaggins_
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
 
-The Cover Project has a [simplified, incomplete scan of the v3.3 (neutered) box art](https://www.thecoverproject.net/view.php?game_id=6788).
+The Cover Project has a [simplified, incomplete scan of the original v3.3 (neutered) box art](https://www.thecoverproject.net/view.php?game_id=6788).
 
 ---
 
 ## Action Replay
 
-Published in Europe by Datel.
+Published in the UK (and possibly elsewhere in Europe?) by Datel.
 
 <img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
      src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-01-splash-screen.png"
@@ -437,7 +437,7 @@ Published in Europe by Datel.
 
 ## Equalizer
 
-Published in Europe by Datel.
+Published in the UK (and possibly elsewhere in Europe?) by Code Junkies.
 
 <img alt="Screenshot of the splash screen from an N64 Equalizer v3.00"
      src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-01-splash-screen.png"
@@ -460,7 +460,7 @@ Published in Europe by Datel.
 
 Published in Germany (and possibly France?) by Dataflash (Germany) and EuroSystems (Netherlands).
 
-<img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05"
+<img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05)"
      src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
      width="200">
 <img alt="Screenshot of the main menu from an N64 Game Buster v3.21 (1999-08-05)"
