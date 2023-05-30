@@ -36,9 +36,7 @@ For instructions on how to run this software in a Windows 98 SE virtual machine,
 
 ### Screenshots
 
-#### Official Datel N64 Utils
-
-`v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
+Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
 <img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
      width="200" alt="">
@@ -57,9 +55,7 @@ For instructions on how to run this software in a Windows 98 SE virtual machine,
 <img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png"
      width="200" alt="">
 
-#### Game Software Code Creator
-
-`v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
+Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 
 <img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png"
      width="200" alt="">
@@ -338,8 +334,6 @@ All VHS tapes were captured with the following hardware and software:
 - [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
 - [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
 
-#### VHS tape screenshots
-
 <img alt="How To Hack Like A Pro"
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
      width="200">
@@ -365,7 +359,7 @@ All VHS tapes were captured with the following hardware and software:
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
      width="200">
 
-#### v3.0 VHS tape
+#### GameShark Pro v3.0 VHS tape
 
 [Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
 
@@ -383,7 +377,7 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 [dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
 [dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
 
-#### v3.1 VHS tape
+#### GameShark Pro v3.1 VHS tape
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
 
@@ -401,7 +395,9 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
-### Reproduction box art
+### Artwork
+
+_Reproduced by @CheatoBaggins_
 
 <a href="/n64/boxes/n64-gameshark-pro-box-front-repro-2356x3465.png"><img src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png" width="200" alt=""></a>
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
