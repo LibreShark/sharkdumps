@@ -1166,13 +1166,48 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 ### GameShark v1.10 for Windows
 
-**Embedded animations:**
+Windows 95, 98, and Me ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
+
+***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
+
+**Screenshots:**
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-01-1024x768-video-files.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-02-1024x768-start-menu.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-03-1024x768-copy-video-files.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-04-1024x768-directx-components.png"
+     width="200" alt="">
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-05-1024x768-installing-streaming-animation.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-06-1024x768-indeo-5-installer.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-07-1024x768-indeo-5-skipped.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-08-1024x768-cannot-create-device.png"
+     width="200" alt="">
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-09-640x480-main-ui-interact.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-10-640x480-options.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-11-640x480-3d-options.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-12-640x480-save-cheat-backup.png"
+     width="200" alt="">
+
+**Animations:**
 
 ![](/pc/gs-win-v1.10/assets/datel_sml.gif)
 ![](/pc/gs-win-v1.10/assets/Interact_sml.gif)
 
 ![](/pc/gs-win-v1.10/assets/Interact.gif)
 ![](/pc/gs-win-v1.10/assets/shark.gif)
+
+**UI backgrounds:**
 
 <img src="/pc/gs-win-v1.10/assets/page1.BMP"
      width="200" alt="">
@@ -1183,22 +1218,21 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 <img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
      width="200" alt="">
 
-**Short videos:**
+**Videos:**
 
--   `intro.mpg` <br>
-    <a href="https://youtu.be/ZR4WcQL76xs"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
--   `credits.mpg` <br>
-    <a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
--   `about.mpg` <br>
-    <a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+<a href="https://youtu.be/ZR4WcQL76xs"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+<a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+<a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
 
 ### GameShark v3.00 for Windows
+
+Windows 95, 98, and Me ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
+
+***✅ This version does NOT require a DB-25 parallel port copy-protection dongle!***
 
 [Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip) - includes everything from the CD _except_ the 100 MB IE5 installer.
 
 Build date: `2000-10-23T11:41:58`
-
-This version does ***NOT*** require a parallel port dongle.
 
 **Splash screen:**
 
