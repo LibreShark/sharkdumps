@@ -1166,7 +1166,7 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 [`gameshark-for-windows-v3.00-20001023-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
 [`gameshark-for-windows-v3.00-20001023-slim.zip`]: /pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip
 
-## GameShark v1.10 for Windows 95-98
+### GameShark v1.10 for Windows 95-98
 
 **[`gameshark-for-windows-v1.10-19981118-full.iso`][]**
 
@@ -1234,11 +1234,11 @@ Authentic copy protection dongles are hard to find these days, so @RWeick has cr
 
 **Videos:**
 
-<a href="https://youtu.be/ZR4WcQL76xs"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
-<a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
-<a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+<a href="https://youtu.be/ZR4WcQL76xs" title="intro.mpg"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+<a href="https://youtu.be/iQGXP2VCm2s" title="credits.mpg"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+<a href="https://youtu.be/_yN7M0Fl3pQ" title="about.mpg"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
 
-## GameShark v3.00 for Windows 95-98
+### GameShark v3.00 for Windows 95-98
 
 - **[`gameshark-for-windows-v3.00-20001023-slim.zip`][]**
     - Includes everything from the CD _except_ the 100 MB IE5 installer
