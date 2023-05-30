@@ -212,9 +212,7 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 ### N64 GameShark software
 
-Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
-
-***We recommend using Windows ME if possible. It has the same great software compatibility as Windows 98, but with a much better quality-of-life (e.g., ME has USB support).***
+For instructions on how to run this software in a Windows 98 SE virtual machine, see the [GameShark Fandom wiki](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
 
 Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
