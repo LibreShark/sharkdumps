@@ -31,9 +31,9 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 ## PC
 
-- GameShark for Windows 95-98
-    - [v1.1](/pc-gameshark-v1.1.md)
-    - [v3.0](/pc-gameshark-v3.0.md)
+- GameShark for Windows 9x
+    - [v1.1 for Windows 95/98](/pc-gameshark-v1.1.md)
+    - [v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md)
 
 ---
 
