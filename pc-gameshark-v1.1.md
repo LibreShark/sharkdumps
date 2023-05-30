@@ -1,11 +1,11 @@
 # PC GameShark v1.1 for Windows 95/98
 
+Windows 95 and 98 ONLY! <br>
+NT-based OSes (including 2000 and XP) are NOT supported.
+
 - **[`gameshark-for-windows-v1.10-19981118-full.iso`][]**
 
 [`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
-
-Windows 95 and 98 ONLY! <br>
-NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
 
