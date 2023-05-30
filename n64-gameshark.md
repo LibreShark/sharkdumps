@@ -34,9 +34,7 @@ Because these chips are no longer manufactured, and the internal design was neve
 
 For instructions on how to run this software in a Windows 98 SE virtual machine, see the [GameShark Fandom wiki](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
 
-### Screenshots
-
-Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
+**Official Datel N64 Utils** `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
 <img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
      width="200" alt="">
@@ -55,7 +53,7 @@ Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku 
 <img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png"
      width="200" alt="">
 
-Game Software Code Creator `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
+**Game Software Code Creator** `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
 
 <img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png"
      width="200" alt="">
