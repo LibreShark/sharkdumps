@@ -1170,6 +1170,13 @@ Windows 95, 98, and Me ONLY! NT-based OSes (including 2000 and XP) are NOT suppo
 
 ***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
 
+Genuine Datel copy protection dongles are hard to find these days, so @RWeick has created an open source hardware clone that anyone can make:
+
+<a href="https://github.com/RWeick/PC-Gameshark-Dongle">
+  <img src="/pc/gs-win-v1.10/rweick-datel-ref1300-clone-pcb-1006x831.png"
+       height="400" alt="">
+</a>
+
 **Screenshots:**
 
 <img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-01-1024x768-video-files.png"
@@ -1201,11 +1208,11 @@ Windows 95, 98, and Me ONLY! NT-based OSes (including 2000 and XP) are NOT suppo
 
 **Animations:**
 
-![](/pc/gs-win-v1.10/assets/datel_sml.gif)
-![](/pc/gs-win-v1.10/assets/Interact_sml.gif)
+![Datel animation, small](/pc/gs-win-v1.10/assets/datel_sml.gif)
+![InterAct animation, small](/pc/gs-win-v1.10/assets/Interact_sml.gif)
 
-![](/pc/gs-win-v1.10/assets/Interact.gif)
-![](/pc/gs-win-v1.10/assets/shark.gif)
+![Datel animation, large](/pc/gs-win-v1.10/assets/Interact.gif)
+![InterAct animation, large](/pc/gs-win-v1.10/assets/shark.gif)
 
 **UI backgrounds:**
 
