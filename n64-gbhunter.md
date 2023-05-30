@@ -1,6 +1,6 @@
 # N64 GB Hunter
 
-_GB Hunter and Game Buster are country-specific brand names for the exact same hardware._
+_GB Hunter and Game Booster are country-specific brand names for the exact same hardware._
 
 ## GB Hunter
 

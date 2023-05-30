@@ -75,17 +75,18 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 
 <img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
-| Filename                                             | Version   | Build  | Timestamp                  | Language | #G | #C | Clean? | Unencrypted? |
-|:---------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:------:|:------------:|
-| [`xp64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000E` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
-| [`xp64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067E` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️      | ✅            |
-| [`xp64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067G` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️      | ✅            |
-| [`xp64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067E` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️      | ❌            |
+| Filename                                                  | Version   | Build  | Timestamp                  | Language | #G | #C | Clean?    | Unencrypted? |
+|:--------------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:---------:|:------------:|
+|  `xplorer64-v1.000e-b1772-xxxxxxxx-green.enc`             | `v1.000E` | `1772` | _Unknown_                  | English  |  ? |  ? | _Unknown_ | ❌            |
+| [`xplorer64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000E` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️         | ❌            |
+| [`xplorer64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067E` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️         | ✅            |
+| [`xplorer64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067G` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️         | ✅            |
+| [`xplorer64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067E` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️         | ❌            |
 
-[`xp64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xp64-v1.000e-b1834-19990816-green.enc
-[`xp64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xp64-v1.067e-b2510-19991123.bin
-[`xp64-v1.067g-b1930-19991124.bin`]:        /n64/firmware/xp64-v1.067g-b1930-19991124.bin
-[`xp64-v1.067e-b2515-20000505-orange.enc`]: /n64/firmware/xp64-v1.067e-b2515-20000505-orange.enc
+[`xplorer64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green.enc
+[`xplorer64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xplorer64-v1.067e-b2510-19991123.bin
+[`xplorer64-v1.067g-b1930-19991124.bin`]:        /n64/firmware/xplorer64-v1.067g-b1930-19991124.bin
+[`xplorer64-v1.067e-b2515-20000505-orange.enc`]: /n64/firmware/xplorer64-v1.067e-b2515-20000505-orange.enc
 
 [^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
 [^b2510]: Plain **unencrypted** firmware update file from Blaze.
