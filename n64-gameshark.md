@@ -70,15 +70,15 @@ For instructions on how to run this software in a Windows 98 SE virtual machine,
 
 ### Parallel port (link cable) tools
 
-| Tool                                          | Build date   | OSes       | Prereqs               | Authors             |
-|:--------------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][]       | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]        | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                       | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                       | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                       | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
-| [UserPort parallel driver for XP][]           | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
-| [N64 Remote Debugger (with C source code!)][] | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
+| Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
+|:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
+| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
+| [N64 Remote Debugger (with C source)][] | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
 ### ROM and cheat management tools
 
@@ -103,7 +103,7 @@ For instructions on how to run this software in a Windows 98 SE virtual machine,
 [GSCentral Cheat Manager]:             /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
 [HxD hex editor v1.7.7.0 setup]:       /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
 [MetaPad v3.6 portable]:               /n64/tools/metapad-v3.6-portable-win95-20110523.zip
-[N64 Remote Debugger C source code]:   /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
+[N64 Remote Debugger (with C source)]: /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
 [Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
 [Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
 [Skaman's GS ROM splitter]:            /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
