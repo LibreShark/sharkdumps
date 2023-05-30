@@ -51,7 +51,7 @@ Authentic copy protection dongles are hard to find these days, so @RWeick has cr
 
 ### InterAct logo
 
-![GIF animation of spinning InterAct logo 3D model](/pc/gs-win/v1.10/3dmodels/interact/interact-logo.gif)
+![GIF animation of spinning InterAct logo 3D model](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.gif)
 
 [3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html)
 
@@ -68,7 +68,7 @@ Modern formats:
 
 ### Shark logo
 
-![GIF animation of spinning shark logo 3D model](/pc/gs-win/v1.10/3dmodels/shark/shark-logo.gif)
+![GIF animation of spinning shark logo 3D model](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.gif)
 
 [3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html)
 
