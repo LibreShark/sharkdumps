@@ -71,13 +71,13 @@ Taken from an Xplorer 64 cart with an **orange** label:
 
 _Dumped by @RWeick and @danhans42_
 
-| Filename                                                  | Version   | Build  | Timestamp                  | Language | #G | #C | Clean?    | Unencrypted? |
-|:--------------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:---------:|:------------:|
-|  `xplorer64-v1.000e-b1772-xxxxxxxx-green.enc`             | `v1.000E` | `1772` | _Unknown_                  | English  |  ? |  ? | _Unknown_ | ❌            |
-| [`xplorer64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `v1.000E` | `1834` | `1999-08-16T12:10:59+0100` | English  |  ? |  ? | ⚠️         | ❌            |
-| [`xplorer64-v1.067e-b2510-19991123.bin`][][^b2510]        | `v1.067E` | `2510` | `1999-11-23T18:13:18Z`     | English  |  ? |  ? | ⚠️         | ✅            |
-| [`xplorer64-v1.067g-b1930-19991124.bin`][][^b1930]        | `v1.067G` | `1930` | `1999-11-24T14:25:52Z`     | German   |  ? |  ? | ⚠️         | ✅            |
-| [`xplorer64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `v1.067E` | `2515` | `2000-05-05T23:42:59+0100` | English  |  ? |  ? | ⚠️         | ❌            |
+| Filename                                                  | Language | #G | #C | Clean?    | Unencrypted? |
+|:--------------------------------------------------------- |:-------- | --:| --:|:---------:|:------------:|
+|  `xplorer64-v1.000e-b1772-xxxxxxxx-green.enc`             | `en-GB`  |  ? |  ? | _Unknown_ | ❌            |
+| [`xplorer64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
+| [`xplorer64-v1.067e-b2510-19991123.bin`][][^b2510]        | `en-GB`  |  ? |  ? | ⚠️         | ✅            |
+| [`xplorer64-v1.067g-b1930-19991124.bin`][][^b1930]        | `de-DE`  |  ? |  ? | ⚠️         | ✅            |
+| [`xplorer64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
 
 [`xplorer64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green.enc
 [`xplorer64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xplorer64-v1.067e-b2510-19991123.bin
