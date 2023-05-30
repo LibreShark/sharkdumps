@@ -11,12 +11,12 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 Authentic copy protection dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
-<a href="https://github.com/RWeick/PC-Gameshark-Dongle">
-  <img src="/pc/gs-win-v1.10/rweick-datel-ref1300-clone-pcb-1006x831.png"
-       height="200" alt="">
-</a>
-
-<br><br>
+<p>
+  <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
+    <img src="/pc/gs-win-v1.10/rweick-datel-ref1300-clone-pcb-1006x831.png"
+         height="200" alt="">
+  </a>
+</p>
 
 ## Screenshots
 
