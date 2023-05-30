@@ -214,7 +214,7 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
 
-***We recommend using Windows Me if possible. It has the same great software compatibility as Windows 98, but with a much better quality-of-life (e.g., Me has USB support).***
+***We recommend using Windows ME if possible. It has the same great software compatibility as Windows 98, but with a much better quality-of-life (e.g., ME has USB support).***
 
 Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
@@ -254,11 +254,11 @@ GameShark PC link cable tools:
 
 | Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
 |:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, Me, XP | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, Me, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/Me only | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
 | [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
 | [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
@@ -1160,22 +1160,29 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 |:--------------------------------------------------- |:------- |:--------------------- | ---------:|
 | [`gameshark-for-windows-v1.10-19981118-full.iso`][] | `v1.10` | `1998-11-18T08:12:18` | 126.2 MiB |
 | [`gameshark-for-windows-v3.00-20001023-full.iso`][] | `v3.00` | `2000-10-23T11:41:58` | 108.7 MiB |
+| [`gameshark-for-windows-v3.00-20001023-slim.zip`][] | `v3.00` | `2000-10-23T11:41:58` |   8.6 MiB |
 
 [`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
 [`gameshark-for-windows-v3.00-20001023-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
+[`gameshark-for-windows-v3.00-20001023-slim.zip`]: /pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip
 
-### GameShark v1.10 for Windows
+## GameShark v1.10 for Windows 95-98
 
-Windows 95, 98, and Me ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
+**[`gameshark-for-windows-v1.10-19981118-full.iso`][]**
+
+Windows 95 and 98 (and possibly ME?) ONLY! <br>
+NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
 
-Genuine Datel copy protection dongles are hard to find these days, so @RWeick has created an open source hardware clone that anyone can make:
+Authentic original copy protection dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
 <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
   <img src="/pc/gs-win-v1.10/rweick-datel-ref1300-clone-pcb-1006x831.png"
-       height="400" alt="">
+       height="200" alt="">
 </a>
+
+<br><br>
 
 **Screenshots:**
 
@@ -1231,15 +1238,16 @@ Genuine Datel copy protection dongles are hard to find these days, so @RWeick ha
 <a href="https://youtu.be/iQGXP2VCm2s"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
 <a href="https://youtu.be/_yN7M0Fl3pQ"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
 
-### GameShark v3.00 for Windows
+## GameShark v3.00 for Windows 95-98
 
-Windows 95, 98, and Me ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
+- **[`gameshark-for-windows-v3.00-20001023-slim.zip`][]**
+    - Includes everything from the CD _except_ the 100 MB IE5 installer
+- [`gameshark-for-windows-v3.00-20001023-full.iso`][]
+
+Windows 95 and 98 (and possibly ME?) ONLY! <br>
+NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***✅ This version does NOT require a DB-25 parallel port copy-protection dongle!***
-
-[Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip) - includes everything from the CD _except_ the 100 MB IE5 installer.
-
-Build date: `2000-10-23T11:41:58`
 
 **Splash screen:**
 
