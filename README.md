@@ -212,9 +212,7 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 ### N64 GameShark software
 
-Running in a [Windows 98 SE virtual machine](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
-
-***We recommend using Windows Me if possible. It has the same great software compatibility as Windows 98, but with a much better quality-of-life (e.g., Me has USB support).***
+For instructions on how to run this software in a Windows 98 SE virtual machine, see the [GameShark Fandom wiki](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
 
 Official Datel N64 Utils `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
 
@@ -254,11 +252,11 @@ GameShark PC link cable tools:
 
 | Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
 |:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, Me, XP | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, Me, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/Me only | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, Me, XP | [`UserPort`][] for XP | [CMX][]             |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
 | [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
 | [N64 Remote Debugger C source code][]   | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
 
@@ -1156,13 +1154,98 @@ The Cover Project has a [simplified, incomplete scan of the GameShark Lite box a
 
 [GameShark for Windows 95: The PC Game Enhancer - Lazy Game Reviews on YouTube](https://www.youtube.com/watch?v=pQnCdDpU1to)
 
-### GameShark v3.00 for Windows
+| Filename                                            | Version | Build date            | Size      |
+|:--------------------------------------------------- |:------- |:--------------------- | ---------:|
+| [`gameshark-for-windows-v1.10-19981118-full.iso`][] | `v1.10` | `1998-11-18T08:12:18` | 126.2 MiB |
+| [`gameshark-for-windows-v3.00-20001023-full.iso`][] | `v3.00` | `2000-10-23T11:41:58` | 108.7 MiB |
+| [`gameshark-for-windows-v3.00-20001023-slim.zip`][] | `v3.00` | `2000-10-23T11:41:58` |   8.6 MiB |
 
-[Download GameShark v3.00 for Windows setup (slim)](/pc/gs-win-v3.00/gw-win-v3.00-20001023-slim.zip) - includes everything from the CD _except_ the 100 MB IE5 installer.
+[`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
+[`gameshark-for-windows-v3.00-20001023-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
+[`gameshark-for-windows-v3.00-20001023-slim.zip`]: /pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip
 
-Build date: `2000-10-23T11:41:58`
+### GameShark v1.10 for Windows 95-98
 
-This version does ***NOT*** require a parallel port dongle.
+**[`gameshark-for-windows-v1.10-19981118-full.iso`][]**
+
+Windows 95 and 98 (and possibly ME?) ONLY! <br>
+NT-based OSes (including 2000 and XP) are NOT supported.
+
+***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
+
+Authentic copy protection dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
+
+<a href="https://github.com/RWeick/PC-Gameshark-Dongle">
+  <img src="/pc/gs-win-v1.10/rweick-datel-ref1300-clone-pcb-1006x831.png"
+       height="200" alt="">
+</a>
+
+<br><br>
+
+**Screenshots:**
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-01-1024x768-video-files.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-02-1024x768-start-menu.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-03-1024x768-copy-video-files.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-04-1024x768-directx-components.png"
+     width="200" alt="">
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-05-1024x768-installing-streaming-animation.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-06-1024x768-indeo-5-installer.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-07-1024x768-indeo-5-skipped.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-08-1024x768-cannot-create-device.png"
+     width="200" alt="">
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-09-640x480-main-ui-interact.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-10-640x480-options.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-11-640x480-3d-options.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-12-640x480-save-cheat-backup.png"
+     width="200" alt="">
+
+**Animations:**
+
+![Datel animation, small](/pc/gs-win-v1.10/assets/datel_sml.gif)
+![InterAct animation, small](/pc/gs-win-v1.10/assets/Interact_sml.gif)
+
+![Datel animation, large](/pc/gs-win-v1.10/assets/Interact.gif)
+![InterAct animation, large](/pc/gs-win-v1.10/assets/shark.gif)
+
+**UI backgrounds:**
+
+<img src="/pc/gs-win-v1.10/assets/page1.BMP"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/assets/page2.BMP"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/assets/page3.BMP"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/assets/page4-256.bmp"
+     width="200" alt="">
+
+**Videos:**
+
+<a href="https://youtu.be/ZR4WcQL76xs" title="intro.mpg"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+<a href="https://youtu.be/iQGXP2VCm2s" title="credits.mpg"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+<a href="https://youtu.be/_yN7M0Fl3pQ" title="about.mpg"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+
+### GameShark v3.00 for Windows 95-98
+
+- **[`gameshark-for-windows-v3.00-20001023-slim.zip`][]**
+    - Includes everything from the CD _except_ the 100 MB IE5 installer
+- [`gameshark-for-windows-v3.00-20001023-full.iso`][]
+
+Windows 95 and 98 (and possibly ME?) ONLY! <br>
+NT-based OSes (including 2000 and XP) are NOT supported.
+
+***✅ This version does NOT require a DB-25 parallel port copy-protection dongle!***
 
 **Splash screen:**
 
@@ -1176,7 +1259,7 @@ This version does ***NOT*** require a parallel port dongle.
 
 - Duration: 11.600 sec
 - Video standard: PAL, 25.0 FPS, 4:3, 352x288 (progressive)
-- Original filename: `C:\\Program Files\\Interact\GameShark for Windows\\Web\\jaws.mpg`
+- Original filename: `C:\Program Files\Interact\GameShark for Windows\Web\jaws.mpg`
 - File size: 1801014 bytes
 
 **Documentation:**
@@ -1186,6 +1269,8 @@ This version does ***NOT*** require a parallel port dongle.
 - [ReadMe.txt](/pc/gs-win-v3.00/ReadMe.txt)
 
 **Screenshots:**
+
+_Captured by @CheatoBaggins_
 
 Setup:
 
@@ -1225,7 +1310,11 @@ Help viewer:
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-03-help-04-the-code-selector.png"
      width="200" alt="">
 
-MP3Shark (GS-branded fork of FreeAmp):
+MP3Shark:
+
+A GameShark-branded fork of the FreeAmp[^freeamp] audio player:
+
+[^freeamp]: FreeAmp was later renamed to [Zinf](https://zinf.org/) due to a [trademark dispute](https://en.wikipedia.org/wiki/Zinf#Naming).
 
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-00-ui.png"
      width="200" alt="">
