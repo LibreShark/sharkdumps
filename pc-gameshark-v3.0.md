@@ -1,4 +1,4 @@
-# PC GameShark v3.0 for Windows 95-98
+# PC GameShark v3.0 for Windows 98/ME
 
 - **[`gameshark-for-windows-v3.00-20001023-slim.zip`][]**
     - Includes everything from the CD _except_ the 100 MB IE5 installer
@@ -7,7 +7,7 @@
 [`gameshark-for-windows-v3.00-20001023-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
 [`gameshark-for-windows-v3.00-20001023-slim.zip`]: /pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip
 
-Windows 95 and 98 (and possibly ME?) ONLY! <br>
+Windows 98 and ME ONLY! <br>
 NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***✅ This version does NOT require a DB-25 parallel port copy-protection dongle!***

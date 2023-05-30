@@ -71,10 +71,6 @@ Taken from an Xplorer 64 cart with an **orange** label:
 
 _Dumped by @RWeick and @danhans42_
 
-To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
-
-<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
-
 | Filename                                                  | Version   | Build  | Timestamp                  | Language | #G | #C | Clean?    | Unencrypted? |
 |:--------------------------------------------------------- |:--------- | ------:|:-------------------------- |:-------- | --:| --:|:---------:|:------------:|
 |  `xplorer64-v1.000e-b1772-xxxxxxxx-green.enc`             | `v1.000E` | `1772` | _Unknown_                  | English  |  ? |  ? | _Unknown_ | ❌            |
@@ -92,6 +88,10 @@ To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexp
 [^b2510]: Plain **unencrypted** firmware update file from Blaze.
 [^b1930]: Plain **unencrypted** firmware update file from Blaze.
 [^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
+
+To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
+
+<img src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an Xplorer 64 ROM file">
 
 ## PC software
 
