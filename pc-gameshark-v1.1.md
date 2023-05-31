@@ -9,7 +9,9 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
 
-Authentic copy protection dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
+## Copy protection dongle
+
+Authentic Datel parallel port dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
 <p>
   <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
