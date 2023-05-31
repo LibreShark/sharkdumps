@@ -11,7 +11,7 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 ## Copy protection dongle
 
-Authentic Datel parallel port dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
+Authentic GameShark PC dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
 <p>
   <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
@@ -19,6 +19,8 @@ Authentic Datel parallel port dongles are hard to find these days, so @RWeick ha
          height="200" alt="">
   </a>
 </p>
+
+[GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
 
 ## Screenshots
 

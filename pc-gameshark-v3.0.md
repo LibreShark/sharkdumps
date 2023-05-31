@@ -10,7 +10,9 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 [`gameshark-for-windows-v3.00-20001023-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v3.00-20001023-full.iso
 [`gameshark-for-windows-v3.00-20001023-slim.zip`]: /pc/gs-win-v3.00/gameshark-for-windows-v3.00-20001023-slim.zip
 
-***✅ This version does NOT require a DB-25 parallel port copy-protection dongle!***
+***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.***
+
+[GameShark v1.1 for Windows](/pc-gameshark-v1.1.md) ***does*** require a dongle.
 
 ## Splash screen
 
