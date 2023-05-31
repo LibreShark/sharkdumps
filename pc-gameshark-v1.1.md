@@ -51,9 +51,10 @@ Authentic copy protection dongles are hard to find these days, so @RWeick has cr
 
 ### InterAct logo
 
-![Preview of InterAct logo 3D model](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.png)
-
-[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html)
+<a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html">
+  <img src="/pc/gs-win-v1.10/3dmodels/interact/interact-logo.png"
+       width="400" alt="Preview of InterAct logo 3D model">
+</a>
 
 [Original `.x` file](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.x) (DirectX mesh)
 
@@ -68,9 +69,10 @@ Modern formats:
 
 ### Shark logo
 
-![Preview of shark logo 3D model](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.png)
-
-[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html)
+<a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html">
+  <img src="/pc/gs-win-v1.10/3dmodels/shark/shark-logo.png"
+       width="400" alt="Preview of shark logo 3D model">
+</a>
 
 [Original `.x` file](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.x) (DirectX mesh)
 
