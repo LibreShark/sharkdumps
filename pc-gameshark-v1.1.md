@@ -9,6 +9,8 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
 
+[GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
+
 ## Copy protection dongle
 
 Authentic GameShark PC dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
@@ -19,8 +21,6 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
          height="200" alt="">
   </a>
 </p>
-
-[GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
 
 ## Screenshots
 
