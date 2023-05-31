@@ -47,62 +47,6 @@ Authentic copy protection dongles are hard to find these days, so @RWeick has cr
 <img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-12-640x480-save-cheat-backup.png"
      width="200" alt="">
 
-## 3D models
-
-### InterAct logo
-
-<p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html"
-     target="_blank">
-    <img src="/pc/gs-win-v1.10/3dmodels/interact/interact-logo.png"
-         width="400" alt="Preview of InterAct logo 3D model">
-  </a>
-</p>
-
-Original DirectX mesh `.x` files:
-
-- [`interact_tri.x`](/pc/gs-win-v1.10/3dmodels/interact/interact_tri.x)
-- [`rainbowbar_5.x`](/pc/gs-win-v1.10/3dmodels/interact/rainbowbar_5.x)
-
-Modern 3D formats:
-
-- [`.3ds` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.3ds) ([Autodesk 3ds Max][])
-- [`.fbx` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.fbx) ([Autodesk Filmbox][])
-- [`.glb` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.glb) ([glTF binary][])
-- [`.obj` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.obj) ([Wavefront][])
-- [`.skp` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.skp) ([SketchUp][])
-- [`.stl` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.stl) ([stereolithography][])
-
-### Shark logo
-
-<p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html"
-     target="_blank">
-    <img src="/pc/gs-win-v1.10/3dmodels/shark/shark-logo.png"
-         width="400" alt="Preview of shark logo 3D model">
-  </a>
-</p>
-
-Original DirectX mesh `.x` files:
-
-- [`n_shark_6.x`](/pc/gs-win-v1.10/3dmodels/shark/n_shark_6.x)
-
-Modern 3D formats:
-
-- [`.3ds` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.3ds) ([Autodesk 3ds Max][])
-- [`.fbx` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.fbx) ([Autodesk Filmbox][])
-- [`.glb` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.glb) ([glTF binary][])
-- [`.obj` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.obj) ([Wavefront][])
-- [`.skp` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.skp) ([SketchUp][])
-- [`.stl` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.stl) ([stereolithography][])
-
-[Autodesk 3ds Max]:  https://en.wikipedia.org/wiki/.3ds
-[Autodesk Filmbox]:  https://en.wikipedia.org/wiki/FBX
-[glTF binary]:       https://en.wikipedia.org/wiki/GlTF
-[stereolithography]: https://en.wikipedia.org/wiki/STL_(file_format)
-[SketchUp]:          https://www.sketchup.com/plans-and-pricing/sketchup-free
-[Wavefront]:         https://en.wikipedia.org/wiki/Wavefront_.obj_file
-
 ## Animations
 
 ![Datel animation, small](/pc/gs-win-v1.10/assets/datel_sml.gif)
@@ -127,3 +71,59 @@ Modern 3D formats:
 <a href="https://youtu.be/ZR4WcQL76xs" title="intro.mpg"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
 <a href="https://youtu.be/iQGXP2VCm2s" title="credits.mpg"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
 <a href="https://youtu.be/_yN7M0Fl3pQ" title="about.mpg"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+
+## 3D models
+
+### InterAct logo
+
+<p>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html"
+     target="_blank">
+    <img src="/pc/gs-win-v1.10/3dmodels/interact/interact-logo.png"
+         width="400" alt="Preview of InterAct logo 3D model">
+  </a>
+</p>
+
+Modern 3D formats:
+
+- [`.3ds` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.3ds) ([Autodesk 3ds Max][])
+- [`.fbx` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.fbx) ([Autodesk Filmbox][])
+- [`.glb` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.glb) ([glTF binary][])
+- [`.obj` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.obj) ([Wavefront][])
+- [`.skp` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.skp) ([SketchUp][])
+- [`.stl` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.stl) ([stereolithography][])
+
+Original DirectX mesh (`.x`) files:
+
+- [`interact_tri.x`](/pc/gs-win-v1.10/3dmodels/interact/interact_tri.x)
+- [`rainbowbar_5.x`](/pc/gs-win-v1.10/3dmodels/interact/rainbowbar_5.x)
+
+### Shark logo
+
+<p>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html"
+     target="_blank">
+    <img src="/pc/gs-win-v1.10/3dmodels/shark/shark-logo.png"
+         width="400" alt="Preview of shark logo 3D model">
+  </a>
+</p>
+
+Modern 3D formats:
+
+- [`.3ds` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.3ds) ([Autodesk 3ds Max][])
+- [`.fbx` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.fbx) ([Autodesk Filmbox][])
+- [`.glb` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.glb) ([glTF binary][])
+- [`.obj` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.obj) ([Wavefront][])
+- [`.skp` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.skp) ([SketchUp][])
+- [`.stl` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.stl) ([stereolithography][])
+
+Original DirectX mesh (`.x`) files:
+
+- [`n_shark_6.x`](/pc/gs-win-v1.10/3dmodels/shark/n_shark_6.x)
+
+[Autodesk 3ds Max]:  https://en.wikipedia.org/wiki/.3ds
+[Autodesk Filmbox]:  https://en.wikipedia.org/wiki/FBX
+[glTF binary]:       https://en.wikipedia.org/wiki/GlTF
+[stereolithography]: https://en.wikipedia.org/wiki/STL_(file_format)
+[SketchUp]:          https://www.sketchup.com/plans-and-pricing/sketchup-free
+[Wavefront]:         https://en.wikipedia.org/wiki/Wavefront_.obj_file
