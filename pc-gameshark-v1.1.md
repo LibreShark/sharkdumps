@@ -51,7 +51,7 @@ Authentic copy protection dongles are hard to find these days, so @RWeick has cr
 
 ### InterAct logo
 
-![GIF animation of spinning InterAct logo 3D model](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.gif)
+![Preview of InterAct logo 3D model](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.png)
 
 [3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html)
 
@@ -61,14 +61,14 @@ Modern formats:
 
 - [`.3ds` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.3ds) (3D Studio Max)
 - [`.fbx` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.fbx) (Autodesk)
-- [`.glb` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.glb) (glTF)
+- [`.glb` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.glb) (glTF binary)
 - [`.obj` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.obj) (Wavefront)
 - [`.skp` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.skp) (SketchUp)
 - [`.stl` format](/pc/gs-win-v1.10/3dmodels/interact/interact-logo.stl) (stereolithography)
 
 ### Shark logo
 
-![GIF animation of spinning shark logo 3D model](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.gif)
+![Preview of shark logo 3D model](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.png)
 
 [3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html)
 
@@ -78,7 +78,7 @@ Modern formats:
 
 - [`.3ds` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.3ds) (3D Studio Max)
 - [`.fbx` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.fbx) (Autodesk)
-- [`.glb` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.glb) (glTF)
+- [`.glb` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.glb) (glTF binary)
 - [`.obj` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.obj) (Wavefront)
 - [`.skp` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.skp) (SketchUp)
 - [`.stl` format](/pc/gs-win-v1.10/3dmodels/shark/shark-logo.stl) (stereolithography)
