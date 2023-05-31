@@ -52,7 +52,8 @@ Authentic copy protection dongles are hard to find these days, so @RWeick has cr
 ### InterAct logo
 
 <p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html"
+     target="_blank">
     <img src="/pc/gs-win-v1.10/3dmodels/interact/interact-logo.png"
          width="400" alt="Preview of InterAct logo 3D model">
   </a>
@@ -72,7 +73,8 @@ Modern formats:
 ### Shark logo
 
 <p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html"
+     target="_blank">
     <img src="/pc/gs-win-v1.10/3dmodels/shark/shark-logo.png"
          width="400" alt="Preview of shark logo 3D model">
   </a>
