@@ -1,15 +1,24 @@
 # PC GameShark v1.1 for Windows 95/98
 
+## Compatibility
+
 Windows 95 and 98 ONLY! <br>
 NT-based OSes (including 2000 and XP) are NOT supported.
 
-- **[`gameshark-for-windows-v1.10-19981118-full.iso`][]**
+***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!*** <br>
+[GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
+
+## Software
+
+| Filename                                                | Size       | MD5                                |
+|:------------------------------------------------------- | ----------:|:---------------------------------- |
+| **[`gameshark-for-windows-v1.10-19981118-full.iso`][]** | 126.15 MiB | `16456d9c222db2ee6452833d4fd0ad42` |
 
 [`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
 
-***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!***
+## Artwork
 
-[GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
+_Coming soon!_
 
 ## Copy protection dongle
 
@@ -72,9 +81,21 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
 
 ## Videos
 
-<a href="https://youtu.be/ZR4WcQL76xs" title="intro.mpg"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
-<a href="https://youtu.be/iQGXP2VCm2s" title="credits.mpg"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
-<a href="https://youtu.be/_yN7M0Fl3pQ" title="about.mpg"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+`intro.mpg`:
+
+> <a href="https://youtu.be/ZR4WcQL76xs" title="View intro.mpg on YouTube"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+
+`about.mpg`:
+
+> <a href="https://youtu.be/_yN7M0Fl3pQ" title="View about.mpg on YouTube"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+
+`credits.mpg`:
+
+> <a href="https://youtu.be/iQGXP2VCm2s" title="View credits.mpg on YouTube"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+
+## VHS tape
+
+_Coming soon!_
 
 ## 3D models
 
@@ -87,6 +108,8 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
          width="400" alt="Preview of InterAct logo 3D model">
   </a>
 </p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html)**
 
 Modern 3D formats:
 
@@ -111,6 +134,8 @@ Original DirectX mesh (`.x`) files:
          width="400" alt="Preview of shark logo 3D model">
   </a>
 </p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html)**
 
 Modern 3D formats:
 
