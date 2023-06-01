@@ -20,9 +20,11 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 [`gameshark-for-windows-v1.10-19981118-full.iso`]: https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/cds/gameshark-for-windows-v1.10-19981118-full.iso
 
-## Artwork
+## Box
 
-_Coming soon!_
+[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-3400x1400.png)
+
+_More photos coming soon!_
 
 ## Copy protection dongle
 
@@ -103,11 +105,7 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
 
 ## VHS tape
 
-[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-3400x1400.png)
-
-[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-1804x994.png)
-
-[![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-2362x324.png)
+[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-1804x994.png) [![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-2362x324.png)
 
 [YouTube: PC GameShark v1.1 for Windows 95/98 VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4)
 
