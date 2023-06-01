@@ -10,6 +10,10 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 ## Software
 
+[![PC GameShark v1.1 CD label](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-label-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-label-3000.png)
+[![PC GameShark v1.1 CD sleeve front](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-front-2900.png)
+[![PC GameShark v1.1 CD sleeve rear](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-rear-2900.png)
+
 | Filename                                                | Size       | MD5                                |
 |:------------------------------------------------------- | ----------:|:---------------------------------- |
 | **[`gameshark-for-windows-v1.10-19981118-full.iso`][]** | 126.15 MiB | `16456d9c222db2ee6452833d4fd0ad42` |
@@ -21,6 +25,10 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 _Coming soon!_
 
 ## Copy protection dongle
+
+[![PC GameShark v1.1 dongle front view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-1600x2100.png)
+[![PC GameShark v1.1 dongle rear view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-1600x2100.png)
+[![PC GameShark v1.1 dongle side view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-600x2300.png)
 
 Authentic GameShark PC dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
@@ -81,13 +89,13 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
 
 ## Videos
 
-`intro.mpg`:
-
-> <a href="https://youtu.be/ZR4WcQL76xs" title="View intro.mpg on YouTube"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
-
 `about.mpg`:
 
 > <a href="https://youtu.be/_yN7M0Fl3pQ" title="View about.mpg on YouTube"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+
+`intro.mpg`:
+
+> <a href="https://youtu.be/ZR4WcQL76xs" title="View intro.mpg on YouTube"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
 
 `credits.mpg`:
 
@@ -95,7 +103,13 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
 
 ## VHS tape
 
-_Coming soon!_
+[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-3400x1400.png)
+
+[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-1804x994.png)
+
+[![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-2362x324.png)
+
+[YouTube: PC GameShark v1.1 for Windows 95/98 VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4)
 
 ## 3D models
 
