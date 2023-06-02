@@ -88,6 +88,8 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 ## Animations
 
+[Macromedia Flash animations!](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/flash/index.html)
+
 ![Datel animation, small](/pc/gs-win-v1.10/assets/datel_sml.gif)
 ![InterAct animation, small](/pc/gs-win-v1.10/assets/Interact_sml.gif)
 
@@ -109,15 +111,15 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 `about.mpg`:
 
-> <a href="https://youtu.be/_yN7M0Fl3pQ" title="View about.mpg on YouTube"><img src="/pc/gs-win-v1.10/about-522x212.png" width="522"></a>
+> <a href="https://youtu.be/_yN7M0Fl3pQ" title="View about.mpg on YouTube"><img src="/pc/gs-win-v1.10/videos/about-522x212.png" width="522"></a>
 
 `intro.mpg`:
 
-> <a href="https://youtu.be/ZR4WcQL76xs" title="View intro.mpg on YouTube"><img src="/pc/gs-win-v1.10/intro-950x272.png" width="522"></a>
+> <a href="https://youtu.be/ZR4WcQL76xs" title="View intro.mpg on YouTube"><img src="/pc/gs-win-v1.10/videos/intro-950x272.png" width="522"></a>
 
 `credits.mpg`:
 
-> <a href="https://youtu.be/iQGXP2VCm2s" title="View credits.mpg on YouTube"><img src="/pc/gs-win-v1.10/credits-522x212.png" width="522"></a>
+> <a href="https://youtu.be/iQGXP2VCm2s" title="View credits.mpg on YouTube"><img src="/pc/gs-win-v1.10/videos/credits-522x212.png" width="522"></a>
 
 ## VHS tape
 
