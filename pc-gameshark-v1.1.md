@@ -33,13 +33,15 @@ _More photos coming soon!_
 
 ## Copy protection dongle
 
-The GameShark software requires a proprietary DB-25 parallel port copy protection dongle to be plugged into the PC.
+The [GameShark PC software](#software) requires a proprietary DB-25 parallel port copy protection dongle to be plugged into the machine:
 
 [![PC GameShark v1.1 dongle front view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-1600x2100.png)
 [![PC GameShark v1.1 dongle rear view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-1600x2100.png)
 [![PC GameShark v1.1 dongle side view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-600x2300.png)
 
 _Note: The `V.2.1` sticker refers to the MCU security firmware running on the PIC in the dongle, **not** the PC software version._
+
+To avoid monopolizing the parallel port, it also functions as a transparent passthrough for other devices, such as printers and external drives.
 
 Authentic dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
