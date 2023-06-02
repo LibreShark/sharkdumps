@@ -41,7 +41,7 @@ The [GameShark PC software](#software) requires a proprietary DB-25 parallel por
 
 _Note: The `V.2.1` sticker refers to the MCU security firmware running on the PIC in the dongle, **not** the PC software version._
 
-To avoid monopolizing the parallel port, it also functions as a transparent passthrough for other devices, such as printers and external drives.
+To avoid monopolizing the parallel port, the dongle also functions as a transparent passthrough for other devices, such as printers and external drives.
 
 Authentic dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
