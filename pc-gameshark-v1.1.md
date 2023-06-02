@@ -1,11 +1,16 @@
 # PC GameShark v1.1 for Windows 95/98
 
+According to [`Readme 1st.txt`](/pc/gs-win-v1.10/assets/Readme_1st.txt), v1.0 software also existed:
+
+> Version 1.0
+> 30 October 1998
+
 ## Compatibility
 
 Windows 95 and 98 ONLY! <br>
 NT-based OSes (including 2000 and XP) are NOT supported.
 
-***⚠️ This version REQUIRES a DB-25 parallel port copy-protection dongle!*** <br>
+***⚠️ This version REQUIRES a DB-25 parallel port [copy-protection dongle](#copy-protection-dongle)!*** <br>
 [GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
 
 ## Software
@@ -28,11 +33,15 @@ _More photos coming soon!_
 
 ## Copy protection dongle
 
+The GameShark software requires a proprietary DB-25 parallel port copy protection dongle to be plugged into the PC.
+
 [![PC GameShark v1.1 dongle front view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-1600x2100.png)
 [![PC GameShark v1.1 dongle rear view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-1600x2100.png)
 [![PC GameShark v1.1 dongle side view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-600x2300.png)
 
-Authentic GameShark PC dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
+_Note: The `V.2.1` sticker refers to the MCU security firmware running on the PIC in the dongle, **not** the PC software version._
+
+Authentic dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
 <p>
   <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
@@ -68,6 +77,11 @@ Authentic GameShark PC dongles are hard to find these days, so @RWeick has creat
 <img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-11-640x480-3d-options.png"
      width="200" alt="">
 <img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-12-640x480-save-cheat-backup.png"
+     width="200" alt="">
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-13-640x480-code-list.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-14-640x480-edit-code-description.png"
      width="200" alt="">
 
 ## Animations
