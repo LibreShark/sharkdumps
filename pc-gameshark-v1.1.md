@@ -2,7 +2,7 @@
 
 According to [`Readme 1st.txt`](/pc/gs-win-v1.10/assets/Readme_1st.txt), v1.0 software also existed:
 
-> Version 1.0
+> Version 1.0 <br>
 > 30 October 1998
 
 ## Compatibility
