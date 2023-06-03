@@ -1,16 +1,18 @@
 # PC GameShark v1.1 for Windows 95/98
 
-According to [`Readme 1st.txt`](/pc/gs-win-v1.10/assets/Readme_1st.txt), v1.0 software also existed:
+According to [`Readme 1st.txt`](/pc/gs-win-v1.10/assets/Readme_1st.txt), a v1.0 release also exists:
 
 > Version 1.0 <br>
 > 30 October 1998
 
+***If you have a v1.0 CD, please contact cheatobaggins@gmail.com or rweick@gmail.com!***
+
 ## Compatibility
 
-Windows 95 and 98 ONLY! <br>
-NT-based OSes (including 2000 and XP) are NOT supported.
+Windows 95 and 98 ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
 
-***⚠️ This version REQUIRES a DB-25 parallel port [copy-protection dongle](#copy-protection-dongle)!*** <br>
+***⚠️ This version REQUIRES a DB-25 parallel port [copy-protection dongle](#copy-protection-dongle)!***
+
 [GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
 
 ## Software
@@ -27,9 +29,9 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 
 ## Box
 
-[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-3400x1400.png)
+***TODO(CheatoBaggins): Box photos and scans***
 
-_More photos coming soon!_
+[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-3400x1400.png)
 
 ## Copy protection dongle
 
@@ -41,7 +43,7 @@ The [GameShark PC software](#software) requires a proprietary DB-25 parallel por
 
 _Note: The `V.2.1` sticker refers to the MCU security firmware running on the PIC in the dongle, **not** the PC software version._
 
-To avoid monopolizing the parallel port, the dongle also functions as a transparent passthrough for other devices, such as printers and external drives.
+The dongle acts as a transparent passthrough for other parallel port devices (e.g., printers and external drives). This means you don't need to constantly plug and unplug the dongle from the computer's parallel port, which is a nice feature.
 
 Authentic dongles are hard to find these days, so @RWeick has created an open source clone that anyone can make:
 
