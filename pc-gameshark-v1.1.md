@@ -19,9 +19,9 @@ Requires DirectX 6.0, DirectX Media 6.0, and Intel Indeo codecs (all of which ar
 
 ## Software
 
-[![PC GameShark v1.1 CD label](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-label-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-label-3000.png)
-[![PC GameShark v1.1 CD sleeve front](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-front-2900.png)
-[![PC GameShark v1.1 CD sleeve rear](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cd-sleeve-rear-2900.png)
+[![PC GameShark v1.1 CD label](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cd-label-200.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cd-label-3000.png)
+[![PC GameShark v1.1 CD sleeve front](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cd-sleeve-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cd-sleeve-front-2900.png)
+[![PC GameShark v1.1 CD sleeve rear](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cd-sleeve-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cd-sleeve-rear-2900.png)
 
 | Filename                                                | Size       | MD5                                |
 |:------------------------------------------------------- | ----------:|:---------------------------------- |
@@ -33,15 +33,15 @@ Requires DirectX 6.0, DirectX Media 6.0, and Intel Indeo codecs (all of which ar
 
 ***TODO(CheatoBaggins): Box photos and scans***
 
-[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-cardboard-tray-3400x1400.png)
+[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cardboard-tray-400.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-cardboard-tray-3400x1400.png)
 
 ## Copy protection dongle
 
 The [GameShark PC software](#software) requires a proprietary DB-25 parallel port copy protection dongle to be plugged into the machine:
 
-[![PC GameShark v1.1 dongle front view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-front-1600x2100.png)
-[![PC GameShark v1.1 dongle rear view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-rear-1600x2100.png)
-[![PC GameShark v1.1 dongle side view](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-200.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-dongle-side-600x2300.png)
+[![PC GameShark v1.1 dongle front view](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-dongle-front-200.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-dongle-front-1600x2100.png)
+[![PC GameShark v1.1 dongle rear view](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-dongle-rear-200.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-dongle-rear-1600x2100.png)
+[![PC GameShark v1.1 dongle side view](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-dongle-side-200.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-dongle-side-600x2300.png)
 
 _Note: The `V.2.1` sticker refers to the MCU security firmware running on the PIC in the dongle, **not** the PC software version._
 
@@ -58,36 +58,36 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 ## Screenshots
 
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-01-1024x768-video-files.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-01-1024x768-video-files.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-02-1024x768-start-menu.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-02-1024x768-start-menu.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-03-1024x768-copy-video-files.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-03-1024x768-copy-video-files.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-04-1024x768-directx-components.png"
-     width="200" alt="">
-
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-05-1024x768-installing-streaming-animation.png"
-     width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-06-1024x768-indeo-5-installer.png"
-     width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-07-1024x768-indeo-5-skipped.png"
-     width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-08-1024x768-cannot-create-device.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-04-1024x768-directx-components.png"
      width="200" alt="">
 
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-09-640x480-main-ui-interact.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-05-1024x768-installing-streaming-animation.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-10-640x480-options.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-06-1024x768-indeo-5-installer.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-11-640x480-3d-options.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-07-1024x768-indeo-5-skipped.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-12-640x480-save-cheat-backup.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-08-1024x768-cannot-create-device.png"
      width="200" alt="">
 
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-13-640x480-code-list.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-09-640x480-main-ui-interact.png"
      width="200" alt="">
-<img src="/pc/gs-win-v1.10/screenshots/pc-gs-v1.10-screenshot-14-640x480-edit-code-description.png"
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-10-640x480-options.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-11-640x480-3d-options.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-12-640x480-save-cheat-backup.png"
+     width="200" alt="">
+
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-13-640x480-code-list.png"
+     width="200" alt="">
+<img src="/pc/gs-win-v1.10/screenshots/pc-gs-win9x-v1.10-screenshot-14-640x480-edit-code-description.png"
      width="200" alt="">
 
 ## Animations
@@ -125,7 +125,7 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 ## VHS tape
 
-[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-label-1804x994.png) [![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-400.png)](/pc/gs-win-v1.10/photos/pc-gs-v1.1-vhs-bottom-2362x324.png)
+[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-vhs-label-400.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-vhs-label-1804x994.png) [![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-vhs-bottom-400.png)](/pc/gs-win-v1.10/photos/pc-gs-win9x-v1.1-vhs-bottom-2362x324.png)
 
 [YouTube: PC GameShark v1.1 for Windows 95/98 VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4)
 
