@@ -125,14 +125,14 @@ A GameShark-branded fork of the FreeAmp[^freeamp] audio player:
 
 ## Flash animations
 
-![go_pad.gif](/pc/gs-win-v1.10/flash/go_pad.gif)
-![hammerhead.gif](/pc/gs-win-v1.10/flash/hammerhead.gif)
-![gamepads_and_steering_wheels.gif](/pc/gs-win-v1.10/flash/gamepads_and_steering_wheels.gif)
-![joysticks_mice_usb.gif](/pc/gs-win-v1.10/flash/joysticks_mice_usb.gif)
+![go_pad.gif](/pc/gs-win-v3.00/flash/go_pad.gif)
+![hammerhead.gif](/pc/gs-win-v3.00/flash/hammerhead.gif)
+![gamepads_and_steering_wheels.gif](/pc/gs-win-v3.00/flash/gamepads_and_steering_wheels.gif)
+![joysticks_mice_usb.gif](/pc/gs-win-v3.00/flash/joysticks_mice_usb.gif)
 
-![letters_lineup.gif](/pc/gs-win-v1.10/flash/letters_lineup.gif)
+![letters_lineup.gif](/pc/gs-win-v3.00/flash/letters_lineup.gif)
 
-![product_movie_2.gif](/pc/gs-win-v1.10/flash/product_movie_2.gif)
-![products_page_flash.gif](/pc/gs-win-v1.10/flash/products_page_flash.gif)
+![product_movie_2.gif](/pc/gs-win-v3.00/flash/product_movie_2.gif)
+![products_page_flash.gif](/pc/gs-win-v3.00/flash/products_page_flash.gif)
 
 View the [original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v3.0/flash/index.html) (no browser plugin required!)
