@@ -55,8 +55,6 @@ _Coming soon!_
 
 ## Screenshots
 
-_Captured by @CheatoBaggins_
-
 ### Setup
 
 <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-01-setup-01-splash-screen.png"
