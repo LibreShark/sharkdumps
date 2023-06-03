@@ -11,7 +11,7 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 ***⚠️ This version REQUIRES a DB-25 parallel port [copy-protection dongle](#copy-protection-dongle)!*** <br>
 [GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
 
-Requires DirectX 6.0, DirectX Media 6.0, and Intel Indeo codecs (all of which are bundled with the installer).
+Requires DirectX 6.0, DirectX Media 6.0, and Intel Indeo codecs (all of which are bundled with the installer). Windows 98 SE comes preinstalled with all of these components.
 
 ## Software
 
