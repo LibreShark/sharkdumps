@@ -13,8 +13,10 @@ NT-based OSes (including 2000 and XP) are NOT supported.
 ***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.*** <br>
 [GameShark v1.1 for Windows](/pc-gameshark-v1.1.md) ***does*** require a dongle.
 
-Requires Internet Explorer 5 and Macromedia Flash 3. <br>
-Comes bundled with an IE5 installer.
+Requires Macromedia Flash Player 3 or newer (preinstalled[^flash3] on Windows 98 and ME) and <br>
+Internet Explorer 5 (preinstalled on 98 SE and ME). The GameShark CD comes bundled with an IE5 installer.
+
+[^flash3]: https://web.archive.org/web/20170520225041/https://www.thefreelibrary.com/Macromedia+Shockwave(TM)+and+Flash(TM)+Players+Incorporated+Into...-a020957947
 
 ## Software
 
