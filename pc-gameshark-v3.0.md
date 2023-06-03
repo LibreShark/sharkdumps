@@ -2,7 +2,12 @@
 
 ## Compatibility
 
-Windows 98 and ME ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
+<img src="/assets/logos/windows-9x-logo-2400.png"
+     width="200" height="200" alt="Windows 9x logo">
+<img src="/assets/logos/windows-me-logo-700.png"
+     width="200" height="200" alt="Windows ME logo">
+
+**Windows 98 and ME ONLY!** NT-based OSes (including 2000 and XP) are NOT supported.
 
 ***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.***
 
