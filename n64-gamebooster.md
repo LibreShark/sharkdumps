@@ -1,4 +1,4 @@
-# N64 GB Hunter
+# N64 Game Booster
 
 _[GB Hunter](/n64-gbhunter.md) and Game Booster are country-specific brand names for the exact same hardware._
 
