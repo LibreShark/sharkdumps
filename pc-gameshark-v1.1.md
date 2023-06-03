@@ -137,13 +137,13 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 ### InterAct logo
 
 <p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/3dmodels/interact/index.html">
     <img src="/pc/gs-win-v1.1/3dmodels/interact/interact-logo.png"
          width="400" alt="Preview of InterAct logo 3D model">
   </a>
 </p>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/interact/index.html)**
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/3dmodels/interact/index.html)**
 
 Modern 3D formats:
 
@@ -162,13 +162,13 @@ Original DirectX mesh (`.x`) files:
 ### Shark logo
 
 <p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/3dmodels/shark/index.html">
     <img src="/pc/gs-win-v1.1/3dmodels/shark/shark-logo.png"
          width="400" alt="Preview of shark logo 3D model">
   </a>
 </p>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/3dmodels/shark/index.html)**
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/3dmodels/shark/index.html)**
 
 Modern 3D formats:
 
