@@ -102,7 +102,7 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 ![product_movie_2.gif](/pc/gs-win-v1.10/flash/product_movie_2.gif)
 ![products_page_flash.gif](/pc/gs-win-v1.10/flash/products_page_flash.gif)
 
-[Original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/flash/index.html) (no browser plugin required!)
+View the [original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/flash/index.html) (no browser plugin required!)
 
 ## UI backgrounds
 
