@@ -2,8 +2,10 @@
 
 ## Compatibility
 
-<img src="/assets/logos/windows-9x-logo-2500.png"
-     width="100" height="100" alt="Windows 9x logo">
+<img src="/assets/logos/windows-95-logo-2500.png"
+     width="100" height="100" alt="Windows 95 logo">
+<img src="/assets/logos/windows-98-logo-2500.png"
+     width="100" height="100" alt="Windows 98 logo">
 
 **Windows 95 and 98 ONLY!** <br>
 NT-based OSes (including 2000 and XP) are NOT supported.

@@ -2,8 +2,8 @@
 
 ## Compatibility
 
-<img src="/assets/logos/windows-9x-logo-2500.png"
-     width="100" height="100" alt="Windows 9x logo">
+<img src="/assets/logos/windows-98-logo-2500.png"
+     width="100" height="100" alt="Windows 98 logo">
 <img src="/assets/logos/windows-me-logo-700.png"
      width="100" height="100" alt="Windows ME logo">
 
