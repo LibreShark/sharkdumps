@@ -2,7 +2,7 @@
 
 ## Compatibility
 
-<img src="/assets/logos/windows-9x-logo-2400.png"
+<img src="/assets/logos/windows-9x-logo-2500.png"
      width="200" height="200" alt="Windows 9x logo">
 <img src="/assets/logos/windows-me-logo-700.png"
      width="200" height="200" alt="Windows ME logo">
