@@ -21,6 +21,8 @@ Requires DirectX 6.0, DirectX Media 6.0, and Intel Indeo codecs (all of which ar
 [![PC GameShark v1.1 CD sleeve front](/pc/gs-win-v1.1/photos/gs-win-v1.1-cd-sleeve-front-200.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-cd-sleeve-front-2900.png)
 [![PC GameShark v1.1 CD sleeve rear](/pc/gs-win-v1.1/photos/gs-win-v1.1-cd-sleeve-rear-200.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-cd-sleeve-rear-2900.png)
 
+Build date: `1998-11-18T07:12:18`
+
 | Filename                                                | Size       | MD5                                |
 |:------------------------------------------------------- | ----------:|:---------------------------------- |
 | **[`gameshark-for-windows-v1.1-19981118-full.iso`][]** | 126.15 MiB | `16456d9c222db2ee6452833d4fd0ad42` |

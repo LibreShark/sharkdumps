@@ -24,8 +24,10 @@ Internet Explorer 5 (preinstalled on 98 SE and ME). The GameShark CD comes bundl
 [![PC GameShark v3.0 CD jewel case rear inner](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-inner-255x200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-inner-3556x2786.png)
 [![PC GameShark v3.0 CD jewel case rear outer](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-outer-255x200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-outer-3556x2786.png)
 
-| Filename                                                       | Size      | MD5                                |
-|:-------------------------------------------------------------- | ---------:|:---------------------------------- |
+Build date: `2000-10-23T11:43:36`
+
+| Filename                                                      | Size      | MD5                                |
+|:------------------------------------------------------------- | ---------:|:---------------------------------- |
 | **[`gameshark-for-windows-v3.0-20001023-slim.zip`][]**[^slim] |   8.6 MiB | `538dcdb6b0adba79765fdd30ca71abc2` |
 |   [`gameshark-for-windows-v3.0-20001023-full.iso`][]          | 108.7 MiB | `c4561c5ddb85f358f9e0d059ae2e90cd` |
 
