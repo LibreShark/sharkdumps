@@ -11,6 +11,8 @@ According to [`Readme 1st.txt`](/pc/gs-win-v1.10/assets/Readme_1st.txt), a v1.0 
 
 Windows 95 and 98 ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
 
+Requires DirectX 6.0, DirectX Media 6.0, and Intel Indeo codecs (all of which are bundled with the installer).
+
 ***⚠️ This version REQUIRES a DB-25 parallel port [copy-protection dongle](#copy-protection-dongle)!***
 
 [GameShark v3.0 for Windows](/pc-gameshark-v3.0.md) does ***not*** require a dongle.
@@ -95,18 +97,6 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 ![Datel animation, large](/pc/gs-win-v1.10/assets/Interact.gif)
 ![InterAct animation, large](/pc/gs-win-v1.10/assets/shark.gif)
-
-![go_pad.gif](/pc/gs-win-v1.10/flash/go_pad.gif)
-![hammerhead.gif](/pc/gs-win-v1.10/flash/hammerhead.gif)
-![gamepads_and_steering_wheels.gif](/pc/gs-win-v1.10/flash/gamepads_and_steering_wheels.gif)
-![joysticks_mice_usb.gif](/pc/gs-win-v1.10/flash/joysticks_mice_usb.gif)
-
-![letters_lineup.gif](/pc/gs-win-v1.10/flash/letters_lineup.gif)
-
-![product_movie_2.gif](/pc/gs-win-v1.10/flash/product_movie_2.gif)
-![products_page_flash.gif](/pc/gs-win-v1.10/flash/products_page_flash.gif)
-
-View the [original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/flash/index.html) (no browser plugin required!)
 
 ## UI backgrounds
 

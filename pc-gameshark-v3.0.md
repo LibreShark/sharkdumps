@@ -2,11 +2,13 @@
 
 ## Compatibility
 
-Windows 98 and ME ONLY! <br>
-NT-based OSes (including 2000 and XP) are NOT supported.
+Windows 98 and ME ONLY! NT-based OSes (including 2000 and XP) are NOT supported.
 
-***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.*** <br>
+***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.***
+
 [GameShark v1.1 for Windows](/pc-gameshark-v1.1.md) ***does*** require a dongle.
+
+Requires Internet Explorer 5 and Macromedia Flash 3. Comes bundled with an IE5 installer.
 
 ## Software
 
@@ -62,12 +64,25 @@ _Captured by @CheatoBaggins_
 
 ### Main UI
 
+Splash screen:
+
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-01-splash-screen.png"
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-02-splash-screen.png"
      width="200" alt="">
-<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-03-activex-warning.png"
+
+Runtime errors:
+
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-03a-startup-errors.png"
      width="200" alt="">
+<img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-03b-activex-warning.png"
+     width="200" alt="">
+
+To fix the security errors, go to:
+
+> Internet Explorer > Internet Options > Security > Internet > set to "Low"
+
+Game list:
 
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-02-ui-04-version.png"
      width="200" alt="">
@@ -107,3 +122,17 @@ A GameShark-branded fork of the FreeAmp[^freeamp] audio player:
      width="200" alt="">
 <img src="/pc/gs-win-v3.00/screenshots/gs-win-v3.00-04-mp3shark-05-import-wizard.png"
      width="200" alt="">
+
+## Flash animations
+
+![go_pad.gif](/pc/gs-win-v1.10/flash/go_pad.gif)
+![hammerhead.gif](/pc/gs-win-v1.10/flash/hammerhead.gif)
+![gamepads_and_steering_wheels.gif](/pc/gs-win-v1.10/flash/gamepads_and_steering_wheels.gif)
+![joysticks_mice_usb.gif](/pc/gs-win-v1.10/flash/joysticks_mice_usb.gif)
+
+![letters_lineup.gif](/pc/gs-win-v1.10/flash/letters_lineup.gif)
+
+![product_movie_2.gif](/pc/gs-win-v1.10/flash/product_movie_2.gif)
+![products_page_flash.gif](/pc/gs-win-v1.10/flash/products_page_flash.gif)
+
+View the [original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v3.0/flash/index.html) (no browser plugin required!)
