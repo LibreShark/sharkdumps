@@ -3,17 +3,18 @@
 ## Compatibility
 
 <img src="/assets/logos/windows-9x-logo-2500.png"
-     width="200" height="200" alt="Windows 9x logo">
+     width="100" height="100" alt="Windows 9x logo">
 <img src="/assets/logos/windows-me-logo-700.png"
-     width="200" height="200" alt="Windows ME logo">
+     width="100" height="100" alt="Windows ME logo">
 
-**Windows 98 and ME ONLY!** NT-based OSes (including 2000 and XP) are NOT supported.
+**Windows 98 and ME ONLY!** <br>
+NT-based OSes (including 2000 and XP) are NOT supported.
 
-***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.***
-
+***✅ This version does NOT require a DB-25 parallel port copy-protection dongle.*** <br>
 [GameShark v1.1 for Windows](/pc-gameshark-v1.1.md) ***does*** require a dongle.
 
-Requires Internet Explorer 5 and Macromedia Flash 3. Comes bundled with an IE5 installer.
+Requires Internet Explorer 5 and Macromedia Flash 3. <br>
+Comes bundled with an IE5 installer.
 
 ## Software
 
