@@ -42,14 +42,14 @@ _Coming soon!_
 
 ## Booklet
 
-[![Page 1 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-200.png)
-[![Page 2 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p2-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p2-200.png)
-[![Page 3 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p3-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p3-200.png)
-[![Page 4 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p4-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p4-200.png)
-[![Page 5 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p5-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p5-200.png)
-[![Page 6 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p6-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p6-200.png)
-[![Page 7 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p7-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p7-200.png)
-[![Page 8 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-2828x2768.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-200.png)
+[![Page 1 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-2828x2768.png)
+[![Page 2 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p2-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p2-2828x2768.png)
+[![Page 3 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p3-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p3-2828x2768.png)
+[![Page 4 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p4-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p4-2828x2768.png)
+[![Page 5 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p5-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p5-2828x2768.png)
+[![Page 6 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p6-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p6-2828x2768.png)
+[![Page 7 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p7-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p7-2828x2768.png)
+[![Page 8 of the CD booklet from PC GameShark v3.0 for Windows](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-200.png)](/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-2828x2768.png)
 
 ## Splash screen
 
