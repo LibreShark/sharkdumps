@@ -125,7 +125,7 @@ A GameShark-branded fork of the FreeAmp[^freeamp] audio player:
 
 ## Flash animations
 
-View the [original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v3.0/flash/index.html) in a modern browser (no plugins required!).
+View the [original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v3.0/flash3/index.html) in a modern browser (no plugins required!).
 
 Animated GIF versions of the SWF files:
 
