@@ -88,13 +88,20 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 ## Animations
 
-[Macromedia Flash animations!](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/flash/index.html)
-
 ![Datel animation, small](/pc/gs-win-v1.10/assets/datel_sml.gif)
 ![InterAct animation, small](/pc/gs-win-v1.10/assets/Interact_sml.gif)
 
 ![Datel animation, large](/pc/gs-win-v1.10/assets/Interact.gif)
 ![InterAct animation, large](/pc/gs-win-v1.10/assets/shark.gif)
+
+![gamepads_and_steering_wheels.gif](/pc/gs-win-v1.10/flash/gamepads_and_steering_wheels.gif)
+![go_pad.gif](/pc/gs-win-v1.10/flash/go_pad.gif)
+![hammerhead.gif](/pc/gs-win-v1.10/flash/hammerhead.gif)
+![joysticks_mice_usb.gif](/pc/gs-win-v1.10/flash/joysticks_mice_usb.gif)
+![product_movie_2.gif](/pc/gs-win-v1.10/flash/product_movie_2.gif)
+![products_page_flash.gif](/pc/gs-win-v1.10/flash/products_page_flash.gif)
+
+[Original Macromedia Flash animations](https://storage.googleapis.com/libreshark-dumps-bucket/pc/gameshark/v1.1/flash/index.html) (no browser plugin required!)
 
 ## UI backgrounds
 
