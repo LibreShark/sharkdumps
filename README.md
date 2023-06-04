@@ -18,16 +18,6 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 ---
 
-
-
-
-
-
-
-
-
-
-
 <table>
   <thead>
     <tr>
@@ -103,9 +93,15 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
       <td valign="top">Datel</td>
       <td valign="top">InterAct</td>
       <td valign="top">
-        <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50">
-        <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50">
-        <img alt="Windows NT 4.0 logo" src="/assets/logos/windows-nt4-logo-2500.png" width="50" height="50">
+        <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+           title="Windows 95">
+          <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
+        <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+           title="Windows 98 SE (Second Edition)">
+          <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
+        <a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
+           title="Windows NT Workstation 4.0">
+          <img alt="Windows NT 4.0 logo" src="/assets/logos/windows-nt4-logo-2500.png" width="50" height="50"></a>
       </td>
     </tr>
     <tr>
@@ -115,8 +111,12 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
       <td valign="top">Datel</td>
       <td valign="top">InterAct</td>
       <td valign="top">
-        <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50">
-        <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50">
+        <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+           title="Windows 95">
+          <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
+        <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+           title="Windows 98 SE (Second Edition)">
+          <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
       </td>
     </tr>
     <tr>
@@ -126,22 +126,16 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
       <td valign="top">Datel</td>
       <td valign="top">InterAct</td>
       <td valign="top">
-        <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50">
-        <img alt="Windows ME logo" src="/assets/logos/windows-me-logo-700.png" width="50" height="50">
+        <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+           title="Windows 98 SE (Second Edition)">
+          <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
+        <a href="https://winworldpc.com/product/windows-me/final" target="_blank"
+           title="Windows ME (Millenium Edition)">
+          <img alt="Windows ME logo" src="/assets/logos/windows-me-logo-700.png" width="50" height="50"></a>
       </td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-
 
 ---
 
