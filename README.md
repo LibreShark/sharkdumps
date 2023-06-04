@@ -18,22 +18,51 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 ---
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## N64
 
-- [GameShark](/n64-gameshark.md) (NA)
-    - [Action Replay](/n64-actionreplay.md) (EU)
-    - [Equalizer](/n64-equalizer.md) (EU)
-    - [Game Buster](/n64-gamebuster.md) (DE)
-- [Xplorer 64](/n64-xplorer.md) (EU)
-- [GB Hunter](/n64-gbhunter.md) (NA)
-    - [Game Booster](/n64-gamebooster.md) (EU)
-- [DexDrive](/n64-dexdrive.md)
+| Device                                | Regions |
+|:------------------------------------- |:------- |
+| [GameShark](/n64-gameshark.md)        | 🇺🇸🇨🇦    |
+| [Action Replay](/n64-actionreplay.md) | 🇬🇧🇪🇺    |
+| [Equalizer](/n64-equalizer.md)        | 🇬🇧🇪🇺    |
+| [Game Buster](/n64-gamebuster.md)     | 🇩🇪      |
+| [Xplorer 64](/n64-xplorer.md)         | 🇬🇧🇪🇺    |
+| [GB Hunter](/n64-gbhunter.md)         | 🇺🇸      |
+| [Game Booster](/n64-gamebooster.md)   | 🇬🇧🇪🇺    |
+| [DexDrive](/n64-dexdrive.md)          | 🇺🇸 ?    |
 
 ## PC
 
-- GameShark for Windows 9x
-    - [v1.1 for Windows 95/98](/pc-gameshark-v1.1.md)
-    - [v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md)
+| Product                                                   | OSes | Regions |
+|:--------------------------------------------------------- |:---  |:------- |
+| [GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md) | <img src="/assets/logos/windows-95-logo-2500.png" width="50" height="50" alt="Windows 95 logo"> <img src="/assets/logos/windows-98-logo-2500.png" width="50" height="50" alt="Windows 98 logo"> | 🇺🇸      |
+| [GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md) | <img src="/assets/logos/windows-98-logo-2500.png" width="50" height="50" alt="Windows 98 logo"> <img src="/assets/logos/windows-me-logo-700.png" width="50" height="50" alt="Windows ME logo"> | 🇺🇸      |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ---
 
