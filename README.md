@@ -28,31 +28,110 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 
 
 
-
-
-
-## N64
-
-| Device                                | Regions |
-|:------------------------------------- |:------- |
-| [GameShark](/n64-gameshark.md)        | 🇺🇸🇨🇦    |
-| [Action Replay](/n64-actionreplay.md) | 🇬🇧🇪🇺    |
-| [Equalizer](/n64-equalizer.md)        | 🇬🇧🇪🇺    |
-| [Game Buster](/n64-gamebuster.md)     | 🇩🇪      |
-| [Xplorer 64](/n64-xplorer.md)         | 🇬🇧🇪🇺    |
-| [GB Hunter](/n64-gbhunter.md)         | 🇺🇸      |
-| [Game Booster](/n64-gamebooster.md)   | 🇬🇧🇪🇺    |
-| [DexDrive](/n64-dexdrive.md)          | 🇺🇸 ?    |
-
-## PC
-
-| Product                                                   | OSes | Regions |
-|:--------------------------------------------------------- |:---  |:------- |
-| [GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md) | <img src="/assets/logos/windows-95-logo-2500.png" width="50" height="50" alt="Windows 95 logo"> <img src="/assets/logos/windows-98-logo-2500.png" width="50" height="50" alt="Windows 98 logo"> | 🇺🇸      |
-| [GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md) | <img src="/assets/logos/windows-98-logo-2500.png" width="50" height="50" alt="Windows 98 logo"> <img src="/assets/logos/windows-me-logo-700.png" width="50" height="50" alt="Windows ME logo"> | 🇺🇸      |
-
-
-
+<table>
+  <thead>
+    <tr>
+      <th align="left">Console</th>
+      <th align="left">Product</th>
+      <th align="left">Regions</th>
+      <th align="left">Manufacturer</th>
+      <th align="left">Distributor</th>
+      <th align="left">Compatibility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-gameshark.md">GameShark / GameShark Pro</a></td>
+      <td valign="top">🇺🇸🇨🇦</td>
+      <td valign="top">Datel</td>
+      <td valign="top">InterAct</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-actionreplay.md">Action Replay / Action Replay Pro</a></td>
+      <td valign="top">🇬🇧🇪🇺</td>
+      <td valign="top">Datel</td>
+      <td valign="top">Datel?</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-equalizer.md">Equalizer</a></td>
+      <td valign="top">🇬🇧🇪🇺</td>
+      <td valign="top">Datel</td>
+      <td valign="top">Datel?</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-gamebuster.md">Game Buster</a></td>
+      <td valign="top">🇩🇪</td>
+      <td valign="top">Datel</td>
+      <td valign="top">Dataflash (DE) <br> EuroSystems (NL)</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-xplorer.md">Xplorer 64</a></td>
+      <td valign="top">🇬🇧🇪🇺</td>
+      <td valign="top"><abbr title="Future Console Designs">FCD</abbr></td>
+      <td valign="top">Blaze</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-gbhunter.md">GB Hunter</a></td>
+      <td valign="top">🇺🇸</td>
+      <td valign="top">Datel</td>
+      <td valign="top">InterAct</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-gamebooster.md">Game Booster</a></td>
+      <td valign="top">🇬🇧🇪🇺</td>
+      <td valign="top">Datel</td>
+      <td valign="top">Datel?</td>
+      <td valign="top"></td>
+    </tr>
+    <tr>
+      <td valign="top">N64</td>
+      <td valign="top"><a href="/n64-dexdrive.md">DexDrive</a></td>
+      <td valign="top">🇺🇸 ?</td>
+      <td valign="top">Datel</td>
+      <td valign="top">InterAct</td>
+      <td valign="top">
+        <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50">
+        <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50">
+        <img alt="Windows NT 4.0 logo" src="/assets/logos/windows-nt4-logo-2500.png" width="50" height="50">
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">PC</td>
+      <td valign="top"><a href="/pc-gameshark-v1.1.md">GameShark v1.1 for Windows 95/98</a></td>
+      <td valign="top">🇺🇸 ?</td>
+      <td valign="top">Datel</td>
+      <td valign="top">InterAct</td>
+      <td valign="top">
+        <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50">
+        <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50">
+      </td>
+    </tr>
+    <tr>
+      <td valign="top">PC</td>
+      <td valign="top"><a href="/pc-gameshark-v3.0.md">GameShark v3.0 for Windows 98/ME</a></td>
+      <td valign="top">🇺🇸 ?</td>
+      <td valign="top">Datel</td>
+      <td valign="top">InterAct</td>
+      <td valign="top">
+        <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50">
+        <img alt="Windows ME logo" src="/assets/logos/windows-me-logo-700.png" width="50" height="50">
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
