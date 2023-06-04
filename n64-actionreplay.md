@@ -1,8 +1,14 @@
 # N64 Action Replay
 
-_NOTE: [GameShark](/n64-gameshark.md), Action Replay, [Equalizer](/n64-equalizer.md), and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
+_NOTE: [GameShark](/n64-gameshark.md), **Action Replay**, [Equalizer](/n64-equalizer.md), and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
 
 **Action Replay** was designed/manufactured in England by Datel, and marketed/distributed in the UK (and possibly elsewhere in Europe?) by Datel.
+
+## Shells
+
+_Coming soon!_
+
+## Screenshots
 
 <img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
      src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-01-splash-screen.png"

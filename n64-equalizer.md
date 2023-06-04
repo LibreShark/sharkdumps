@@ -1,8 +1,14 @@
 # N64 Equalizer
 
-_NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), Equalizer, and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
+_NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), **Equalizer**, and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
 
 **Equalizer** was designed/manufactured in England by Datel, and marketed/distributed by Code Junkies in the UK (and possibly elsewhere in Europe?).
+
+## Shells
+
+_Coming soon!_
+
+## Screenshots
 
 <img alt="Screenshot of the splash screen from an N64 Equalizer v3.00"
      src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-01-splash-screen.png"
@@ -10,6 +16,8 @@ _NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), Eq
 <img alt="Screenshot of the main menu from an N64 Equalizer v3.00"
      src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-02-main-menu.png"
      width="200">
+
+## Firmware
 
 | Filename                               | Version | Build timestamp    | #G   | #C   | Clean? |
 |:-------------------------------------- |:------- |:------------------ | ----:| ----:|:------:|

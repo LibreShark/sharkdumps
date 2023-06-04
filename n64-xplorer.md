@@ -1,6 +1,6 @@
 # N64 Xplorer 64
 
-_Note: Xplorer and Xploder refer to the same product. Blaze was very inconsistent with their branding and used both names interchangeably._
+_NOTE: Xplorer and Xploder refer to the same product. Blaze was inconsistent with their branding and used both names interchangeably._
 
 Published in Europe by Blaze.
 

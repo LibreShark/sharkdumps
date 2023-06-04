@@ -1,8 +1,14 @@
 # N64 Game Buster
 
-_NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), [Equalizer](/n64-equalizer.md), and Game Buster are all just country-specific brand names for the exact same hardware._
+_NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), [Equalizer](/n64-equalizer.md), and **Game Buster** are all just country-specific brand names for the exact same hardware._
 
 **Game Buster** was designed/manufactured in England by Datel, and marketed/distributed in Germany (and possibly France?) by Dataflash (Germany) and EuroSystems (Netherlands).
+
+## Shells
+
+_Coming soon!_
+
+## Screenshots
 
 <img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05)"
      src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
@@ -10,6 +16,8 @@ _NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), [E
 <img alt="Screenshot of the main menu from an N64 Game Buster v3.21 (1999-08-05)"
      src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-02-main-menu.png"
      width="200">
+
+## Firmware
 
 | Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
 |:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|

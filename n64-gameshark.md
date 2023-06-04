@@ -1,6 +1,6 @@
 # N64 GameShark
 
-_NOTE: GameShark, [Action Replay](/n64-actionreplay.md), [Equalizer](/n64-equalizer.md), and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
+_NOTE: **GameShark**, [Action Replay](/n64-actionreplay.md), [Equalizer](/n64-equalizer.md), and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
 
 **GameShark** was designed/manufactured in England by Datel, and marketed/distributed in North America by InterAct Accessories.
 
@@ -238,7 +238,7 @@ All VHS tapes were captured with the following hardware and software:
 - [Blackmagic Intensity Pro 4K capture card](https://www.blackmagicdesign.com/products/intensitypro4k) with composite A/V input
 - [Blackmagic Media Express (aka Desktop Video)](https://www.blackmagicdesign.com/support/family/capture-and-playback) with NTSC input
 
-### VHS tape v3.0
+### v3.0 VHS tape
 
 [Watch on YouTube](https://youtu.be/JDmp0huzQvU) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape1.md)
 
@@ -256,7 +256,7 @@ Contains ads for the DexDrive, SuperPad 64, and V3FX Racing Wheel, and has a "Le
 [dl-1.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480p_h265_cq100.mkv
 [dl-1.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape1_480i_raw.mov
 
-### VHS tape v3.1
+### v3.1 VHS tape
 
 [Watch on YouTube](https://youtu.be/mOGWxb8kuig) • [Audio transcription](/n64/vhs/n64_gspro_vhs_tape2.md)
 
