@@ -1,6 +1,6 @@
 # N64 Equalizer
 
-_Note: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), [Equalizer](/n64-equalizer.md), and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
+_NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), Equalizer, and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
 
 **Equalizer** was designed/manufactured in England by Datel, and marketed/distributed by Code Junkies in the UK (and possibly elsewhere in Europe?).
 

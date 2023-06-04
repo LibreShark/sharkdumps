@@ -1,6 +1,6 @@
 # N64 GB Hunter
 
-_GB Hunter and [Game Booster](/n64-gamebooster.md) are country-specific brand names for the exact same hardware._
+_NOTE: GB Hunter and [Game Booster](/n64-gamebooster.md) are country-specific brand names for the exact same hardware._
 
 GB Hunter was published in North America by an unknown Chinese company.
 

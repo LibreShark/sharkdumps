@@ -1,6 +1,6 @@
 # N64 Game Booster
 
-_[GB Hunter](/n64-gbhunter.md) and Game Booster are country-specific brand names for the exact same hardware._
+_NOTE: [GB Hunter](/n64-gbhunter.md) and Game Booster are country-specific brand names for the exact same hardware._
 
 Game Booster is the European version of GB Hunter
 (or rather, GB Hunter is the American version of the Game Booster.)
