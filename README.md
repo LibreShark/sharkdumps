@@ -21,9 +21,9 @@ We welcome contributions! If you have firmware, schematics, photos, etc. that ar
 ## N64
 
 - [GameShark](/n64-gameshark.md) (NA)
-    - (Action Replay)[/n64-actionreplay.md] (EU)
-    - (Equalizer)[/n64-equalizer.md] (EU)
-    - (Game Buster)[/n64-gamebuster.md] (DE)
+    - [Action Replay](/n64-actionreplay.md) (EU)
+    - [Equalizer](/n64-equalizer.md) (EU)
+    - [Game Buster](/n64-gamebuster.md) (DE)
 - [Xplorer 64](/n64-xplorer.md) (EU)
 - [GB Hunter](/n64-gbhunter.md) (NA)
     - [Game Booster](/n64-gamebooster.md) (EU)
