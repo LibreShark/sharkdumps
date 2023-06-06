@@ -353,15 +353,17 @@ For instructions on how to run this software in a Windows 98 SE virtual machine,
 
 ### Parallel port (link cable) tools
 
-| Tool                                    | Build date   | OSes       | Prereqs               | Authors             |
-|:--------------------------------------- |:------------ |:---------- |:--------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                     | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][] for XP | [CMX][]             |
-| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                     | [Tomas Franzon][]   |
-| [N64 Remote Debugger (with C source)][] | `2014-08-10` | Linux only | Python, [SCons][]     | [@Parasyte/n64rd][] |
+| Tool                                    | Build date   | OSes       | Prereqs                      | Authors             |
+|:--------------------------------------- |:------------ |:---------- |:---------------------------- |:------------------- |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][][^upxp] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][][^upxp] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                            | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][][^upxp] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][][^upxp] for XP | [CMX][]             |
+| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                            | [Tomas Franzon][]   |
+| [N64 Remote Debugger (with C source)][] | `2014-08-10` | Linux only | Python, [SCons][]            | [@Parasyte/n64rd][] |
+
+[^upxp]: [`UserPort`][] is only required for ***physical*** Windows 2000 and XP machines (i.e., old hardware) with built-in parallel ports. Virtual Machines with PCIe parallel port cards do _not_ require `UserPort`, and will actually BSOD if you try to install it.
 
 ### ROM and cheat management tools
 

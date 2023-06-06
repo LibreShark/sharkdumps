@@ -1,141 +1,259 @@
 # SharkDumps
 
-![Dump truck icon](/assets/icons/dump-truck-256.png)
+<img alt="Dump truck icon"
+     src="/assets/icons/dump-truck-256.png"
+     height="128">
 
 This repository aims to preserve all known information about retro video game enhancers from the 1990s-2000s:
 GameShark, Action Replay, Xplorer 64, Code Breaker, Game Genie, DexDrive, TV Tuners, etc.
+Specifically, we document: firmware dumps, PCB schematics, software utilities, instruction manuals,
+cartridge designs, box art, and more.
 
-Specifically, we document:
-
-1. Firmware dumps
-2. PCB schematics
-3. Software utilities
-4. Instruction manuals
-5. Cartridge designs
-6. Box art
-
-We welcome contributions! If you have firmware, schematics, photos, etc. that are not yet documented here, please create a pull request! 😀
+We welcome contributions! If you have firmware, schematics, photos, etc. that are not yet documented here,
+please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.com! 😀
 
 ---
 
-<table>
-  <thead>
-    <tr>
-      <th align="left">Console</th>
-      <th align="left">Product</th>
-      <th align="left">Regions</th>
-      <th align="left">Manufacturer</th>
-      <th align="left">Distributor</th>
-      <th align="left">Compatibility</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-gameshark.md">GameShark / GameShark Pro</a></td>
-      <td valign="top">🇺🇸🇨🇦</td>
-      <td valign="top">Datel</td>
-      <td valign="top">InterAct</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-actionreplay.md">Action Replay / Action Replay Pro</a></td>
-      <td valign="top">🇬🇧🇪🇺</td>
-      <td valign="top">Datel</td>
-      <td valign="top">Datel?</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-equalizer.md">Equalizer</a></td>
-      <td valign="top">🇬🇧🇪🇺</td>
-      <td valign="top">Datel</td>
-      <td valign="top">Datel?</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-gamebuster.md">Game Buster</a></td>
-      <td valign="top">🇩🇪</td>
-      <td valign="top">Datel</td>
-      <td valign="top">Dataflash (DE) <br> EuroSystems (NL)</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-xplorer.md">Xplorer 64</a></td>
-      <td valign="top">🇬🇧🇪🇺</td>
-      <td valign="top"><abbr title="Future Console Designs">FCD</abbr></td>
-      <td valign="top">Blaze</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-gbhunter.md">GB Hunter</a></td>
-      <td valign="top">🇺🇸</td>
-      <td valign="top">Datel</td>
-      <td valign="top">InterAct</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-gamebooster.md">Game Booster</a></td>
-      <td valign="top">🇬🇧🇪🇺</td>
-      <td valign="top">Datel</td>
-      <td valign="top">Datel?</td>
-      <td valign="top"></td>
-    </tr>
-    <tr>
-      <td valign="top">N64</td>
-      <td valign="top"><a href="/n64-dexdrive.md">DexDrive</a></td>
-      <td valign="top">🇺🇸 ?</td>
-      <td valign="top">Datel</td>
-      <td valign="top">InterAct</td>
-      <td valign="top">
-        <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
-           title="Windows 95">
-          <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
-        <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-           title="Windows 98 SE (Second Edition)">
-          <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
-        <a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
-           title="Windows NT Workstation 4.0">
-          <img alt="Windows NT 4.0 logo" src="/assets/logos/windows-nt4-logo-2500.png" width="50" height="50"></a>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">PC</td>
-      <td valign="top"><a href="/pc-gameshark-v1.1.md">GameShark v1.1 for Windows 95/98</a></td>
-      <td valign="top">🇺🇸 ?</td>
-      <td valign="top">Datel</td>
-      <td valign="top">InterAct</td>
-      <td valign="top">
-        <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
-           title="Windows 95">
-          <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
-        <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-           title="Windows 98 SE (Second Edition)">
-          <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
-      </td>
-    </tr>
-    <tr>
-      <td valign="top">PC</td>
-      <td valign="top"><a href="/pc-gameshark-v3.0.md">GameShark v3.0 for Windows 98/ME</a></td>
-      <td valign="top">🇺🇸 ?</td>
-      <td valign="top">Datel</td>
-      <td valign="top">InterAct</td>
-      <td valign="top">
-        <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-           title="Windows 98 SE (Second Edition)">
-          <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
-        <a href="https://winworldpc.com/product/windows-me/final" target="_blank"
-           title="Windows ME (Millenium Edition)">
-          <img alt="Windows ME logo" src="/assets/logos/windows-me-logo-700.png" width="50" height="50"></a>
-      </td>
-    </tr>
-  </tbody>
-</table>
+## Nintendo 64
+
+### [GameShark / GameShark Pro](/n64-gameshark.md)
+
+<p>
+  <a href="/n64-gameshark.md#shells">
+    <img alt="Front side of a typical GameShark v2.x"
+         src="/assets/photos/n64-gs-2.x-front-200.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#shells">
+    <img alt="Front side of a full GameShark v3.3"
+         src="/assets/photos/n64-gs-3.30-full-front-200.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#shells">
+    <img alt="Back side of a full GameShark v3.3"
+         src="/assets/photos/n64-gs-3.30-full-rear-200.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#pcbs">
+    <img alt="GameShark REF1329 open source PCB CAD diagram"
+         src="/assets/photos/n64-gs-ref1329-open-source-pcb-1620x1121.png"
+         width="200"></a>
+</p>
+<p>
+  <a href="/n64-gameshark.md#screenshots">
+    <img alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
+         src="/n64/firmware/screenshots/gameshark/n64-gs-1.05-19970904-screenshot-01-splash-screen.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 GameShark v1.02 (1997-08-01)"
+         src="/n64/firmware/screenshots/gameshark/n64-gs-1.02-19970801-screenshot-02-main-menu.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#screenshots">
+    <img alt="Screenshot of the splash screen from an N64 GameShark Pro v3.00 (1999-04-01)"
+         src="/n64/firmware/screenshots/gameshark/n64-gspro-3.00-19990401-screenshot-01-splash-screen.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 GameShark Pro v3.10 (1999-06-09)"
+         src="/n64/firmware/screenshots/gameshark/n64-gspro-3.10-19990609-screenshot-02-main-menu.png"
+         width="200"></a>
+</p>
+<p>
+  <a href="/n64-gameshark.md#artwork">
+    <img alt="Reproduction GameShark box art front"
+         src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#artwork">
+    <img alt="LibreShark box art front"
+         src="/n64/boxes/n64-libreshark-box-front-200x294.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#manuals">
+    <img alt="N64 GameShark v2.10 manual thumbnail"
+         src="/n64/manuals/thumbs/gs-v2.10-manual-p1.png"
+         height="294"></a>
+  <a href="/n64-gameshark.md#manuals">
+    <img alt="N64 GameShark v3.20 manual thumbnail"
+         src="/n64/manuals/thumbs/gs-v3.20-manual-p1.png"
+         height="294"></a>
+</p>
+
+<p>
+  <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
+    <img alt="How To Hack Like A Pro"
+         src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
+    <img alt="GameShark guy"
+         src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_21-guy.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
+    <img alt="Parallel Port"
+         src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
+    <img alt="Photo of VHS tape"
+         src="n64/vhs/n64_gspro_vhs_tape.jpg"
+         height="147"></a>
+</p>
+
+### [Action Replay / Action Replay Pro](/n64-actionreplay.md)
+
+<p>
+  <a href="/n64-actionreplay.md#screenshots">
+    <img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
+         src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-01-splash-screen.png"
+         width="200"></a>
+  <a href="/n64-actionreplay.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 Action Replay v1.11"
+         src="/n64/firmware/screenshots/action-replay/ar-1.11-screenshot-02-main-menu.png"
+         width="200"></a>
+  <a href="/n64-actionreplay.md#screenshots">
+    <img alt="Screenshot of the splash screen from an N64 Action Replay v3.00"
+         src="/n64/firmware/screenshots/action-replay/arpro-3.00-screenshot-01-splash-screen.png"
+         width="200"></a>
+  <a href="/n64-actionreplay.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 Action Replay v3.00"
+         src="/n64/firmware/screenshots/action-replay/arpro-3.00-screenshot-02-main-menu.png"
+         width="200"></a>
+</p>
+
+### [Equalizer](/n64-equalizer.md)
+
+<p>
+  <a href="/n64-equalizer.md#screenshots">
+    <img alt="Screenshot of the splash screen from an N64 Equalizer v3.00"
+         src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-01-splash-screen.png"
+         width="200"></a>
+  <a href="/n64-equalizer.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 Equalizer v3.00"
+         src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-02-main-menu.png"
+         width="200"></a>
+</p>
+
+### [Game Buster](/n64-gamebuster.md)
+
+<p>
+  <a href="/n64-gamebuster.md#screenshots">
+    <img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05)"
+         src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
+         width="200"></a>
+  <a href="/n64-gamebuster.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 Game Buster v3.21 (1999-08-05)"
+         src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-02-main-menu.png"
+         width="200"></a>
+</p>
+
+---
+
+### [Xplorer 64](/n64-xplorer.md)
+
+<p>
+  <a href="/n64-xplorer.md#shells">
+    <img alt="Front side of an Xplorer 64 (green label)"
+         src="/assets/photos/n64-xplorer64-green-front-200.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#shells">
+    <img alt="Front side of an Xplorer 64 (orange label)"
+         src="/assets/photos/n64-xplorer64-orange-front-200.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#shells">
+    <img alt="Back side of an Xplorer 64"
+         src="/assets/photos/n64-xplorer64-rear-200.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#pcbs">
+    <img alt="Xplorer 64 PCB clone"
+         src="/assets/photos/n64-xplorer64-pcb-clone-1280.png"
+         width="200"></a>
+</p>
+
+<p>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-01-main-menu.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the Cartridge Info screen from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-02-version-screen.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the top of the game list from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-03-game-list.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of cheats for Shadows of the Empire from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b1834-screenshot-04-sote-cheats.png"
+         width="200"></a>
+</p>
+
+<p>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the main menu from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-04-main-menu.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the cartridge information screen on an N64 Xplorer 64 v1.067E build 2515"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-10-version-screen.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the game list from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-07-game-list.png"
+         width="200"></a>
+  <a href="/n64-xplorer.md#screenshots">
+    <img alt="Screenshot of the Super Mario 64 from an N64 Xplorer 64"
+         src="/n64/firmware/screenshots/xplorer-64/n64-xplorer64-b2515-screenshot-09-mario64-cheats.png"
+         width="200"></a>
+</p>
+
+
+---
+
+### [GB Hunter](/n64-gbhunter.md)
+
+### [Game Booster](/n64-gamebooster.md)
+
+---
+
+### [DexDrive](/n64-dexdrive.md)
+
+- Market: 🇺🇸🇨🇦
+- Manufacturer: Datel, England
+- Distributor: InterAct, USA
+- Compatibility: <br>
+    <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+       title="Windows 95">
+      <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
+    <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+       title="Windows 98 SE (Second Edition)">
+      <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
+    <a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
+       title="Windows NT Workstation 4.0">
+      <img alt="Windows NT 4.0 logo" src="/assets/logos/windows-nt4-logo-2500.png" width="50" height="50"></a>
+
+---
+
+## PC
+
+### [GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md)
+
+- Market: 🇺🇸
+- Manufacturer: Datel, England
+- Distributor: InterAct, USA
+- Compatibility: <br>
+    <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+       title="Windows 95">
+      <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
+    <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+       title="Windows 98 SE (Second Edition)">
+      <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
+
+### [GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md)
+
+- Market: 🇺🇸
+- Manufacturer: Datel, England
+- Distributor: InterAct, USA
+- Compatibility: <br>
+    <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+       title="Windows 98 SE (Second Edition)">
+      <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
+    <a href="https://winworldpc.com/product/windows-me/final" target="_blank"
+       title="Windows ME (Millenium Edition)">
+      <img alt="Windows ME logo" src="/assets/logos/windows-me-logo-700.png" width="50" height="50"></a>
 
 ---
 
