@@ -6,7 +6,14 @@ _NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), **
 
 ## Shells
 
-_Coming soon!_
+<a href="/assets/photos/n64-equalizer-01-shell-01-front-3231x2430.png">
+  <img alt=""
+       src="/assets/photos/n64-equalizer-01-shell-01-front-200.png"
+       width="200"></a>
+<a href="/assets/photos/n64-equalizer-01-shell-02-back-3267x2415.png">
+  <img alt=""
+       src="/assets/photos/n64-equalizer-01-shell-02-back-200.png"
+       width="200"></a>
 
 ## Screenshots
 

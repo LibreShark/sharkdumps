@@ -6,7 +6,14 @@ _NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), [E
 
 ## Shells
 
-_Coming soon!_
+<a href="/assets/photos/n64-gamebuster-01-shell-01-front-3242x2467.png">
+  <img alt=""
+       src="/assets/photos/n64-gamebuster-01-shell-01-front-200.png"
+       width="200"></a>
+<a href="/assets/photos/n64-gamebuster-01-shell-02-back-3266x2435.png">
+  <img alt=""
+       src="/assets/photos/n64-gamebuster-01-shell-02-back-200.png"
+       width="200"></a>
 
 ## Screenshots
 

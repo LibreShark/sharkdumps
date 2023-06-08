@@ -120,6 +120,14 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 ### [Equalizer](/n64-equalizer.md)
 
 <p>
+  <a href="/n64-equalizer.md#shells">
+    <img alt=""
+         src="/assets/photos/n64-equalizer-01-shell-01-front-200.png"
+         width="200"></a>
+  <a href="/n64-equalizer.md#shells">
+    <img alt=""
+         src="/assets/photos/n64-equalizer-01-shell-02-back-200.png"
+         width="200"></a>
   <a href="/n64-equalizer.md#screenshots">
     <img alt="Screenshot of the splash screen from an N64 Equalizer v3.00"
          src="/n64/firmware/screenshots/equalizer/n64-eq-3.00-screenshot-01-splash-screen.png"
@@ -135,6 +143,14 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 ### [Game Buster](/n64-gamebuster.md)
 
 <p>
+  <a href="/n64-gamebuster.md#shells">
+    <img alt=""
+         src="/assets/photos/n64-gamebuster-01-shell-01-front-200.png"
+         width="200"></a>
+  <a href="/n64-gamebuster.md#shells">
+    <img alt=""
+         src="/assets/photos/n64-gamebuster-01-shell-02-back-200.png"
+         width="200"></a>
   <a href="/n64-gamebuster.md#screenshots">
     <img alt="Screenshot of the splash screen from an N64 Game Buster v3.21 (1999-08-05)"
          src="/n64/firmware/screenshots/game-buster/n64-game-buster-screenshot-01-splash.png"
@@ -247,6 +263,17 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 <br><br><br>
 
 ### [Game Booster](/n64-gamebooster.md)
+
+<p>
+  <a href="/n64-gamebooster.md#shells">
+    <img alt="Photo of the front of an N64 Game Booster shell"
+         src="/assets/photos/n64-gamebooster-01-shell-01-front-200.png"
+         width="200"></a>
+  <a href="/n64-gamebooster.md#shells">
+    <img alt="Photo of the back of an N64 Game Booster shell"
+         src="/assets/photos/n64-gamebooster-01-shell-02-back-200.png"
+         width="200"></a>
+</p>
 
 <p>
   <a href="/n64-gamebooster.md#screenshots">
