@@ -1,8 +1,10 @@
 # N64 Xplorer 64
 
-_NOTE: Xplorer and Xploder refer to the same product. Blaze was inconsistent with their branding and used both names interchangeably._
+_NOTE: "Xplorer" and "Xploder" both refer to the same product. Blaze was inconsistent with their branding and used both names interchangeably._
 
 Published in Europe by Blaze.
+
+## Shells
 
 <a href="/assets/photos/n64-xplorer64-green-front-3328.png"><img src="/assets/photos/n64-xplorer64-green-front-200.png" alt="Front side of an Xplorer 64 (green label)"></a>
 <a href="/assets/photos/n64-xplorer64-orange-front-3328.png"><img src="/assets/photos/n64-xplorer64-orange-front-200.png" alt="Front side of an Xplorer 64 (orange label)"></a>
