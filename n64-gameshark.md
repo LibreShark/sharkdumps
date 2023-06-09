@@ -17,6 +17,34 @@ _Photographed by @CheatoBaggins_
 <a href="/assets/photos/n64-gs-3.30-full-rear-3000x2200.png"><img src="/assets/photos/n64-gs-3.30-full-rear-200.png" alt="Back side of a full GameShark v3.3"></a>
 <a href="/assets/photos/n64-gs-3.30-neutered-rear-3000x2200.png"><img src="/assets/photos/n64-gs-3.30-neutered-rear-200.png" alt="Back side of a neutered GameShark v3.3"></a>
 
+## PCBs
+
+_Expertly traced, optimized, and reverse engineered by @RWeick_
+
+<img alt="GameShark REF1329 open source PCB CAD diagram"
+     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1620x1121.png"
+     width="200">
+<img alt="GameShark REF1329 replacement PCB CAD diagram"
+     src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
+     width="200">
+
+### Datel REF1329 PCB
+
+Most versions of the N64 GameShark use the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
+
+Because these chips are no longer manufactured, and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
+
+1. **[Fully open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
+    - **This is almost certainly the one you want!**
+    - Designed with easily-sourced components
+    - No donor parts required
+    - 100% compatible with Datel's firmware images
+    - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
+2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
+    - This is a "rescue" board for good (working) LZ9FC17 chips
+    - It will ***only*** work with an authentic Datel LZ9FC17 chip (which is no longer being manufactured and can only be found in old GameSharks)
+    - If you accidentally fry the main board in a GameShark/AR, but the GAL still works, this PCB can be used as a fully compatible, optimized replacement for the fried OEM board (think of it like transplanting a shark's brain into a robot body)
+
 ## Screenshots
 
 _Captured by @CheatoBaggins_
@@ -170,6 +198,97 @@ To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/h
 
 <img src="/n64/firmware/screenshots/gameshark/n64-gs-imhex-pattern-2672x1527.png" width="400" alt="Screenshot of ImHex viewing an N64 GameShark ROM file">
 
+## PC software
+
+For instructions on how to run this software in a Windows 98 SE virtual machine, see the [GameShark Fandom wiki](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
+
+**Official Datel N64 Utils** `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
+
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-04-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-05-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-06-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-08-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-10-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-11-689x467.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png"
+     width="200" alt="">
+
+**Game Software Code Creator** `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
+
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-2.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-3.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-4.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-5.png"
+     width="200" alt="">
+<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png"
+     width="200" alt="">
+
+### Parallel port (link cable) tools
+
+| Tool                                    | Build date   | OSes       | Prereqs                      | Authors             |
+|:--------------------------------------- |:------------ |:---------- |:---------------------------- |:------------------- |
+| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][][^upxp] for XP | Datel               |
+| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][][^upxp] for XP | Datel, @Parasyte    |
+| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                            | [CMX][]             |
+| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][][^upxp] for XP | [CMX][]             |
+| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][][^upxp] for XP | [CMX][]             |
+| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                            | [Tomas Franzon][]   |
+| [N64 Remote Debugger (with C source)][] | `2014-08-10` | Linux only | Python, [SCons][]            | [@Parasyte/n64rd][] |
+
+[^upxp]: [`UserPort`][] is only required for ***physical*** Windows 2000 and XP machines (i.e., old hardware) with built-in parallel ports. Virtual Machines with PCIe parallel port cards do _not_ require `UserPort`, and will actually BSOD if you try to install it.
+
+### ROM and cheat management tools
+
+| Tool                                 | Build date   | OSes      | Prereqs        | Authors          |
+|:------------------------------------ |:------------ |:--------- |:-------------- |:---------------- |
+| [GS ROM decrypter/encrypter][]       | `2001-05-06` | _Any?_    | -              | [CMX][], Hanimar |
+| [Skaman's GS ROM splitter][]         | `2015-04-11` | _Any?_    | -              | Skaman           |
+| [GSCentral Cheat Manager][]          | `2007-02-01` | XP and up | [`.NET 3.5`][] | SK Genius        |
+
+### Quality-of-life utilities for Windows 98
+
+| Tool                              | Build date   | OSes      | Authors                |
+|:--------------------------------- |:------------ |:--------- |:---------------------- |
+| [HxD hex editor v1.7.7.0 setup][] | `2009-04-03` | 95 and up | [Maël Hörz][]          |
+| [MetaPad v3.6 portable][]         | `2011-05-23` | 95 and up | [Alexander Davidson][] |
+| [WinRAR v3.71 setup (trial)][]    | `2007-09-21` | 95 and up | RARLAB                 |
+
+[GS ROM decrypter/encrypter]:          /n64/tools/gameshark/n64-gspro-crypt-20010506.zip
+[GSCC v1.10.101 (98)]:                 /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
+[GSCC v1.10.101 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
+[GSCC v1.10.102 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
+[GSCentral Cheat Manager]:             /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
+[HxD hex editor v1.7.7.0 setup]:       /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
+[MetaPad v3.6 portable]:               /n64/tools/metapad-v3.6-portable-win95-20110523.zip
+[N64 Remote Debugger (with C source)]: /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
+[Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
+[Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
+[Skaman's GS ROM splitter]:            /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
+[UserPort parallel driver for XP]:     /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
+[WinRAR v3.71 setup (trial)]:          /n64/tools/winrar-v3.71-setup-win95-20070921.exe
+
+[@Parasyte/n64rd]:    https://github.com/parasyte/n64rd
+[`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
+[`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
+[Alexander Davidson]: https://liquidninja.com/metapad/download.html
+[CMX]:                mailto:cmx@cmgsccc.com
+[Maël Hörz]:          https://mh-nexus.de/en/about.php
+[Scons]:              https://www.scons.org/
+[Tomas Franzon]:      mailto:tomas_franzon@hotmail.com
+
 ## Manuals
 
 _Scanned, OCR'd, and transcribed by @CheatoBaggins_
@@ -282,124 +401,3 @@ _Reproduced by @CheatoBaggins_
 <a href="/n64/boxes/n64-libreshark-box-front-2356x3465.png"><img src="/n64/boxes/n64-libreshark-box-front-200x294.png" width="200" alt=""></a>
 
 The Cover Project has a [simplified, incomplete scan of the original v3.3 (neutered) box art](https://www.thecoverproject.net/view.php?game_id=6788).
-
----
-
-## PCBs
-
-_Expertly traced, optimized, and reverse engineered by @RWeick_
-
-<img alt="GameShark REF1329 open source PCB CAD diagram"
-     src="/assets/photos/n64-gs-ref1329-open-source-pcb-1620x1121.png"
-     width="200">
-<img alt="GameShark REF1329 replacement PCB CAD diagram"
-     src="/assets/photos/n64-gs-ref1329-replacement-pcb-1080x752.png"
-     width="200">
-
-### Datel REF1329 PCB
-
-Most versions of the N64 GameShark use the same proprietary ASIC chip: the LZ9FC17 Datel GAL.
-
-Because these chips are no longer manufactured, and the internal design was never made public, the only way to make _more_ of them (short of [decapping the chip](https://www.youtube.com/watch?v=HwEdqAb2l50), which is beyond our skill set) is to observe their inputs and outputs and intuit the logic needed to produce the same result. @RWeick has done this, and graciously provided schematics for two different boards to solve two different problems:
-
-1. **[Fully open source clone with modern hardware](https://github.com/RWeick/REF1329-N64-Gameshark-Clone)**
-    - **This is almost certainly the one you want!**
-    - Designed with easily-sourced components
-    - No donor parts required
-    - 100% compatible with Datel's firmware images
-    - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
-2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
-    - This is a "rescue" board for good (working) LZ9FC17 chips
-    - It will ***only*** work with an authentic Datel LZ9FC17 chip (which is no longer being manufactured and can only be found in old GameSharks)
-    - If you accidentally fry the main board in a GameShark/AR, but the GAL still works, this PCB can be used as a fully compatible, optimized replacement for the fried OEM board (think of it like transplanting a shark's brain into a robot body)
-
-## PC software
-
-For instructions on how to run this software in a Windows 98 SE virtual machine, see the [GameShark Fandom wiki](https://gameshark.fandom.com/wiki/Nintendo_64#Connecting_the_parallel_port_of_an_N64_GameShark_Pro_to_a_modern_PC).
-
-**Official Datel N64 Utils** `v1.01` (`1999-04-06`), patched by @Parasyte and "Deku Omega" (`2007-04-22`):
-
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-03-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-04-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-05-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-06-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-08-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-10-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-11-689x467.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-utils-screenshot-12-689x467.png"
-     width="200" alt="">
-
-**Game Software Code Creator** `v1.10.102` (`2002-01-05`) by Code Master (aka CMX):
-
-<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-1.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-2.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-3.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-4.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-5.png"
-     width="200" alt="">
-<img src="/n64/firmware/screenshots/gameshark/n64-gscc-screenshot-6.png"
-     width="200" alt="">
-
-### Parallel port (link cable) tools
-
-| Tool                                    | Build date   | OSes       | Prereqs                      | Authors             |
-|:--------------------------------------- |:------------ |:---------- |:---------------------------- |:------------------- |
-| [Official Datel N64 Utils (original)][] | `2000-03-27` | 98, ME, XP | [`UserPort`][][^upxp] for XP | Datel               |
-| [Official Datel N64 Utils (patched)][]  | `2007-04-22` | 98, ME, XP | [`UserPort`][][^upxp] for XP | Datel, @Parasyte    |
-| [GSCC v1.10.101 (98)][]                 | `2002-01-05` | 98/ME only | -                            | [CMX][]             |
-| [GSCC v1.10.101 (XP)][]                 | `2006-04-14` | 98, ME, XP | [`UserPort`][][^upxp] for XP | [CMX][]             |
-| [GSCC v1.10.102 (XP)][]                 | `2007-04-17` | 98, ME, XP | [`UserPort`][][^upxp] for XP | [CMX][]             |
-| [UserPort parallel driver for XP][]     | `2001-05-29` | 2000, XP   | -                            | [Tomas Franzon][]   |
-| [N64 Remote Debugger (with C source)][] | `2014-08-10` | Linux only | Python, [SCons][]            | [@Parasyte/n64rd][] |
-
-[^upxp]: [`UserPort`][] is only required for ***physical*** Windows 2000 and XP machines (i.e., old hardware) with built-in parallel ports. Virtual Machines with PCIe parallel port cards do _not_ require `UserPort`, and will actually BSOD if you try to install it.
-
-### ROM and cheat management tools
-
-| Tool                                 | Build date   | OSes      | Prereqs        | Authors          |
-|:------------------------------------ |:------------ |:--------- |:-------------- |:---------------- |
-| [GS ROM decrypter/encrypter][]       | `2001-05-06` | _Any?_    | -              | [CMX][], Hanimar |
-| [Skaman's GS ROM splitter][]         | `2015-04-11` | _Any?_    | -              | Skaman           |
-| [GSCentral Cheat Manager][]          | `2007-02-01` | XP and up | [`.NET 3.5`][] | SK Genius        |
-
-### Quality-of-life utilities for Windows 98
-
-| Tool                              | Build date   | OSes      | Authors                |
-|:--------------------------------- |:------------ |:--------- |:---------------------- |
-| [HxD hex editor v1.7.7.0 setup][] | `2009-04-03` | 95 and up | [Maël Hörz][]          |
-| [MetaPad v3.6 portable][]         | `2011-05-23` | 95 and up | [Alexander Davidson][] |
-| [WinRAR v3.71 setup (trial)][]    | `2007-09-21` | 95 and up | RARLAB                 |
-
-[GS ROM decrypter/encrypter]:          /n64/tools/gameshark/n64-gspro-crypt-20010506.zip
-[GSCC v1.10.101 (98)]:                 /n64/tools/gameshark/n64-gscc-win98-v1.10.101-20020105.zip
-[GSCC v1.10.101 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.101-20060414.zip
-[GSCC v1.10.102 (XP)]:                 /n64/tools/gameshark/n64-gscc-winxp-v1.10.102-20070417.zip
-[GSCentral Cheat Manager]:             /n64/tools/gameshark/n64-gscentral-manager-winxp-20070201.zip
-[HxD hex editor v1.7.7.0 setup]:       /n64/tools/hxd-v1.7.7.0-setup-win95-20090403.zip
-[MetaPad v3.6 portable]:               /n64/tools/metapad-v3.6-portable-win95-20110523.zip
-[N64 Remote Debugger (with C source)]: /n64/tools/gameshark/n64rd-v0.2.0-src-20140810.zip
-[Official Datel N64 Utils (original)]: /n64/tools/gameshark/n64-gspro-datel-utils-original-win98-20000327.zip
-[Official Datel N64 Utils (patched)]:  /n64/tools/gameshark/n64-gspro-datel-utils-patched-win98-20070422.zip
-[Skaman's GS ROM splitter]:            /n64/tools/gameshark/n64-skaman-gsrom-20150411.zip
-[UserPort parallel driver for XP]:     /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
-[WinRAR v3.71 setup (trial)]:          /n64/tools/winrar-v3.71-setup-win95-20070921.exe
-
-[@Parasyte/n64rd]:    https://github.com/parasyte/n64rd
-[`.NET 3.5`]:         https://www.microsoft.com/en-us/download/details.aspx?id=25150
-[`UserPort`]:         /n64/tools/gameshark/n64-parallel-userport-driver-winxp-20010529.zip
-[Alexander Davidson]: https://liquidninja.com/metapad/download.html
-[CMX]:                mailto:cmx@cmgsccc.com
-[Maël Hörz]:          https://mh-nexus.de/en/about.php
-[Scons]:              https://www.scons.org/
-[Tomas Franzon]:      mailto:tomas_franzon@hotmail.com
