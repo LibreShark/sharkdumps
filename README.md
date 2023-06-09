@@ -306,22 +306,6 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 TODO(CheatoBaggins): Test newer Windows OSes
 
-<a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
-   title="Windows 95">
-  <img alt="Windows 95 logo"
-       src="/assets/logos/windows-95-logo-2500.png"
-       width="50" height="50"></a>
-<a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-   title="Windows 98 SE (Second Edition)">
-  <img alt="Windows 98 logo"
-       src="/assets/logos/windows-98-logo-2500.png"
-       width="50" height="50"></a>
-<a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
-   title="Windows NT Workstation 4.0">
-  <img alt="Windows NT 4.0 logo"
-       src="/assets/logos/windows-nt4-logo-2500.png"
-       width="50" height="50"></a>
-
 <a href="/n64-dexdrive.md">
   <img alt="DexDrive memory card reader for N64"
        src="/assets/photos/n64-dexdrive-hardware-480.png"
