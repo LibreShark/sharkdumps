@@ -331,16 +331,44 @@ TODO(CheatoBaggins): Test newer Windows OSes
 
 ### [GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md)
 
-- Market: 🇺🇸
-- Manufacturer: Datel, England
-- Distributor: InterAct, USA
-- Compatibility: <br>
-    <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
-       title="Windows 95">
-      <img alt="Windows 95 logo" src="/assets/logos/windows-95-logo-2500.png" width="50" height="50"></a>
-    <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-       title="Windows 98 SE (Second Edition)">
-      <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
+<p>
+  <a href="/pc-gameshark-v1.1.md">
+    <img alt="PC GameShark v1.1 CD label"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-cd-label-200.png"
+         height="200"></a>
+  <a href="/pc-gameshark-v1.1.md">
+    <img alt="PC GameShark v1.1 CD sleeve front"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-cd-sleeve-front-200.png"
+         height="200"></a>
+  <a href="/pc-gameshark-v1.1.md">
+    <img alt="PC GameShark v1.1 dongle front view"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-dongle-front-200.png"
+         height="200"></a>
+  <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
+    <img src="/pc/gs-win-v1.1/rweick-datel-ref1300-clone-pcb-1006x831.png"
+         height="200" alt=""></a>
+</p>
+
+<p>
+  <a href="/pc-gameshark-v1.1.md#screenshots">
+    <img src="/pc/gs-win-v1.1/screenshots/gs-win-v1.1-screenshot-09-640x480-main-ui-interact.png"
+         width="200" alt=""></a>
+  <a href="/pc-gameshark-v1.1.md#screenshots">
+    <img src="/pc/gs-win-v1.1/screenshots/gs-win-v1.1-screenshot-13-640x480-code-list.png"
+         width="200" alt=""></a>
+  <a href="/pc-gameshark-v1.1.md#videos">
+    <img src="/pc/gs-win-v1.1/videos/about-522x212.png"
+         height="150" alt=""></a>
+</p>
+
+<p>
+  <a href="/pc-gameshark-v1.1.md#animations">
+    <img src="/pc/gs-win-v1.1/assets/shark.gif"
+         height="150" alt=""></a>
+  <a href="/pc-gameshark-v1.1.md#animations">
+    <img src="/pc/gs-win-v1.1/3dmodels/shark/shark-logo.png"
+         height="150" alt=""></a>
+</p>
 
 <br><br><br>
 

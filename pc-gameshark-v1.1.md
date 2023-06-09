@@ -59,8 +59,7 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 <p>
   <a href="https://github.com/RWeick/PC-Gameshark-Dongle">
     <img src="/pc/gs-win-v1.1/rweick-datel-ref1300-clone-pcb-1006x831.png"
-         height="200" alt="">
-  </a>
+         height="200" alt=""></a>
 </p>
 
 ## Screenshots
