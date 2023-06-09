@@ -23,8 +23,13 @@ TODO(CheatoBaggins): Test newer Windows OSes
   <img alt="Windows NT 4.0 logo"
        src="/assets/logos/windows-nt4-logo-2500.png"
        width="50" height="50"></a>
+<a href="https://winworldpc.com/product/windows-nt-2000/final" target="_blank"
+   title="Windows 2000">
+  <img alt="Windows 2000 logo"
+       src="/assets/logos/windows-2000-icon-2500.png"
+       width="50" height="50"></a>
 <img alt="Windows XP logo"
-  src="/assets/logos/windows-xp-logo-1000.png"
+  src="/assets/logos/windows-xp-icon-1000.png"
   width="50" height="50">
 
 ## PC software
