@@ -374,16 +374,20 @@ TODO(CheatoBaggins): Test newer Windows OSes
 
 ### [GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md)
 
-- Market: 🇺🇸
-- Manufacturer: Datel, England
-- Distributor: InterAct, USA
-- Compatibility: <br>
-    <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-       title="Windows 98 SE (Second Edition)">
-      <img alt="Windows 98 logo" src="/assets/logos/windows-98-logo-2500.png" width="50" height="50"></a>
-    <a href="https://winworldpc.com/product/windows-me/final" target="_blank"
-       title="Windows ME (Millenium Edition)">
-      <img alt="Windows ME logo" src="/assets/logos/windows-me-logo-700.png" width="50" height="50"></a>
+<p>
+  <a href="/pc-gameshark-v3.0.md">
+    <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-label-200.png"
+         height="150" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md">
+    <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-outer-255x200.png"
+         height="150" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md">
+    <img src="/pc/gs-win-v3.0/setup.bmp"
+         height="150" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md">
+    <img src="/pc/gs-win-v3.0/gs-win-v3.0-jaws.gif"
+         height="150" alt=""></a>
+</p>
 
 <br><br><br>
 
