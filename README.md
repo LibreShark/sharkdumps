@@ -304,8 +304,6 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 ### [DexDrive](/n64-dexdrive.md)
 
-TODO(CheatoBaggins): Test newer Windows OSes
-
 <a href="/n64-dexdrive.md">
   <img alt="DexDrive memory card reader for N64"
        src="/assets/photos/n64-dexdrive-hardware-480.png"
