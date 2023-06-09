@@ -364,10 +364,10 @@ TODO(CheatoBaggins): Test newer Windows OSes
 <p>
   <a href="/pc-gameshark-v1.1.md#animations">
     <img src="/pc/gs-win-v1.1/assets/shark.gif"
-         height="150" alt=""></a>
+         height="200" alt=""></a>
   <a href="/pc-gameshark-v1.1.md#animations">
     <img src="/pc/gs-win-v1.1/3dmodels/shark/shark-logo.png"
-         height="150" alt=""></a>
+         height="200" alt=""></a>
 </p>
 
 <br><br><br>
@@ -375,18 +375,42 @@ TODO(CheatoBaggins): Test newer Windows OSes
 ### [GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md)
 
 <p>
-  <a href="/pc-gameshark-v3.0.md">
+  <a href="/pc-gameshark-v3.0.md#software">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-label-200.png"
-         height="150" alt=""></a>
-  <a href="/pc-gameshark-v3.0.md">
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#booklet">
+    <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-200.png"
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#booklet">
+    <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-200.png"
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#software">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-outer-255x200.png"
-         height="150" alt=""></a>
-  <a href="/pc-gameshark-v3.0.md">
+         height="200" alt=""></a>
+</p>
+
+<p>
+  <a href="/pc-gameshark-v3.0.md#splash-screen">
     <img src="/pc/gs-win-v3.0/setup.bmp"
-         height="150" alt=""></a>
-  <a href="/pc-gameshark-v3.0.md">
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#splash-video">
     <img src="/pc/gs-win-v3.0/gs-win-v3.0-jaws.gif"
-         height="150" alt=""></a>
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#flash-animations">
+    <img src="/pc/gs-win-v3.0/flash/products_page_flash.gif"
+         height="200" alt=""></a>
+</p>
+
+<p>
+  <a href="/pc-gameshark-v3.0.md#screenshots">
+    <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-02-ui-04-version.png"
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#screenshots">
+    <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-03-help-04-the-code-selector.png"
+         height="200" alt=""></a>
+  <a href="/pc-gameshark-v3.0.md#mp3shark">
+    <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-04-mp3shark-00-ui.png"
+         height="200" alt=""></a>
 </p>
 
 <br><br><br>
