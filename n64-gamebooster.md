@@ -5,6 +5,19 @@ _NOTE: [GB Hunter](/n64-gbhunter.md) and **Game Booster** are just country-speci
 **Game Booster** is the European version of GB Hunter
 (or rather, GB Hunter is the American version of the Game Booster.)
 
+## Shells
+
+<p>
+  <a href="/n64-gamebooster.md#shells">
+    <img alt="Photo of the front of an N64 Game Booster shell"
+         src="/assets/photos/n64-gamebooster-01-shell-01-front-200.png"
+         width="200"></a>
+  <a href="/n64-gamebooster.md#shells">
+    <img alt="Photo of the back of an N64 Game Booster shell"
+         src="/assets/photos/n64-gamebooster-01-shell-02-back-200.png"
+         width="200"></a>
+</p>
+
 ## Compatibility and features
 
 - Super Game Boy-enhanced games
