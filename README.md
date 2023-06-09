@@ -363,11 +363,20 @@ TODO(CheatoBaggins): Test newer Windows OSes
 
 <p>
   <a href="/pc-gameshark-v1.1.md#animations">
-    <img src="/pc/gs-win-v1.1/assets/shark.gif"
-         height="200" alt=""></a>
+    <img src="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png"
+         height="150" alt=""></a>
   <a href="/pc-gameshark-v1.1.md#animations">
+    <img src="/pc/gs-win-v1.1/assets/shark.gif"
+         height="150" alt=""></a>
+</p>
+
+<p>
+  <a href="/pc-gameshark-v1.1.md#3d-models">
     <img src="/pc/gs-win-v1.1/3dmodels/shark/shark-logo.png"
-         height="200" alt=""></a>
+         height="150" alt=""></a>
+  <a href="/pc-gameshark-v1.1.md#3d-models">
+    <img src="/pc/gs-win-v1.1/3dmodels/interact/interact-logo.png"
+         height="150" alt=""></a>
 </p>
 
 <br><br><br>
