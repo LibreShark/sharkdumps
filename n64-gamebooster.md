@@ -101,6 +101,8 @@ The Game Booster contains a built-in Game Boy game, "Rebound Mission", that can 
      alt=""
      width="200">
 
+### Passwords
+
 "Continue" passwords (from [GameFAQs](https://gamefaqs.gamespot.com/boards/916387-nintendo-64/80384269)):
 
 ```
