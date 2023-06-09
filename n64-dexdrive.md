@@ -4,6 +4,29 @@ The DexDrive is an N64 memory card reader/writer/backup device that connects to 
 
 <img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
+## Compatibility
+
+TODO(CheatoBaggins): Test newer Windows OSes
+
+<a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+   title="Windows 95">
+  <img alt="Windows 95 logo"
+       src="/assets/logos/windows-95-logo-2500.png"
+       width="50" height="50"></a>
+<a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
+   title="Windows 98 SE (Second Edition)">
+  <img alt="Windows 98 logo"
+       src="/assets/logos/windows-98-logo-2500.png"
+       width="50" height="50"></a>
+<a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
+   title="Windows NT Workstation 4.0">
+  <img alt="Windows NT 4.0 logo"
+       src="/assets/logos/windows-nt4-logo-2500.png"
+       width="50" height="50"></a>
+<img alt="Windows XP logo"
+  src="/assets/logos/windows-xp-logo-1000.png"
+  width="50" height="50">
+
 ## PC software
 
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
