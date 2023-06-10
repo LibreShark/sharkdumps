@@ -6,7 +6,7 @@ _NOTE: [GameShark](/n64-gameshark.md), **Action Replay**, [Equalizer](/n64-equal
 
 ## Shells
 
-_Coming soon!_
+TODO(CheatoBaggins): Get decent photos
 
 ## Screenshots
 

@@ -2,7 +2,7 @@
 
 _NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), **Equalizer**, and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
 
-**Equalizer** was designed/manufactured in England by Datel, and marketed/distributed by Code Junkies in the UK (and possibly elsewhere in Europe?).
+**Equalizer** was designed/manufactured in England by Datel, and marketed/distributed by Code Junkies in the UK (and possibly elsewhere in Europe?). [Code Junkies](https://www.codejunkies.com/Products/SD-Media-Launcher__EF000580V.aspx) was, and appears to still be, a subsidiary of [Datel](https://www.datel.co.uk/).
 
 ## Shells
 

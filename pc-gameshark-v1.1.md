@@ -96,14 +96,6 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 <img src="/pc/gs-win-v1.1/screenshots/gs-win-v1.1-screenshot-14-640x480-edit-code-description.png"
      width="200" alt="">
 
-## Animations
-
-![Datel animation, small](/pc/gs-win-v1.1/assets/datel_sml.gif)
-![InterAct animation, small](/pc/gs-win-v1.1/assets/Interact_sml.gif)
-
-![Datel animation, large](/pc/gs-win-v1.1/assets/Interact.gif)
-![InterAct animation, large](/pc/gs-win-v1.1/assets/shark.gif)
-
 ## UI backgrounds
 
 <img src="/pc/gs-win-v1.1/assets/page1.BMP"
@@ -114,6 +106,14 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
      width="200" alt="">
 <img src="/pc/gs-win-v1.1/assets/page4-256.bmp"
      width="200" alt="">
+
+## Animations
+
+![Datel animation, small](/pc/gs-win-v1.1/assets/datel_sml.gif)
+![InterAct animation, small](/pc/gs-win-v1.1/assets/Interact_sml.gif)
+
+![Datel animation, large](/pc/gs-win-v1.1/assets/Interact.gif)
+![InterAct animation, large](/pc/gs-win-v1.1/assets/shark.gif)
 
 ## Videos
 

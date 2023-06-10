@@ -12,25 +12,25 @@ TODO(CheatoBaggins): Test newer Windows OSes
    title="Windows 95">
   <img alt="Windows 95 logo"
        src="/assets/logos/windows-95-logo-2500.png"
-       width="50" height="50"></a>
+       width="100" height="100"></a>
 <a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
    title="Windows 98 SE (Second Edition)">
   <img alt="Windows 98 logo"
        src="/assets/logos/windows-98-logo-2500.png"
-       width="50" height="50"></a>
+       width="100" height="100"></a>
 <a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
    title="Windows NT Workstation 4.0">
   <img alt="Windows NT 4.0 logo"
        src="/assets/logos/windows-nt4-logo-2500.png"
-       width="50" height="50"></a>
+       width="100" height="100"></a>
 <a href="https://winworldpc.com/product/windows-nt-2000/final" target="_blank"
    title="Windows 2000">
   <img alt="Windows 2000 logo"
        src="/assets/logos/windows-2000-icon-2500.png"
-       width="50" height="50"></a>
+       width="100" height="100"></a>
 <img alt="Windows XP logo"
-  src="/assets/logos/windows-xp-icon-1000.png"
-  width="50" height="50">
+     src="/assets/logos/windows-xp-icon-1000.png"
+     width="100" height="100">
 
 ## PC software
 

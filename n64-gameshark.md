@@ -349,7 +349,7 @@ The video demonstrates typical usage of the GameShark Pro, as well as the Code G
      src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_78-phone_hotline.png"
      width="200">
 
-There are two known versions of the N64 VHS tape. The informational content is nearly identical, but they contain different advertisements for different InterAct products.
+There are two known versions of the US VHS tape: one that came bundled with v3.0 GameShark Pros, and one that came with v3.1 and later. The informational content is identical, with one exception: in the v3.1 tape, they added a short section about using the DB-25 parallel port ("Shark Link") on the back of v3.1+ carts. The two tapes also contain different advertisements for different InterAct products.
 
 All VHS tapes were captured with the following hardware and software:
 
