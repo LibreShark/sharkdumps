@@ -16,7 +16,11 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 ## Nintendo 64
 
-### [GameShark / GameShark Pro](/n64-gameshark.md)
+### GameShark / GameShark Pro
+
+👉 [More information about the N64 GameShark / GameShark Pro](/n64-gameshark.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-gameshark.md#shells">
@@ -36,6 +40,7 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          src="/assets/photos/n64-gs-ref1329-open-source-pcb-1620x1121.png"
          width="200"></a>
 </p>
+
 <p>
   <a href="/n64-gameshark.md#screenshots">
     <img alt="Screenshot of the splash screen from an N64 GameShark v1.05 (1997-09-04)"
@@ -54,26 +59,12 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          src="/n64/firmware/screenshots/gameshark/n64-gspro-3.10-19990609-screenshot-02-main-menu.png"
          width="200"></a>
 </p>
-<p>
-  <a href="/n64-gameshark.md#artwork">
-    <img alt="Reproduction GameShark box art front"
-         src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png"
-         width="200"></a>
-  <a href="/n64-gameshark.md#artwork">
-    <img alt="LibreShark box art front"
-         src="/n64/boxes/n64-libreshark-box-front-200x294.png"
-         width="200"></a>
-  <a href="/n64-gameshark.md#manuals">
-    <img alt="N64 GameShark v2.10 manual thumbnail"
-         src="/n64/manuals/thumbs/gs-v2.10-manual-p1.png"
-         height="294"></a>
-  <a href="/n64-gameshark.md#manuals">
-    <img alt="N64 GameShark v3.20 manual thumbnail"
-         src="/n64/manuals/thumbs/gs-v3.20-manual-p1.png"
-         height="294"></a>
-</p>
 
 <p>
+  <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
+    <img alt="Photo of VHS tape"
+         src="n64/vhs/n64_gspro_vhs_tape.jpg"
+         width="200"></a>
   <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
     <img alt="How To Hack Like A Pro"
          src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_02-how_to_hack_like_a_pro.png"
@@ -86,15 +77,36 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
     <img alt="Parallel Port"
          src="n64/vhs/snapshots/n64_gs_vhs_tape1_snapshot_74-parallel_port_1.png"
          width="200"></a>
-  <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
-    <img alt="Photo of VHS tape"
-         src="n64/vhs/n64_gspro_vhs_tape.jpg"
-         height="147"></a>
 </p>
+
+<p>
+  <a href="/n64-gameshark.md#artwork">
+    <img alt="Reproduction GameShark box art front"
+         src="/n64/boxes/n64-gameshark-pro-box-front-repro-200x294.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#artwork">
+    <img alt="LibreShark box art front"
+         src="/n64/boxes/n64-libreshark-box-front-200x294.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#manuals">
+    <img alt="N64 GameShark v2.10 manual thumbnail"
+         src="/n64/manuals/thumbs/gs-v2.10-manual-p1.png"
+         width="200"></a>
+  <a href="/n64-gameshark.md#manuals">
+    <img alt="N64 GameShark v3.20 manual thumbnail"
+         src="/n64/manuals/thumbs/gs-v3.20-manual-p1.png"
+         width="200"></a>
+</p>
+
+[Learn more about the N64 GameShark / GameShark Pro!](/n64-gameshark.md)
 
 <br><br><br>
 
-### [Action Replay / Action Replay Pro](/n64-actionreplay.md)
+### Action Replay / Action Replay Pro
+
+👉 [More information about the N64 Action Replay / Action Replay Pro](/n64-actionreplay.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-actionreplay.md#screenshots">
@@ -115,9 +127,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          width="200"></a>
 </p>
 
+[Learn more about the N64 Action Replay / Action Replay Pro!](/n64-actionreplay.md)
+
 <br><br><br>
 
-### [Equalizer](/n64-equalizer.md)
+### Equalizer
+
+👉 [More information about the N64 Equalizer!](/n64-equalizer.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-equalizer.md#shells">
@@ -141,9 +159,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          width="200"></a>
 </p>
 
+[Learn more about the N64 Equalizer!](/n64-equalizer.md)
+
 <br><br><br>
 
-### [Game Buster](/n64-gamebuster.md)
+### Game Buster
+
+👉 [More information about the N64 Game Buster](/n64-gamebuster.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-gamebuster.md#shells">
@@ -167,9 +191,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          width="200"></a>
 </p>
 
+[Learn more about the N64 Game Buster!](/n64-gamebuster.md)
+
 <br><br><br>
 
-### [Xplorer 64](/n64-xplorer.md)
+### Xplorer 64
+
+👉 [More information about the N64 Xplorer 64](/n64-xplorer.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-xplorer.md#shells">
@@ -228,9 +258,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          width="200"></a>
 </p>
 
+[Learn more about the N64 Xplorer 64!](/n64-xplorer.md)
+
 <br><br><br>
 
-### [GB Hunter](/n64-gbhunter.md)
+### GB Hunter
+
+👉 [More information about the N64 GB Hunter](/n64-gbhunter.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-gbhunter.md#shells">
@@ -266,9 +302,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          width="200"></a>
 </p>
 
+[Learn more about the N64 GB Hunter!](/n64-gbhunter.md)
+
 <br><br><br>
 
-### [Game Booster](/n64-gamebooster.md)
+### Game Booster
+
+👉 [More information about the N64 Game Booster](/n64-gamebooster.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/n64-gamebooster.md#shells">
@@ -300,9 +342,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          width="200"></a>
 </p>
 
+[Learn more about the N64 Game Booster!](/n64-gamebooster.md)
+
 <br><br><br>
 
-### [DexDrive](/n64-dexdrive.md)
+### DexDrive
+
+👉 [More information about the N64 DexDrive](/n64-dexdrive.md) 👈
+
+Visual TL;DR:
 
 <a href="/n64-dexdrive.md">
   <img alt="DexDrive memory card reader for N64"
@@ -321,13 +369,19 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
        src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
        width="200"></a>
 
+[Learn more about the N64 DexDrive!](/n64-dexdrive.md)
+
 <br><br><br>
 
 ---
 
 ## PC
 
-### [GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md)
+### GameShark v1.1 for Windows 95/98
+
+👉 [More information about PC GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/pc-gameshark-v1.1.md">
@@ -377,9 +431,15 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
          height="150" alt=""></a>
 </p>
 
+[Learn more about PC GameShark v1.1 for Windows 95/98!](/pc-gameshark-v1.1.md)
+
 <br><br><br>
 
-### [GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md)
+### GameShark v3.0 for Windows 98/ME
+
+👉 [More information about PC GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md) 👈
+
+Visual TL;DR:
 
 <p>
   <a href="/pc-gameshark-v3.0.md#software">
@@ -419,6 +479,8 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-04-mp3shark-00-ui.png"
          height="200" alt=""></a>
 </p>
+
+[Learn more about PC GameShark v3.0 for Windows 98/ME!](/pc-gameshark-v3.0.md)
 
 <br><br><br>
 
