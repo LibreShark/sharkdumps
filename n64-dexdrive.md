@@ -115,4 +115,7 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 _Photographed by @CheatoBaggins_
 
-<a href="/assets/photos/n64-dexdrive-box-8000x4710.png"><img src="/assets/photos/n64-dexdrive-box-600x353.png" width="600" alt=""></a>
+<a href="/assets/photos/n64-dexdrive-box-8000x4710.png">
+  <img alt=""
+       src="/assets/photos/n64-dexdrive-box-600x353.png"
+       width="600"></a>
