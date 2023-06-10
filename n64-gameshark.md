@@ -1,4 +1,4 @@
-# N64 GameShark
+# N64 GameShark / GameShark Pro
 
 _NOTE: **GameShark**, [Action Replay](/n64-actionreplay.md), [Equalizer](/n64-equalizer.md), and [Game Buster](/n64-gamebuster.md) are all just country-specific brand names for the exact same hardware._
 
