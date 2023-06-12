@@ -146,7 +146,7 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
 - Depth:  `2-3/8 inches` (`6.03 cm`)
 
 <p>
-  <a href="/n64/boxes/n64-xplorer64-v1-box-all-15x11.75in.png">
+  <a href="/n64/boxes/n64-xplorer64-v1-box-all-15x13in.png">
     <img alt="Full flat photo of the Xplorer64 v1 box"
          src="/n64/boxes/n64-xplorer64-v1-box-400.png"
          width="400"></a>
