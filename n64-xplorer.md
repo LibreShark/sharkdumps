@@ -21,6 +21,10 @@ _Expertly traced in CAD by @RWeick_
   <img alt="Xplorer 64 PCB clone"
        src="/assets/photos/n64-xplorer64-pcb-clone-1280.png"
        width="200"></a>
+<a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-pcb/index.html" target="_blank">
+  <img alt="3D model of RWeick's Xplorer 64 PCB clone"
+       src="/n64/3dmodels/xplorer64-v2-pcb/thumbnail-400.gif"
+       width="200"></a>
 
 ## Screenshots
 
