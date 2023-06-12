@@ -26,6 +26,14 @@ _Expertly traced in CAD by @RWeick_
        src="/n64/3dmodels/xplorer64-v2-pcb/thumbnail-400.gif"
        width="200"></a>
 
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-pcb/index.html)**
+
+3D model files:
+
+| Download                                                                      | Ext.   | 3D file format     | Size      |
+|:----------------------------------------------------------------------------- |:------ |:------------------ | ---------:|
+| [`xplorer64-v2-pcb.glb`](/n64/3dmodels/xplorer64-v2-pcb/xplorer64-v2-pcb.glb) | `.glb` | Binary glTF format | `6.8 MiB` |
+
 ## Screenshots
 
 _Captured by @CheatoBaggins_
