@@ -142,9 +142,9 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 _Photographed and retouched by @CheatoBaggins_
 
 <a href="/n64/boxes/n64-xplorer64-v2-box-3302x2876.png">
-  <img alt="Photo of the Xplorer 64 V2 box"
-       src="/n64/boxes/n64-xplorer64-v2-box-200.png"
-       width="200"></a>
+  <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
+       src="/n64/3dmodels/n64-xplorer64-v2/thumbnail-400.gif"
+       width="400"></a>
 
 ## 3D models
 
