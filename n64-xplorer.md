@@ -145,3 +145,11 @@ _Photographed and retouched by @CheatoBaggins_
   <img alt="Photo of the Xplorer 64 V2 box"
        src="/n64/boxes/n64-xplorer64-v2-box-200.png"
        width="200"></a>
+
+## 3D models
+
+<a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html"
+   target="_blank">
+   <img alt="3D model of the Xplorer 64 V2 box"
+        src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
+        width="200"></a>
