@@ -168,5 +168,5 @@ _TODO(CheatoBaggins)_
 
 | Download                                                                      | Ext.   | 3D file format     | Size       |
 |:----------------------------------------------------------------------------- |:------ |:------------------ | ----------:|
-| [`xplorer64-v2-box.glb`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.glb) | `.glb` | Binary glTF format | `14.8 MiB` |
-| [`xplorer64-v2-box.skp`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.skp) | `.skp` | SketchUp format    | `17.3 MiB` |
+| [`xplorer64-v2-box.glb`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.glb) | `.glb` | Binary glTF format | `14.3 MiB` |
+| [`xplorer64-v2-box.skp`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.skp) | `.skp` | SketchUp format    | `14.4 MiB` |
