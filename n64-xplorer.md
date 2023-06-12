@@ -2,7 +2,7 @@
 
 _NOTE: "Xplorer" and "Xploder" both refer to the same product. Blaze was inconsistent with their branding and used both names interchangeably._
 
-Published in Europe by Blaze.
+Made by _Future Console Design_ (FCD) for Blaze. Sold in the US, UK, and Germany by Fire International Ltd.
 
 ## Shells
 
@@ -15,9 +15,12 @@ Published in Europe by Blaze.
 
 _Expertly traced in CAD by @RWeick_
 
-<img src="/assets/photos/n64-xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
+[Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
-- [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
+<a href="https://github.com/RWeick/FCD-0003.1S-Xplorer64" target="_blank">
+  <img alt="Xplorer 64 PCB clone"
+       src="/assets/photos/n64-xplorer64-pcb-clone-1280.png"
+       width="200"></a>
 
 ## Screenshots
 
