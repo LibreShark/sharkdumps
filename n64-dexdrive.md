@@ -6,8 +6,6 @@ The DexDrive is an N64 memory card reader/writer/backup device that connects to 
 
 ## Compatibility
 
-TODO(CheatoBaggins): Test newer Windows OSes
-
 <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
    title="Windows 95">
   <img alt="Windows 95 logo"
@@ -94,8 +92,8 @@ TODO(CheatoBaggins): Test newer Windows OSes
 |   [MemPack to N64 Uploader][] | `1999-10-13` | "Destop of Crazy Nation"                 |
 |   [64Scener Tools][]          | -            | [64Scener mirror][]                      |
 
-[DexPlorer v1.10.950]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_200.902_at-2000-01-24.zip
-[DexPlorer v2.00.902]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_110.950_at-1999-01-05.zip
+[DexPlorer v1.10.950]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_110.950_at-1999-01-05.zip
+[DexPlorer v2.00.902]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_200.902_at-2000-01-24.zip
 [Dex2Save]:                /n64/tools/dexdrive/dex2save
 [MemPack Save Converter]:  /n64/tools/dexdrive/mempack_save_converter
 [MemPack to N64 Uploader]: /n64/tools/dexdrive/mempack_to_n64_uploader
