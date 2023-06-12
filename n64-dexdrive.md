@@ -4,38 +4,23 @@ The DexDrive is an N64 memory card reader/writer/backup device that connects to 
 
 <img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
-## Compatibility
+## PC software
+
+### DexPlorer v1.10.950
+
+Supports Windows 95–XP.
 
 <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
    title="Windows 95">
   <img alt="Windows 95 logo"
        src="/assets/logos/windows-95-logo-2500.png"
        width="100" height="100"></a>
-<a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-   title="Windows 98 SE (Second Edition)">
-  <img alt="Windows 98 logo"
-       src="/assets/logos/windows-98-logo-2500.png"
-       width="100" height="100"></a>
-<a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
-   title="Windows NT Workstation 4.0">
-  <img alt="Windows NT 4.0 logo"
-       src="/assets/logos/windows-nt4-logo-2500.png"
-       width="100" height="100"></a>
-<a href="https://winworldpc.com/product/windows-nt-2000/final" target="_blank"
-   title="Windows 2000">
-  <img alt="Windows 2000 logo"
-       src="/assets/logos/windows-2000-icon-2500.png"
-       width="100" height="100"></a>
 <img alt="Windows XP logo"
      src="/assets/logos/windows-xp-icon-1000.png"
      width="100" height="100">
 
-## PC software
-
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
-
-### DexPlorer v1.10.950 screenshots
 
 <img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-01-installer.png"
      width="200" alt="">
@@ -54,7 +39,18 @@ The DexDrive is an N64 memory card reader/writer/backup device that connects to 
 <img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-08-restore-prompt.png"
      width="200" alt="">
 
-### DexPlorer v2.00.902 screenshots
+### DexPlorer v2.00.902
+
+Supports all versions of Windows, including Windows 11.
+
+<a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+   title="Windows 95">
+  <img alt="Windows 95 logo"
+       src="/assets/logos/windows-95-logo-2500.png"
+       width="100" height="100"></a>
+<img alt="Windows XP logo"
+     src="/assets/logos/windows-11-icon-800.png"
+     width="100" height="100">
 
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-01-installer.png"
      width="200" alt="">
