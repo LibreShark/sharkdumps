@@ -137,20 +137,25 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
 
-## Artwork
+## V1 box
 
-_Photographed and retouched by @CheatoBaggins_
+_TODO(CheatoBaggins)_
 
-<a href="/n64/boxes/n64-xplorer64-v2-box-3302x2876.png">
-  <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
-       src="/n64/boxes/n64-xplorer64-v2-box-400.png"
-       width="400"></a>
+- Width:  `X inches` (`X cm`)
+- Height: `X inches` (`X cm`)
+- Depth:  `X inches` (`X cm`)
 
-## 3D models
+## V2 box
 
-### V2 box
+- Width:  `3-3/4 inches` (`9.52 cm`)
+- Height: `7 inches` (`17.78 cm`)
+- Depth:  `2-1/4 inches` (`5.72 cm`)
 
 <p>
+  <a href="/n64/boxes/n64-xplorer64-v2-box-3302x2876.png">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
+         src="/n64/boxes/n64-xplorer64-v2-box-400.png"
+         width="400"></a>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html" target="_blank">
     <img alt="3D model of the Xplorer 64 V2 box"
          src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
