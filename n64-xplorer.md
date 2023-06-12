@@ -148,8 +148,20 @@ _Photographed and retouched by @CheatoBaggins_
 
 ## 3D models
 
-<a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html"
-   target="_blank">
-   <img alt="3D model of the Xplorer 64 V2 box"
-        src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
-        width="400"></a>
+### V2 box
+
+<p>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html" target="_blank">
+    <img alt="3D model of the Xplorer 64 V2 box"
+         src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
+         width="400"></a>
+</p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html)** (may take a minute to load due to high resolution textures)
+
+3D model files:
+
+| Download                                                                      | Ext.   | 3D file format     | Size       |
+|:----------------------------------------------------------------------------- |:------ |:------------------ | ----------:|
+| [`xplorer64-v2-box.glb`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.glb) | `.glb` | Binary glTF format | `19.8 MiB` |
+| [`xplorer64-v2-box.skp`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.skp) | `.skp` | SketchUp format    | `16.8 MiB` |
