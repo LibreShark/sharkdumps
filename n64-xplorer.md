@@ -78,7 +78,7 @@ _Dumped by @RWeick and @danhans42_
 
 | Filename                                                  | Language | #G | #C | Clean?    | Unencrypted? |
 |:--------------------------------------------------------- |:-------- | --:| --:|:---------:|:------------:|
-|  `xplorer64-v1.000e-b1772-xxxxxxxx-green.enc`             | `en-GB`  |  ? |  ? | _Unknown_ | ❌            |
+|  `xplorer64-v1.000e-b1772-19990507-green.enc`             | `en-GB`  |  ? |  ? | _Unknown_ | ❌            |
 | [`xplorer64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
 | [`xplorer64-v1.067e-b2510-19991123.bin`][][^b2510]        | `en-GB`  |  ? |  ? | ⚠️         | ✅            |
 | [`xplorer64-v1.067g-b1930-19991124.bin`][][^b1930]        | `de-DE`  |  ? |  ? | ⚠️         | ✅            |
