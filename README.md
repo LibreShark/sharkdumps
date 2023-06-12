@@ -251,8 +251,12 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 <p>
   <a href="/n64-xplorer.md#artwork">
     <img alt="Photo of the Xplorer 64 V2 box"
-         src="/n64/boxes/n64-xplorer64-v2-box-200.png"
-         width="200"></a>
+         src="/n64/boxes/n64-xplorer64-v2-box-400.png"
+         width="400"></a>
+  <a href="/n64-xplorer.md#3d-models">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
+         src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
+         width="400"></a>
 </p>
 
 [Learn more about the N64 Xplorer 64!](/n64-xplorer.md)
