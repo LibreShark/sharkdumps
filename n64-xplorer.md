@@ -156,6 +156,15 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
          width="400"></a>
 </p>
 
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v1/3dmodels/xplorer64-v1-box/index.html)** (may take a minute to load due to high resolution textures)
+
+3D model files:
+
+| Download                                                                      | Ext.   | 3D file format     | Size       |
+|:----------------------------------------------------------------------------- |:------ |:------------------ | ----------:|
+| [`xplorer64-v1-box.glb`](/n64/3dmodels/xplorer64-v1-box/xplorer64-v1-box.glb) | `.glb` | Binary glTF format | `13.6 MiB` |
+| [`xplorer64-v1-box.skp`](/n64/3dmodels/xplorer64-v1-box/xplorer64-v1-box.skp) | `.skp` | SketchUp format    | `13.8 MiB` |
+
 ## V2 box
 
 _Photographed, restored, and 3D modeled by @CheatoBaggins_
