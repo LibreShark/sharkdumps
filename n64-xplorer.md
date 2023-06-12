@@ -136,3 +136,12 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 - [Xplorer 64 printed manual (`1999-06-21`)](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
+
+## Artwork
+
+_Photographed and retouched by @CheatoBaggins_
+
+<a href="/n64/boxes/n64-xplorer64-v2-box-3302x2876.png">
+  <img alt="Photo of the Xplorer 64 V2 box"
+       src="/n64/boxes/n64-xplorer64-v2-box-200.png"
+       width="200"></a>
