@@ -249,11 +249,19 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 </p>
 
 <p>
-  <a href="/n64-xplorer.md#artwork">
+  <a href="/n64-xplorer.md#v1-box">
+    <img alt="Photo of the Xplorer 64 v1 box"
+         src="/n64/boxes/n64-xplorer64-v1-box-400.png"
+         width="400"></a>
+  <a href="/n64-xplorer.md#v1-box">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
+         src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
+         width="400"></a>
+  <a href="/n64-xplorer.md#v2-box">
     <img alt="Photo of the Xplorer 64 V2 box"
          src="/n64/boxes/n64-xplorer64-v2-box-400.png"
          width="400"></a>
-  <a href="/n64-xplorer.md#3d-models">
+  <a href="/n64-xplorer.md#v2-box">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
          src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
          width="400"></a>

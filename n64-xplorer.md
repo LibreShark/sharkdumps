@@ -139,13 +139,26 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 
 ## V1 box
 
-_TODO(CheatoBaggins)_
+_Photographed, restored, and 3D modeled by @CheatoBaggins_
 
-- Width:  `X inches` (`X cm`)
-- Height: `X inches` (`X cm`)
-- Depth:  `X inches` (`X cm`)
+- Width:  `5-1/8 inches` (`13.02 cm`)
+- Height: `7-3/4 inches` (`19.68 cm`)
+- Depth:  `2-3/8 inches` (`6.03 cm`)
+
+<p>
+  <a href="/n64/boxes/n64-xplorer64-v1-box-all-15x11.75in.png">
+    <img alt="Full flat photo of the Xplorer64 v1 box"
+         src="/n64/boxes/n64-xplorer64-v1-box-400.png"
+         width="400"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v1/3dmodels/xplorer64-v1-box/index.html" target="_blank">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
+         src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
+         width="400"></a>
+</p>
 
 ## V2 box
+
+_Photographed, restored, and 3D modeled by @CheatoBaggins_
 
 - Width:  `3-3/4 inches` (`9.52 cm`)
 - Height: `7 inches`     (`17.78 cm`)
