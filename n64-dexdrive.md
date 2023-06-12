@@ -1,6 +1,6 @@
 # N64 DexDrive
 
-The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with an RS-232 serial cable.
+The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows PC with an RS-232 serial cable.
 
 <img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
@@ -41,7 +41,7 @@ Supports Windows 95–XP.
 
 ### DexPlorer v2.00.902
 
-Supports all versions of Windows, including Windows 11.
+Supports ***all*** versions of Windows, from Windows 95 to Windows 11.
 
 <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
    title="Windows 95">
@@ -79,14 +79,14 @@ Supports all versions of Windows, including Windows 11.
 
 ### Utilities
 
-| Program                       | Build date   | Author                                   |
-|:----------------------------- |:------------ |:---------------------------------------- |
-| **[DexPlorer v1.10.950][]**   | `1999-01-05` | Datel/InterAct                           |
-|   [DexPlorer v2.00.902][]     | `2000-01-24` | Datel/InterAct                           |
-|   [Dex2Save][]                | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
-|   [MemPack Save Converter][]  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
-|   [MemPack to N64 Uploader][] | `1999-10-13` | "Destop of Crazy Nation"                 |
-|   [64Scener Tools][]          | -            | [64Scener mirror][]                      |
+| Program                       | Build date   | OSes          | Author                                   | Notes   |
+|:----------------------------- |:------------ |:------------- |:---------------------------------------- |:------- |
+| **[DexPlorer v1.10.950][]**   | `1999-01-05` | Windows 95-XP | Datel/InterAct                           | Good UI |
+|   [DexPlorer v2.00.902][]     | `2000-01-24` | All Windows   | Datel/InterAct                           | Bad UI  |
+|   [Dex2Save][]                | `1998-02-20` | _Unconfirmed_ | "Ximeter" <ximeter@usa.net>              |         |
+|   [MemPack Save Converter][]  | `1999-03-28` | _Unconfirmed_ | "Sound of Silence" <silence@poboxes.com> |         |
+|   [MemPack to N64 Uploader][] | `1999-10-13` | _Unconfirmed_ | "Destop of Crazy Nation"                 |         |
+|   [64Scener Tools][]          | -            | -             | [64Scener mirror][]                      |         |
 
 [DexPlorer v1.10.950]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_110.950_at-1999-01-05.zip
 [DexPlorer v2.00.902]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_200.902_at-2000-01-24.zip

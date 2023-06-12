@@ -355,22 +355,24 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 👉 [More information about the N64 DexDrive](/n64-dexdrive.md) 👈
 
-<a href="/n64-dexdrive.md">
-  <img alt="DexDrive memory card reader for N64"
-       src="/assets/photos/n64-dexdrive-hardware-480.png"
-       width="200"></a>
-<a href="/n64-dexdrive.md#pc-software">
-  <img alt="DexDrive 3.5in floppy disk 1 of 2"
-       src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png"
-       width="200"></a>
-<a href="/n64-dexdrive.md#dexplorer-v110950-screenshots">
-  <img alt=""
-       src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-03-about-box.png"
-       width="200"></a>
-<a href="/n64-dexdrive.md#dexplorer-v200902-screenshots">
-  <img alt=""
-       src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
-       width="200"></a>
+<p>
+  <a href="/n64-dexdrive.md">
+    <img alt="DexDrive memory card reader for N64"
+         src="/assets/photos/n64-dexdrive-hardware-480.png"
+         width="200"></a>
+  <a href="/n64-dexdrive.md#pc-software">
+    <img alt="DexDrive 3.5in floppy disk 1 of 2"
+         src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png"
+         width="200"></a>
+  <a href="/n64-dexdrive.md#dexplorer-v110950">
+    <img alt=""
+         src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-03-about-box.png"
+         width="200"></a>
+  <a href="/n64-dexdrive.md#dexplorer-v200902">
+    <img alt=""
+         src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
+         width="200"></a>
+</p>
 
 [Learn more about the N64 DexDrive!](/n64-dexdrive.md)
 
