@@ -150,13 +150,13 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
     <img alt="Full flat photo of the Xplorer64 v1 box"
          src="/n64/boxes/n64-xplorer64-v1-box-400.png"
          width="400"></a>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v1/3dmodels/xplorer64-v1-box/index.html" target="_blank">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v1-box/index.html" target="_blank">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
          src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
          width="400"></a>
 </p>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v1/3dmodels/xplorer64-v1-box/index.html)** (may take a minute to load due to high resolution textures)
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v1-box/index.html)** (may take a minute to load due to high resolution textures)
 
 3D model files:
 
