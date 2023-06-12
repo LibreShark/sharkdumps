@@ -20,8 +20,6 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 👉 [More information about the N64 GameShark / GameShark Pro](/n64-gameshark.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-gameshark.md#shells">
     <img alt="Front side of a typical GameShark v2.x"
@@ -106,8 +104,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 Action Replay / Action Replay Pro](/n64-actionreplay.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-actionreplay.md#screenshots">
     <img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
@@ -134,8 +130,6 @@ Visual TL;DR:
 ### Equalizer
 
 👉 [More information about the N64 Equalizer!](/n64-equalizer.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/n64-equalizer.md#shells">
@@ -167,8 +161,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 Game Buster](/n64-gamebuster.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-gamebuster.md#shells">
     <img alt=""
@@ -198,8 +190,6 @@ Visual TL;DR:
 ### Xplorer 64
 
 👉 [More information about the N64 Xplorer 64](/n64-xplorer.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/n64-xplorer.md#shells">
@@ -258,6 +248,13 @@ Visual TL;DR:
          width="200"></a>
 </p>
 
+<p>
+  <a href="/n64-xplorer.md#artwork">
+    <img alt="Photo of the Xplorer 64 V2 box"
+         src="/n64/boxes/n64-xplorer64-v2-box-200.png"
+         width="200"></a>
+</p>
+
 [Learn more about the N64 Xplorer 64!](/n64-xplorer.md)
 
 <br><br><br>
@@ -265,8 +262,6 @@ Visual TL;DR:
 ### GB Hunter
 
 👉 [More information about the N64 GB Hunter](/n64-gbhunter.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/n64-gbhunter.md#shells">
@@ -310,8 +305,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 Game Booster](/n64-gamebooster.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-gamebooster.md#shells">
     <img alt="Photo of the front of an N64 Game Booster shell"
@@ -350,8 +343,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 DexDrive](/n64-dexdrive.md) 👈
 
-Visual TL;DR:
-
 <a href="/n64-dexdrive.md">
   <img alt="DexDrive memory card reader for N64"
        src="/assets/photos/n64-dexdrive-hardware-480.png"
@@ -380,8 +371,6 @@ Visual TL;DR:
 ### GameShark v1.1 for Windows 95/98
 
 👉 [More information about PC GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/pc-gameshark-v1.1.md">
@@ -416,10 +405,10 @@ Visual TL;DR:
 <p>
   <a href="/pc-gameshark-v1.1.md#animations">
     <img src="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png"
-         height="150" alt=""></a>
+         height="140" alt=""></a>
   <a href="/pc-gameshark-v1.1.md#animations">
     <img src="/pc/gs-win-v1.1/assets/shark.gif"
-         height="150" alt=""></a>
+         height="140" alt=""></a>
 </p>
 
 <p>
@@ -439,45 +428,43 @@ Visual TL;DR:
 
 👉 [More information about PC GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/pc-gameshark-v3.0.md#software">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-label-200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#booklet">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#booklet">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#software">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-outer-255x200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
 </p>
 
 <p>
   <a href="/pc-gameshark-v3.0.md#splash-screen">
     <img src="/pc/gs-win-v3.0/setup.bmp"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#splash-video">
     <img src="/pc/gs-win-v3.0/gs-win-v3.0-jaws.gif"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#flash-animations">
     <img src="/pc/gs-win-v3.0/flash/products_page_flash.gif"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
 </p>
 
 <p>
   <a href="/pc-gameshark-v3.0.md#screenshots">
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-02-ui-04-version.png"
-         height="200" alt=""></a>
+         height="250" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#screenshots">
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-03-help-04-the-code-selector.png"
-         height="200" alt=""></a>
+         height="250" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#mp3shark">
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-04-mp3shark-00-ui.png"
-         height="200" alt=""></a>
+         height="250" alt=""></a>
 </p>
 
 [Learn more about PC GameShark v3.0 for Windows 98/ME!](/pc-gameshark-v3.0.md)
