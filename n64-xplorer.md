@@ -21,12 +21,12 @@ _Expertly traced in CAD by @RWeick_
   <img alt="Xplorer 64 PCB clone"
        src="/assets/photos/n64-xplorer64-pcb-clone-1280.png"
        width="200"></a>
-<a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-pcb/index.html" target="_blank">
+<a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v2-pcb/index.html" target="_blank">
   <img alt="3D model of RWeick's Xplorer 64 PCB clone"
        src="/n64/3dmodels/xplorer64-v2-pcb/thumbnail-400.gif"
        width="200"></a>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-pcb/index.html)**
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v2-pcb/index.html)**
 
 3D model files:
 
@@ -165,13 +165,13 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
     <img alt="Full flat photo of the Xplorer64 v1 box"
          src="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-400.png"
          width="400"></a>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v1-box/index.html" target="_blank">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v1-box/index.html" target="_blank">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
          src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
          width="400"></a>
 </p>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v1-box/index.html)** (may take a minute to load due to high resolution textures)
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v1-box/index.html)** (may take a minute to load due to high resolution textures)
 
 3D model files:
 
@@ -193,13 +193,13 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
     <img alt="Full flat photo of the Xplorer64 v2 box"
          src="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-400.png"
          width="400"></a>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html" target="_blank">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v2-box/index.html" target="_blank">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
          src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
          width="400"></a>
 </p>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/xplorer64/v2/3dmodels/xplorer64-v2-box/index.html)** (may take a minute to load due to high resolution textures)
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v2-box/index.html)** (may take a minute to load due to high resolution textures)
 
 3D model files:
 
