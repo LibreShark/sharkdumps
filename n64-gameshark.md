@@ -393,6 +393,60 @@ Contains an ad for TurboRAM, and has a short section about the "Shark Link" (DB-
 [dl-2.2]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480p_h265_cq100.mkv
 [dl-2.3]: https://storage.googleapis.com/libreshark-dumps-bucket/n64/vhs/n64_gspro_vhs_tape2_480i_raw.mov
 
+## Boxes
+
+_Photographed, restored, and 3D modeled by @CheatoBaggins_
+
+### v3.2 box
+
+- Width:  `5 inches`     (`12.70 cm`)
+- Height: `7-1/2 inches` (`19.05 cm`)
+- Depth:  `2-1/2 inches` (`6.35 cm`)
+
+<p>
+  <a href="/n64/boxes/gameshark-v3.20-box/gameshark-v3.20-box-all-15x12.5in.png">
+    <img alt="Full flat photo of the GameShark Pro v3.2 box"
+         src="/n64/boxes/gameshark-v3.20-box/gameshark-v3.20-box-all-400.png"
+         width="400"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/gameshark-v3.20-box/index.html" target="_blank">
+    <img alt="Animated GIF of the 3D model for a GameShark Pro v3.2 box"
+         src="/n64/3dmodels/gameshark-v3.20-box/thumbnail-400.gif"
+         width="400"></a>
+</p>
+
+### v3.3 rev1 box (with VHS tape)
+
+_TODO(CheatoBaggins): Photograph and 3D model_
+
+- Width:  `X inches` (`X.XX cm`)
+- Height: `X inches` (`X.XX cm`)
+- Depth:  `X inches` (`X.XX cm`)
+
+### v3.3 rev2 box (no VHS tape)
+
+_TODO(CheatoBaggins): Photograph and 3D model_
+
+- Width:  `X inches` (`X.XX cm`)
+- Height: `X inches` (`X.XX cm`)
+- Depth:  `X inches` (`X.XX cm`)
+
+### v3.3 rev3 box (lite)
+
+- Width:  `5 inches`     (`12.70 cm`)
+- Height: `7-1/2 inches` (`19.05 cm`)
+- Depth:  `1-1/2 inches` (`3.81 cm`)
+
+<p>
+  <a href="/n64/boxes/gameshark-v3.30-lite-box/gameshark-v3.30-lite-box-all-15x12.5in.png">
+    <img alt="Full flat photo of the GameShark Pro v3.3 lite box"
+         src="/n64/boxes/gameshark-v3.30-lite-box/gameshark-v3.30-lite-box-all-400.png"
+         width="400"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/gameshark-v3.30-lite-box/index.html" target="_blank">
+    <img alt="Animated GIF of the 3D model for a GameShark Pro v3.3 lite box"
+         src="/n64/3dmodels/gameshark-v3.30-lite-box/thumbnail-400.gif"
+         width="400"></a>
+</p>
+
 ## Artwork
 
 _Reproduced by @CheatoBaggins_
