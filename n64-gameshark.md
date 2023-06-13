@@ -430,7 +430,7 @@ _TODO(CheatoBaggins): Photograph and 3D model_
 - Height: `X inches` (`X.XX cm`)
 - Depth:  `X inches` (`X.XX cm`)
 
-### v3.3 rev3 box (lite)
+### v3.3 rev3 box (lite, non-Pro)
 
 - Width:  `5 inches`     (`12.70 cm`)
 - Height: `7-1/2 inches` (`19.05 cm`)
