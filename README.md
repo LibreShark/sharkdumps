@@ -59,6 +59,25 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 </p>
 
 <p>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Full flat photo of the GameShark Pro v3.2 box"
+         src="/n64/boxes/gameshark-v3.20-box/gameshark-v3.20-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Animated GIF of the 3D model for a GameShark Pro v3.2 box"
+         src="/n64/3dmodels/gameshark-v3.20-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Full flat photo of the GameShark Pro v3.3 lite box"
+         src="/n64/boxes/gameshark-v3.30-lite-box/gameshark-v3.30-lite-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Animated GIF of the 3D model for a GameShark Pro v3.3 lite box"
+         src="/n64/3dmodels/gameshark-v3.30-lite-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+</p>
+
+<p>
   <a href="/n64-gameshark.md#how-to-hack-like-a-pro-vhs-tapes">
     <img alt="Photo of VHS tape"
          src="n64/vhs/n64_gspro_vhs_tape.jpg"
@@ -252,19 +271,19 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
   <a href="/n64-xplorer.md#v1-box">
     <img alt="Photo of the Xplorer 64 v1 box"
          src="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-400.png"
-         width="200"></a>
+         width="200" height="200"></a>
   <a href="/n64-xplorer.md#v1-box">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
          src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
-         width="200"></a>
+         width="200" height="200"></a>
   <a href="/n64-xplorer.md#v2-box">
     <img alt="Photo of the Xplorer 64 V2 box"
          src="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-400.png"
-         width="200"></a>
+         width="200" height="200"></a>
   <a href="/n64-xplorer.md#v2-box">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
          src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
-         width="200"></a>
+         width="200" height="200"></a>
 </p>
 
 [Learn more about the N64 Xplorer 64!](/n64-xplorer.md)
