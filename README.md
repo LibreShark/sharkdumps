@@ -542,6 +542,14 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 ## GBC GameShark Pro v3.0
 
 <p>
+  <a href="/gbc/photos/gspro-v3.0-shell-front-65x94mm.png">
+    <img alt="Photo of the GBC GameShark Pro v3.0 shell front side"
+         src="/gbc/photos/gspro-v3.0-shell-front-200.png"
+     width="200" height="200"></a>
+  <a href="/gbc/photos/gspro-v3.0-shell-rear-65x94mm.png">
+    <img alt="Photo of the GBC GameShark Pro v3.0 shell back side"
+         src="/gbc/photos/gspro-v3.0-shell-rear-200.png"
+     width="200" height="200"></a>
   <a href="/gbc/boxes/gspro-v3.0-box/gspro-v3.0-box-all-12.5x8.75in.png">
     <img alt="Flat photo of the GBC GameShark Pro v3.0 box"
          src="/gbc/boxes/gspro-v3.0-box/gspro-v3.0-box-all-400.png"
