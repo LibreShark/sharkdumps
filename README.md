@@ -522,7 +522,7 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
   <img alt="Flat photo of the GBC Code Breaker box"
        src="/gbc/boxes/codebreaker-box/gbc-codebreaker-box-all-400.png"
        width="200" height="200">
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=gbc-gspro-v3.0-box&size=full&autorotate=5">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=gbc-codebreaker-box&size=full&autorotate=5">
     <img alt="Preview of GBC Code Breaker box 3D model"
          src="/gbc/3dmodels/codebreaker-box/thumbnail-400.gif"
          width="200" height="200"></a>
