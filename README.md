@@ -536,7 +536,7 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
   <img alt="Flat photo of the GBC GameShark Pro v3.0 box"
        src="/gbc/boxes/gspro-v3.0-box/gspro-v3.0-box-all-400.png"
        width="200" height="200">
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=gbc-codebreaker-box&size=full&autorotate=5">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=gbc-gspro-v3.0-box&size=full&autorotate=5">
     <img alt="Preview of GBC GameShark Pro v3.0 box 3D model"
          src="/gbc/3dmodels/gspro-v3.0-box/thumbnail-400.gif"
          width="200" height="200"></a>
