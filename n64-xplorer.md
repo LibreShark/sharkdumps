@@ -163,7 +163,7 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
 <p>
   <a href="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-all-15x13in.png">
     <img alt="Full flat photo of the Xplorer64 v1 box"
-         src="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-400.png"
+         src="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-all-400.png"
          width="400"></a>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v1-box/index.html" target="_blank">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
@@ -191,7 +191,7 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
 <p>
   <a href="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-all-12x11.25in.png">
     <img alt="Full flat photo of the Xplorer64 v2 box"
-         src="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-400.png"
+         src="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-all-400.png"
          width="400"></a>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/xplorer64-v2-box/index.html" target="_blank">
     <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
