@@ -616,7 +616,7 @@ To view the contents of the ROM dumps, use our [Xploder GB ROM hexpattern](/hexp
 |:------------------------------------------ |:--------- |:-------------------------- | ---:| ---:|:------:|
 | [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  | 210 | 447 | ⚠️      |
 
-[`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gb/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
+[`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gbc/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
 
 EEPROM: `SST29EE020` `PLCC32`
 
@@ -672,7 +672,7 @@ To view the contents of the ROM dumps, use our [GB Shark MX ROM hexpattern](/hex
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
 | [`gb-shark-mx-v1.02-2000-pristine.bin`][] | `v1.02` | `2000`     | `SST39SF020PLCC32` | ⭐️ |
 
-[`gb-shark-mx-v1.02-2000-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-2000-pristine.bin
+[`gb-shark-mx-v1.02-2000-pristine.bin`]: /gbc/firmware/gbc-shark-mx-v1.02-2000-pristine.bin
 
 From https://gameshark-mx.blogspot.com/:
 
@@ -720,8 +720,8 @@ _Dumped by @RWeick and @felixjones_
 | [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | NTSC-M (US) | `MBM29LV400TCTSOP48` | ? |
 | [`gba-blaze-tv-tuner-tvap-0.7z`]                  | ?       | ?          | PAL-? (EU)  | ?                    | ? |
 
-[`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gb/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
-[`gba-blaze-tv-tuner-tvap-0.7z`]:                /gb/firmware/gba-blaze-tv-tuner-tvap-0.7z
+[`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gba/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
+[`gba-blaze-tv-tuner-tvap-0.7z`]:                /gba/firmware/gba-blaze-tv-tuner-tvap-0.7z
 
 More information:
 
