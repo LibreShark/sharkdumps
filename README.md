@@ -519,13 +519,13 @@ For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Ad
 ## GBC Code Breaker
 
 <p>
-  <a href="/gbc/photos/gbc-codebreaker-shell-front-62x107.5mm.png">
+  <a href="/gbc/photos/codebreaker-shell-front-62x107.5mm.png">
     <img alt="Photo of the GBC Code Breaker shell front side"
-         src="/gbc/photos/gbc-codebreaker-shell-front-200.png"
+         src="/gbc/photos/codebreaker-shell-front-200.png"
      width="200" height="200"></a>
-  <a href="/gbc/photos/gbc-codebreaker-shell-rear-62x107.5mm.png">
+  <a href="/gbc/photos/codebreaker-shell-rear-62x107.5mm.png">
     <img alt="Photo of the GBC Code Breaker shell back side"
-         src="/gbc/photos/gbc-codebreaker-shell-rear-200.png"
+         src="/gbc/photos/codebreaker-shell-rear-200.png"
      width="200" height="200"></a>
   <a href="/gbc/boxes/codebreaker-box/gbc-codebreaker-box-all-13x8in.png">
     <img alt="Flat photo of the GBC Code Breaker box"
