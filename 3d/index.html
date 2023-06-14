@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div id="layout">
+      <div id="controls-section">
+        <div>
+          <label for="model">3D model:</label>
+          <select id="model">
+            <optgroup value="gbc" label="Game Boy Color">
+              <option value="gbc-codebreaker-box">Code Breaker box</option>
+              <option value="gbc-gspro-v3.0-box">GameShark Pro v3.0 box</option>
+            </optgroup>
+            <optgroup value="n64" label="Nintendo 64">
+              <option value="n64-gameshark-v3.20-box">GameShark Pro v3.20 box</option>
+              <option value="n64-gameshark-v3.30-lite-box">GameShark Pro v3.30 lite box</option>
+              <option value="n64-xplorer64-v1-box">Xplorer 64 V1 box</option>
+              <option value="n64-xplorer64-v2-box">Xplorer 64 V2 box</option>
+              <option value="n64-xplorer64-v2-pcb">Xplorer 64 V2 PCB clone by RWeick</option>
+            </optgroup>
+          </select>
+
+          <label for="size">Size:</label>
+          <select id="size">
+            <option value="full">Full window</option>
+            <option value="400px">400px for GIFs</option>
+          </select>
+
+          <label for="autorotate">Auto-rotate:</label>
+          <select id="autorotate">
+            <option value="-1">Never</option>
+            <option value="5" selected>After 5 seconds</option>
+            <option value="10">After 10 seconds</option>
+            <option value="30">After 30 seconds</option>
+            <option value="60">After 60 seconds</option>
+            <option value="0">Always</option>
+          </select>
+
+          <button id="reset-position">Reset position</button>
+        </div>
+      </div>
+
+      <div id="viewer-section">
+        <model-viewer
+          hidden
+          loading="eager"
+          src=""
+          poster=""
+          camera-controls
+          shadow-intensity="1"
+          auto-rotate
+          auto-rotate-delay="5000"
+          rotation-per-second="45deg"
+          interaction-prompt="none"
+          camera-orbit="0deg 75deg 105%"
+          >
+          <div class="progress-bar" slot="progress-bar">
+            <div class="update-bar"></div>
+          </div>
+          <button slot="ar-button" id="ar-button">
+            View in your space
+          </button>
+          <div id="ar-prompt">
+            <img src="ar_hand_prompt.png">
+          </div>
+        </model-viewer>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="./model-viewer.js"></script>
+  </body>
+</html>
