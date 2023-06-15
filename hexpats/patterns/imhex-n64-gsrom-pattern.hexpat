@@ -233,9 +233,9 @@ enum FirmwareBrand : u32 {
 struct HeaderSection {
     u32 startAddr = $;
 
-    char magic1[8]                    [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic1, HEADER_MAGIC_1);
+    u8 magic1[8]                      [[COLOR_MAGIC,     FORMAT_BYTES]]; // assert_magic_str(magic1, HEADER_MAGIC_1);
     u8 mysteriousKeyCodeTailBytes[4]  [[COLOR_IMPORTANT, FORMAT_BYTES]];
-    char magic2[4]                    [[COLOR_MAGIC,     FORMAT_BYTES]]; assert_magic_str(magic2, HEADER_MAGIC_2);
+    u8 magic2[4]                      [[COLOR_MAGIC,     FORMAT_BYTES]]; // assert_magic_str(magic2, HEADER_MAGIC_2);
     u8 ipl3ChunkCrc32[4]              [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     u8 gsFwChunkCrc32[4]              [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     u8 activeKeyCodePrefix[8] @ $ - 8 [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
@@ -547,7 +547,7 @@ fn format_cheat_code_count(CodeCount ccc) {
 fn inflate_cheat_name(str deflated) {
     str inflated = "";
     for (u8 i = 0, i < strlen(deflated), i = i + 1) {
-        char ch = deflated[i];
+        char ch = std::string::at(deflated, i);
         match (ch) {
             (0xF6): inflated += "Key";
             (0xF7): inflated += "Have ";
