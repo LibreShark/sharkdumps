@@ -401,6 +401,9 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 ## PC
 
+- [LGR Oddware: DOS PC Action Replay: The Ultimate Game Buster](https://www.youtube.com/watch?v=usaioMbE8EQ)
+- [LGR Oddware: GameShark for Windows 95: The PC Game Enhancer](https://www.youtube.com/watch?v=pQnCdDpU1to)
+
 ### GameShark v1.1 for Windows 95/98
 
 👉 [More information about PC GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md) 👈
@@ -446,10 +449,10 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 <p>
   <a href="/pc-gameshark-v1.1.md#3d-models">
-    <img src="/pc/gs-win-v1.1/3dmodels/shark/shark-logo.png"
+    <img src="/pc/3dmodels/gs-win-v1.1-shark/shark-logo.png"
          height="150" alt=""></a>
   <a href="/pc-gameshark-v1.1.md#3d-models">
-    <img src="/pc/gs-win-v1.1/3dmodels/interact/interact-logo.png"
+    <img src="/pc/3dmodels/gs-win-v1.1-interact/interact-logo.png"
          height="150" alt=""></a>
 </p>
 
