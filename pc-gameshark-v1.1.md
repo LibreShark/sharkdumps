@@ -141,9 +141,13 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box">
-    <img src="/pc/3dmodels/gs-win-v1.1-box/poster.webp"
-         height="200" alt="Preview of box 3D model">
-  </a>
+    <img alt="Preview of box 3D model"
+         src="/pc/3dmodels/gs-win-v1.1-box/poster.webp"
+         height="200"></a>
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-13.625x17.25in300dpi.png">
+    <img alt="Flatbed scan of box"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-400.png"
+         height="200"></a>
 </p>
 
 **[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box)**
@@ -157,9 +161,9 @@ Modern 3D formats:
 
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interactl">
-    <img src="/pc/3dmodels/gs-win-v1.1-interact/poster.webp"
-         height="200" alt="Preview of InterAct logo 3D model">
-  </a>
+    <img alt="Preview of InterAct logo 3D model"
+         src="/pc/3dmodels/gs-win-v1.1-interact/poster.webp"
+         height="200"></a>
 </p>
 
 **[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interactl)**
@@ -182,9 +186,9 @@ Original DirectX mesh (`.x`) files:
 
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-shark">
-    <img src="/pc/3dmodels/gs-win-v1.1-shark/poster.webp"
-         height="200" alt="Preview of shark logo 3D model">
-  </a>
+    <img alt="Preview of shark logo 3D model"
+         src="/pc/3dmodels/gs-win-v1.1-shark/poster.webp"
+         height="200"></a>
 </p>
 
 **[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-shark)**
