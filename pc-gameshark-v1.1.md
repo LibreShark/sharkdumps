@@ -141,7 +141,7 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box">
-    <img src="/pc/3dmodels/gs-win-v1.1-interact/poster.webp"
+    <img src="/pc/3dmodels/gs-win-v1.1-box/poster.webp"
          width="400" alt="Preview of InterAct logo 3D model">
   </a>
 </p>
