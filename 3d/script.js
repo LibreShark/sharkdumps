@@ -38,7 +38,6 @@ function resetCamera() {
   resetCameraImpl();
   setTimeout(() => {
     resetCameraImpl();
-    debugger;
     modelViewer.autoRotate = autorotateSelectEl.value !== '-1';
   }, 100);
 }

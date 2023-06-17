@@ -164,10 +164,6 @@ Modern 3D formats:
     <img alt="Preview of cardboard tray 3D model"
          src="/pc/3dmodels/gs-win-v1.1-tray/thumbnail-400.gif"
          height="200"></a>
-  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-tray-all-13.625x17.25in300dpi.png">
-    <img alt="Flatbed scan of cardboard tray"
-         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-tray-all-400.png"
-         height="200"></a>
 </p>
 
 **[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray)**
