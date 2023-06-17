@@ -38,9 +38,59 @@ According to [`Readme 1st.txt`](/pc/gs-win-v1.1/assets/Readme_1st.txt), a v1.0 r
 
 ## Box
 
-***TODO(CheatoBaggins): Box photos and scans***
+<p>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box">
+    <img alt="Preview of box 3D model"
+         src="/pc/3dmodels/gs-win-v1.1-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-13.625x17.25in300dpi.png">
+    <img alt="Flatbed scan of box"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-400.png"
+         width="200" height="200"></a>
+</p>
 
-[![PC GameShark v1.1 cardboard tray](/pc/gs-win-v1.1/photos/gs-win-v1.1-cardboard-tray-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-cardboard-tray-3400x1400.png)
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box)**
+
+Modern 3D formats:
+
+- [`.glb` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.glb) ([glTF binary][])
+- [`.skp` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.skp) ([SketchUp][])
+
+## VHS tape
+
+👉 [YouTube: PC GameShark v1.1 for Windows 95/98 VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4) 👈
+
+<p>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray">
+    <img alt="Preview of cardboard tray 3D model"
+         src="/pc/3dmodels/gs-win-v1.1-tray/thumbnail-400.gif"
+         width="200" height="200"></a>
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-cardboard-tray-3400x1400.png">
+    <img alt="PC GameShark v1.1 cardboard tray"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-cardboard-tray-400.png"
+         height="200"></a>
+</p>
+
+<p>
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-2362x324.png">
+    <img alt="PC GameShark v1.1 VHS tape label"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png"
+         height="200"></a>
+</p>
+
+<p>
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-2362x324.png">
+    <img alt="PC GameShark v1.1 VHS tape bottom"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-400.png"
+         width="363"></a>
+</p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray)**
+
+Modern 3D formats:
+
+- [`.glb` format](/pc/3dmodels/gs-win-v1.1-tray/gs-win-v1.1-tray.glb) ([glTF binary][])
+- [`.skp` format](/pc/3dmodels/gs-win-v1.1-tray/gs-win-v1.1-tray.skp) ([SketchUp][])
 
 ## Copy protection dongle
 
@@ -129,51 +179,7 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 > <a href="https://youtu.be/iQGXP2VCm2s" title="View credits.mpg on YouTube"><img src="/pc/gs-win-v1.1/videos/credits-522x212.png" width="522"></a>
 
-## VHS tape
-
-[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-1804x994.png)
-
-[![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-2362x324.png)
-
-[YouTube: PC GameShark v1.1 for Windows 95/98 VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4)
-
 ## 3D models
-
-### Box
-
-<p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box">
-    <img alt="Preview of box 3D model"
-         src="/pc/3dmodels/gs-win-v1.1-box/thumbnail-400.gif"
-         width="200" height="200"></a>
-  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-13.625x17.25in300dpi.png">
-    <img alt="Flatbed scan of box"
-         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-400.png"
-         height="200"></a>
-</p>
-
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box)**
-
-Modern 3D formats:
-
-- [`.glb` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.glb) ([glTF binary][])
-- [`.skp` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.skp) ([SketchUp][])
-
-### Cardboard tray and VHS tape
-
-<p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray">
-    <img alt="Preview of cardboard tray 3D model"
-         src="/pc/3dmodels/gs-win-v1.1-tray/thumbnail-400.gif"
-         width="200" height="200"></a>
-</p>
-
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray)**
-
-Modern 3D formats:
-
-- [`.glb` format](/pc/3dmodels/gs-win-v1.1-tray/gs-win-v1.1-tray.glb) ([glTF binary][])
-- [`.skp` format](/pc/3dmodels/gs-win-v1.1-tray/gs-win-v1.1-tray.skp) ([SketchUp][])
 
 ### InterAct logo
 
