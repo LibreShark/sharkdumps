@@ -131,7 +131,9 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 
 ## VHS tape
 
-[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-1804x994.png) [![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-2362x324.png)
+[![PC GameShark v1.1 VHS tape label](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-1804x994.png)
+
+[![PC GameShark v1.1 VHS tape bottom](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-400.png)](/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-2362x324.png)
 
 [YouTube: PC GameShark v1.1 for Windows 95/98 VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4)
 
