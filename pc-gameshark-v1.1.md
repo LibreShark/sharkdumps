@@ -157,7 +157,7 @@ Modern 3D formats:
 - [`.glb` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.glb) ([glTF binary][])
 - [`.skp` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.skp) ([SketchUp][])
 
-### Cardboard tray
+### Cardboard tray and VHS tape
 
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray">
