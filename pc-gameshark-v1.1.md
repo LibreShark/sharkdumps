@@ -78,7 +78,7 @@ Modern 3D formats:
 </p>
 
 <p>
-  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-bottom-2362x324.png">
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-1804x994.png">
     <img alt="PC GameShark v1.1 VHS tape label"
          src="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png"
          height="200"></a>
