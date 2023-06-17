@@ -142,7 +142,7 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-box">
     <img alt="Preview of box 3D model"
-         src="/pc/3dmodels/gs-win-v1.1-box/poster.webp"
+         src="/pc/3dmodels/gs-win-v1.1-box/thumbnail-400.gif"
          height="200"></a>
   <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-box-all-13.625x17.25in300dpi.png">
     <img alt="Flatbed scan of box"
@@ -157,12 +157,32 @@ Modern 3D formats:
 - [`.glb` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.glb) ([glTF binary][])
 - [`.skp` format](/pc/3dmodels/gs-win-v1.1-box/gs-win-v1.1-box.skp) ([SketchUp][])
 
+### Cardboard tray
+
+<p>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray">
+    <img alt="Preview of cardboard tray 3D model"
+         src="/pc/3dmodels/gs-win-v1.1-tray/thumbnail-400.gif"
+         height="200"></a>
+  <a href="/pc/gs-win-v1.1/photos/gs-win-v1.1-tray-all-13.625x17.25in300dpi.png">
+    <img alt="Flatbed scan of cardboard tray"
+         src="/pc/gs-win-v1.1/photos/gs-win-v1.1-tray-all-400.png"
+         height="200"></a>
+</p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-tray)**
+
+Modern 3D formats:
+
+- [`.glb` format](/pc/3dmodels/gs-win-v1.1-tray/gs-win-v1.1-tray.glb) ([glTF binary][])
+- [`.skp` format](/pc/3dmodels/gs-win-v1.1-tray/gs-win-v1.1-tray.skp) ([SketchUp][])
+
 ### InterAct logo
 
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interactl">
     <img alt="Preview of InterAct logo 3D model"
-         src="/pc/3dmodels/gs-win-v1.1-interact/poster.webp"
+         src="/pc/3dmodels/gs-win-v1.1-interact/thumbnail-400.gif"
          height="200"></a>
 </p>
 
@@ -187,7 +207,7 @@ Original DirectX mesh (`.x`) files:
 <p>
   <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-shark">
     <img alt="Preview of shark logo 3D model"
-         src="/pc/3dmodels/gs-win-v1.1-shark/poster.webp"
+         src="/pc/3dmodels/gs-win-v1.1-shark/thumbnail-400.gif"
          height="200"></a>
 </p>
 
