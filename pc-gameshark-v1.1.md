@@ -1,5 +1,11 @@
 # PC GameShark v1.1 for Windows 95/98
 
+YouTube videos:
+
+- [VHS tape — 1998](https://www.youtube.com/watch?v=7CHHTfmpJB4)
+- [LGR Oddware - GameShark for Windows 95: The PC Game Enhancer](https://www.youtube.com/watch?v=pQnCdDpU1to)
+- [LGR Oddware - DOS PC Action Replay: The Ultimate Game Buster](https://www.youtube.com/watch?v=usaioMbE8EQ)
+
 ## Compatibility
 
 <img src="/assets/logos/windows-95-logo-2500.png"
