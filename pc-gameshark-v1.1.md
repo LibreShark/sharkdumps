@@ -190,13 +190,13 @@ Authentic dongles are hard to find these days, so @RWeick has created an open so
 ### InterAct logo
 
 <p>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interactl">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interact">
     <img alt="Preview of InterAct logo 3D model"
          src="/pc/3dmodels/gs-win-v1.1-interact/thumbnail-400.gif"
          width="200" height="200"></a>
 </p>
 
-**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interactl)**
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=pc-gs-win-v1.1-interact)**
 
 Modern 3D formats:
 
