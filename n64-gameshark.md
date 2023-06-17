@@ -407,11 +407,11 @@ _Photographed, restored, and 3D modeled by @CheatoBaggins_
   <a href="/n64/boxes/gameshark-v3.20-box/gameshark-v3.20-box-all-15x12.5in.png">
     <img alt="Full flat photo of the GameShark Pro v3.2 box"
          src="/n64/boxes/gameshark-v3.20-box/gameshark-v3.20-box-all-400.png"
-         width="400"></a>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/gameshark-v3.20-box/index.html" target="_blank">
+         width="400" height="400"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-gameshark-v3.20-box" target="_blank">
     <img alt="Animated GIF of the 3D model for a GameShark Pro v3.2 box"
          src="/n64/3dmodels/gameshark-v3.20-box/thumbnail-400.gif"
-         width="400"></a>
+         width="400" height="400"></a>
 </p>
 
 ### v3.3 rev1 box (with VHS tape)
@@ -441,7 +441,7 @@ _TODO(CheatoBaggins): Photograph and 3D model_
     <img alt="Full flat photo of the GameShark Pro v3.3 lite box"
          src="/n64/boxes/gameshark-v3.30-lite-box/gameshark-v3.30-lite-box-all-400.png"
          width="400"></a>
-  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/n64/3dmodels/gameshark-v3.30-lite-box/index.html" target="_blank">
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-gameshark-v3.30-lite-box" target="_blank">
     <img alt="Animated GIF of the 3D model for a GameShark Pro v3.3 lite box"
          src="/n64/3dmodels/gameshark-v3.30-lite-box/thumbnail-400.gif"
          width="400"></a>
