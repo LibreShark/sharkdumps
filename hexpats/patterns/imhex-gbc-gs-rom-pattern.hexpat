@@ -146,22 +146,9 @@ fn format_bytes(auto bytes) {
  * ROM file
  ******************************************************************************/
 
-struct Code {
-    u8 bytes[4] [[COLOR_LOWLIGHT]];
-} [[format_read("format_code")]];
-
-fn format_code(Code code) {
-    return std::format(
-        "{:02X}{:02X}{:02X}{:02X}",
-        code.bytes[0],
-        code.bytes[1],
-        code.bytes[2],
-        code.bytes[3]
-        );
-};
-
 struct Cheat {
-    Code code [[FORMAT_BYTES]];
+    //Code code [[FORMAT_BYTES]];
+    u8 code[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
     char cheatName[0xC] [[COLOR_PRIMARY]];
     u8 unknownByte1 [[COLOR_IMPORTANT]];
     u8 unknownByte2 [[COLOR_IMPORTANT]];
@@ -218,6 +205,8 @@ struct ROM {
 
     GameList gameList @ 0x00008000;
     CheatList cheatList @ 0x0000A000;
+
+    char selectedGame[while($ < 0x1380F && !is_null())] @ 0x13800;
 };
 
 /*******************************************************************************
