@@ -88,13 +88,13 @@ Taken from an Xplorer 64 cart with an **orange** label:
 
 _Dumped by @RWeick, @danhans42_, and @CheatoBaggins
 
-| Filename                                          | Language | #G | #C | Clean?    |
-|:------------------------------------------------- |:-------- | --:| --:|:---------:|
-| [`xplorer64-v1.000e-b1772-19990507-green.bin`][]  | `en-GB`  |  ? |  ? | ⚠️         |
-| [`xplorer64-v1.000e-b1834-19990816-green.bin`][]  | `en-GB`  |  ? |  ? | ⚠️         |
-| [`xplorer64-v1.067e-b2510-19991123.bin`][]        | `en-GB`  |  ? |  ? | ⚠️         |
-| [`xplorer64-v1.067g-b1930-19991124.bin`][]        | `de-DE`  |  ? |  ? | ⚠️         |
-| [`xplorer64-v1.067e-b2515-20000505-orange.bin`][] | `en-GB`  |  ? |  ? | ⚠️         |
+| Filename                                          | Language |  #G |   #C | Clean?    |
+|:------------------------------------------------- |:-------- | ---:| ----:|:---------:|
+| [`xplorer64-v1.000e-b1772-19990507-green.bin`][]  | `en-GB`  |  35 |  217 | ⚠️         |
+| [`xplorer64-v1.000e-b1834-19990816-green.bin`][]  | `en-GB`  |  50 |  248 | ⚠️         |
+| [`xplorer64-v1.067e-b2510-19991123.bin`][]        | `en-GB`  |   8 |  441 | ⚠️         |
+| [`xplorer64-v1.067g-b1930-19991124.bin`][]        | `de-DE`  | 121 | 2615 | ⚠️         |
+| [`xplorer64-v1.067e-b2515-20000505-orange.bin`][] | `en-GB`  |  80 |  453 | ⚠️         |
 
 [`xplorer64-v1.000e-b1772-19990507-green.bin`]:  /n64/firmware/xplorer64-v1.000e-b1772-19990507-green.bin
 [`xplorer64-v1.000e-b1834-19990816-green.bin`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green.bin
