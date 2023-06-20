@@ -86,25 +86,21 @@ Taken from an Xplorer 64 cart with an **orange** label:
 
 ## Firmware
 
-_Dumped by @RWeick and @danhans42_
+_Dumped by @RWeick, @danhans42_, and @CheatoBaggins
 
-| Filename                                                            | Language | #G | #C | Clean?    | Unencrypted? |
-|:------------------------------------------------------------------- |:-------- | --:| --:|:---------:|:------------:|
-|  `xplorer64-v1.000e-b1772-19990507-green.bin`                       | `en-GB`  |  ? |  ? | _Unknown_ | ❌            |
-| [`xplorer64-v1.000e-b1834-19990816-green-scrambled.bin`][][^b1834]  | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
-| [`xplorer64-v1.067e-b2510-19991123.bin`][][^b2510]                  | `en-GB`  |  ? |  ? | ⚠️         | ✅            |
-| [`xplorer64-v1.067g-b1930-19991124.bin`][][^b1930]                  | `de-DE`  |  ? |  ? | ⚠️         | ✅            |
-| [`xplorer64-v1.067e-b2515-20000505-orange-scrambled.bin`][][^b2515] | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
+| Filename                                          | Language | #G | #C | Clean?    |
+|:------------------------------------------------- |:-------- | --:| --:|:---------:|
+| [`xplorer64-v1.000e-b1772-19990507-green.bin`][]  | `en-GB`  |  ? |  ? | ⚠️         |
+| [`xplorer64-v1.000e-b1834-19990816-green.bin`][]  | `en-GB`  |  ? |  ? | ⚠️         |
+| [`xplorer64-v1.067e-b2510-19991123.bin`][]        | `en-GB`  |  ? |  ? | ⚠️         |
+| [`xplorer64-v1.067g-b1930-19991124.bin`][]        | `de-DE`  |  ? |  ? | ⚠️         |
+| [`xplorer64-v1.067e-b2515-20000505-orange.bin`][] | `en-GB`  |  ? |  ? | ⚠️         |
 
-[`xplorer64-v1.000e-b1834-19990816-green-scrambled.bin`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green-scrambled.bin
-[`xplorer64-v1.067e-b2510-19991123.bin`]:                  /n64/firmware/xplorer64-v1.067e-b2510-19991123.bin
-[`xplorer64-v1.067g-b1930-19991124.bin`]:                  /n64/firmware/xplorer64-v1.067g-b1930-19991124.bin
-[`xplorer64-v1.067e-b2515-20000505-orange-scrambled.bin`]: /n64/firmware/xplorer64-v1.067e-b2515-20000505-orange-scrambled.bin
-
-[^b1834]: Raw **scrambled** firmware dump from a green Xplorer 64 cart.
-[^b2510]: Plain **unencrypted** firmware update file from Blaze.
-[^b1930]: Plain **unencrypted** firmware update file from Blaze.
-[^b2515]: Raw **scrambled** firmware dump from an orange Xplorer 64 cart.
+[`xplorer64-v1.000e-b1772-19990507-green.bin`]:  /n64/firmware/xplorer64-v1.000e-b1772-19990507-green.bin
+[`xplorer64-v1.000e-b1834-19990816-green.bin`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green.bin
+[`xplorer64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xplorer64-v1.067e-b2510-19991123.bin
+[`xplorer64-v1.067g-b1930-19991124.bin`]:        /n64/firmware/xplorer64-v1.067g-b1930-19991124.bin
+[`xplorer64-v1.067e-b2515-20000505-orange.bin`]: /n64/firmware/xplorer64-v1.067e-b2515-20000505-orange.bin
 
 To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
