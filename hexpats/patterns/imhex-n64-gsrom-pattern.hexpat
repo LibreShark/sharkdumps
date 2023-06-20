@@ -240,13 +240,14 @@ struct HeaderSection {
     u8 gsFwChunkCrc32[4]              [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     u8 activeKeyCodePrefix[8] @ $ - 8 [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     padding[8];
-    char manufacturerName[16]         [[COLOR_LOWLIGHT]];
+    char manufacturerName[14]         [[COLOR_LOWLIGHT]];
+    u8 unknownBytes1[2]               [[COLOR_UNKNOWN,   FORMAT_BYTES]];
     BuildTimestamp buildTimestamp;
     u8 unknownBytes[0x40 - $]         [[COLOR_UNKNOWN,   FORMAT_BYTES]];
 
-    bool isV1or2 = manufacturerName == "(C) DATEL D&D NU";
-    bool isV3Pro = manufacturerName == "(C) MUSHROOM &NU";
-    bool isTrain = manufacturerName == "Perfect Trainer ";
+    bool isV1or2 = manufacturerName == "(C) DATEL D&D ";
+    bool isV3Pro = manufacturerName == "(C) MUSHROOM &";
+    bool isTrain = manufacturerName == "Perfect Traine";
 
     FirmwareBrand firmwareBrand = FirmwareBrand::UNKNOWN_BRAND;
     double firmwareVersion = 0.00;
