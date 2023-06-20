@@ -86,7 +86,7 @@ Taken from an Xplorer 64 cart with an **orange** label:
 
 ## Firmware
 
-_Dumped by @RWeick, @danhans42_, and @CheatoBaggins
+_Dumped by @RWeick, @danhans42, and @CheatoBaggins_
 
 | Filename                                          | Language |  #G |   #C | Clean?    |
 |:------------------------------------------------- |:-------- | ---:| ----:|:---------:|
