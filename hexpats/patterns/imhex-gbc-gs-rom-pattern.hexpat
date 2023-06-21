@@ -147,14 +147,10 @@ fn format_bytes(auto bytes) {
  ******************************************************************************/
 
 struct Cheat {
-    //Code code [[FORMAT_BYTES]];
-    u8 code[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
+    // 1-indexed!
+    u8 cheatNumberBytes[2] [[FORMAT_BYTES, COLOR_IMPORTANT]];
     char cheatName[0xC] [[COLOR_PRIMARY]];
-    u8 unknownByte1 [[COLOR_IMPORTANT]];
-    u8 unknownByte2 [[COLOR_IMPORTANT]];
-    //char name[] [[COLOR_PRIMARY]];
-    //u8 codeCount [[COLOR_LOWLIGHT]];
-    //Array<Code, codeCount> codes;
+    u8 code[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
 }; // [[format_read("format_cheat")]];
 
 fn format_cheat(Cheat cheat) {
@@ -166,14 +162,13 @@ fn format_cheat(Cheat cheat) {
 };
 
 struct CheatList {
+    u8 unknownBytes1[2] [[FORMAT_BYTES, COLOR_IMPORTANT]];
     // The number 455 is hard-coded and pre-allocated in the ROM file.
     // WARNING: Some versions pre-allocate with spaces, other preallocate with null bytes!
     Cheat cheats1[455];
-    u8 unknownByte1 [[COLOR_IMPORTANT]];
-    u8 unknownByte2 [[COLOR_IMPORTANT]];
+    u8 unknownBytes2[2] [[FORMAT_BYTES, COLOR_IMPORTANT]];
     Cheat cheats2[455];
-    u8 unknownByte3 [[COLOR_IMPORTANT]];
-    u8 unknownByte4 [[COLOR_IMPORTANT]];
+    u8 unknownBytes3[2] [[FORMAT_BYTES, COLOR_IMPORTANT]];
     Cheat cheats3[455];
 };
 
