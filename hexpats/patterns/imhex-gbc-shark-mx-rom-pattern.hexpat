@@ -1,12 +1,12 @@
 /*!
- * ImHex pattern for Blaze Xploder GB ROM files (firmware dumps).
+ * ImHex pattern for GBC "Shark MX" firmware dumps.
  *
  * @author CheatoBaggins <cheatobaggins@gmail.com>
- * @date 2023-06-19
+ * @date 2023-05-04
  * @license MIT
  */
 
-#pragma MIME application/x-gbc-gs-rom
+#pragma MIME application/x-gb-shark-mx-rom
 
 #include <type/magic.pat>
 #include <type/size.pat>
@@ -93,6 +93,16 @@ fn read_next_byte() {
     return std::mem::read_unsigned($, 1);
 };
 
+fn read_byte_at(u32 pos) {
+    return std::mem::read_unsigned(pos, 1);
+};
+
+fn is_padding() {
+    u32 val = read_u32_at($);
+    return val == 0x00000000 ||
+           val == 0xFFFFFFFF;
+};
+
 fn is_null() {
     return read_next_byte() == 0;
 };
@@ -114,6 +124,33 @@ fn is_iso_date_char() {
 fn is_printable_char() {
     u8 b = read_next_byte();
     return b >= ' ' && b <= '~';
+};
+
+fn is_space() {
+    u8 b = read_next_byte();
+    return b == ' ';
+};
+
+fn is_whitespace() {
+    u8 b = read_next_byte();
+    return b == ' ' || b == '\t' || b == '\n' || b == '\r' || b == '\f';
+};
+
+fn is_tabdb() {
+    u8 b1 = read_byte_at($ + 0);
+    u8 b2 = read_byte_at($ + 1);
+    u8 b3 = read_byte_at($ + 2);
+    bool isTab = b1 == 0x09;
+    bool isD = b2 == 'd';
+    bool isB = b3 == 'b';
+    std::print("");
+    std::print("0x{:08X} = '{}' (0x{:02X}) == '\t': {}", $ + 0, char(b1), b1, isTab);
+    std::print("0x{:08X} = '{}' (0x{:02X}) == 'd': {}", $ + 1, char(b2), b2, isD);
+    std::print("0x{:08X} = '{}' (0x{:02X}) == 'b': {}", $ + 2, char(b3), b3, isB);
+    bool ret = isTab && isD && isB;
+    std::print("> is_tabdb() = {}", ret);
+    std::print("");
+    return ret;
 };
 
 fn parse_int(auto s) {
@@ -146,57 +183,65 @@ fn format_bytes(auto bytes) {
  * ROM file
  ******************************************************************************/
 
-struct UnknownNameStruct {
-    char name[15] [[COLOR_PRIMARY]];
-    u8 unknownBytes[49] [[FORMAT_BYTES, COLOR_UNKNOWN]];
+struct TimeZoneEntry {
+    char utcOffsetStr[3]  [[COLOR_LOWLIGHT]];
+    u8 unknown[2]         [[COLOR_IMPORTANT, FORMAT_BYTES]];
+    char name[]           [[COLOR_PRIMARY]];
+} [[format_read("format_tz_entry")]];
+
+fn format_tz_entry(TimeZoneEntry tz) {
+    return std::format(
+        "UTC{} ({})",
+        tz.utcOffsetStr,
+        tz.name
+        );
 };
 
-struct Code {
-    u8 codeBytes[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
-    u8 nameIndex [[COLOR_IMPORTANT]];
-    u32 pos = $;
-    char nameStr[8] @ (0x67F0 + (nameIndex * 8));
-    pos = $;
-} [[format_read("format_code")]];
+struct Contact {
+    char entryNumber[2]  [[COLOR_LOWLIGHT]];
+    char personName[]    [[COLOR_PRIMARY]];
+    char emailAddress[]  [[COLOR_IMPORTANT]];
+    char unknownField1[] [[COLOR_IMPORTANT]];
+    char unknownField2[] [[COLOR_IMPORTANT]];
+    char phoneNumber[]   [[COLOR_IMPORTANT]];
+    char streetAddress[] [[COLOR_IMPORTANT]];
+} [[format_read("format_mem_entry")]];
 
-fn format_code(Code code) {
-    return std::format("{} = {}", code.nameStr, format_bytes(code.codeBytes));
+fn format_mem_entry(Contact entry) {
+    return std::format(
+        "Contact # {}: \"{}\": \"{}\"",
+        entry.entryNumber,
+        entry.personName,
+        entry.emailAddress
+        );
 };
 
-struct Game {
-    u32 startAddr = $;
-    char gameName[] [[COLOR_PRIMARY]];
-    $ = startAddr + 0x10;
-    Code codes[while($ < startAddr + 0x60 && read_u32_at($) != 0)];
-    u32 paddingSize = startAddr + 0x60 - $;
-    padding[paddingSize];
-    if (read_u32_at($) == 0) {
-        padding[0x60];
-    }
+struct Message {
+    char subject[while(is_printable_char())];
+    padding[1];
+    char senderAddr[while(is_printable_char())];
+    padding[1];
+    char unknownField1[while(is_printable_char())];
+    padding[1];
+    char date[while(is_printable_char())];
+    padding[1];
+    char message[while(is_printable_char())];
+    padding[1];
+    char unknownField2[while(is_printable_char())];
 };
 
-struct CheatName {
-    char name[8];
-} [[format_read("format_cheat_name")]];
-
-fn format_cheat_name(CheatName cn) {
-    return cn.name;
-};
-
-struct ROM {
-    char productId[0x20] @ 0x00;
-    CheatName cheatNames[16] @ 0x67F0;
-
-    UnknownNameStruct unknownNameStructs[while(!is_null() && read_next_byte() != 0x43)] @ 0xD800;
-
-    u32 stsAddr = find(0, 0x20000, 'S','e','l','f','-','T','e','s','t',' ','S','c','r','e','e','n');
-    u32 digitsAddr = find(stsAddr, stsAddr + 0x1000, '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F');
-    u32 roughLen = digitsAddr - stsAddr;
-    char productVersion[roughLen] @ stsAddr;
-
-    Game games[while(read_u32_at($) != 0)] @ 0x22000;
-
-    char activeGame[] @ 0x3C680;
+struct Rom {
+    u32 welcomeAddr = find($, std::mem::size(), 'W','e','l','c','o','m','e',' ','t','o');
+    u32 versionAddr = find($, std::mem::size(), 'S','h','a','r','k',' ','M','X',' ');
+    char welcome[] @ welcomeAddr;
+    char version[] @ versionAddr;
+    Array<TimeZoneEntry, 41> timeZones @ 0x00009257;
+    Array<Contact, 50> contacts        @ 0x0000C060;
+    char unknownStr1[]    @ 0x00018400;
+    char regCodeCopy1[16] @ 0x00020000;
+    char regCodeCopy2[16] @ 0x00020010;
+    char secretPin[while(is_printable_char())] @ 0x0002007C;
+    Message messages[while(!is_padding())] @ 0x00021000;
 };
 
 /*******************************************************************************
@@ -204,6 +249,6 @@ struct ROM {
  ******************************************************************************/
 
 u64 fileSize = std::mem::size();
-//assert(fileSize == 0x00020000, "GBC GameShark/Action Replay ROMs must be EXACTLY 128 KiB (0x20000 bytes), but found 0x{:X} bytes.", fileSize);
+assert(fileSize == 0x00040000, "GBC Shark MX ROMs must be EXACTLY 256 KiB (0x40000 bytes), but found 0x{:X} bytes.", fileSize);
 
-le ROM rom @ 0x00;
+le Rom rom @ 0x00;

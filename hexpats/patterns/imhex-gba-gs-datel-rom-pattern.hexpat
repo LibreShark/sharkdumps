@@ -146,57 +146,57 @@ fn format_bytes(auto bytes) {
  * ROM file
  ******************************************************************************/
 
-struct UnknownNameStruct {
-    char name[15] [[COLOR_PRIMARY]];
-    u8 unknownBytes[49] [[FORMAT_BYTES, COLOR_UNKNOWN]];
+struct Code {
+  u8 addr[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
+  u8 value[4] [[FORMAT_BYTES, COLOR_HIGHLIGHT]];
 };
 
-struct Code {
-    u8 codeBytes[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
-    u8 nameIndex [[COLOR_IMPORTANT]];
-    u32 pos = $;
-    char nameStr[8] @ (0x67F0 + (nameIndex * 8));
-    pos = $;
-} [[format_read("format_code")]];
+struct Cheat {
+    u8 codeCount;
+    padding[2];
+    u8 unknownByte2;
 
-fn format_code(Code code) {
-    return std::format("{} = {}", code.nameStr, format_bytes(code.codeBytes));
+    char cheatName[20] [[COLOR_PRIMARY]];
+    //u8 cheatNumberBytes[2] [[FORMAT_BYTES, COLOR_IMPORTANT]];
+    Code code[codeCount / 2];
+}; // [[format_read("format_cheat")]];
+
+fn format_cheat(Cheat cheat) {
+    return std::format(
+        "\"{}\" ({} {})",
+        cheat.name,
+        cheat.codeCount,
+        cheat.codeCount == 1 ? "code" : "codes");
 };
 
 struct Game {
-    u32 startAddr = $;
-    char gameName[] [[COLOR_PRIMARY]];
-    $ = startAddr + 0x10;
-    Code codes[while($ < startAddr + 0x60 && read_u32_at($) != 0)];
-    u32 paddingSize = startAddr + 0x60 - $;
-    padding[paddingSize];
-    if (read_u32_at($) == 0) {
-        padding[0x60];
-    }
+    char gameName[20] [[COLOR_PRIMARY]];
+    u8 cheatCount;
+    padding[3];
+    
+    Cheat cheats[cheatCount];
+}; // [[format_read("format_game")]];
+
+fn format_game(Game game) {
+    return std::format(
+        "\"{}\" ({} {})",
+        game.name,
+        game.cheatCount,
+        game.cheatCount == 1 ? "cheat" : "cheats");
 };
 
-struct CheatName {
-    char name[8];
-} [[format_read("format_cheat_name")]];
-
-fn format_cheat_name(CheatName cn) {
-    return cn.name;
+struct GameList {
+    u16 gameCount;
+    padding[2];
+    Game games[gameCount];
 };
 
 struct ROM {
-    char productId[0x20] @ 0x00;
-    CheatName cheatNames[16] @ 0x67F0;
+    char productId[4] @ 0x00021000;
+    u8 minorVersion @ 0x00021004;
+    u8 majorVersion @ 0x00021005;
 
-    UnknownNameStruct unknownNameStructs[while(!is_null() && read_next_byte() != 0x43)] @ 0xD800;
-
-    u32 stsAddr = find(0, 0x20000, 'S','e','l','f','-','T','e','s','t',' ','S','c','r','e','e','n');
-    u32 digitsAddr = find(stsAddr, stsAddr + 0x1000, '0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F');
-    u32 roughLen = digitsAddr - stsAddr;
-    char productVersion[roughLen] @ stsAddr;
-
-    Game games[while(read_u32_at($) != 0)] @ 0x22000;
-
-    char activeGame[] @ 0x3C680;
+    GameList gameList @ 0x00021040;
 };
 
 /*******************************************************************************
@@ -204,6 +204,6 @@ struct ROM {
  ******************************************************************************/
 
 u64 fileSize = std::mem::size();
-//assert(fileSize == 0x00020000, "GBC GameShark/Action Replay ROMs must be EXACTLY 128 KiB (0x20000 bytes), but found 0x{:X} bytes.", fileSize);
+assert(fileSize == 0x00040000, "GBC GameShark/Action Replay ROMs must be EXACTLY 256 KiB (0x40000 bytes), but found 0x{:X} bytes.", fileSize);
 
 le ROM rom @ 0x00;
