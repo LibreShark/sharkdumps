@@ -2,7 +2,7 @@
 
 _NOTE: "Xplorer" and "Xploder" both refer to the same product. Blaze was inconsistent with their branding and used both names interchangeably._
 
-Published in Europe by Blaze.
+Made by _Future Console Design_ (FCD) for Blaze. Sold in the US, UK, and Germany by Fire International Ltd.
 
 ## Shells
 
@@ -15,9 +15,24 @@ Published in Europe by Blaze.
 
 _Expertly traced in CAD by @RWeick_
 
-<img src="/assets/photos/n64-xplorer64-pcb-clone-1280.png" alt="Xplorer 64 PCB clone" width="200">
+[Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
 
-- [Xplorer 64 PCB clone](https://github.com/RWeick/FCD-0003.1S-Xplorer64)
+<a href="https://github.com/RWeick/FCD-0003.1S-Xplorer64" target="_blank">
+  <img alt="Xplorer 64 PCB clone"
+       src="/assets/photos/n64-xplorer64-pcb-clone-1280.png"
+       width="200"></a>
+<a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-xplorer64-v2-pcb" target="_blank">
+  <img alt="3D model of RWeick's Xplorer 64 PCB clone"
+       src="/n64/3dmodels/xplorer64-v2-pcb/thumbnail-400.gif"
+       width="200" height="200"></a>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-xplorer64-v2-pcb)**
+
+3D model files:
+
+| Download                                                                      | Ext.   | 3D file format     | Size      |
+|:----------------------------------------------------------------------------- |:------ |:------------------ | ---------:|
+| [`xplorer64-v2-pcb.glb`](/n64/3dmodels/xplorer64-v2-pcb/xplorer64-v2-pcb.glb) | `.glb` | Binary glTF format | `6.8 MiB` |
 
 ## Screenshots
 
@@ -71,25 +86,21 @@ Taken from an Xplorer 64 cart with an **orange** label:
 
 ## Firmware
 
-_Dumped by @RWeick and @danhans42_
+_Dumped by @RWeick, @danhans42, and @CheatoBaggins_
 
-| Filename                                                  | Language | #G | #C | Clean?    | Unencrypted? |
-|:--------------------------------------------------------- |:-------- | --:| --:|:---------:|:------------:|
-|  `xplorer64-v1.000e-b1772-xxxxxxxx-green.enc`             | `en-GB`  |  ? |  ? | _Unknown_ | ❌            |
-| [`xplorer64-v1.000e-b1834-19990816-green.enc`][][^b1834]  | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
-| [`xplorer64-v1.067e-b2510-19991123.bin`][][^b2510]        | `en-GB`  |  ? |  ? | ⚠️         | ✅            |
-| [`xplorer64-v1.067g-b1930-19991124.bin`][][^b1930]        | `de-DE`  |  ? |  ? | ⚠️         | ✅            |
-| [`xplorer64-v1.067e-b2515-20000505-orange.enc`][][^b2515] | `en-GB`  |  ? |  ? | ⚠️         | ❌            |
+| Filename                                          | Language |  #G |   #C | Clean?    |
+|:------------------------------------------------- |:-------- | ---:| ----:|:---------:|
+| [`xplorer64-v1.000e-b1772-19990507-green.bin`][]  | `en-GB`  |  35 |  217 | ⚠️         |
+| [`xplorer64-v1.000e-b1834-19990816-green.bin`][]  | `en-GB`  |  50 |  248 | ⚠️         |
+| [`xplorer64-v1.067e-b2510-19991123.bin`][]        | `en-GB`  |   8 |  441 | ⚠️         |
+| [`xplorer64-v1.067g-b1930-19991124.bin`][]        | `de-DE`  | 121 | 2615 | ⚠️         |
+| [`xplorer64-v1.067e-b2515-20000505-orange.bin`][] | `en-GB`  |  80 |  453 | ⚠️         |
 
-[`xplorer64-v1.000e-b1834-19990816-green.enc`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green.enc
+[`xplorer64-v1.000e-b1772-19990507-green.bin`]:  /n64/firmware/xplorer64-v1.000e-b1772-19990507-green.bin
+[`xplorer64-v1.000e-b1834-19990816-green.bin`]:  /n64/firmware/xplorer64-v1.000e-b1834-19990816-green.bin
 [`xplorer64-v1.067e-b2510-19991123.bin`]:        /n64/firmware/xplorer64-v1.067e-b2510-19991123.bin
 [`xplorer64-v1.067g-b1930-19991124.bin`]:        /n64/firmware/xplorer64-v1.067g-b1930-19991124.bin
-[`xplorer64-v1.067e-b2515-20000505-orange.enc`]: /n64/firmware/xplorer64-v1.067e-b2515-20000505-orange.enc
-
-[^b1834]: Raw **encrypted** firmware dump from a green Xplorer 64 cart.
-[^b2510]: Plain **unencrypted** firmware update file from Blaze.
-[^b1930]: Plain **unencrypted** firmware update file from Blaze.
-[^b2515]: Raw **encrypted** firmware dump from an orange Xplorer 64 cart.
+[`xplorer64-v1.067e-b2515-20000505-orange.bin`]: /n64/firmware/xplorer64-v1.067e-b2515-20000505-orange.bin
 
 To view the contents of the ROM dumps, use our [Xplorer 64 ROM hexpattern](/hexpats/patterns/imhex-xplorer64-rom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
@@ -136,3 +147,59 @@ _Scanned, OCR'd, and transcribed by @CheatoBaggins_
 - [Xplorer 64 printed manual (`1999-06-21`)](/n64/manuals/xplorer64_19990621_manual.md) • [PDF (OCR)](/n64/manuals/xplorer64_19990621_manual_ocr.pdf)
 - [Xplorer 64 online manual](https://web.archive.org/web/20100828090705/http://www.kai666.com/x-plorer_64_manual_index.htm)
     - [Boot modes](https://web.archive.org/web/20170702014101/http://www.kai666.com/important.htm)
+
+## V1 box
+
+_Photographed, restored, and 3D modeled by @CheatoBaggins_
+
+- Width:  `5-1/8 inches` (`13.02 cm`)
+- Height: `7-3/4 inches` (`19.68 cm`)
+- Depth:  `2-3/8 inches` (`6.03 cm`)
+
+<p>
+  <a href="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-all-15x13in.png">
+    <img alt="Full flat photo of the Xplorer64 v1 box"
+         src="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-all-400.png"
+         width="400" height="400"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-xplorer64-v1-box" target="_blank">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
+         src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
+         width="400" height="400"></a>
+</p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-xplorer64-v1-box)** (may take a minute to load due to high resolution textures)
+
+3D model files:
+
+| Download                                                                      | Ext.   | 3D file format     | Size       |
+|:----------------------------------------------------------------------------- |:------ |:------------------ | ----------:|
+| [`xplorer64-v1-box.glb`](/n64/3dmodels/xplorer64-v1-box/xplorer64-v1-box.glb) | `.glb` | Binary glTF format | `13.6 MiB` |
+| [`xplorer64-v1-box.skp`](/n64/3dmodels/xplorer64-v1-box/xplorer64-v1-box.skp) | `.skp` | SketchUp format    | `13.8 MiB` |
+
+## V2 box
+
+_Photographed, restored, and 3D modeled by @CheatoBaggins_
+
+- Width:  `3-3/4 inches` (`9.52 cm`)
+- Height: `7 inches`     (`17.78 cm`)
+- Depth:  `2-1/4 inches` (`5.72 cm`)
+
+<p>
+  <a href="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-all-12x11.25in.png">
+    <img alt="Full flat photo of the Xplorer64 v2 box"
+         src="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-all-400.png"
+         width="400" height="400"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-xplorer64-v2-box" target="_blank">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
+         src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
+         width="400" height="400"></a>
+</p>
+
+**[3D model viewer](https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=n64-xplorer64-v2-box)** (may take a minute to load due to high resolution textures)
+
+3D model files:
+
+| Download                                                                      | Ext.   | 3D file format     | Size       |
+|:----------------------------------------------------------------------------- |:------ |:------------------ | ----------:|
+| [`xplorer64-v2-box.glb`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.glb) | `.glb` | Binary glTF format | `14.3 MiB` |
+| [`xplorer64-v2-box.skp`](/n64/3dmodels/xplorer64-v2-box/xplorer64-v2-box.skp) | `.skp` | SketchUp format    | `14.4 MiB` |

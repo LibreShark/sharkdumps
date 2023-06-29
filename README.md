@@ -20,8 +20,6 @@ please create a pull request or email cheatobaggins@gmail.com or rweick@gmail.co
 
 👉 [More information about the N64 GameShark / GameShark Pro](/n64-gameshark.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-gameshark.md#shells">
     <img alt="Front side of a typical GameShark v2.x"
@@ -58,6 +56,25 @@ Visual TL;DR:
     <img alt="Screenshot of the main menu from an N64 GameShark Pro v3.10 (1999-06-09)"
          src="/n64/firmware/screenshots/gameshark/n64-gspro-3.10-19990609-screenshot-02-main-menu.png"
          width="200"></a>
+</p>
+
+<p>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Full flat photo of the GameShark Pro v3.2 box"
+         src="/n64/boxes/gameshark-v3.20-box/gameshark-v3.20-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Animated GIF of the 3D model for a GameShark Pro v3.2 box"
+         src="/n64/3dmodels/gameshark-v3.20-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Full flat photo of the GameShark Pro v3.3 lite box"
+         src="/n64/boxes/gameshark-v3.30-lite-box/gameshark-v3.30-lite-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="/n64-gameshark.md#boxes">
+    <img alt="Animated GIF of the 3D model for a GameShark Pro v3.3 lite box"
+         src="/n64/3dmodels/gameshark-v3.30-lite-box/thumbnail-400.gif"
+         width="200" height="200"></a>
 </p>
 
 <p>
@@ -106,8 +123,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 Action Replay / Action Replay Pro](/n64-actionreplay.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-actionreplay.md#screenshots">
     <img alt="Screenshot of the splash screen from an N64 Action Replay v1.11"
@@ -134,8 +149,6 @@ Visual TL;DR:
 ### Equalizer
 
 👉 [More information about the N64 Equalizer!](/n64-equalizer.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/n64-equalizer.md#shells">
@@ -167,8 +180,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 Game Buster](/n64-gamebuster.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-gamebuster.md#shells">
     <img alt=""
@@ -198,8 +209,6 @@ Visual TL;DR:
 ### Xplorer 64
 
 👉 [More information about the N64 Xplorer 64](/n64-xplorer.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/n64-xplorer.md#shells">
@@ -258,6 +267,25 @@ Visual TL;DR:
          width="200"></a>
 </p>
 
+<p>
+  <a href="/n64-xplorer.md#v1-box">
+    <img alt="Photo of the Xplorer 64 v1 box"
+         src="/n64/boxes/xplorer64-v1-box/xplorer64-v1-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="/n64-xplorer.md#v1-box">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 v1 box"
+         src="/n64/3dmodels/xplorer64-v1-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+  <a href="/n64-xplorer.md#v2-box">
+    <img alt="Photo of the Xplorer 64 V2 box"
+         src="/n64/boxes/xplorer64-v2-box/xplorer64-v2-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="/n64-xplorer.md#v2-box">
+    <img alt="Animated GIF of the 3D model for an Xplorer 64 V2 box"
+         src="/n64/3dmodels/xplorer64-v2-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+</p>
+
 [Learn more about the N64 Xplorer 64!](/n64-xplorer.md)
 
 <br><br><br>
@@ -265,8 +293,6 @@ Visual TL;DR:
 ### GB Hunter
 
 👉 [More information about the N64 GB Hunter](/n64-gbhunter.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/n64-gbhunter.md#shells">
@@ -310,8 +336,6 @@ Visual TL;DR:
 
 👉 [More information about the N64 Game Booster](/n64-gamebooster.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/n64-gamebooster.md#shells">
     <img alt="Photo of the front of an N64 Game Booster shell"
@@ -350,24 +374,24 @@ Visual TL;DR:
 
 👉 [More information about the N64 DexDrive](/n64-dexdrive.md) 👈
 
-Visual TL;DR:
-
-<a href="/n64-dexdrive.md">
-  <img alt="DexDrive memory card reader for N64"
-       src="/assets/photos/n64-dexdrive-hardware-480.png"
-       width="200"></a>
-<a href="/n64-dexdrive.md#pc-software">
-  <img alt="DexDrive 3.5in floppy disk 1 of 2"
-       src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png"
-       width="200"></a>
-<a href="/n64-dexdrive.md#dexplorer-v110950-screenshots">
-  <img alt=""
-       src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-03-about-box.png"
-       width="200"></a>
-<a href="/n64-dexdrive.md#dexplorer-v200902-screenshots">
-  <img alt=""
-       src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
-       width="200"></a>
+<p>
+  <a href="/n64-dexdrive.md">
+    <img alt="DexDrive memory card reader for N64"
+         src="/assets/photos/n64-dexdrive-hardware-480.png"
+         width="200"></a>
+  <a href="/n64-dexdrive.md#pc-software">
+    <img alt="DexDrive 3.5in floppy disk 1 of 2"
+         src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png"
+         width="200"></a>
+  <a href="/n64-dexdrive.md#dexplorer-v110950">
+    <img alt=""
+         src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-03-about-box.png"
+         width="200"></a>
+  <a href="/n64-dexdrive.md#dexplorer-v200902">
+    <img alt=""
+         src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-09-backup-progress.png"
+         width="200"></a>
+</p>
 
 [Learn more about the N64 DexDrive!](/n64-dexdrive.md)
 
@@ -377,11 +401,12 @@ Visual TL;DR:
 
 ## PC
 
+- [LGR Oddware: DOS PC Action Replay: The Ultimate Game Buster](https://www.youtube.com/watch?v=usaioMbE8EQ)
+- [LGR Oddware: GameShark for Windows 95: The PC Game Enhancer](https://www.youtube.com/watch?v=pQnCdDpU1to)
+
 ### GameShark v1.1 for Windows 95/98
 
 👉 [More information about PC GameShark v1.1 for Windows 95/98](/pc-gameshark-v1.1.md) 👈
-
-Visual TL;DR:
 
 <p>
   <a href="/pc-gameshark-v1.1.md">
@@ -416,18 +441,18 @@ Visual TL;DR:
 <p>
   <a href="/pc-gameshark-v1.1.md#animations">
     <img src="/pc/gs-win-v1.1/photos/gs-win-v1.1-vhs-label-400.png"
-         height="150" alt=""></a>
+         height="140" alt=""></a>
   <a href="/pc-gameshark-v1.1.md#animations">
     <img src="/pc/gs-win-v1.1/assets/shark.gif"
-         height="150" alt=""></a>
+         height="140" alt=""></a>
 </p>
 
 <p>
   <a href="/pc-gameshark-v1.1.md#3d-models">
-    <img src="/pc/gs-win-v1.1/3dmodels/shark/shark-logo.png"
+    <img src="/pc/3dmodels/gs-win-v1.1-shark/shark-logo.png"
          height="150" alt=""></a>
   <a href="/pc-gameshark-v1.1.md#3d-models">
-    <img src="/pc/gs-win-v1.1/3dmodels/interact/interact-logo.png"
+    <img src="/pc/3dmodels/gs-win-v1.1-interact/interact-logo.png"
          height="150" alt=""></a>
 </p>
 
@@ -439,45 +464,43 @@ Visual TL;DR:
 
 👉 [More information about PC GameShark v3.0 for Windows 98/ME](/pc-gameshark-v3.0.md) 👈
 
-Visual TL;DR:
-
 <p>
   <a href="/pc-gameshark-v3.0.md#software">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-label-200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#booklet">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p1-200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#booklet">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-booklet-p8-200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#software">
     <img src="/pc/gs-win-v3.0/photos/gs-win-v3.0-cd-jewel-outer-255x200.png"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
 </p>
 
 <p>
   <a href="/pc-gameshark-v3.0.md#splash-screen">
     <img src="/pc/gs-win-v3.0/setup.bmp"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#splash-video">
     <img src="/pc/gs-win-v3.0/gs-win-v3.0-jaws.gif"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#flash-animations">
     <img src="/pc/gs-win-v3.0/flash/products_page_flash.gif"
-         height="200" alt=""></a>
+         height="180" alt=""></a>
 </p>
 
 <p>
   <a href="/pc-gameshark-v3.0.md#screenshots">
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-02-ui-04-version.png"
-         height="200" alt=""></a>
+         height="250" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#screenshots">
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-03-help-04-the-code-selector.png"
-         height="200" alt=""></a>
+         height="250" alt=""></a>
   <a href="/pc-gameshark-v3.0.md#mp3shark">
     <img src="/pc/gs-win-v3.0/screenshots/gs-win-v3.0-04-mp3shark-00-ui.png"
-         height="200" alt=""></a>
+         height="250" alt=""></a>
 </p>
 
 [Learn more about PC GameShark v3.0 for Windows 98/ME!](/pc-gameshark-v3.0.md)
@@ -493,6 +516,52 @@ Visual TL;DR:
 For Game Boy (DMG), Game Boy Pocket (GBP), Game Boy Color (GBC), and Game Boy Advance (GBA).
 
 - GameShark for Game Boy Pocket & Color • [PDF (original)](/gb/manuals/gb_gameshark.pdf)
+
+---
+
+## GBC Code Breaker
+
+<p>
+  <a href="/gbc/photos/codebreaker-shell-front-62x107.5mm.png">
+    <img alt="Photo of the GBC Code Breaker shell front side"
+         src="/gbc/photos/codebreaker-shell-front-200.png"
+     width="200" height="200"></a>
+  <a href="/gbc/photos/codebreaker-shell-rear-62x107.5mm.png">
+    <img alt="Photo of the GBC Code Breaker shell back side"
+         src="/gbc/photos/codebreaker-shell-rear-200.png"
+     width="200" height="200"></a>
+  <a href="/gbc/boxes/codebreaker-box/gbc-codebreaker-box-all-13x8in.png">
+    <img alt="Flat photo of the GBC Code Breaker box"
+         src="/gbc/boxes/codebreaker-box/gbc-codebreaker-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=gbc-codebreaker-box&size=full&autorotate=5">
+    <img alt="Preview of GBC Code Breaker box 3D model"
+         src="/gbc/3dmodels/codebreaker-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+</p>
+
+---
+
+## GBC GameShark Pro v3.0
+
+<p>
+  <a href="/gbc/photos/gspro-v3.0-shell-front-65x94mm.png">
+    <img alt="Photo of the GBC GameShark Pro v3.0 shell front side"
+         src="/gbc/photos/gspro-v3.0-shell-front-200.png"
+     width="200" height="200"></a>
+  <a href="/gbc/photos/gspro-v3.0-shell-rear-65x94mm.png">
+    <img alt="Photo of the GBC GameShark Pro v3.0 shell back side"
+         src="/gbc/photos/gspro-v3.0-shell-rear-200.png"
+     width="200" height="200"></a>
+  <a href="/gbc/boxes/gspro-v3.0-box/gspro-v3.0-box-all-12.5x8.75in.png">
+    <img alt="Flat photo of the GBC GameShark Pro v3.0 box"
+         src="/gbc/boxes/gspro-v3.0-box/gspro-v3.0-box-all-400.png"
+         width="200" height="200"></a>
+  <a href="https://storage.googleapis.com/libreshark-dumps-bucket/3d/index.html?model=gbc-gspro-v3.0-box&size=full&autorotate=5">
+    <img alt="Preview of GBC GameShark Pro v3.0 box 3D model"
+         src="/gbc/3dmodels/gspro-v3.0-box/thumbnail-400.gif"
+         width="200" height="200"></a>
+</p>
 
 ---
 
@@ -550,7 +619,7 @@ To view the contents of the ROM dumps, use our [Xploder GB ROM hexpattern](/hexp
 |:------------------------------------------ |:--------- |:-------------------------- | ---:| ---:|:------:|
 | [`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`][] | _Unknown_ | _Unknown_                  | 210 | 447 | ⚠️      |
 
-[`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gb/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
+[`gbc-xploder-vX.XX-xxxxxxxx-dirty.bin`]: /gbc/firmware/gbc-xploder-vX.XX-xxxxxxxx-dirty.bin
 
 EEPROM: `SST29EE020` `PLCC32`
 
@@ -606,7 +675,7 @@ To view the contents of the ROM dumps, use our [GB Shark MX ROM hexpattern](/hex
 |:----------------------------------------- |:------- |:---------- |:------------------ |:------:|
 | [`gb-shark-mx-v1.02-2000-pristine.bin`][] | `v1.02` | `2000`     | `SST39SF020PLCC32` | ⭐️ |
 
-[`gb-shark-mx-v1.02-2000-pristine.bin`]: /gb/firmware/gb-shark-mx-v1.02-2000-pristine.bin
+[`gb-shark-mx-v1.02-2000-pristine.bin`]: /gbc/firmware/gbc-shark-mx-v1.02-2000-pristine.bin
 
 From https://gameshark-mx.blogspot.com/:
 
@@ -654,8 +723,8 @@ _Dumped by @RWeick and @felixjones_
 | [`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`][] | ?       | ?          | NTSC-M (US) | `MBM29LV400TCTSOP48` | ? |
 | [`gba-blaze-tv-tuner-tvap-0.7z`]                  | ?       | ?          | PAL-? (EU)  | ?                    | ? |
 
-[`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gb/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
-[`gba-blaze-tv-tuner-tvap-0.7z`]:                /gb/firmware/gba-blaze-tv-tuner-tvap-0.7z
+[`gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin`]: /gba/firmware/gba-pelican-tv-tuner-MBM29LV400TCTSOP48.bin
+[`gba-blaze-tv-tuner-tvap-0.7z`]:                /gba/firmware/gba-blaze-tv-tuner-tvap-0.7z
 
 More information:
 

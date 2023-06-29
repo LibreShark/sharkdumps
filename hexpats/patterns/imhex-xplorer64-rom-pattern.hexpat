@@ -191,6 +191,8 @@ struct HeaderSection {
     padding[while(is_null())];
     char buildStr[while(is_version_char())];
     char manufacturer[] @ 0x40;
+    u8 ipl3Crc32[4] @ 0x100 [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
+    u8 firmwareCrc32[4] @ 0x104 [[COLOR_HIGHLIGHT, FORMAT_BYTES]];
     char disclaimer[] @ 0x200;
     char greetz[] @ 0x800;
     char toolchain[] @ 0x8A0;
@@ -206,8 +208,11 @@ struct HeaderSection {
  ******************************************************************************/
 
 struct FirmwareSection {
-    char wayne[] @ 0x184E0;
-    char buildTimestamp[] @ 0x18520;
+    u32 wayneAddr = find(0, 0x20000, 'W','a','y','n','e',' ',
+                                     'H','u','g','h','e','s',' ',
+                                     'B','e','c','k','e','t','t','!');
+    char wayne[] @ wayneAddr;
+    char buildTimestamp[] @ wayneAddr + 0x40;
 };
 
 enum OpCode : u8 {

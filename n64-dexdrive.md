@@ -1,43 +1,26 @@
 # N64 DexDrive
 
-The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows 98-XP PC with an RS-232 serial cable.
+The DexDrive is an N64 memory card reader/writer/backup device that connects to a Windows PC with an RS-232 serial cable.
 
 <img src="/assets/photos/n64-dexdrive-hardware-480.png" width="200" alt="DexDrive memory card reader for N64">
 
-## Compatibility
+## PC software
 
-TODO(CheatoBaggins): Test newer Windows OSes
+### DexPlorer v1.10.950
+
+Supports Windows 95–XP.
 
 <a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
    title="Windows 95">
   <img alt="Windows 95 logo"
        src="/assets/logos/windows-95-logo-2500.png"
        width="100" height="100"></a>
-<a href="https://winworldpc.com/product/windows-98/98-second-edition" target="_blank"
-   title="Windows 98 SE (Second Edition)">
-  <img alt="Windows 98 logo"
-       src="/assets/logos/windows-98-logo-2500.png"
-       width="100" height="100"></a>
-<a href="https://winworldpc.com/product/windows-nt-40/40" target="_blank"
-   title="Windows NT Workstation 4.0">
-  <img alt="Windows NT 4.0 logo"
-       src="/assets/logos/windows-nt4-logo-2500.png"
-       width="100" height="100"></a>
-<a href="https://winworldpc.com/product/windows-nt-2000/final" target="_blank"
-   title="Windows 2000">
-  <img alt="Windows 2000 logo"
-       src="/assets/logos/windows-2000-icon-2500.png"
-       width="100" height="100"></a>
 <img alt="Windows XP logo"
      src="/assets/logos/windows-xp-icon-1000.png"
      width="100" height="100">
 
-## PC software
-
 <a href="/assets/photos/n64-dexdrive-floppy-disk-1of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-1of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 1 of 2"></a>
 <a href="/assets/photos/n64-dexdrive-floppy-disk-2of2-2048.png"><img src="/assets/photos/n64-dexdrive-floppy-disk-2of2-256.png" width="200" alt="DexDrive 3.5in floppy disk 2 of 2"></a>
-
-### DexPlorer v1.10.950 screenshots
 
 <img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-01-installer.png"
      width="200" alt="">
@@ -56,7 +39,18 @@ TODO(CheatoBaggins): Test newer Windows OSes
 <img src="n64/firmware/screenshots/dexdrive/v1/dexplorer-v1-screenshot-08-restore-prompt.png"
      width="200" alt="">
 
-### DexPlorer v2.00.902 screenshots
+### DexPlorer v2.00.902
+
+Supports ***all*** versions of Windows, from Windows 95 to Windows 11.
+
+<a href="https://winworldpc.com/product/windows-95/osr-3" target="_blank"
+   title="Windows 95">
+  <img alt="Windows 95 logo"
+       src="/assets/logos/windows-95-logo-2500.png"
+       width="100" height="100"></a>
+<img alt="Windows XP logo"
+     src="/assets/logos/windows-11-icon-800.png"
+     width="100" height="100">
 
 <img src="n64/firmware/screenshots/dexdrive/v2/dexplorer-v2-screenshot-01-installer.png"
      width="200" alt="">
@@ -85,17 +79,17 @@ TODO(CheatoBaggins): Test newer Windows OSes
 
 ### Utilities
 
-| Program                       | Build date   | Author                                   |
-|:----------------------------- |:------------ |:---------------------------------------- |
-| **[DexPlorer v1.10.950][]**   | `1999-01-05` | Datel/InterAct                           |
-|   [DexPlorer v2.00.902][]     | `2000-01-24` | Datel/InterAct                           |
-|   [Dex2Save][]                | `1998-02-20` | "Ximeter" <ximeter@usa.net>              |
-|   [MemPack Save Converter][]  | `1999-03-28` | "Sound of Silence" <silence@poboxes.com> |
-|   [MemPack to N64 Uploader][] | `1999-10-13` | "Destop of Crazy Nation"                 |
-|   [64Scener Tools][]          | -            | [64Scener mirror][]                      |
+| Program                       | Build date   | OSes          | Author                                   | Notes   |
+|:----------------------------- |:------------ |:------------- |:---------------------------------------- |:------- |
+| **[DexPlorer v1.10.950][]**   | `1999-01-05` | Windows 95-XP | Datel/InterAct                           | Good UI |
+|   [DexPlorer v2.00.902][]     | `2000-01-24` | All Windows   | Datel/InterAct                           | Bad UI  |
+|   [Dex2Save][]                | `1998-02-20` | _Unconfirmed_ | "Ximeter" <ximeter@usa.net>              |         |
+|   [MemPack Save Converter][]  | `1999-03-28` | _Unconfirmed_ | "Sound of Silence" <silence@poboxes.com> |         |
+|   [MemPack to N64 Uploader][] | `1999-10-13` | _Unconfirmed_ | "Destop of Crazy Nation"                 |         |
+|   [64Scener Tools][]          | -            | -             | [64Scener mirror][]                      |         |
 
-[DexPlorer v1.10.950]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_200.902_at-2000-01-24.zip
-[DexPlorer v2.00.902]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_110.950_at-1999-01-05.zip
+[DexPlorer v1.10.950]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_110.950_at-1999-01-05.zip
+[DexPlorer v2.00.902]:     /n64/tools/dexdrive/n64-dexdrive-sv-388_200.902_at-2000-01-24.zip
 [Dex2Save]:                /n64/tools/dexdrive/dex2save
 [MemPack Save Converter]:  /n64/tools/dexdrive/mempack_save_converter
 [MemPack to N64 Uploader]: /n64/tools/dexdrive/mempack_to_n64_uploader
