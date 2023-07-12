@@ -1,0 +1,217 @@
+/*!
+ * ImHex pattern for Blaze Xploder GB ROM files (firmware dumps).
+ *
+ * @author CheatoBaggins <cheatobaggins@gmail.com>
+ * @date 2023-06-19
+ * @license MIT
+ */
+
+#pragma MIME application/x-gbc-gs-rom
+
+#include <type/magic.pat>
+#include <type/size.pat>
+#include <type/time.pat>
+
+#include <std/array.pat>
+#include <std/core.pat>
+#include <std/ctype.pat>
+#include <std/hash.pat>
+#include <std/math.pat>
+#include <std/mem.pat>
+#include <std/string.pat>
+#include <std/sys.pat>
+#include <std/time.pat>
+
+/*******************************************************************************
+ * Type aliases
+ ******************************************************************************/
+
+using Array<Type, auto Len> = std::Array<Type, Len>;
+using Bytes<auto Len>       = std::mem::Bytes<Len>;
+
+/*******************************************************************************
+ * Constants
+ ******************************************************************************/
+
+// white
+#define COLOR_MAGIC     color("FFFFFF")
+
+// green
+#define COLOR_TIMESTAMP color("00FF00")
+
+// dark gray
+#define COLOR_UNKNOWN   color("555555")
+
+// red
+#define COLOR_IMPORTANT color("FF0000")
+
+// yellow
+#define COLOR_HIGHLIGHT color("FFFF00")
+
+// blue
+#define COLOR_LOWLIGHT  color("0000FF")
+
+// green
+#define COLOR_PRIMARY   color("00FF00")
+
+#define FORMAT_BYTES    format_read("format_bytes")
+
+/*******************************************************************************
+ * Utility functions
+ ******************************************************************************/
+
+fn assert(bool condition, str message, auto ... params) {
+    std::assert(condition, std::format(message, params));
+};
+
+fn assert_magic_str(auto actual, auto expected) {
+    assert(actual == expected, "Invalid magic header value! Expected \"{}\", got \"{}\".", expected, actual);
+};
+
+fn find(u32 startAddr, u32 endAddr, auto ... bytes) {
+    u32 addr = std::mem::find_sequence_in_range(
+        /* occurrence_index = */ 0,
+        /* offsetFrom       = */ startAddr,
+        /* offsetTo         = */ endAddr,
+        /* bytes            = */ bytes
+        );
+    return addr;
+};
+
+fn bytes_to_u32(auto bytes) {
+    return (bytes[3] << 24)
+         | (bytes[2] << 16)
+         | (bytes[1] <<  8)
+         | (bytes[0]);
+};
+
+fn read_u32_at(u32 addr) {
+    return std::mem::read_unsigned(addr, 4);
+};
+
+fn read_next_byte() {
+    return std::mem::read_unsigned($, 1);
+};
+
+fn is_null() {
+    return read_next_byte() == 0;
+};
+
+fn is_digit() {
+    return std::ctype::isdigit(read_next_byte());
+};
+
+fn is_version_char() {
+    u8 b = read_next_byte();
+    return std::ctype::isalnum(b) || b == '.';
+};
+
+fn is_iso_date_char() {
+    u8 b = read_next_byte();
+    return (b >= '0' && b <= '9') || b == '-';
+};
+
+fn is_printable_char() {
+    u8 b = read_next_byte();
+    return b >= ' ' && b <= '~';
+};
+
+fn is_any_padding() {
+    u32 quad = read_u32_at($);
+    return quad == 0x00000000 ||
+           quad == 0xFFFFFFFF ||
+           quad == 0x20202020;
+};
+
+fn is_00_padding() {
+    u32 quad = read_u32_at($);
+    return quad == 0x00000000;
+};
+
+fn is_ff_padding() {
+    u32 quad = read_u32_at($);
+    return quad == 0xFFFFFFFF;
+};
+
+fn parse_int(auto s) {
+    return std::string::parse_int(s, 10);
+};
+
+fn parse_float(auto s) {
+    return std::string::parse_float(s);
+};
+
+fn strlen(auto s) {
+    return std::string::length(s);
+};
+
+fn format_bytes(auto bytes) {
+    u32 i = 0;
+    u32 len = sizeof(bytes);
+    if (len == 0) {
+        return "";
+    }
+    str fmt;
+    while (i < len) {
+        fmt += std::format(" {:02X}", u8(bytes[i]));
+        i += 1;
+    }
+    return std::string::substr(fmt, 1, std::string::length(fmt));
+};
+
+/*******************************************************************************
+ * ROM file
+ ******************************************************************************/
+
+struct Cheat {
+    char cheatName[12] [[COLOR_PRIMARY]];
+    u8 code[4] [[FORMAT_BYTES, COLOR_LOWLIGHT]];
+}; // [[format_read("format_cheat")]];
+
+fn format_cheat(Cheat cheat) {
+    return std::format(
+        "\"{}\" ({} {})",
+        cheat.name,
+        cheat.codeCount,
+        cheat.codeCount == 1 ? "code" : "codes");
+};
+
+struct Game {
+    u32 startAddr = $;
+    char gameName[16] [[COLOR_PRIMARY]];
+    Cheat cheats[while($ < (startAddr + 0x80) && !is_00_padding())];
+    padding[while($ < (startAddr + 0x80))];
+}; // [[format_read("format_game")]];
+
+fn format_game(Game game) {
+    return std::format(
+        "\"{}\" ({} {})",
+        game.name,
+        game.cheatCount,
+        game.cheatCount == 1 ? "cheat" : "cheats");
+};
+
+struct ROM {
+    // "DAMON BARWIN"
+    char cartId[while(is_printable_char())] @ 0x0134;
+    u8 majorVersion @ 0x148;
+    u8 minorVersion @ 0x149;
+
+    u32 productNameAddr = find($, std::mem::size(), 'G','a','m','e','S','h','a','r','k');
+    char productName[while(is_printable_char())] @ productNameAddr;
+
+    u32 creditsAddr = find($, std::mem::size(), 'G','a','m','e','S','h','a','r','k',' ','B','y',' ');
+    char credits[while(is_printable_char())] @ creditsAddr;
+
+    Game games[while(!is_ff_padding())] @ 0x10000;
+};
+
+/*******************************************************************************
+ * Bootstrap
+ ******************************************************************************/
+
+u64 fileSize = std::mem::size();
+// Around 0xE030 or 0x4720
+assert(fileSize == 0x00020000, "GBC GameShark/Action Replay v3.x ROMs must be EXACTLY 128 KiB (0x20000 bytes), but found 0x{:X} bytes.", fileSize);
+
+le ROM rom @ 0x00;
