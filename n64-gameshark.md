@@ -136,63 +136,67 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
         We have not yet confirmed whether the games, cheats, and preferences are original or user-modified, so the dump is assumed to be dirty until proven otherwise.
     - `?` = We have not yet acquired a cart to dump the firmware.
 
-| Filename                                     | Version       | Build timestamp    | #G      | #C       | Clean? |
-|:-------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
-|    `gs-1.01-xxxxxxxx.bin`[^v1.0x]            | `v1.01`       | _Unknown_          |     ?   |      ?   | ?      |
-|   [`gs-1.02-19970801-dirty.bin`]             | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ❌      |
-|    `gs-1.03-xxxxxxxx.bin`[^v1.0x]            | `v1.03`       | _Unknown_          |     ?   |      ?   | ?      |
-| ~~[`gs-1.04-19970819-corrupt-codes.bin`][]~~ | `v1.04`       | `1997-08-19T10:35` |   ~~2~~ |    ~~3~~ | ❌      |
-|   [`gs-1.04-19970819-valid-codes.bin`][]     | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ❌      |
-|   [`gs-1.05-19970904-dirty.bin`][]           | `v1.05 (Thu)` | `1997-09-04T16:25` |    23   |    133   | ❌      |
-|   [`gs-1.05-19970905-dirty.bin`][]           | `v1.05 (Fri)` | `1997-09-05T13:51` |    24   |    146   | ❌      |
-|   [`gs-1.06-19970919-dirty.bin`][]           | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ❌      |
-|   [`gs-1.07-19971027-dirty.bin`][]           | `v1.07 (Oct)` | `1997-10-27T17:21` |    28   |    175   | ❌      |
-|   [`gs-1.07-19971107-dirty.bin`][]           | `v1.07 (Nov)` | `1997-11-07T10:24` |    27   |    169   | ❌      |
-|   [`gs-1.08-19971124-dirty.bin`][]           | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌      |
-|   [`gs-1.08-19971208-dirty.bin`][]           | `v1.08 (Dec)` | `1997-12-08T11:10` |    20   |    109   | ❌      |
-|   [`gs-1.09-19980105-clean.bin`][]           | `v1.09`       | `1998-01-05T17:40` |    36   |    165   | ✅      |
-|   [`gs-2.00-19980305-clean.bin`][]           | `v2.00 (Mar)` | `1998-03-05T08:06` |    36   |    165   | ✅      |
-|   [`gs-2.00-19980406-clean.bin`][]           | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ✅      |
-|   [`gs-2.10-19980825-clean.bin`][]           | `v2.10`       | `1998-08-25T13:57` |    61   |    338   | ✅      |
-|    `gs-2.20-xxxxxxxx.bin`[^v2.20]            | `v2.20`       | _Unknown_          |     ?   |      ?   | ?      |
-|   [`gs-2.21-19981218-clean.bin`][]           | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ✅      |
-|    `gs-2.40-xxxxxxxx.bin`[^v2.40]            | `v2.40`       | _Unknown_          |     ?   |      ?   | ?      |
-|   [`gs-2.50-xxxx0504-v3.3-codes.bin`][]      | `v2.50`       | `????-05-04T12:58` |   188   |   2093   | ⚠️      |
-|   [`gspro-3.00-19990401-clean.bin`][]        | `v3.00`       | `1999-04-01T15:05` |   120   |   1124   | ✅      |
-|   [`gspro-3.10-19990609-clean.bin`][]        | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ✅      |
-|   [`gspro-3.20-19990622-clean.bin`][]        | `v3.20`       | `1999-06-22T18:45` |   122   |   1143   | ✅      |
-|   [`gspro-3.21-20000104-pristine.bin`][]     | `v3.21`       | `2000-01-04T14:26` |   122   |   1143   | ⭐️      |
-|   [`gspro-3.30-20000327-pristine.bin`][]     | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ⭐️      |
-|   [`gspro-3.30-20000404-pristine.bin`][]     | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ⭐️      |
-|   [`perfect_trainer-1.0b-20030618.bin`][]    | `v1.0b`       | `2003-06-18T00:00` |  _N/A_  |   _N/A_  | _N/A_  |
+| Filename                                        | Version       | Build timestamp    | #G      | #C       | Clean? |
+|:----------------------------------------------- |:------------- |:------------------ | -------:| --------:|:------:|
+|    `gs-1.01-xxxxxxxx.bin`[^v1.0x]               | `v1.01`       | _Unknown_          |     ?   |      ?   | ?      |
+|   [`gs-1.02-19970801-dirty.bin`]                | `v1.02`       | `1997-08-01T12:50` |    20   |    117   | ❌      |
+|    `gs-1.03-xxxxxxxx.bin`[^v1.0x]               | `v1.03`       | _Unknown_          |     ?   |      ?   | ?      |
+| ~~[`gs-1.04-19970819-corrupt-codes.bin`][]~~    | `v1.04`       | `1997-08-19T10:35` |   ~~2~~ |    ~~3~~ | ❌      |
+|   [`gs-1.04-19970819-valid-codes.bin`][]        | `v1.04`       | `1997-08-19T10:35` |    22   |    142   | ❌      |
+|   [`gs-1.05-19970904-dirty.bin`][]              | `v1.05 (Thu)` | `1997-09-04T16:25` |    23   |    133   | ❌      |
+|   [`gs-1.05-19970905-dirty.bin`][]              | `v1.05 (Fri)` | `1997-09-05T13:51` |    24   |    146   | ❌      |
+|   [`gs-1.06-19970919-dirty.bin`][]              | `v1.06`       | `1997-09-19T14:25` |    21   |     76   | ❌      |
+|   [`gs-1.07-19971027-dirty.bin`][]              | `v1.07 (Oct)` | `1997-10-27T17:21` |    28   |    175   | ❌      |
+|   [`gs-1.07-19971107-dirty.bin`][]              | `v1.07 (Nov)` | `1997-11-07T10:24` |    27   |    169   | ❌      |
+|   [`gs-1.08-19971124-dirty.bin`][]              | `v1.08 (Nov)` | `1997-11-24T11:58` |     7   |     69   | ❌      |
+|   [`gs-1.08-19971208-dirty.bin`][]              | `v1.08 (Dec)` | `1997-12-08T11:10` |    20   |    109   | ❌      |
+|   [`gs-1.09-19980105-clean.bin`][]              | `v1.09`       | `1998-01-05T17:40` |    36   |    165   | ✅      |
+|   [`gs-2.00-19980305-clean.bin`][]              | `v2.00 (Mar)` | `1998-03-05T08:06` |    36   |    165   | ✅      |
+|   [`gs-2.00-19980406-clean.bin`][]              | `v2.00 (Apr)` | `1998-04-06T10:05` |    36   |    165   | ✅      |
+|   [`gs-2.10-19980825-clean.bin`][]              | `v2.10`       | `1998-08-25T13:57` |    61   |    338   | ✅      |
+|    `gs-2.20-xxxxxxxx.bin`[^v2.20]               | `v2.20`       | _Unknown_          |     ?   |      ?   | ?      |
+|   [`gs-2.21-19981218-clean.bin`][]              | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ✅      |
+|    `gs-2.40-xxxxxxxx.bin`[^v2.40]               | `v2.40`       | _Unknown_          |     ?   |      ?   | ?      |
+|   [`gs-2.50-xxxx0504-v3.3-codes.bin`][]         | `v2.50`       | `????-05-04T12:58` |   188   |   2093   | ⚠️      |
+|   [`gspro-3.00-19990401-clean.bin`][]           | `v3.00`       | `1999-04-01T15:05` |   120   |   1124   | ✅      |
+|   [`gspro-3.10-19990609-clean.bin`][]           | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ✅      |
+|   [`gspro-3.20-19990622-clean.bin`][]           | `v3.20`       | `1999-06-22T18:45` |   122   |   1143   | ✅      |
+|   [`gspro-3.21-20000104-pristine.bin`][]        | `v3.21`       | `2000-01-04T14:26` |   122   |   1143   | ⭐️      |
+|   [`gspro-3.30-20000327-pristine.bin`][]        | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ⭐️      |
+|   [`gspro-3.30-20000404-pristine.bin`][]        | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ⭐️      |
+|   [`perfect_trainer-1.0b-20030618.bin`][]       | `v1.0b`       | `2003-06-18T00:00` |  _N/A_  |   _N/A_  | _N/A_  |
+|   [`libreshark-pro-v4.00-20230710-mario.bin`][] | `v4.00`       | `2023-07-10T04:27` |    13   |    268   | _N/A_  |
+|   [`libreshark-pro-v4.00-20230710-zelda.bin`][] | `v4.00`       | `2023-07-10T04:27` |    13   |    268   | _N/A_  |
 
 [^v1.0x]: `v1.01` and `v1.03` supposedly exist according to a [Krikzz forum post](https://krikzz.com/forum/index.php?topic=6585.0), [Reddit post](https://www.reddit.com/r/Roms/comments/dui43a/n64_gameshark_v32/), and [vspolaris article](https://vspolaris.tistory.com/24), but we have not yet found any conclusive evidence of a `v1.01` or `v1.03` cart.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
 [^v2.40]: `v2.40` supposedly exists according to the official [N64 GameShark Version Compatibility table](https://web.archive.org/web/20010720115238/http://www.gameshark.com/static/about_faq_version_n64.html), but we have not yet found any conclusive evidence of a `v2.40` cart.
 
-[`gs-1.02-19970801-dirty.bin`]:         /n64/firmware/gs-1.02-19970801-dirty.bin
-[`gs-1.04-19970819-corrupt-codes.bin`]: /n64/firmware/gs-1.04-19970819-corrupt-codes.bin
-[`gs-1.04-19970819-valid-codes.bin`]:   /n64/firmware/gs-1.04-19970819-valid-codes.bin
-[`gs-1.05-19970904-dirty.bin`]:         /n64/firmware/gs-1.05-19970904-dirty.bin
-[`gs-1.05-19970905-dirty.bin`]:         /n64/firmware/gs-1.05-19970905-dirty.bin
-[`gs-1.06-19970919-dirty.bin`]:         /n64/firmware/gs-1.06-19970919-dirty.bin
-[`gs-1.07-19971027-dirty.bin`]:         /n64/firmware/gs-1.07-19971027-dirty.bin
-[`gs-1.07-19971107-dirty.bin`]:         /n64/firmware/gs-1.07-19971107-dirty.bin
-[`gs-1.08-19971124-dirty.bin`]:         /n64/firmware/gs-1.08-19971124-dirty.bin
-[`gs-1.08-19971208-dirty.bin`]:         /n64/firmware/gs-1.08-19971208-dirty.bin
-[`gs-1.09-19980105-clean.bin`]:         /n64/firmware/gs-1.09-19980105-clean.bin
-[`gs-2.00-19980305-clean.bin`]:         /n64/firmware/gs-2.00-19980305-clean.bin
-[`gs-2.00-19980406-clean.bin`]:         /n64/firmware/gs-2.00-19980406-clean.bin
-[`gs-2.10-19980825-clean.bin`]:         /n64/firmware/gs-2.10-19980825-clean.bin
-[`gs-2.21-19981218-clean.bin`]:         /n64/firmware/gs-2.21-19981218-clean.bin
-[`gs-2.50-xxxx0504-v3.3-codes.bin`]:    /n64/firmware/gs-2.50-xxxx0504-v3.3-codes.bin
-[`gspro-3.00-19990401-clean.bin`]:      /n64/firmware/gspro-3.00-19990401-clean.bin
-[`gspro-3.10-19990609-clean.bin`]:      /n64/firmware/gspro-3.10-19990609-clean.bin
-[`gspro-3.20-19990622-clean.bin`]:      /n64/firmware/gspro-3.20-19990622-clean.bin
-[`gspro-3.21-20000104-pristine.bin`]:   /n64/firmware/gspro-3.21-20000104-pristine.bin
-[`gspro-3.30-20000327-pristine.bin`]:   /n64/firmware/gspro-3.30-20000327-pristine.bin
-[`gspro-3.30-20000404-pristine.bin`]:   /n64/firmware/gspro-3.30-20000404-pristine.bin
-[`perfect_trainer-1.0b-20030618.bin`]:  /n64/firmware/perfect_trainer-1.0b-20030618.bin
+[`gs-1.02-19970801-dirty.bin`]:              /n64/firmware/gs-1.02-19970801-dirty.bin
+[`gs-1.04-19970819-corrupt-codes.bin`]:      /n64/firmware/gs-1.04-19970819-corrupt-codes.bin
+[`gs-1.04-19970819-valid-codes.bin`]:        /n64/firmware/gs-1.04-19970819-valid-codes.bin
+[`gs-1.05-19970904-dirty.bin`]:              /n64/firmware/gs-1.05-19970904-dirty.bin
+[`gs-1.05-19970905-dirty.bin`]:              /n64/firmware/gs-1.05-19970905-dirty.bin
+[`gs-1.06-19970919-dirty.bin`]:              /n64/firmware/gs-1.06-19970919-dirty.bin
+[`gs-1.07-19971027-dirty.bin`]:              /n64/firmware/gs-1.07-19971027-dirty.bin
+[`gs-1.07-19971107-dirty.bin`]:              /n64/firmware/gs-1.07-19971107-dirty.bin
+[`gs-1.08-19971124-dirty.bin`]:              /n64/firmware/gs-1.08-19971124-dirty.bin
+[`gs-1.08-19971208-dirty.bin`]:              /n64/firmware/gs-1.08-19971208-dirty.bin
+[`gs-1.09-19980105-clean.bin`]:              /n64/firmware/gs-1.09-19980105-clean.bin
+[`gs-2.00-19980305-clean.bin`]:              /n64/firmware/gs-2.00-19980305-clean.bin
+[`gs-2.00-19980406-clean.bin`]:              /n64/firmware/gs-2.00-19980406-clean.bin
+[`gs-2.10-19980825-clean.bin`]:              /n64/firmware/gs-2.10-19980825-clean.bin
+[`gs-2.21-19981218-clean.bin`]:              /n64/firmware/gs-2.21-19981218-clean.bin
+[`gs-2.50-xxxx0504-v3.3-codes.bin`]:         /n64/firmware/gs-2.50-xxxx0504-v3.3-codes.bin
+[`gspro-3.00-19990401-clean.bin`]:           /n64/firmware/gspro-3.00-19990401-clean.bin
+[`gspro-3.10-19990609-clean.bin`]:           /n64/firmware/gspro-3.10-19990609-clean.bin
+[`gspro-3.20-19990622-clean.bin`]:           /n64/firmware/gspro-3.20-19990622-clean.bin
+[`gspro-3.21-20000104-pristine.bin`]:        /n64/firmware/gspro-3.21-20000104-pristine.bin
+[`gspro-3.30-20000327-pristine.bin`]:        /n64/firmware/gspro-3.30-20000327-pristine.bin
+[`gspro-3.30-20000404-pristine.bin`]:        /n64/firmware/gspro-3.30-20000404-pristine.bin
+[`perfect_trainer-1.0b-20030618.bin`]:       /n64/firmware/perfect_trainer-1.0b-20030618.bin
+[`libreshark-pro-v4.00-20230710-mario.bin`]: /n64/firmware/libreshark-pro-v4.00-20230710-mario.bin
+[`libreshark-pro-v4.00-20230710-zelda.bin`]: /n64/firmware/libreshark-pro-v4.00-20230710-zelda.bin
 
 To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/hexpats/patterns/imhex-n64-gsrom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
