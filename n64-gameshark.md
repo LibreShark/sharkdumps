@@ -165,8 +165,8 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
 |   [`gspro-3.30-20000327-pristine.bin`][]        | `v3.30 (Mar)` | `2000-03-27T09:54` |   188   |   2093   | ⭐️      |
 |   [`gspro-3.30-20000404-pristine.bin`][]        | `v3.30 (Apr)` | `2000-04-04T15:56` |   188   |   2093   | ⭐️      |
 |   [`perfect_trainer-1.0b-20030618.bin`][]       | `v1.0b`       | `2003-06-18T00:00` |  _N/A_  |   _N/A_  | _N/A_  |
-|   [`libreshark-pro-v4.00-20230710-mario.bin`][] | `v4.00`       | `2023-07-10T04:27` |    13   |    268   | _N/A_  |
-|   [`libreshark-pro-v4.00-20230710-zelda.bin`][] | `v4.00`       | `2023-07-10T04:27` |    13   |    268   | _N/A_  |
+|   [`libreshark-pro-v4.01-20230714-mario.bin`][] | `v4.00`       | `2023-07-10T04:27` |    13   |    268   | _N/A_  |
+|   [`libreshark-pro-v4.01-20230714-zelda.bin`][] | `v4.00`       | `2023-07-10T04:27` |    13   |    268   | _N/A_  |
 
 [^v1.0x]: `v1.01` and `v1.03` supposedly exist according to a [Krikzz forum post](https://krikzz.com/forum/index.php?topic=6585.0), [Reddit post](https://www.reddit.com/r/Roms/comments/dui43a/n64_gameshark_v32/), and [vspolaris article](https://vspolaris.tistory.com/24), but we have not yet found any conclusive evidence of a `v1.01` or `v1.03` cart.
 [^v2.20]: `v2.20` is [**confirmed** to exist](https://imgur.com/2Sa2NaR), but we have not yet acquired a cart to dump its firmware.
@@ -195,8 +195,8 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
 [`gspro-3.30-20000327-pristine.bin`]:        /n64/firmware/gspro-3.30-20000327-pristine.bin
 [`gspro-3.30-20000404-pristine.bin`]:        /n64/firmware/gspro-3.30-20000404-pristine.bin
 [`perfect_trainer-1.0b-20030618.bin`]:       /n64/firmware/perfect_trainer-1.0b-20030618.bin
-[`libreshark-pro-v4.00-20230710-mario.bin`]: /n64/firmware/libreshark-pro-v4.00-20230710-mario.bin
-[`libreshark-pro-v4.00-20230710-zelda.bin`]: /n64/firmware/libreshark-pro-v4.00-20230710-zelda.bin
+[`libreshark-pro-v4.01-20230714-mario.bin`]: /n64/firmware/libreshark-pro-v4.01-20230714-mario.bin
+[`libreshark-pro-v4.01-20230714-zelda.bin`]: /n64/firmware/libreshark-pro-v4.01-20230714-zelda.bin
 
 To view the contents of the ROM dumps, use our [N64 GameShark ROM hexpattern](/hexpats/patterns/imhex-n64-gsrom-pattern.hexpat) for the [ImHex editor](https://imhex.werwolv.net/).
 
