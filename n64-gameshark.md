@@ -119,8 +119,6 @@ N64 GameShark "ROMs" contain not just the firmware, but also the user's cheat li
 
 N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark).
 
-**NOTE:** As of 2023-05-02, the Sanni does _not_ yet support GameShark v1.08 and earlier hardware, which use different EEPROM chips. @RWeick is working on a patch that will fix this problem and allow _all_ GameShark hardware to be read/written.
-
 ***Legend:***
 
 - __#G__ = Number of **G**ames pre-loaded
