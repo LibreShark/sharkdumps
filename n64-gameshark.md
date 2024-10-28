@@ -39,7 +39,7 @@ Because these chips are no longer manufactured, and the internal design was neve
     - Designed with easily-sourced components
     - No donor parts required
     - 100% compatible with Datel's firmware images
-    - The [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark) is not yet compatible with the Altera EPM240 chip used in this design, but @RWeick is working on a software update for the Sanni that will add full read/write support
+    - 100% compatible with the [Sanni Cart Reader](https://github.com/sanni/cartreader/wiki/Reflashing-a-Gameshark).
 2. [Replacement board for original Datel LZ9FC17 GALs](https://github.com/RWeick/N64-Gameshark-Pro-REF1329)
     - This is a "rescue" board for good (working) LZ9FC17 chips
     - It will ***only*** work with an authentic Datel LZ9FC17 chip (which is no longer being manufactured and can only be found in old GameSharks)
@@ -155,7 +155,7 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
 |   [`gs-2.20-19981217-dirty.bin`][]           | `v2.20`       | `1998-12-17T07:48` |     8   |      43  | ❌      |
 |   [`gs-2.21-19981218-clean.bin`][]           | `v2.21`       | `1998-12-18T12:47` |   106   |    618   | ✅      |
 |    `gs-2.40-xxxxxxxx.bin`[^v2.40]            | `v2.40`       | _Unknown_          |     ?   |      ?   | ?      |
-|   [`gs-2.50-xxxx0504-v3.3-codes.bin`][]      | `v2.50`       | `????-05-04T12:58` |   188   |   2093   | ⭐️      |
+|   [`gs-2.50-19990504-pristine.bin`][]        | `v2.50`       | `1999-05-04T12:58` |   188   |   2093   | ⭐️      |
 |   [`gspro-3.00-19990401-clean.bin`][]        | `v3.00`       | `1999-04-01T15:05` |   120   |   1124   | ✅      |
 |   [`gspro-3.10-19990609-clean.bin`][]        | `v3.10`       | `1999-06-09T16:50` |   120   |   1124   | ✅      |
 |   [`gspro-3.20-19990622-clean.bin`][]        | `v3.20`       | `1999-06-22T18:45` |   122   |   1143   | ✅      |
@@ -185,7 +185,7 @@ N64 GameSharks can be dumped (read) and reflashed (written) with a [Sanni Cart R
 [`gs-2.10-19980825-clean.bin`]:         /n64/firmware/gs-2.10-19980825-clean.bin
 [`gs-2.20-19981217-dirty.bin`]:         /n64/firmware/gs-2.20-19981217-dirty.bin
 [`gs-2.21-19981218-clean.bin`]:         /n64/firmware/gs-2.21-19981218-clean.bin
-[`gs-2.50-xxxx0504-v3.3-codes.bin`]:    /n64/firmware/gs-2.50-xxxx0504-v3.3-codes.bin
+[`gs-2.50-19990504-pristine.bin`]:    /n64/firmware/gs-2.50-19990504-pristine.bin
 [`gspro-3.00-19990401-clean.bin`]:      /n64/firmware/gspro-3.00-19990401-clean.bin
 [`gspro-3.10-19990609-clean.bin`]:      /n64/firmware/gspro-3.10-19990609-clean.bin
 [`gspro-3.20-19990622-clean.bin`]:      /n64/firmware/gspro-3.20-19990622-clean.bin
