@@ -28,8 +28,10 @@ _NOTE: [GameShark](/n64-gameshark.md), [Action Replay](/n64-actionreplay.md), [E
 
 | Filename                         | Version | Build timestamp    | #G   | #C   | Clean? |
 |:-------------------------------- |:------- |:------------------ | ----:| ----:|:------:|
+| [`gb-3.10a-19990701-dirty.bin`][] | `v3.10a` | `1999-07-01T09:16` |   53 |  534 | ❌      |
 | [`gb-3.21-19990805-dirty.bin`][] | `v3.21` | `1999-08-05T11:09` |   53 |  534 | ❌      |
 
+[`gb-3.10a-19990701-dirty.bin`]: /n64/firmware/gb-3.10a-19990701-dirty.bin
 [`gb-3.21-19990805-dirty.bin`]: /n64/firmware/gb-3.21-19990805-dirty.bin
 
 ## PCBs
